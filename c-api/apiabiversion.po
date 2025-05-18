@@ -5,15 +5,16 @@
 #
 # Translators:
 # Tim L <tim.lorbacher@gmail.com>, 2025
+# Stan Ulbrych, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"POT-Creation-Date: 2025-05-16 14:19+0000\n"
 "PO-Revision-Date: 2021-06-28 00:47+0000\n"
-"Last-Translator: Tim L <tim.lorbacher@gmail.com>, 2025\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -118,7 +119,7 @@ msgid "24"
 msgstr ""
 
 msgid "``0x03``"
-msgstr ""
+msgstr "``0x03``"
 
 msgid "*minor*"
 msgstr ""
@@ -130,7 +131,7 @@ msgid "16"
 msgstr ""
 
 msgid "``0x04``"
-msgstr ""
+msgstr "``0x04``"
 
 msgid "``0x0A``"
 msgstr ""
@@ -142,7 +143,7 @@ msgid "``0x0000FF00``"
 msgstr ""
 
 msgid "``0x01``"
-msgstr ""
+msgstr "``0x01``"
 
 msgid "``0x00``"
 msgstr ""
@@ -157,7 +158,7 @@ msgid "``0x000000F0``"
 msgstr ""
 
 msgid "``0xA``"
-msgstr ""
+msgstr "``0xA``"
 
 msgid "``0xF``"
 msgstr ""
@@ -172,7 +173,7 @@ msgid "0"
 msgstr ""
 
 msgid "``0x2``"
-msgstr ""
+msgstr "``0x2``"
 
 msgid "``0x0``"
 msgstr ""
