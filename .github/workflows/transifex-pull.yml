@@ -47,9 +47,9 @@ jobs:
           git config --local user.name "GitHub Action's update-translation job"
       - name: Filter files
         run: |
-          ! git diff -I'^"POT-Creation-Date: ' \
+          git diff -I'^"POT-Creation-Date: ' \
                      -I'^"Language-Team: ' \
-                     -I'^# ' -I'^"Last-Translator: ' \ 
+                     -I'^# ' -I'^"Last-Translator: ' \
                      --exit-code \
             && echo "SIGNIFICANT_CHANGES=1" >> $GITHUB_ENV || exit 0
       - run: git add .
