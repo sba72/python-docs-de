@@ -33,6 +33,7 @@ jobs:
           ref: ${{ matrix.version }}
           fetch-depth: 0
       - run: curl -O https://raw.githubusercontent.com/python-docs-translations/transifex-automation/master/sample-workflows/transifex-util.py
+      - run: chmod +x transifex-util.py
       - run: ./transifex-util.py recreate_tx_config --language de --project-slug python-newest --version 3.14
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
