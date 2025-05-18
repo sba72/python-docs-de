@@ -25,8 +25,7 @@ def fetch():
         sys.stderr.write("The Transifex client app is required.\n")
         exit(code)
     lang = LANGUAGE
-    #--minimum-perc=1  --skip
-    _call(f'tx pull -l {lang} --force')
+    _call(f'tx pull -l {lang} --minimum-perc=1 --force --skip')
     for file in Path().rglob('*.po'):
         _call(f'msgcat --no-location -o {file} {file}')
 
