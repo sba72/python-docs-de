@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-06 14:20+0000\n"
+"POT-Creation-Date: 2025-06-13 14:21+0000\n"
 "PO-Revision-Date: 2021-06-28 00:48+0000\n"
 "Last-Translator: Jo K, 2023\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
@@ -922,6 +922,12 @@ msgstr ""
 msgid "[1]_"
 msgstr ""
 
+msgid ":c:data:`PyExc_BaseExceptionGroup`"
+msgstr ""
+
+msgid ":exc:`BaseExceptionGroup`"
+msgstr ""
+
 msgid ":c:data:`PyExc_Exception`"
 msgstr ""
 
@@ -1257,6 +1263,9 @@ msgstr ""
 msgid ":c:data:`PyExc_ModuleNotFoundError`."
 msgstr ""
 
+msgid ":c:data:`PyExc_BaseExceptionGroup`."
+msgstr ""
+
 msgid "These are compatibility aliases to :c:data:`PyExc_OSError`:"
 msgstr ""
 
@@ -1317,6 +1326,12 @@ msgstr ""
 msgid ":exc:`DeprecationWarning`"
 msgstr ""
 
+msgid ":c:data:`PyExc_EncodingWarning`"
+msgstr ""
+
+msgid ":exc:`EncodingWarning`"
+msgstr ""
+
 msgid ":c:data:`PyExc_FutureWarning`"
 msgstr ""
 
@@ -1368,6 +1383,9 @@ msgstr ""
 msgid ":c:data:`PyExc_ResourceWarning`."
 msgstr ""
 
+msgid ":c:data:`PyExc_EncodingWarning`."
+msgstr ""
+
 msgid "This is a base class for other standard warning categories."
 msgstr ""
 
@@ -1387,6 +1405,9 @@ msgid "KeyboardInterrupt (built-in exception)"
 msgstr ""
 
 msgid "PyExc_BaseException (C var)"
+msgstr ""
+
+msgid "PyExc_BaseExceptionGroup (C var)"
 msgstr ""
 
 msgid "PyExc_Exception (C var)"
@@ -1564,6 +1585,9 @@ msgid "PyExc_BytesWarning (C var)"
 msgstr ""
 
 msgid "PyExc_DeprecationWarning (C var)"
+msgstr ""
+
+msgid "PyExc_EncodingWarning (C var)"
 msgstr ""
 
 msgid "PyExc_FutureWarning (C var)"
