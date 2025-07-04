@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-20 14:21+0000\n"
+"POT-Creation-Date: 2025-07-04 14:20+0000\n"
 "PO-Revision-Date: 2021-06-28 01:14+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -34,8 +34,8 @@ msgid "Some facts and figures:"
 msgstr ""
 
 msgid ""
-"reads and writes :mod:`gzip`, :mod:`bz2` and :mod:`lzma` compressed archives "
-"if the respective modules are available."
+"reads and writes :mod:`gzip`, :mod:`bz2`, :mod:`compression.zstd`, and :mod:"
+"`lzma` compressed archives if the respective modules are available."
 msgstr ""
 
 msgid "read/write support for the POSIX.1-1988 (ustar) format."
@@ -70,6 +70,9 @@ msgid ""
 "disallows some dangerous features such as links to absolute paths or paths "
 "outside of the destination. Previously, the filter strategy was equivalent "
 "to :func:`fully_trusted <fully_trusted_filter>`."
+msgstr ""
+
+msgid "Added support for Zstandard compression using :mod:`compression.zstd`."
 msgstr ""
 
 msgid ""
@@ -119,6 +122,12 @@ msgstr ""
 msgid "Open for reading with lzma compression."
 msgstr ""
 
+msgid "``'r:zst'``"
+msgstr ""
+
+msgid "Open for reading with Zstandard compression."
+msgstr ""
+
 msgid "``'x'`` or ``'x:'``"
 msgstr ""
 
@@ -148,6 +157,14 @@ msgstr ""
 
 msgid ""
 "Create a tarfile with lzma compression. Raise a :exc:`FileExistsError` "
+"exception if it already exists."
+msgstr ""
+
+msgid "``'x:zst'``"
+msgstr ""
+
+msgid ""
+"Create a tarfile with Zstandard compression. Raise a :exc:`FileExistsError` "
 "exception if it already exists."
 msgstr ""
 
@@ -183,6 +200,12 @@ msgstr ""
 msgid "Open for lzma compressed writing."
 msgstr ""
 
+msgid "``'w:zst'``"
+msgstr ""
+
+msgid "Open for Zstandard compressed writing."
+msgstr ""
+
 msgid ""
 "Note that ``'a:gz'``, ``'a:bz2'`` or ``'a:xz'`` is not possible. If *mode* "
 "is not suitable to open a certain (compressed) file for reading, :exc:"
@@ -205,6 +228,16 @@ msgid ""
 "For modes ``'w:xz'``, ``'x:xz'`` and ``'w|xz'``, :func:`tarfile.open` "
 "accepts the keyword argument *preset* to specify the compression level of "
 "the file."
+msgstr ""
+
+msgid ""
+"For modes ``'w:zst'``, ``'x:zst'`` and ``'w|zst'``, :func:`tarfile.open` "
+"accepts the keyword argument *level* to specify the compression level of the "
+"file. The keyword argument *options* may also be passed, providing advanced "
+"Zstandard compression parameters described by :class:`~compression.zstd."
+"CompressionParameter`. The keyword argument *zstd_dict* can be passed to "
+"provide a :class:`~compression.zstd.ZstdDict`, a Zstandard dictionary used "
+"to improve compression of smaller amounts of data."
 msgstr ""
 
 msgid ""
@@ -256,6 +289,12 @@ msgstr ""
 msgid "Open an lzma compressed *stream* for reading."
 msgstr ""
 
+msgid "``'r|zst'``"
+msgstr ""
+
+msgid "Open a Zstandard compressed *stream* for reading."
+msgstr ""
+
 msgid "``'w|'``"
 msgstr ""
 
@@ -278,6 +317,12 @@ msgid "``'w|xz'``"
 msgstr ""
 
 msgid "Open an lzma compressed *stream* for writing."
+msgstr ""
+
+msgid "``'w|zst'``"
+msgstr ""
+
+msgid "Open a Zstandard compressed *stream* for writing."
 msgstr ""
 
 msgid "The ``'x'`` (exclusive creation) mode was added."
