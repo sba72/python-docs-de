@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-20 14:21+0000\n"
+"POT-Creation-Date: 2025-07-11 14:21+0000\n"
 "PO-Revision-Date: 2021-06-28 00:48+0000\n"
 "Last-Translator: Jo K, 2023\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
@@ -902,353 +902,187 @@ msgid ""
 "c:func:`Py_ReprEnter` that returns zero."
 msgstr ""
 
-msgid "Standard Exceptions"
+msgid "Exception and warning types"
 msgstr ""
 
 msgid ""
-"All standard Python exceptions are available as global variables whose names "
-"are ``PyExc_`` followed by the Python exception name.  These have the type :"
-"c:expr:`PyObject*`; they are all class objects.  For completeness, here are "
-"all the variables:"
+"All standard Python exceptions and warning categories are available as "
+"global variables whose names are ``PyExc_`` followed by the Python exception "
+"name. These have the type :c:expr:`PyObject*`; they are all class objects."
 msgstr ""
 
-msgid "C Name"
+msgid "For completeness, here are all the variables:"
 msgstr ""
 
-msgid "Python Name"
+msgid "Exception types"
 msgstr ""
 
-msgid "Notes"
+msgid "C name"
 msgstr ""
 
-msgid ":c:data:`PyExc_BaseException`"
+msgid "Python name"
 msgstr ""
 
 msgid ":exc:`BaseException`"
 msgstr ""
 
-msgid "[1]_"
-msgstr ""
-
-msgid ":c:data:`PyExc_BaseExceptionGroup`"
-msgstr ""
-
 msgid ":exc:`BaseExceptionGroup`"
-msgstr ""
-
-msgid ":c:data:`PyExc_Exception`"
 msgstr ""
 
 msgid ":exc:`Exception`"
 msgstr ""
 
-msgid ":c:data:`PyExc_ArithmeticError`"
-msgstr ""
-
 msgid ":exc:`ArithmeticError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_AssertionError`"
 msgstr ""
 
 msgid ":exc:`AssertionError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_AttributeError`"
-msgstr ""
-
 msgid ":exc:`AttributeError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_BlockingIOError`"
 msgstr ""
 
 msgid ":exc:`BlockingIOError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_BrokenPipeError`"
-msgstr ""
-
 msgid ":exc:`BrokenPipeError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_BufferError`"
 msgstr ""
 
 msgid ":exc:`BufferError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_ChildProcessError`"
-msgstr ""
-
 msgid ":exc:`ChildProcessError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_ConnectionAbortedError`"
 msgstr ""
 
 msgid ":exc:`ConnectionAbortedError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_ConnectionError`"
-msgstr ""
-
 msgid ":exc:`ConnectionError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_ConnectionRefusedError`"
 msgstr ""
 
 msgid ":exc:`ConnectionRefusedError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_ConnectionResetError`"
-msgstr ""
-
 msgid ":exc:`ConnectionResetError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_EOFError`"
 msgstr ""
 
 msgid ":exc:`EOFError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_FileExistsError`"
-msgstr ""
-
 msgid ":exc:`FileExistsError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_FileNotFoundError`"
 msgstr ""
 
 msgid ":exc:`FileNotFoundError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_FloatingPointError`"
-msgstr ""
-
 msgid ":exc:`FloatingPointError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_GeneratorExit`"
 msgstr ""
 
 msgid ":exc:`GeneratorExit`"
 msgstr ""
 
-msgid ":c:data:`PyExc_ImportError`"
-msgstr ""
-
 msgid ":exc:`ImportError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_IndentationError`"
 msgstr ""
 
 msgid ":exc:`IndentationError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_IndexError`"
-msgstr ""
-
 msgid ":exc:`IndexError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_InterruptedError`"
 msgstr ""
 
 msgid ":exc:`InterruptedError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_IsADirectoryError`"
-msgstr ""
-
 msgid ":exc:`IsADirectoryError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_KeyError`"
 msgstr ""
 
 msgid ":exc:`KeyError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_KeyboardInterrupt`"
-msgstr ""
-
 msgid ":exc:`KeyboardInterrupt`"
-msgstr ""
-
-msgid ":c:data:`PyExc_LookupError`"
 msgstr ""
 
 msgid ":exc:`LookupError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_MemoryError`"
-msgstr ""
-
 msgid ":exc:`MemoryError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_ModuleNotFoundError`"
 msgstr ""
 
 msgid ":exc:`ModuleNotFoundError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_NameError`"
-msgstr ""
-
 msgid ":exc:`NameError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_NotADirectoryError`"
 msgstr ""
 
 msgid ":exc:`NotADirectoryError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_NotImplementedError`"
-msgstr ""
-
 msgid ":exc:`NotImplementedError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_OSError`"
 msgstr ""
 
 msgid ":exc:`OSError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_OverflowError`"
-msgstr ""
-
 msgid ":exc:`OverflowError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_PermissionError`"
 msgstr ""
 
 msgid ":exc:`PermissionError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_ProcessLookupError`"
-msgstr ""
-
 msgid ":exc:`ProcessLookupError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_PythonFinalizationError`"
 msgstr ""
 
 msgid ":exc:`PythonFinalizationError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_RecursionError`"
-msgstr ""
-
 msgid ":exc:`RecursionError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_ReferenceError`"
 msgstr ""
 
 msgid ":exc:`ReferenceError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_RuntimeError`"
-msgstr ""
-
 msgid ":exc:`RuntimeError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_StopAsyncIteration`"
 msgstr ""
 
 msgid ":exc:`StopAsyncIteration`"
 msgstr ""
 
-msgid ":c:data:`PyExc_StopIteration`"
-msgstr ""
-
 msgid ":exc:`StopIteration`"
-msgstr ""
-
-msgid ":c:data:`PyExc_SyntaxError`"
 msgstr ""
 
 msgid ":exc:`SyntaxError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_SystemError`"
-msgstr ""
-
 msgid ":exc:`SystemError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_SystemExit`"
 msgstr ""
 
 msgid ":exc:`SystemExit`"
 msgstr ""
 
-msgid ":c:data:`PyExc_TabError`"
-msgstr ""
-
 msgid ":exc:`TabError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_TimeoutError`"
 msgstr ""
 
 msgid ":exc:`TimeoutError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_TypeError`"
-msgstr ""
-
 msgid ":exc:`TypeError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_UnboundLocalError`"
 msgstr ""
 
 msgid ":exc:`UnboundLocalError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_UnicodeDecodeError`"
-msgstr ""
-
 msgid ":exc:`UnicodeDecodeError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_UnicodeEncodeError`"
 msgstr ""
 
 msgid ":exc:`UnicodeEncodeError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_UnicodeError`"
-msgstr ""
-
 msgid ":exc:`UnicodeError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_UnicodeTranslateError`"
 msgstr ""
 
 msgid ":exc:`UnicodeTranslateError`"
 msgstr ""
 
-msgid ":c:data:`PyExc_ValueError`"
-msgstr ""
-
 msgid ":exc:`ValueError`"
-msgstr ""
-
-msgid ":c:data:`PyExc_ZeroDivisionError`"
 msgstr ""
 
 msgid ":exc:`ZeroDivisionError`"
@@ -1274,115 +1108,63 @@ msgstr ""
 msgid ":c:data:`PyExc_BaseExceptionGroup`."
 msgstr ""
 
-msgid "These are compatibility aliases to :c:data:`PyExc_OSError`:"
+msgid "OSError aliases"
 msgstr ""
 
-msgid ":c:data:`!PyExc_EnvironmentError`"
-msgstr ""
-
-msgid ":c:data:`!PyExc_IOError`"
-msgstr ""
-
-msgid ":c:data:`!PyExc_WindowsError`"
-msgstr ""
-
-msgid "[2]_"
+msgid "The following are a compatibility aliases to :c:data:`PyExc_OSError`."
 msgstr ""
 
 msgid "These aliases used to be separate exception types."
 msgstr ""
 
+msgid "Notes"
+msgstr ""
+
+msgid "[win]_"
+msgstr ""
+
 msgid "Notes:"
 msgstr ""
 
-msgid "This is a base class for other standard exceptions."
-msgstr ""
-
 msgid ""
-"Only defined on Windows; protect code that uses this by testing that the "
-"preprocessor macro ``MS_WINDOWS`` is defined."
+":c:var:`!PyExc_WindowsError` is only defined on Windows; protect code that "
+"uses this by testing that the preprocessor macro ``MS_WINDOWS`` is defined."
 msgstr ""
 
-msgid "Standard Warning Categories"
-msgstr ""
-
-msgid ""
-"All standard Python warning categories are available as global variables "
-"whose names are ``PyExc_`` followed by the Python exception name. These have "
-"the type :c:expr:`PyObject*`; they are all class objects. For completeness, "
-"here are all the variables:"
-msgstr ""
-
-msgid ":c:data:`PyExc_Warning`"
+msgid "Warning types"
 msgstr ""
 
 msgid ":exc:`Warning`"
 msgstr ""
 
-msgid "[3]_"
-msgstr ""
-
-msgid ":c:data:`PyExc_BytesWarning`"
-msgstr ""
-
 msgid ":exc:`BytesWarning`"
-msgstr ""
-
-msgid ":c:data:`PyExc_DeprecationWarning`"
 msgstr ""
 
 msgid ":exc:`DeprecationWarning`"
 msgstr ""
 
-msgid ":c:data:`PyExc_EncodingWarning`"
-msgstr ""
-
 msgid ":exc:`EncodingWarning`"
-msgstr ""
-
-msgid ":c:data:`PyExc_FutureWarning`"
 msgstr ""
 
 msgid ":exc:`FutureWarning`"
 msgstr ""
 
-msgid ":c:data:`PyExc_ImportWarning`"
-msgstr ""
-
 msgid ":exc:`ImportWarning`"
-msgstr ""
-
-msgid ":c:data:`PyExc_PendingDeprecationWarning`"
 msgstr ""
 
 msgid ":exc:`PendingDeprecationWarning`"
 msgstr ""
 
-msgid ":c:data:`PyExc_ResourceWarning`"
-msgstr ""
-
 msgid ":exc:`ResourceWarning`"
-msgstr ""
-
-msgid ":c:data:`PyExc_RuntimeWarning`"
 msgstr ""
 
 msgid ":exc:`RuntimeWarning`"
 msgstr ""
 
-msgid ":c:data:`PyExc_SyntaxWarning`"
-msgstr ""
-
 msgid ":exc:`SyntaxWarning`"
 msgstr ""
 
-msgid ":c:data:`PyExc_UnicodeWarning`"
-msgstr ""
-
 msgid ":exc:`UnicodeWarning`"
-msgstr ""
-
-msgid ":c:data:`PyExc_UserWarning`"
 msgstr ""
 
 msgid ":exc:`UserWarning`"
@@ -1392,9 +1174,6 @@ msgid ":c:data:`PyExc_ResourceWarning`."
 msgstr ""
 
 msgid ":c:data:`PyExc_EncodingWarning`."
-msgstr ""
-
-msgid "This is a base class for other standard warning categories."
 msgstr ""
 
 msgid "strerror (C function)"
@@ -1410,214 +1189,4 @@ msgid "SIGINT (C macro)"
 msgstr ""
 
 msgid "KeyboardInterrupt (built-in exception)"
-msgstr ""
-
-msgid "PyExc_BaseException (C var)"
-msgstr ""
-
-msgid "PyExc_BaseExceptionGroup (C var)"
-msgstr ""
-
-msgid "PyExc_Exception (C var)"
-msgstr ""
-
-msgid "PyExc_ArithmeticError (C var)"
-msgstr ""
-
-msgid "PyExc_AssertionError (C var)"
-msgstr ""
-
-msgid "PyExc_AttributeError (C var)"
-msgstr ""
-
-msgid "PyExc_BlockingIOError (C var)"
-msgstr ""
-
-msgid "PyExc_BrokenPipeError (C var)"
-msgstr ""
-
-msgid "PyExc_BufferError (C var)"
-msgstr ""
-
-msgid "PyExc_ChildProcessError (C var)"
-msgstr ""
-
-msgid "PyExc_ConnectionAbortedError (C var)"
-msgstr ""
-
-msgid "PyExc_ConnectionError (C var)"
-msgstr ""
-
-msgid "PyExc_ConnectionRefusedError (C var)"
-msgstr ""
-
-msgid "PyExc_ConnectionResetError (C var)"
-msgstr ""
-
-msgid "PyExc_EOFError (C var)"
-msgstr ""
-
-msgid "PyExc_FileExistsError (C var)"
-msgstr ""
-
-msgid "PyExc_FileNotFoundError (C var)"
-msgstr ""
-
-msgid "PyExc_FloatingPointError (C var)"
-msgstr ""
-
-msgid "PyExc_GeneratorExit (C var)"
-msgstr ""
-
-msgid "PyExc_ImportError (C var)"
-msgstr ""
-
-msgid "PyExc_IndentationError (C var)"
-msgstr ""
-
-msgid "PyExc_IndexError (C var)"
-msgstr ""
-
-msgid "PyExc_InterruptedError (C var)"
-msgstr ""
-
-msgid "PyExc_IsADirectoryError (C var)"
-msgstr ""
-
-msgid "PyExc_KeyError (C var)"
-msgstr ""
-
-msgid "PyExc_KeyboardInterrupt (C var)"
-msgstr ""
-
-msgid "PyExc_LookupError (C var)"
-msgstr ""
-
-msgid "PyExc_MemoryError (C var)"
-msgstr ""
-
-msgid "PyExc_ModuleNotFoundError (C var)"
-msgstr ""
-
-msgid "PyExc_NameError (C var)"
-msgstr ""
-
-msgid "PyExc_NotADirectoryError (C var)"
-msgstr ""
-
-msgid "PyExc_NotImplementedError (C var)"
-msgstr ""
-
-msgid "PyExc_OSError (C var)"
-msgstr ""
-
-msgid "PyExc_OverflowError (C var)"
-msgstr ""
-
-msgid "PyExc_PermissionError (C var)"
-msgstr ""
-
-msgid "PyExc_ProcessLookupError (C var)"
-msgstr ""
-
-msgid "PyExc_PythonFinalizationError (C var)"
-msgstr ""
-
-msgid "PyExc_RecursionError (C var)"
-msgstr ""
-
-msgid "PyExc_ReferenceError (C var)"
-msgstr ""
-
-msgid "PyExc_RuntimeError (C var)"
-msgstr ""
-
-msgid "PyExc_StopAsyncIteration (C var)"
-msgstr ""
-
-msgid "PyExc_StopIteration (C var)"
-msgstr ""
-
-msgid "PyExc_SyntaxError (C var)"
-msgstr ""
-
-msgid "PyExc_SystemError (C var)"
-msgstr ""
-
-msgid "PyExc_SystemExit (C var)"
-msgstr ""
-
-msgid "PyExc_TabError (C var)"
-msgstr ""
-
-msgid "PyExc_TimeoutError (C var)"
-msgstr ""
-
-msgid "PyExc_TypeError (C var)"
-msgstr ""
-
-msgid "PyExc_UnboundLocalError (C var)"
-msgstr ""
-
-msgid "PyExc_UnicodeDecodeError (C var)"
-msgstr ""
-
-msgid "PyExc_UnicodeEncodeError (C var)"
-msgstr ""
-
-msgid "PyExc_UnicodeError (C var)"
-msgstr ""
-
-msgid "PyExc_UnicodeTranslateError (C var)"
-msgstr ""
-
-msgid "PyExc_ValueError (C var)"
-msgstr ""
-
-msgid "PyExc_ZeroDivisionError (C var)"
-msgstr ""
-
-msgid "PyExc_EnvironmentError (C var)"
-msgstr ""
-
-msgid "PyExc_IOError (C var)"
-msgstr ""
-
-msgid "PyExc_WindowsError (C var)"
-msgstr ""
-
-msgid "PyExc_Warning (C var)"
-msgstr ""
-
-msgid "PyExc_BytesWarning (C var)"
-msgstr ""
-
-msgid "PyExc_DeprecationWarning (C var)"
-msgstr ""
-
-msgid "PyExc_EncodingWarning (C var)"
-msgstr ""
-
-msgid "PyExc_FutureWarning (C var)"
-msgstr ""
-
-msgid "PyExc_ImportWarning (C var)"
-msgstr ""
-
-msgid "PyExc_PendingDeprecationWarning (C var)"
-msgstr ""
-
-msgid "PyExc_ResourceWarning (C var)"
-msgstr ""
-
-msgid "PyExc_RuntimeWarning (C var)"
-msgstr ""
-
-msgid "PyExc_SyntaxWarning (C var)"
-msgstr ""
-
-msgid "PyExc_UnicodeWarning (C var)"
-msgstr ""
-
-msgid "PyExc_UserWarning (C var)"
 msgstr ""
