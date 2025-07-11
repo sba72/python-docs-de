@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-20 14:21+0000\n"
+"POT-Creation-Date: 2025-07-11 14:21+0000\n"
 "PO-Revision-Date: 2021-06-28 00:54+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -77,9 +77,6 @@ msgstr ""
 msgid "effect"
 msgstr ""
 
-msgid "nested_scopes"
-msgstr ""
-
 msgid "2.1.0b1"
 msgstr ""
 
@@ -87,9 +84,6 @@ msgid "2.2"
 msgstr ""
 
 msgid ":pep:`227`: *Statically Nested Scopes*"
-msgstr ""
-
-msgid "generators"
 msgstr ""
 
 msgid "2.2.0a1"
@@ -101,9 +95,6 @@ msgstr ""
 msgid ":pep:`255`: *Simple Generators*"
 msgstr ""
 
-msgid "division"
-msgstr ""
-
 msgid "2.2.0a2"
 msgstr ""
 
@@ -113,25 +104,16 @@ msgstr ""
 msgid ":pep:`238`: *Changing the Division Operator*"
 msgstr ""
 
-msgid "absolute_import"
-msgstr ""
-
 msgid "2.5.0a1"
 msgstr ""
 
 msgid ":pep:`328`: *Imports: Multi-Line and Absolute/Relative*"
 msgstr ""
 
-msgid "with_statement"
-msgstr ""
-
 msgid "2.6"
 msgstr ""
 
-msgid ":pep:`343`: *The \"with\" Statement*"
-msgstr ""
-
-msgid "print_function"
+msgid ":pep:`343`: *The “with” Statement*"
 msgstr ""
 
 msgid "2.6.0a2"
@@ -140,13 +122,7 @@ msgstr ""
 msgid ":pep:`3105`: *Make print a function*"
 msgstr ""
 
-msgid "unicode_literals"
-msgstr ""
-
 msgid ":pep:`3112`: *Bytes literals in Python 3000*"
-msgstr ""
-
-msgid "generator_stop"
 msgstr ""
 
 msgid "3.5.0b1"
@@ -156,9 +132,6 @@ msgid "3.7"
 msgstr ""
 
 msgid ":pep:`479`: *StopIteration handling inside generators*"
-msgstr ""
-
-msgid "annotations"
 msgstr ""
 
 msgid "3.7.0b1"
