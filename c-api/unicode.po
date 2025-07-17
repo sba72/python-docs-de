@@ -411,14 +411,18 @@ msgid ""
 "A conversion specifier contains two or more characters and has the following "
 "components, which must occur in this order:"
 msgstr ""
+"Специфікатор перетворення містить два або більше символів і має наступні "
+"компоненти, які мають відображатися в такому порядку:"
 
 msgid "The ``'%'`` character, which marks the start of the specifier."
-msgstr ""
+msgstr "Символ ``'%'``, який позначає початок специфікатора."
 
 msgid ""
 "Conversion flags (optional), which affect the result of some conversion "
 "types."
 msgstr ""
+"Прапорці перетворення (опціонально), які впливають на результат деяких типів "
+"перетворення."
 
 msgid ""
 "Minimum field width (optional). If specified as an ``'*'`` (asterisk), the "
@@ -435,13 +439,13 @@ msgid ""
 msgstr ""
 
 msgid "Length modifier (optional)."
-msgstr ""
+msgstr "Модифікатор довжини (необов'язково)."
 
 msgid "Conversion type."
-msgstr ""
+msgstr "Dönüşüm türü."
 
 msgid "The conversion flag characters are:"
-msgstr ""
+msgstr "Символи прапора перетворення:"
 
 msgid "Flag"
 msgstr "Penanda"
@@ -453,7 +457,7 @@ msgid "``0``"
 msgstr ""
 
 msgid "The conversion will be zero padded for numeric values."
-msgstr ""
+msgstr "Перетворення буде доповнено нулем для числових значень."
 
 msgid "``-``"
 msgstr ""
@@ -476,7 +480,7 @@ msgid "Types"
 msgstr "Typy"
 
 msgid "``l``"
-msgstr ""
+msgstr "``l``"
 
 msgid ":c:expr:`long` or :c:expr:`unsigned long`"
 msgstr ""
@@ -553,7 +557,7 @@ msgid "The octal representation of an unsigned C integer."
 msgstr ""
 
 msgid "``x``"
-msgstr ""
+msgstr "``x``"
 
 msgid "The hexadecimal representation of an unsigned C integer (lowercase)."
 msgstr ""
@@ -565,7 +569,7 @@ msgid "The hexadecimal representation of an unsigned C integer (uppercase)."
 msgstr ""
 
 msgid "``c``"
-msgstr ""
+msgstr "``c``"
 
 msgid ":c:expr:`int`"
 msgstr ""
@@ -574,7 +578,7 @@ msgid "A single character."
 msgstr ""
 
 msgid "``s``"
-msgstr ""
+msgstr "``s``"
 
 msgid ":c:expr:`const char*` or :c:expr:`const wchar_t*`"
 msgstr ""
@@ -583,7 +587,7 @@ msgid "A null-terminated C character array."
 msgstr "Масив символів C із закінченням нулем."
 
 msgid "``p``"
-msgstr ""
+msgstr "``p``"
 
 msgid ":c:expr:`const void*`"
 msgstr ""
@@ -653,7 +657,7 @@ msgid ""
 msgstr ""
 
 msgid "``N``"
-msgstr ""
+msgstr "``N``"
 
 msgid ":c:expr:`PyTypeObject*`"
 msgstr ""

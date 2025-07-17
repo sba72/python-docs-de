@@ -37,10 +37,10 @@ msgid "Type code"
 msgstr ""
 
 msgid "C Type"
-msgstr ""
+msgstr "typ języka C"
 
 msgid "Python Type"
-msgstr ""
+msgstr "typ Pythona"
 
 msgid "Minimum size in bytes"
 msgstr ""
@@ -67,7 +67,7 @@ msgid "unsigned char"
 msgstr ""
 
 msgid "``'u'``"
-msgstr ""
+msgstr "``'u'``"
 
 msgid "wchar_t"
 msgstr ""
@@ -103,7 +103,7 @@ msgid "unsigned short"
 msgstr ""
 
 msgid "``'i'``"
-msgstr ""
+msgstr "``'i'``"
 
 msgid "signed int"
 msgstr ""
@@ -142,13 +142,13 @@ msgid "unsigned long long"
 msgstr "unsigned long long"
 
 msgid "``'f'``"
-msgstr ""
+msgstr "``'f'``"
 
 msgid "float"
 msgstr "typ (float) zmiennoprzecinkowy pojedynczej precyzji"
 
 msgid "``'d'``"
-msgstr ""
+msgstr "``'d'``"
 
 msgid "double"
 msgstr ""

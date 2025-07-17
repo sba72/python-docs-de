@@ -391,7 +391,7 @@ msgid ""
 msgstr ""
 
 msgid "Added context manager support."
-msgstr ""
+msgstr "Додано підтримку менеджера контексту."
 
 msgid "Start collecting profiling data. Only in :mod:`cProfile`."
 msgstr ""
@@ -557,7 +557,7 @@ msgid "``'cumtime'``"
 msgstr ""
 
 msgid "N/A"
-msgstr ""
+msgstr "T/A"
 
 msgid "``'file'``"
 msgstr ""
@@ -587,7 +587,7 @@ msgid "primitive call count"
 msgstr ""
 
 msgid "``'line'``"
-msgstr ""
+msgstr "``''рядок'``"
 
 msgid "SortKey.LINE"
 msgstr ""

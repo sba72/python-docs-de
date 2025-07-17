@@ -862,7 +862,7 @@ msgid "Character with 32-bit hex value *xxxxxxxx*"
 msgstr "Символ із 32-розрядним шістнадцятковим значенням *xxxxxxx*"
 
 msgid "\\(7)"
-msgstr ""
+msgstr "\\(7)"
 
 msgid "Notes:"
 msgstr "Uwagi:"

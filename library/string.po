@@ -426,7 +426,7 @@ msgid ""
 msgstr ""
 
 msgid "``'-'``"
-msgstr ""
+msgstr "``'-'``"
 
 msgid ""
 "Indicates that a sign should be used only for negative numbers (this is the "
@@ -540,7 +540,7 @@ msgid "Type"
 msgstr "Typ"
 
 msgid "``'s'``"
-msgstr ""
+msgstr "``'s'``"
 
 msgid "String format. This is the default type for strings and may be omitted."
 msgstr ""
@@ -561,7 +561,7 @@ msgid "Binary format. Outputs the number in base 2."
 msgstr ""
 
 msgid "``'c'``"
-msgstr ""
+msgstr "``'c'``"
 
 msgid ""
 "Character. Converts the integer to the corresponding unicode character "
@@ -569,13 +569,13 @@ msgid ""
 msgstr ""
 
 msgid "``'d'``"
-msgstr ""
+msgstr "``'d'``"
 
 msgid "Decimal Integer. Outputs the number in base 10."
 msgstr ""
 
 msgid "``'o'``"
-msgstr ""
+msgstr "``'o'``"
 
 msgid "Octal format. Outputs the number in base 8."
 msgstr ""
@@ -589,7 +589,7 @@ msgid ""
 msgstr ""
 
 msgid "``'X'``"
-msgstr ""
+msgstr "``'X'``"
 
 msgid ""
 "Hex format. Outputs the number in base 16, using upper-case letters for the "
@@ -621,7 +621,7 @@ msgid ""
 msgstr ""
 
 msgid "``'e'``"
-msgstr ""
+msgstr "``'e'``"
 
 msgid ""
 "Scientific notation. For a given precision ``p``, formats the number in "
@@ -635,7 +635,7 @@ msgid ""
 msgstr ""
 
 msgid "``'E'``"
-msgstr ""
+msgstr "``'E'``"
 
 msgid ""
 "Scientific notation. Same as ``'e'`` except it uses an upper case 'E' as the "
@@ -643,7 +643,7 @@ msgid ""
 msgstr ""
 
 msgid "``'f'``"
-msgstr ""
+msgstr "``'f'``"
 
 msgid ""
 "Fixed-point notation. For a given precision ``p``, formats the number as a "
@@ -655,7 +655,7 @@ msgid ""
 msgstr ""
 
 msgid "``'F'``"
-msgstr ""
+msgstr "``'F'``"
 
 msgid ""
 "Fixed-point notation. Same as ``'f'``, but converts ``nan`` to  ``NAN`` and "
@@ -663,7 +663,7 @@ msgid ""
 msgstr ""
 
 msgid "``'g'``"
-msgstr ""
+msgstr "``'g'``"
 
 msgid ""
 "General format.  For a given precision ``p >= 1``, this rounds the number to "
@@ -700,7 +700,7 @@ msgid ""
 msgstr ""
 
 msgid "``'G'``"
-msgstr ""
+msgstr "``'G'``"
 
 msgid ""
 "General format. Same as ``'g'`` except switches to ``'E'`` if the number "
@@ -714,7 +714,7 @@ msgid ""
 msgstr ""
 
 msgid "``'%'``"
-msgstr ""
+msgstr "``'%'``"
 
 msgid ""
 "Percentage. Multiplies the number by 100 and displays in fixed (``'f'``) "

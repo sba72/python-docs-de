@@ -54,7 +54,7 @@ msgid "Writing PyUnit regression tests."
 msgstr ""
 
 msgid "Module :mod:`doctest`"
-msgstr ""
+msgstr "Modul :mod:`doctest`"
 
 msgid "Tests embedded in documentation strings."
 msgstr ""

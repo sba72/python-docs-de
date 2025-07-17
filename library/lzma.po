@@ -389,7 +389,7 @@ msgid ""
 msgstr ""
 
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Diğer"
 
 msgid ""
 "Return ``True`` if the given integrity check is supported on this system."

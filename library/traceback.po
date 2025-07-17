@@ -793,7 +793,7 @@ msgid "object"
 msgstr "obiekt"
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid "^ (caret)"
 msgstr ""

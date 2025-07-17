@@ -2454,7 +2454,7 @@ msgid "(Suggested by Ray Allen in :issue:`9523`.)"
 msgstr ""
 
 msgid "ctypes"
-msgstr ""
+msgstr "ctypes"
 
 msgid ""
 "A new type, :class:`ctypes.c_ssize_t` represents the C :c:type:`ssize_t` "

@@ -202,7 +202,7 @@ msgid "The result is a tuple of 3 items:"
 msgstr ""
 
 msgid "Index"
-msgstr ""
+msgstr "Indeks"
 
 msgid "Meaning"
 msgstr "Znaczenie"

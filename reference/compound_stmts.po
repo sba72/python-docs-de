@@ -1297,37 +1297,37 @@ msgid ""
 msgstr ""
 
 msgid ":class:`bool`"
-msgstr ""
+msgstr ":class:`bool`"
 
 msgid ":class:`bytearray`"
 msgstr ""
 
 msgid ":class:`bytes`"
-msgstr ""
+msgstr ":class:`bytes`"
 
 msgid ":class:`dict`"
-msgstr ""
+msgstr ":class:`dict`"
 
 msgid ":class:`float`"
-msgstr ""
+msgstr ":class:`float`"
 
 msgid ":class:`frozenset`"
-msgstr ""
+msgstr ":class:`frozenset`"
 
 msgid ":class:`int`"
-msgstr ""
+msgstr ":class:`int`"
 
 msgid ":class:`list`"
-msgstr ""
+msgstr ":class:`list`"
 
 msgid ":class:`set`"
-msgstr ""
+msgstr ":class:`set`"
 
 msgid ":class:`str`"
-msgstr ""
+msgstr ":class:`str`"
 
 msgid ":class:`tuple`"
-msgstr ""
+msgstr ":class:`tuple`"
 
 msgid ""
 "These classes accept a single positional argument, and the pattern there is "
@@ -2286,7 +2286,7 @@ msgid ":class:`array.array`"
 msgstr ""
 
 msgid ":class:`collections.deque`"
-msgstr ""
+msgstr ":class:`collections.deque`"
 
 msgid ":class:`memoryview`"
 msgstr ""
@@ -2430,7 +2430,7 @@ msgid "sys"
 msgstr "sys"
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid "except_star"
 msgstr ""

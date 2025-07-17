@@ -1703,6 +1703,8 @@ msgid ""
 "But if we pass a *buffer_callback* and then give back the accumulated "
 "buffers when unserializing, we are able to get back the original object::"
 msgstr ""
+"Але якщо ми передаємо *buffer_callback*, а потім повертаємо накопичені "
+"буфери під час десеріалізації, ми можемо повернути вихідний об’єкт::"
 
 msgid ""
 "b = ZeroCopyByteArray(b\"abc\")\n"

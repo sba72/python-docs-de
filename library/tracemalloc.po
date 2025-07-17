@@ -701,7 +701,7 @@ msgid "``'traceback'``"
 msgstr ""
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid ""
 "If *cumulative* is ``True``, cumulate size and count of memory blocks of all "

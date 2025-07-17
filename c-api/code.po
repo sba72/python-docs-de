@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Code Objects"
-msgstr ""
+msgstr "Objek Kode"
 
 msgid ""
 "Code objects are a low-level detail of the CPython implementation. Each one "
@@ -374,7 +374,7 @@ msgid "object"
 msgstr "obiekt"
 
 msgid "code"
-msgstr ""
+msgstr "code"
 
 msgid "code object"
 msgstr ""

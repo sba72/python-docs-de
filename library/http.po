@@ -765,7 +765,7 @@ msgid ""
 msgstr ""
 
 msgid "Method"
-msgstr ""
+msgstr "Metode"
 
 msgid "``GET``"
 msgstr ""

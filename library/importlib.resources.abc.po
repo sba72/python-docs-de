@@ -85,7 +85,7 @@ msgstr ""
 "Повертає відкритий :term:`file-like object` для двійкового читання *ресурсу*."
 
 msgid "If the resource cannot be found, :exc:`FileNotFoundError` is raised."
-msgstr ""
+msgstr "Якщо ресурс не знайдено, виникає :exc:`FileNotFoundError`."
 
 msgid "Returns the file system path to the *resource*."
 msgstr "Повертає шлях файлової системи до *ресурсу*."
@@ -145,7 +145,7 @@ msgid "Abstract. The base name of this object without any parent references."
 msgstr ""
 
 msgid "Yield Traversable objects in self."
-msgstr ""
+msgstr "Прибуток Traversable об'єктів в себе."
 
 msgid "Return ``True`` if self is a directory."
 msgstr ""

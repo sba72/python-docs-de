@@ -861,7 +861,7 @@ msgid "The following strategies are available:"
 msgstr ""
 
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Diğer"
 
 msgid ""
 "Retrieve a :class:`FrameInfo` object containing metadata about a Zstandard "

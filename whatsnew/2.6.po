@@ -974,13 +974,13 @@ msgid ""
 msgstr ""
 
 msgid "``b``"
-msgstr ""
+msgstr "``b``"
 
 msgid "Binary. Outputs the number in base 2."
 msgstr ""
 
 msgid "``c``"
-msgstr ""
+msgstr "``c``"
 
 msgid ""
 "Character. Converts the integer to the corresponding Unicode character "
@@ -988,7 +988,7 @@ msgid ""
 msgstr ""
 
 msgid "``d``"
-msgstr ""
+msgstr "``d``"
 
 msgid "Decimal Integer. Outputs the number in base 10."
 msgstr ""
@@ -1000,7 +1000,7 @@ msgid "Octal format. Outputs the number in base 8."
 msgstr ""
 
 msgid "``x``"
-msgstr ""
+msgstr "``x``"
 
 msgid ""
 "Hex format. Outputs the number in base 16, using lower-case letters for the "
@@ -1008,7 +1008,7 @@ msgid ""
 msgstr ""
 
 msgid "``e``"
-msgstr ""
+msgstr "``e``"
 
 msgid ""
 "Exponent notation. Prints the number in scientific notation using the letter "
@@ -1024,7 +1024,7 @@ msgid ""
 msgstr ""
 
 msgid "``n``"
-msgstr ""
+msgstr "``n``"
 
 msgid ""
 "Number. This is the same as 'g' (for floats) or 'd' (for integers), except "

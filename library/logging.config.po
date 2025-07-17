@@ -248,7 +248,7 @@ msgid ""
 msgstr ""
 
 msgid "Security considerations"
-msgstr ""
+msgstr "Міркування безпеки"
 
 msgid ""
 "The logging configuration functionality tries to offer convenience, and in "
@@ -603,7 +603,7 @@ msgid ""
 msgstr ""
 
 msgid "and::"
-msgstr ""
+msgstr "dan::"
 
 msgid ""
 "{\n"

@@ -322,10 +322,10 @@ msgid ":class:`int` (signed 64-bit)"
 msgstr ""
 
 msgid ":class:`float`"
-msgstr ""
+msgstr ":class:`float`"
 
 msgid ":class:`bool`"
-msgstr ""
+msgstr ":class:`bool`"
 
 msgid ":class:`str` (less than 10M bytes each when encoded as UTF-8)"
 msgstr ""

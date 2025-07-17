@@ -536,7 +536,7 @@ msgid ""
 msgstr ""
 
 msgid "Lists"
-msgstr ""
+msgstr "Listy"
 
 msgid ""
 "Python knows a number of *compound* data types, used to group together other "

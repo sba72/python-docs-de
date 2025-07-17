@@ -405,13 +405,13 @@ msgid "Identity"
 msgstr ""
 
 msgid "``a is b``"
-msgstr ""
+msgstr "``a is b``"
 
 msgid "``is_(a, b)``"
 msgstr ""
 
 msgid "``a is not b``"
-msgstr ""
+msgstr "``a is not b``"
 
 msgid "``is_not(a, b)``"
 msgstr ""
@@ -585,13 +585,13 @@ msgid "Ordering"
 msgstr ""
 
 msgid "``a < b``"
-msgstr ""
+msgstr "``a < b``"
 
 msgid "``lt(a, b)``"
 msgstr ""
 
 msgid "``a <= b``"
-msgstr ""
+msgstr "``a <= b``"
 
 msgid "``le(a, b)``"
 msgstr ""
@@ -600,7 +600,7 @@ msgid "Equality"
 msgstr ""
 
 msgid "``a == b``"
-msgstr ""
+msgstr "``a == b``"
 
 msgid "``eq(a, b)``"
 msgstr ""
@@ -609,19 +609,19 @@ msgid "Difference"
 msgstr ""
 
 msgid "``a != b``"
-msgstr ""
+msgstr "``a != b``"
 
 msgid "``ne(a, b)``"
 msgstr ""
 
 msgid "``a >= b``"
-msgstr ""
+msgstr "``a >= b``"
 
 msgid "``ge(a, b)``"
 msgstr ""
 
 msgid "``a > b``"
-msgstr ""
+msgstr "``a > b``"
 
 msgid "``gt(a, b)``"
 msgstr ""

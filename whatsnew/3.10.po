@@ -1627,7 +1627,7 @@ msgid ""
 msgstr ""
 
 msgid "platform"
-msgstr ""
+msgstr "платформа"
 
 msgid ""
 "Add :func:`platform.freedesktop_os_release` to retrieve operation system "

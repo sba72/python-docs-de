@@ -359,7 +359,7 @@ msgid ""
 msgstr ""
 
 msgid "Tuples"
-msgstr ""
+msgstr "*Tuples*"
 
 msgid ""
 "The items of a tuple are arbitrary Python objects. Tuples of two or more "
@@ -399,7 +399,7 @@ msgid "There are currently two intrinsic mutable sequence types:"
 msgstr ""
 
 msgid "Lists"
-msgstr ""
+msgstr "Listy"
 
 msgid ""
 "The items of a list are arbitrary Python objects.  Lists are formed by "
@@ -1276,7 +1276,7 @@ msgid ""
 msgstr ""
 
 msgid "The class to which a class instance belongs."
-msgstr ""
+msgstr "Клас, до якого належить екземпляр класу."
 
 msgid ""
 "A dictionary or other mapping object used to store an object's (writable) "
@@ -2946,6 +2946,9 @@ msgid ""
 "Documentation on how to implement generic classes that can be parameterized "
 "at runtime and understood by static type-checkers."
 msgstr ""
+"Документація про те, як реалізувати загальні класи, які можна "
+"параметризувати під час виконання та розуміти статичними засобами перевірки "
+"типів."
 
 msgid ""
 "A class can *generally* only be parameterized if it defines the special "
@@ -3948,7 +3951,7 @@ msgid "numeric"
 msgstr ""
 
 msgid "integer"
-msgstr ""
+msgstr "bilangan bulat"
 
 msgid "representation"
 msgstr ""
@@ -4026,7 +4029,7 @@ msgid "empty"
 msgstr ""
 
 msgid "bytes"
-msgstr ""
+msgstr "байтів"
 
 msgid "byte"
 msgstr ""
@@ -4401,7 +4404,7 @@ msgid "f_lineno (frame attribute)"
 msgstr ""
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid "stack"
 msgstr ""
