@@ -931,7 +931,7 @@ msgid "Meaning"
 msgstr "Znaczenie"
 
 msgid "Explanation"
-msgstr ""
+msgstr "Wytłumaczenie"
 
 msgid "D"
 msgstr ""
@@ -943,7 +943,7 @@ msgid "Under composition"
 msgstr ""
 
 msgid "F"
-msgstr ""
+msgstr "F"
 
 msgid "Flagged"
 msgstr ""

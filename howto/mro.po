@@ -34,7 +34,7 @@ msgid "By `Michele Simionato <https://www.phyast.pitt.edu/~micheles/>`__."
 msgstr ""
 
 msgid "Abstract"
-msgstr ""
+msgstr "Streszczenie"
 
 msgid ""
 "*This document is intended for Python programmers who want to understand the "

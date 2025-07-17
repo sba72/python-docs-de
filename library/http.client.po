@@ -659,7 +659,7 @@ msgid "http.client (standard module)"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "urllib.request"
 msgstr ""

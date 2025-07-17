@@ -2662,7 +2662,7 @@ msgid "``a.rotate(angle)`` rotation"
 msgstr ""
 
 msgid "Explanation"
-msgstr ""
+msgstr "Wytłumaczenie"
 
 msgid ""
 "A turtle object draws on a screen object, and there a number of key classes "

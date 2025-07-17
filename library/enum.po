@@ -300,7 +300,7 @@ msgid "The names/values of the members for the new Enum."
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "The name of the module the new Enum is created in."
 msgstr ""

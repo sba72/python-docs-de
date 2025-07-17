@@ -702,7 +702,7 @@ msgid "interpolated literal"
 msgstr ""
 
 msgid "f-string"
-msgstr ""
+msgstr "f-string"
 
 msgid "fstring"
 msgstr ""
@@ -714,13 +714,13 @@ msgid "open"
 msgstr ""
 
 msgid "object"
-msgstr ""
+msgstr "obiekt"
 
 msgid "file"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "json"
 msgstr ""

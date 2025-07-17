@@ -2618,7 +2618,7 @@ msgid "path (in module sys)"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "builtins"
 msgstr ""
@@ -2666,7 +2666,7 @@ msgid "argv (in module sys)"
 msgstr ""
 
 msgid "global interpreter lock"
-msgstr ""
+msgstr "kunci interpreter global"
 
 msgid "interpreter lock"
 msgstr ""

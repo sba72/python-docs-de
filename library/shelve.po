@@ -255,7 +255,7 @@ msgid "Object serialization used by :mod:`shelve`."
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "pickle"
 msgstr ""

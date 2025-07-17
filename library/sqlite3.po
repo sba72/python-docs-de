@@ -596,7 +596,7 @@ msgid "single-thread"
 msgstr ""
 
 msgid "0"
-msgstr ""
+msgstr "0"
 
 msgid "Threads may not share the module"
 msgstr ""
@@ -1891,7 +1891,7 @@ msgid "SQLite type"
 msgstr ""
 
 msgid "``None``"
-msgstr ""
+msgstr "``None`` - z ang. - ``Żaden``"
 
 msgid "``NULL``"
 msgstr ""
@@ -2555,7 +2555,7 @@ msgid ":ref:`unicode-howto`"
 msgstr ""
 
 msgid "Explanation"
-msgstr ""
+msgstr "Wytłumaczenie"
 
 msgid "Transaction control"
 msgstr ""

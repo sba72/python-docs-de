@@ -257,7 +257,7 @@ msgid ""
 msgstr ""
 
 msgid "Format Characters"
-msgstr ""
+msgstr "Формат символів"
 
 msgid ""
 "Format characters have the following meaning; the conversion between C and "
@@ -269,7 +269,7 @@ msgid ""
 msgstr ""
 
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 msgid "C Type"
 msgstr ""
@@ -883,7 +883,7 @@ msgid "The *repr()* of structs has changed.  It is now:"
 msgstr ""
 
 msgid "C"
-msgstr ""
+msgstr "C"
 
 msgid "structures"
 msgstr ""

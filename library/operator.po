@@ -312,7 +312,7 @@ msgid "Syntax"
 msgstr "Sintaksis"
 
 msgid "Function"
-msgstr ""
+msgstr "Funkcja"
 
 msgid "Addition"
 msgstr ""

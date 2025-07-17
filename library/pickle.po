@@ -1449,7 +1449,7 @@ msgid ""
 msgstr ""
 
 msgid "Performance"
-msgstr ""
+msgstr "Wydajność"
 
 msgid ""
 "Recent versions of the pickle protocol (from protocol 2 and upwards) feature "

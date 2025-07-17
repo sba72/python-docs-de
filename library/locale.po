@@ -213,10 +213,10 @@ msgid ""
 msgstr ""
 
 msgid "Value"
-msgstr ""
+msgstr "Wartość"
 
 msgid "Explanation"
-msgstr ""
+msgstr "Wytłumaczenie"
 
 msgid "``0``"
 msgstr ""
@@ -744,7 +744,7 @@ msgid ""
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "_locale"
 msgstr ""

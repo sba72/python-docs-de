@@ -217,7 +217,7 @@ msgid ":c:member:`~PyTypeObject.tp_flags`"
 msgstr ""
 
 msgid "unsigned long"
-msgstr ""
+msgstr "nieoznaczony typ długi"
 
 msgid "?"
 msgstr ""
@@ -397,7 +397,7 @@ msgid "[:c:member:`~PyTypeObject.tp_version_tag`]"
 msgstr ""
 
 msgid "unsigned int"
-msgstr ""
+msgstr "nieoznaczony typ int"
 
 msgid ":c:member:`~PyTypeObject.tp_finalize`"
 msgstr ""
@@ -828,7 +828,7 @@ msgid ":c:type:`visitproc`"
 msgstr ""
 
 msgid "int"
-msgstr ""
+msgstr "int"
 
 msgid "Py_hash_t"
 msgstr ""

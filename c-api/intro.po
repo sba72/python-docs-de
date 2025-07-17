@@ -1202,7 +1202,7 @@ msgid ""
 msgstr ""
 
 msgid "object"
-msgstr ""
+msgstr "obiekt"
 
 msgid "type"
 msgstr "Typ"
@@ -1259,7 +1259,7 @@ msgid "Py_Initialize (C function)"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "builtins"
 msgstr ""

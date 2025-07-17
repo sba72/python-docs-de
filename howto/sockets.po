@@ -25,13 +25,13 @@ msgid "Socket Programming HOWTO"
 msgstr ""
 
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 msgid "Gordon McMillan"
 msgstr ""
 
 msgid "Abstract"
-msgstr ""
+msgstr "Streszczenie"
 
 msgid ""
 "Sockets are used nearly everywhere, but are one of the most severely "

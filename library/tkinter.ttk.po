@@ -156,7 +156,7 @@ msgid "Description"
 msgstr "Beschreibung"
 
 msgid "class"
-msgstr ""
+msgstr "klasa"
 
 msgid ""
 "Specifies the window class. The class is used when querying the option "
@@ -361,7 +361,7 @@ msgid ""
 msgstr ""
 
 msgid "readonly"
-msgstr ""
+msgstr "baca saja"
 
 msgid "Widget should not allow user modification"
 msgstr ""
@@ -575,7 +575,7 @@ msgid ""
 msgstr ""
 
 msgid "format"
-msgstr ""
+msgstr "format"
 
 msgid ""
 "String value.  This specifies the format of numbers set by the increment/"

@@ -153,7 +153,7 @@ msgid "integer"
 msgstr ""
 
 msgid "int"
-msgstr ""
+msgstr "int"
 
 msgid "float"
 msgstr ""
@@ -197,7 +197,7 @@ msgid "array"
 msgstr "Array"
 
 msgid "list"
-msgstr ""
+msgstr "lista"
 
 msgid "table"
 msgstr ""

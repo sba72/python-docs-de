@@ -1065,13 +1065,13 @@ msgid "simple"
 msgstr ""
 
 msgid "statement"
-msgstr ""
+msgstr "instrukcja"
 
 msgid "expression"
-msgstr ""
+msgstr "wyrażenie"
 
 msgid "list"
-msgstr ""
+msgstr "lista"
 
 msgid "built-in function"
 msgstr ""
@@ -1080,7 +1080,7 @@ msgid "repr"
 msgstr ""
 
 msgid "object"
-msgstr ""
+msgstr "obiekt"
 
 msgid "None"
 msgstr ""
@@ -1128,7 +1128,7 @@ msgid "rebinding"
 msgstr ""
 
 msgid "mutable"
-msgstr ""
+msgstr "мінливий"
 
 msgid "attribute"
 msgstr "Attribut"
@@ -1161,13 +1161,13 @@ msgid "subscription"
 msgstr ""
 
 msgid "sequence"
-msgstr ""
+msgstr "sekwencja"
 
 msgid "mapping"
-msgstr ""
+msgstr "pemetaan"
 
 msgid "dictionary"
-msgstr ""
+msgstr "słownik"
 
 msgid "slicing"
 msgstr ""
@@ -1275,13 +1275,13 @@ msgid "return"
 msgstr ""
 
 msgid "function"
-msgstr ""
+msgstr "funkcja"
 
 msgid "definition"
 msgstr ""
 
 msgid "class"
-msgstr ""
+msgstr "klasa"
 
 msgid "keyword"
 msgstr ""
@@ -1293,10 +1293,10 @@ msgid "yield"
 msgstr ""
 
 msgid "generator"
-msgstr ""
+msgstr "generator"
 
 msgid "iterator"
-msgstr ""
+msgstr "iterator"
 
 msgid "StopIteration"
 msgstr ""
@@ -1347,10 +1347,10 @@ msgid "import"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "importing"
-msgstr ""
+msgstr "import"
 
 msgid "from"
 msgstr ""
@@ -1374,7 +1374,7 @@ msgid "future"
 msgstr ""
 
 msgid "__future__"
-msgstr ""
+msgstr "__future__"
 
 msgid "future statement"
 msgstr ""

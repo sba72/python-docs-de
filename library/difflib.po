@@ -496,7 +496,7 @@ msgid "The *tag* values are strings, with these meanings:"
 msgstr ""
 
 msgid "Value"
-msgstr ""
+msgstr "Wartość"
 
 msgid "``'replace'``"
 msgstr ""
