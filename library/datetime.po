@@ -120,7 +120,7 @@ msgid ""
 msgstr ""
 
 msgid "Constants"
-msgstr ""
+msgstr "Stały"
 
 msgid "The :mod:`!datetime` module exports the following constants:"
 msgstr ""
@@ -3223,7 +3223,7 @@ msgid "A literal ``'%'`` character."
 msgstr ""
 
 msgid "%"
-msgstr ""
+msgstr "%"
 
 msgid ""
 "Several additional directives not required by the C89 standard are included "

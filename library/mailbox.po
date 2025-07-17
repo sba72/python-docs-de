@@ -925,7 +925,7 @@ msgid ""
 msgstr ""
 
 msgid "Flag"
-msgstr ""
+msgstr "Penanda"
 
 msgid "Meaning"
 msgstr "Znaczenie"
@@ -934,7 +934,7 @@ msgid "Explanation"
 msgstr "Wytłumaczenie"
 
 msgid "D"
-msgstr ""
+msgstr "D"
 
 msgid "Draft"
 msgstr ""
@@ -979,7 +979,7 @@ msgid "Read"
 msgstr ""
 
 msgid "T"
-msgstr ""
+msgstr "T"
 
 msgid "Trashed"
 msgstr ""
@@ -1159,7 +1159,7 @@ msgid "Conventional flags for mbox messages are as follows:"
 msgstr ""
 
 msgid "O"
-msgstr ""
+msgstr "O"
 
 msgid "Old"
 msgstr ""

@@ -883,19 +883,19 @@ msgid "0"
 msgstr "0"
 
 msgid "option name"
-msgstr ""
+msgstr "nama opsi"
 
 msgid "``'relief'``"
 msgstr ""
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "option name for database lookup"
 msgstr ""
 
 msgid "2"
-msgstr ""
+msgstr "2"
 
 msgid "option class for database lookup"
 msgstr ""
@@ -904,7 +904,7 @@ msgid "``'Relief'``"
 msgstr ""
 
 msgid "3"
-msgstr ""
+msgstr "3"
 
 msgid "default value"
 msgstr "wartość domyślna"
@@ -913,7 +913,7 @@ msgid "``'raised'``"
 msgstr ""
 
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgid "current value"
 msgstr ""

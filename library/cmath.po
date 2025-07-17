@@ -457,7 +457,7 @@ msgid ":pep:`485` -- A function for testing approximate equality"
 msgstr ""
 
 msgid "Constants"
-msgstr ""
+msgstr "Stały"
 
 msgid "The mathematical constant *π*, as a float."
 msgstr ""

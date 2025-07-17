@@ -2359,19 +2359,19 @@ msgid ""
 msgstr ""
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "Specifies an input parameter to the function."
 msgstr ""
 
 msgid "2"
-msgstr ""
+msgstr "2"
 
 msgid "Output parameter.  The foreign function fills in a value."
 msgstr ""
 
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgid "Input parameter which defaults to the integer zero."
 msgstr ""

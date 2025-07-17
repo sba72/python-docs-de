@@ -862,7 +862,7 @@ msgid ""
 msgstr ""
 
 msgid "a boolean"
-msgstr ""
+msgstr "wartość logiczna"
 
 msgid ""
 "Move turtle to an absolute position. Unlike goto(x, y), a line will not be "
@@ -2622,7 +2622,7 @@ msgid "a color for the poly's outline (if given)"
 msgstr ""
 
 msgid "Example:"
-msgstr ""
+msgstr "Przykład:"
 
 msgid ""
 ">>> poly = ((0,0),(10,-5),(0,10),(-10,-5))\n"

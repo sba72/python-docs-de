@@ -29,7 +29,7 @@ msgid "Editor"
 msgstr ""
 
 msgid "Raymond Hettinger"
-msgstr ""
+msgstr "Raymond Hettinger"
 
 msgid ""
 "This article explains the new features in Python 3.8, compared to 3.7. "
@@ -2620,7 +2620,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr ""
+msgstr "Przykład:"
 
 msgid ""
 "static foo_struct *\n"

@@ -2652,7 +2652,7 @@ msgid "immutable"
 msgstr "незмінний"
 
 msgid "data"
-msgstr ""
+msgstr "data"
 
 msgid "type"
 msgstr "Typ"

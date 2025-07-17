@@ -173,7 +173,7 @@ msgid ":attr:`netloc`"
 msgstr ""
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "Network location part"
 msgstr ""
@@ -185,7 +185,7 @@ msgid ":attr:`path`"
 msgstr ""
 
 msgid "2"
-msgstr ""
+msgstr "2"
 
 msgid "Hierarchical path"
 msgstr ""
@@ -194,7 +194,7 @@ msgid ":attr:`params`"
 msgstr ""
 
 msgid "3"
-msgstr ""
+msgstr "3"
 
 msgid "Parameters for last path element"
 msgstr ""
@@ -203,7 +203,7 @@ msgid ":attr:`query`"
 msgstr ""
 
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgid "Query component"
 msgstr ""
@@ -212,7 +212,7 @@ msgid ":attr:`fragment`"
 msgstr ""
 
 msgid "5"
-msgstr ""
+msgstr "5"
 
 msgid "Fragment identifier"
 msgstr ""

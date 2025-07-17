@@ -343,7 +343,7 @@ msgid ""
 msgstr ""
 
 msgid "Heap Types"
-msgstr ""
+msgstr "Типи купи"
 
 msgid ""
 "Traditionally, types defined in C code are *static*; that is, ``static "

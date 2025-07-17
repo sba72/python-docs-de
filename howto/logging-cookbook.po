@@ -909,7 +909,7 @@ msgid "File"
 msgstr ""
 
 msgid "Purpose"
-msgstr ""
+msgstr "призначення"
 
 msgid ":file:`prepare.sh`"
 msgstr ""

@@ -605,10 +605,10 @@ msgid "multi-thread"
 msgstr ""
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "2"
-msgstr ""
+msgstr "2"
 
 msgid "Threads may share the module, but not connections"
 msgstr ""
@@ -617,7 +617,7 @@ msgid "serialized"
 msgstr ""
 
 msgid "3"
-msgstr ""
+msgstr "3"
 
 msgid "Threads may share the module, connections and cursors"
 msgstr ""
@@ -768,7 +768,7 @@ msgid "Added the *deterministic* parameter."
 msgstr ""
 
 msgid "Example:"
-msgstr ""
+msgstr "Przykład:"
 
 msgid ""
 ">>> import hashlib\n"

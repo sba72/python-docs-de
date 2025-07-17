@@ -89,7 +89,7 @@ msgid "Category"
 msgstr ""
 
 msgid "Key"
-msgstr ""
+msgstr "*Key*"
 
 msgid "Meaning"
 msgstr "Znaczenie"
