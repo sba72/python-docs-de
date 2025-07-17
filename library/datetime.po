@@ -5,15 +5,16 @@
 #
 # Translators:
 # Tim L <tim.lorbacher@gmail.com>, 2024
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-20 14:21+0000\n"
+"POT-Creation-Date: 2025-07-11 14:21+0000\n"
 "PO-Revision-Date: 2021-06-28 01:04+0000\n"
-"Last-Translator: Tim L <tim.lorbacher@gmail.com>, 2024\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -529,7 +530,7 @@ msgid ""
 msgstr ""
 
 msgid "Notes:"
-msgstr ""
+msgstr "Uwagi:"
 
 msgid "This is exact but may overflow."
 msgstr ""
@@ -814,7 +815,7 @@ msgid "``timedelta = date1 - date2``"
 msgstr ""
 
 msgid "\\(3)"
-msgstr ""
+msgstr "\\(3)"
 
 msgid "``date1 == date2``"
 msgstr ""
@@ -894,7 +895,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr ""
+msgstr "Przykład::"
 
 msgid ""
 ">>> from datetime import date\n"
@@ -1449,13 +1450,13 @@ msgid "``datetime2 = datetime1 + timedelta``"
 msgstr ""
 
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 msgid "``datetime2 = datetime1 - timedelta``"
 msgstr ""
 
 msgid "\\(2)"
-msgstr ""
+msgstr "\\(2)"
 
 msgid "``timedelta = datetime1 - datetime2``"
 msgstr ""
@@ -2956,13 +2957,13 @@ msgid "Directive"
 msgstr ""
 
 msgid "Meaning"
-msgstr ""
+msgstr "Znaczenie"
 
 msgid "Example"
-msgstr ""
+msgstr "Przykład"
 
 msgid "Notes"
-msgstr ""
+msgstr "Notatki"
 
 msgid "``%a``"
 msgstr ""
@@ -3118,7 +3119,7 @@ msgid "000000, 000001, ..., 999999"
 msgstr ""
 
 msgid "\\(5)"
-msgstr ""
+msgstr "\\(5)"
 
 msgid "``%z``"
 msgstr ""
@@ -3132,7 +3133,7 @@ msgid "(empty), +0000, -0400, +1030, +063415, -030712.345216"
 msgstr ""
 
 msgid "\\(6)"
-msgstr ""
+msgstr "\\(6)"
 
 msgid "``%Z``"
 msgstr ""
