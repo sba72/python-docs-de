@@ -46,7 +46,7 @@ msgid "matches everything"
 msgstr ""
 
 msgid "``?``"
-msgstr ""
+msgstr "``?``"
 
 msgid "matches any single character"
 msgstr ""

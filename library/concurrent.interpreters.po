@@ -277,7 +277,7 @@ msgid "Reference"
 msgstr "Referensi"
 
 msgid "This module defines the following functions:"
-msgstr ""
+msgstr "Цей модуль визначає такі функції:"
 
 msgid ""
 "Return a :class:`list` of :class:`Interpreter` objects, one for each "

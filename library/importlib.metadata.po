@@ -114,7 +114,7 @@ msgid ""
 msgstr ""
 
 msgid "You can get the :ref:`metadata for a distribution <metadata>`::"
-msgstr ""
+msgstr "Ви можете отримати :ref:`метадані для дистрибутива <metadata>`::"
 
 msgid ""
 ">>> list(metadata('wheel'))\n"
@@ -132,6 +132,9 @@ msgid ""
 "ref:`constituent files <files>`, and get a list of the distribution's :ref:"
 "`requirements`."
 msgstr ""
+"Ви також можете отримати :ref:`номер версії дистрибутива <version>`, "
+"перелічити його :ref:`складові файли <files>` та отримати список :ref:"
+"`requirements` дистрибутива."
 
 msgid ""
 "Subclass of :class:`ModuleNotFoundError` raised by several functions in this "
@@ -140,7 +143,7 @@ msgid ""
 msgstr ""
 
 msgid "Functional API"
-msgstr ""
+msgstr "Функціональний API"
 
 msgid "This package provides the following functionality via its public API."
 msgstr ""
@@ -400,7 +403,7 @@ msgid ""
 msgstr ""
 
 msgid "Once you have the file, you can also read its contents::"
-msgstr ""
+msgstr "Отримавши файл, ви також можете прочитати його вміст:"
 
 msgid ""
 ">>> print(util.read_text())\n"
@@ -433,7 +436,7 @@ msgid ""
 msgstr ""
 
 msgid "Distribution requirements"
-msgstr ""
+msgstr "Вимоги до розповсюдження"
 
 msgid ""
 "Return the declared dependency specifiers for the named distribution package."
@@ -486,7 +489,7 @@ msgid ""
 msgstr ""
 
 msgid "Distributions"
-msgstr ""
+msgstr "Розподіл"
 
 msgid ""
 "Return a :class:`Distribution` instance describing the named distribution "

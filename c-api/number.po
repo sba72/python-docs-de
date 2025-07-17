@@ -278,4 +278,4 @@ msgid "int"
 msgstr "int"
 
 msgid "float"
-msgstr ""
+msgstr "typ (float) zmiennoprzecinkowy pojedynczej precyzji"

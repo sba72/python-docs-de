@@ -78,7 +78,7 @@ msgid "Comment"
 msgstr "komentarz"
 
 msgid "``%%``"
-msgstr ""
+msgstr "``%%``"
 
 msgid "*n/a*"
 msgstr "*n/a*"
@@ -87,7 +87,7 @@ msgid "The literal % character."
 msgstr "Літеральний символ %."
 
 msgid "``%c``"
-msgstr ""
+msgstr "``%c``"
 
 msgid "int"
 msgstr "int"
@@ -96,13 +96,13 @@ msgid "A single byte, represented as a C int."
 msgstr ""
 
 msgid "``%d``"
-msgstr ""
+msgstr "``%d``"
 
 msgid "Equivalent to ``printf(\"%d\")``. [1]_"
 msgstr "Еквівалент ``printf(\"%d\")``. [1]_"
 
 msgid "``%u``"
-msgstr ""
+msgstr "``%u``"
 
 msgid "unsigned int"
 msgstr "nieoznaczony typ int"
@@ -147,19 +147,19 @@ msgid "Equivalent to ``printf(\"%zu\")``. [1]_"
 msgstr "Еквівалент ``printf(\"%zu\")``. [1]_"
 
 msgid "``%i``"
-msgstr ""
+msgstr "``%i``"
 
 msgid "Equivalent to ``printf(\"%i\")``. [1]_"
 msgstr "Еквівалент ``printf(\"%i\")``. [1]_"
 
 msgid "``%x``"
-msgstr ""
+msgstr "``%x``"
 
 msgid "Equivalent to ``printf(\"%x\")``. [1]_"
 msgstr "Еквівалент ``printf(\"%x\")``. [1]_"
 
 msgid "``%s``"
-msgstr ""
+msgstr "``%s``"
 
 msgid "const char\\*"
 msgstr "const char\\*"
@@ -168,7 +168,7 @@ msgid "A null-terminated C character array."
 msgstr "Масив символів C із закінченням нулем."
 
 msgid "``%p``"
-msgstr ""
+msgstr "``%p``"
 
 msgid "const void\\*"
 msgstr "const void\\*"

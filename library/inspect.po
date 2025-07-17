@@ -402,7 +402,7 @@ msgid "generator"
 msgstr "generator"
 
 msgid "name"
-msgstr ""
+msgstr "nazwa"
 
 msgid "gi_frame"
 msgstr ""
@@ -1850,7 +1850,7 @@ msgid "The meaning of the flags is explained at :ref:`buffer-request-types`."
 msgstr ""
 
 msgid "Command Line Interface"
-msgstr ""
+msgstr "Interfejs linii komend"
 
 msgid ""
 "The :mod:`inspect` module also provides a basic introspection capability "

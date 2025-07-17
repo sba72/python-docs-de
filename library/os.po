@@ -1168,6 +1168,9 @@ msgid ""
 "exception, the function now retries the system call instead of raising an :"
 "exc:`InterruptedError` exception (see :pep:`475` for the rationale)."
 msgstr ""
+"Jeśli wywołanie systemowe zostanie przerwane, a program obsługi sygnału nie "
+"rzuci wyjątku, funkcji ponawia teraz wywołanie systemowe zamiast rzucenja "
+"wyjątku :exc:`InterruptedError` (zobacz :pep:`475` dla uzasadnienia)."
 
 msgid "Accepts a :term:`path-like object`."
 msgstr "Menerima sebuah :term:`path-like object`."
@@ -5365,7 +5368,7 @@ msgid "effective id"
 msgstr ""
 
 msgid "process"
-msgstr ""
+msgstr "процес"
 
 msgid "group"
 msgstr ""

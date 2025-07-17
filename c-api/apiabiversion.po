@@ -111,7 +111,7 @@ msgid "*major*"
 msgstr ""
 
 msgid "8"
-msgstr ""
+msgstr "8"
 
 msgid "``0xFF000000``"
 msgstr ""

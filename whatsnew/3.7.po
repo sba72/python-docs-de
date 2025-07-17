@@ -1676,7 +1676,7 @@ msgid ""
 msgstr ""
 
 msgid "string"
-msgstr ""
+msgstr "ciąg znaków"
 
 msgid ""
 ":class:`string.Template` now lets you to optionally modify the regular "

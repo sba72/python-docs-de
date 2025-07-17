@@ -797,7 +797,7 @@ msgid "ascii"
 msgstr ""
 
 msgid "string"
-msgstr ""
+msgstr "ciąg znaków"
 
 msgid "PyObject_Str (C function)"
 msgstr ""

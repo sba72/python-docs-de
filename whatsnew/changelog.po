@@ -24436,7 +24436,7 @@ msgid "``It is deprecated to return a value!=None``"
 msgstr ""
 
 msgid "to"
-msgstr ""
+msgstr "ke"
 
 msgid ""
 "``It is deprecated to return a value that is not None from a test case``"
@@ -37736,7 +37736,7 @@ msgid ":meth:`dict.items`"
 msgstr ""
 
 msgid ":func:`enumerate`"
-msgstr ""
+msgstr ":func:`enumerate`"
 
 msgid ":func:`functools.reduce`"
 msgstr ""
@@ -37757,7 +37757,7 @@ msgid ":func:`itertools.zip_longest`"
 msgstr ""
 
 msgid ":func:`zip`"
-msgstr ""
+msgstr ":func:`zip`"
 
 msgid ""
 "Previously, they could have become untracked by a prior garbage collection. "

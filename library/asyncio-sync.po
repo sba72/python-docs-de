@@ -134,7 +134,7 @@ msgid "Return ``True`` if the lock is *locked*."
 msgstr ""
 
 msgid "Event"
-msgstr ""
+msgstr "Zdarzenie"
 
 msgid "An event object.  Not thread-safe."
 msgstr ""
@@ -282,6 +282,7 @@ msgstr ""
 
 msgid "When invoked on an unlocked lock, a :exc:`RuntimeError` is raised."
 msgstr ""
+"Під час виклику для розблокованого блокування виникає :exc:`RuntimeError`."
 
 msgid "Wait until notified."
 msgstr ""
@@ -356,7 +357,7 @@ msgid ""
 msgstr ""
 
 msgid "Acquire a semaphore."
-msgstr ""
+msgstr "Придбайте семафор."
 
 msgid ""
 "If the internal counter is greater than zero, decrement it by one and return "
@@ -500,11 +501,15 @@ msgstr ""
 
 msgid "A boolean that is ``True`` if the barrier is in the broken state."
 msgstr ""
+"Логічне значення, яке має значення ``True``, якщо бар’єр знаходиться в "
+"зламаному стані."
 
 msgid ""
 "This exception, a subclass of :exc:`RuntimeError`, is raised when the :class:"
 "`Barrier` object is reset or broken."
 msgstr ""
+"Цей виняток, підклас :exc:`RuntimeError`, виникає, коли об’єкт :class:"
+"`Barrier` скидається або зламано."
 
 msgid ""
 "Acquiring a lock using ``await lock`` or ``yield from lock`` and/or :keyword:"

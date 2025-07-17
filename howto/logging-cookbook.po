@@ -4906,19 +4906,19 @@ msgid "API reference for the logging module."
 msgstr ""
 
 msgid "Module :mod:`logging.config`"
-msgstr ""
+msgstr "Модуль :mod:`logging.config`"
 
 msgid "Configuration API for the logging module."
-msgstr ""
+msgstr "API конфігурації для модуля журналювання."
 
 msgid "Module :mod:`logging.handlers`"
-msgstr ""
+msgstr "Модуль :mod:`logging.handlers`"
 
 msgid "Useful handlers included with the logging module."
-msgstr ""
+msgstr "Корисні обробники, включені в модуль журналювання."
 
 msgid ":ref:`Basic Tutorial <logging-basic-tutorial>`"
-msgstr ""
+msgstr ":ref:`Basic Tutorial <logging-basic-tutorial>`"
 
 msgid ":ref:`Advanced Tutorial <logging-advanced-tutorial>`"
-msgstr ""
+msgstr ":ref:`Advanced Tutorial <logging-advanced-tutorial>`"

@@ -331,7 +331,7 @@ msgid ""
 msgstr ""
 
 msgid "Command Line Interface"
-msgstr ""
+msgstr "Interfejs linii komend"
 
 msgid ""
 "The :mod:`gzip` module provides a simple command line interface to compress "
@@ -347,7 +347,7 @@ msgid ""
 msgstr ""
 
 msgid "Command line options"
-msgstr ""
+msgstr "Opcje wiersza poleceń"
 
 msgid "If *file* is not specified, read from :data:`sys.stdin`."
 msgstr ""
@@ -362,4 +362,4 @@ msgid "Decompress the given file."
 msgstr ""
 
 msgid "Show the help message."
-msgstr ""
+msgstr "Pokaż komunikat pomocy."

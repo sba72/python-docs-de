@@ -107,7 +107,7 @@ msgid ""
 msgstr ""
 
 msgid "Usage"
-msgstr ""
+msgstr "Użytek"
 
 msgid ""
 "To obtain the digest of the byte string ``b\"Nobody inspects the spammish "
@@ -448,7 +448,7 @@ msgid "32"
 msgstr ""
 
 msgid "8"
-msgstr ""
+msgstr "8"
 
 msgid ""
 "BLAKE2 specification defines constant lengths for salt and personalization "

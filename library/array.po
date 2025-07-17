@@ -49,7 +49,7 @@ msgid "Notes"
 msgstr "Notatki"
 
 msgid "``'b'``"
-msgstr ""
+msgstr "``'b'``"
 
 msgid "signed char"
 msgstr ""
@@ -82,7 +82,7 @@ msgid "\\(1)"
 msgstr "\\(1)"
 
 msgid "``'w'``"
-msgstr ""
+msgstr "``'w'``"
 
 msgid "Py_UCS4"
 msgstr ""
@@ -133,7 +133,7 @@ msgid "signed long long"
 msgstr ""
 
 msgid "8"
-msgstr ""
+msgstr "8"
 
 msgid "``'Q'``"
 msgstr ""
@@ -145,7 +145,7 @@ msgid "``'f'``"
 msgstr ""
 
 msgid "float"
-msgstr ""
+msgstr "typ (float) zmiennoprzecinkowy pojedynczej precyzji"
 
 msgid "``'d'``"
 msgstr ""
