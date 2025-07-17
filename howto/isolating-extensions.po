@@ -51,7 +51,7 @@ msgid ""
 msgstr ""
 
 msgid "Background"
-msgstr ""
+msgstr "Фон"
 
 msgid ""
 "An *interpreter* is the context in which Python code runs. It contains "

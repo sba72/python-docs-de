@@ -2402,7 +2402,7 @@ msgid ""
 msgstr ""
 
 msgid "Methods"
-msgstr ""
+msgstr "Metode-Metode"
 
 msgid ""
 "The parameter *key* of these functions must not be ``NULL``.  Moreover, the "

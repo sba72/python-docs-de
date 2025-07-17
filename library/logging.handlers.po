@@ -32,13 +32,13 @@ msgid ""
 msgstr ""
 
 msgid ":ref:`Basic Tutorial <logging-basic-tutorial>`"
-msgstr ""
+msgstr ":ref:`Basic Tutorial <logging-basic-tutorial>`"
 
 msgid ":ref:`Advanced Tutorial <logging-advanced-tutorial>`"
-msgstr ""
+msgstr ":ref:`Advanced Tutorial <logging-advanced-tutorial>`"
 
 msgid ":ref:`Logging Cookbook <logging-cookbook>`"
-msgstr ""
+msgstr ":ref:`Logging Cookbook <logging-cookbook>`"
 
 msgid ""
 "The following useful handlers are provided in the package. Note that three "
@@ -82,7 +82,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr ""
+msgstr "parametry"
 
 msgid "The stream that the handler should use."
 msgstr ""
@@ -1389,7 +1389,7 @@ msgid "API reference for the logging module."
 msgstr ""
 
 msgid "Module :mod:`logging.config`"
-msgstr ""
+msgstr "Модуль :mod:`logging.config`"
 
 msgid "Configuration API for the logging module."
-msgstr ""
+msgstr "API конфігурації для модуля журналювання."

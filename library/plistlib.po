@@ -75,7 +75,7 @@ msgid "Apple's documentation of the file format."
 msgstr ""
 
 msgid "This module defines the following functions:"
-msgstr ""
+msgstr "Цей модуль визначає такі функції:"
 
 msgid ""
 "Read a plist file. *fp* should be a readable and binary file object. Return "

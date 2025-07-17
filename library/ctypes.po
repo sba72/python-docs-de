@@ -404,7 +404,7 @@ msgid ":c:expr:`float`"
 msgstr ""
 
 msgid "float"
-msgstr ""
+msgstr "typ (float) zmiennoprzecinkowy pojedynczej precyzji"
 
 msgid ":class:`c_double`"
 msgstr ""

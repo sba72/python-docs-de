@@ -45,7 +45,7 @@ msgid ""
 msgstr ""
 
 msgid "The following functions are provided:"
-msgstr ""
+msgstr "W module znajdują się następujące funkcje:"
 
 msgid ""
 "Locate the insertion point for *x* in *a* to maintain sorted order. The "

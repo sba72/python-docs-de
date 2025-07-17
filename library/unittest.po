@@ -1324,7 +1324,7 @@ msgid ""
 msgstr ""
 
 msgid "or::"
-msgstr ""
+msgstr "lub::"
 
 msgid ""
 "with self.assertRaisesRegex(ValueError, 'literal'):\n"

@@ -292,13 +292,13 @@ msgid ":const:`EPOLLIN`"
 msgstr ""
 
 msgid "Available for read"
-msgstr ""
+msgstr "Доступний для читання"
 
 msgid ":const:`EPOLLOUT`"
 msgstr ""
 
 msgid "Available for write"
-msgstr ""
+msgstr "Доступний для запису"
 
 msgid ":const:`EPOLLPRI`"
 msgstr ""

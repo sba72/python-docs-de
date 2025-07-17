@@ -71,7 +71,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr ""
+msgstr "parametry"
 
 msgid ""
 "The unique name for the requested shared memory, specified as a string. When "

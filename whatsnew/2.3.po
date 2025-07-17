@@ -671,7 +671,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`282` - A Logging System"
-msgstr ""
+msgstr ":pep:`282` - Система реєстрації"
 
 msgid "Written by Vinay Sajip and Trent Mick; implemented by Vinay Sajip."
 msgstr ""

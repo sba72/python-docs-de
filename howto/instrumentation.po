@@ -77,7 +77,7 @@ msgid "$ yum install systemtap-sdt-devel"
 msgstr ""
 
 msgid "or::"
-msgstr ""
+msgstr "lub::"
 
 msgid "$ sudo apt-get install systemtap-sdt-dev"
 msgstr ""

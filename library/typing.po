@@ -3369,7 +3369,7 @@ msgid ""
 msgstr ""
 
 msgid "Protocols"
-msgstr ""
+msgstr "Протоколи"
 
 msgid ""
 "The following protocols are provided by the :mod:`!typing` module. All are "
@@ -3641,7 +3641,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr ""
+msgstr "parametry"
 
 msgid ""
 "Indicates whether the ``eq`` parameter is assumed to be ``True`` or "

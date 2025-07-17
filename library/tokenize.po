@@ -184,7 +184,7 @@ msgid ""
 msgstr ""
 
 msgid "or::"
-msgstr ""
+msgstr "lub::"
 
 msgid ""
 "[1,\n"

@@ -93,10 +93,10 @@ msgid "These are the Boolean operations, ordered by ascending priority:"
 msgstr ""
 
 msgid "Operation"
-msgstr ""
+msgstr "Operasi"
 
 msgid "Result"
-msgstr ""
+msgstr "Hasil"
 
 msgid "Notes"
 msgstr "Notatki"
@@ -362,7 +362,7 @@ msgid "absolute value or magnitude of *x*"
 msgstr ""
 
 msgid ":func:`abs`"
-msgstr ""
+msgstr ":func:`abs`"
 
 msgid "``int(x)``"
 msgstr ""
@@ -374,7 +374,7 @@ msgid "\\(3)\\(6)"
 msgstr ""
 
 msgid ":func:`int`"
-msgstr ""
+msgstr ":func:`int`"
 
 msgid "``float(x)``"
 msgstr ""
@@ -386,7 +386,7 @@ msgid "\\(4)\\(6)"
 msgstr ""
 
 msgid ":func:`float`"
-msgstr ""
+msgstr ":func:`float`"
 
 msgid "``complex(re, im)``"
 msgstr ""
@@ -400,7 +400,7 @@ msgid "\\(6)"
 msgstr "\\(6)"
 
 msgid ":func:`complex`"
-msgstr ""
+msgstr ":func:`complex`"
 
 msgid "``c.conjugate()``"
 msgstr ""
@@ -415,7 +415,7 @@ msgid "the pair ``(x // y, x % y)``"
 msgstr ""
 
 msgid ":func:`divmod`"
-msgstr ""
+msgstr ":func:`divmod`"
 
 msgid "``pow(x, y)``"
 msgstr ""
@@ -427,7 +427,7 @@ msgid "\\(5)"
 msgstr "\\(5)"
 
 msgid ":func:`pow`"
-msgstr ""
+msgstr ":func:`pow`"
 
 msgid "``x ** y``"
 msgstr ""
@@ -622,7 +622,7 @@ msgid ""
 msgstr ""
 
 msgid "Equivalent to::"
-msgstr ""
+msgstr "Odpowiednik::"
 
 msgid ""
 "def bit_length(self):\n"
@@ -1221,7 +1221,7 @@ msgid ""
 msgstr ""
 
 msgid "\\(8)"
-msgstr ""
+msgstr "\\(8)"
 
 msgid "``s.count(x)``"
 msgstr ""
@@ -1607,6 +1607,8 @@ msgid ""
 "*reverse* is a boolean value.  If set to ``True``, then the list elements "
 "are sorted as if each comparison were reversed."
 msgstr ""
+"*reverse* jest wartością logiczną.  Jeśli jest ustawiona na ``True``, "
+"elementy listy są sortowane tak, jakby każde porównanie było odwrócone."
 
 msgid ""
 "This method modifies the sequence in place for economy of space when sorting "
@@ -1625,6 +1627,8 @@ msgstr ""
 msgid ""
 "For sorting examples and a brief sorting tutorial, see :ref:`sortinghowto`."
 msgstr ""
+"Przykłady sortowania i krótki samouczek sortowania można znaleźć na stronie :"
+"ref:`sortinghowto`."
 
 msgid ""
 "While a list is being sorted, the effect of attempting to mutate, or even "
@@ -3129,13 +3133,13 @@ msgid "``!a``"
 msgstr ""
 
 msgid ":func:`ascii`"
-msgstr ""
+msgstr ":func:`ascii`"
 
 msgid "``!r``"
 msgstr ""
 
 msgid ":func:`repr`"
-msgstr ""
+msgstr ":func:`repr`"
 
 msgid "``!s``"
 msgstr ""
@@ -3311,7 +3315,7 @@ msgid ""
 msgstr ""
 
 msgid "``'+'``"
-msgstr ""
+msgstr "``'+'``"
 
 msgid ""
 "A sign character (``'+'`` or ``'-'``) will precede the conversion (overrides "
@@ -3348,7 +3352,7 @@ msgid "Obsolete type -- it is identical to ``'d'``."
 msgstr ""
 
 msgid "``'x'``"
-msgstr ""
+msgstr "``'x'``"
 
 msgid "Signed hexadecimal (lowercase)."
 msgstr ""
@@ -3403,7 +3407,7 @@ msgid "Single character (accepts integer or single character string)."
 msgstr ""
 
 msgid "``'r'``"
-msgstr ""
+msgstr "``'r'``"
 
 msgid "String (converts any Python object using :func:`repr`)."
 msgstr ""
@@ -3415,7 +3419,7 @@ msgid "String (converts any Python object using :func:`str`)."
 msgstr ""
 
 msgid "``'a'``"
-msgstr ""
+msgstr "``'a'``"
 
 msgid "String (converts any Python object using :func:`ascii`)."
 msgstr ""
@@ -4419,7 +4423,7 @@ msgid "Single byte (accepts integer or single byte objects)."
 msgstr ""
 
 msgid "``'b'``"
-msgstr ""
+msgstr "``'b'``"
 
 msgid ""
 "Bytes (any object that follows the :ref:`buffer protocol <bufferobjects>` or "
@@ -6323,7 +6327,7 @@ msgid "See :ref:`function` for more information."
 msgstr ""
 
 msgid "Methods"
-msgstr ""
+msgstr "Metode-Metode"
 
 msgid ""
 "Methods are functions that are called using the attribute notation. There "
@@ -6786,10 +6790,10 @@ msgid "and"
 msgstr ""
 
 msgid "False"
-msgstr ""
+msgstr "False"
 
 msgid "True"
-msgstr ""
+msgstr "True"
 
 msgid "not"
 msgstr ""
@@ -6900,7 +6904,7 @@ msgid "int"
 msgstr "int"
 
 msgid "float"
-msgstr ""
+msgstr "typ (float) zmiennoprzecinkowy pojedynczej precyzji"
 
 msgid "complex"
 msgstr ""
@@ -7104,7 +7108,7 @@ msgid "range"
 msgstr ""
 
 msgid "string"
-msgstr ""
+msgstr "ciąg znaków"
 
 msgid "text sequence type"
 msgstr ""

@@ -1344,7 +1344,7 @@ msgid "my_tarfile.extractall(filter=tarfile.data_filter)"
 msgstr ""
 
 msgid "or::"
-msgstr ""
+msgstr "lub::"
 
 msgid ""
 "my_tarfile.extraction_filter = tarfile.data_filter\n"

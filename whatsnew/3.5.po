@@ -432,7 +432,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples::"
-msgstr ""
+msgstr "Przykłady::"
 
 msgid ""
 ">>> b'Hello %b!' % b'World'\n"
@@ -1079,7 +1079,7 @@ msgid ""
 msgstr ""
 
 msgid "code"
-msgstr ""
+msgstr "code"
 
 msgid ""
 "The :func:`InteractiveInterpreter.showtraceback() <code."

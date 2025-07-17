@@ -2490,7 +2490,7 @@ msgid "definition"
 msgstr ""
 
 msgid "name"
-msgstr ""
+msgstr "nazwa"
 
 msgid "binding"
 msgstr ""

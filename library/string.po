@@ -418,7 +418,7 @@ msgid ""
 msgstr ""
 
 msgid "``'+'``"
-msgstr ""
+msgstr "``'+'``"
 
 msgid ""
 "Indicates that a sign should be used for both positive as well as negative "
@@ -546,7 +546,7 @@ msgid "String format. This is the default type for strings and may be omitted."
 msgstr ""
 
 msgid "None"
-msgstr ""
+msgstr "None"
 
 msgid "The same as ``'s'``."
 msgstr ""
@@ -555,7 +555,7 @@ msgid "The available integer presentation types are:"
 msgstr ""
 
 msgid "``'b'``"
-msgstr ""
+msgstr "``'b'``"
 
 msgid "Binary format. Outputs the number in base 2."
 msgstr ""
@@ -581,7 +581,7 @@ msgid "Octal format. Outputs the number in base 8."
 msgstr ""
 
 msgid "``'x'``"
-msgstr ""
+msgstr "``'x'``"
 
 msgid ""
 "Hex format. Outputs the number in base 16, using lower-case letters for the "

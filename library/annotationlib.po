@@ -171,7 +171,7 @@ msgid ""
 msgstr ""
 
 msgid "Classes"
-msgstr ""
+msgstr "Klasy"
 
 msgid ""
 "An :class:`~enum.IntEnum` describing the formats in which annotations can be "

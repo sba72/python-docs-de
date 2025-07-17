@@ -101,6 +101,8 @@ msgid ""
 "Using the \"``**``\" pattern in large directory trees may consume an "
 "inordinate amount of time."
 msgstr ""
+"Menggunakan pola \"``**``\" di pohon direktori yang besar dapat menghabiskan "
+"banyak waktu."
 
 msgid ""
 "This function may return duplicate path names if *pathname* contains "
