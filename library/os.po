@@ -5375,7 +5375,7 @@ msgid "group"
 msgstr ""
 
 msgid "id"
-msgstr ""
+msgstr "id"
 
 msgid "id of parent"
 msgstr ""
