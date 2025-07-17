@@ -1603,7 +1603,7 @@ msgid "identifier"
 msgstr ""
 
 msgid "name"
-msgstr ""
+msgstr "nazwa"
 
 msgid "keyword"
 msgstr ""
@@ -1738,7 +1738,7 @@ msgid "interpolated string literal"
 msgstr ""
 
 msgid "string"
-msgstr ""
+msgstr "ciąg znaków"
 
 msgid "formatted literal"
 msgstr ""
@@ -1771,7 +1771,7 @@ msgid "for help in debugging using string literals"
 msgstr ""
 
 msgid "number"
-msgstr ""
+msgstr "number"
 
 msgid "numeric literal"
 msgstr ""

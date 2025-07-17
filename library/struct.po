@@ -144,7 +144,7 @@ msgid ""
 msgstr ""
 
 msgid "Character"
-msgstr ""
+msgstr "Znak"
 
 msgid "Byte order"
 msgstr ""
@@ -329,7 +329,7 @@ msgid "\\(2)"
 msgstr "\\(2)"
 
 msgid "``?``"
-msgstr ""
+msgstr "``?``"
 
 msgid ":c:expr:`_Bool`"
 msgstr ""
@@ -389,7 +389,7 @@ msgid ":c:expr:`long long`"
 msgstr ""
 
 msgid "8"
-msgstr ""
+msgstr "8"
 
 msgid "``Q``"
 msgstr ""
@@ -419,7 +419,7 @@ msgid "\\(6)"
 msgstr "\\(6)"
 
 msgid "float"
-msgstr ""
+msgstr "typ (float) zmiennoprzecinkowy pojedynczej precyzji"
 
 msgid "\\(4)"
 msgstr "\\(4)"
@@ -467,13 +467,13 @@ msgid "bytes"
 msgstr ""
 
 msgid "\\(9)"
-msgstr ""
+msgstr "\\(9)"
 
 msgid "``p``"
 msgstr ""
 
 msgid "\\(8)"
-msgstr ""
+msgstr "\\(8)"
 
 msgid "``P``"
 msgstr ""
@@ -823,7 +823,7 @@ msgid ""
 msgstr ""
 
 msgid "Classes"
-msgstr ""
+msgstr "Klasy"
 
 msgid "The :mod:`struct` module also defines the following type:"
 msgstr ""

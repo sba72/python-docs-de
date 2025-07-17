@@ -299,7 +299,7 @@ msgid "Open a connection to an SQLite database."
 msgstr ""
 
 msgid "Parameters"
-msgstr ""
+msgstr "parametry"
 
 msgid ""
 "The path to the database file to be opened. You can pass ``\":memory:\"`` to "

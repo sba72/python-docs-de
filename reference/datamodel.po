@@ -152,7 +152,7 @@ msgid ""
 msgstr ""
 
 msgid "None"
-msgstr ""
+msgstr "None"
 
 msgid ""
 "This type has a single value.  There is a single object with this value. "
@@ -808,7 +808,7 @@ msgid ""
 msgstr ""
 
 msgid "Classes"
-msgstr ""
+msgstr "Klasy"
 
 msgid ""
 "Classes are callable.  These objects normally act as factories for new "
@@ -3957,16 +3957,16 @@ msgid "Boolean"
 msgstr ""
 
 msgid "False"
-msgstr ""
+msgstr "False"
 
 msgid "True"
-msgstr ""
+msgstr "True"
 
 msgid "floating-point"
 msgstr ""
 
 msgid "number"
-msgstr ""
+msgstr "number"
 
 msgid "Java"
 msgstr ""
@@ -3999,7 +3999,7 @@ msgid "immutable"
 msgstr "незмінний"
 
 msgid "string"
-msgstr ""
+msgstr "ciąg znaków"
 
 msgid "immutable sequences"
 msgstr ""
@@ -4308,7 +4308,7 @@ msgid "bytecode"
 msgstr "kod bajtowy"
 
 msgid "code"
-msgstr ""
+msgstr "code"
 
 msgid "code object"
 msgstr ""
@@ -4365,10 +4365,10 @@ msgid "co_qualname (code object attribute)"
 msgstr ""
 
 msgid "documentation string"
-msgstr ""
+msgstr "рядок документації"
 
 msgid "frame"
-msgstr ""
+msgstr "frame"
 
 msgid "f_back (frame attribute)"
 msgstr ""
@@ -4569,7 +4569,7 @@ msgid "int"
 msgstr "int"
 
 msgid "float"
-msgstr ""
+msgstr "typ (float) zmiennoprzecinkowy pojedynczej precyzji"
 
 msgid "round"
 msgstr ""

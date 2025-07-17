@@ -44,7 +44,7 @@ msgid ""
 msgstr ""
 
 msgid "Types and members"
-msgstr ""
+msgstr "Типи та члени"
 
 msgid ""
 "The :func:`getmembers` function retrieves the members of an object such as a "
@@ -227,7 +227,7 @@ msgid "global namespace seen by this frame"
 msgstr ""
 
 msgid "f_lasti"
-msgstr ""
+msgstr "f_lasti"
 
 msgid "f_lineno"
 msgstr ""
@@ -362,7 +362,7 @@ msgid "tuple of names other than arguments and function locals"
 msgstr ""
 
 msgid "co_nlocals"
-msgstr ""
+msgstr "co_nlocals"
 
 msgid "number of local variables"
 msgstr ""
@@ -402,7 +402,7 @@ msgid "generator"
 msgstr "generator"
 
 msgid "name"
-msgstr ""
+msgstr "nazwa"
 
 msgid "gi_frame"
 msgstr ""
@@ -748,7 +748,7 @@ msgid ""
 msgstr ""
 
 msgid "Retrieving source code"
-msgstr ""
+msgstr "Отримання вихідного коду"
 
 msgid ""
 "Get the documentation string for an object, cleaned up with :func:"
@@ -937,6 +937,7 @@ msgstr ""
 
 msgid "A special class-level marker to specify absence of a return annotation."
 msgstr ""
+"Спеціальний маркер рівня класу, щоб вказати відсутність анотації повернення."
 
 msgid ""
 "An ordered mapping of parameters' names to the corresponding :class:"
@@ -1113,6 +1114,9 @@ msgid ""
 "those which appear after a ``*`` or ``*args`` entry in a Python function "
 "definition."
 msgstr ""
+"Значення має бути надано як аргумент ключового слова. Параметри лише для "
+"ключових слів – це ті, які з’являються після запису ``*`` або ``*args`` у "
+"визначенні функції Python."
 
 msgid "*VAR_KEYWORD*"
 msgstr ""
@@ -1526,6 +1530,10 @@ msgid ""
 "keyword:`finally` clause.  This is also important if the cycle detector was "
 "disabled when Python was compiled or using :func:`gc.disable`.  For example::"
 msgstr ""
+"Хоча детектор циклу вловить їх, знищення кадрів (та локальних змінних) можна "
+"зробити детермінованим, видаливши цикл у реченні :keyword:`finally`. Це "
+"також важливо, якщо детектор циклу було вимкнено під час компіляції Python "
+"або використання :func:`gc.disable`. Наприклад::"
 
 msgid ""
 "def handle_stackframe_without_leak():\n"
@@ -1850,7 +1858,7 @@ msgid "The meaning of the flags is explained at :ref:`buffer-request-types`."
 msgstr ""
 
 msgid "Command Line Interface"
-msgstr ""
+msgstr "Interfejs linii komend"
 
 msgid ""
 "The :mod:`inspect` module also provides a basic introspection capability "

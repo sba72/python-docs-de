@@ -1625,7 +1625,7 @@ msgid ""
 msgstr ""
 
 msgid "Acquire a lock, blocking or non-blocking."
-msgstr ""
+msgstr "Отримайте блокування, блокування або неблокування."
 
 msgid ""
 "With the *block* argument set to ``True`` (the default), the method call "
@@ -2585,7 +2585,7 @@ msgid "Return the representation of the referent."
 msgstr ""
 
 msgid "Cleanup"
-msgstr ""
+msgstr "Прибирати"
 
 msgid ""
 "A proxy object uses a weakref callback so that when it gets garbage "

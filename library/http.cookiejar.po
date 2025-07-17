@@ -338,7 +338,7 @@ msgid ""
 msgstr ""
 
 msgid ":exc:`IOError` used to be raised, it is now an alias of :exc:`OSError`."
-msgstr ""
+msgstr ":exc:`IOError` kiedyś był rzucony, teraz jest alias z :exc:`OSError`."
 
 msgid "Clear all cookies and reload cookies from a saved file."
 msgstr ""

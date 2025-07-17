@@ -689,7 +689,7 @@ msgid "``'filename'``"
 msgstr ""
 
 msgid "filename"
-msgstr ""
+msgstr "ім'я файлу"
 
 msgid "``'lineno'``"
 msgstr ""

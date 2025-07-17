@@ -1683,7 +1683,7 @@ msgid ""
 msgstr ""
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid ""
 "Add the :attr:`~traceback.TracebackException.exc_type_str` attribute to :"

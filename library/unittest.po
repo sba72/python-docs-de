@@ -908,7 +908,7 @@ msgid ""
 msgstr ""
 
 msgid "Classes and functions"
-msgstr ""
+msgstr "Класи та функції"
 
 msgid "This section describes in depth the API of :mod:`unittest`."
 msgstr ""
@@ -1324,7 +1324,7 @@ msgid ""
 msgstr ""
 
 msgid "or::"
-msgstr ""
+msgstr "lub::"
 
 msgid ""
 "with self.assertRaisesRegex(ValueError, 'literal'):\n"

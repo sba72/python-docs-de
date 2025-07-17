@@ -486,7 +486,7 @@ msgid "execution model"
 msgstr ""
 
 msgid "code"
-msgstr ""
+msgstr "code"
 
 msgid "block"
 msgstr ""
@@ -495,7 +495,7 @@ msgid "execution"
 msgstr ""
 
 msgid "frame"
-msgstr ""
+msgstr "frame"
 
 msgid "namespace"
 msgstr "простір імен"
@@ -504,13 +504,13 @@ msgid "scope"
 msgstr ""
 
 msgid "name"
-msgstr ""
+msgstr "nazwa"
 
 msgid "binding"
 msgstr ""
 
 msgid "from"
-msgstr ""
+msgstr "dari"
 
 msgid "import statement"
 msgstr ""

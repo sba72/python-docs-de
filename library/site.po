@@ -276,7 +276,7 @@ msgid ""
 msgstr ""
 
 msgid "Command Line Interface"
-msgstr ""
+msgstr "Interfejs linii komend"
 
 msgid ""
 "The :mod:`site` module also provides a way to get the user directories from "

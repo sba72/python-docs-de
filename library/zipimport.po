@@ -141,7 +141,7 @@ msgid ""
 msgstr ""
 
 msgid ":exc:`IOError` used to be raised, it is now an alias of :exc:`OSError`."
-msgstr ""
+msgstr ":exc:`IOError` kiedyś był rzucony, teraz jest alias z :exc:`OSError`."
 
 msgid ""
 "Return the value ``__file__`` would be set to if the specified module was "
@@ -166,7 +166,7 @@ msgid ""
 msgstr ""
 
 msgid "Use :meth:`exec_module` instead."
-msgstr ""
+msgstr "Замість цього використовуйте :meth:`exec_module`."
 
 msgid ""
 "Clear out the internal cache of information about files found within the ZIP "

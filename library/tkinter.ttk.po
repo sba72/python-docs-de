@@ -535,7 +535,7 @@ msgid ""
 msgstr ""
 
 msgid "from"
-msgstr ""
+msgstr "dari"
 
 msgid ""
 "Float value.  If set, this is the minimum value to which the decrement "
@@ -544,7 +544,7 @@ msgid ""
 msgstr ""
 
 msgid "to"
-msgstr ""
+msgstr "ke"
 
 msgid ""
 "Float value.  If set, this is the maximum value to which the increment "
@@ -1159,7 +1159,7 @@ msgid "The Treeview widget generates the following virtual events."
 msgstr ""
 
 msgid "Event"
-msgstr ""
+msgstr "Zdarzenie"
 
 msgid "<<TreeviewSelect>>"
 msgstr ""

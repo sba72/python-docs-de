@@ -739,7 +739,7 @@ msgid ""
 msgstr ""
 
 msgid "Functional API"
-msgstr ""
+msgstr "Функціональний API"
 
 msgid ""
 "The :class:`Enum` class is callable, providing the following functional API::"

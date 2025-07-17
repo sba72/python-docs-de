@@ -2625,7 +2625,7 @@ msgid "atom"
 msgstr ""
 
 msgid "name"
-msgstr ""
+msgstr "nazwa"
 
 msgid "identifier"
 msgstr ""
@@ -2769,7 +2769,7 @@ msgid "yield"
 msgstr ""
 
 msgid "from"
-msgstr ""
+msgstr "dari"
 
 msgid "function"
 msgstr "funkcja"
@@ -2826,7 +2826,7 @@ msgid "mapping"
 msgstr "pemetaan"
 
 msgid "string"
-msgstr ""
+msgstr "ciąg znaków"
 
 msgid "item"
 msgstr ""

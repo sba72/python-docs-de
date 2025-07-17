@@ -71,7 +71,7 @@ msgid ""
 msgstr ""
 
 msgid ":func:`print`"
-msgstr ""
+msgstr ":func:`print`"
 
 msgid ""
 "Report events that occur during normal operation of a program (e.g. for "
@@ -120,26 +120,26 @@ msgid ""
 msgstr ""
 
 msgid "Level"
-msgstr ""
+msgstr "Level"
 
 msgid "When it's used"
 msgstr ""
 
 msgid "``DEBUG``"
-msgstr ""
+msgstr "``DEBUG``"
 
 msgid ""
 "Detailed information, typically of interest only when diagnosing problems."
 msgstr ""
 
 msgid "``INFO``"
-msgstr ""
+msgstr "``INFO``"
 
 msgid "Confirmation that things are working as expected."
 msgstr ""
 
 msgid "``WARNING``"
-msgstr ""
+msgstr "``WARNING``"
 
 msgid ""
 "An indication that something unexpected happened, or indicative of some "
@@ -148,7 +148,7 @@ msgid ""
 msgstr ""
 
 msgid "``ERROR``"
-msgstr ""
+msgstr "``ERROR``"
 
 msgid ""
 "Due to a more serious problem, the software has not been able to perform "
@@ -156,7 +156,7 @@ msgid ""
 msgstr ""
 
 msgid "``CRITICAL``"
-msgstr ""
+msgstr "``CRITICAL``"
 
 msgid ""
 "A serious error, indicating that the program itself may be unable to "
@@ -455,19 +455,25 @@ msgstr ""
 
 msgid "Loggers expose the interface that application code directly uses."
 msgstr ""
+"Логери відкривають інтерфейс, який безпосередньо використовує код програми."
 
 msgid ""
 "Handlers send the log records (created by loggers) to the appropriate "
 "destination."
 msgstr ""
+"Обробники надсилають записи журналу (створені реєстраторами) у відповідне "
+"місце призначення."
 
 msgid ""
 "Filters provide a finer grained facility for determining which log records "
 "to output."
 msgstr ""
+"Фільтри забезпечують точніші засоби для визначення того, які записи журналу "
+"виводити."
 
 msgid "Formatters specify the layout of log records in the final output."
 msgstr ""
+"Засоби форматування вказують макет записів журналу в кінцевому виведенні."
 
 msgid ""
 "Log event information is passed between loggers, handlers, filters and "
@@ -1081,7 +1087,7 @@ msgid ""
 msgstr ""
 
 msgid "Logging Levels"
-msgstr ""
+msgstr "Рівні реєстрації"
 
 msgid ""
 "The numeric values of logging levels are given in the following table. These "
@@ -1090,27 +1096,32 @@ msgid ""
 "define a level with the same numeric value, it overwrites the predefined "
 "value; the predefined name is lost."
 msgstr ""
+"Числові значення рівнів журналювання наведені в наступній таблиці. Це "
+"насамперед цікаво, якщо ви бажаєте визначити власні рівні та потребуєте, щоб "
+"вони мали певні значення відносно попередньо визначених рівнів. Якщо ви "
+"визначаєте рівень з тим самим числовим значенням, він перезаписує попередньо "
+"визначене значення; попередньо визначене ім'я втрачено."
 
 msgid "Numeric value"
-msgstr ""
+msgstr "Nilai angka"
 
 msgid "50"
-msgstr ""
+msgstr "50"
 
 msgid "40"
-msgstr ""
+msgstr "40"
 
 msgid "30"
-msgstr ""
+msgstr "30"
 
 msgid "20"
-msgstr ""
+msgstr "20"
 
 msgid "10"
-msgstr ""
+msgstr "10"
 
 msgid "``NOTSET``"
-msgstr ""
+msgstr "``NOTSET``"
 
 msgid "0"
 msgstr "0"
@@ -1443,16 +1454,16 @@ msgid "API reference for the logging module."
 msgstr ""
 
 msgid "Module :mod:`logging.config`"
-msgstr ""
+msgstr "Модуль :mod:`logging.config`"
 
 msgid "Configuration API for the logging module."
-msgstr ""
+msgstr "API конфігурації для модуля журналювання."
 
 msgid "Module :mod:`logging.handlers`"
-msgstr ""
+msgstr "Модуль :mod:`logging.handlers`"
 
 msgid "Useful handlers included with the logging module."
-msgstr ""
+msgstr "Корисні обробники, включені в модуль журналювання."
 
 msgid ":ref:`A logging cookbook <logging-cookbook>`"
 msgstr ""

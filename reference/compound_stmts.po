@@ -2490,7 +2490,7 @@ msgid "definition"
 msgstr ""
 
 msgid "name"
-msgstr ""
+msgstr "nazwa"
 
 msgid "binding"
 msgstr ""
@@ -2550,7 +2550,7 @@ msgid "execution"
 msgstr ""
 
 msgid "frame"
-msgstr ""
+msgstr "frame"
 
 msgid "inheritance"
 msgstr ""

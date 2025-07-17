@@ -693,7 +693,7 @@ msgid "interpolated string literal"
 msgstr ""
 
 msgid "string"
-msgstr ""
+msgstr "ciąg znaków"
 
 msgid "formatted literal"
 msgstr ""

@@ -765,7 +765,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr ""
+msgstr "parametry"
 
 msgid "a number (integer or float)"
 msgstr ""
@@ -2275,7 +2275,7 @@ msgid ">>> screen.mainloop()"
 msgstr ""
 
 msgid "string"
-msgstr ""
+msgstr "ciąg znaków"
 
 msgid ""
 "Pop up a dialog window for input of a string. Parameter title is the title "

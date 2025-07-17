@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Classes"
-msgstr ""
+msgstr "Klasy"
 
 msgid ""
 "Classes provide a means of bundling data and functionality together.  "
@@ -1109,7 +1109,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples::"
-msgstr ""
+msgstr "Przykłady::"
 
 msgid ""
 ">>> sum(i*i for i in range(10))                 # sum of squares\n"
@@ -1149,7 +1149,7 @@ msgid "method"
 msgstr "metoda"
 
 msgid "name"
-msgstr ""
+msgstr "nazwa"
 
 msgid "mangling"
 msgstr ""

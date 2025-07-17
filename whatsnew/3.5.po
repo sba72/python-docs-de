@@ -432,7 +432,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples::"
-msgstr ""
+msgstr "Przykłady::"
 
 msgid ""
 ">>> b'Hello %b!' % b'World'\n"
@@ -1079,7 +1079,7 @@ msgid ""
 msgstr ""
 
 msgid "code"
-msgstr ""
+msgstr "code"
 
 msgid ""
 "The :func:`InteractiveInterpreter.showtraceback() <code."
@@ -2357,7 +2357,7 @@ msgid ""
 msgstr ""
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid ""
 "New :func:`~traceback.walk_stack` and :func:`~traceback.walk_tb` functions "
