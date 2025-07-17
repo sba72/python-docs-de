@@ -1064,7 +1064,7 @@ msgid ""
 msgstr ""
 
 msgid ":ref:`formatstrings`"
-msgstr ""
+msgstr ":ref:`formatstrings`"
 
 msgid "The reference documentation for format fields."
 msgstr ""
@@ -1604,7 +1604,7 @@ msgid "Subclasses must then define a :meth:`readonly` property."
 msgstr ""
 
 msgid ":pep:`3119` - Introducing Abstract Base Classes"
-msgstr ""
+msgstr ":pep:`3119` - Представляємо абстрактні базові класи"
 
 msgid ""
 "PEP written by Guido van Rossum and Talin. Implemented by Guido van Rossum. "

@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 
 msgid "Method Objects"
-msgstr ""
+msgstr "Obiekty metod"
 
 msgid ""
 "Methods are bound function objects. Methods are always bound to an instance "

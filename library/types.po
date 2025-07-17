@@ -98,7 +98,7 @@ msgid ":pep:`3115` - Metaclasses in Python 3000"
 msgstr ":pep:`3115` - Метакласи в Python 3000"
 
 msgid "Introduced the ``__prepare__`` namespace hook"
-msgstr ""
+msgstr "Представлено хук простору імен ``__prepare__``"
 
 msgid "Resolve MRO entries dynamically as specified by :pep:`560`."
 msgstr ""
@@ -156,7 +156,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`560` - Core support for typing module and generic types"
-msgstr ""
+msgstr ":pep:`560` - Основна підтримка модуля введення та загальних типів"
 
 msgid "Standard Interpreter Types"
 msgstr ""
@@ -318,7 +318,7 @@ msgid "This type can now be subclassed."
 msgstr ""
 
 msgid ":ref:`Generic Alias Types<types-genericalias>`"
-msgstr ""
+msgstr ":ref:`Загальні типи псевдонімів <types-genericalias>`"
 
 msgid "In-depth documentation on instances of :class:`!types.GenericAlias`"
 msgstr ""

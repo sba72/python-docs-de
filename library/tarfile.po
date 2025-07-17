@@ -91,7 +91,7 @@ msgid ""
 msgstr ""
 
 msgid "mode"
-msgstr ""
+msgstr "mode"
 
 msgid "action"
 msgstr "aksi"

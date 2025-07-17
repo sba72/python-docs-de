@@ -517,7 +517,7 @@ msgid ""
 msgstr ""
 
 msgid "Odds and Ends"
-msgstr ""
+msgstr "Przypadki losowe"
 
 msgid ""
 "For locale aware sorting, use :func:`locale.strxfrm` for a key function or :"

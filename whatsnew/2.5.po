@@ -1291,7 +1291,7 @@ msgid ""
 msgstr ""
 
 msgid "Some examples::"
-msgstr ""
+msgstr "Trochę przykładów::"
 
 msgid ""
 ">>> ('http://www.python.org').partition('://')\n"

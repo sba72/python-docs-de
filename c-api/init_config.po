@@ -268,7 +268,7 @@ msgid "Configuration Options"
 msgstr ""
 
 msgid "Option"
-msgstr ""
+msgstr "Opsi"
 
 msgid "PyConfig/PyPreConfig member"
 msgstr ""
@@ -277,7 +277,7 @@ msgid "Type"
 msgstr "Typ"
 
 msgid "Visibility"
-msgstr ""
+msgstr "Widoczność"
 
 msgid "``\"allocator\"``"
 msgstr ""
@@ -289,7 +289,7 @@ msgid "``int``"
 msgstr "``int``"
 
 msgid "Read-only"
-msgstr ""
+msgstr "Лише для читання"
 
 msgid "``\"argv\"``"
 msgstr ""
