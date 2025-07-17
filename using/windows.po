@@ -1828,7 +1828,7 @@ msgid "Perform a system-wide installation."
 msgstr ""
 
 msgid "0"
-msgstr ""
+msgstr "0"
 
 msgid "TargetDir"
 msgstr ""
@@ -2635,7 +2635,7 @@ msgid ""
 msgstr ""
 
 msgid "Value"
-msgstr ""
+msgstr "Wartość"
 
 msgid "RC_BAD_VENV_CFG"
 msgstr ""

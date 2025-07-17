@@ -42,13 +42,13 @@ msgid "Index"
 msgstr ""
 
 msgid "Attribute"
-msgstr ""
+msgstr "atrybut"
 
 msgid "Meaning"
 msgstr "Znaczenie"
 
 msgid "0"
-msgstr ""
+msgstr "0"
 
 msgid "gr_name"
 msgstr ""

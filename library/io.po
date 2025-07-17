@@ -1389,7 +1389,7 @@ msgid ""
 msgstr ""
 
 msgid "Performance"
-msgstr ""
+msgstr "Wydajność"
 
 msgid ""
 "This section discusses the performance of the provided concrete I/O "
@@ -1462,13 +1462,13 @@ msgid ""
 msgstr ""
 
 msgid "file object"
-msgstr ""
+msgstr "obiekt plik"
 
 msgid "io module"
 msgstr ""
 
 msgid "universal newlines"
-msgstr ""
+msgstr "uniwersalne nowe linie"
 
 msgid "io.TextIOWrapper class"
 msgstr ""

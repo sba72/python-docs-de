@@ -157,7 +157,7 @@ msgid "See also the main :ref:`Tasks documentation page <coroutine>`."
 msgstr ""
 
 msgid "Queues"
-msgstr ""
+msgstr "Черги"
 
 msgid ""
 "Queues should be used to distribute work amongst multiple asyncio Tasks, "

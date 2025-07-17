@@ -1311,7 +1311,7 @@ msgid ""
 msgstr ""
 
 msgid "Accepts a :term:`path-like object`."
-msgstr ""
+msgstr "Menerima sebuah :term:`path-like object`."
 
 msgid ""
 "Given the *path* to a :pep:`3147` file name, return the associated source "
@@ -1674,7 +1674,7 @@ msgid ""
 msgstr ""
 
 msgid "universal newlines"
-msgstr ""
+msgstr "uniwersalne nowe linie"
 
 msgid "importlib.abc.InspectLoader.get_source method"
 msgstr ""

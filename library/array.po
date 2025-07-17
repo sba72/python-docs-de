@@ -55,7 +55,7 @@ msgid "signed char"
 msgstr ""
 
 msgid "int"
-msgstr ""
+msgstr "int"
 
 msgid "1"
 msgstr ""
@@ -112,7 +112,7 @@ msgid "``'I'``"
 msgstr ""
 
 msgid "unsigned int"
-msgstr ""
+msgstr "nieoznaczony typ int"
 
 msgid "``'l'``"
 msgstr ""
@@ -124,7 +124,7 @@ msgid "``'L'``"
 msgstr ""
 
 msgid "unsigned long"
-msgstr ""
+msgstr "nieoznaczony typ długi"
 
 msgid "``'q'``"
 msgstr ""
@@ -139,7 +139,7 @@ msgid "``'Q'``"
 msgstr ""
 
 msgid "unsigned long long"
-msgstr ""
+msgstr "unsigned long long"
 
 msgid "``'f'``"
 msgstr ""

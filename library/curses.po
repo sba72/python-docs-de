@@ -1313,7 +1313,7 @@ msgid ""
 msgstr ""
 
 msgid "Attribute"
-msgstr ""
+msgstr "atrybut"
 
 msgid "Meaning"
 msgstr "Znaczenie"

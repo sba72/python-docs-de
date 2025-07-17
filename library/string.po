@@ -537,7 +537,7 @@ msgid "The available string presentation types are:"
 msgstr ""
 
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 msgid "``'s'``"
 msgstr ""

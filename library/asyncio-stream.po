@@ -58,7 +58,7 @@ msgid ""
 msgstr ""
 
 msgid "See also the `Examples`_ section below."
-msgstr ""
+msgstr "Дивіться також розділ `Examples`_ нижче."
 
 msgid "Stream Functions"
 msgstr ""

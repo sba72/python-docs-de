@@ -2417,7 +2417,7 @@ msgid "auditing"
 msgstr ""
 
 msgid "object"
-msgstr ""
+msgstr "obiekt"
 
 msgid "traceback"
 msgstr ""
@@ -2435,7 +2435,7 @@ msgid "debugger"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "search"
 msgstr ""

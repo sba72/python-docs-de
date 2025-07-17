@@ -94,7 +94,7 @@ msgid "mode"
 msgstr ""
 
 msgid "action"
-msgstr ""
+msgstr "aksi"
 
 msgid "``'r'`` or ``'r:*'``"
 msgstr ""

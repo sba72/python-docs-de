@@ -1648,7 +1648,7 @@ msgid "u\""
 msgstr ""
 
 msgid "triple-quoted string"
-msgstr ""
+msgstr "teks tiga-kutip"
 
 msgid "Unicode Consortium"
 msgstr ""
@@ -1693,7 +1693,7 @@ msgid "Standard C"
 msgstr ""
 
 msgid "C"
-msgstr ""
+msgstr "C"
 
 msgid "\\ (backslash)"
 msgstr ""
@@ -1747,7 +1747,7 @@ msgid "interpolated literal"
 msgstr ""
 
 msgid "f-string"
-msgstr ""
+msgstr "f-string"
 
 msgid "fstring"
 msgstr ""

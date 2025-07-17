@@ -1624,7 +1624,7 @@ msgid "Operation"
 msgstr ""
 
 msgid "Form"
-msgstr ""
+msgstr "Bentuk"
 
 msgid "Specialization"
 msgstr ""
@@ -2122,7 +2122,7 @@ msgid ""
 msgstr ""
 
 msgid "Modules"
-msgstr ""
+msgstr "Moduły"
 
 msgid ""
 ":pep:`594` led to the deprecations of the following modules slated for "

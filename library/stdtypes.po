@@ -556,7 +556,7 @@ msgid "*x* shifted left by *n* bits"
 msgstr ""
 
 msgid "(1)(2)"
-msgstr ""
+msgstr "(1)(2)"
 
 msgid "``x >> n``"
 msgstr ""
@@ -1156,7 +1156,7 @@ msgid "the concatenation of *s* and *t*"
 msgstr ""
 
 msgid "(6)(7)"
-msgstr ""
+msgstr "(6)(7)"
 
 msgid "``s * n`` or ``n * s``"
 msgstr ""
@@ -6270,7 +6270,7 @@ msgid ""
 msgstr ""
 
 msgid "Modules"
-msgstr ""
+msgstr "Moduły"
 
 msgid ""
 "The only special operation on a module is attribute access: ``m.name``, "
@@ -6744,7 +6744,7 @@ msgid "types"
 msgstr "types"
 
 msgid "statement"
-msgstr ""
+msgstr "instrukcja"
 
 msgid "if"
 msgstr ""
@@ -6828,7 +6828,7 @@ msgid "is not"
 msgstr ""
 
 msgid "object"
-msgstr ""
+msgstr "obiekt"
 
 msgid "numeric"
 msgstr ""
@@ -6870,10 +6870,10 @@ msgid "floating-point"
 msgstr ""
 
 msgid "complex number"
-msgstr ""
+msgstr "liczba zespolona"
 
 msgid "C"
-msgstr ""
+msgstr "C"
 
 msgid "language"
 msgstr ""
@@ -6897,7 +6897,7 @@ msgid "built-in function"
 msgstr ""
 
 msgid "int"
-msgstr ""
+msgstr "int"
 
 msgid "float"
 msgstr ""
@@ -6939,7 +6939,7 @@ msgid "conjugate() (complex number method)"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "math"
 msgstr "math"
@@ -6993,10 +6993,10 @@ msgid "protocol"
 msgstr ""
 
 msgid "iterator"
-msgstr ""
+msgstr "iterator"
 
 msgid "sequence"
-msgstr ""
+msgstr "sekwencja"
 
 msgid "iteration"
 msgstr ""
@@ -7029,7 +7029,7 @@ msgid "subscript"
 msgstr ""
 
 msgid "slice"
-msgstr ""
+msgstr "шматочок"
 
 msgid "count() (sequence method)"
 msgstr ""
@@ -7050,19 +7050,19 @@ msgid "loop over"
 msgstr ""
 
 msgid "immutable"
-msgstr ""
+msgstr "незмінний"
 
 msgid "tuple"
-msgstr ""
+msgstr "tuple"
 
 msgid "hash"
 msgstr ""
 
 msgid "mutable"
-msgstr ""
+msgstr "мінливий"
 
 msgid "list"
-msgstr ""
+msgstr "lista"
 
 msgid "bytearray"
 msgstr ""
@@ -7131,7 +7131,7 @@ msgid "re"
 msgstr ""
 
 msgid "universal newlines"
-msgstr ""
+msgstr "uniwersalne nowe linie"
 
 msgid "str.splitlines method"
 msgstr ""
@@ -7242,16 +7242,16 @@ msgid "set"
 msgstr ""
 
 msgid "mapping"
-msgstr ""
+msgstr "pemetaan"
 
 msgid "dictionary"
-msgstr ""
+msgstr "słownik"
 
 msgid "__missing__()"
 msgstr ""
 
 msgid "context manager"
-msgstr ""
+msgstr "manajer konteks"
 
 msgid "context management protocol"
 msgstr ""
@@ -7260,7 +7260,7 @@ msgid "context management"
 msgstr ""
 
 msgid "annotation"
-msgstr ""
+msgstr "adnotacja"
 
 msgid "type annotation; type hint"
 msgstr ""
@@ -7281,7 +7281,7 @@ msgid "union"
 msgstr ""
 
 msgid "method"
-msgstr ""
+msgstr "metoda"
 
 msgid "code"
 msgstr ""

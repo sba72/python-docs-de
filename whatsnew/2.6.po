@@ -26,7 +26,7 @@ msgid "What's New in Python 2.6"
 msgstr ""
 
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 msgid "A.M. Kuchling (amk at amk.ca)"
 msgstr ""
@@ -1687,7 +1687,7 @@ msgid ""
 msgstr ""
 
 msgid "This is equivalent to::"
-msgstr ""
+msgstr "Ini setara dengan::"
 
 msgid ""
 "class A:\n"
@@ -4029,7 +4029,7 @@ msgid ""
 msgstr ""
 
 msgid "universal newlines"
-msgstr ""
+msgstr "uniwersalne nowe linie"
 
 msgid "What's new"
 msgstr ""

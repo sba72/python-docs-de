@@ -814,7 +814,7 @@ msgid "Expat"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "pyexpat"
 msgstr ""

@@ -52,7 +52,7 @@ msgid ""
 msgstr ""
 
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 msgid "Packed as .zip"
 msgstr ""
@@ -313,7 +313,7 @@ msgid "All functions, classes, and terms"
 msgstr ""
 
 msgid "Glossary"
-msgstr ""
+msgstr "Glosariusz"
 
 msgid "Terms explained"
 msgstr ""

@@ -26,7 +26,7 @@ msgid "What's New in Python 2.5"
 msgstr ""
 
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 msgid "A.M. Kuchling"
 msgstr ""
@@ -2938,7 +2938,7 @@ msgid ""
 msgstr ""
 
 msgid "universal newlines"
-msgstr ""
+msgstr "uniwersalne nowe linie"
 
 msgid "What's new"
 msgstr ""

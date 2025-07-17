@@ -426,4 +426,4 @@ msgid "Benchmarking"
 msgstr ""
 
 msgid "Performance"
-msgstr ""
+msgstr "Wydajność"

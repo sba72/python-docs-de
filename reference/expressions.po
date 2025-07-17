@@ -2610,7 +2610,7 @@ msgstr ""
 "застосовується той самий пріоритет."
 
 msgid "expression"
-msgstr ""
+msgstr "wyrażenie"
 
 msgid "BNF"
 msgstr ""
@@ -2649,7 +2649,7 @@ msgid "literal"
 msgstr ""
 
 msgid "immutable"
-msgstr ""
+msgstr "незмінний"
 
 msgid "data"
 msgstr ""
@@ -2658,7 +2658,7 @@ msgid "type"
 msgstr "Typ"
 
 msgid "object"
-msgstr ""
+msgstr "obiekt"
 
 msgid "parenthesized form"
 msgstr ""
@@ -2673,7 +2673,7 @@ msgid "empty"
 msgstr ""
 
 msgid "tuple"
-msgstr ""
+msgstr "tuple"
 
 msgid "comma"
 msgstr ""
@@ -2700,7 +2700,7 @@ msgid "await"
 msgstr ""
 
 msgid "list"
-msgstr ""
+msgstr "lista"
 
 msgid "display"
 msgstr ""
@@ -2724,7 +2724,7 @@ msgid "set expression"
 msgstr ""
 
 msgid "dictionary"
-msgstr ""
+msgstr "słownik"
 
 msgid "key"
 msgstr ""
@@ -2754,13 +2754,13 @@ msgid "**"
 msgstr ""
 
 msgid "hashable"
-msgstr ""
+msgstr "хешований"
 
 msgid "generator"
-msgstr ""
+msgstr "generator"
 
 msgid "generator expression"
-msgstr ""
+msgstr "генераторний вираз"
 
 msgid "keyword"
 msgstr ""
@@ -2772,10 +2772,10 @@ msgid "from"
 msgstr ""
 
 msgid "function"
-msgstr ""
+msgstr "funkcja"
 
 msgid "coroutine"
-msgstr ""
+msgstr "coroutine"
 
 msgid "yield from expression"
 msgstr ""
@@ -2814,16 +2814,16 @@ msgid "AttributeError"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "subscription"
 msgstr ""
 
 msgid "sequence"
-msgstr ""
+msgstr "sekwencja"
 
 msgid "mapping"
-msgstr ""
+msgstr "pemetaan"
 
 msgid "string"
 msgstr ""
@@ -2838,7 +2838,7 @@ msgid "slicing"
 msgstr ""
 
 msgid "slice"
-msgstr ""
+msgstr "шматочок"
 
 msgid "start (slice object attribute)"
 msgstr ""
@@ -2850,13 +2850,13 @@ msgid "step (slice object attribute)"
 msgstr ""
 
 msgid "callable"
-msgstr ""
+msgstr "викликний"
 
 msgid "call"
 msgstr ""
 
 msgid "argument"
-msgstr ""
+msgstr "argument"
 
 msgid "call semantics"
 msgstr ""
@@ -2871,7 +2871,7 @@ msgid "in function calls"
 msgstr ""
 
 msgid "parameter"
-msgstr ""
+msgstr "parameter"
 
 msgid "* (asterisk)"
 msgstr ""
@@ -2886,13 +2886,13 @@ msgid "built-in function"
 msgstr ""
 
 msgid "method"
-msgstr ""
+msgstr "metoda"
 
 msgid "built-in method"
 msgstr ""
 
 msgid "class"
-msgstr ""
+msgstr "klasa"
 
 msgid "class object"
 msgstr ""
@@ -3027,7 +3027,7 @@ msgid "comparison"
 msgstr ""
 
 msgid "C"
-msgstr ""
+msgstr "C"
 
 msgid "language"
 msgstr ""
@@ -3114,7 +3114,7 @@ msgid "else"
 msgstr ""
 
 msgid "lambda"
-msgstr ""
+msgstr "lambda"
 
 msgid "form"
 msgstr ""
@@ -3126,7 +3126,7 @@ msgid "lambda expression"
 msgstr ""
 
 msgid "iterable"
-msgstr ""
+msgstr "ітерований"
 
 msgid "in expression lists"
 msgstr ""

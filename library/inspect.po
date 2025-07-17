@@ -56,16 +56,16 @@ msgid ""
 msgstr ""
 
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 msgid "Attribute"
-msgstr ""
+msgstr "atrybut"
 
 msgid "Description"
 msgstr "Beschreibung"
 
 msgid "class"
-msgstr ""
+msgstr "klasa"
 
 msgid "__doc__"
 msgstr ""
@@ -83,7 +83,7 @@ msgid "__qualname__"
 msgstr ""
 
 msgid "qualified name"
-msgstr ""
+msgstr "nama yang memenuhi syarat"
 
 msgid "__module__"
 msgstr ""
@@ -100,7 +100,7 @@ msgid ""
 msgstr ""
 
 msgid "method"
-msgstr ""
+msgstr "metoda"
 
 msgid "name with which this method was defined"
 msgstr ""
@@ -121,7 +121,7 @@ msgid "name of module in which this method was defined"
 msgstr ""
 
 msgid "function"
-msgstr ""
+msgstr "funkcja"
 
 msgid "name with which this function was defined"
 msgstr ""
@@ -399,7 +399,7 @@ msgid "returns a copy of the code object with new values"
 msgstr ""
 
 msgid "generator"
-msgstr ""
+msgstr "generator"
 
 msgid "name"
 msgstr ""
@@ -441,7 +441,7 @@ msgid "ag_code"
 msgstr ""
 
 msgid "coroutine"
-msgstr ""
+msgstr "coroutine"
 
 msgid "cr_await"
 msgstr ""

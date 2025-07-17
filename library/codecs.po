@@ -338,7 +338,7 @@ msgid ""
 msgstr ""
 
 msgid "Value"
-msgstr ""
+msgstr "Wartość"
 
 msgid "Meaning"
 msgstr "Znaczenie"

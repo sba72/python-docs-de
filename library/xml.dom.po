@@ -1071,7 +1071,7 @@ msgid "``null``"
 msgstr ""
 
 msgid "``None``"
-msgstr ""
+msgstr "``None`` - z ang. - ``Żaden``"
 
 msgid "Accessor Methods"
 msgstr ""

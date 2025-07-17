@@ -138,7 +138,7 @@ msgid ":func:`chain.from_iterable`"
 msgstr ""
 
 msgid "iterable"
-msgstr ""
+msgstr "ітерований"
 
 msgid "``chain.from_iterable(['ABC', 'DEF']) → A B C D E F``"
 msgstr ""
