@@ -1905,7 +1905,7 @@ msgid ""
 msgstr ""
 
 msgid "Parsing arguments"
-msgstr ""
+msgstr "Parsowanie argumentów"
 
 msgid ""
 "The whole point of creating and populating an OptionParser is to call its :"
