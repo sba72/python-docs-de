@@ -290,7 +290,7 @@ msgid "C type"
 msgstr ""
 
 msgid "Python type"
-msgstr ""
+msgstr "tipe Python"
 
 msgid ":class:`c_bool`"
 msgstr ""

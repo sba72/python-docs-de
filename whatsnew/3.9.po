@@ -881,7 +881,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr ""
+msgstr "time"
 
 msgid ""
 "On AIX, :func:`~time.thread_time` is now implemented with "

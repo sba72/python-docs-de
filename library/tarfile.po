@@ -258,7 +258,7 @@ msgid ""
 msgstr ""
 
 msgid "Mode"
-msgstr ""
+msgstr "Режим"
 
 msgid "Action"
 msgstr "Дія"
@@ -1397,7 +1397,7 @@ msgid ""
 msgstr ""
 
 msgid "Command-Line Interface"
-msgstr ""
+msgstr "Інтерфейс командного рядка"
 
 msgid ""
 "The :mod:`tarfile` module provides a simple command-line interface to "
@@ -1441,7 +1441,7 @@ msgid "$ python -m tarfile -l monty.tar"
 msgstr ""
 
 msgid "Command-line options"
-msgstr ""
+msgstr "Параметри командного рядка"
 
 msgid "List files in a tarfile."
 msgstr ""

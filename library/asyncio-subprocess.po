@@ -351,6 +351,8 @@ msgid ""
 "A negative value ``-N`` indicates that the child was terminated by signal "
 "``N`` (POSIX only)."
 msgstr ""
+"Від’ємне значення ``-N`` вказує на те, що дочірній елемент було завершено "
+"сигналом ``N`` (лише POSIX)."
 
 msgid "Subprocess and Threads"
 msgstr ""

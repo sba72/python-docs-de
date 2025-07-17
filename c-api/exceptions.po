@@ -578,7 +578,7 @@ msgid ""
 msgstr ""
 
 msgid "Signal Handling"
-msgstr ""
+msgstr "Penanganan Sinyal *Signal*"
 
 msgid "This function interacts with Python's signal handling."
 msgstr ""
@@ -1136,40 +1136,40 @@ msgid "Warning types"
 msgstr ""
 
 msgid ":exc:`Warning`"
-msgstr ""
+msgstr ":exc:`Warning`"
 
 msgid ":exc:`BytesWarning`"
-msgstr ""
+msgstr ":exc:`BytesWarning`"
 
 msgid ":exc:`DeprecationWarning`"
-msgstr ""
+msgstr ":exc:`DeprecationWarning`"
 
 msgid ":exc:`EncodingWarning`"
 msgstr ""
 
 msgid ":exc:`FutureWarning`"
-msgstr ""
+msgstr ":exc:`FutureWarning`"
 
 msgid ":exc:`ImportWarning`"
-msgstr ""
+msgstr ":exc:`ImportWarning`"
 
 msgid ":exc:`PendingDeprecationWarning`"
-msgstr ""
+msgstr ":exc:`PendingDeprecationWarning`"
 
 msgid ":exc:`ResourceWarning`"
-msgstr ""
+msgstr ":exc:`ResourceWarning`"
 
 msgid ":exc:`RuntimeWarning`"
-msgstr ""
+msgstr ":exc:`RuntimeWarning`"
 
 msgid ":exc:`SyntaxWarning`"
-msgstr ""
+msgstr ":exc:`SyntaxWarning`"
 
 msgid ":exc:`UnicodeWarning`"
-msgstr ""
+msgstr ":exc:`UnicodeWarning`"
 
 msgid ":exc:`UserWarning`"
-msgstr ""
+msgstr ":exc:`UserWarning`"
 
 msgid ":c:data:`PyExc_ResourceWarning`."
 msgstr ""

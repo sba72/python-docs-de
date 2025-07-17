@@ -2288,7 +2288,7 @@ msgid "*Release date: 2025-04-08*"
 msgstr ""
 
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 msgid ":gh:`124111`: Update macOS installer to use Tcl/Tk 8.6.16."
 msgstr ""

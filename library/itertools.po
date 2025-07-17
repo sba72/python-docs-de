@@ -339,7 +339,7 @@ msgid ""
 msgstr ""
 
 msgid "Roughly equivalent to::"
-msgstr ""
+msgstr "Приблизно еквівалентно::"
 
 msgid ""
 "def accumulate(iterable, function=operator.add, *, initial=None):\n"

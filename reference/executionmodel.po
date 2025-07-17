@@ -486,7 +486,7 @@ msgid "execution model"
 msgstr ""
 
 msgid "code"
-msgstr ""
+msgstr "code"
 
 msgid "block"
 msgstr ""
@@ -495,7 +495,7 @@ msgid "execution"
 msgstr ""
 
 msgid "frame"
-msgstr ""
+msgstr "frame"
 
 msgid "namespace"
 msgstr "простір імен"

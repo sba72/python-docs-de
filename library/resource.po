@@ -41,10 +41,10 @@ msgid "An :exc:`OSError` is raised on syscall failure."
 msgstr ""
 
 msgid "A deprecated alias of :exc:`OSError`."
-msgstr ""
+msgstr "Застарілий псевдонім :exc:`OSError`."
 
 msgid "Following :pep:`3151`, this class was made an alias of :exc:`OSError`."
-msgstr ""
+msgstr "Після :pep:`3151` цей клас отримав псевдонім :exc:`OSError`."
 
 msgid "Resource Limits"
 msgstr ""
@@ -283,7 +283,7 @@ msgid ""
 msgstr ""
 
 msgid "Index"
-msgstr ""
+msgstr "Indeks"
 
 msgid "Field"
 msgstr "Pole"

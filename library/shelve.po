@@ -179,7 +179,7 @@ msgid ""
 msgstr ""
 
 msgid "Added context manager support."
-msgstr ""
+msgstr "Додано підтримку менеджера контексту."
 
 msgid ""
 "A subclass of :class:`Shelf` which exposes :meth:`!first`, :meth:`!next`, :"

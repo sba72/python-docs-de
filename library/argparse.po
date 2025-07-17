@@ -883,7 +883,7 @@ msgid ""
 msgstr ""
 
 msgid "color"
-msgstr ""
+msgstr "колір"
 
 msgid ""
 "By default, the help message is printed in plain text. If you want to allow "

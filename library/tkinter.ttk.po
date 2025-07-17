@@ -166,7 +166,7 @@ msgid ""
 msgstr ""
 
 msgid "cursor"
-msgstr ""
+msgstr "kursor"
 
 msgid ""
 "Specifies the mouse cursor to be used for the widget. If set to the empty "
@@ -288,7 +288,7 @@ msgid "none: the default. display the image if present, otherwise the text."
 msgstr ""
 
 msgid "width"
-msgstr ""
+msgstr "lebar"
 
 msgid ""
 "If greater than zero, specifies how much space, in character widths, to "
@@ -300,7 +300,7 @@ msgid "Compatibility Options"
 msgstr ""
 
 msgid "state"
-msgstr ""
+msgstr "стан"
 
 msgid ""
 "May be set to \"normal\" or \"disabled\" to control the \"disabled\" state "
@@ -332,7 +332,7 @@ msgid "Widget is disabled under program control"
 msgstr ""
 
 msgid "focus"
-msgstr ""
+msgstr "fokus"
 
 msgid "Widget has keyboard focus"
 msgstr ""
@@ -448,7 +448,7 @@ msgid ""
 msgstr ""
 
 msgid "justify"
-msgstr ""
+msgstr "виправдати"
 
 msgid ""
 "Specifies how the text is aligned within the widget. One of \"left\", "
@@ -456,7 +456,7 @@ msgid ""
 msgstr ""
 
 msgid "height"
-msgstr ""
+msgstr "tinggi"
 
 msgid "Specifies the height of the pop-down listbox, in rows."
 msgstr ""
@@ -566,7 +566,7 @@ msgid ""
 msgstr ""
 
 msgid "wrap"
-msgstr ""
+msgstr "загорнути"
 
 msgid ""
 "Boolean value.  If ``True``, increment and decrement buttons will cycle from "
@@ -1109,7 +1109,7 @@ msgid "Specifies the cell or item background color."
 msgstr ""
 
 msgid "font"
-msgstr ""
+msgstr "font"
 
 msgid "Specifies the font to use when drawing text."
 msgstr ""
@@ -1348,7 +1348,7 @@ msgid "Returns one of:"
 msgstr ""
 
 msgid "region"
-msgstr ""
+msgstr "область"
 
 msgid "meaning"
 msgstr ""
@@ -1366,7 +1366,7 @@ msgid "Space between two columns headings."
 msgstr ""
 
 msgid "tree"
-msgstr ""
+msgstr "pohon"
 
 msgid "The tree area."
 msgstr ""

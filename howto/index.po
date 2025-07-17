@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Python HOWTOs"
-msgstr ""
+msgstr "Pythonowe „Jak to zrobić?”"
 
 msgid ""
 "Python HOWTOs are documents that cover a specific topic in-depth. Modeled on "

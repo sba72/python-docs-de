@@ -496,7 +496,7 @@ msgid ""
 msgstr ""
 
 msgid "String Methods"
-msgstr ""
+msgstr "Metody ciągów"
 
 msgid ""
 "Until now string-manipulation functionality was in the :mod:`string` module, "

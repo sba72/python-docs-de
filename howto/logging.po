@@ -1445,7 +1445,7 @@ msgid ""
 msgstr ""
 
 msgid "Other resources"
-msgstr ""
+msgstr "Inne zasoby"
 
 msgid "Module :mod:`logging`"
 msgstr ""

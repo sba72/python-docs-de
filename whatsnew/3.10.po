@@ -1627,7 +1627,7 @@ msgid ""
 msgstr ""
 
 msgid "platform"
-msgstr ""
+msgstr "платформа"
 
 msgid ""
 "Add :func:`platform.freedesktop_os_release` to retrieve operation system "
@@ -1809,7 +1809,7 @@ msgid ""
 msgstr ""
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid ""
 "The :func:`~traceback.format_exception`, :func:`~traceback."

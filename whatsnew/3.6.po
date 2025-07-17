@@ -1815,7 +1815,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr ""
+msgstr "time"
 
 msgid ""
 "The :class:`~time.struct_time` attributes :attr:`tm_gmtoff` and :attr:"
@@ -1851,7 +1851,7 @@ msgid ""
 msgstr ""
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid ""
 "Both the traceback module and the interpreter's builtin exception display "

@@ -1095,7 +1095,7 @@ msgid "output"
 msgstr ""
 
 msgid "standard"
-msgstr ""
+msgstr "стандарт"
 
 msgid "writing"
 msgstr ""
@@ -1311,7 +1311,7 @@ msgid "__traceback__ (exception attribute)"
 msgstr ""
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid "chaining"
 msgstr ""

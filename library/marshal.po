@@ -300,7 +300,7 @@ msgid "object"
 msgstr "obiekt"
 
 msgid "code"
-msgstr ""
+msgstr "code"
 
 msgid "code object"
 msgstr ""

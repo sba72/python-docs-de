@@ -149,7 +149,7 @@ msgid "Attribute"
 msgstr "atrybut"
 
 msgid "Index"
-msgstr ""
+msgstr "Indeks"
 
 msgid "Value"
 msgstr "Wartość"
@@ -224,7 +224,7 @@ msgid "User name"
 msgstr ""
 
 msgid ":const:`None`"
-msgstr ""
+msgstr ":const:`None`"
 
 msgid ":attr:`password`"
 msgstr ""

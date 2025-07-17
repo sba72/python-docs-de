@@ -183,7 +183,7 @@ msgid ""
 msgstr ""
 
 msgid "Features"
-msgstr ""
+msgstr "особливості"
 
 msgid ""
 "All native single character format specifiers in struct module syntax "
@@ -2731,7 +2731,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr ""
+msgstr "time"
 
 msgid "The :pep:`418` added new functions to the :mod:`time` module:"
 msgstr ""

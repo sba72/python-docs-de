@@ -716,7 +716,7 @@ msgid "*socktype* was added."
 msgstr ""
 
 msgid "*timeout* was added."
-msgstr ""
+msgstr "Додано *тайм-аут*."
 
 msgid "Closes the socket to the remote host."
 msgstr ""

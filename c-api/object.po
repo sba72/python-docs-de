@@ -803,7 +803,7 @@ msgid "PyObject_Str (C function)"
 msgstr ""
 
 msgid "bytes"
-msgstr ""
+msgstr "байтів"
 
 msgid "hash"
 msgstr ""
