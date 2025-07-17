@@ -529,7 +529,7 @@ msgid "Special read-only attributes"
 msgstr ""
 
 msgid "Attribute"
-msgstr ""
+msgstr "atrybut"
 
 msgid "Meaning"
 msgstr "Znaczenie"
@@ -827,7 +827,7 @@ msgid ""
 msgstr ""
 
 msgid "Modules"
-msgstr ""
+msgstr "Moduły"
 
 msgid ""
 "Modules are a basic organizational unit of Python code, and are created by "
@@ -2453,7 +2453,7 @@ msgid ""
 msgstr ""
 
 msgid "__slots__"
-msgstr ""
+msgstr "__slots__"
 
 msgid ""
 "*__slots__* allow us to explicitly declare data members (like properties) "
@@ -3873,7 +3873,7 @@ msgid ""
 msgstr ""
 
 msgid "object"
-msgstr ""
+msgstr "obiekt"
 
 msgid "data"
 msgstr ""
@@ -3903,7 +3903,7 @@ msgid "immutable object"
 msgstr ""
 
 msgid "garbage collection"
-msgstr ""
+msgstr "zbieranie śmieci"
 
 msgid "reference counting"
 msgstr ""
@@ -3921,10 +3921,10 @@ msgid "extension"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "C"
-msgstr ""
+msgstr "C"
 
 msgid "language"
 msgstr ""
@@ -3978,7 +3978,7 @@ msgid "len"
 msgstr ""
 
 msgid "sequence"
-msgstr ""
+msgstr "sekwencja"
 
 msgid "index operation"
 msgstr ""
@@ -3996,7 +3996,7 @@ msgid "immutable sequence"
 msgstr ""
 
 msgid "immutable"
-msgstr ""
+msgstr "незмінний"
 
 msgid "string"
 msgstr ""
@@ -4017,7 +4017,7 @@ msgid "Unicode"
 msgstr ""
 
 msgid "tuple"
-msgstr ""
+msgstr "tuple"
 
 msgid "singleton"
 msgstr ""
@@ -4035,13 +4035,13 @@ msgid "mutable sequence"
 msgstr ""
 
 msgid "mutable"
-msgstr ""
+msgstr "мінливий"
 
 msgid "assignment"
 msgstr ""
 
 msgid "statement"
-msgstr ""
+msgstr "instrukcja"
 
 msgid "array"
 msgstr "Array"
@@ -4050,7 +4050,7 @@ msgid "collections"
 msgstr ""
 
 msgid "list"
-msgstr ""
+msgstr "lista"
 
 msgid "bytearray"
 msgstr ""
@@ -4065,10 +4065,10 @@ msgid "frozenset"
 msgstr ""
 
 msgid "mapping"
-msgstr ""
+msgstr "pemetaan"
 
 msgid "dictionary"
-msgstr ""
+msgstr "słownik"
 
 msgid "dbm.ndbm"
 msgstr ""
@@ -4077,10 +4077,10 @@ msgid "dbm.gnu"
 msgstr ""
 
 msgid "callable"
-msgstr ""
+msgstr "викликний"
 
 msgid "function"
-msgstr ""
+msgstr "funkcja"
 
 msgid "call"
 msgstr ""
@@ -4089,7 +4089,7 @@ msgid "invocation"
 msgstr ""
 
 msgid "argument"
-msgstr ""
+msgstr "argument"
 
 msgid "user-defined"
 msgstr ""
@@ -4107,7 +4107,7 @@ msgid "global"
 msgstr ""
 
 msgid "namespace"
-msgstr ""
+msgstr "простір імен"
 
 msgid "__doc__ (function attribute)"
 msgstr ""
@@ -4140,7 +4140,7 @@ msgid "__type_params__ (function attribute)"
 msgstr ""
 
 msgid "method"
-msgstr ""
+msgstr "metoda"
 
 msgid "user-defined method"
 msgstr ""
@@ -4161,19 +4161,19 @@ msgid "__module__ (method attribute)"
 msgstr ""
 
 msgid "generator"
-msgstr ""
+msgstr "generator"
 
 msgid "iterator"
-msgstr ""
+msgstr "iterator"
 
 msgid "coroutine"
-msgstr ""
+msgstr "coroutine"
 
 msgid "asynchronous generator"
-msgstr ""
+msgstr "pembangkit asinkron"
 
 msgid "asynchronous iterator"
-msgstr ""
+msgstr "iterator asinkron"
 
 msgid "built-in method"
 msgstr ""
@@ -4218,7 +4218,7 @@ msgid "__dict__ (module attribute)"
 msgstr ""
 
 msgid "class"
-msgstr ""
+msgstr "klasa"
 
 msgid "class instance"
 msgstr ""
@@ -4305,7 +4305,7 @@ msgid "types, internal"
 msgstr ""
 
 msgid "bytecode"
-msgstr ""
+msgstr "kod bajtowy"
 
 msgid "code"
 msgstr ""
@@ -4449,7 +4449,7 @@ msgid "tb_next (traceback attribute)"
 msgstr ""
 
 msgid "slice"
-msgstr ""
+msgstr "шматочок"
 
 msgid "start (slice object attribute)"
 msgstr ""
@@ -4530,7 +4530,7 @@ msgid "__class__ (module attribute)"
 msgstr ""
 
 msgid "metaclass"
-msgstr ""
+msgstr "metaklasa"
 
 msgid "= (equals)"
 msgstr ""
@@ -4566,7 +4566,7 @@ msgid "abs"
 msgstr ""
 
 msgid "int"
-msgstr ""
+msgstr "int"
 
 msgid "float"
 msgstr ""
@@ -4578,4 +4578,4 @@ msgid "with"
 msgstr ""
 
 msgid "context manager"
-msgstr ""
+msgstr "manajer konteks"

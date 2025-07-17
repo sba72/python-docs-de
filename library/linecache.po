@@ -96,7 +96,7 @@ msgid ""
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "search"
 msgstr ""

@@ -1180,7 +1180,7 @@ msgid ""
 msgstr ""
 
 msgid "Return ``True`` if the queue is empty, ``False`` otherwise."
-msgstr ""
+msgstr "Повертає ``True``, якщо черга порожня, ``False`` інакше."
 
 msgid "Always raises an :exc:`OSError` if the SimpleQueue is closed."
 msgstr ""
@@ -1363,7 +1363,7 @@ msgid "Now supported on POSIX when the ``'spawn'`` start method is used."
 msgstr ""
 
 msgid "Accepts a :term:`path-like object`."
-msgstr ""
+msgstr "Menerima sebuah :term:`path-like object`."
 
 msgid ""
 "Set a list of module names for the forkserver main process to attempt to "

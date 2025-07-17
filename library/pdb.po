@@ -1105,7 +1105,7 @@ msgid "Pdb (class in pdb)"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "bdb"
 msgstr ""

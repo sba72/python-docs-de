@@ -27,13 +27,13 @@ msgid "Regular Expression HOWTO"
 msgstr ""
 
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 msgid "A.M. Kuchling <amk@amk.ca>"
 msgstr ""
 
 msgid "Abstract"
-msgstr ""
+msgstr "Streszczenie"
 
 msgid ""
 "This document is an introductory tutorial to using regular expressions in "
@@ -280,7 +280,7 @@ msgid "Matched"
 msgstr ""
 
 msgid "Explanation"
-msgstr ""
+msgstr "Wytłumaczenie"
 
 msgid "1"
 msgstr ""

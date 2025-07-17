@@ -831,7 +831,7 @@ msgid ""
 msgstr ""
 
 msgid "Recursion Control"
-msgstr ""
+msgstr "Kontrola Rekursji"
 
 msgid ""
 "These two functions provide a way to perform safe recursive calls at the C "
@@ -1181,7 +1181,7 @@ msgid "strerror (C function)"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "signal"
 msgstr ""

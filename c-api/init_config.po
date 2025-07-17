@@ -274,7 +274,7 @@ msgid "PyConfig/PyPreConfig member"
 msgstr ""
 
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 msgid "Visibility"
 msgstr ""

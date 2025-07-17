@@ -2287,7 +2287,7 @@ msgid ""
 msgstr ""
 
 msgid "object"
-msgstr ""
+msgstr "obiekt"
 
 msgid "socket"
 msgstr ""
@@ -2299,7 +2299,7 @@ msgid "buffering"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "struct"
 msgstr ""

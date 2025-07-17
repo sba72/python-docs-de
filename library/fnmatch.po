@@ -151,7 +151,7 @@ msgid "wildcard expansion"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "re"
 msgstr ""

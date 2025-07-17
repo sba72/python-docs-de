@@ -2724,7 +2724,7 @@ msgid "format() (built-in function)"
 msgstr ""
 
 msgid "file object"
-msgstr ""
+msgstr "obiekt plik"
 
 msgid "open() built-in function"
 msgstr ""
@@ -2736,7 +2736,7 @@ msgid "modes"
 msgstr ""
 
 msgid "universal newlines"
-msgstr ""
+msgstr "uniwersalne nowe linie"
 
 msgid "line-buffered I/O"
 msgstr ""
@@ -2757,7 +2757,7 @@ msgid "text mode"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "sys"
 msgstr "sys"
@@ -2766,10 +2766,10 @@ msgid "str() (built-in function)"
 msgstr ""
 
 msgid "object"
-msgstr ""
+msgstr "obiekt"
 
 msgid "statement"
-msgstr ""
+msgstr "instrukcja"
 
 msgid "import"
 msgstr ""

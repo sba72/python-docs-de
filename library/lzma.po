@@ -95,7 +95,7 @@ msgid "Added support for the ``\"x\"``, ``\"xb\"`` and ``\"xt\"`` modes."
 msgstr ""
 
 msgid "Accepts a :term:`path-like object`."
-msgstr ""
+msgstr "Menerima sebuah :term:`path-like object`."
 
 msgid "Open an LZMA-compressed file in binary mode."
 msgstr ""

@@ -880,7 +880,7 @@ msgid "Example"
 msgstr "Przykład"
 
 msgid "0"
-msgstr ""
+msgstr "0"
 
 msgid "option name"
 msgstr ""
@@ -907,7 +907,7 @@ msgid "3"
 msgstr ""
 
 msgid "default value"
-msgstr ""
+msgstr "wartość domyślna"
 
 msgid "``'raised'``"
 msgstr ""
@@ -1159,7 +1159,7 @@ msgid "You can pass integers 0 or 1 or the strings ``\"yes\"`` or ``\"no\"``."
 msgstr ""
 
 msgid "callback"
-msgstr ""
+msgstr "wywołanie zwrotne"
 
 msgid "This is any Python function that takes no arguments.  For example::"
 msgstr ""
@@ -1276,7 +1276,7 @@ msgid "where:"
 msgstr ""
 
 msgid "sequence"
-msgstr ""
+msgstr "sekwencja"
 
 msgid ""
 "is a string that denotes the target kind of event.  (See the :manpage:"
