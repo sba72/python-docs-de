@@ -6,15 +6,16 @@
 # Translators:
 # Jo K, 2023
 # Stan Ulbrych, 2025
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-27 14:20+0000\n"
+"POT-Creation-Date: 2025-07-11 14:21+0000\n"
 "PO-Revision-Date: 2021-06-28 01:12+0000\n"
-"Last-Translator: Stan Ulbrych, 2025\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -135,7 +136,7 @@ msgid "The special characters are:"
 msgstr ""
 
 msgid "``.``"
-msgstr ""
+msgstr "``.``"
 
 msgid ""
 "(Dot.)  In the default mode, this matches any character except a newline.  "
@@ -166,7 +167,7 @@ msgid ""
 msgstr ""
 
 msgid "``*``"
-msgstr ""
+msgstr "``*``"
 
 msgid ""
 "Causes the resulting RE to match 0 or more repetitions of the preceding RE, "
@@ -1018,7 +1019,7 @@ msgid "Corresponds to the inline flag ``(?x)``."
 msgstr ""
 
 msgid "Functions"
-msgstr ""
+msgstr "Zadania"
 
 msgid ""
 "Compile a regular expression pattern into a :ref:`regular expression object "
@@ -1041,7 +1042,7 @@ msgid ""
 msgstr ""
 
 msgid "is equivalent to ::"
-msgstr ""
+msgstr "setara dengan::"
 
 msgid "result = re.match(pattern, string)"
 msgstr ""
