@@ -28,10 +28,10 @@ msgid "**Source code:** :source:`Lib/string.py`"
 msgstr ""
 
 msgid ":ref:`textseq`"
-msgstr ""
+msgstr ":ref:`textseq`"
 
 msgid ":ref:`string-methods`"
-msgstr ""
+msgstr ":ref:`string-methods`"
 
 msgid "String constants"
 msgstr ""
@@ -296,7 +296,7 @@ msgid ""
 msgstr ""
 
 msgid "Some examples::"
-msgstr ""
+msgstr "Trochę przykładów::"
 
 msgid ""
 "\"Harold's a clever {0!s}\"        # Calls str() on the argument first\n"
@@ -368,7 +368,7 @@ msgid "The meaning of the various alignment options is as follows:"
 msgstr ""
 
 msgid "Option"
-msgstr ""
+msgstr "Opsi"
 
 msgid "Meaning"
 msgstr "Znaczenie"

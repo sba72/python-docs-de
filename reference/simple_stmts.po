@@ -420,7 +420,7 @@ msgid ""
 msgstr ""
 
 msgid "The :keyword:`!del` statement"
-msgstr ""
+msgstr "Instrukcja :keyword:`!del`"
 
 msgid ""
 "Deletion is recursively defined very similar to the way assignment is "
@@ -737,6 +737,8 @@ msgid ""
 "If the module name is followed by :keyword:`!as`, then the name following :"
 "keyword:`!as` is bound directly to the imported module."
 msgstr ""
+"Jeżeli po nazwie modułu następuje :keyword:`!as`, to nazwa następująca po :"
+"keyword:`!as` jest powiązana bezpośrednio z importowanym modułem."
 
 msgid ""
 "If no other name is specified, and the module being imported is a top level "
@@ -1101,13 +1103,13 @@ msgid "writing"
 msgstr ""
 
 msgid "values"
-msgstr ""
+msgstr "nilai"
 
 msgid "procedure"
 msgstr ""
 
 msgid "call"
-msgstr ""
+msgstr "виклик"
 
 msgid "= (equals)"
 msgstr ""

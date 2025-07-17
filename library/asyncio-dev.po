@@ -222,7 +222,7 @@ msgid ""
 msgstr ""
 
 msgid "Output::"
-msgstr ""
+msgstr "Вихід::"
 
 msgid ""
 "test.py:7: RuntimeWarning: coroutine 'test' was never awaited\n"

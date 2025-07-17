@@ -2242,10 +2242,10 @@ msgid ":meth:`str.format_map`"
 msgstr ""
 
 msgid ":ref:`f-strings`"
-msgstr ""
+msgstr ":ref:`f-strings`"
 
 msgid ":ref:`old-string-formatting`"
-msgstr ""
+msgstr ":ref:`old-string-formatting`"
 
 msgid ":ref:`bytes-formatting`"
 msgstr ""
@@ -8522,7 +8522,7 @@ msgid "~ (tilde)"
 msgstr ""
 
 msgid "values"
-msgstr ""
+msgstr "nilai"
 
 msgid "iterator protocol"
 msgstr ""

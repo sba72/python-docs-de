@@ -363,7 +363,7 @@ msgid ""
 msgstr ""
 
 msgid "API"
-msgstr ""
+msgstr "API"
 
 msgid ""
 "The high-level method described above makes use of a simple API which "
