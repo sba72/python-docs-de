@@ -283,7 +283,7 @@ msgid "*eventmask*"
 msgstr ""
 
 msgid "Constant"
-msgstr ""
+msgstr "Stała"
 
 msgid "Meaning"
 msgstr "Znaczenie"

@@ -475,7 +475,7 @@ msgid "This class was made an alias of :exc:`TimeoutError`."
 msgstr ""
 
 msgid "Constants"
-msgstr ""
+msgstr "Stały"
 
 msgid ""
 "The AF_* and SOCK_* constants are now :class:`AddressFamily` and :class:"

@@ -797,37 +797,37 @@ msgid "(for example, 1993)"
 msgstr ""
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "range [1, 12]"
 msgstr ""
 
 msgid "2"
-msgstr ""
+msgstr "2"
 
 msgid "range [1, 31]"
 msgstr ""
 
 msgid "3"
-msgstr ""
+msgstr "3"
 
 msgid "range [0, 23]"
 msgstr ""
 
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgid "range [0, 59]"
 msgstr ""
 
 msgid "5"
-msgstr ""
+msgstr "5"
 
 msgid "range [0, 61]; see :ref:`Note (2) <leap-second>` in :func:`strftime`"
 msgstr ""
 
 msgid "6"
-msgstr ""
+msgstr "6"
 
 msgid "range [0, 6]; Monday is 0"
 msgstr ""

@@ -68,13 +68,13 @@ msgid "class"
 msgstr "klasa"
 
 msgid "__doc__"
-msgstr ""
+msgstr "__doc__"
 
 msgid "documentation string"
 msgstr ""
 
 msgid "__name__"
-msgstr ""
+msgstr "__name__"
 
 msgid "name with which this class was defined"
 msgstr ""

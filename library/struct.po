@@ -305,7 +305,7 @@ msgid "bytes of length 1"
 msgstr ""
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "``b``"
 msgstr ""
@@ -347,7 +347,7 @@ msgid ":c:expr:`short`"
 msgstr ""
 
 msgid "2"
-msgstr ""
+msgstr "2"
 
 msgid "``H``"
 msgstr ""
@@ -362,7 +362,7 @@ msgid ":c:expr:`int`"
 msgstr ""
 
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgid "``I``"
 msgstr ""
@@ -706,7 +706,7 @@ msgid "Packed binary storage of homogeneous data."
 msgstr ""
 
 msgid "Module :mod:`json`"
-msgstr ""
+msgstr "moduł :mod:`json`"
 
 msgid "JSON encoder and decoder."
 msgstr ""
@@ -895,7 +895,7 @@ msgid "binary"
 msgstr ""
 
 msgid "data"
-msgstr ""
+msgstr "data"
 
 msgid "@ (at)"
 msgstr ""

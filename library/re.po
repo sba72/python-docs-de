@@ -571,7 +571,7 @@ msgid ""
 msgstr ""
 
 msgid "``(?!...)``"
-msgstr ""
+msgstr "``(?!...)``"
 
 msgid ""
 "Matches if ``...`` doesn't match next.  This is a :dfn:`negative lookahead "
@@ -731,7 +731,7 @@ msgid "Matches ``[^0-9]`` if the :py:const:`~re.ASCII` flag is used."
 msgstr ""
 
 msgid "``\\s``"
-msgstr ""
+msgstr "``\\s``"
 
 msgid ""
 "Matches Unicode whitespace characters (as defined by :py:meth:`str."
@@ -781,7 +781,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\W``"
-msgstr ""
+msgstr "``\\W``"
 
 msgid ""
 "Matches any character which is not a word character. This is the opposite of "
@@ -801,10 +801,10 @@ msgid "``\\z``"
 msgstr ""
 
 msgid "Matches only at the end of the string."
-msgstr ""
+msgstr "Збігається лише в кінці рядка."
 
 msgid "``\\Z``"
-msgstr ""
+msgstr "``\\Z``"
 
 msgid "The same as ``\\z``.  For compatibility with old Python versions."
 msgstr ""
@@ -852,7 +852,7 @@ msgid ""
 msgstr ""
 
 msgid "Module Contents"
-msgstr ""
+msgstr "Modul-Modul"
 
 msgid ""
 "The module defines several functions, constants, and an exception. Some of "

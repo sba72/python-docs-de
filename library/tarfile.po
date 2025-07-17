@@ -261,7 +261,7 @@ msgid "Mode"
 msgstr ""
 
 msgid "Action"
-msgstr ""
+msgstr "Дія"
 
 msgid "``'r|*'``"
 msgstr ""

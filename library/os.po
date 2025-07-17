@@ -482,7 +482,7 @@ msgid ""
 msgstr ""
 
 msgid "Added support for Windows."
-msgstr ""
+msgstr "Dodane wsparcie dla Windowsa."
 
 msgid ""
 "Get program scheduling priority.  The value *which* is one of :const:"

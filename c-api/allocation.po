@@ -115,7 +115,7 @@ msgid ":c:func:`PyType_GenericAlloc`"
 msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_alloc`"
-msgstr ""
+msgstr ":c:member:`~PyTypeObject.tp_alloc`"
 
 msgid "Like :c:macro:`PyObject_New` except:"
 msgstr ""

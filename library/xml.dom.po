@@ -113,7 +113,7 @@ msgid "This specifies the mapping from OMG IDL to Python."
 msgstr ""
 
 msgid "Module Contents"
-msgstr ""
+msgstr "Modul-Modul"
 
 msgid "The :mod:`xml.dom` contains the following functions:"
 msgstr ""
@@ -200,7 +200,7 @@ msgid "Section"
 msgstr ""
 
 msgid "Purpose"
-msgstr ""
+msgstr "призначення"
 
 msgid ":class:`DOMImplementation`"
 msgstr ""
@@ -928,7 +928,7 @@ msgid ""
 msgstr ""
 
 msgid "Constant"
-msgstr ""
+msgstr "Stała"
 
 msgid "Exception"
 msgstr ""

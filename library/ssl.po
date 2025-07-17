@@ -505,7 +505,7 @@ msgid ""
 msgstr ""
 
 msgid "Constants"
-msgstr ""
+msgstr "Stały"
 
 msgid ""
 "All constants are now :class:`enum.IntEnum` or :class:`enum.IntFlag` "

@@ -244,7 +244,7 @@ msgid ""
 msgstr ""
 
 msgid "A simple example::"
-msgstr ""
+msgstr "Простий приклад::"
 
 msgid ""
 "from resource import *\n"

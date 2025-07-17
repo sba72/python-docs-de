@@ -1076,7 +1076,7 @@ msgid "*product_type* may be one of the following values:"
 msgstr ""
 
 msgid "Constant"
-msgstr ""
+msgstr "Stała"
 
 msgid "Meaning"
 msgstr "Znaczenie"
@@ -1623,7 +1623,7 @@ msgid "``'darwin'``"
 msgstr ""
 
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 msgid "``'win32'``"
 msgstr ""

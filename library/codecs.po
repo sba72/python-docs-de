@@ -360,7 +360,7 @@ msgid ""
 msgstr ""
 
 msgid "``'replace'``"
-msgstr ""
+msgstr "``'replace'``"
 
 msgid ""
 "Replace with a replacement marker. On encoding, use ``?`` (ASCII character). "

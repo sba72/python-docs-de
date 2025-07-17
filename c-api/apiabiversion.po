@@ -153,7 +153,7 @@ msgid "*release_level*"
 msgstr ""
 
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgid "``0x000000F0``"
 msgstr ""

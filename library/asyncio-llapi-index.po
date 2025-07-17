@@ -28,7 +28,7 @@ msgid "This page lists all low-level asyncio APIs."
 msgstr ""
 
 msgid "Obtaining the Event Loop"
-msgstr ""
+msgstr "Отримання циклу подій"
 
 msgid ":func:`asyncio.get_running_loop`"
 msgstr ""
@@ -61,7 +61,7 @@ msgid ":ref:`Using asyncio.get_running_loop() <asyncio_example_future>`."
 msgstr ""
 
 msgid "Event Loop Methods"
-msgstr ""
+msgstr "Методи циклу подій"
 
 msgid ""
 "See also the main documentation section about the :ref:`asyncio-event-loop-"
@@ -87,13 +87,13 @@ msgid ":meth:`loop.stop`"
 msgstr ""
 
 msgid "Stop the event loop."
-msgstr ""
+msgstr "Зупиніть цикл подій."
 
 msgid ":meth:`loop.close`"
 msgstr ""
 
 msgid "Close the event loop."
-msgstr ""
+msgstr "Закрийте цикл подій."
 
 msgid ":meth:`loop.is_running`"
 msgstr ""
@@ -114,7 +114,7 @@ msgid "Close asynchronous generators."
 msgstr ""
 
 msgid "Debugging"
-msgstr ""
+msgstr "Налагодження"
 
 msgid ":meth:`loop.set_debug`"
 msgstr ""
@@ -204,19 +204,19 @@ msgid ""
 msgstr ""
 
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 msgid "``await`` :meth:`loop.getaddrinfo`"
 msgstr ""
 
 msgid "Asynchronous version of :meth:`socket.getaddrinfo`."
-msgstr ""
+msgstr "Асинхронна версія :meth:`socket.getaddrinfo`."
 
 msgid "``await`` :meth:`loop.getnameinfo`"
 msgstr ""
 
 msgid "Asynchronous version of :meth:`socket.getnameinfo`."
-msgstr ""
+msgstr "Асинхронна версія :meth:`socket.getnameinfo`."
 
 msgid "Networking and IPC"
 msgstr ""
@@ -378,7 +378,7 @@ msgid "Remove a handler for a :mod:`signal`."
 msgstr ""
 
 msgid "Subprocesses"
-msgstr ""
+msgstr "Підпроцеси"
 
 msgid ":meth:`loop.subprocess_exec`"
 msgstr ""
