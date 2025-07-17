@@ -324,7 +324,7 @@ msgid "In-depth documentation on instances of :class:`!types.GenericAlias`"
 msgstr ""
 
 msgid ":pep:`585` - Type Hinting Generics In Standard Collections"
-msgstr ""
+msgstr ":pep:`585` - Універсальні підказки типів у стандартних колекціях"
 
 msgid "Introducing the :class:`!types.GenericAlias` class"
 msgstr ""

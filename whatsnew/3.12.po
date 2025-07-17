@@ -973,7 +973,7 @@ msgid ""
 msgstr ""
 
 msgid "platform"
-msgstr ""
+msgstr "платформа"
 
 msgid ""
 "Add support for detecting Windows 11 and Windows Server releases past 2012. "
@@ -2982,7 +2982,7 @@ msgid ""
 msgstr ""
 
 msgid "Others"
-msgstr ""
+msgstr "Inne"
 
 msgid ""
 "Remove the ``suspicious`` rule from the documentation :file:`Makefile` and :"

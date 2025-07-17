@@ -23,10 +23,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Stable"
-msgstr ""
+msgstr "Stabilna"
 
 msgid "In development"
-msgstr ""
+msgstr "W rozwoju"
 
 msgid "This page"
 msgstr ""
@@ -38,7 +38,7 @@ msgid "Show source"
 msgstr ""
 
 msgid "Download"
-msgstr ""
+msgstr "Pobieranie"
 
 msgid "Download Python %(dl_version)s documentation"
 msgstr ""
@@ -193,38 +193,39 @@ msgid "Return value: Borrowed reference."
 msgstr ""
 
 msgid "CPython implementation detail:"
-msgstr ""
+msgstr "Szczegół implementacyjny CPythona:"
 
 msgid ""
 "Deprecated since version {deprecated}, will be removed in version {removed}"
 msgstr ""
+"Zdezaprobowane w wersji {deprecated}, zostanie usunięte w wersji {removed}"
 
 msgid "Deprecated since version {deprecated}, removed in version {removed}"
-msgstr ""
+msgstr "Zdezaprobowane w wersji {deprecated}, usunięte w wersji {removed}"
 
 msgid "in development"
-msgstr ""
+msgstr "w rozwoju"
 
 msgid "pre-release"
-msgstr ""
+msgstr "przedpremiera"
 
 msgid "stable"
-msgstr ""
+msgstr "stabilny"
 
 msgid "security-fixes"
-msgstr ""
+msgstr "poprawki bezpieczeństwa"
 
 msgid "EOL"
-msgstr ""
+msgstr "niewspierany"
 
 msgid "Welcome! This is the official documentation for Python %(release)s."
-msgstr ""
+msgstr "Witamy! To jest oficjalna dokumentacja Pythona %(release)s."
 
 msgid "Documentation sections:"
 msgstr ""
 
 msgid "What's new in Python %(version)s?"
-msgstr ""
+msgstr "Co nowego w Pythonie %(version)s?"
 
 msgid ""
 "Or <a href=\"%(whatsnew_index)s\">all \"What's new\" documents since Python "
@@ -256,7 +257,7 @@ msgid "How to install, configure, and use Python"
 msgstr ""
 
 msgid "Python HOWTOs"
-msgstr ""
+msgstr "Pythonowe „Jak to zrobić?”"
 
 msgid "In-depth topic manuals"
 msgstr ""
@@ -286,7 +287,7 @@ msgid "C API reference"
 msgstr ""
 
 msgid "FAQs"
-msgstr ""
+msgstr "Często zadawane pytania"
 
 msgid "Frequently asked questions (with answers!)"
 msgstr ""
@@ -319,7 +320,7 @@ msgid "Terms explained"
 msgstr ""
 
 msgid "Search page"
-msgstr ""
+msgstr "Strona wyszukiwania"
 
 msgid "Search this documentation"
 msgstr ""
@@ -349,19 +350,19 @@ msgid "Copyright"
 msgstr "Copyright"
 
 msgid "About the documentation"
-msgstr ""
+msgstr "O dokumentacji"
 
 msgid "Download these documents"
-msgstr ""
+msgstr "Pobierz te dokumenty"
 
 msgid "Docs by version"
-msgstr ""
+msgstr "Dokumentacja według wersji"
 
 msgid "All versions"
-msgstr ""
+msgstr "Wszystkie wersje"
 
 msgid "Other resources"
-msgstr ""
+msgstr "Inne zasoby"
 
 msgid "PEP index"
 msgstr ""

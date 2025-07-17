@@ -211,7 +211,7 @@ msgid "Activation of rlcompleter and history was made automatic."
 msgstr ""
 
 msgid "Module contents"
-msgstr ""
+msgstr "Зміст модуля"
 
 msgid "A list of prefixes for site-packages directories."
 msgstr ""

@@ -505,7 +505,7 @@ msgid ""
 msgstr ""
 
 msgid "Packages"
-msgstr ""
+msgstr "Pakiety"
 
 msgid ""
 "Packages are a way of structuring Python's module namespace by using "

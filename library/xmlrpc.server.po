@@ -68,7 +68,7 @@ msgid ""
 msgstr ""
 
 msgid "The *use_builtin_types* flag was added."
-msgstr ""
+msgstr "Penanda *use_builtin_types* ditambahkan."
 
 msgid ""
 "Create a new instance to handle XML-RPC requests in a CGI environment.  The "

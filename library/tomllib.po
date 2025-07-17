@@ -150,7 +150,7 @@ msgid "str"
 msgstr "str"
 
 msgid "integer"
-msgstr ""
+msgstr "bilangan bulat"
 
 msgid "int"
 msgstr "int"
@@ -162,10 +162,10 @@ msgid "float (configurable with *parse_float*)"
 msgstr ""
 
 msgid "boolean"
-msgstr ""
+msgstr "логічний"
 
 msgid "bool"
-msgstr ""
+msgstr "bool"
 
 msgid "offset date-time"
 msgstr ""

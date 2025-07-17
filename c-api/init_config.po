@@ -286,7 +286,7 @@ msgid ":c:member:`allocator <PyPreConfig.allocator>`"
 msgstr ""
 
 msgid "``int``"
-msgstr ""
+msgstr "``int``"
 
 msgid "Read-only"
 msgstr ""

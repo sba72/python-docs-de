@@ -441,7 +441,7 @@ msgid ""
 msgstr ""
 
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Diğer"
 
 msgid ""
 "Clear out the internal cache of information, such as the :func:`uname`. This "

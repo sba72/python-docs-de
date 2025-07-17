@@ -96,6 +96,7 @@ msgid ""
 "The :mod:`platform` module provides detailed checks for the system's "
 "identity."
 msgstr ""
+"Модуль :mod:`platform` забезпечує детальну перевірку ідентичності системи."
 
 msgid "File Names, Command Line Arguments, and Environment Variables"
 msgstr ""

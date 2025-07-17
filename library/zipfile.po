@@ -838,7 +838,7 @@ msgid ""
 msgstr ""
 
 msgid "Index"
-msgstr ""
+msgstr "Indeks"
 
 msgid "Value"
 msgstr "Wartość"
@@ -931,7 +931,7 @@ msgid "Size of the uncompressed file."
 msgstr ""
 
 msgid "Command-Line Interface"
-msgstr ""
+msgstr "Інтерфейс командного рядка"
 
 msgid ""
 "The :mod:`zipfile` module provides a simple command-line interface to "
@@ -967,7 +967,7 @@ msgid "$ python -m zipfile -l monty.zip"
 msgstr ""
 
 msgid "Command-line options"
-msgstr ""
+msgstr "Параметри командного рядка"
 
 msgid "List files in a zipfile."
 msgstr ""

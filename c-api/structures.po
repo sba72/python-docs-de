@@ -666,7 +666,7 @@ msgid "C type"
 msgstr ""
 
 msgid "Python type"
-msgstr ""
+msgstr "tipe Python"
 
 msgid ":c:expr:`char`"
 msgstr ""

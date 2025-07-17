@@ -2643,7 +2643,7 @@ msgid "private"
 msgstr ""
 
 msgid "names"
-msgstr ""
+msgstr "імена"
 
 msgid "literal"
 msgstr ""
