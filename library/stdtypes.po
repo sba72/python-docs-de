@@ -7,15 +7,16 @@
 # Jo K, 2023
 # Tim L <tim.lorbacher@gmail.com>, 2025
 # Stan Ulbrych, 2025
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-04 14:20+0000\n"
+"POT-Creation-Date: 2025-07-11 14:21+0000\n"
 "PO-Revision-Date: 2021-06-28 01:13+0000\n"
-"Last-Translator: Stan Ulbrych, 2025\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -98,7 +99,7 @@ msgid "Result"
 msgstr ""
 
 msgid "Notes"
-msgstr ""
+msgstr "Notatki"
 
 msgid "``x or y``"
 msgstr ""
@@ -107,7 +108,7 @@ msgid "if *x* is true, then *x*, else *y*"
 msgstr ""
 
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 msgid "``x and y``"
 msgstr ""
@@ -116,7 +117,7 @@ msgid "if *x* is false, then *x*, else *y*"
 msgstr ""
 
 msgid "\\(2)"
-msgstr ""
+msgstr "\\(2)"
 
 msgid "``not x``"
 msgstr ""
@@ -125,10 +126,10 @@ msgid "if *x* is false, then ``True``, else ``False``"
 msgstr ""
 
 msgid "\\(3)"
-msgstr ""
+msgstr "\\(3)"
 
 msgid "Notes:"
-msgstr ""
+msgstr "Uwagi:"
 
 msgid ""
 "This is a short-circuit operator, so it only evaluates the second argument "
@@ -146,7 +147,7 @@ msgid ""
 msgstr ""
 
 msgid "Comparisons"
-msgstr ""
+msgstr "Perbandingan"
 
 msgid ""
 "There are eight comparison operations in Python.  They all have the same "
@@ -160,7 +161,7 @@ msgid "This table summarizes the comparison operations:"
 msgstr ""
 
 msgid "Meaning"
-msgstr ""
+msgstr "Znaczenie"
 
 msgid "``<``"
 msgstr "``<``"
@@ -396,7 +397,7 @@ msgid ""
 msgstr ""
 
 msgid "\\(6)"
-msgstr ""
+msgstr "\\(6)"
 
 msgid ":func:`complex`"
 msgstr ""
@@ -423,7 +424,7 @@ msgid "*x* to the power *y*"
 msgstr ""
 
 msgid "\\(5)"
-msgstr ""
+msgstr "\\(5)"
 
 msgid ":func:`pow`"
 msgstr ""
@@ -534,7 +535,7 @@ msgid "bitwise :dfn:`or` of *x* and *y*"
 msgstr ""
 
 msgid "\\(4)"
-msgstr ""
+msgstr "\\(4)"
 
 msgid "``x ^ y``"
 msgstr ""
@@ -2805,13 +2806,13 @@ msgid "Description"
 msgstr "Beschreibung"
 
 msgid "``\\n``"
-msgstr ""
+msgstr "``\\n``"
 
 msgid "Line Feed"
 msgstr ""
 
 msgid "``\\r``"
-msgstr ""
+msgstr "``\\r``"
 
 msgid "Carriage Return"
 msgstr ""
@@ -6101,7 +6102,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`484` - Type Hints"
-msgstr ""
+msgstr ":pep:`484` - підказки типу"
 
 msgid "Introducing Python's framework for type annotations."
 msgstr ""
@@ -6304,7 +6305,7 @@ msgid "See :ref:`objects` and :ref:`class` for these."
 msgstr ""
 
 msgid "Functions"
-msgstr ""
+msgstr "Zadania"
 
 msgid ""
 "Function objects are created by function definitions.  The only operation on "
@@ -6692,7 +6693,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr ""
+msgstr "Przykład::"
 
 msgid ""
 ">>> import sys\n"

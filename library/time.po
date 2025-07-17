@@ -5,6 +5,7 @@
 #
 # Translators:
 # Tim L <tim.lorbacher@gmail.com>, 2021
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
 #
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-11 14:21+0000\n"
 "PO-Revision-Date: 2021-06-28 01:15+0000\n"
-"Last-Translator: Tim L <tim.lorbacher@gmail.com>, 2021\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -150,7 +151,7 @@ msgid ":func:`mktime`"
 msgstr ""
 
 msgid "Functions"
-msgstr ""
+msgstr "Zadania"
 
 msgid ""
 "Convert a tuple or :class:`struct_time` representing a time as returned by :"
@@ -491,10 +492,10 @@ msgid "Directive"
 msgstr ""
 
 msgid "Meaning"
-msgstr ""
+msgstr "Znaczenie"
 
 msgid "Notes"
-msgstr ""
+msgstr "Notatki"
 
 msgid "``%a``"
 msgstr ""
@@ -542,7 +543,7 @@ msgid "[000000,999999]."
 msgstr ""
 
 msgid "\\(1)"
-msgstr ""
+msgstr "\\(1)"
 
 msgid "``%H``"
 msgstr ""
@@ -581,7 +582,7 @@ msgid "Locale's equivalent of either AM or PM."
 msgstr ""
 
 msgid "\\(2)"
-msgstr ""
+msgstr "\\(2)"
 
 msgid "``%S``"
 msgstr ""
@@ -590,7 +591,7 @@ msgid "Second as a decimal number [00,61]."
 msgstr ""
 
 msgid "\\(3)"
-msgstr ""
+msgstr "\\(3)"
 
 msgid "``%U``"
 msgstr ""
@@ -602,7 +603,7 @@ msgid ""
 msgstr ""
 
 msgid "\\(4)"
-msgstr ""
+msgstr "\\(4)"
 
 msgid "``%u``"
 msgstr ""
@@ -689,7 +690,7 @@ msgid "A literal ``'%'`` character."
 msgstr ""
 
 msgid "Notes:"
-msgstr ""
+msgstr "Uwagi:"
 
 msgid ""
 "The ``%f`` format directive only applies to :func:`strptime`, not to :func:"
