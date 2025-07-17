@@ -242,7 +242,7 @@ msgid ""
 msgstr ""
 
 msgid "Server Objects"
-msgstr ""
+msgstr "Серверні об’єкти"
 
 msgid ""
 "This is the superclass of all Server objects in the module.  It defines the "

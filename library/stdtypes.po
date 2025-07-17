@@ -3279,7 +3279,7 @@ msgid "The conversion flag characters are:"
 msgstr ""
 
 msgid "Flag"
-msgstr ""
+msgstr "Penanda"
 
 msgid "``'#'``"
 msgstr ""
@@ -6399,7 +6399,7 @@ msgid "See :ref:`types` for more information."
 msgstr ""
 
 msgid "Type Objects"
-msgstr ""
+msgstr "Objek Tipe"
 
 msgid ""
 "Type objects represent the various object types.  An object's type is "

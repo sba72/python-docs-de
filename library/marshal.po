@@ -205,7 +205,7 @@ msgid "New features"
 msgstr ""
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "Python 2.4"
 msgstr ""
@@ -214,7 +214,7 @@ msgid "Sharing interned strings"
 msgstr ""
 
 msgid "2"
-msgstr ""
+msgstr "2"
 
 msgid "Python 2.5"
 msgstr ""
@@ -223,7 +223,7 @@ msgid "Binary representation of floats"
 msgstr ""
 
 msgid "3"
-msgstr ""
+msgstr "3"
 
 msgid "Python 3.4"
 msgstr ""
@@ -232,13 +232,13 @@ msgid "Support for object instancing and recursion"
 msgstr ""
 
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgid "Efficient representation of short strings"
 msgstr ""
 
 msgid "5"
-msgstr ""
+msgstr "5"
 
 msgid "Python 3.14"
 msgstr ""

@@ -551,7 +551,7 @@ msgid ":c:func:`PyType_GenericAlloc`"
 msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_free`"
-msgstr ""
+msgstr ":c:member:`~PyTypeObject.tp_free`"
 
 msgid "Default Memory Allocators"
 msgstr "Типові розподілювачі пам'яті"

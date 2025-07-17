@@ -116,7 +116,7 @@ msgid "End transmission block"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Скасувати"
 
 msgid "End of medium"
 msgstr ""

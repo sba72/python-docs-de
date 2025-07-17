@@ -1391,7 +1391,7 @@ msgid ""
 msgstr ""
 
 msgid "Module-Level Functions"
-msgstr ""
+msgstr "Функції рівня модуля"
 
 msgid ""
 "In addition to the classes described above, there are a number of module-"
@@ -1894,6 +1894,8 @@ msgid ""
 "The proposal which described this feature for inclusion in the Python "
 "standard library."
 msgstr ""
+"Пропозиція, яка описує цю функцію для включення в стандартну бібліотеку "
+"Python."
 
 msgid ""
 "`Original Python logging package <https://old.red-dove.com/python_logging."

@@ -257,7 +257,7 @@ msgid ""
 msgstr ""
 
 msgid "Platform"
-msgstr ""
+msgstr "Platforma"
 
 msgid "Shell"
 msgstr ""
@@ -293,7 +293,7 @@ msgid ":samp:`$ {<venv>}/bin/Activate.ps1`"
 msgstr ""
 
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 msgid "cmd.exe"
 msgstr ""

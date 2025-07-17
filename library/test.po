@@ -651,7 +651,7 @@ msgid "Context manager to swap out an attribute with a new object."
 msgstr ""
 
 msgid "Usage::"
-msgstr ""
+msgstr "Penggunaan::"
 
 msgid ""
 "with swap_attr(obj, \"attr\", 5):\n"

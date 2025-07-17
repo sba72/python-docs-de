@@ -1159,7 +1159,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr ""
+msgstr "Przykład:"
 
 msgid ""
 "def run_query(sql: LiteralString) -> None:\n"
@@ -2809,7 +2809,7 @@ msgid "Typed version of :func:`collections.namedtuple`."
 msgstr ""
 
 msgid "Usage::"
-msgstr ""
+msgstr "Penggunaan::"
 
 msgid ""
 "class Employee(NamedTuple):\n"
@@ -4154,7 +4154,7 @@ msgid ""
 msgstr ""
 
 msgid "Constant"
-msgstr ""
+msgstr "Stała"
 
 msgid ""
 "A special constant that is assumed to be ``True`` by 3rd party static type "

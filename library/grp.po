@@ -57,7 +57,7 @@ msgid "the name of the group"
 msgstr ""
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "gr_passwd"
 msgstr ""
@@ -66,7 +66,7 @@ msgid "the (encrypted) group password; often empty"
 msgstr ""
 
 msgid "2"
-msgstr ""
+msgstr "2"
 
 msgid "gr_gid"
 msgstr ""
@@ -75,7 +75,7 @@ msgid "the numerical group ID"
 msgstr ""
 
 msgid "3"
-msgstr ""
+msgstr "3"
 
 msgid "gr_mem"
 msgstr ""

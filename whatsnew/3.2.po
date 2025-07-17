@@ -29,7 +29,7 @@ msgid "Author"
 msgstr "Autor"
 
 msgid "Raymond Hettinger"
-msgstr ""
+msgstr "Raymond Hettinger"
 
 msgid ""
 "This article explains the new features in Python 3.2 as compared to 3.1. "

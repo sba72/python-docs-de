@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Subprocesses"
-msgstr ""
+msgstr "Підпроцеси"
 
 msgid ""
 "**Source code:** :source:`Lib/asyncio/subprocess.py`, :source:`Lib/asyncio/"
@@ -91,7 +91,7 @@ msgid "Creating Subprocesses"
 msgstr ""
 
 msgid "Create a subprocess."
-msgstr ""
+msgstr "Створіть підпроцес."
 
 msgid ""
 "The *limit* argument sets the buffer limit for :class:`StreamReader` "
@@ -141,7 +141,7 @@ msgid ""
 msgstr ""
 
 msgid "Constants"
-msgstr ""
+msgstr "Stały"
 
 msgid "Can be passed to the *stdin*, *stdout* or *stderr* parameters."
 msgstr ""

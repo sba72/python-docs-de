@@ -271,7 +271,7 @@ msgid ":class:`memoryview`"
 msgstr ""
 
 msgid ":class:`Queue`"
-msgstr ""
+msgstr ":class:`Queue`"
 
 msgid "Reference"
 msgstr "Referensi"

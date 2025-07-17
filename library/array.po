@@ -58,7 +58,7 @@ msgid "int"
 msgstr "int"
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "``'B'``"
 msgstr ""
@@ -76,7 +76,7 @@ msgid "Unicode character"
 msgstr ""
 
 msgid "2"
-msgstr ""
+msgstr "2"
 
 msgid "\\(1)"
 msgstr "\\(1)"
@@ -88,7 +88,7 @@ msgid "Py_UCS4"
 msgstr ""
 
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgid "``'h'``"
 msgstr ""

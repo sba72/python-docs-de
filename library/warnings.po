@@ -726,7 +726,7 @@ msgid ""
 msgstr ""
 
 msgid "Usage::"
-msgstr ""
+msgstr "Penggunaan::"
 
 msgid ""
 "from warnings import deprecated\n"

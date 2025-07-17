@@ -711,7 +711,7 @@ msgid ""
 msgstr ""
 
 msgid "Inheritance"
-msgstr ""
+msgstr "Dziedziczenie"
 
 msgid ""
 "Of course, a language feature would not be worthy of the name \"class\" "
@@ -959,7 +959,7 @@ msgid ""
 msgstr ""
 
 msgid "Iterators"
-msgstr ""
+msgstr "Iteratory"
 
 msgid ""
 "By now you have probably noticed that most container objects can be looped "
@@ -1048,7 +1048,7 @@ msgid ""
 msgstr ""
 
 msgid "Generators"
-msgstr ""
+msgstr "Generatory"
 
 msgid ""
 ":term:`Generators <generator>` are a simple and powerful tool for creating "

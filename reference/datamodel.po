@@ -768,7 +768,7 @@ msgid ""
 msgstr ""
 
 msgid "Built-in functions"
-msgstr ""
+msgstr "Вбудовані функції"
 
 msgid ""
 "A built-in function object is a wrapper around a C function.  Examples of "
@@ -3876,7 +3876,7 @@ msgid "object"
 msgstr "obiekt"
 
 msgid "data"
-msgstr ""
+msgstr "data"
 
 msgid "built-in function"
 msgstr ""

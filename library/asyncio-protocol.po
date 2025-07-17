@@ -27,7 +27,7 @@ msgid "Transports and Protocols"
 msgstr ""
 
 msgid "Preface"
-msgstr ""
+msgstr "Передмова"
 
 msgid ""
 "Transports and Protocols are used by the **low-level** event loop APIs such "
@@ -82,7 +82,7 @@ msgid "Contents"
 msgstr "Inhalt"
 
 msgid "This documentation page contains the following sections:"
-msgstr ""
+msgstr "Ця сторінка документації містить такі розділи:"
 
 msgid ""
 "The `Transports`_ section documents asyncio :class:`BaseTransport`, :class:"

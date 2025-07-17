@@ -234,7 +234,7 @@ msgid "Added the *show_positions* parameter."
 msgstr ""
 
 msgid "Example:"
-msgstr ""
+msgstr "Przykład:"
 
 msgid ""
 ">>> bytecode = dis.Bytecode(myfunc)\n"
