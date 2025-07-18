@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Tim L <tim.lorbacher@gmail.com>, 2024
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-18 14:22+0000\n"
-"PO-Revision-Date: 2021-06-28 00:49+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:48+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +33,7 @@ msgid "Constant Identifier"
 msgstr ""
 
 msgid "Value"
-msgstr "Wartość"
+msgstr ""
 
 msgid "Returned object"
 msgstr ""
@@ -609,16 +604,14 @@ msgid ""
 "the :term:`free-threaded <free threading>` build, this allows the "
 "interpreter to avoid reference count adjustments to *obj*, which may improve "
 "multi-threaded performance.  The tradeoff is that *obj* will only be "
-"deallocated by the tracing garbage collector, and not when the interpreter "
-"no longer has any references to it."
+"deallocated by the tracing garbage collector."
 msgstr ""
 
 msgid ""
 "This function returns ``1`` if deferred reference counting is enabled on "
-"*obj*, and ``0`` if deferred reference counting is not supported or if the "
-"hint was ignored by the interpreter, such as when deferred reference "
-"counting is already enabled on *obj*. This function is thread-safe, and "
-"cannot fail."
+"*obj* (including when it was enabled before the call), and ``0`` if deferred "
+"reference counting is not supported or if the hint was ignored by the "
+"runtime. This function is thread-safe, and cannot fail."
 msgstr ""
 
 msgid ""
@@ -630,8 +623,7 @@ msgstr ""
 
 msgid ""
 "This function is intended to be used soon after *obj* is created, by the "
-"code that creates it, such as in the object's :c:member:`~PyTypeObject."
-"tp_new` slot."
+"code that creates it."
 msgstr ""
 
 msgid ""
@@ -800,19 +792,19 @@ msgid "ascii"
 msgstr ""
 
 msgid "string"
-msgstr "ciąg znaków"
+msgstr ""
 
 msgid "PyObject_Str (C function)"
 msgstr ""
 
 msgid "bytes"
-msgstr "байтів"
+msgstr ""
 
 msgid "hash"
 msgstr ""
 
 msgid "type"
-msgstr "Typ"
+msgstr ""
 
 msgid "len"
 msgstr ""

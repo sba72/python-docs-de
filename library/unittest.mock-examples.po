@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-28 01:16+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:49+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -321,9 +317,6 @@ msgid ""
 "they are looked up. This is normally straightforward, but for a quick guide "
 "read :ref:`where to patch <where-to-patch>`."
 msgstr ""
-"З :func:`patch` важливо, щоб ви латали об’єкти в просторі імен, де вони "
-"шукаються. Зазвичай це просто, але для короткого посібника прочитайте :ref:"
-"`де патч <where-to-patch>`."
 
 msgid ""
 "A common need in tests is to patch a class attribute or a module attribute, "
@@ -416,9 +409,6 @@ msgid ""
 "during a scope and restoring the dictionary to its original state when the "
 "test ends:"
 msgstr ""
-"Існує також :func:`patch.dict` для встановлення значень у словнику лише під "
-"час області видимості та відновлення словника до початкового стану після "
-"завершення тесту:"
 
 msgid ""
 "``patch``, ``patch.object`` and ``patch.dict`` can all be used as context "

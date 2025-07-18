@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Jo K, 2023
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-29 13:04+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +30,7 @@ msgid ":pep:`398` - Python 3.3 Release Schedule"
 msgstr ""
 
 msgid "Summary -- Release highlights"
-msgstr "Zusammenfassung - Release Höhepunkte"
+msgstr ""
 
 msgid "New syntax features:"
 msgstr ""
@@ -183,7 +178,7 @@ msgid ""
 msgstr ""
 
 msgid "Features"
-msgstr "особливості"
+msgstr ""
 
 msgid ""
 "All native single character format specifiers in struct module syntax "
@@ -587,7 +582,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`380` - Syntax for Delegating to a Subgenerator"
-msgstr ":pep:`380` - Синтаксис для делегування підгенератору"
+msgstr ""
 
 msgid ""
 "PEP written by Greg Ewing; implementation by Greg Ewing, integrated into 3.3 "
@@ -976,7 +971,7 @@ msgid "(Implementation by Brett Cannon)"
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr "Andere sprachliche Änderungen"
+msgstr ""
 
 msgid "Some smaller changes made to the core Python language are:"
 msgstr ""
@@ -1100,7 +1095,7 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr "Neue Module"
+msgstr ""
 
 msgid "faulthandler"
 msgstr ""
@@ -1156,7 +1151,7 @@ msgid "(Contributed by Nadeem Vawda and Per Øyvind Karlsen in :issue:`6715`.)"
 msgstr ""
 
 msgid "Improved Modules"
-msgstr "Verbesserte Module"
+msgstr ""
 
 msgid "abc"
 msgstr ""
@@ -1192,7 +1187,7 @@ msgid ""
 msgstr ""
 
 msgid "array"
-msgstr "Array"
+msgstr ""
 
 msgid ""
 "The :mod:`array` module supports the :c:expr:`long long` type using ``q`` "
@@ -1969,7 +1964,7 @@ msgid ""
 msgstr ""
 
 msgid "itertools"
-msgstr "itertools"
+msgstr ""
 
 msgid ""
 ":func:`~itertools.accumulate` now takes an optional ``func`` argument for "
@@ -1994,7 +1989,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "The :mod:`math` module has a new function, :func:`~math.log2`,  which "
@@ -2072,7 +2067,7 @@ msgid "(Contributed by Giampaolo Rodolà in :issue:`9795`.)"
 msgstr ""
 
 msgid "os"
-msgstr "os"
+msgstr ""
 
 msgid ""
 "The :mod:`os` module has a new :func:`~os.pipe2` function that makes it "
@@ -2268,7 +2263,7 @@ msgid ""
 msgstr ""
 
 msgid "pdb"
-msgstr "pdb"
+msgstr ""
 
 msgid ""
 "Tab-completion is now available not only for command names, but also their "
@@ -2556,7 +2551,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr "sqlite3"
+msgstr ""
 
 msgid ""
 "New :class:`sqlite3.Connection` method :meth:`~sqlite3.Connection."
@@ -2672,7 +2667,7 @@ msgid ""
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "The :mod:`sys` module has a new :data:`~sys.thread_info` :term:`named tuple` "
@@ -2688,7 +2683,7 @@ msgid ""
 msgstr ""
 
 msgid "tempfile"
-msgstr "tempfile"
+msgstr ""
 
 msgid ""
 ":class:`tempfile.SpooledTemporaryFile`\\'s :meth:`~tempfile."
@@ -2706,7 +2701,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr "threading"
+msgstr ""
 
 msgid ""
 ":class:`threading.Condition`, :class:`threading.Semaphore`, :class:"
@@ -2731,7 +2726,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr "time"
+msgstr ""
 
 msgid "The :pep:`418` added new functions to the :mod:`time` module:"
 msgstr ""
@@ -2770,7 +2765,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr "types"
+msgstr ""
 
 msgid ""
 "Add a new :class:`types.MappingProxyType` class: Read-only proxy of a "
@@ -2784,7 +2779,7 @@ msgid ""
 msgstr ""
 
 msgid "unittest"
-msgstr "unittest"
+msgstr ""
 
 msgid ""
 ":meth:`.assertRaises`, :meth:`.assertRaisesRegex`, :meth:`.assertWarns`, "
@@ -2840,7 +2835,7 @@ msgid ""
 msgstr ""
 
 msgid "zlib"
-msgstr "zlib"
+msgstr ""
 
 msgid ""
 "New attribute :attr:`zlib.Decompress.eof` makes it possible to distinguish "
@@ -2855,7 +2850,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr "Optimierungen"
+msgstr ""
 
 msgid "Major performance enhancements have been added:"
 msgstr ""
@@ -2967,7 +2962,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr "Als veraltet markiert"
+msgstr ""
 
 msgid "Unsupported Operating Systems"
 msgstr ""

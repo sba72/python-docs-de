@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Jo K, 2023
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-29 13:04+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,10 +21,10 @@ msgid "What's New In Python 3.2"
 msgstr ""
 
 msgid "Author"
-msgstr "Autor"
+msgstr ""
 
 msgid "Raymond Hettinger"
-msgstr "Raymond Hettinger"
+msgstr ""
 
 msgid ""
 "This article explains the new features in Python 3.2 as compared to 3.1. "
@@ -512,7 +507,7 @@ msgid "PEP written by Phillip Eby."
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr "Andere sprachliche Änderungen"
+msgstr ""
 
 msgid "Some smaller changes made to the core Python language are:"
 msgstr ""
@@ -1026,7 +1021,7 @@ msgid ""
 msgstr ""
 
 msgid "itertools"
-msgstr "itertools"
+msgstr ""
 
 msgid ""
 "The :mod:`itertools` module has a new :func:`~itertools.accumulate` function "
@@ -1080,7 +1075,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr "threading"
+msgstr ""
 
 msgid ""
 "The :mod:`threading` module has a new :class:`~threading.Barrier` "
@@ -1248,7 +1243,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "The :mod:`math` module has been updated with six new functions inspired by "
@@ -1448,7 +1443,7 @@ msgid ""
 msgstr ""
 
 msgid "csv"
-msgstr "csv"
+msgstr ""
 
 msgid ""
 "The :mod:`csv` module now supports a new dialect, :class:`~csv."
@@ -1823,7 +1818,7 @@ msgid "(Implemented by Benjamin Peterson and Georg Brandl.)"
 msgstr ""
 
 msgid "os"
-msgstr "os"
+msgstr ""
 
 msgid ""
 "Different operating systems use various encodings for filenames and "
@@ -1909,7 +1904,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr "sqlite3"
+msgstr ""
 
 msgid ""
 "The :mod:`sqlite3` module was updated to pysqlite version 2.6.0.  It has two "
@@ -2108,7 +2103,7 @@ msgid ""
 msgstr ""
 
 msgid "unittest"
-msgstr "unittest"
+msgstr ""
 
 msgid ""
 "The unittest module has a number of improvements supporting test discovery "
@@ -2204,31 +2199,31 @@ msgid ":meth:`!assert_`"
 msgstr ""
 
 msgid ":meth:`.assertTrue`"
-msgstr ":meth:`.assertTrue`"
+msgstr ""
 
 msgid ":meth:`!assertEquals`"
 msgstr ""
 
 msgid ":meth:`.assertEqual`"
-msgstr ":meth:`.assertEqual`"
+msgstr ""
 
 msgid ":meth:`!assertNotEquals`"
 msgstr ""
 
 msgid ":meth:`.assertNotEqual`"
-msgstr ":meth:`.assertNotEqual`"
+msgstr ""
 
 msgid ":meth:`!assertAlmostEquals`"
 msgstr ""
 
 msgid ":meth:`.assertAlmostEqual`"
-msgstr ":meth:`.assertAlmostEqual`"
+msgstr ""
 
 msgid ":meth:`!assertNotAlmostEquals`"
 msgstr ""
 
 msgid ":meth:`.assertNotAlmostEqual`"
-msgstr ":meth:`.assertNotAlmostEqual`"
+msgstr ""
 
 msgid ""
 "Likewise, the ``TestCase.fail*`` methods deprecated in Python 3.1 are "
@@ -2290,7 +2285,7 @@ msgid "(Contributed by Giampaolo Rodolà; :issue:`6706`.)"
 msgstr ""
 
 msgid "tempfile"
-msgstr "tempfile"
+msgstr ""
 
 msgid ""
 "The :mod:`tempfile` module has a new context manager, :class:`~tempfile."
@@ -2373,7 +2368,7 @@ msgid "(Contributed by Ron Adam; :issue:`2001`.)"
 msgstr ""
 
 msgid "dis"
-msgstr "dis"
+msgstr ""
 
 msgid ""
 "The :mod:`dis` module gained two new functions for inspecting code, :func:"
@@ -2454,7 +2449,7 @@ msgid "(Suggested by Ray Allen in :issue:`9523`.)"
 msgstr ""
 
 msgid "ctypes"
-msgstr "ctypes"
+msgstr ""
 
 msgid ""
 "A new type, :class:`ctypes.c_ssize_t` represents the C :c:type:`ssize_t` "
@@ -2596,7 +2591,7 @@ msgid "(Moved out of Distutils by Tarek Ziadé.)"
 msgstr ""
 
 msgid "pdb"
-msgstr "pdb"
+msgstr ""
 
 msgid ""
 "The :mod:`pdb` debugger module gained a number of usability improvements:"
@@ -2903,7 +2898,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr "Optimierungen"
+msgstr ""
 
 msgid "A number of small performance enhancements have been added:"
 msgstr ""
@@ -3110,7 +3105,7 @@ msgid "(Contributed by Georg Brandl in :issue:`7962`.)"
 msgstr ""
 
 msgid "IDLE"
-msgstr "IDLE"
+msgstr ""
 
 msgid ""
 "The format menu now has an option to clean source files by stripping "

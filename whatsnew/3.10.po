@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Jo K, 2023
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-29 13:04+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-23 14:20+0000\n"
+"PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +33,7 @@ msgid ""
 msgstr ""
 
 msgid "Summary -- Release highlights"
-msgstr "Zusammenfassung - Release Höhepunkte"
+msgstr ""
 
 msgid "New syntax features:"
 msgstr ""
@@ -69,7 +64,7 @@ msgid ":pep:`626`, Precise line numbers for debugging and other tools."
 msgstr ""
 
 msgid "New typing features:"
-msgstr "Neue Typisierungsfunktionen:"
+msgstr ""
 
 msgid ":pep:`604`, Allow writing union types as X | Y"
 msgstr ""
@@ -84,7 +79,7 @@ msgid ":pep:`647`, User-Defined Type Guards"
 msgstr ""
 
 msgid "Important deprecations, removals or restrictions:"
-msgstr "Wichtige Markierungen als veraltet, Entfernungen oder Einschränkungen:"
+msgstr ""
 
 msgid ":pep:`644`, Require OpenSSL 1.1.1 or newer"
 msgstr ""
@@ -104,7 +99,7 @@ msgid ":pep:`597`, Add optional EncodingWarning"
 msgstr ""
 
 msgid "New Features"
-msgstr "Neue Funktionen"
+msgstr ""
 
 msgid "Parenthesized context managers"
 msgstr ""
@@ -875,7 +870,7 @@ msgid "See :ref:`io-text-encoding` for more information."
 msgstr ""
 
 msgid "New Features Related to Type Hints"
-msgstr "Neue Funktionen im Zusammenhang mit Typ-Hinweisen"
+msgstr ""
 
 msgid ""
 "This section covers major changes affecting :pep:`484` type hints and the :"
@@ -1009,7 +1004,7 @@ msgid ""
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr "Andere sprachliche Änderungen"
+msgstr ""
 
 msgid ""
 "The :class:`int` type has a new method :meth:`int.bit_count`, returning the "
@@ -1123,16 +1118,16 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr "Neue Module"
+msgstr ""
 
 msgid "None."
 msgstr ""
 
 msgid "Improved Modules"
-msgstr "Verbesserte Module"
+msgstr ""
 
 msgid "asyncio"
-msgstr "asyncio"
+msgstr ""
 
 msgid ""
 "Add missing :meth:`~asyncio.events.AbstractEventLoop."
@@ -1150,7 +1145,7 @@ msgid ""
 msgstr ""
 
 msgid "array"
-msgstr "Array"
+msgstr ""
 
 msgid ""
 "The :meth:`~array.array.index` method of :class:`array.array` now has "
@@ -1258,7 +1253,7 @@ msgid "dataclasses"
 msgstr ""
 
 msgid "__slots__"
-msgstr "__slots__"
+msgstr ""
 
 msgid ""
 "Added ``slots`` parameter in :func:`dataclasses.dataclass` decorator. "
@@ -1553,7 +1548,7 @@ msgid ""
 msgstr ""
 
 msgid "itertools"
-msgstr "itertools"
+msgstr ""
 
 msgid ""
 "Add :func:`itertools.pairwise`. (Contributed by Raymond Hettinger in :issue:"
@@ -1564,7 +1559,7 @@ msgid "linecache"
 msgstr ""
 
 msgid "os"
-msgstr "os"
+msgstr ""
 
 msgid ""
 "Add :func:`os.cpu_count` support for VxWorks RTOS. (Contributed by Peixing "
@@ -1591,7 +1586,7 @@ msgid ""
 msgstr ""
 
 msgid "os.path"
-msgstr "os.path"
+msgstr ""
 
 msgid ""
 ":func:`os.path.realpath` now accepts a *strict* keyword-only argument. When "
@@ -1600,7 +1595,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr "pathlib"
+msgstr ""
 
 msgid ""
 "Add slice support to :attr:`PurePath.parents <pathlib.PurePath.parents>`. "
@@ -1627,7 +1622,7 @@ msgid ""
 msgstr ""
 
 msgid "platform"
-msgstr "платформа"
+msgstr ""
 
 msgid ""
 "Add :func:`platform.freedesktop_os_release` to retrieve operation system "
@@ -1762,7 +1757,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr "sqlite3"
+msgstr ""
 
 msgid ""
 "Add audit events for :func:`~sqlite3.connect/handle`, :meth:`~sqlite3."
@@ -1771,7 +1766,7 @@ msgid ""
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "Add :data:`sys.orig_argv` attribute: the list of the original command line "
@@ -1794,7 +1789,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr "threading"
+msgstr ""
 
 msgid ""
 "Add :func:`threading.gettrace` and :func:`threading.getprofile` to retrieve "
@@ -1809,7 +1804,7 @@ msgid ""
 msgstr ""
 
 msgid "traceback"
-msgstr "traceback"
+msgstr ""
 
 msgid ""
 "The :func:`~traceback.format_exception`, :func:`~traceback."
@@ -1819,7 +1814,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr "types"
+msgstr ""
 
 msgid ""
 "Reintroduce the :data:`types.EllipsisType`, :data:`types.NoneType` and :data:"
@@ -1829,7 +1824,7 @@ msgid ""
 msgstr ""
 
 msgid "typing"
-msgstr "typing"
+msgstr ""
 
 msgid "For major changes, see :ref:`new-feat-related-type-hints`."
 msgstr ""
@@ -1896,7 +1891,7 @@ msgid ""
 msgstr ""
 
 msgid "unittest"
-msgstr "unittest"
+msgstr ""
 
 msgid ""
 "Add new method :meth:`~unittest.TestCase.assertNoLogs` to complement the "
@@ -1953,7 +1948,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr "Optimierungen"
+msgstr ""
 
 msgid ""
 "Constructors :func:`str`, :func:`bytes` and :func:`bytearray` are now faster "
@@ -2036,7 +2031,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr "Als veraltet markiert"
+msgstr ""
 
 msgid ""
 "Currently Python accepts numeric literals immediately followed by keywords, "
@@ -2267,7 +2262,7 @@ msgid ""
 msgstr ""
 
 msgid "Removed"
-msgstr "Entfernt"
+msgstr ""
 
 msgid ""
 "Removed special methods ``__int__``, ``__float__``, ``__floordiv__``, "
@@ -2376,7 +2371,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr "Änderungen in der Python API"
+msgstr ""
 
 msgid ""
 "The *etype* parameters of the :func:`~traceback.format_exception`, :func:"
@@ -2509,7 +2504,7 @@ msgid ""
 msgstr ""
 
 msgid "CPython bytecode changes"
-msgstr "CPython Bytecode Änderungen"
+msgstr ""
 
 msgid ""
 "The ``MAKE_FUNCTION`` instruction now accepts either a dict or a tuple of "
@@ -2518,7 +2513,7 @@ msgid ""
 msgstr ""
 
 msgid "Build Changes"
-msgstr "Build Änderungen"
+msgstr ""
 
 msgid ""
 ":pep:`644`: Python now requires OpenSSL 1.1.1 or newer. OpenSSL 1.0.2 is no "
@@ -2589,7 +2584,7 @@ msgid ""
 msgstr ""
 
 msgid "C API Changes"
-msgstr "C API Änderungen"
+msgstr ""
 
 msgid "PEP 652: Maintaining the Stable ABI"
 msgstr ""

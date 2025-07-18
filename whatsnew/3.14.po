@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Jo K, 2025
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2025-05-08 06:05+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-07-04 14:20+0000\n"
+"PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +31,7 @@ msgid ""
 msgstr ""
 
 msgid "For full details, see the :ref:`changelog <changelog>`."
-msgstr "Für alle Einzelheiten, siehe :ref:`changelog <changelog>`."
+msgstr ""
 
 msgid ":pep:`745` -- Python 3.14 release schedule"
 msgstr ""
@@ -1530,7 +1525,7 @@ msgid ""
 msgstr ""
 
 msgid "asyncio"
-msgstr "asyncio"
+msgstr ""
 
 msgid ""
 "The function and methods named :func:`!create_task` now take an arbitrary "
@@ -1556,7 +1551,7 @@ msgid ""
 msgstr ""
 
 msgid "calendar"
-msgstr "Kalender"
+msgstr ""
 
 msgid ""
 "By default, today's date is highlighted in color in :mod:`calendar`'s :ref:"
@@ -1633,7 +1628,7 @@ msgid ""
 msgstr ""
 
 msgid "ctypes"
-msgstr "ctypes"
+msgstr ""
 
 msgid ""
 "The layout of :ref:`bit fields <ctypes-bit-fields-in-structures-unions>` in :"
@@ -1744,7 +1739,7 @@ msgid ""
 msgstr ""
 
 msgid "dis"
-msgstr "dis"
+msgstr ""
 
 msgid ""
 "Add support for rendering full source location information of :class:"
@@ -1802,7 +1797,7 @@ msgid ""
 msgstr ""
 
 msgid "fractions"
-msgstr "fractions"
+msgstr ""
 
 msgid ""
 "Add support for converting any objects that have the :meth:`!"
@@ -2013,7 +2008,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "Added more detailed error messages for domain errors in the module. "
@@ -2245,7 +2240,7 @@ msgid ""
 msgstr ""
 
 msgid "os"
-msgstr "os"
+msgstr ""
 
 msgid ""
 "Add the :func:`os.reload_environ` function to update :data:`os.environ` and :"
@@ -2266,7 +2261,7 @@ msgid ""
 msgstr ""
 
 msgid "os.path"
-msgstr "os.path"
+msgstr ""
 
 msgid ""
 "The *strict* parameter to :func:`os.path.realpath` accepts a new value, :"
@@ -2277,7 +2272,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr "pathlib"
+msgstr ""
 
 msgid ""
 "Add methods to :class:`pathlib.Path` to recursively copy or move files and "
@@ -2311,7 +2306,7 @@ msgid ""
 msgstr ""
 
 msgid "pdb"
-msgstr "pdb"
+msgstr ""
 
 msgid ""
 "Hardcoded breakpoints (:func:`breakpoint` and :func:`pdb.set_trace`) now "
@@ -2393,7 +2388,7 @@ msgid ""
 msgstr ""
 
 msgid "platform"
-msgstr "платформа"
+msgstr ""
 
 msgid ""
 "Add :func:`platform.invalidate_caches` to invalidate the cached results. "
@@ -2491,7 +2486,7 @@ msgid "(Contributed by Bénédikt Tran in :gh:`120029`.)"
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "The previously undocumented special function :func:`sys.getobjects`, which "
@@ -2562,7 +2557,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr "threading"
+msgstr ""
 
 msgid ""
 ":meth:`threading.Thread.start` now sets the operating system thread name to :"
@@ -2570,7 +2565,7 @@ msgid ""
 msgstr ""
 
 msgid "tkinter"
-msgstr "tkinter"
+msgstr ""
 
 msgid ""
 "Make :mod:`tkinter` widget methods :meth:`!after` and :meth:`!after_idle` "
@@ -2593,7 +2588,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr "types"
+msgstr ""
 
 msgid ""
 ":class:`types.UnionType` is now an alias for :class:`typing.Union`. See :ref:"
@@ -2602,7 +2597,7 @@ msgid ""
 msgstr ""
 
 msgid "typing"
-msgstr "typing"
+msgstr ""
 
 msgid ""
 ":class:`types.UnionType` and :class:`typing.Union` are now aliases for each "
@@ -2665,13 +2660,13 @@ msgid "(Contributed by Jelle Zijlstra in :gh:`105499`.)"
 msgstr ""
 
 msgid "unicodedata"
-msgstr "unicodedata"
+msgstr ""
 
 msgid "The Unicode database has been updated to Unicode 16.0.0."
 msgstr ""
 
 msgid "unittest"
-msgstr "unittest"
+msgstr ""
 
 msgid ""
 ":mod:`unittest` output is now colored by default. This can be controlled by :"
@@ -2767,7 +2762,7 @@ msgid "(Contributed by Barney Gale in :gh:`125866`.)"
 msgstr ""
 
 msgid "uuid"
-msgstr "uuid"
+msgstr ""
 
 msgid ""
 "Add support for UUID versions 6, 7, and 8 via :func:`uuid.uuid6`, :func:"
@@ -2817,7 +2812,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr "Optimierungen"
+msgstr ""
 
 msgid ""
 "The import time for several standard library modules has been improved, "
@@ -2895,7 +2890,7 @@ msgid "(Contributed by Bénédikt Tran in :gh:`128150`.)"
 msgstr ""
 
 msgid "zlib"
-msgstr "zlib"
+msgstr ""
 
 msgid ""
 "On Windows, ``zlib-ng`` is now used as the implementation of the :mod:`zlib` "
@@ -2907,7 +2902,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr "Als veraltet markiert"
+msgstr ""
 
 msgid ":mod:`argparse`:"
 msgstr ""
@@ -3625,7 +3620,7 @@ msgid ""
 msgstr ""
 
 msgid "Removed"
-msgstr "Entfernt"
+msgstr ""
 
 msgid ""
 "Remove the *type*, *choices*, and *metavar* parameters of :class:`!argparse."
@@ -3648,19 +3643,19 @@ msgid ""
 msgstr ""
 
 msgid ":class:`!ast.Bytes`"
-msgstr ":class:`!ast.Bytes`"
+msgstr ""
 
 msgid ":class:`!ast.Ellipsis`"
-msgstr ":class:`!ast.Ellipsis`"
+msgstr ""
 
 msgid ":class:`!ast.NameConstant`"
-msgstr ":class:`!ast.NameConstant`"
+msgstr ""
 
 msgid ":class:`!ast.Num`"
-msgstr ":class:`!ast.Num`"
+msgstr ""
 
 msgid ":class:`!ast.Str`"
-msgstr ":class:`!ast.Str`"
+msgstr ""
 
 msgid ""
 "Use :class:`ast.Constant` instead. As a consequence of these removals, user-"
@@ -3855,29 +3850,28 @@ msgid "Remove deprecated :mod:`importlib.abc` classes:"
 msgstr ""
 
 msgid ":class:`!importlib.abc.ResourceReader`"
-msgstr ":class:`!importlib.abc.ResourceReader`"
+msgstr ""
 
 msgid ":class:`!importlib.abc.Traversable`"
-msgstr ":class:`!importlib.abc.Traversable`"
+msgstr ""
 
 msgid ":class:`!importlib.abc.TraversableResources`"
-msgstr ":class:`!importlib.abc.TraversableResources`"
+msgstr ""
 
 msgid "Use :mod:`importlib.resources.abc` classes instead:"
-msgstr "Verwende stattdessen :mod:`importlib.resources.abc` Klassen:"
+msgstr ""
 
 msgid ":class:`importlib.resources.abc.Traversable`"
-msgstr ":class:`importlib.resources.abc.Traversable`"
+msgstr ""
 
 msgid ":class:`importlib.resources.abc.TraversableResources`"
-msgstr ":class:`importlib.resources.abc.TraversableResources`"
+msgstr ""
 
 msgid "(Contributed by Jason R. Coombs and Hugo van Kemenade in :gh:`93963`.)"
 msgstr ""
-"(Beigetragen von Jason R. Coombs und Hugo van Kemenade in :gh:`93963`.)"
 
 msgid "itertools"
-msgstr "itertools"
+msgstr ""
 
 msgid ""
 "Remove :mod:`itertools` support for copy, deepcopy, and pickle operations. "
@@ -3915,7 +3909,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr "sqlite3"
+msgstr ""
 
 msgid ""
 "Remove :data:`!version` and :data:`!version_info` from :mod:`sqlite3`; use :"
@@ -3960,7 +3954,7 @@ msgid ""
 msgstr ""
 
 msgid "Others"
-msgstr "Inne"
+msgstr ""
 
 msgid ""
 "Using :data:`NotImplemented` in a boolean context will now raise a :exc:"
@@ -3976,7 +3970,7 @@ msgid ""
 msgstr ""
 
 msgid "CPython bytecode changes"
-msgstr "CPython Bytecode Änderungen"
+msgstr ""
 
 msgid ""
 "Replaced the opcode ``BINARY_SUBSCR`` by :opcode:`BINARY_OP` with oparg "
@@ -3992,7 +3986,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr "Änderungen in der Python API"
+msgstr ""
 
 msgid ""
 ":class:`functools.partial` is now a method descriptor. Wrap it in :func:"

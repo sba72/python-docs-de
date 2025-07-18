@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-28 01:17+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:49+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,13 +46,13 @@ msgid "``'rb'``"
 msgstr ""
 
 msgid "Read only mode."
-msgstr "Режим тільки читання."
+msgstr ""
 
 msgid "``'wb'``"
 msgstr ""
 
 msgid "Write only mode."
-msgstr "Режим лише запису."
+msgstr ""
 
 msgid "Note that it does not allow read/write WAV files."
 msgstr ""
@@ -107,13 +103,13 @@ msgid "Returns number of audio channels (``1`` for mono, ``2`` for stereo)."
 msgstr ""
 
 msgid "Returns sample width in bytes."
-msgstr "Повертає ширину вибірки в байтах."
+msgstr ""
 
 msgid "Returns sampling frequency."
-msgstr "Повертає частоту вибірки."
+msgstr ""
 
 msgid "Returns number of audio frames."
-msgstr "Повертає кількість звукових кадрів."
+msgstr ""
 
 msgid "Returns compression type (``'NONE'`` is the only supported type)."
 msgstr ""
@@ -134,7 +130,7 @@ msgid ""
 msgstr ""
 
 msgid "Rewind the file pointer to the beginning of the audio stream."
-msgstr "Перемотайте покажчик файлу на початок аудіопотоку."
+msgstr ""
 
 msgid ""
 "The following two methods are defined for compatibility with the old :mod:`!"
@@ -142,7 +138,7 @@ msgid ""
 msgstr ""
 
 msgid "Returns ``None``."
-msgstr "Returns ``None``."
+msgstr ""
 
 msgid ""
 "The method only existed for compatibility with the :mod:`!aifc` module which "
@@ -150,14 +146,12 @@ msgid ""
 msgstr ""
 
 msgid "Raise an error."
-msgstr "Викликати помилку."
+msgstr ""
 
 msgid ""
 "The following two methods define a term \"position\" which is compatible "
 "between them, and is otherwise implementation dependent."
 msgstr ""
-"Наступні два методи визначають термін \"позиція\", який є сумісним між ними, "
-"а в інших випадках залежить від реалізації."
 
 msgid "Set the file pointer to the specified position."
 msgstr ""
@@ -198,7 +192,7 @@ msgid ""
 msgstr ""
 
 msgid "Set the number of channels."
-msgstr "Встановіть кількість каналів."
+msgstr ""
 
 msgid "Set the sample width to *n* bytes."
 msgstr ""
@@ -232,10 +226,10 @@ msgid ""
 msgstr ""
 
 msgid "Write audio frames, without correcting *nframes*."
-msgstr "Записуйте аудіокадри, не виправляючи *nframes*."
+msgstr ""
 
 msgid "Any :term:`bytes-like object` is now accepted."
-msgstr "Тепер приймається будь-який :term:`bytes-like object`."
+msgstr ""
 
 msgid ""
 "Write audio frames and make sure *nframes* is correct.  It will raise an "

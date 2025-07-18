@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Jo K, 2023
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-29 13:04+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +36,7 @@ msgid ":pep:`478` - Python 3.5 Release Schedule"
 msgstr ""
 
 msgid "Summary -- Release highlights"
-msgstr "Zusammenfassung - Release Höhepunkte"
+msgstr ""
 
 msgid "New syntax features:"
 msgstr ""
@@ -188,7 +183,7 @@ msgid ""
 msgstr ""
 
 msgid "New Features"
-msgstr "Neue Funktionen"
+msgstr ""
 
 msgid "PEP 492 - Coroutines with async and await syntax"
 msgstr ""
@@ -432,7 +427,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples::"
-msgstr "Przykłady::"
+msgstr ""
 
 msgid ""
 ">>> b'Hello %b!' % b'World'\n"
@@ -601,7 +596,7 @@ msgid "print(\"Hello World\")"
 msgstr ""
 
 msgid "and::"
-msgstr "dan::"
+msgstr ""
 
 msgid ""
 "while True:\n"
@@ -773,7 +768,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`485` -- A function for testing approximate equality"
-msgstr ":pep:`485` -- Функція для перевірки приблизної рівності"
+msgstr ""
 
 msgid ""
 "PEP written by Christopher Barker; implemented by Chris Barker and Tal Einat."
@@ -840,7 +835,7 @@ msgid ""
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr "Andere sprachliche Änderungen"
+msgstr ""
 
 msgid "Some smaller changes made to the core Python language are:"
 msgstr ""
@@ -874,10 +869,10 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr "Neue Module"
+msgstr ""
 
 msgid "typing"
-msgstr "typing"
+msgstr ""
 
 msgid ""
 "The new :mod:`typing` :term:`provisional <provisional API>` module provides "
@@ -915,7 +910,7 @@ msgid ":pep:`441` -- Improving Python ZIP Application Support"
 msgstr ""
 
 msgid "Improved Modules"
-msgstr "Verbesserte Module"
+msgstr ""
 
 msgid "argparse"
 msgstr ""
@@ -928,7 +923,7 @@ msgid ""
 msgstr ""
 
 msgid "asyncio"
-msgstr "asyncio"
+msgstr ""
 
 msgid ""
 "Since the :mod:`asyncio` module is :term:`provisional <provisional API>`, "
@@ -1079,7 +1074,7 @@ msgid ""
 msgstr ""
 
 msgid "code"
-msgstr "code"
+msgstr ""
 
 msgid ""
 "The :func:`InteractiveInterpreter.showtraceback() <code."
@@ -1214,7 +1209,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 ">>> import configparser\n"
@@ -1261,7 +1256,7 @@ msgid "(Contributed by Berker Peksag in :issue:`22389`.)"
 msgstr ""
 
 msgid "csv"
-msgstr "csv"
+msgstr ""
 
 msgid ""
 "The :meth:`~csv.csvwriter.writerow` method now supports arbitrary iterables, "
@@ -1746,7 +1741,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "Two new constants have been added to the :mod:`math` module: :data:`~math."
@@ -1790,7 +1785,7 @@ msgid ""
 msgstr ""
 
 msgid "os"
-msgstr "os"
+msgstr ""
 
 msgid ""
 "The new :func:`~os.scandir` function returning an iterator of :class:`~os."
@@ -1845,7 +1840,7 @@ msgid "(Contributed by Rafik Draoui and Serhiy Storchaka in :issue:`10395`.)"
 msgstr ""
 
 msgid "pathlib"
-msgstr "pathlib"
+msgstr ""
 
 msgid ""
 "The new :meth:`Path.samefile() <pathlib.Path.samefile>` method can be used "
@@ -2124,7 +2119,7 @@ msgid "ssl"
 msgstr ""
 
 msgid "Memory BIO Support"
-msgstr "Підтримка BIO пам'яті"
+msgstr ""
 
 msgid "(Contributed by Geert Jansen in :issue:`21965`.)"
 msgstr ""
@@ -2225,7 +2220,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr "sqlite3"
+msgstr ""
 
 msgid ""
 "The :class:`~sqlite3.Row` class now fully supports the sequence protocol, in "
@@ -2262,7 +2257,7 @@ msgid ""
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "A new :func:`~sys.set_coroutine_wrapper` function allows setting a global "
@@ -2315,7 +2310,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr "threading"
+msgstr ""
 
 msgid ""
 "Both the :meth:`Lock.acquire() <threading.Lock.acquire>` and :meth:`RLock."
@@ -2324,7 +2319,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr "time"
+msgstr ""
 
 msgid ""
 "The :func:`~time.monotonic` function is now always available. (Contributed "
@@ -2347,7 +2342,7 @@ msgid ""
 msgstr ""
 
 msgid "tkinter"
-msgstr "tkinter"
+msgstr ""
 
 msgid ""
 "The :mod:`!tkinter._fix` module used for setting up the Tcl/Tk environment "
@@ -2357,7 +2352,7 @@ msgid ""
 msgstr ""
 
 msgid "traceback"
-msgstr "traceback"
+msgstr ""
 
 msgid ""
 "New :func:`~traceback.walk_stack` and :func:`~traceback.walk_tb` functions "
@@ -2378,7 +2373,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr "types"
+msgstr ""
 
 msgid ""
 "A new :func:`~types.coroutine` function to transform :term:`generator "
@@ -2394,7 +2389,7 @@ msgid ""
 msgstr ""
 
 msgid "unicodedata"
-msgstr "unicodedata"
+msgstr ""
 
 msgid ""
 "The :mod:`unicodedata` module now uses data from `Unicode 8.0.0 <https://"
@@ -2402,7 +2397,7 @@ msgid ""
 msgstr ""
 
 msgid "unittest"
-msgstr "unittest"
+msgstr ""
 
 msgid ""
 "The :meth:`TestLoader.loadTestsFromModule() <unittest.TestLoader."
@@ -2551,7 +2546,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr "Optimierungen"
+msgstr ""
 
 msgid ""
 "The :func:`os.walk` function has been sped up by 3 to 5 times on POSIX "
@@ -2778,7 +2773,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr "Als veraltet markiert"
+msgstr ""
 
 msgid "New Keywords"
 msgstr ""
@@ -2895,7 +2890,7 @@ msgid ""
 msgstr ""
 
 msgid "Removed"
-msgstr "Entfernt"
+msgstr ""
 
 msgid "API and Feature Removals"
 msgstr ""
@@ -2952,7 +2947,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr "Änderungen in der Python API"
+msgstr ""
 
 msgid ""
 ":pep:`475`: System calls are now retried when interrupted by a signal "
@@ -3118,8 +3113,6 @@ msgid ""
 "The :c:type:`PyMemAllocator` structure was renamed to :c:type:"
 "`PyMemAllocatorEx` and a new ``calloc`` field was added."
 msgstr ""
-"Структуру :c:type:`PyMemAllocator` було перейменовано на :c:type:"
-"`PyMemAllocatorEx` і додано нове поле ``calloc``."
 
 msgid ""
 "Removed non-documented macro :c:macro:`!PyObject_REPR()` which leaked "

@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Tim L <tim.lorbacher@gmail.com>, 2023
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-28 01:49+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -333,7 +328,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`526` - Syntax for Variable Annotations"
-msgstr ":pep:`526` - Синтаксис для анотацій змінних"
+msgstr ""
 
 msgid ""
 "The proposal that added syntax for annotating the types of variables "
@@ -420,7 +415,7 @@ msgid ""
 msgstr ""
 
 msgid "The :keyword:`!del` statement"
-msgstr "Instrukcja :keyword:`!del`"
+msgstr ""
 
 msgid ""
 "Deletion is recursively defined very similar to the way assignment is "
@@ -737,8 +732,6 @@ msgid ""
 "If the module name is followed by :keyword:`!as`, then the name following :"
 "keyword:`!as` is bound directly to the imported module."
 msgstr ""
-"Jeżeli po nazwie modułu następuje :keyword:`!as`, to nazwa następująca po :"
-"keyword:`!as` jest powiązana bezpośrednio z importowanym modułem."
 
 msgid ""
 "If no other name is specified, and the module being imported is a top level "
@@ -782,7 +775,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples::"
-msgstr "Przykłady::"
+msgstr ""
 
 msgid ""
 "import foo                 # foo imported and bound locally\n"
@@ -1067,13 +1060,13 @@ msgid "simple"
 msgstr ""
 
 msgid "statement"
-msgstr "instrukcja"
+msgstr ""
 
 msgid "expression"
-msgstr "wyrażenie"
+msgstr ""
 
 msgid "list"
-msgstr "lista"
+msgstr ""
 
 msgid "built-in function"
 msgstr ""
@@ -1082,13 +1075,13 @@ msgid "repr"
 msgstr ""
 
 msgid "object"
-msgstr "obiekt"
+msgstr ""
 
 msgid "None"
-msgstr "None"
+msgstr ""
 
 msgid "string"
-msgstr "ciąg znaków"
+msgstr ""
 
 msgid "conversion"
 msgstr ""
@@ -1097,19 +1090,19 @@ msgid "output"
 msgstr ""
 
 msgid "standard"
-msgstr "стандарт"
+msgstr ""
 
 msgid "writing"
 msgstr ""
 
 msgid "values"
-msgstr "nilai"
+msgstr ""
 
 msgid "procedure"
 msgstr ""
 
 msgid "call"
-msgstr "виклик"
+msgstr ""
 
 msgid "= (equals)"
 msgstr ""
@@ -1124,16 +1117,16 @@ msgid "binding"
 msgstr ""
 
 msgid "name"
-msgstr "nazwa"
+msgstr ""
 
 msgid "rebinding"
 msgstr ""
 
 msgid "mutable"
-msgstr "мінливий"
+msgstr ""
 
 msgid "attribute"
-msgstr "Attribut"
+msgstr ""
 
 msgid "target"
 msgstr ""
@@ -1163,13 +1156,13 @@ msgid "subscription"
 msgstr ""
 
 msgid "sequence"
-msgstr "sekwencja"
+msgstr ""
 
 msgid "mapping"
-msgstr "pemetaan"
+msgstr ""
 
 msgid "dictionary"
-msgstr "słownik"
+msgstr ""
 
 msgid "slicing"
 msgstr ""
@@ -1256,7 +1249,7 @@ msgid "pass"
 msgstr ""
 
 msgid "null"
-msgstr "null"
+msgstr ""
 
 msgid "operation"
 msgstr ""
@@ -1277,13 +1270,13 @@ msgid "return"
 msgstr ""
 
 msgid "function"
-msgstr "funkcja"
+msgstr ""
 
 msgid "definition"
 msgstr ""
 
 msgid "class"
-msgstr "klasa"
+msgstr ""
 
 msgid "keyword"
 msgstr ""
@@ -1295,10 +1288,10 @@ msgid "yield"
 msgstr ""
 
 msgid "generator"
-msgstr "generator"
+msgstr ""
 
 msgid "iterator"
-msgstr "iterator"
+msgstr ""
 
 msgid "StopIteration"
 msgstr ""
@@ -1313,7 +1306,7 @@ msgid "__traceback__ (exception attribute)"
 msgstr ""
 
 msgid "traceback"
-msgstr "traceback"
+msgstr ""
 
 msgid "chaining"
 msgstr ""
@@ -1349,13 +1342,13 @@ msgid "import"
 msgstr ""
 
 msgid "module"
-msgstr "moduł"
+msgstr ""
 
 msgid "importing"
-msgstr "import"
+msgstr ""
 
 msgid "from"
-msgstr "dari"
+msgstr ""
 
 msgid "as"
 msgstr ""
@@ -1376,7 +1369,7 @@ msgid "future"
 msgstr ""
 
 msgid "__future__"
-msgstr "__future__"
+msgstr ""
 
 msgid "future statement"
 msgstr ""
@@ -1397,4 +1390,4 @@ msgid "nonlocal"
 msgstr ""
 
 msgid "type"
-msgstr "Typ"
+msgstr ""

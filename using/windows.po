@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Tim L <tim.lorbacher@gmail.com>, 2021
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-28 01:51+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-23 14:20+0000\n"
+"PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Using Python on Windows"
-msgstr "Python unter Windows nutzen"
+msgstr ""
 
 msgid ""
 "This document aims to give an overview of Windows-specific behaviour you "
@@ -462,7 +457,7 @@ msgid ""
 msgstr ""
 
 msgid "Configuration"
-msgstr "Konfiguracja"
+msgstr ""
 
 msgid ""
 "Python install manager is configured with a hierarchy of configuration "
@@ -503,7 +498,7 @@ msgid "Environment Variable"
 msgstr ""
 
 msgid "Description"
-msgstr "Beschreibung"
+msgstr ""
 
 msgid "``default_tag``"
 msgstr ""
@@ -1188,7 +1183,7 @@ msgid ""
 msgstr ""
 
 msgid "Embedding Python"
-msgstr "Załączanie programu interpretującego język pytonowski"
+msgstr ""
 
 msgid ""
 "Applications written in native code often require some form of scripting "
@@ -1425,7 +1420,7 @@ msgid ""
 msgstr ""
 
 msgid "Finding modules"
-msgstr "Module finden"
+msgstr ""
 
 msgid ""
 "These notes supplement the description at :ref:`sys-path-init` with detailed "
@@ -1682,11 +1677,9 @@ msgstr ""
 
 msgid "After starting the installer, one of two options may be selected:"
 msgstr ""
-"Nach dem Starten den Installers kann eine der beiden Optionen ausgewählt "
-"werden:"
 
 msgid "If you select \"Install Now\":"
-msgstr "Wenn Sie \"Jetzt installieren\" wählen:"
+msgstr ""
 
 msgid ""
 "You will *not* need to be an administrator (unless a system update for the C "
@@ -1774,7 +1767,7 @@ msgid ""
 msgstr ""
 
 msgid "Name"
-msgstr "Name"
+msgstr ""
 
 msgid "/passive"
 msgstr ""
@@ -1819,7 +1812,7 @@ msgid ""
 msgstr ""
 
 msgid "Default"
-msgstr "Standard"
+msgstr ""
 
 msgid "InstallAllUsers"
 msgstr ""
@@ -1828,13 +1821,13 @@ msgid "Perform a system-wide installation."
 msgstr ""
 
 msgid "0"
-msgstr "0"
+msgstr ""
 
 msgid "TargetDir"
 msgstr ""
 
 msgid "The installation directory"
-msgstr "Das Installations-Verzeichnis"
+msgstr ""
 
 msgid "Selected based on InstallAllUsers"
 msgstr ""
@@ -1869,7 +1862,7 @@ msgid "The default custom install directory displayed in the UI"
 msgstr ""
 
 msgid "(empty)"
-msgstr "(leer)"
+msgstr ""
 
 msgid "AssociateFiles"
 msgstr ""
@@ -1878,7 +1871,7 @@ msgid "Create file associations if the launcher is also installed."
 msgstr ""
 
 msgid "1"
-msgstr "1"
+msgstr ""
 
 msgid "CompileAll"
 msgstr ""
@@ -2169,7 +2162,7 @@ msgid "The launcher was originally specified in :pep:`397`."
 msgstr ""
 
 msgid "Getting started"
-msgstr "Los geht's"
+msgstr ""
 
 msgid "From the command-line"
 msgstr ""
@@ -2516,7 +2509,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples:"
-msgstr "Beispiele:"
+msgstr ""
 
 msgid ""
 "If no relevant options are set, the commands ``python`` and ``python2`` will "
@@ -2556,7 +2549,7 @@ msgid ""
 msgstr ""
 
 msgid "For example:"
-msgstr "Zum Beispiel:"
+msgstr ""
 
 msgid "Setting ``PY_PYTHON=3.7`` is equivalent to the INI file containing:"
 msgstr ""
@@ -2635,7 +2628,7 @@ msgid ""
 msgstr ""
 
 msgid "Value"
-msgstr "Wartość"
+msgstr ""
 
 msgid "RC_BAD_VENV_CFG"
 msgstr ""

@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Jo K, 2023
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-29 13:04+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -157,7 +152,7 @@ msgid ""
 msgstr ""
 
 msgid "New Features"
-msgstr "Neue Funktionen"
+msgstr ""
 
 msgid "PEP 563: Postponed Evaluation of Annotations"
 msgstr ""
@@ -595,7 +590,7 @@ msgid ""
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr "Andere sprachliche Änderungen"
+msgstr ""
 
 msgid ""
 "An :keyword:`await` expression and comprehensions containing an :keyword:"
@@ -660,7 +655,7 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr "Neue Module"
+msgstr ""
 
 msgid "contextvars"
 msgstr ""
@@ -697,7 +692,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 "@dataclass\n"
@@ -738,7 +733,7 @@ msgid ""
 msgstr ""
 
 msgid "Improved Modules"
-msgstr "Verbesserte Module"
+msgstr ""
 
 msgid "argparse"
 msgstr ""
@@ -750,7 +745,7 @@ msgid ""
 msgstr ""
 
 msgid "asyncio"
-msgstr "asyncio"
+msgstr ""
 
 msgid ""
 "The :mod:`asyncio` module has received many new features, usability and :ref:"
@@ -947,7 +942,7 @@ msgid ""
 msgstr ""
 
 msgid "calendar"
-msgstr "Kalender"
+msgstr ""
 
 msgid ""
 "The :class:`~calendar.HTMLCalendar` class has new class attributes which "
@@ -1062,7 +1057,7 @@ msgid ""
 msgstr ""
 
 msgid "dis"
-msgstr "dis"
+msgstr ""
 
 msgid ""
 "The :func:`~dis.dis` function is now able to disassemble nested code objects "
@@ -1300,7 +1295,7 @@ msgid ""
 msgstr ""
 
 msgid "itertools"
-msgstr "itertools"
+msgstr ""
 
 msgid ""
 ":func:`itertools.islice` now accepts :meth:`integer-like objects <object."
@@ -1344,7 +1339,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "The new :func:`math.remainder` function implements the IEEE 754-style "
@@ -1389,7 +1384,7 @@ msgid ""
 msgstr ""
 
 msgid "os"
-msgstr "os"
+msgstr ""
 
 msgid ""
 ":func:`os.fwalk` now accepts the *path* argument as :class:`bytes`. "
@@ -1432,7 +1427,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr "pathlib"
+msgstr ""
 
 msgid ""
 "The new :meth:`Path.is_mount() <pathlib.Path.is_mount>` method is now "
@@ -1441,7 +1436,7 @@ msgid ""
 msgstr ""
 
 msgid "pdb"
-msgstr "pdb"
+msgstr ""
 
 msgid ""
 ":func:`pdb.set_trace` now takes an optional *header* keyword-only argument.  "
@@ -1579,7 +1574,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr "sqlite3"
+msgstr ""
 
 msgid ""
 ":class:`sqlite3.Connection` now exposes the :meth:`~sqlite3.Connection."
@@ -1676,7 +1671,7 @@ msgid ""
 msgstr ""
 
 msgid "string"
-msgstr "ciąg znaków"
+msgstr ""
 
 msgid ""
 ":class:`string.Template` now lets you to optionally modify the regular "
@@ -1718,7 +1713,7 @@ msgid ""
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "The new :func:`sys.breakpointhook` hook function is called by the built-in :"
@@ -1740,7 +1735,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr "time"
+msgstr ""
 
 msgid ""
 ":pep:`564` adds six new functions with nanosecond resolution to the :mod:"
@@ -1779,7 +1774,7 @@ msgid ""
 msgstr ""
 
 msgid "tkinter"
-msgstr "tkinter"
+msgstr ""
 
 msgid ""
 "The new :class:`tkinter.ttk.Spinbox` class is now available. (Contributed by "
@@ -1799,7 +1794,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr "types"
+msgstr ""
 
 msgid ""
 "The new :class:`~types.WrapperDescriptorType`, :class:`~types."
@@ -1816,7 +1811,7 @@ msgid ""
 msgstr ""
 
 msgid "unicodedata"
-msgstr "unicodedata"
+msgstr ""
 
 msgid ""
 "The internal :mod:`unicodedata` database has been upgraded to use `Unicode "
@@ -1825,7 +1820,7 @@ msgid ""
 msgstr ""
 
 msgid "unittest"
-msgstr "unittest"
+msgstr ""
 
 msgid ""
 "The new ``-k`` command-line option allows filtering tests by a name "
@@ -1870,7 +1865,7 @@ msgid ""
 msgstr ""
 
 msgid "uuid"
-msgstr "uuid"
+msgstr ""
 
 msgid ""
 "The new :attr:`UUID.is_safe <uuid.UUID.is_safe>` attribute relays "
@@ -1997,7 +1992,7 @@ msgid ""
 msgstr ""
 
 msgid "C API Changes"
-msgstr "C API Änderungen"
+msgstr ""
 
 msgid ""
 "A new API for thread-local storage has been implemented.  See :ref:"
@@ -2131,7 +2126,7 @@ msgid ""
 msgstr ""
 
 msgid "Build Changes"
-msgstr "Build Änderungen"
+msgstr ""
 
 msgid ""
 "Support for building ``--without-threads`` has been removed.  The :mod:"
@@ -2162,7 +2157,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr "Optimierungen"
+msgstr ""
 
 msgid ""
 "The overhead of calling many methods of various standard library classes "
@@ -2465,7 +2460,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr "threading"
+msgstr ""
 
 msgid ""
 ":mod:`!dummy_threading` and :mod:`!_dummy_thread` have been deprecated.  It "
@@ -2740,7 +2735,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr "Änderungen in der Python API"
+msgstr ""
 
 msgid ""
 ":meth:`socketserver.ThreadingMixIn.server_close` now waits until all non-"
@@ -2989,7 +2984,7 @@ msgid ""
 msgstr ""
 
 msgid "CPython bytecode changes"
-msgstr "CPython Bytecode Änderungen"
+msgstr ""
 
 msgid ""
 "There are two new opcodes: :opcode:`LOAD_METHOD` and :opcode:`!CALL_METHOD`. "
