@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Jo K, 2024
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-28 01:04+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-23 14:20+0000\n"
+"PO-Revision-Date: 2025-07-18 18:48+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1011,7 +1006,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 msgid ""
 ">>> from decimal import Decimal, getcontext, ROUND_DOWN\n"
@@ -1543,7 +1538,7 @@ msgid "Converts a number to a string using scientific notation."
 msgstr ""
 
 msgid "Constants"
-msgstr "Stały"
+msgstr ""
 
 msgid ""
 "The constants in this section are only relevant for the C module. They are "

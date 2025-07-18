@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-18 14:22+0000\n"
-"PO-Revision-Date: 2021-06-28 01:14+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:49+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,7 +50,7 @@ msgid "Writing PyUnit regression tests."
 msgstr ""
 
 msgid "Module :mod:`doctest`"
-msgstr "Modul :mod:`doctest`"
+msgstr ""
 
 msgid "Tests embedded in documentation strings."
 msgstr ""
@@ -478,7 +474,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 "for _ in support.busy_retry(support.SHORT_TIMEOUT):\n"
@@ -651,7 +647,7 @@ msgid "Context manager to swap out an attribute with a new object."
 msgstr ""
 
 msgid "Usage::"
-msgstr "Penggunaan::"
+msgstr ""
 
 msgid ""
 "with swap_attr(obj, \"attr\", 5):\n"
@@ -1329,11 +1325,6 @@ msgid ""
 "# exc_type, exc_value, exc_traceback, thread attributes of cm no longer\n"
 "# exists at this point\n"
 "# (to avoid reference cycles)"
-msgstr ""
-
-msgid ""
-"Run the worker function concurrently in multiple threads. Re-raises an "
-"exception if any thread raises one, after all threads have finished."
 msgstr ""
 
 msgid ":mod:`test.support.os_helper` --- Utilities for os tests"

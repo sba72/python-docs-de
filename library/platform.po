@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-18 14:22+0000\n"
-"PO-Revision-Date: 2021-06-28 01:11+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:49+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -199,7 +195,7 @@ msgstr ""
 
 msgid ""
 "Note: the first two attribute names differ from the names presented by :func:"
-"`os.uname`, where they are named :attr:`!sysname` and :attr:`!nodename`."
+"`os.uname`, where they are named :attr:`sysname` and :attr:`nodename`."
 msgstr ""
 
 msgid "Entries which cannot be determined are set to ``''``."
@@ -354,7 +350,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 "def get_like_distro():\n"
@@ -441,7 +437,7 @@ msgid ""
 msgstr ""
 
 msgid "Miscellaneous"
-msgstr "Diğer"
+msgstr ""
 
 msgid ""
 "Clear out the internal cache of information, such as the :func:`uname`. This "

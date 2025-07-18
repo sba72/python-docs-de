@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Jo K, 2023
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-29 13:04+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +24,7 @@ msgid "Editor"
 msgstr ""
 
 msgid "Raymond Hettinger"
-msgstr "Raymond Hettinger"
+msgstr ""
 
 msgid ""
 "This article explains the new features in Python 3.8, compared to 3.7. "
@@ -38,13 +33,13 @@ msgid ""
 msgstr ""
 
 msgid "Summary -- Release highlights"
-msgstr "Zusammenfassung - Release Höhepunkte"
+msgstr ""
 
 msgid "New Features"
-msgstr "Neue Funktionen"
+msgstr ""
 
 msgid "Assignment expressions"
-msgstr "Wyrażenia przypisania"
+msgstr ""
 
 msgid ""
 "There is new syntax ``:=`` that assigns values to variables as part of a "
@@ -501,7 +496,7 @@ msgid "(Contributed by Antoine Pitrou in :issue:`36785`.)"
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr "Andere sprachliche Änderungen"
+msgstr ""
 
 msgid ""
 "A :keyword:`continue` statement was illegal in the :keyword:`finally` clause "
@@ -701,7 +696,7 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr "Neue Module"
+msgstr ""
 
 msgid ""
 "The new :mod:`importlib.metadata` module provides (provisional) support for "
@@ -730,7 +725,7 @@ msgid "(Contributed by Barry Warsaw and Jason R. Coombs in :issue:`34632`.)"
 msgstr ""
 
 msgid "Improved Modules"
-msgstr "Verbesserte Module"
+msgstr ""
 
 msgid "ast"
 msgstr ""
@@ -772,7 +767,7 @@ msgid "(Contributed by Guido van Rossum in :issue:`35766`.)"
 msgstr ""
 
 msgid "asyncio"
-msgstr "asyncio"
+msgstr ""
 
 msgid ""
 ":func:`asyncio.run` has graduated from the provisional to stable API. This "
@@ -930,7 +925,7 @@ msgid "(Contributed by Scott Sanderson in :issue:`29235`.)"
 msgstr ""
 
 msgid "csv"
-msgstr "csv"
+msgstr ""
 
 msgid ""
 "The :class:`csv.DictReader` now returns instances of :class:`dict` instead "
@@ -949,7 +944,7 @@ msgid ""
 msgstr ""
 
 msgid "ctypes"
-msgstr "ctypes"
+msgstr ""
 
 msgid ""
 "On Windows, :class:`~ctypes.CDLL` and subclasses now accept a *winmode* "
@@ -1165,7 +1160,7 @@ msgid ""
 msgstr ""
 
 msgid "itertools"
-msgstr "itertools"
+msgstr ""
 
 msgid ""
 "The :func:`itertools.accumulate` function added an option *initial* keyword "
@@ -1212,7 +1207,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "Added new function :func:`math.dist` for computing Euclidean distance "
@@ -1305,7 +1300,7 @@ msgid ""
 msgstr ""
 
 msgid "os"
-msgstr "os"
+msgstr ""
 
 msgid ""
 "Added new function :func:`~os.add_dll_directory` on Windows for providing "
@@ -1344,7 +1339,7 @@ msgid "(Contributed by Steve Dower in :issue:`37834`.)"
 msgstr ""
 
 msgid "os.path"
-msgstr "os.path"
+msgstr ""
 
 msgid ""
 ":mod:`os.path` functions that return a boolean result like :func:`~os.path."
@@ -1374,7 +1369,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr "pathlib"
+msgstr ""
 
 msgid ""
 ":mod:`pathlib.Path` methods that return a boolean result like :meth:"
@@ -1565,7 +1560,7 @@ msgid ""
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "Add new :func:`sys.unraisablehook` function which can be overridden to "
@@ -1587,7 +1582,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr "threading"
+msgstr ""
 
 msgid ""
 "Add a new :func:`threading.excepthook` function which handles uncaught :meth:"
@@ -1606,7 +1601,7 @@ msgid ""
 msgstr ""
 
 msgid "tokenize"
-msgstr "tokenize"
+msgstr ""
 
 msgid ""
 "The :mod:`tokenize` module now implicitly emits a ``NEWLINE`` token when "
@@ -1616,7 +1611,7 @@ msgid ""
 msgstr ""
 
 msgid "tkinter"
-msgstr "tkinter"
+msgstr ""
 
 msgid ""
 "Added methods :meth:`~tkinter.Spinbox.selection_from`, :meth:`~tkinter."
@@ -1637,7 +1632,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr "time"
+msgstr ""
 
 msgid ""
 "Added new clock :const:`~time.CLOCK_UPTIME_RAW` for macOS 10.12. "
@@ -1645,7 +1640,7 @@ msgid ""
 msgstr ""
 
 msgid "typing"
-msgstr "typing"
+msgstr ""
 
 msgid "The :mod:`typing` module incorporates several new features:"
 msgstr ""
@@ -1697,7 +1692,7 @@ msgid "New functions :func:`typing.get_origin` and :func:`typing.get_args`."
 msgstr ""
 
 msgid "unicodedata"
-msgstr "unicodedata"
+msgstr ""
 
 msgid ""
 "The :mod:`unicodedata` module has been upgraded to use the `Unicode 12.1.0 "
@@ -1712,7 +1707,7 @@ msgid ""
 msgstr ""
 
 msgid "unittest"
-msgstr "unittest"
+msgstr ""
 
 msgid ""
 "Added :class:`~unittest.mock.AsyncMock` to support an asynchronous version "
@@ -1740,7 +1735,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 "import unittest\n"
@@ -1824,7 +1819,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr "Optimierungen"
+msgstr ""
 
 msgid ""
 "The :mod:`subprocess` module can now use the :func:`os.posix_spawn` function "
@@ -2077,7 +2072,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr "Als veraltet markiert"
+msgstr ""
 
 msgid ""
 "The distutils ``bdist_wininst`` command is now deprecated, use "
@@ -2369,7 +2364,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr "Änderungen in der Python API"
+msgstr ""
 
 msgid ""
 "The :func:`os.getcwdb` function now uses the UTF-8 encoding on Windows, "
@@ -2620,7 +2615,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr "Przykład:"
+msgstr ""
 
 msgid ""
 "static foo_struct *\n"
@@ -2710,7 +2705,7 @@ msgid "(Contributed by Steve Dower in :issue:`37351`.)"
 msgstr ""
 
 msgid "CPython bytecode changes"
-msgstr "CPython Bytecode Änderungen"
+msgstr ""
 
 msgid ""
 "The interpreter loop  has been simplified by moving the logic of unrolling "
@@ -2746,7 +2741,7 @@ msgid ""
 msgstr ""
 
 msgid "Demos and Tools"
-msgstr "Demos und Werkzeuge"
+msgstr ""
 
 msgid ""
 "Added a benchmark script for timing various ways to access variables: "

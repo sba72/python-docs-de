@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Jo K, 2023
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-29 13:04+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +21,7 @@ msgid "What's New In Python 3.4"
 msgstr ""
 
 msgid "Author"
-msgstr "Autor"
+msgstr ""
 
 msgid "R. David Murray <rdmurray@bitdance.com> (Editor)"
 msgstr ""
@@ -235,7 +230,7 @@ msgid ""
 msgstr ""
 
 msgid "New Features"
-msgstr "Neue Funktionen"
+msgstr ""
 
 msgid "PEP 453: Explicit Bootstrapping of PIP in Python Installations"
 msgstr ""
@@ -504,7 +499,7 @@ msgid ""
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr "Andere sprachliche Änderungen"
+msgstr ""
 
 msgid "Some smaller changes made to the core Python language are:"
 msgstr ""
@@ -585,10 +580,10 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr "Neue Module"
+msgstr ""
 
 msgid "asyncio"
-msgstr "asyncio"
+msgstr ""
 
 msgid ""
 "The new :mod:`asyncio` module (defined in :pep:`3156`) provides a standard "
@@ -655,7 +650,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr "pathlib"
+msgstr ""
 
 msgid ""
 "The new :mod:`pathlib` module offers classes representing filesystem paths "
@@ -712,11 +707,9 @@ msgid ""
 "Statistics on allocated memory blocks per filename and per line number: "
 "total size, number and average size of allocated memory blocks"
 msgstr ""
-"Статистика виділених блоків пам'яті на ім'я файлу та номер рядка: загальний "
-"розмір, кількість і середній розмір виділених блоків пам'яті"
 
 msgid "Compute the differences between two snapshots to detect memory leaks"
-msgstr "Обчисліть різницю між двома знімками, щоб виявити витоки пам’яті"
+msgstr ""
 
 msgid ""
 ":pep:`454` -- Add a new tracemalloc module to trace Python memory allocations"
@@ -726,7 +719,7 @@ msgid "PEP written and implemented by Victor Stinner"
 msgstr ""
 
 msgid "Improved Modules"
-msgstr "Verbesserte Module"
+msgstr ""
 
 msgid "abc"
 msgstr ""
@@ -872,7 +865,7 @@ msgid ""
 msgstr ""
 
 msgid "dis"
-msgstr "dis"
+msgstr ""
 
 msgid ""
 "Functions :func:`~dis.show_code`, :func:`~dis.dis`, :func:`~dis.distb`, and :"
@@ -1427,7 +1420,7 @@ msgid ""
 msgstr ""
 
 msgid "os"
-msgstr "os"
+msgstr ""
 
 msgid ""
 "There are new functions to get and set the :ref:`inheritable flag "
@@ -1466,7 +1459,7 @@ msgid ""
 msgstr ""
 
 msgid "pdb"
-msgstr "pdb"
+msgstr ""
 
 msgid ""
 ":mod:`pdb` has been enhanced to handle generators, :keyword:`yield`, and "
@@ -1713,7 +1706,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr "sqlite3"
+msgstr ""
 
 msgid ""
 "A new boolean parameter to the :func:`~sqlite3.connect` function, *uri*, can "
@@ -1872,7 +1865,7 @@ msgid ""
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "New function :func:`sys.getallocatedblocks` returns the current number of "
@@ -1925,7 +1918,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr "threading"
+msgstr ""
 
 msgid ""
 "The :class:`~threading.Thread` object representing the main thread can be "
@@ -1935,7 +1928,7 @@ msgid ""
 msgstr ""
 
 msgid "traceback"
-msgstr "traceback"
+msgstr ""
 
 msgid ""
 "A new :func:`traceback.clear_frames` function takes a traceback object and "
@@ -1945,7 +1938,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr "types"
+msgstr ""
 
 msgid ""
 "A new :func:`~types.DynamicClassAttribute` descriptor provides a way to "
@@ -1994,7 +1987,7 @@ msgid ""
 msgstr ""
 
 msgid "unittest"
-msgstr "unittest"
+msgstr ""
 
 msgid ""
 "The :class:`~unittest.TestCase` class has a new method, :meth:`~unittest."
@@ -2501,7 +2494,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr "Als veraltet markiert"
+msgstr ""
 
 msgid ""
 "This section covers various APIs and other features that have been "
@@ -2610,7 +2603,7 @@ msgid ""
 msgstr ""
 
 msgid "Removed"
-msgstr "Entfernt"
+msgstr ""
 
 msgid "Operating Systems No Longer Supported"
 msgstr ""
@@ -2758,7 +2751,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr "Änderungen in der Python API"
+msgstr ""
 
 msgid ""
 "The ABCs defined in :mod:`importlib.abc` now either raise the appropriate "

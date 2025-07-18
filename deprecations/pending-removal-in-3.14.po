@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Jo K, 2024
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-04 14:20+0000\n"
-"PO-Revision-Date: 2024-07-20 00:54+0000\n"
-"Last-Translator: Jo K, 2024\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:48+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,26 +33,24 @@ msgid ""
 msgstr ""
 
 msgid ":class:`!ast.Num`"
-msgstr ":class:`!ast.Num`"
+msgstr ""
 
 msgid ":class:`!ast.Str`"
-msgstr ":class:`!ast.Str`"
+msgstr ""
 
 msgid ":class:`!ast.Bytes`"
-msgstr ":class:`!ast.Bytes`"
+msgstr ""
 
 msgid ":class:`!ast.NameConstant`"
-msgstr ":class:`!ast.NameConstant`"
+msgstr ""
 
 msgid ":class:`!ast.Ellipsis`"
-msgstr ":class:`!ast.Ellipsis`"
+msgstr ""
 
 msgid ""
 "Use :class:`ast.Constant` instead. (Contributed by Serhiy Storchaka in :gh:"
 "`90953`.)"
 msgstr ""
-"Verwende stattdessen :class:`ast.Constant`. (Beigetragen von Serhiy "
-"Storchaka in :gh:`90953`.)"
 
 msgid ":mod:`asyncio`:"
 msgstr ""
@@ -98,26 +92,25 @@ msgid ":mod:`importlib.abc` deprecated classes:"
 msgstr ""
 
 msgid ":class:`!importlib.abc.ResourceReader`"
-msgstr ":class:`!importlib.abc.ResourceReader`"
+msgstr ""
 
 msgid ":class:`!importlib.abc.Traversable`"
-msgstr ":class:`!importlib.abc.Traversable`"
+msgstr ""
 
 msgid ":class:`!importlib.abc.TraversableResources`"
-msgstr ":class:`!importlib.abc.TraversableResources`"
+msgstr ""
 
 msgid "Use :mod:`importlib.resources.abc` classes instead:"
-msgstr "Verwende stattdessen :mod:`importlib.resources.abc` Klassen:"
+msgstr ""
 
 msgid ":class:`importlib.resources.abc.Traversable`"
-msgstr ":class:`importlib.resources.abc.Traversable`"
+msgstr ""
 
 msgid ":class:`importlib.resources.abc.TraversableResources`"
-msgstr ":class:`importlib.resources.abc.TraversableResources`"
+msgstr ""
 
 msgid "(Contributed by Jason R. Coombs and Hugo van Kemenade in :gh:`93963`.)"
 msgstr ""
-"(Beigetragen von Jason R. Coombs und Hugo van Kemenade in :gh:`93963`.)"
 
 msgid ""
 ":mod:`itertools` had undocumented, inefficient, historically buggy, and "
