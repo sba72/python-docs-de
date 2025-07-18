@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-28 01:50+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Input and Output"
-msgstr "Wejście i wyjście"
+msgstr ""
 
 msgid ""
 "There are several ways to present the output of a program; data can be "
@@ -109,7 +105,7 @@ msgid ""
 msgstr ""
 
 msgid "Some examples::"
-msgstr "Trochę przykładów::"
+msgstr ""
 
 msgid ""
 ">>> s = 'Hello, world.'\n"
@@ -693,7 +689,7 @@ msgid "interpolated string literal"
 msgstr ""
 
 msgid "string"
-msgstr "ciąg znaków"
+msgstr ""
 
 msgid "formatted literal"
 msgstr ""
@@ -702,7 +698,7 @@ msgid "interpolated literal"
 msgstr ""
 
 msgid "f-string"
-msgstr "f-string"
+msgstr ""
 
 msgid "fstring"
 msgstr ""
@@ -711,16 +707,16 @@ msgid "built-in function"
 msgstr ""
 
 msgid "open"
-msgstr "otwórz"
+msgstr ""
 
 msgid "object"
-msgstr "obiekt"
+msgstr ""
 
 msgid "file"
 msgstr ""
 
 msgid "module"
-msgstr "moduł"
+msgstr ""
 
 msgid "json"
 msgstr ""

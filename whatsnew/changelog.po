@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Jo K, 2024
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-18 14:22+0000\n"
-"PO-Revision-Date: 2021-06-29 13:04+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-07-11 14:21+0000\n"
+"PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Changelog"
-msgstr "Änderungsbericht"
+msgstr ""
 
 msgid "Python next"
 msgstr ""
@@ -32,14 +27,6 @@ msgid "*Release date: XXXX-XX-XX*"
 msgstr ""
 
 msgid "Library"
-msgstr ""
-
-msgid ":gh:`136549`: Fix signature of :func:`threading.excepthook`."
-msgstr ""
-
-msgid ""
-":gh:`136523`: Fix :class:`wave.Wave_write` emitting an unraisable when open "
-"raises."
 msgstr ""
 
 msgid ""
@@ -64,12 +51,6 @@ msgid ""
 msgstr ""
 
 msgid ""
-":gh:`134759`: Fix :exc:`UnboundLocalError` in :func:`email.message.Message."
-"get_payload` when the payload to decode is a :class:`bytes` object. Patch by "
-"Kliment Lamonov."
-msgstr ""
-
-msgid ""
 ":gh:`134657`: :mod:`asyncio`: Remove some private names from ``asyncio."
 "__all__``."
 msgstr ""
@@ -90,39 +71,13 @@ msgid ""
 msgstr ""
 
 msgid ""
-":gh:`136525`: Fix issue where per-thread bytecode was not instrumented for "
-"newly created threads."
-msgstr ""
-
-msgid ""
 ":gh:`132661`: ``Interpolation.expression`` now has a default, the empty "
 "string."
 msgstr ""
 
 msgid ""
-":gh:`116738`: Make functions in :mod:`grp` thread-safe on the :term:`free "
-"threaded <free threading>` build."
-msgstr ""
-
-msgid ""
-":gh:`135148`: Fixed a bug where f-string debug expressions (using =) would "
-"incorrectly strip out parts of strings containing escaped quotes and # "
-"characters. Patch by Pablo Galindo."
-msgstr ""
-
-msgid ""
 ":gh:`133136`: Limit excess memory usage in the :term:`free threading` build "
 "when a large dictionary or list is resized and accessed by multiple threads."
-msgstr ""
-
-msgid ""
-":gh:`91153`: Fix a crash when a :class:`bytearray` is concurrently mutated "
-"during item assignment."
-msgstr ""
-
-msgid ""
-":gh:`127971`: Fix off-by-one read beyond the end of a string in string "
-"search."
 msgstr ""
 
 msgid "Python 3.14.0 beta 4"
@@ -438,7 +393,7 @@ msgid "*Release date: 2025-06-17*"
 msgstr ""
 
 msgid "Windows"
-msgstr "Windows"
+msgstr ""
 
 msgid ""
 ":gh:`135099`: Fix a crash that could occur on Windows when a background "
@@ -1829,7 +1784,7 @@ msgid ""
 msgstr ""
 
 msgid "IDLE"
-msgstr "IDLE"
+msgstr ""
 
 msgid ":gh:`112936`: fix IDLE: no Shell menu item in single-process mode."
 msgstr ""
@@ -2328,7 +2283,7 @@ msgid "*Release date: 2025-04-08*"
 msgstr ""
 
 msgid "macOS"
-msgstr "macOS"
+msgstr ""
 
 msgid ":gh:`124111`: Update macOS installer to use Tcl/Tk 8.6.16."
 msgstr ""
@@ -20319,13 +20274,13 @@ msgid ":gh:`90656`: Add platform triplets for 64-bit LoongArch:"
 msgstr ""
 
 msgid "loongarch64-linux-gnusf"
-msgstr "loongarch64-linux-gnusf"
+msgstr ""
 
 msgid "loongarch64-linux-gnuf32"
-msgstr "loongarch64-linux-gnuf32"
+msgstr ""
 
 msgid "loongarch64-linux-gnu"
-msgstr "loongarch64-linux-gnu"
+msgstr ""
 
 msgid "Patch by Zhang Na."
 msgstr ""
@@ -24476,7 +24431,7 @@ msgid "``It is deprecated to return a value!=None``"
 msgstr ""
 
 msgid "to"
-msgstr "ke"
+msgstr ""
 
 msgid ""
 "``It is deprecated to return a value that is not None from a test case``"
@@ -25477,10 +25432,10 @@ msgid ""
 msgstr ""
 
 msgid "``sqlite3.enable_shared_cache()``"
-msgstr "``sqlite3.enable_shared_cache()``"
+msgstr ""
 
 msgid "``sqlite3.OptimizedUnicode``"
-msgstr "``sqlite3.OptimizedUnicode``"
+msgstr ""
 
 msgid ""
 ":gh:`92530`: Fix an issue that occurred after interrupting :func:`threading."
@@ -37776,7 +37731,7 @@ msgid ":meth:`dict.items`"
 msgstr ""
 
 msgid ":func:`enumerate`"
-msgstr ":func:`enumerate`"
+msgstr ""
 
 msgid ":func:`functools.reduce`"
 msgstr ""
@@ -37797,7 +37752,7 @@ msgid ":func:`itertools.zip_longest`"
 msgstr ""
 
 msgid ":func:`zip`"
-msgstr ":func:`zip`"
+msgstr ""
 
 msgid ""
 "Previously, they could have become untracked by a prior garbage collection. "

@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-28 01:11+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:49+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -391,7 +387,7 @@ msgid ""
 msgstr ""
 
 msgid "Added context manager support."
-msgstr "Додано підтримку менеджера контексту."
+msgstr ""
 
 msgid "Start collecting profiling data. Only in :mod:`cProfile`."
 msgstr ""
@@ -533,7 +529,7 @@ msgid "Valid enum Arg"
 msgstr ""
 
 msgid "Meaning"
-msgstr "Znaczenie"
+msgstr ""
 
 msgid "``'calls'``"
 msgstr ""
@@ -557,7 +553,7 @@ msgid "``'cumtime'``"
 msgstr ""
 
 msgid "N/A"
-msgstr "T/A"
+msgstr ""
 
 msgid "``'file'``"
 msgstr ""
@@ -566,7 +562,7 @@ msgid "file name"
 msgstr ""
 
 msgid "``'filename'``"
-msgstr "``'ім'я файлу'``"
+msgstr ""
 
 msgid "SortKey.FILENAME"
 msgstr ""
@@ -587,7 +583,7 @@ msgid "primitive call count"
 msgstr ""
 
 msgid "``'line'``"
-msgstr "``''рядок'``"
+msgstr ""
 
 msgid "SortKey.LINE"
 msgstr ""

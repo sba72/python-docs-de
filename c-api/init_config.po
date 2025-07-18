@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Stan Ulbrych, 2025
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-28 00:49+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:48+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +39,7 @@ msgid ":pep:`741` \"Python Configuration C API\"."
 msgstr ""
 
 msgid "Example"
-msgstr "Przykład"
+msgstr ""
 
 msgid ""
 "Example of customized Python always running with the :ref:`Python "
@@ -111,7 +106,7 @@ msgid "If *config* is ``NULL``, no operation is performed."
 msgstr ""
 
 msgid "Error Handling"
-msgstr "Przechwytywanie błędów"
+msgstr ""
 
 msgid "Get the *config* error message."
 msgstr ""
@@ -268,16 +263,16 @@ msgid "Configuration Options"
 msgstr ""
 
 msgid "Option"
-msgstr "Opsi"
+msgstr ""
 
 msgid "PyConfig/PyPreConfig member"
 msgstr ""
 
 msgid "Type"
-msgstr "Typ"
+msgstr ""
 
 msgid "Visibility"
-msgstr "Widoczność"
+msgstr ""
 
 msgid "``\"allocator\"``"
 msgstr ""
@@ -286,10 +281,10 @@ msgid ":c:member:`allocator <PyPreConfig.allocator>`"
 msgstr ""
 
 msgid "``int``"
-msgstr "``int``"
+msgstr ""
 
 msgid "Read-only"
-msgstr "Лише для читання"
+msgstr ""
 
 msgid "``\"argv\"``"
 msgstr ""
@@ -959,7 +954,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 "PyStatus alloc(void **ptr, size_t size)\n"
@@ -2558,7 +2553,7 @@ msgid "The following configuration files are used by the path configuration:"
 msgstr ""
 
 msgid "``pyvenv.cfg``"
-msgstr "``pyvenv.cfg``"
+msgstr ""
 
 msgid "``._pth`` file (ex: ``python._pth``)"
 msgstr ""

@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Jo K, 2023
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2023-05-24 13:08+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-07-04 14:20+0000\n"
+"PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "What's New In Python 3.12"
-msgstr "Was ist Neu in Python 3.12"
+msgstr ""
 
 msgid "Editor"
 msgstr ""
@@ -41,7 +36,7 @@ msgid ":pep:`693` -- Python 3.12 Release Schedule"
 msgstr ""
 
 msgid "Summary -- Release highlights"
-msgstr "Zusammenfassung - Release Höhepunkte"
+msgstr ""
 
 msgid ""
 "Python 3.12 is a stable release of the Python programming language, with a "
@@ -177,7 +172,7 @@ msgid "Implement stack overflow protection on supported platforms"
 msgstr ""
 
 msgid "New typing features:"
-msgstr "Neue Typisierungsfunktionen:"
+msgstr ""
 
 msgid ""
 ":ref:`PEP 692 <whatsnew312-pep692>`, using :class:`~typing.TypedDict` to "
@@ -188,7 +183,7 @@ msgid ":ref:`PEP 698 <whatsnew312-pep698>`, :func:`typing.override` decorator"
 msgstr ""
 
 msgid "Important deprecations, removals or restrictions:"
-msgstr "Wichtige Markierungen als veraltet, Entfernungen oder Einschränkungen:"
+msgstr ""
 
 msgid ""
 ":pep:`623`: Remove ``wstr`` from Unicode objects in Python's C API, reducing "
@@ -218,7 +213,7 @@ msgid ""
 msgstr ""
 
 msgid "New Features"
-msgstr "Neue Funktionen"
+msgstr ""
 
 msgid "PEP 695: Type Parameter Syntax"
 msgstr ""
@@ -355,7 +350,7 @@ msgid ""
 msgstr ""
 
 msgid "See :pep:`701` for more details."
-msgstr "Weitere Einzelheiten siehe :pep:`701`."
+msgstr ""
 
 msgid ""
 "As a positive side-effect of how this feature has been implemented (by "
@@ -392,9 +387,6 @@ msgid ""
 "Maureira-Fredes and Marta Gómez in :gh:`102856`. PEP written by Pablo "
 "Galindo, Batuhan Taskaya, Lysandros Nikolaou and Marta Gómez)."
 msgstr ""
-"(Beigetragen von Pablo Galindo, Batuhan Taskaya, Lysandros Nikolaou, "
-"Cristián Maureira-Fredes and Marta Gómez in :gh:`102856`. PEP geschrieben "
-"von Pablo Galindo, Batuhan Taskaya, Lysandros Nikolaou and Marta Gómez)."
 
 msgid "PEP 684: A Per-Interpreter GIL"
 msgstr ""
@@ -510,7 +502,7 @@ msgid "(Contributed by Carl Meyer and Vladimir Matveev in :pep:`709`.)"
 msgstr ""
 
 msgid "Improved Error Messages"
-msgstr "Verbesserte Fehlermeldungen"
+msgstr ""
 
 msgid ""
 "Modules from the standard library are now potentially suggested as part of "
@@ -540,7 +532,7 @@ msgid ""
 msgstr ""
 
 msgid "New Features Related to Type Hints"
-msgstr "Neue Funktionen im Zusammenhang mit Typ-Hinweisen"
+msgstr ""
 
 msgid ""
 "This section covers major changes affecting :pep:`type hints <484>` and the :"
@@ -572,7 +564,7 @@ msgid ""
 msgstr ""
 
 msgid "See :pep:`692` for more details."
-msgstr "Mehr Einzelheiten siehe :pep:`692`."
+msgstr ""
 
 msgid "(Contributed by Franek Magiera in :gh:`103629`.)"
 msgstr ""
@@ -589,7 +581,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 "from typing import override\n"
@@ -616,7 +608,7 @@ msgid "(Contributed by Steven Troxler in :gh:`101561`.)"
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr "Andere sprachliche Änderungen"
+msgstr ""
 
 msgid ""
 "The parser now raises :exc:`SyntaxError` when parsing source code containing "
@@ -725,16 +717,16 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr "Neue Module"
+msgstr ""
 
 msgid "None."
 msgstr ""
 
 msgid "Improved Modules"
-msgstr "Verbesserte Module"
+msgstr ""
 
 msgid "array"
-msgstr "Array"
+msgstr ""
 
 msgid ""
 "The :class:`array.array` class now supports subscripting, making it a :term:"
@@ -742,7 +734,7 @@ msgid ""
 msgstr ""
 
 msgid "asyncio"
-msgstr "asyncio"
+msgstr ""
 
 msgid ""
 "The performance of writing to sockets in :mod:`asyncio` has been "
@@ -793,7 +785,7 @@ msgid ""
 msgstr ""
 
 msgid "calendar"
-msgstr "Kalender"
+msgstr ""
 
 msgid ""
 "Add enums :data:`calendar.Month` and :data:`calendar.Day` defining months of "
@@ -802,7 +794,7 @@ msgid ""
 msgstr ""
 
 msgid "csv"
-msgstr "csv"
+msgstr ""
 
 msgid ""
 "Add :const:`csv.QUOTE_NOTNULL` and :const:`csv.QUOTE_STRINGS` flags to "
@@ -811,7 +803,7 @@ msgid ""
 msgstr ""
 
 msgid "dis"
-msgstr "dis"
+msgstr ""
 
 msgid ""
 "Pseudo instruction opcodes (which are used by the compiler but do not appear "
@@ -827,7 +819,7 @@ msgid ""
 msgstr ""
 
 msgid "fractions"
-msgstr "fractions"
+msgstr ""
 
 msgid ""
 "Objects of type :class:`fractions.Fraction` now support float-style "
@@ -869,7 +861,7 @@ msgid ""
 msgstr ""
 
 msgid "itertools"
-msgstr "itertools"
+msgstr ""
 
 msgid ""
 "Add :func:`itertools.batched` for collecting into even-sized tuples where "
@@ -878,7 +870,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "Add :func:`math.sumprod` for computing a sum of products. (Contributed by "
@@ -892,7 +884,7 @@ msgid ""
 msgstr ""
 
 msgid "os"
-msgstr "os"
+msgstr ""
 
 msgid ""
 "Add :const:`os.PIDFD_NONBLOCK` to open a file descriptor for a process with :"
@@ -925,7 +917,7 @@ msgid ""
 msgstr ""
 
 msgid "os.path"
-msgstr "os.path"
+msgstr ""
 
 msgid ""
 "Add :func:`os.path.isjunction` to check if a given path is a junction. "
@@ -938,7 +930,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr "pathlib"
+msgstr ""
 
 msgid ""
 "Add support for subclassing :class:`pathlib.PurePath` and :class:`pathlib."
@@ -973,7 +965,7 @@ msgid ""
 msgstr ""
 
 msgid "platform"
-msgstr "платформа"
+msgstr ""
 
 msgid ""
 "Add support for detecting Windows 11 and Windows Server releases past 2012. "
@@ -983,7 +975,7 @@ msgid ""
 msgstr ""
 
 msgid "pdb"
-msgstr "pdb"
+msgstr ""
 
 msgid ""
 "Add convenience variables to hold values temporarily for debug session and "
@@ -1041,7 +1033,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr "sqlite3"
+msgstr ""
 
 msgid ""
 "Add a :ref:`command-line interface <sqlite3-cli>`. (Contributed by Erlend E. "
@@ -1077,7 +1069,7 @@ msgid ""
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "Add the :mod:`sys.monitoring` namespace to expose the new :ref:`PEP 669 "
@@ -1116,7 +1108,7 @@ msgid ""
 msgstr ""
 
 msgid "tempfile"
-msgstr "tempfile"
+msgstr ""
 
 msgid ""
 "The :class:`tempfile.NamedTemporaryFile` function has a new optional "
@@ -1129,7 +1121,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr "threading"
+msgstr ""
 
 msgid ""
 "Add :func:`threading.settrace_all_threads` and :func:`threading."
@@ -1139,7 +1131,7 @@ msgid ""
 msgstr ""
 
 msgid "tkinter"
-msgstr "tkinter"
+msgstr ""
 
 msgid ""
 "``tkinter.Canvas.coords()`` now flattens its arguments. It now accepts not "
@@ -1151,7 +1143,7 @@ msgid ""
 msgstr ""
 
 msgid "tokenize"
-msgstr "tokenize"
+msgstr ""
 
 msgid ""
 "The :mod:`tokenize` module includes the changes introduced in :pep:`701`. "
@@ -1161,7 +1153,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr "types"
+msgstr ""
 
 msgid ""
 "Add :func:`types.get_original_bases` to allow for further introspection of :"
@@ -1170,7 +1162,7 @@ msgid ""
 msgstr ""
 
 msgid "typing"
-msgstr "typing"
+msgstr ""
 
 msgid ""
 ":func:`isinstance` checks against :func:`runtime-checkable protocols <typing."
@@ -1238,7 +1230,7 @@ msgid ""
 msgstr ""
 
 msgid "unicodedata"
-msgstr "unicodedata"
+msgstr ""
 
 msgid ""
 "The Unicode database has been updated to version 15.0.0. (Contributed by "
@@ -1246,7 +1238,7 @@ msgid ""
 msgstr ""
 
 msgid "unittest"
-msgstr "unittest"
+msgstr ""
 
 msgid ""
 "Add a ``--durations`` command line option, showing the N slowest test cases::"
@@ -1272,7 +1264,7 @@ msgid "(Contributed by Giampaolo Rodola in :gh:`48330`)"
 msgstr ""
 
 msgid "uuid"
-msgstr "uuid"
+msgstr ""
 
 msgid ""
 "Add a :ref:`command-line interface <uuid-cli>`. (Contributed by Adam Chhina "
@@ -1280,7 +1272,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr "Optimierungen"
+msgstr ""
 
 msgid ""
 "Remove ``wstr`` and ``wstr_length`` members from Unicode objects. It reduces "
@@ -1320,7 +1312,7 @@ msgid ""
 msgstr ""
 
 msgid "CPython bytecode changes"
-msgstr "CPython Bytecode Änderungen"
+msgstr ""
 
 msgid ""
 "Remove the :opcode:`!LOAD_METHOD` instruction. It has been merged into :"
@@ -1394,7 +1386,7 @@ msgid ""
 msgstr ""
 
 msgid "Demos and Tools"
-msgstr "Demos und Werkzeuge"
+msgstr ""
 
 msgid ""
 "Remove the ``Tools/demo/`` directory which contained old demo scripts. A "
@@ -1409,7 +1401,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr "Als veraltet markiert"
+msgstr ""
 
 msgid ""
 ":mod:`argparse`: The *type*, *choices*, and *metavar* parameters of :class:`!"
@@ -1425,26 +1417,24 @@ msgid ""
 msgstr ""
 
 msgid ":class:`!ast.Num`"
-msgstr ":class:`!ast.Num`"
+msgstr ""
 
 msgid ":class:`!ast.Str`"
-msgstr ":class:`!ast.Str`"
+msgstr ""
 
 msgid ":class:`!ast.Bytes`"
-msgstr ":class:`!ast.Bytes`"
+msgstr ""
 
 msgid ":class:`!ast.NameConstant`"
-msgstr ":class:`!ast.NameConstant`"
+msgstr ""
 
 msgid ":class:`!ast.Ellipsis`"
-msgstr ":class:`!ast.Ellipsis`"
+msgstr ""
 
 msgid ""
 "Use :class:`ast.Constant` instead. (Contributed by Serhiy Storchaka in :gh:"
 "`90953`.)"
 msgstr ""
-"Verwende stattdessen :class:`ast.Constant`. (Beigetragen von Serhiy "
-"Storchaka in :gh:`90953`.)"
 
 msgid ":mod:`asyncio`:"
 msgstr ""
@@ -1503,26 +1493,25 @@ msgid ""
 msgstr ""
 
 msgid ":class:`!importlib.abc.ResourceReader`"
-msgstr ":class:`!importlib.abc.ResourceReader`"
+msgstr ""
 
 msgid ":class:`!importlib.abc.Traversable`"
-msgstr ":class:`!importlib.abc.Traversable`"
+msgstr ""
 
 msgid ":class:`!importlib.abc.TraversableResources`"
-msgstr ":class:`!importlib.abc.TraversableResources`"
+msgstr ""
 
 msgid "Use :mod:`importlib.resources.abc` classes instead:"
-msgstr "Verwende stattdessen :mod:`importlib.resources.abc` Klassen:"
+msgstr ""
 
 msgid ":class:`importlib.resources.abc.Traversable`"
-msgstr ":class:`importlib.resources.abc.Traversable`"
+msgstr ""
 
 msgid ":class:`importlib.resources.abc.TraversableResources`"
-msgstr ":class:`importlib.resources.abc.TraversableResources`"
+msgstr ""
 
 msgid "(Contributed by Jason R. Coombs and Hugo van Kemenade in :gh:`93963`.)"
 msgstr ""
-"(Beigetragen von Jason R. Coombs und Hugo van Kemenade in :gh:`93963`.)"
 
 msgid ""
 ":mod:`itertools`: Deprecate the support for copy, deepcopy, and pickle "
@@ -1685,7 +1674,7 @@ msgid "Pending removal in Python 3.13"
 msgstr ""
 
 msgid "Modules (see :pep:`594`):"
-msgstr "Module (siehe :pep:`594`):"
+msgstr ""
 
 msgid ":mod:`!aifc`"
 msgstr ""
@@ -1751,31 +1740,31 @@ msgid ":mod:`!lib2to3`, and the :program:`2to3` program (:gh:`84540`)"
 msgstr ""
 
 msgid "APIs:"
-msgstr "APIs:"
+msgstr ""
 
 msgid ":class:`!configparser.LegacyInterpolation` (:gh:`90765`)"
-msgstr ":class:`!configparser.LegacyInterpolation` (:gh:`90765`)"
+msgstr ""
 
 msgid "``locale.resetlocale()`` (:gh:`90817`)"
 msgstr ""
 
 msgid ":meth:`!turtle.RawTurtle.settiltangle` (:gh:`50096`)"
-msgstr ":meth:`!turtle.RawTurtle.settiltangle` (:gh:`50096`)"
+msgstr ""
 
 msgid ":func:`!unittest.findTestCases` (:gh:`50096`)"
-msgstr ":func:`!unittest.findTestCases` (:gh:`50096`)"
+msgstr ""
 
 msgid ":func:`!unittest.getTestCaseNames` (:gh:`50096`)"
-msgstr ":func:`!unittest.getTestCaseNames` (:gh:`50096`)"
+msgstr ""
 
 msgid ":func:`!unittest.makeSuite` (:gh:`50096`)"
-msgstr ":func:`!unittest.makeSuite` (:gh:`50096`)"
+msgstr ""
 
 msgid ":meth:`!unittest.TestProgram.usageExit` (:gh:`67048`)"
 msgstr ""
 
 msgid ":class:`!webbrowser.MacOSX` (:gh:`86421`)"
-msgstr ":class:`!webbrowser.MacOSX` (:gh:`86421`)"
+msgstr ""
 
 msgid ":class:`classmethod` descriptor chaining (:gh:`89519`)"
 msgstr ""
@@ -2479,7 +2468,7 @@ msgid ""
 msgstr ""
 
 msgid "Removed"
-msgstr "Entfernt"
+msgstr ""
 
 msgid "asynchat and asyncore"
 msgstr ""
@@ -2549,7 +2538,7 @@ msgid ""
 msgstr ""
 
 msgid "(Contributed by Pradyun Gedam in :gh:`95299`.)"
-msgstr "(Beigtragen von Pradyun Gedam in :gh:`95299`.)"
+msgstr ""
 
 msgid "enum"
 msgstr ""
@@ -2781,10 +2770,10 @@ msgid ""
 msgstr ""
 
 msgid "``sqlite3.enable_shared_cache()``"
-msgstr "``sqlite3.enable_shared_cache()``"
+msgstr ""
 
 msgid "``sqlite3.OptimizedUnicode``"
-msgstr "``sqlite3.OptimizedUnicode``"
+msgstr ""
 
 msgid ""
 "If a shared cache must be used, open the database in URI mode using the "
@@ -2799,7 +2788,7 @@ msgid ""
 msgstr ""
 
 msgid "(Contributed by Erlend E. Aasland in :gh:`92548`.)"
-msgstr "(Beigetragen von Erlend E. Aasland in :gh:`92548`.)"
+msgstr ""
 
 msgid "ssl"
 msgstr ""
@@ -2834,104 +2823,102 @@ msgid "A number of :class:`~unittest.TestCase` method aliases:"
 msgstr ""
 
 msgid "Deprecated alias"
-msgstr "Veraltetes Alias"
+msgstr ""
 
 msgid "Method Name"
-msgstr "Methodenname"
+msgstr ""
 
 msgid "Deprecated in"
-msgstr "Als veraltet markiert in:"
+msgstr ""
 
 msgid "``failUnless``"
-msgstr "``failUnless``"
+msgstr ""
 
 msgid ":meth:`.assertTrue`"
-msgstr ":meth:`.assertTrue`"
+msgstr ""
 
 msgid "3.1"
-msgstr "3.1"
+msgstr ""
 
 msgid "``failIf``"
-msgstr "``failIf``"
+msgstr ""
 
 msgid ":meth:`.assertFalse`"
-msgstr ":meth:`.assertFalse`"
+msgstr ""
 
 msgid "``failUnlessEqual``"
-msgstr "``failUnlessEqual``"
+msgstr ""
 
 msgid ":meth:`.assertEqual`"
-msgstr ":meth:`.assertEqual`"
+msgstr ""
 
 msgid "``failIfEqual``"
-msgstr "``failIfEqual``"
+msgstr ""
 
 msgid ":meth:`.assertNotEqual`"
-msgstr ":meth:`.assertNotEqual`"
+msgstr ""
 
 msgid "``failUnlessAlmostEqual``"
-msgstr "``failUnlessAlmostEqual``"
+msgstr ""
 
 msgid ":meth:`.assertAlmostEqual`"
-msgstr ":meth:`.assertAlmostEqual`"
+msgstr ""
 
 msgid "``failIfAlmostEqual``"
-msgstr "``failIfAlmostEqual``"
+msgstr ""
 
 msgid ":meth:`.assertNotAlmostEqual`"
-msgstr ":meth:`.assertNotAlmostEqual`"
+msgstr ""
 
 msgid "``failUnlessRaises``"
-msgstr "``failUnlessRaises``"
+msgstr ""
 
 msgid ":meth:`.assertRaises`"
-msgstr ":meth:`.assertRaises`"
+msgstr ""
 
 msgid "``assert_``"
-msgstr "``assert_``"
+msgstr ""
 
 msgid "3.2"
-msgstr "3.2"
+msgstr ""
 
 msgid "``assertEquals``"
-msgstr "``assertEquals``"
+msgstr ""
 
 msgid "``assertNotEquals``"
-msgstr "``assertNotEquals``"
+msgstr ""
 
 msgid "``assertAlmostEquals``"
-msgstr "``assertAlmostEquals``"
+msgstr ""
 
 msgid "``assertNotAlmostEquals``"
-msgstr "``assertNotAlmostEquals``"
+msgstr ""
 
 msgid "``assertRegexpMatches``"
-msgstr "``assertRegexpMatches``"
+msgstr ""
 
 msgid ":meth:`.assertRegex`"
-msgstr ":meth:`.assertRegex`"
+msgstr ""
 
 msgid "``assertRaisesRegexp``"
-msgstr "``assertRaisesRegexp``"
+msgstr ""
 
 msgid ":meth:`.assertRaisesRegex`"
-msgstr ":meth:`.assertRaisesRegex`"
+msgstr ""
 
 msgid "``assertNotRegexpMatches``"
-msgstr "``assertNotRegexpMatches``"
+msgstr ""
 
 msgid ":meth:`.assertNotRegex`"
-msgstr ":meth:`.assertNotRegex`"
+msgstr ""
 
 msgid "3.5"
-msgstr "3.5"
+msgstr ""
 
 msgid ""
 "You can use https://github.com/isidentical/teyit to automatically modernise "
 "your unit tests."
 msgstr ""
-"Du kannst https://github.com/isidentical/teyit für das automatische "
-"modernisieren deiner Unit Tests nutzen."
 
 msgid ""
 "Undocumented and broken :class:`~unittest.TestCase` method "
@@ -2982,7 +2969,7 @@ msgid ""
 msgstr ""
 
 msgid "Others"
-msgstr "Inne"
+msgstr ""
 
 msgid ""
 "Remove the ``suspicious`` rule from the documentation :file:`Makefile` and :"
@@ -3011,7 +2998,7 @@ msgid ""
 msgstr ""
 
 msgid "Porting to Python 3.12"
-msgstr "Portierung auf Python 3.12"
+msgstr ""
 
 msgid ""
 "This section lists previously described changes and other bugfixes that may "
@@ -3019,7 +3006,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr "Änderungen in der Python API"
+msgstr ""
 
 msgid ""
 "More strict rules are now applied for numerical group references and group "
@@ -3111,7 +3098,7 @@ msgid "1,0-1,18:           STRING         'f\"start {1+1} end\"'"
 msgstr ""
 
 msgid "while the new version emits::"
-msgstr "während die neue Version Folgendes ausgibt::"
+msgstr ""
 
 msgid ""
 "1,0-1,2:            FSTRING_START  'f\"'\n"
@@ -3162,7 +3149,7 @@ msgid ""
 msgstr ""
 
 msgid "Build Changes"
-msgstr "Build Änderungen"
+msgstr ""
 
 msgid ""
 "Python no longer uses :file:`setup.py` to build shared C extension modules. "
@@ -3193,22 +3180,22 @@ msgid ""
 msgstr ""
 
 msgid "Add platform triplets for 64-bit LoongArch:"
-msgstr "Platform-Triplets für 64-Bit LoongArch hinzufügen:"
+msgstr ""
 
 msgid "loongarch64-linux-gnusf"
-msgstr "loongarch64-linux-gnusf"
+msgstr ""
 
 msgid "loongarch64-linux-gnuf32"
-msgstr "loongarch64-linux-gnuf32"
+msgstr ""
 
 msgid "loongarch64-linux-gnu"
-msgstr "loongarch64-linux-gnu"
+msgstr ""
 
 msgid "(Contributed by Zhang Na in :gh:`90656`.)"
-msgstr "(Beigetragen von Zhang Na in :gh:`90656`.)"
+msgstr ""
 
 msgid "``PYTHON_FOR_REGEN`` now require Python 3.10 or newer."
-msgstr "``PYTHON_FOR_REGEN``erfordert nun Python 3.10 oder neuer."
+msgstr ""
 
 msgid ""
 "Autoconf 2.71 and aclocal 1.16.4 is now required to regenerate :file:"
@@ -3220,7 +3207,7 @@ msgid ""
 msgstr ""
 
 msgid "C API Changes"
-msgstr "C API Änderungen"
+msgstr ""
 
 msgid ""
 ":pep:`697`: Introduce the :ref:`Unstable C API tier <unstable-c-api>`, "
@@ -3230,33 +3217,29 @@ msgid ""
 msgstr ""
 
 msgid "Code object constructors:"
-msgstr "Code-Objekt-Konstruktoren:"
+msgstr ""
 
 msgid "``PyUnstable_Code_New()`` (renamed from ``PyCode_New``)"
-msgstr "``PyUnstable_Code_New()`` (umbenannt von ``PyCode_New``)"
+msgstr ""
 
 msgid ""
 "``PyUnstable_Code_NewWithPosOnlyArgs()`` (renamed from "
 "``PyCode_NewWithPosOnlyArgs``)"
 msgstr ""
-"``PyUnstable_Code_NewWithPosOnlyArgs()`` (umbenannt von "
-"``PyCode_NewWithPosOnlyArgs``)"
 
 msgid "Extra storage for code objects (:pep:`523`):"
-msgstr "Zusätzlicher Speicher für Code-Objekte (:pep:`523`):"
+msgstr ""
 
 msgid ""
 "``PyUnstable_Eval_RequestCodeExtraIndex()`` (renamed from "
 "``_PyEval_RequestCodeExtraIndex``)"
 msgstr ""
-"``PyUnstable_Eval_RequestCodeExtraIndex()``(umbenannt von "
-"``_PyEval_RequestCodeExtraIndex``)"
 
 msgid "``PyUnstable_Code_GetExtra()`` (renamed from ``_PyCode_GetExtra``)"
-msgstr "``PyUnstable_Code_GetExtra()`` (umbenannt von ``_PyCode_GetExtra``)"
+msgstr ""
 
 msgid "``PyUnstable_Code_SetExtra()`` (renamed from ``_PyCode_SetExtra``)"
-msgstr "``PyUnstable_Code_SetExtra()`` (umbenannt von ``_PyCode_SetExtra``)"
+msgstr ""
 
 msgid ""
 "The original names will continue to be available until the respective API "
@@ -3264,7 +3247,7 @@ msgid ""
 msgstr ""
 
 msgid "(Contributed by Petr Viktorin in :gh:`101101`.)"
-msgstr "(Beigetragen von Petr Viktorin in :gh:`101101`.)"
+msgstr ""
 
 msgid ""
 ":pep:`697`: Add an API for extending types whose instance memory layout is "
@@ -3293,7 +3276,7 @@ msgid ""
 msgstr ""
 
 msgid "(Contributed by Petr Viktorin in :gh:`103509`.)"
-msgstr "(Beigetragen von Petr Viktorin in :gh:`103509`.)"
+msgstr ""
 
 msgid ""
 "Add the new :ref:`limited C API <limited-c-api>` function :c:func:"
@@ -3311,13 +3294,13 @@ msgid ":c:macro:`Py_TPFLAGS_HAVE_VECTORCALL`"
 msgstr ""
 
 msgid ":c:func:`PyVectorcall_NARGS`"
-msgstr ":c:func:`PyVectorcall_NARGS`"
+msgstr ""
 
 msgid ":c:func:`PyVectorcall_Call`"
-msgstr ":c:func:`PyVectorcall_Call`"
+msgstr ""
 
 msgid ":c:type:`vectorcallfunc`"
-msgstr ":c:type:`vectorcallfunc`"
+msgstr ""
 
 msgid ""
 "The :c:macro:`Py_TPFLAGS_HAVE_VECTORCALL` flag is now removed from a class "
@@ -3342,10 +3325,10 @@ msgid ""
 msgstr ""
 
 msgid ":c:func:`PyObject_Vectorcall`"
-msgstr ":c:func:`PyObject_Vectorcall`"
+msgstr ""
 
 msgid ":c:func:`PyObject_VectorcallMethod`"
-msgstr ":c:func:`PyObject_VectorcallMethod`"
+msgstr ""
 
 msgid ":c:macro:`PY_VECTORCALL_ARGUMENTS_OFFSET`"
 msgstr ""
@@ -3465,7 +3448,7 @@ msgid ""
 msgstr ""
 
 msgid "(Contributed by Eddie Elizondo in :gh:`84436`.)"
-msgstr "(Beigetragen von Eddie Elizondo in :gh:`84436`.)"
+msgstr ""
 
 msgid ""
 ":pep:`684`: Add the new :c:func:`Py_NewInterpreterFromConfig` function and :"
@@ -3579,13 +3562,13 @@ msgid ""
 msgstr ""
 
 msgid ":c:func:`PyType_FromSpec`"
-msgstr ":c:func:`PyType_FromSpec`"
+msgstr ""
 
 msgid ":c:func:`PyType_FromSpecWithBases`"
-msgstr ":c:func:`PyType_FromSpecWithBases`"
+msgstr ""
 
 msgid ":c:func:`PyType_FromModuleAndSpec`"
-msgstr ":c:func:`PyType_FromModuleAndSpec`"
+msgstr ""
 
 msgid ""
 "Creating classes whose metaclass overrides :c:member:`~PyTypeObject.tp_new` "
@@ -3683,88 +3666,70 @@ msgid "Deprecate global configuration variable:"
 msgstr ""
 
 msgid ":c:var:`Py_DebugFlag`: use :c:member:`PyConfig.parser_debug`"
-msgstr ":c:var:`Py_DebugFlag`: verwende :c:member:`PyConfig.parser_debug`"
+msgstr ""
 
 msgid ":c:var:`Py_VerboseFlag`: use :c:member:`PyConfig.verbose`"
-msgstr ":c:var:`Py_VerboseFlag`: verwende :c:member:`PyConfig.verbose`"
+msgstr ""
 
 msgid ":c:var:`Py_QuietFlag`: use :c:member:`PyConfig.quiet`"
-msgstr ":c:var:`Py_QuietFlag`: verwende :c:member:`PyConfig.quiet`"
+msgstr ""
 
 msgid ":c:var:`Py_InteractiveFlag`: use :c:member:`PyConfig.interactive`"
-msgstr ":c:var:`Py_InteractiveFlag`: verwende :c:member:`PyConfig.interactive`"
+msgstr ""
 
 msgid ":c:var:`Py_InspectFlag`: use :c:member:`PyConfig.inspect`"
-msgstr ":c:var:`Py_InspectFlag`: verwende :c:member:`PyConfig.inspect`"
+msgstr ""
 
 msgid ":c:var:`Py_OptimizeFlag`: use :c:member:`PyConfig.optimization_level`"
 msgstr ""
-":c:var:`Py_OptimizeFlag`: verwende :c:member:`PyConfig.optimization_level`"
 
 msgid ":c:var:`Py_NoSiteFlag`: use :c:member:`PyConfig.site_import`"
-msgstr ":c:var:`Py_NoSiteFlag`: verwende :c:member:`PyConfig.site_import`"
+msgstr ""
 
 msgid ":c:var:`Py_BytesWarningFlag`: use :c:member:`PyConfig.bytes_warning`"
 msgstr ""
-":c:var:`Py_BytesWarningFlag`: verwende :c:member:`PyConfig.bytes_warning`"
 
 msgid ":c:var:`Py_FrozenFlag`: use :c:member:`PyConfig.pathconfig_warnings`"
 msgstr ""
-":c:var:`Py_FrozenFlag`: verwende :c:member:`PyConfig.pathconfig_warnings`"
 
 msgid ""
 ":c:var:`Py_IgnoreEnvironmentFlag`: use :c:member:`PyConfig.use_environment`"
 msgstr ""
-":c:var:`Py_IgnoreEnvironmentFlag`: verwende :c:member:`PyConfig."
-"use_environment`"
 
 msgid ""
 ":c:var:`Py_DontWriteBytecodeFlag`: use :c:member:`PyConfig.write_bytecode`"
 msgstr ""
-":c:var:`Py_DontWriteBytecodeFlag`: verwende :c:member:`PyConfig."
-"write_bytecode`"
 
 msgid ""
 ":c:var:`Py_NoUserSiteDirectory`: use :c:member:`PyConfig.user_site_directory`"
 msgstr ""
-":c:var:`Py_NoUserSiteDirectory`: verwende :c:member:`PyConfig."
-"user_site_directory`"
 
 msgid ""
 ":c:var:`Py_UnbufferedStdioFlag`: use :c:member:`PyConfig.buffered_stdio`"
 msgstr ""
-":c:var:`Py_UnbufferedStdioFlag`: verwende :c:member:`PyConfig.buffered_stdio`"
 
 msgid ""
 ":c:var:`Py_HashRandomizationFlag`: use :c:member:`PyConfig.use_hash_seed` "
 "and :c:member:`PyConfig.hash_seed`"
 msgstr ""
-":c:var:`Py_HashRandomizationFlag`: verwende :c:member:`PyConfig."
-"use_hash_seed` und :c:member:`PyConfig.hash_seed`"
 
 msgid ":c:var:`Py_IsolatedFlag`: use :c:member:`PyConfig.isolated`"
-msgstr ":c:var:`Py_IsolatedFlag`: verwende :c:member:`PyConfig.isolated`"
+msgstr ""
 
 msgid ""
 ":c:var:`Py_LegacyWindowsFSEncodingFlag`: use :c:member:`PyPreConfig."
 "legacy_windows_fs_encoding`"
 msgstr ""
-":c:var:`Py_LegacyWindowsFSEncodingFlag`: verwende :c:member:`PyPreConfig."
-"legacy_windows_fs_encoding`"
 
 msgid ""
 ":c:var:`Py_LegacyWindowsStdioFlag`: use :c:member:`PyConfig."
 "legacy_windows_stdio`"
 msgstr ""
-":c:var:`Py_LegacyWindowsStdioFlag`: verwende :c:member:`PyConfig."
-"legacy_windows_stdio`"
 
 msgid ""
 ":c:var:`!Py_FileSystemDefaultEncoding`: use :c:member:`PyConfig."
 "filesystem_encoding`"
 msgstr ""
-":c:var:`!Py_FileSystemDefaultEncoding`: verwende :c:member:`PyConfig."
-"filesystem_encoding`"
 
 msgid ""
 ":c:var:`!Py_HasFileSystemDefaultEncoding`: use :c:member:`PyConfig."
@@ -3775,22 +3740,16 @@ msgid ""
 ":c:var:`!Py_FileSystemDefaultEncodeErrors`: use :c:member:`PyConfig."
 "filesystem_errors`"
 msgstr ""
-":c:var:`!Py_FileSystemDefaultEncodeErrors`: verwende :c:member:`PyConfig."
-"filesystem_errors`"
 
 msgid ""
 ":c:var:`!Py_UTF8Mode`: use :c:member:`PyPreConfig.utf8_mode` (see :c:func:"
 "`Py_PreInitialize`)"
 msgstr ""
-":c:var:`!Py_UTF8Mode`: verwende :c:member:`PyPreConfig.utf8_mode` (siehe :c:"
-"func:`Py_PreInitialize`)"
 
 msgid ""
 "The :c:func:`Py_InitializeFromConfig` API should be used with :c:type:"
 "`PyConfig` instead. (Contributed by Victor Stinner in :gh:`77782`.)"
 msgstr ""
-"Die :c:func:`Py_InitializeFromConfig` API sollte stattdessen mit :c:type:"
-"`PyConfig` genutzt werden. (Beigetragen von Victor Stinner in :gh:`77782`.)"
 
 msgid ""
 "Creating :c:data:`immutable types <Py_TPFLAGS_IMMUTABLETYPE>` with mutable "
@@ -3811,8 +3770,6 @@ msgid ""
 ":c:struct:`PyMemberDef`, :c:func:`PyMember_GetOne` and :c:func:"
 "`PyMember_SetOne`"
 msgstr ""
-":c:struct:`PyMemberDef`, :c:func:`PyMember_GetOne` und :c:func:"
-"`PyMember_SetOne`"
 
 msgid ""
 "Type macros like :c:macro:`Py_T_INT`, :c:macro:`Py_T_DOUBLE`, etc. "
@@ -4201,31 +4158,31 @@ msgid "Legacy Unicode APIs have been removed. See :pep:`623` for detail."
 msgstr ""
 
 msgid ":c:macro:`!PyUnicode_WCHAR_KIND`"
-msgstr ":c:macro:`!PyUnicode_WCHAR_KIND`"
+msgstr ""
 
 msgid ":c:func:`!PyUnicode_AS_UNICODE`"
-msgstr ":c:func:`!PyUnicode_AS_UNICODE`"
+msgstr ""
 
 msgid ":c:func:`!PyUnicode_AsUnicode`"
-msgstr ":c:func:`!PyUnicode_AsUnicode`"
+msgstr ""
 
 msgid ":c:func:`!PyUnicode_AsUnicodeAndSize`"
-msgstr ":c:func:`!PyUnicode_AsUnicodeAndSize`"
+msgstr ""
 
 msgid ":c:func:`!PyUnicode_AS_DATA`"
-msgstr ":c:func:`!PyUnicode_AS_DATA`"
+msgstr ""
 
 msgid ":c:func:`!PyUnicode_FromUnicode`"
-msgstr ":c:func:`!PyUnicode_FromUnicode`"
+msgstr ""
 
 msgid ":c:func:`!PyUnicode_GET_SIZE`"
-msgstr ":c:func:`!PyUnicode_GET_SIZE`"
+msgstr ""
 
 msgid ":c:func:`!PyUnicode_GetSize`"
-msgstr ":c:func:`!PyUnicode_GetSize`"
+msgstr ""
 
 msgid ":c:func:`!PyUnicode_GET_DATA_SIZE`"
-msgstr ":c:func:`!PyUnicode_GET_DATA_SIZE`"
+msgstr ""
 
 msgid ""
 "Remove the ``PyUnicode_InternImmortal()`` function macro. (Contributed by "

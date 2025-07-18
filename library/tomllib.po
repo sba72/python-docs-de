@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Jo K, 2023
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2022-11-05 19:49+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:49+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,7 +42,7 @@ msgid ""
 msgstr ""
 
 msgid "This module defines the following functions:"
-msgstr "Цей модуль визначає такі функції:"
+msgstr ""
 
 msgid ""
 "Read a TOML file. The first argument should be a readable and binary file "
@@ -76,10 +71,10 @@ msgid "The following exceptions are available:"
 msgstr ""
 
 msgid "Subclass of :exc:`ValueError` with the following additional attributes:"
-msgstr "Підклас :exc:`ValueError` з такими додатковими атрибутами:"
+msgstr ""
 
 msgid "The unformatted error message."
-msgstr "Неформатне повідомлення про помилку."
+msgstr ""
 
 msgid "The TOML document being parsed."
 msgstr ""
@@ -88,10 +83,10 @@ msgid "The index of *doc* where parsing failed."
 msgstr ""
 
 msgid "The line corresponding to *pos*."
-msgstr "Рядок, що відповідає *pos*."
+msgstr ""
 
 msgid "The column corresponding to *pos*."
-msgstr "Стовпець, що відповідає *pos*."
+msgstr ""
 
 msgid ""
 "Added the *msg*, *doc* and *pos* parameters. Added the :attr:`msg`, :attr:"
@@ -102,7 +97,7 @@ msgid "Passing free-form positional arguments is deprecated."
 msgstr ""
 
 msgid "Examples"
-msgstr "Przykłady"
+msgstr ""
 
 msgid "Parsing a TOML file::"
 msgstr ""
@@ -135,37 +130,37 @@ msgid "TOML"
 msgstr ""
 
 msgid "Python"
-msgstr "Python"
+msgstr ""
 
 msgid "TOML document"
 msgstr ""
 
 msgid "dict"
-msgstr "dict"
+msgstr ""
 
 msgid "string"
-msgstr "ciąg znaków"
+msgstr ""
 
 msgid "str"
-msgstr "str"
+msgstr ""
 
 msgid "integer"
-msgstr "bilangan bulat"
+msgstr ""
 
 msgid "int"
-msgstr "int"
+msgstr ""
 
 msgid "float"
-msgstr "typ (float) zmiennoprzecinkowy pojedynczej precyzji"
+msgstr ""
 
 msgid "float (configurable with *parse_float*)"
 msgstr ""
 
 msgid "boolean"
-msgstr "логічний"
+msgstr ""
 
 msgid "bool"
-msgstr "bool"
+msgstr ""
 
 msgid "offset date-time"
 msgstr ""
@@ -194,10 +189,10 @@ msgid "datetime.time"
 msgstr ""
 
 msgid "array"
-msgstr "Array"
+msgstr ""
 
 msgid "list"
-msgstr "lista"
+msgstr ""
 
 msgid "table"
 msgstr ""

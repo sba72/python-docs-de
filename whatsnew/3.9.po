@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Jo K, 2023
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-29 13:04+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +36,7 @@ msgid ":pep:`596` - Python 3.9 Release Schedule"
 msgstr ""
 
 msgid "Summary -- Release highlights"
-msgstr "Zusammenfassung - Release Höhepunkte"
+msgstr ""
 
 msgid "New syntax features:"
 msgstr ""
@@ -170,7 +165,7 @@ msgid ""
 msgstr ""
 
 msgid "New Features"
-msgstr "Neue Funktionen"
+msgstr ""
 
 msgid "Dictionary Merge & Update Operators"
 msgstr ""
@@ -182,7 +177,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 ">>> x = {\"key1\": \"value1 from x\", \"key2\": \"value2 from x\"}\n"
@@ -222,7 +217,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr "Przykład:"
+msgstr ""
 
 msgid ""
 "def greet_all(names: list[str]) -> None:\n"
@@ -266,7 +261,7 @@ msgid ""
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr "Andere sprachliche Änderungen"
+msgstr ""
 
 msgid ""
 ":func:`__import__` now raises :exc:`ImportError` instead of :exc:"
@@ -339,7 +334,7 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr "Neue Module"
+msgstr ""
 
 msgid "zoneinfo"
 msgstr ""
@@ -394,7 +389,7 @@ msgid ""
 msgstr ""
 
 msgid "Improved Modules"
-msgstr "Verbesserte Module"
+msgstr ""
 
 msgid "ast"
 msgstr ""
@@ -418,7 +413,7 @@ msgid ""
 msgstr ""
 
 msgid "asyncio"
-msgstr "asyncio"
+msgstr ""
 
 msgid ""
 "Due to significant security concerns, the *reuse_address* parameter of :meth:"
@@ -715,7 +710,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr "math"
+msgstr ""
 
 msgid ""
 "Expanded the :func:`math.gcd` function to handle multiple arguments. "
@@ -758,7 +753,7 @@ msgid ""
 msgstr ""
 
 msgid "os"
-msgstr "os"
+msgstr ""
 
 msgid ""
 "Added :const:`~os.CLD_KILLED` and :const:`~os.CLD_STOPPED` for :attr:`!"
@@ -786,7 +781,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr "pathlib"
+msgstr ""
 
 msgid ""
 "Added :meth:`pathlib.Path.readlink` which acts similarly to :func:`os."
@@ -794,7 +789,7 @@ msgid ""
 msgstr ""
 
 msgid "pdb"
-msgstr "pdb"
+msgstr ""
 
 msgid ""
 "On Windows now :class:`~pdb.Pdb` supports ``~/.pdbrc``. (Contributed by Tim "
@@ -881,7 +876,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr "time"
+msgstr ""
 
 msgid ""
 "On AIX, :func:`~time.thread_time` is now implemented with "
@@ -891,7 +886,7 @@ msgid ""
 msgstr ""
 
 msgid "sys"
-msgstr "sys"
+msgstr ""
 
 msgid ""
 "Added a new :data:`sys.platlibdir` attribute: name of the platform-specific "
@@ -918,7 +913,7 @@ msgid ""
 msgstr ""
 
 msgid "typing"
-msgstr "typing"
+msgstr ""
 
 msgid ""
 ":pep:`593` introduced an :data:`typing.Annotated` type to decorate existing "
@@ -928,7 +923,7 @@ msgid ""
 msgstr ""
 
 msgid "unicodedata"
-msgstr "unicodedata"
+msgstr ""
 
 msgid ""
 "The Unicode database has been updated to version 13.0.0. (:issue:`39926`)."
@@ -957,7 +952,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr "Optimierungen"
+msgstr ""
 
 msgid ""
 "Optimized the idiom for assignment a temporary variable in comprehensions. "
@@ -1124,7 +1119,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr "Als veraltet markiert"
+msgstr ""
 
 msgid ""
 "The distutils ``bdist_msi`` command is now deprecated, use ``bdist_wheel`` "
@@ -1253,7 +1248,7 @@ msgid ""
 msgstr ""
 
 msgid "Removed"
-msgstr "Entfernt"
+msgstr ""
 
 msgid ""
 "The erroneous version at :data:`!unittest.mock.__version__` has been removed."
@@ -1415,7 +1410,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr "Änderungen in der Python API"
+msgstr ""
 
 msgid ""
 ":func:`__import__` and :func:`importlib.util.resolve_name` now raise :exc:"
@@ -1577,7 +1572,7 @@ msgid ""
 msgstr ""
 
 msgid "CPython bytecode changes"
-msgstr "CPython Bytecode Änderungen"
+msgstr ""
 
 msgid ""
 "The :opcode:`!LOAD_ASSERTION_ERROR` opcode was added for handling the :"
@@ -1607,7 +1602,7 @@ msgid "(Contributed by Mark Shannon in :issue:`39156`.)"
 msgstr ""
 
 msgid "Build Changes"
-msgstr "Build Änderungen"
+msgstr ""
 
 msgid ""
 "Added ``--with-platlibdir`` option to the ``configure`` script: name of the "
@@ -1664,7 +1659,7 @@ msgid ""
 msgstr ""
 
 msgid "C API Changes"
-msgstr "C API Änderungen"
+msgstr ""
 
 msgid ""
 ":pep:`573`: Added :c:func:`PyType_FromModuleAndSpec` to associate a module "

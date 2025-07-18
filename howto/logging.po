@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-28 00:53+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:48+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +21,7 @@ msgid "Logging HOWTO"
 msgstr ""
 
 msgid "Author"
-msgstr "Autor"
+msgstr ""
 
 msgid "Vinay Sajip <vinay_sajip at red-dove dot com>"
 msgstr ""
@@ -71,7 +67,7 @@ msgid ""
 msgstr ""
 
 msgid ":func:`print`"
-msgstr ":func:`print`"
+msgstr ""
 
 msgid ""
 "Report events that occur during normal operation of a program (e.g. for "
@@ -120,26 +116,26 @@ msgid ""
 msgstr ""
 
 msgid "Level"
-msgstr "Level"
+msgstr ""
 
 msgid "When it's used"
 msgstr ""
 
 msgid "``DEBUG``"
-msgstr "``DEBUG``"
+msgstr ""
 
 msgid ""
 "Detailed information, typically of interest only when diagnosing problems."
 msgstr ""
 
 msgid "``INFO``"
-msgstr "``INFO``"
+msgstr ""
 
 msgid "Confirmation that things are working as expected."
 msgstr ""
 
 msgid "``WARNING``"
-msgstr "``WARNING``"
+msgstr ""
 
 msgid ""
 "An indication that something unexpected happened, or indicative of some "
@@ -148,7 +144,7 @@ msgid ""
 msgstr ""
 
 msgid "``ERROR``"
-msgstr "``ERROR``"
+msgstr ""
 
 msgid ""
 "Due to a more serious problem, the software has not been able to perform "
@@ -156,7 +152,7 @@ msgid ""
 msgstr ""
 
 msgid "``CRITICAL``"
-msgstr "``CRITICAL``"
+msgstr ""
 
 msgid ""
 "A serious error, indicating that the program itself may be unable to "
@@ -455,25 +451,19 @@ msgstr ""
 
 msgid "Loggers expose the interface that application code directly uses."
 msgstr ""
-"Логери відкривають інтерфейс, який безпосередньо використовує код програми."
 
 msgid ""
 "Handlers send the log records (created by loggers) to the appropriate "
 "destination."
 msgstr ""
-"Обробники надсилають записи журналу (створені реєстраторами) у відповідне "
-"місце призначення."
 
 msgid ""
 "Filters provide a finer grained facility for determining which log records "
 "to output."
 msgstr ""
-"Фільтри забезпечують точніші засоби для визначення того, які записи журналу "
-"виводити."
 
 msgid "Formatters specify the layout of log records in the final output."
 msgstr ""
-"Засоби форматування вказують макет записів журналу в кінцевому виведенні."
 
 msgid ""
 "Log event information is passed between loggers, handlers, filters and "
@@ -1087,7 +1077,7 @@ msgid ""
 msgstr ""
 
 msgid "Logging Levels"
-msgstr "Рівні реєстрації"
+msgstr ""
 
 msgid ""
 "The numeric values of logging levels are given in the following table. These "
@@ -1096,35 +1086,30 @@ msgid ""
 "define a level with the same numeric value, it overwrites the predefined "
 "value; the predefined name is lost."
 msgstr ""
-"Числові значення рівнів журналювання наведені в наступній таблиці. Це "
-"насамперед цікаво, якщо ви бажаєте визначити власні рівні та потребуєте, щоб "
-"вони мали певні значення відносно попередньо визначених рівнів. Якщо ви "
-"визначаєте рівень з тим самим числовим значенням, він перезаписує попередньо "
-"визначене значення; попередньо визначене ім'я втрачено."
 
 msgid "Numeric value"
-msgstr "Nilai angka"
+msgstr ""
 
 msgid "50"
-msgstr "50"
+msgstr ""
 
 msgid "40"
-msgstr "40"
+msgstr ""
 
 msgid "30"
-msgstr "30"
+msgstr ""
 
 msgid "20"
-msgstr "20"
+msgstr ""
 
 msgid "10"
-msgstr "10"
+msgstr ""
 
 msgid "``NOTSET``"
-msgstr "``NOTSET``"
+msgstr ""
 
 msgid "0"
-msgstr "0"
+msgstr ""
 
 msgid ""
 "Levels can also be associated with loggers, being set either by the "
@@ -1445,7 +1430,7 @@ msgid ""
 msgstr ""
 
 msgid "Other resources"
-msgstr "Inne zasoby"
+msgstr ""
 
 msgid "Module :mod:`logging`"
 msgstr ""
@@ -1454,16 +1439,16 @@ msgid "API reference for the logging module."
 msgstr ""
 
 msgid "Module :mod:`logging.config`"
-msgstr "Модуль :mod:`logging.config`"
+msgstr ""
 
 msgid "Configuration API for the logging module."
-msgstr "API конфігурації для модуля журналювання."
+msgstr ""
 
 msgid "Module :mod:`logging.handlers`"
-msgstr "Модуль :mod:`logging.handlers`"
+msgstr ""
 
 msgid "Useful handlers included with the logging module."
-msgstr "Корисні обробники, включені в модуль журналювання."
+msgstr ""
 
 msgid ":ref:`A logging cookbook <logging-cookbook>`"
 msgstr ""

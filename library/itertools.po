@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-28 01:08+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-07-18 18:49+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,7 +53,7 @@ msgid "Results"
 msgstr ""
 
 msgid "Example"
-msgstr "Przykład"
+msgstr ""
 
 msgid ":func:`count`"
 msgstr ""
@@ -138,7 +134,7 @@ msgid ":func:`chain.from_iterable`"
 msgstr ""
 
 msgid "iterable"
-msgstr "ітерований"
+msgstr ""
 
 msgid "``chain.from_iterable(['ABC', 'DEF']) → A B C D E F``"
 msgstr ""
@@ -288,7 +284,7 @@ msgid "r-length tuples, in sorted order, with repeated elements"
 msgstr ""
 
 msgid "Examples"
-msgstr "Przykłady"
+msgstr ""
 
 msgid "``product('ABCD', repeat=2)``"
 msgstr ""
@@ -339,7 +335,7 @@ msgid ""
 msgstr ""
 
 msgid "Roughly equivalent to::"
-msgstr "Приблизно еквівалентно::"
+msgstr ""
 
 msgid ""
 "def accumulate(iterable, function=operator.add, *, initial=None):\n"

@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2021-06-28 00:55+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-05-30 14:22+0000\n"
+"PO-Revision-Date: 2025-07-18 18:48+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Streams"
-msgstr "Потоки"
+msgstr ""
 
 msgid "**Source code:** :source:`Lib/asyncio/streams.py`"
 msgstr ""
@@ -58,7 +54,7 @@ msgid ""
 msgstr ""
 
 msgid "See also the `Examples`_ section below."
-msgstr "Дивіться також розділ `Examples`_ нижче."
+msgstr ""
 
 msgid "Stream Functions"
 msgstr ""
@@ -98,7 +94,7 @@ msgid "Added the *ssl_handshake_timeout* parameter."
 msgstr ""
 
 msgid "Added the *happy_eyeballs_delay* and *interleave* parameters."
-msgstr "Додано параметри *happy_eyeballs_delay* і *interleave*."
+msgstr ""
 
 msgid "Removed the *loop* parameter."
 msgstr ""
@@ -159,7 +155,7 @@ msgid ""
 msgstr ""
 
 msgid "Start a Unix socket server."
-msgstr "Запустіть сокет-сервер Unix."
+msgstr ""
 
 msgid "Similar to :func:`start_server` but works with Unix sockets."
 msgstr ""
@@ -360,17 +356,15 @@ msgid "Upgrade an existing stream-based connection to TLS."
 msgstr ""
 
 msgid "Parameters:"
-msgstr "Параметри:"
+msgstr ""
 
 msgid "*sslcontext*: a configured instance of :class:`~ssl.SSLContext`."
-msgstr "*sslcontext*: налаштований екземпляр :class:`~ssl.SSLContext`."
+msgstr ""
 
 msgid ""
 "*server_hostname*: sets or overrides the host name that the target server's "
 "certificate will be matched against."
 msgstr ""
-"*server_hostname*: встановлює або замінює ім’я хоста, з яким буде "
-"зіставлятися сертифікат цільового сервера."
 
 msgid ""
 "*ssl_handshake_timeout* is the time in seconds to wait for the TLS handshake "
@@ -398,7 +392,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples"
-msgstr "Przykłady"
+msgstr ""
 
 msgid "TCP echo client using streams"
 msgstr ""
@@ -501,7 +495,7 @@ msgid ""
 msgstr ""
 
 msgid "Usage::"
-msgstr "Penggunaan::"
+msgstr ""
 
 msgid "python example.py http://example.com/path/page.html"
 msgstr ""
