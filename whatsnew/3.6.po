@@ -40,7 +40,7 @@ msgid ":pep:`494` - Python 3.6 Release Schedule"
 msgstr ""
 
 msgid "Summary -- Release highlights"
-msgstr ""
+msgstr "Zusammenfassung - Release Höhepunkte"
 
 msgid "New syntax features:"
 msgstr ""
@@ -201,7 +201,7 @@ msgid ""
 msgstr ""
 
 msgid "New Features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 msgid "PEP 498: Formatted string literals"
 msgstr ""
@@ -847,7 +847,7 @@ msgid ""
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Andere sprachliche Änderungen"
 
 msgid "Some smaller changes made to the core Python language are:"
 msgstr ""
@@ -885,7 +885,7 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr ""
+msgstr "Neue Module"
 
 msgid "secrets"
 msgstr ""
@@ -910,10 +910,10 @@ msgid "PEP written and implemented by Steven D'Aprano."
 msgstr ""
 
 msgid "Improved Modules"
-msgstr ""
+msgstr "Verbesserte Module"
 
 msgid "array"
-msgstr ""
+msgstr "Array"
 
 msgid ""
 "Exhausted iterators of :class:`array.array` will now stay exhausted even if "
@@ -936,7 +936,7 @@ msgid "Contributed by Victor Stinner in :issue:`26146`."
 msgstr ""
 
 msgid "asyncio"
-msgstr ""
+msgstr "asyncio"
 
 msgid ""
 "Starting with Python 3.6 the ``asyncio`` module is no longer provisional and "
@@ -1484,7 +1484,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr ""
+msgstr "math"
 
 msgid ""
 "The tau (*τ*) constant has been added to the :mod:`math` and :mod:`cmath` "
@@ -1502,7 +1502,7 @@ msgid ""
 msgstr ""
 
 msgid "os"
-msgstr ""
+msgstr "os"
 
 msgid ""
 "See the summary of :ref:`PEP 519 <whatsnew36-pep519>` for details on how "
@@ -1528,7 +1528,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr ""
+msgstr "pathlib"
 
 msgid ""
 ":mod:`pathlib` now supports :term:`path-like objects <path-like object>`. "
@@ -1539,7 +1539,7 @@ msgid "See the summary of :ref:`PEP 519 <whatsnew36-pep519>` for details."
 msgstr ""
 
 msgid "pdb"
-msgstr ""
+msgstr "pdb"
 
 msgid ""
 "The :class:`~pdb.Pdb` class constructor has a new optional *readrc* argument "
@@ -1648,7 +1648,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr ""
+msgstr "sqlite3"
 
 msgid ""
 ":attr:`sqlite3.Cursor.lastrowid` now supports the ``REPLACE`` statement. "
@@ -1837,7 +1837,7 @@ msgid ""
 msgstr ""
 
 msgid "tkinter"
-msgstr ""
+msgstr "tkinter"
 
 msgid ""
 "Added methods :meth:`~tkinter.Variable.trace_add`, :meth:`~tkinter.Variable."
@@ -1891,7 +1891,7 @@ msgid "(Contributed by Victor Stinner in :issue:`26588`.)"
 msgstr ""
 
 msgid "typing"
-msgstr ""
+msgstr "typing"
 
 msgid ""
 "Since the :mod:`typing` module is :term:`provisional <provisional API>`, all "
@@ -1952,7 +1952,7 @@ msgid ""
 msgstr ""
 
 msgid "unicodedata"
-msgstr ""
+msgstr "unicodedata"
 
 msgid ""
 "The :mod:`unicodedata` module now uses data from `Unicode 9.0.0 <https://"
@@ -2109,7 +2109,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimierungen"
 
 msgid ""
 "The Python interpreter now uses a 16-bit wordcode instead of bytecode which "
@@ -2312,7 +2312,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr ""
+msgstr "Als veraltet markiert"
 
 msgid "New Keywords"
 msgstr ""
@@ -2491,7 +2491,7 @@ msgid ""
 msgstr ""
 
 msgid "Removed"
-msgstr ""
+msgstr "Entfernt"
 
 msgid "API and Feature Removals"
 msgstr ""
@@ -2564,7 +2564,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr ""
+msgstr "Änderungen in der Python API"
 
 msgid ""
 ":func:`open() <open>` will no longer allow combining the ``'U'`` mode flag "
@@ -2818,7 +2818,7 @@ msgid ""
 msgstr ""
 
 msgid "CPython bytecode changes"
-msgstr ""
+msgstr "CPython Bytecode Änderungen"
 
 msgid ""
 "There have been several major changes to the :term:`bytecode` in Python 3.6."

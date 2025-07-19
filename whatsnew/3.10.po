@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 
 msgid "Summary -- Release highlights"
-msgstr ""
+msgstr "Zusammenfassung - Release Höhepunkte"
 
 msgid "New syntax features:"
 msgstr ""
@@ -68,7 +68,7 @@ msgid ":pep:`626`, Precise line numbers for debugging and other tools."
 msgstr ""
 
 msgid "New typing features:"
-msgstr ""
+msgstr "Neue Typisierungsfunktionen:"
 
 msgid ":pep:`604`, Allow writing union types as X | Y"
 msgstr ""
@@ -83,7 +83,7 @@ msgid ":pep:`647`, User-Defined Type Guards"
 msgstr ""
 
 msgid "Important deprecations, removals or restrictions:"
-msgstr ""
+msgstr "Wichtige Markierungen als veraltet, Entfernungen oder Einschränkungen:"
 
 msgid ":pep:`644`, Require OpenSSL 1.1.1 or newer"
 msgstr ""
@@ -103,7 +103,7 @@ msgid ":pep:`597`, Add optional EncodingWarning"
 msgstr ""
 
 msgid "New Features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 msgid "Parenthesized context managers"
 msgstr ""
@@ -874,7 +874,7 @@ msgid "See :ref:`io-text-encoding` for more information."
 msgstr ""
 
 msgid "New Features Related to Type Hints"
-msgstr ""
+msgstr "Neue Funktionen im Zusammenhang mit Typ-Hinweisen"
 
 msgid ""
 "This section covers major changes affecting :pep:`484` type hints and the :"
@@ -1008,7 +1008,7 @@ msgid ""
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Andere sprachliche Änderungen"
 
 msgid ""
 "The :class:`int` type has a new method :meth:`int.bit_count`, returning the "
@@ -1122,16 +1122,16 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr ""
+msgstr "Neue Module"
 
 msgid "None."
 msgstr ""
 
 msgid "Improved Modules"
-msgstr ""
+msgstr "Verbesserte Module"
 
 msgid "asyncio"
-msgstr ""
+msgstr "asyncio"
 
 msgid ""
 "Add missing :meth:`~asyncio.events.AbstractEventLoop."
@@ -1149,7 +1149,7 @@ msgid ""
 msgstr ""
 
 msgid "array"
-msgstr ""
+msgstr "Array"
 
 msgid ""
 "The :meth:`~array.array.index` method of :class:`array.array` now has "
@@ -1552,7 +1552,7 @@ msgid ""
 msgstr ""
 
 msgid "itertools"
-msgstr ""
+msgstr "itertools"
 
 msgid ""
 "Add :func:`itertools.pairwise`. (Contributed by Raymond Hettinger in :issue:"
@@ -1563,7 +1563,7 @@ msgid "linecache"
 msgstr ""
 
 msgid "os"
-msgstr ""
+msgstr "os"
 
 msgid ""
 "Add :func:`os.cpu_count` support for VxWorks RTOS. (Contributed by Peixing "
@@ -1590,7 +1590,7 @@ msgid ""
 msgstr ""
 
 msgid "os.path"
-msgstr ""
+msgstr "os.path"
 
 msgid ""
 ":func:`os.path.realpath` now accepts a *strict* keyword-only argument. When "
@@ -1599,7 +1599,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr ""
+msgstr "pathlib"
 
 msgid ""
 "Add slice support to :attr:`PurePath.parents <pathlib.PurePath.parents>`. "
@@ -1761,7 +1761,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr ""
+msgstr "sqlite3"
 
 msgid ""
 "Add audit events for :func:`~sqlite3.connect/handle`, :meth:`~sqlite3."
@@ -1793,7 +1793,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr ""
+msgstr "threading"
 
 msgid ""
 "Add :func:`threading.gettrace` and :func:`threading.getprofile` to retrieve "
@@ -1818,7 +1818,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr ""
+msgstr "types"
 
 msgid ""
 "Reintroduce the :data:`types.EllipsisType`, :data:`types.NoneType` and :data:"
@@ -1828,7 +1828,7 @@ msgid ""
 msgstr ""
 
 msgid "typing"
-msgstr ""
+msgstr "typing"
 
 msgid "For major changes, see :ref:`new-feat-related-type-hints`."
 msgstr ""
@@ -1895,7 +1895,7 @@ msgid ""
 msgstr ""
 
 msgid "unittest"
-msgstr ""
+msgstr "unittest"
 
 msgid ""
 "Add new method :meth:`~unittest.TestCase.assertNoLogs` to complement the "
@@ -1952,7 +1952,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimierungen"
 
 msgid ""
 "Constructors :func:`str`, :func:`bytes` and :func:`bytearray` are now faster "
@@ -2035,7 +2035,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr ""
+msgstr "Als veraltet markiert"
 
 msgid ""
 "Currently Python accepts numeric literals immediately followed by keywords, "
@@ -2266,7 +2266,7 @@ msgid ""
 msgstr ""
 
 msgid "Removed"
-msgstr ""
+msgstr "Entfernt"
 
 msgid ""
 "Removed special methods ``__int__``, ``__float__``, ``__floordiv__``, "
@@ -2375,7 +2375,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr ""
+msgstr "Änderungen in der Python API"
 
 msgid ""
 "The *etype* parameters of the :func:`~traceback.format_exception`, :func:"
@@ -2508,7 +2508,7 @@ msgid ""
 msgstr ""
 
 msgid "CPython bytecode changes"
-msgstr ""
+msgstr "CPython Bytecode Änderungen"
 
 msgid ""
 "The ``MAKE_FUNCTION`` instruction now accepts either a dict or a tuple of "
@@ -2517,7 +2517,7 @@ msgid ""
 msgstr ""
 
 msgid "Build Changes"
-msgstr ""
+msgstr "Build Änderungen"
 
 msgid ""
 ":pep:`644`: Python now requires OpenSSL 1.1.1 or newer. OpenSSL 1.0.2 is no "
@@ -2588,7 +2588,7 @@ msgid ""
 msgstr ""
 
 msgid "C API Changes"
-msgstr ""
+msgstr "C API Änderungen"
 
 msgid "PEP 652: Maintaining the Stable ABI"
 msgstr ""

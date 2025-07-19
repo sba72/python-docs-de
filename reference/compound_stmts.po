@@ -2071,7 +2071,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Fußnoten"
 
 msgid ""
 "The exception is propagated to the invocation stack unless there is a :"
@@ -2325,10 +2325,10 @@ msgid "@ (at)"
 msgstr ""
 
 msgid "default"
-msgstr ""
+msgstr "Standard"
 
 msgid "value"
-msgstr ""
+msgstr "Wert"
 
 msgid "argument"
 msgstr ""

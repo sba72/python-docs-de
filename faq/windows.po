@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-09 14:19+0000\n"
 "PO-Revision-Date: 2025-07-18 18:48+0000\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,13 +22,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Python on Windows FAQ"
-msgstr ""
+msgstr "Python unter Windows FAQ"
 
 msgid "Contents"
-msgstr ""
+msgstr "Inhalt"
 
 msgid "How do I run a Python program under Windows?"
-msgstr ""
+msgstr "Wie führe ich unter Windows ein Python-Programm aus?"
 
 msgid ""
 "This is not necessarily a straightforward question. If you are already "
@@ -76,7 +80,7 @@ msgid "C:\\Users\\YourName> py"
 msgstr ""
 
 msgid "You should then see something like:"
-msgstr ""
+msgstr "Sie sollten dann etwas sehen wie:"
 
 msgid ""
 "Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit "
@@ -139,7 +143,7 @@ msgid ""
 msgstr ""
 
 msgid "How do I make Python scripts executable?"
-msgstr ""
+msgstr "Wie kann ich Python-Skripte ausführbar machen?"
 
 msgid ""
 "On Windows, the standard Python installer already associates the .py "
@@ -152,7 +156,7 @@ msgid ""
 msgstr ""
 
 msgid "Why does Python sometimes take so long to start?"
-msgstr ""
+msgstr "Warum dauert es manchmal so lange, bis Python startet?"
 
 msgid ""
 "Usually Python starts very quickly on Windows, but occasionally there are "
@@ -172,7 +176,7 @@ msgid ""
 msgstr ""
 
 msgid "How do I make an executable from a Python script?"
-msgstr ""
+msgstr "Wie kann ich aus einem Python-Skript eine ausführbare Datei erstellen?"
 
 msgid ""
 "See :ref:`faq-create-standalone-binary` for a list of tools that can be used "
@@ -202,12 +206,14 @@ msgid ""
 msgstr ""
 
 msgid "How can I embed Python into a Windows application?"
-msgstr ""
+msgstr "Wie kann ich Python in eine Windows-Anwendung einbinden?"
 
 msgid ""
 "Embedding the Python interpreter in a Windows app can be summarized as "
 "follows:"
 msgstr ""
+"Die Einbettung des Python-Interpreters in eine Windows-Anwendung lässt sich "
+"wie folgt zusammenfassen:"
 
 msgid ""
 "Do **not** build Python into your .exe file directly.  On Windows, Python "

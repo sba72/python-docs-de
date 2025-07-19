@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 
 msgid "For full details, see the :ref:`changelog <changelog>`."
-msgstr ""
+msgstr "Für alle Einzelheiten, siehe :ref:`changelog <changelog>`."
 
 msgid ":pep:`745` -- Python 3.14 release schedule"
 msgstr ""
@@ -1529,7 +1529,7 @@ msgid ""
 msgstr ""
 
 msgid "asyncio"
-msgstr ""
+msgstr "asyncio"
 
 msgid ""
 "The function and methods named :func:`!create_task` now take an arbitrary "
@@ -1555,7 +1555,7 @@ msgid ""
 msgstr ""
 
 msgid "calendar"
-msgstr ""
+msgstr "Kalender"
 
 msgid ""
 "By default, today's date is highlighted in color in :mod:`calendar`'s :ref:"
@@ -1743,7 +1743,7 @@ msgid ""
 msgstr ""
 
 msgid "dis"
-msgstr ""
+msgstr "dis"
 
 msgid ""
 "Add support for rendering full source location information of :class:"
@@ -1801,7 +1801,7 @@ msgid ""
 msgstr ""
 
 msgid "fractions"
-msgstr ""
+msgstr "fractions"
 
 msgid ""
 "Add support for converting any objects that have the :meth:`!"
@@ -2012,7 +2012,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr ""
+msgstr "math"
 
 msgid ""
 "Added more detailed error messages for domain errors in the module. "
@@ -2244,7 +2244,7 @@ msgid ""
 msgstr ""
 
 msgid "os"
-msgstr ""
+msgstr "os"
 
 msgid ""
 "Add the :func:`os.reload_environ` function to update :data:`os.environ` and :"
@@ -2265,7 +2265,7 @@ msgid ""
 msgstr ""
 
 msgid "os.path"
-msgstr ""
+msgstr "os.path"
 
 msgid ""
 "The *strict* parameter to :func:`os.path.realpath` accepts a new value, :"
@@ -2276,7 +2276,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr ""
+msgstr "pathlib"
 
 msgid ""
 "Add methods to :class:`pathlib.Path` to recursively copy or move files and "
@@ -2310,7 +2310,7 @@ msgid ""
 msgstr ""
 
 msgid "pdb"
-msgstr ""
+msgstr "pdb"
 
 msgid ""
 "Hardcoded breakpoints (:func:`breakpoint` and :func:`pdb.set_trace`) now "
@@ -2561,7 +2561,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr ""
+msgstr "threading"
 
 msgid ""
 ":meth:`threading.Thread.start` now sets the operating system thread name to :"
@@ -2569,7 +2569,7 @@ msgid ""
 msgstr ""
 
 msgid "tkinter"
-msgstr ""
+msgstr "tkinter"
 
 msgid ""
 "Make :mod:`tkinter` widget methods :meth:`!after` and :meth:`!after_idle` "
@@ -2592,7 +2592,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr ""
+msgstr "types"
 
 msgid ""
 ":class:`types.UnionType` is now an alias for :class:`typing.Union`. See :ref:"
@@ -2601,7 +2601,7 @@ msgid ""
 msgstr ""
 
 msgid "typing"
-msgstr ""
+msgstr "typing"
 
 msgid ""
 ":class:`types.UnionType` and :class:`typing.Union` are now aliases for each "
@@ -2664,13 +2664,13 @@ msgid "(Contributed by Jelle Zijlstra in :gh:`105499`.)"
 msgstr ""
 
 msgid "unicodedata"
-msgstr ""
+msgstr "unicodedata"
 
 msgid "The Unicode database has been updated to Unicode 16.0.0."
 msgstr ""
 
 msgid "unittest"
-msgstr ""
+msgstr "unittest"
 
 msgid ""
 ":mod:`unittest` output is now colored by default. This can be controlled by :"
@@ -2766,7 +2766,7 @@ msgid "(Contributed by Barney Gale in :gh:`125866`.)"
 msgstr ""
 
 msgid "uuid"
-msgstr ""
+msgstr "uuid"
 
 msgid ""
 "Add support for UUID versions 6, 7, and 8 via :func:`uuid.uuid6`, :func:"
@@ -2816,7 +2816,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimierungen"
 
 msgid ""
 "The import time for several standard library modules has been improved, "
@@ -2906,7 +2906,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr ""
+msgstr "Als veraltet markiert"
 
 msgid ":mod:`argparse`:"
 msgstr ""
@@ -3624,7 +3624,7 @@ msgid ""
 msgstr ""
 
 msgid "Removed"
-msgstr ""
+msgstr "Entfernt"
 
 msgid ""
 "Remove the *type*, *choices*, and *metavar* parameters of :class:`!argparse."
@@ -3647,19 +3647,19 @@ msgid ""
 msgstr ""
 
 msgid ":class:`!ast.Bytes`"
-msgstr ""
+msgstr ":class:`!ast.Bytes`"
 
 msgid ":class:`!ast.Ellipsis`"
-msgstr ""
+msgstr ":class:`!ast.Ellipsis`"
 
 msgid ":class:`!ast.NameConstant`"
-msgstr ""
+msgstr ":class:`!ast.NameConstant`"
 
 msgid ":class:`!ast.Num`"
-msgstr ""
+msgstr ":class:`!ast.Num`"
 
 msgid ":class:`!ast.Str`"
-msgstr ""
+msgstr ":class:`!ast.Str`"
 
 msgid ""
 "Use :class:`ast.Constant` instead. As a consequence of these removals, user-"
@@ -3854,28 +3854,29 @@ msgid "Remove deprecated :mod:`importlib.abc` classes:"
 msgstr ""
 
 msgid ":class:`!importlib.abc.ResourceReader`"
-msgstr ""
+msgstr ":class:`!importlib.abc.ResourceReader`"
 
 msgid ":class:`!importlib.abc.Traversable`"
-msgstr ""
+msgstr ":class:`!importlib.abc.Traversable`"
 
 msgid ":class:`!importlib.abc.TraversableResources`"
-msgstr ""
+msgstr ":class:`!importlib.abc.TraversableResources`"
 
 msgid "Use :mod:`importlib.resources.abc` classes instead:"
-msgstr ""
+msgstr "Verwende stattdessen :mod:`importlib.resources.abc` Klassen:"
 
 msgid ":class:`importlib.resources.abc.Traversable`"
-msgstr ""
+msgstr ":class:`importlib.resources.abc.Traversable`"
 
 msgid ":class:`importlib.resources.abc.TraversableResources`"
-msgstr ""
+msgstr ":class:`importlib.resources.abc.TraversableResources`"
 
 msgid "(Contributed by Jason R. Coombs and Hugo van Kemenade in :gh:`93963`.)"
 msgstr ""
+"(Beigetragen von Jason R. Coombs und Hugo van Kemenade in :gh:`93963`.)"
 
 msgid "itertools"
-msgstr ""
+msgstr "itertools"
 
 msgid ""
 "Remove :mod:`itertools` support for copy, deepcopy, and pickle operations. "
@@ -3913,7 +3914,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr ""
+msgstr "sqlite3"
 
 msgid ""
 "Remove :data:`!version` and :data:`!version_info` from :mod:`sqlite3`; use :"
@@ -3974,7 +3975,7 @@ msgid ""
 msgstr ""
 
 msgid "CPython bytecode changes"
-msgstr ""
+msgstr "CPython Bytecode Änderungen"
 
 msgid ""
 "Replaced the opcode ``BINARY_SUBSCR`` by :opcode:`BINARY_OP` with oparg "
@@ -3990,7 +3991,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr ""
+msgstr "Änderungen in der Python API"
 
 msgid ""
 ":class:`functools.partial` is now a method descriptor. Wrap it in :func:"

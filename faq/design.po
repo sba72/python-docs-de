@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-09 14:19+0000\n"
 "PO-Revision-Date: 2025-07-18 18:48+0000\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,10 +22,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Design and History FAQ"
-msgstr ""
+msgstr "Design und Geschichte FAQ"
 
 msgid "Contents"
-msgstr ""
+msgstr "Inhalt"
 
 msgid "Why does Python use indentation for grouping of statements?"
 msgstr ""
@@ -74,13 +78,13 @@ msgid "Why am I getting strange results with simple arithmetic operations?"
 msgstr ""
 
 msgid "See the next question."
-msgstr ""
+msgstr "Nächste Frage ansehen."
 
 msgid "Why are floating-point calculations so inaccurate?"
 msgstr ""
 
 msgid "Users are often surprised by results like this::"
-msgstr ""
+msgstr "Nutzer sind oft von solechen Ergebnissen überrascht::"
 
 msgid ""
 ">>> 1.2 - 1.0\n"
@@ -139,7 +143,7 @@ msgid "Why are Python strings immutable?"
 msgstr ""
 
 msgid "There are several advantages."
-msgstr ""
+msgstr "Es gibt mehrere Vorteile."
 
 msgid ""
 "One is performance: knowing that a string is immutable means we can allocate "
@@ -1016,7 +1020,7 @@ msgid ""
 msgstr ""
 
 msgid "There are several reasons to allow this."
-msgstr ""
+msgstr "Es gint mehrere Gründe dies zu erlauben."
 
 msgid ""
 "When you have a literal value for a list, tuple, or dictionary spread across "

@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Using Python on Windows"
-msgstr ""
+msgstr "Python unter Windows nutzen"
 
 msgid ""
 "This document aims to give an overview of Windows-specific behaviour you "
@@ -502,7 +502,7 @@ msgid "Environment Variable"
 msgstr ""
 
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 msgid "``default_tag``"
 msgstr ""
@@ -1424,7 +1424,7 @@ msgid ""
 msgstr ""
 
 msgid "Finding modules"
-msgstr ""
+msgstr "Module finden"
 
 msgid ""
 "These notes supplement the description at :ref:`sys-path-init` with detailed "
@@ -1681,9 +1681,11 @@ msgstr ""
 
 msgid "After starting the installer, one of two options may be selected:"
 msgstr ""
+"Nach dem Starten den Installers kann eine der beiden Optionen ausgewählt "
+"werden:"
 
 msgid "If you select \"Install Now\":"
-msgstr ""
+msgstr "Wenn Sie \"Jetzt installieren\" wählen:"
 
 msgid ""
 "You will *not* need to be an administrator (unless a system update for the C "
@@ -1771,7 +1773,7 @@ msgid ""
 msgstr ""
 
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 msgid "/passive"
 msgstr ""
@@ -1816,7 +1818,7 @@ msgid ""
 msgstr ""
 
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
 msgid "InstallAllUsers"
 msgstr ""
@@ -1831,7 +1833,7 @@ msgid "TargetDir"
 msgstr ""
 
 msgid "The installation directory"
-msgstr ""
+msgstr "Das Installations-Verzeichnis"
 
 msgid "Selected based on InstallAllUsers"
 msgstr ""
@@ -1866,7 +1868,7 @@ msgid "The default custom install directory displayed in the UI"
 msgstr ""
 
 msgid "(empty)"
-msgstr ""
+msgstr "(leer)"
 
 msgid "AssociateFiles"
 msgstr ""
@@ -2166,7 +2168,7 @@ msgid "The launcher was originally specified in :pep:`397`."
 msgstr ""
 
 msgid "Getting started"
-msgstr ""
+msgstr "Los geht's"
 
 msgid "From the command-line"
 msgstr ""
@@ -2513,7 +2515,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples:"
-msgstr ""
+msgstr "Beispiele:"
 
 msgid ""
 "If no relevant options are set, the commands ``python`` and ``python2`` will "

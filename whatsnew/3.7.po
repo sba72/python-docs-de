@@ -156,7 +156,7 @@ msgid ""
 msgstr ""
 
 msgid "New Features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 msgid "PEP 563: Postponed Evaluation of Annotations"
 msgstr ""
@@ -594,7 +594,7 @@ msgid ""
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Andere sprachliche Änderungen"
 
 msgid ""
 "An :keyword:`await` expression and comprehensions containing an :keyword:"
@@ -659,7 +659,7 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr ""
+msgstr "Neue Module"
 
 msgid "contextvars"
 msgstr ""
@@ -737,7 +737,7 @@ msgid ""
 msgstr ""
 
 msgid "Improved Modules"
-msgstr ""
+msgstr "Verbesserte Module"
 
 msgid "argparse"
 msgstr ""
@@ -749,7 +749,7 @@ msgid ""
 msgstr ""
 
 msgid "asyncio"
-msgstr ""
+msgstr "asyncio"
 
 msgid ""
 "The :mod:`asyncio` module has received many new features, usability and :ref:"
@@ -946,7 +946,7 @@ msgid ""
 msgstr ""
 
 msgid "calendar"
-msgstr ""
+msgstr "Kalender"
 
 msgid ""
 "The :class:`~calendar.HTMLCalendar` class has new class attributes which "
@@ -1061,7 +1061,7 @@ msgid ""
 msgstr ""
 
 msgid "dis"
-msgstr ""
+msgstr "dis"
 
 msgid ""
 "The :func:`~dis.dis` function is now able to disassemble nested code objects "
@@ -1299,7 +1299,7 @@ msgid ""
 msgstr ""
 
 msgid "itertools"
-msgstr ""
+msgstr "itertools"
 
 msgid ""
 ":func:`itertools.islice` now accepts :meth:`integer-like objects <object."
@@ -1343,7 +1343,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr ""
+msgstr "math"
 
 msgid ""
 "The new :func:`math.remainder` function implements the IEEE 754-style "
@@ -1388,7 +1388,7 @@ msgid ""
 msgstr ""
 
 msgid "os"
-msgstr ""
+msgstr "os"
 
 msgid ""
 ":func:`os.fwalk` now accepts the *path* argument as :class:`bytes`. "
@@ -1431,7 +1431,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr ""
+msgstr "pathlib"
 
 msgid ""
 "The new :meth:`Path.is_mount() <pathlib.Path.is_mount>` method is now "
@@ -1440,7 +1440,7 @@ msgid ""
 msgstr ""
 
 msgid "pdb"
-msgstr ""
+msgstr "pdb"
 
 msgid ""
 ":func:`pdb.set_trace` now takes an optional *header* keyword-only argument.  "
@@ -1578,7 +1578,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr ""
+msgstr "sqlite3"
 
 msgid ""
 ":class:`sqlite3.Connection` now exposes the :meth:`~sqlite3.Connection."
@@ -1778,7 +1778,7 @@ msgid ""
 msgstr ""
 
 msgid "tkinter"
-msgstr ""
+msgstr "tkinter"
 
 msgid ""
 "The new :class:`tkinter.ttk.Spinbox` class is now available. (Contributed by "
@@ -1798,7 +1798,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr ""
+msgstr "types"
 
 msgid ""
 "The new :class:`~types.WrapperDescriptorType`, :class:`~types."
@@ -1815,7 +1815,7 @@ msgid ""
 msgstr ""
 
 msgid "unicodedata"
-msgstr ""
+msgstr "unicodedata"
 
 msgid ""
 "The internal :mod:`unicodedata` database has been upgraded to use `Unicode "
@@ -1824,7 +1824,7 @@ msgid ""
 msgstr ""
 
 msgid "unittest"
-msgstr ""
+msgstr "unittest"
 
 msgid ""
 "The new ``-k`` command-line option allows filtering tests by a name "
@@ -1869,7 +1869,7 @@ msgid ""
 msgstr ""
 
 msgid "uuid"
-msgstr ""
+msgstr "uuid"
 
 msgid ""
 "The new :attr:`UUID.is_safe <uuid.UUID.is_safe>` attribute relays "
@@ -1996,7 +1996,7 @@ msgid ""
 msgstr ""
 
 msgid "C API Changes"
-msgstr ""
+msgstr "C API Änderungen"
 
 msgid ""
 "A new API for thread-local storage has been implemented.  See :ref:"
@@ -2130,7 +2130,7 @@ msgid ""
 msgstr ""
 
 msgid "Build Changes"
-msgstr ""
+msgstr "Build Änderungen"
 
 msgid ""
 "Support for building ``--without-threads`` has been removed.  The :mod:"
@@ -2161,7 +2161,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimierungen"
 
 msgid ""
 "The overhead of calling many methods of various standard library classes "
@@ -2464,7 +2464,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr ""
+msgstr "threading"
 
 msgid ""
 ":mod:`!dummy_threading` and :mod:`!_dummy_thread` have been deprecated.  It "
@@ -2739,7 +2739,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr ""
+msgstr "Änderungen in der Python API"
 
 msgid ""
 ":meth:`socketserver.ThreadingMixIn.server_close` now waits until all non-"
@@ -2988,7 +2988,7 @@ msgid ""
 msgstr ""
 
 msgid "CPython bytecode changes"
-msgstr ""
+msgstr "CPython Bytecode Änderungen"
 
 msgid ""
 "There are two new opcodes: :opcode:`LOAD_METHOD` and :opcode:`!CALL_METHOD`. "

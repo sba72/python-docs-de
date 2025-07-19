@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-09 14:19+0000\n"
 "PO-Revision-Date: 2025-07-18 18:48+0000\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +25,7 @@ msgid "Graphic User Interface FAQ"
 msgstr ""
 
 msgid "Contents"
-msgstr ""
+msgstr "Inhalt"
 
 msgid "General GUI Questions"
 msgstr ""
@@ -47,7 +51,7 @@ msgid ""
 msgstr ""
 
 msgid "Tkinter questions"
-msgstr ""
+msgstr "Tkinter Fragen"
 
 msgid "How do I freeze Tkinter applications?"
 msgstr ""

@@ -1631,7 +1631,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Fußnoten"
 
 msgid ""
 "The encoding string included in XML output should conform to the appropriate "

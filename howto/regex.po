@@ -177,13 +177,13 @@ msgid ""
 msgstr ""
 
 msgid "``\\d``"
-msgstr ""
+msgstr "``\\d``"
 
 msgid "Matches any decimal digit; this is equivalent to the class ``[0-9]``."
 msgstr ""
 
 msgid "``\\D``"
-msgstr ""
+msgstr "``\\D``"
 
 msgid ""
 "Matches any non-digit character; this is equivalent to the class ``[^0-9]``."
@@ -198,7 +198,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\S``"
-msgstr ""
+msgstr "``\\S``"
 
 msgid ""
 "Matches any non-whitespace character; this is equivalent to the class ``[^ "
@@ -206,7 +206,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\w``"
-msgstr ""
+msgstr "``\\w``"
 
 msgid ""
 "Matches any alphanumeric character; this is equivalent to the class ``[a-zA-"
@@ -284,7 +284,7 @@ msgid "1"
 msgstr ""
 
 msgid "``a``"
-msgstr ""
+msgstr "``a``"
 
 msgid "The ``a`` in the RE matches."
 msgstr ""
@@ -293,7 +293,7 @@ msgid "2"
 msgstr ""
 
 msgid "``abcbd``"
-msgstr ""
+msgstr "``abcbd``"
 
 msgid ""
 "The engine matches ``[bcd]*``, going as far as it can, which is to the end "
@@ -332,7 +332,7 @@ msgid "6"
 msgstr ""
 
 msgid "``abc``"
-msgstr ""
+msgstr "``abc``"
 
 msgid "Back up again, so that ``[bcd]*`` is only matching ``bc``."
 msgstr ""
@@ -521,7 +521,7 @@ msgid "Raw string"
 msgstr ""
 
 msgid "``\"ab*\"``"
-msgstr ""
+msgstr "``\"ab*\"``"
 
 msgid "``r\"ab*\"``"
 msgstr ""
@@ -530,10 +530,10 @@ msgid "``r\"\\\\section\"``"
 msgstr ""
 
 msgid "``\"\\\\w+\\\\s+\\\\1\"``"
-msgstr ""
+msgstr "``\"\\\\w+\\\\s+\\\\1\"``"
 
 msgid "``r\"\\w+\\s+\\1\"``"
-msgstr ""
+msgstr "``r\"\\w+\\s+\\1\"``"
 
 msgid "Performing Matches"
 msgstr ""
@@ -558,19 +558,19 @@ msgid "Determine if the RE matches at the beginning of the string."
 msgstr ""
 
 msgid "``search()``"
-msgstr ""
+msgstr "``search()``"
 
 msgid "Scan through a string, looking for any location where this RE matches."
 msgstr ""
 
 msgid "``findall()``"
-msgstr ""
+msgstr "``findall()``"
 
 msgid "Find all substrings where the RE matches, and returns them as a list."
 msgstr ""
 
 msgid "``finditer()``"
-msgstr ""
+msgstr "``finditer()``"
 
 msgid ""
 "Find all substrings where the RE matches, and returns them as an :term:"
@@ -634,7 +634,7 @@ msgid ""
 msgstr ""
 
 msgid "``group()``"
-msgstr ""
+msgstr "``group()``"
 
 msgid "Return the string matched by the RE"
 msgstr ""
@@ -646,7 +646,7 @@ msgid "Return the starting position of the match"
 msgstr ""
 
 msgid "``end()``"
-msgstr ""
+msgstr "``end()``"
 
 msgid "Return the ending position of the match"
 msgstr ""
@@ -994,7 +994,7 @@ msgid ""
 msgstr ""
 
 msgid "``^``"
-msgstr ""
+msgstr "``^``"
 
 msgid ""
 "Matches at the beginning of lines.  Unless the :const:`MULTILINE` flag has "
@@ -1041,7 +1041,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\A``"
-msgstr ""
+msgstr "``\\A``"
 
 msgid ""
 "Matches only at the start of the string.  When not in :const:`MULTILINE` "
@@ -1064,7 +1064,7 @@ msgid "The same as ``\\z``.  For compatibility with old Python versions."
 msgstr ""
 
 msgid "``\\b``"
-msgstr ""
+msgstr "``\\b``"
 
 msgid ""
 "Word boundary.  This is a zero-width assertion that matches only at the "
@@ -1113,7 +1113,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\B``"
-msgstr ""
+msgstr "``\\B``"
 
 msgid ""
 "Another zero-width assertion, this is the opposite of ``\\b``, only matching "
@@ -1395,7 +1395,7 @@ msgid ""
 msgstr ""
 
 msgid "``(?=...)``"
-msgstr ""
+msgstr "``(?=...)``"
 
 msgid ""
 "Positive lookahead assertion.  This succeeds if the contained regular "
@@ -1464,7 +1464,7 @@ msgid ""
 msgstr ""
 
 msgid "``.*[.]([^b].?.?|.[^a]?.?|..?[^t]?)$``"
-msgstr ""
+msgstr "``.*[.]([^b].?.?|.[^a]?.?|..?[^t]?)$``"
 
 msgid ""
 "In the third attempt, the second and third letters are all made optional in "
@@ -1501,7 +1501,7 @@ msgid ""
 msgstr ""
 
 msgid "``.*[.](?!bat$|exe$)[^.]*$``"
-msgstr ""
+msgstr "``.*[.](?!bat$|exe$)[^.]*$``"
 
 msgid "Modifying Strings"
 msgstr ""
@@ -1513,13 +1513,13 @@ msgid ""
 msgstr ""
 
 msgid "``split()``"
-msgstr ""
+msgstr "``split()``"
 
 msgid "Split the string into a list, splitting it wherever the RE matches"
 msgstr ""
 
 msgid "``sub()``"
-msgstr ""
+msgstr "``sub()``"
 
 msgid ""
 "Find all substrings where the RE matches, and replace them with a different "
@@ -1527,7 +1527,7 @@ msgid ""
 msgstr ""
 
 msgid "``subn()``"
-msgstr ""
+msgstr "``subn()``"
 
 msgid ""
 "Does the same thing as :meth:`!sub`,  but returns the new string and the "

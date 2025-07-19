@@ -1892,7 +1892,7 @@ msgid "Operator"
 msgstr ""
 
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 msgid "``(expressions...)``,"
 msgstr ""
@@ -1953,7 +1953,7 @@ msgid "Bitwise AND"
 msgstr ""
 
 msgid "``^``"
-msgstr ""
+msgstr "``^``"
 
 msgid "Bitwise XOR"
 msgstr ""
@@ -2009,7 +2009,7 @@ msgid "Assignment expression"
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Fußnoten"
 
 msgid ""
 "While ``abs(x%y) < abs(y)`` is true mathematically, for floats it may not be "
@@ -2192,7 +2192,7 @@ msgid "key"
 msgstr ""
 
 msgid "value"
-msgstr ""
+msgstr "Wert"
 
 msgid "key/value pair"
 msgstr ""
@@ -2261,7 +2261,7 @@ msgid "primary"
 msgstr ""
 
 msgid "attribute"
-msgstr ""
+msgstr "Attribut"
 
 msgid "reference"
 msgstr ""

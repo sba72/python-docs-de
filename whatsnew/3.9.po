@@ -40,7 +40,7 @@ msgid ":pep:`596` - Python 3.9 Release Schedule"
 msgstr ""
 
 msgid "Summary -- Release highlights"
-msgstr ""
+msgstr "Zusammenfassung - Release Höhepunkte"
 
 msgid "New syntax features:"
 msgstr ""
@@ -169,7 +169,7 @@ msgid ""
 msgstr ""
 
 msgid "New Features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 msgid "Dictionary Merge & Update Operators"
 msgstr ""
@@ -265,7 +265,7 @@ msgid ""
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Andere sprachliche Änderungen"
 
 msgid ""
 ":func:`__import__` now raises :exc:`ImportError` instead of :exc:"
@@ -338,7 +338,7 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr ""
+msgstr "Neue Module"
 
 msgid "zoneinfo"
 msgstr ""
@@ -393,7 +393,7 @@ msgid ""
 msgstr ""
 
 msgid "Improved Modules"
-msgstr ""
+msgstr "Verbesserte Module"
 
 msgid "ast"
 msgstr ""
@@ -417,7 +417,7 @@ msgid ""
 msgstr ""
 
 msgid "asyncio"
-msgstr ""
+msgstr "asyncio"
 
 msgid ""
 "Due to significant security concerns, the *reuse_address* parameter of :meth:"
@@ -714,7 +714,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr ""
+msgstr "math"
 
 msgid ""
 "Expanded the :func:`math.gcd` function to handle multiple arguments. "
@@ -757,7 +757,7 @@ msgid ""
 msgstr ""
 
 msgid "os"
-msgstr ""
+msgstr "os"
 
 msgid ""
 "Added :const:`~os.CLD_KILLED` and :const:`~os.CLD_STOPPED` for :attr:`!"
@@ -785,7 +785,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr ""
+msgstr "pathlib"
 
 msgid ""
 "Added :meth:`pathlib.Path.readlink` which acts similarly to :func:`os."
@@ -793,7 +793,7 @@ msgid ""
 msgstr ""
 
 msgid "pdb"
-msgstr ""
+msgstr "pdb"
 
 msgid ""
 "On Windows now :class:`~pdb.Pdb` supports ``~/.pdbrc``. (Contributed by Tim "
@@ -917,7 +917,7 @@ msgid ""
 msgstr ""
 
 msgid "typing"
-msgstr ""
+msgstr "typing"
 
 msgid ""
 ":pep:`593` introduced an :data:`typing.Annotated` type to decorate existing "
@@ -927,7 +927,7 @@ msgid ""
 msgstr ""
 
 msgid "unicodedata"
-msgstr ""
+msgstr "unicodedata"
 
 msgid ""
 "The Unicode database has been updated to version 13.0.0. (:issue:`39926`)."
@@ -956,7 +956,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimierungen"
 
 msgid ""
 "Optimized the idiom for assignment a temporary variable in comprehensions. "
@@ -1123,7 +1123,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr ""
+msgstr "Als veraltet markiert"
 
 msgid ""
 "The distutils ``bdist_msi`` command is now deprecated, use ``bdist_wheel`` "
@@ -1252,7 +1252,7 @@ msgid ""
 msgstr ""
 
 msgid "Removed"
-msgstr ""
+msgstr "Entfernt"
 
 msgid ""
 "The erroneous version at :data:`!unittest.mock.__version__` has been removed."
@@ -1414,7 +1414,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr ""
+msgstr "Änderungen in der Python API"
 
 msgid ""
 ":func:`__import__` and :func:`importlib.util.resolve_name` now raise :exc:"
@@ -1576,7 +1576,7 @@ msgid ""
 msgstr ""
 
 msgid "CPython bytecode changes"
-msgstr ""
+msgstr "CPython Bytecode Änderungen"
 
 msgid ""
 "The :opcode:`!LOAD_ASSERTION_ERROR` opcode was added for handling the :"
@@ -1606,7 +1606,7 @@ msgid "(Contributed by Mark Shannon in :issue:`39156`.)"
 msgstr ""
 
 msgid "Build Changes"
-msgstr ""
+msgstr "Build Änderungen"
 
 msgid ""
 "Added ``--with-platlibdir`` option to the ``configure`` script: name of the "
@@ -1663,7 +1663,7 @@ msgid ""
 msgstr ""
 
 msgid "C API Changes"
-msgstr ""
+msgstr "C API Änderungen"
 
 msgid ""
 ":pep:`573`: Added :c:func:`PyType_FromModuleAndSpec` to associate a module "
