@@ -20278,13 +20278,13 @@ msgid ":gh:`90656`: Add platform triplets for 64-bit LoongArch:"
 msgstr ""
 
 msgid "loongarch64-linux-gnusf"
-msgstr ""
+msgstr "loongarch64-linux-gnusf"
 
 msgid "loongarch64-linux-gnuf32"
-msgstr ""
+msgstr "loongarch64-linux-gnuf32"
 
 msgid "loongarch64-linux-gnu"
-msgstr ""
+msgstr "loongarch64-linux-gnu"
 
 msgid "Patch by Zhang Na."
 msgstr ""
@@ -25436,10 +25436,10 @@ msgid ""
 msgstr ""
 
 msgid "``sqlite3.enable_shared_cache()``"
-msgstr ""
+msgstr "``sqlite3.enable_shared_cache()``"
 
 msgid "``sqlite3.OptimizedUnicode``"
-msgstr ""
+msgstr "``sqlite3.OptimizedUnicode``"
 
 msgid ""
 ":gh:`92530`: Fix an issue that occurred after interrupting :func:`threading."

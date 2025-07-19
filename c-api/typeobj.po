@@ -2293,22 +2293,22 @@ msgid "Comparison"
 msgstr ""
 
 msgid "``<``"
-msgstr ""
+msgstr "``<``"
 
 msgid "``<=``"
-msgstr ""
+msgstr "``<=``"
 
 msgid "``==``"
-msgstr ""
+msgstr "``==``"
 
 msgid "``!=``"
-msgstr ""
+msgstr "``!=``"
 
 msgid "``>``"
-msgstr ""
+msgstr "``>``"
 
 msgid "``>=``"
-msgstr ""
+msgstr "``>=``"
 
 msgid ""
 "The following macro is defined to ease writing rich comparison functions:"
