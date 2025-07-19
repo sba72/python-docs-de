@@ -1429,7 +1429,7 @@ msgid "*TLSv1.2*"
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Fußnoten"
 
 msgid ":class:`SSLContext` disables SSLv2 with :data:`OP_NO_SSLv2` by default."
 msgstr ""

@@ -295,7 +295,7 @@ msgid ""
 msgstr ""
 
 msgid "description"
-msgstr ""
+msgstr "Beschreibung"
 
 msgid ""
 "Most calls to the :class:`ArgumentParser` constructor will use the "
@@ -1246,7 +1246,7 @@ msgid ""
 msgstr ""
 
 msgid "default"
-msgstr ""
+msgstr "Standard"
 
 msgid ""
 "All optional arguments and some positional arguments may be omitted at the "

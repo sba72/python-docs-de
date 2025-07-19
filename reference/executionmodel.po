@@ -473,7 +473,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Fußnoten"
 
 msgid ""
 "This limitation occurs because the code that is executed by these operations "

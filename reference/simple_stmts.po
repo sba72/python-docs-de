@@ -1130,7 +1130,7 @@ msgid "mutable"
 msgstr ""
 
 msgid "attribute"
-msgstr ""
+msgstr "Attribut"
 
 msgid "target"
 msgstr ""

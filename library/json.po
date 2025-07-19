@@ -415,7 +415,7 @@ msgid "dict"
 msgstr ""
 
 msgid "array"
-msgstr ""
+msgstr "Array"
 
 msgid "list"
 msgstr ""
@@ -439,13 +439,13 @@ msgid "float"
 msgstr ""
 
 msgid "true"
-msgstr ""
+msgstr "Wahr"
 
 msgid "True"
 msgstr ""
 
 msgid "false"
-msgstr ""
+msgstr "Falsch"
 
 msgid "False"
 msgstr ""
@@ -929,7 +929,7 @@ msgid "Show the help message."
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Fußnoten"
 
 msgid ""
 "As noted in `the errata for RFC 7159 <https://www.rfc-editor.org/"

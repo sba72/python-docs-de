@@ -31,7 +31,7 @@ msgid "A. M. Kuchling"
 msgstr ""
 
 msgid "Release"
-msgstr ""
+msgstr "Release"
 
 msgid "0.32"
 msgstr ""
