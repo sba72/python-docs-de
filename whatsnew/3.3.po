@@ -34,7 +34,7 @@ msgid ":pep:`398` - Python 3.3 Release Schedule"
 msgstr ""
 
 msgid "Summary -- Release highlights"
-msgstr ""
+msgstr "Zusammenfassung - Release Höhepunkte"
 
 msgid "New syntax features:"
 msgstr ""
@@ -975,7 +975,7 @@ msgid "(Implementation by Brett Cannon)"
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Andere sprachliche Änderungen"
 
 msgid "Some smaller changes made to the core Python language are:"
 msgstr ""
@@ -1099,7 +1099,7 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr ""
+msgstr "Neue Module"
 
 msgid "faulthandler"
 msgstr ""
@@ -1155,7 +1155,7 @@ msgid "(Contributed by Nadeem Vawda and Per Øyvind Karlsen in :issue:`6715`.)"
 msgstr ""
 
 msgid "Improved Modules"
-msgstr ""
+msgstr "Verbesserte Module"
 
 msgid "abc"
 msgstr ""
@@ -1191,7 +1191,7 @@ msgid ""
 msgstr ""
 
 msgid "array"
-msgstr ""
+msgstr "Array"
 
 msgid ""
 "The :mod:`array` module supports the :c:expr:`long long` type using ``q`` "
@@ -1968,7 +1968,7 @@ msgid ""
 msgstr ""
 
 msgid "itertools"
-msgstr ""
+msgstr "itertools"
 
 msgid ""
 ":func:`~itertools.accumulate` now takes an optional ``func`` argument for "
@@ -1993,7 +1993,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr ""
+msgstr "math"
 
 msgid ""
 "The :mod:`math` module has a new function, :func:`~math.log2`,  which "
@@ -2071,7 +2071,7 @@ msgid "(Contributed by Giampaolo Rodolà in :issue:`9795`.)"
 msgstr ""
 
 msgid "os"
-msgstr ""
+msgstr "os"
 
 msgid ""
 "The :mod:`os` module has a new :func:`~os.pipe2` function that makes it "
@@ -2267,7 +2267,7 @@ msgid ""
 msgstr ""
 
 msgid "pdb"
-msgstr ""
+msgstr "pdb"
 
 msgid ""
 "Tab-completion is now available not only for command names, but also their "
@@ -2555,7 +2555,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr ""
+msgstr "sqlite3"
 
 msgid ""
 "New :class:`sqlite3.Connection` method :meth:`~sqlite3.Connection."
@@ -2687,7 +2687,7 @@ msgid ""
 msgstr ""
 
 msgid "tempfile"
-msgstr ""
+msgstr "tempfile"
 
 msgid ""
 ":class:`tempfile.SpooledTemporaryFile`\\'s :meth:`~tempfile."
@@ -2705,7 +2705,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr ""
+msgstr "threading"
 
 msgid ""
 ":class:`threading.Condition`, :class:`threading.Semaphore`, :class:"
@@ -2769,7 +2769,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr ""
+msgstr "types"
 
 msgid ""
 "Add a new :class:`types.MappingProxyType` class: Read-only proxy of a "
@@ -2783,7 +2783,7 @@ msgid ""
 msgstr ""
 
 msgid "unittest"
-msgstr ""
+msgstr "unittest"
 
 msgid ""
 ":meth:`.assertRaises`, :meth:`.assertRaisesRegex`, :meth:`.assertWarns`, "
@@ -2854,7 +2854,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimierungen"
 
 msgid "Major performance enhancements have been added:"
 msgstr ""
@@ -2966,7 +2966,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr ""
+msgstr "Als veraltet markiert"
 
 msgid "Unsupported Operating Systems"
 msgstr ""

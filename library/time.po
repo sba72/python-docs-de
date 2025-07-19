@@ -1198,7 +1198,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Fußnoten"
 
 msgid ""
 "The use of ``%Z`` is now deprecated, but the ``%z`` escape that expands to "

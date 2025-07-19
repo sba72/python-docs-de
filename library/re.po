@@ -143,7 +143,7 @@ msgid ""
 msgstr ""
 
 msgid "``^``"
-msgstr ""
+msgstr "``^``"
 
 msgid ""
 "(Caret.)  Matches the start of the string, and in :const:`MULTILINE` mode "
@@ -560,7 +560,7 @@ msgid "A comment; the contents of the parentheses are simply ignored."
 msgstr ""
 
 msgid "``(?=...)``"
-msgstr ""
+msgstr "``(?=...)``"
 
 msgid ""
 "Matches if ``...`` matches next, but doesn't consume any of the string.  "
@@ -649,13 +649,13 @@ msgid ""
 msgstr ""
 
 msgid "``\\A``"
-msgstr ""
+msgstr "``\\A``"
 
 msgid "Matches only at the start of the string."
 msgstr ""
 
 msgid "``\\b``"
-msgstr ""
+msgstr "``\\b``"
 
 msgid ""
 "Matches the empty string, but only at the beginning or end of a word. A word "
@@ -679,7 +679,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\B``"
-msgstr ""
+msgstr "``\\B``"
 
 msgid ""
 "Matches the empty string, but only when it is *not* at the beginning or end "
@@ -695,7 +695,7 @@ msgid "``\\B`` now matches empty input string."
 msgstr ""
 
 msgid "``\\d``"
-msgstr ""
+msgstr "``\\d``"
 
 msgid "For Unicode (str) patterns:"
 msgstr ""
@@ -718,7 +718,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\D``"
-msgstr ""
+msgstr "``\\D``"
 
 msgid ""
 "Matches any character which is not a decimal digit. This is the opposite of "
@@ -748,7 +748,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\S``"
-msgstr ""
+msgstr "``\\S``"
 
 msgid ""
 "Matches any character which is not a whitespace character. This is the "
@@ -760,7 +760,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\w``"
-msgstr ""
+msgstr "``\\w``"
 
 msgid ""
 "Matches Unicode word characters; this includes all Unicode alphanumeric "

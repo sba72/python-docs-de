@@ -278,7 +278,7 @@ msgid "The enum class being called."
 msgstr ""
 
 msgid "value"
-msgstr ""
+msgstr "Wert"
 
 msgid "The value to lookup."
 msgstr ""
@@ -1090,7 +1090,7 @@ msgid "``_missing_``, ``_order_``, ``_generate_next_value_``"
 msgstr ""
 
 msgid "``_ignore_``"
-msgstr ""
+msgstr "``_ignore_``"
 
 msgid "``_add_alias_``, ``_add_value_alias_``, ``_repr_*``"
 msgstr ""

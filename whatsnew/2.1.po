@@ -241,37 +241,37 @@ msgid "Method name"
 msgstr ""
 
 msgid "``<``"
-msgstr ""
+msgstr "``<``"
 
 msgid ":meth:`~object.__lt__`"
 msgstr ""
 
 msgid "``<=``"
-msgstr ""
+msgstr "``<=``"
 
 msgid ":meth:`~object.__le__`"
 msgstr ""
 
 msgid "``>``"
-msgstr ""
+msgstr "``>``"
 
 msgid ":meth:`~object.__gt__`"
 msgstr ""
 
 msgid "``>=``"
-msgstr ""
+msgstr "``>=``"
 
 msgid ":meth:`~object.__ge__`"
 msgstr ""
 
 msgid "``==``"
-msgstr ""
+msgstr "``==``"
 
 msgid ":meth:`~object.__eq__`"
 msgstr ""
 
 msgid "``!=``"
-msgstr ""
+msgstr "``!=``"
 
 msgid ":meth:`~object.__ne__`"
 msgstr ""

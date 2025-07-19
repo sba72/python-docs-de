@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 
 msgid "Summary -- Release highlights"
-msgstr ""
+msgstr "Zusammenfassung - Release Höhepunkte"
 
 msgid ""
 "Python 3.11 is between 10-60% faster than Python 3.10. On average, we "
@@ -78,7 +78,7 @@ msgid ""
 msgstr ""
 
 msgid "New typing features:"
-msgstr ""
+msgstr "Neue Typisierungsfunktionen:"
 
 msgid ":ref:`whatsnew311-pep646`"
 msgstr ""
@@ -114,7 +114,7 @@ msgid ""
 msgstr ""
 
 msgid "New Features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 msgid "PEP 657: Fine-grained error locations in tracebacks"
 msgstr ""
@@ -265,7 +265,7 @@ msgid ""
 msgstr ""
 
 msgid "New Features Related to Type Hints"
-msgstr ""
+msgstr "Neue Funktionen im Zusammenhang mit Typ-Hinweisen"
 
 msgid ""
 "This section covers major changes affecting :pep:`484` type hints and the :"
@@ -486,7 +486,7 @@ msgid ""
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Andere sprachliche Änderungen"
 
 msgid ""
 "Starred unpacking expressions can now be used in :keyword:`for` statements. "
@@ -618,7 +618,7 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr ""
+msgstr "Neue Module"
 
 msgid ""
 ":mod:`tomllib`: For parsing `TOML <https://toml.io/>`_. See :pep:`680` for "
@@ -631,10 +631,10 @@ msgid ""
 msgstr ""
 
 msgid "Improved Modules"
-msgstr ""
+msgstr "Verbesserte Module"
 
 msgid "asyncio"
-msgstr ""
+msgstr "asyncio"
 
 msgid ""
 "Added the :class:`~asyncio.TaskGroup` class, an :ref:`asynchronous context "
@@ -809,7 +809,7 @@ msgid ""
 msgstr ""
 
 msgid "fractions"
-msgstr ""
+msgstr "fractions"
 
 msgid ""
 "Support :PEP:`515`-style initialization of :class:`~fractions.Fraction` from "
@@ -974,7 +974,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr ""
+msgstr "math"
 
 msgid ""
 "Add :func:`math.exp2`: return 2 raised to the power of x. (Contributed by "
@@ -1009,7 +1009,7 @@ msgid ""
 msgstr ""
 
 msgid "os"
-msgstr ""
+msgstr "os"
 
 msgid ""
 "On Windows, :func:`os.urandom` now uses ``BCryptGenRandom()``, instead of "
@@ -1018,7 +1018,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr ""
+msgstr "pathlib"
 
 msgid ""
 ":meth:`~pathlib.Path.glob` and :meth:`~pathlib.Path.rglob` return only "
@@ -1059,7 +1059,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr ""
+msgstr "sqlite3"
 
 msgid ""
 "You can now disable the authorizer by passing :const:`None` to :meth:"
@@ -1175,7 +1175,7 @@ msgid ""
 msgstr ""
 
 msgid "tempfile"
-msgstr ""
+msgstr "tempfile"
 
 msgid ""
 ":class:`~tempfile.SpooledTemporaryFile` objects now fully implement the "
@@ -1186,7 +1186,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr ""
+msgstr "threading"
 
 msgid ""
 "On Unix, if the ``sem_clockwait()`` function is available in the C library "
@@ -1219,7 +1219,7 @@ msgid ""
 msgstr ""
 
 msgid "tkinter"
-msgstr ""
+msgstr "tkinter"
 
 msgid ""
 "Added method ``info_patchlevel()`` which returns the exact version of the "
@@ -1243,7 +1243,7 @@ msgid ""
 msgstr ""
 
 msgid "typing"
-msgstr ""
+msgstr "typing"
 
 msgid "For major changes, see :ref:`new-feat-related-type-hints-311`."
 msgstr ""
@@ -1338,7 +1338,7 @@ msgid ""
 msgstr ""
 
 msgid "unicodedata"
-msgstr ""
+msgstr "unicodedata"
 
 msgid ""
 "The Unicode database has been updated to version 14.0.0. (Contributed by "
@@ -1346,7 +1346,7 @@ msgid ""
 msgstr ""
 
 msgid "unittest"
-msgstr ""
+msgstr "unittest"
 
 msgid ""
 "Added methods :meth:`~unittest.TestCase.enterContext` and :meth:`~unittest."
@@ -1401,7 +1401,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimierungen"
 
 msgid ""
 "This section covers specific optimizations independent of the :ref:"
@@ -1889,7 +1889,7 @@ msgid ""
 msgstr ""
 
 msgid "CPython bytecode changes"
-msgstr ""
+msgstr "CPython Bytecode Änderungen"
 
 msgid ""
 "The bytecode now contains inline cache entries, which take the form of the "
@@ -2082,7 +2082,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr ""
+msgstr "Als veraltet markiert"
 
 msgid ""
 "This section lists Python APIs that have been deprecated in Python 3.11."
@@ -2469,100 +2469,100 @@ msgid "The following deprecated aliases in :mod:`unittest`:"
 msgstr ""
 
 msgid "Deprecated alias"
-msgstr ""
+msgstr "Veraltetes Alias"
 
 msgid "Method Name"
-msgstr ""
+msgstr "Methodenname"
 
 msgid "Deprecated in"
-msgstr ""
+msgstr "Als veraltet markiert in:"
 
 msgid "``failUnless``"
-msgstr ""
+msgstr "``failUnless``"
 
 msgid ":meth:`.assertTrue`"
-msgstr ""
+msgstr ":meth:`.assertTrue`"
 
 msgid "3.1"
-msgstr ""
+msgstr "3.1"
 
 msgid "``failIf``"
-msgstr ""
+msgstr "``failIf``"
 
 msgid ":meth:`.assertFalse`"
-msgstr ""
+msgstr ":meth:`.assertFalse`"
 
 msgid "``failUnlessEqual``"
-msgstr ""
+msgstr "``failUnlessEqual``"
 
 msgid ":meth:`.assertEqual`"
-msgstr ""
+msgstr ":meth:`.assertEqual`"
 
 msgid "``failIfEqual``"
-msgstr ""
+msgstr "``failIfEqual``"
 
 msgid ":meth:`.assertNotEqual`"
-msgstr ""
+msgstr ":meth:`.assertNotEqual`"
 
 msgid "``failUnlessAlmostEqual``"
-msgstr ""
+msgstr "``failUnlessAlmostEqual``"
 
 msgid ":meth:`.assertAlmostEqual`"
-msgstr ""
+msgstr ":meth:`.assertAlmostEqual`"
 
 msgid "``failIfAlmostEqual``"
-msgstr ""
+msgstr "``failIfAlmostEqual``"
 
 msgid ":meth:`.assertNotAlmostEqual`"
-msgstr ""
+msgstr ":meth:`.assertNotAlmostEqual`"
 
 msgid "``failUnlessRaises``"
-msgstr ""
+msgstr "``failUnlessRaises``"
 
 msgid ":meth:`.assertRaises`"
-msgstr ""
+msgstr ":meth:`.assertRaises`"
 
 msgid "``assert_``"
-msgstr ""
+msgstr "``assert_``"
 
 msgid "3.2"
-msgstr ""
+msgstr "3.2"
 
 msgid "``assertEquals``"
-msgstr ""
+msgstr "``assertEquals``"
 
 msgid "``assertNotEquals``"
-msgstr ""
+msgstr "``assertNotEquals``"
 
 msgid "``assertAlmostEquals``"
-msgstr ""
+msgstr "``assertAlmostEquals``"
 
 msgid "``assertNotAlmostEquals``"
-msgstr ""
+msgstr "``assertNotAlmostEquals``"
 
 msgid "``assertRegexpMatches``"
-msgstr ""
+msgstr "``assertRegexpMatches``"
 
 msgid ":meth:`.assertRegex`"
-msgstr ""
+msgstr ":meth:`.assertRegex`"
 
 msgid "``assertRaisesRegexp``"
-msgstr ""
+msgstr "``assertRaisesRegexp``"
 
 msgid ":meth:`.assertRaisesRegex`"
-msgstr ""
+msgstr ":meth:`.assertRaisesRegex`"
 
 msgid "``assertNotRegexpMatches``"
-msgstr ""
+msgstr "``assertNotRegexpMatches``"
 
 msgid ":meth:`.assertNotRegex`"
-msgstr ""
+msgstr ":meth:`.assertNotRegex`"
 
 msgid "3.5"
-msgstr ""
+msgstr "3.5"
 
 msgid "Removed"
-msgstr ""
+msgstr "Entfernt"
 
 msgid "This section lists Python APIs that have been removed in Python 3.11."
 msgstr ""
@@ -2783,7 +2783,7 @@ msgid ""
 msgstr ""
 
 msgid "Build Changes"
-msgstr ""
+msgstr "Build Änderungen"
 
 msgid ""
 "CPython now has :pep:`11` :pep:`Tier 3 support <11#tier-3>` for cross "
@@ -2889,7 +2889,7 @@ msgid ""
 msgstr ""
 
 msgid "C API Changes"
-msgstr ""
+msgstr "C API Änderungen"
 
 msgid ""
 "Add a new :c:func:`PyType_GetName` function to get type's short name. "
@@ -3483,28 +3483,28 @@ msgid ""
 msgstr ""
 
 msgid ":c:func:`!PyUnicode_AS_DATA`"
-msgstr ""
+msgstr ":c:func:`!PyUnicode_AS_DATA`"
 
 msgid ":c:func:`!PyUnicode_AS_UNICODE`"
-msgstr ""
+msgstr ":c:func:`!PyUnicode_AS_UNICODE`"
 
 msgid ":c:func:`!PyUnicode_AsUnicodeAndSize`"
-msgstr ""
+msgstr ":c:func:`!PyUnicode_AsUnicodeAndSize`"
 
 msgid ":c:func:`!PyUnicode_AsUnicode`"
-msgstr ""
+msgstr ":c:func:`!PyUnicode_AsUnicode`"
 
 msgid ":c:func:`!PyUnicode_FromUnicode`"
-msgstr ""
+msgstr ":c:func:`!PyUnicode_FromUnicode`"
 
 msgid ":c:func:`!PyUnicode_GET_DATA_SIZE`"
-msgstr ""
+msgstr ":c:func:`!PyUnicode_GET_DATA_SIZE`"
 
 msgid ":c:func:`!PyUnicode_GET_SIZE`"
-msgstr ""
+msgstr ":c:func:`!PyUnicode_GET_SIZE`"
 
 msgid ":c:func:`!PyUnicode_GetSize`"
-msgstr ""
+msgstr ":c:func:`!PyUnicode_GetSize`"
 
 msgid ":c:func:`!PyUnicode_IS_COMPACT`"
 msgstr ""
@@ -3522,7 +3522,7 @@ msgid ":c:func:`!_PyUnicode_AsUnicode`"
 msgstr ""
 
 msgid ":c:macro:`!PyUnicode_WCHAR_KIND`"
-msgstr ""
+msgstr ":c:macro:`!PyUnicode_WCHAR_KIND`"
 
 msgid ":c:type:`PyUnicodeObject`"
 msgstr ""

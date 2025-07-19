@@ -37,10 +37,10 @@ msgid ""
 msgstr ""
 
 msgid "Summary -- Release highlights"
-msgstr ""
+msgstr "Zusammenfassung - Release Höhepunkte"
 
 msgid "New Features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 msgid "Assignment expressions"
 msgstr ""
@@ -500,7 +500,7 @@ msgid "(Contributed by Antoine Pitrou in :issue:`36785`.)"
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Andere sprachliche Änderungen"
 
 msgid ""
 "A :keyword:`continue` statement was illegal in the :keyword:`finally` clause "
@@ -700,7 +700,7 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr ""
+msgstr "Neue Module"
 
 msgid ""
 "The new :mod:`importlib.metadata` module provides (provisional) support for "
@@ -729,7 +729,7 @@ msgid "(Contributed by Barry Warsaw and Jason R. Coombs in :issue:`34632`.)"
 msgstr ""
 
 msgid "Improved Modules"
-msgstr ""
+msgstr "Verbesserte Module"
 
 msgid "ast"
 msgstr ""
@@ -771,7 +771,7 @@ msgid "(Contributed by Guido van Rossum in :issue:`35766`.)"
 msgstr ""
 
 msgid "asyncio"
-msgstr ""
+msgstr "asyncio"
 
 msgid ""
 ":func:`asyncio.run` has graduated from the provisional to stable API. This "
@@ -929,7 +929,7 @@ msgid "(Contributed by Scott Sanderson in :issue:`29235`.)"
 msgstr ""
 
 msgid "csv"
-msgstr ""
+msgstr "csv"
 
 msgid ""
 "The :class:`csv.DictReader` now returns instances of :class:`dict` instead "
@@ -1164,7 +1164,7 @@ msgid ""
 msgstr ""
 
 msgid "itertools"
-msgstr ""
+msgstr "itertools"
 
 msgid ""
 "The :func:`itertools.accumulate` function added an option *initial* keyword "
@@ -1211,7 +1211,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr ""
+msgstr "math"
 
 msgid ""
 "Added new function :func:`math.dist` for computing Euclidean distance "
@@ -1304,7 +1304,7 @@ msgid ""
 msgstr ""
 
 msgid "os"
-msgstr ""
+msgstr "os"
 
 msgid ""
 "Added new function :func:`~os.add_dll_directory` on Windows for providing "
@@ -1343,7 +1343,7 @@ msgid "(Contributed by Steve Dower in :issue:`37834`.)"
 msgstr ""
 
 msgid "os.path"
-msgstr ""
+msgstr "os.path"
 
 msgid ""
 ":mod:`os.path` functions that return a boolean result like :func:`~os.path."
@@ -1373,7 +1373,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr ""
+msgstr "pathlib"
 
 msgid ""
 ":mod:`pathlib.Path` methods that return a boolean result like :meth:"
@@ -1586,7 +1586,7 @@ msgid ""
 msgstr ""
 
 msgid "threading"
-msgstr ""
+msgstr "threading"
 
 msgid ""
 "Add a new :func:`threading.excepthook` function which handles uncaught :meth:"
@@ -1605,7 +1605,7 @@ msgid ""
 msgstr ""
 
 msgid "tokenize"
-msgstr ""
+msgstr "tokenize"
 
 msgid ""
 "The :mod:`tokenize` module now implicitly emits a ``NEWLINE`` token when "
@@ -1615,7 +1615,7 @@ msgid ""
 msgstr ""
 
 msgid "tkinter"
-msgstr ""
+msgstr "tkinter"
 
 msgid ""
 "Added methods :meth:`~tkinter.Spinbox.selection_from`, :meth:`~tkinter."
@@ -1644,7 +1644,7 @@ msgid ""
 msgstr ""
 
 msgid "typing"
-msgstr ""
+msgstr "typing"
 
 msgid "The :mod:`typing` module incorporates several new features:"
 msgstr ""
@@ -1696,7 +1696,7 @@ msgid "New functions :func:`typing.get_origin` and :func:`typing.get_args`."
 msgstr ""
 
 msgid "unicodedata"
-msgstr ""
+msgstr "unicodedata"
 
 msgid ""
 "The :mod:`unicodedata` module has been upgraded to use the `Unicode 12.1.0 "
@@ -1711,7 +1711,7 @@ msgid ""
 msgstr ""
 
 msgid "unittest"
-msgstr ""
+msgstr "unittest"
 
 msgid ""
 "Added :class:`~unittest.mock.AsyncMock` to support an asynchronous version "
@@ -1823,7 +1823,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimierungen"
 
 msgid ""
 "The :mod:`subprocess` module can now use the :func:`os.posix_spawn` function "
@@ -2076,7 +2076,7 @@ msgid ""
 msgstr ""
 
 msgid "Deprecated"
-msgstr ""
+msgstr "Als veraltet markiert"
 
 msgid ""
 "The distutils ``bdist_wininst`` command is now deprecated, use "
@@ -2368,7 +2368,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr ""
+msgstr "Änderungen in der Python API"
 
 msgid ""
 "The :func:`os.getcwdb` function now uses the UTF-8 encoding on Windows, "
@@ -2709,7 +2709,7 @@ msgid "(Contributed by Steve Dower in :issue:`37351`.)"
 msgstr ""
 
 msgid "CPython bytecode changes"
-msgstr ""
+msgstr "CPython Bytecode Änderungen"
 
 msgid ""
 "The interpreter loop  has been simplified by moving the logic of unrolling "
@@ -2745,7 +2745,7 @@ msgid ""
 msgstr ""
 
 msgid "Demos and Tools"
-msgstr ""
+msgstr "Demos und Werkzeuge"
 
 msgid ""
 "Added a benchmark script for timing various ways to access variables: "

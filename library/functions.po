@@ -2686,7 +2686,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Fußnoten"
 
 msgid ""
 "Note that the parser only accepts the Unix-style end of line convention. If "

@@ -715,7 +715,7 @@ msgid "Raises :exc:`StatisticsError` if *data* is empty."
 msgstr ""
 
 msgid "Examples:"
-msgstr ""
+msgstr "Beispiele:"
 
 msgid ""
 ">>> data = [0.0, 0.25, 0.25, 1.25, 1.5, 1.75, 2.75, 3.25]\n"

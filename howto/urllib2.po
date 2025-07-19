@@ -263,7 +263,7 @@ msgid ""
 msgstr ""
 
 msgid "Handling Exceptions"
-msgstr ""
+msgstr "Behandlung von Ausnahmen"
 
 msgid ""
 "*urlopen* raises :exc:`~urllib.error.URLError` when it cannot handle a "
@@ -669,7 +669,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Fußnoten"
 
 msgid "This document was reviewed and revised by John Lee."
 msgstr ""

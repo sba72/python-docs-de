@@ -161,37 +161,37 @@ msgid "Meaning"
 msgstr ""
 
 msgid "``<``"
-msgstr ""
+msgstr "``<``"
 
 msgid "strictly less than"
 msgstr ""
 
 msgid "``<=``"
-msgstr ""
+msgstr "``<=``"
 
 msgid "less than or equal"
 msgstr ""
 
 msgid "``>``"
-msgstr ""
+msgstr "``>``"
 
 msgid "strictly greater than"
 msgstr ""
 
 msgid "``>=``"
-msgstr ""
+msgstr "``>=``"
 
 msgid "greater than or equal"
 msgstr ""
 
 msgid "``==``"
-msgstr ""
+msgstr "``==``"
 
 msgid "equal"
 msgstr ""
 
 msgid "``!=``"
-msgstr ""
+msgstr "``!=``"
 
 msgid "not equal"
 msgstr ""
@@ -2800,7 +2800,7 @@ msgid "Representation"
 msgstr ""
 
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 msgid "``\\n``"
 msgstr ""
@@ -3699,7 +3699,7 @@ msgid "This is equivalent to:"
 msgstr ""
 
 msgid "Examples:"
-msgstr ""
+msgstr "Beispiele:"
 
 msgid ""
 "Since bytearray objects are sequences of integers (akin to a list), for a "
@@ -6708,7 +6708,7 @@ msgid "If you need to disable it entirely, set it to ``0``."
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Fußnoten"
 
 msgid ""
 "Additional information on these special methods may be found in the Python "
@@ -6738,7 +6738,7 @@ msgid "built-in"
 msgstr ""
 
 msgid "types"
-msgstr ""
+msgstr "types"
 
 msgid "statement"
 msgstr ""
@@ -6753,7 +6753,7 @@ msgid "truth"
 msgstr ""
 
 msgid "value"
-msgstr ""
+msgstr "Wert"
 
 msgid "Boolean"
 msgstr ""
@@ -6762,10 +6762,10 @@ msgid "operations"
 msgstr ""
 
 msgid "false"
-msgstr ""
+msgstr "Falsch"
 
 msgid "true"
-msgstr ""
+msgstr "Wahr"
 
 msgid "None (Built-in object)"
 msgstr ""
@@ -6939,7 +6939,7 @@ msgid "module"
 msgstr ""
 
 msgid "math"
-msgstr ""
+msgstr "math"
 
 msgid "floor() (in module math)"
 msgstr ""
@@ -7215,7 +7215,7 @@ msgid "memoryview"
 msgstr ""
 
 msgid "array"
-msgstr ""
+msgstr "Array"
 
 msgid "bytes.splitlines method"
 msgstr ""

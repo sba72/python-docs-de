@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-13 14:21+0000\n"
 "PO-Revision-Date: 2025-07-18 18:48+0000\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,10 +22,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Unicode Objects and Codecs"
-msgstr ""
+msgstr "Unicode Objekte und Codecs"
 
 msgid "Unicode Objects"
-msgstr ""
+msgstr "Unicode Objekte"
 
 msgid ""
 "Since the implementation of :pep:`393` in Python 3.3, Unicode objects "
@@ -31,6 +35,12 @@ msgid ""
 "65536; otherwise, code points must be below 1114112 (which is the full "
 "Unicode range)."
 msgstr ""
+"Seit der Umsetzung von :pep:`393` in Python 3.3 verwenden Unicode Objekte "
+"intern eine Vielzahl von Repräsentationen, um die gesamte Bandbreite der "
+"Unicode Zeichen verarbeiten zu können und dabei speichereffizient zu "
+"bleiben. Es gibt Spezialfälle für Zeichenketten, deren Codepunkte alle unter "
+"128, 256 oder 65536 liegen; andernfalls müssen Codepunkte unterhalb von "
+"1114112 sein (gesamter Unicode Bereich)."
 
 msgid ""
 "UTF-8 representation is created on demand and cached in the Unicode object."

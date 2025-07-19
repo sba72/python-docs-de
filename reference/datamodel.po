@@ -3835,7 +3835,7 @@ msgid ""
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Fußnoten"
 
 msgid ""
 "It *is* possible in some cases to change an object's type, under certain "
@@ -3928,7 +3928,7 @@ msgid "language"
 msgstr ""
 
 msgid "attribute"
-msgstr ""
+msgstr "Attribut"
 
 msgid "special"
 msgstr ""
@@ -4042,7 +4042,7 @@ msgid "statement"
 msgstr ""
 
 msgid "array"
-msgstr ""
+msgstr "Array"
 
 msgid "collections"
 msgstr ""

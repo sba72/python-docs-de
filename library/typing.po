@@ -3689,7 +3689,7 @@ msgid "Parameter name"
 msgstr ""
 
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 msgid "``init``"
 msgstr ""
@@ -4027,7 +4027,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples:"
-msgstr ""
+msgstr "Beispiele:"
 
 msgid ""
 "assert get_origin(str) is None\n"
@@ -4660,7 +4660,7 @@ msgid "Feature"
 msgstr ""
 
 msgid "Deprecated in"
-msgstr ""
+msgstr "Als veraltet markiert in:"
 
 msgid "Projected removal"
 msgstr ""

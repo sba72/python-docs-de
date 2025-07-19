@@ -197,7 +197,7 @@ msgid ""
 msgstr ""
 
 msgid "New typing features:"
-msgstr ""
+msgstr "Neue Typisierungsfunktionen:"
 
 msgid ""
 ":pep:`696`: Type parameters (:data:`typing.TypeVar`, :data:`typing."
@@ -289,7 +289,7 @@ msgid ""
 msgstr ""
 
 msgid "New Features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 msgid "A better interactive interpreter"
 msgstr ""
@@ -644,7 +644,7 @@ msgid ":pep:`730`, :pep:`738`"
 msgstr ""
 
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Andere sprachliche Änderungen"
 
 msgid ""
 "The compiler now strips common leading whitespace from every line in a "
@@ -792,7 +792,7 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr ""
+msgstr "Neue Module"
 
 msgid ""
 ":mod:`dbm.sqlite3`: An SQLite backend for :mod:`dbm`. (Contributed by "
@@ -800,7 +800,7 @@ msgid ""
 msgstr ""
 
 msgid "Improved Modules"
-msgstr ""
+msgstr "Verbesserte Module"
 
 msgid "argparse"
 msgstr ""
@@ -813,7 +813,7 @@ msgid ""
 msgstr ""
 
 msgid "array"
-msgstr ""
+msgstr "Array"
 
 msgid ""
 "Add the ``'w'`` type code (``Py_UCS4``) for Unicode characters. It should be "
@@ -871,7 +871,7 @@ msgid ""
 msgstr ""
 
 msgid "asyncio"
-msgstr ""
+msgstr "asyncio"
 
 msgid ""
 ":func:`asyncio.as_completed` now returns an object that is both an :term:"
@@ -1081,7 +1081,7 @@ msgid ""
 msgstr ""
 
 msgid "dis"
-msgstr ""
+msgstr "dis"
 
 msgid ""
 "Change the output of :mod:`dis` module functions to show logical labels for "
@@ -1147,7 +1147,7 @@ msgid ""
 msgstr ""
 
 msgid "fractions"
-msgstr ""
+msgstr "fractions"
 
 msgid ""
 ":class:`~fractions.Fraction` objects now support the standard :ref:`format "
@@ -1232,7 +1232,7 @@ msgid ""
 msgstr ""
 
 msgid "itertools"
-msgstr ""
+msgstr "itertools"
 
 msgid ""
 ":func:`~itertools.batched` has a new *strict* parameter, which raises a :exc:"
@@ -1251,7 +1251,7 @@ msgid ""
 msgstr ""
 
 msgid "math"
-msgstr ""
+msgstr "math"
 
 msgid ""
 "The new function :func:`~math.fma` performs fused multiply-add operations. "
@@ -1299,7 +1299,7 @@ msgid "multiprocessing"
 msgstr ""
 
 msgid "os"
-msgstr ""
+msgstr "os"
 
 msgid ""
 "Add :func:`~os.process_cpu_count` function to get the number of logical CPU "
@@ -1361,7 +1361,7 @@ msgid ""
 msgstr ""
 
 msgid "os.path"
-msgstr ""
+msgstr "os.path"
 
 msgid ""
 "Add :func:`~os.path.isreserved` to check if a path is reserved on the "
@@ -1381,7 +1381,7 @@ msgid ""
 msgstr ""
 
 msgid "pathlib"
-msgstr ""
+msgstr "pathlib"
 
 msgid ""
 "Add :exc:`~pathlib.UnsupportedOperation`, which is raised instead of :exc:"
@@ -1426,7 +1426,7 @@ msgid ""
 msgstr ""
 
 msgid "pdb"
-msgstr ""
+msgstr "pdb"
 
 msgid ""
 ":func:`breakpoint` and :func:`~pdb.set_trace` now enter the debugger "
@@ -1502,7 +1502,7 @@ msgid ""
 msgstr ""
 
 msgid "sqlite3"
-msgstr ""
+msgstr "sqlite3"
 
 msgid ""
 "A :exc:`ResourceWarning` is now emitted if a :class:`~sqlite3.Connection` "
@@ -1592,7 +1592,7 @@ msgid ""
 msgstr ""
 
 msgid "tempfile"
-msgstr ""
+msgstr "tempfile"
 
 msgid ""
 "On Windows, the default mode ``0o700`` used by :func:`tempfile.mkdtemp` now "
@@ -1620,7 +1620,7 @@ msgid ""
 msgstr ""
 
 msgid "tkinter"
-msgstr ""
+msgstr "tkinter"
 
 msgid ""
 "Add :mod:`tkinter` widget methods: :meth:`!tk_busy_hold`, :meth:`!"
@@ -1701,7 +1701,7 @@ msgid ""
 msgstr ""
 
 msgid "types"
-msgstr ""
+msgstr "types"
 
 msgid ""
 ":class:`~types.SimpleNamespace` can now take a single positional argument to "
@@ -1711,7 +1711,7 @@ msgid ""
 msgstr ""
 
 msgid "typing"
-msgstr ""
+msgstr "typing"
 
 msgid ""
 ":pep:`705`: Add :data:`~typing.ReadOnly`, a special typing construct to mark "
@@ -1746,7 +1746,7 @@ msgid ""
 msgstr ""
 
 msgid "unicodedata"
-msgstr ""
+msgstr "unicodedata"
 
 msgid ""
 "Update the Unicode database to `version 15.1.0`__. (Contributed by James "
@@ -1817,7 +1817,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimierungen"
 
 msgid ""
 "Several standard library modules have had their import times significantly "
@@ -2182,7 +2182,7 @@ msgid ""
 msgstr ""
 
 msgid "unittest"
-msgstr ""
+msgstr "unittest"
 
 msgid ""
 "Remove the following :mod:`unittest` functions, deprecated in Python 3.11:"
@@ -2497,24 +2497,26 @@ msgid ""
 msgstr ""
 
 msgid ":class:`!ast.Num`"
-msgstr ""
+msgstr ":class:`!ast.Num`"
 
 msgid ":class:`!ast.Str`"
-msgstr ""
+msgstr ":class:`!ast.Str`"
 
 msgid ":class:`!ast.Bytes`"
-msgstr ""
+msgstr ":class:`!ast.Bytes`"
 
 msgid ":class:`!ast.NameConstant`"
-msgstr ""
+msgstr ":class:`!ast.NameConstant`"
 
 msgid ":class:`!ast.Ellipsis`"
-msgstr ""
+msgstr ":class:`!ast.Ellipsis`"
 
 msgid ""
 "Use :class:`ast.Constant` instead. (Contributed by Serhiy Storchaka in :gh:"
 "`90953`.)"
 msgstr ""
+"Verwende stattdessen :class:`ast.Constant`. (Beigetragen von Serhiy "
+"Storchaka in :gh:`90953`.)"
 
 msgid ":mod:`asyncio`:"
 msgstr ""
@@ -2556,25 +2558,26 @@ msgid ":mod:`importlib.abc` deprecated classes:"
 msgstr ""
 
 msgid ":class:`!importlib.abc.ResourceReader`"
-msgstr ""
+msgstr ":class:`!importlib.abc.ResourceReader`"
 
 msgid ":class:`!importlib.abc.Traversable`"
-msgstr ""
+msgstr ":class:`!importlib.abc.Traversable`"
 
 msgid ":class:`!importlib.abc.TraversableResources`"
-msgstr ""
+msgstr ":class:`!importlib.abc.TraversableResources`"
 
 msgid "Use :mod:`importlib.resources.abc` classes instead:"
-msgstr ""
+msgstr "Verwende stattdessen :mod:`importlib.resources.abc` Klassen:"
 
 msgid ":class:`importlib.resources.abc.Traversable`"
-msgstr ""
+msgstr ":class:`importlib.resources.abc.Traversable`"
 
 msgid ":class:`importlib.resources.abc.TraversableResources`"
-msgstr ""
+msgstr ":class:`importlib.resources.abc.TraversableResources`"
 
 msgid "(Contributed by Jason R. Coombs and Hugo van Kemenade in :gh:`93963`.)"
 msgstr ""
+"(Beigetragen von Jason R. Coombs und Hugo van Kemenade in :gh:`93963`.)"
 
 msgid ""
 ":mod:`itertools` had undocumented, inefficient, historically buggy, and "
@@ -3211,7 +3214,7 @@ msgid ""
 msgstr ""
 
 msgid "C API Changes"
-msgstr ""
+msgstr "C API Änderungen"
 
 msgid ""
 "Add the :ref:`PyMonitoring C API <c-api-monitoring>` for generating :pep:"
@@ -4323,7 +4326,7 @@ msgid ":c:func:`PyThread_ReInitTLS`: Unneeded since Python 3.7."
 msgstr ""
 
 msgid "Build Changes"
-msgstr ""
+msgstr "Build Änderungen"
 
 msgid ""
 "``arm64-apple-ios`` and ``arm64-apple-ios-simulator`` are both now :pep:`11` "
@@ -4405,7 +4408,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr ""
+msgstr "Änderungen in der Python API"
 
 msgid ""
 ":ref:`PEP 667 <whatsnew313-locals-semantics>` introduces several changes to "

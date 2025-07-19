@@ -2977,10 +2977,10 @@ msgid "The demo scripts are:"
 msgstr ""
 
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 msgid "Features"
 msgstr ""

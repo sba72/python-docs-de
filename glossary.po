@@ -241,7 +241,7 @@ msgid ""
 msgstr ""
 
 msgid "attribute"
-msgstr ""
+msgstr "Attribut"
 
 msgid ""
 "A value associated with an object which is usually referenced by name using "
