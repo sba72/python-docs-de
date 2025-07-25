@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-20 14:21+0000\n"
+"POT-Creation-Date: 2025-07-25 14:21+0000\n"
 "PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
@@ -52,26 +52,42 @@ msgid ""
 "NEWLINE`. Statements cannot cross logical line boundaries except where :data:"
 "`!NEWLINE` is allowed by the syntax (e.g., between statements in compound "
 "statements). A logical line is constructed from one or more *physical lines* "
-"by following the explicit or implicit *line joining* rules."
+"by following the :ref:`explicit <explicit-joining>` or :ref:`implicit "
+"<implicit-joining>` *line joining* rules."
 msgstr ""
 
 msgid "Physical lines"
 msgstr ""
 
 msgid ""
-"A physical line is a sequence of characters terminated by an end-of-line "
-"sequence.  In source files and strings, any of the standard platform line "
-"termination sequences can be used - the Unix form using ASCII LF (linefeed), "
-"the Windows form using the ASCII sequence CR LF (return followed by "
-"linefeed), or the old Macintosh form using the ASCII CR (return) character.  "
-"All of these forms can be used equally, regardless of platform. The end of "
-"input also serves as an implicit terminator for the final physical line."
+"A physical line is a sequence of characters terminated by one the following "
+"end-of-line sequences:"
+msgstr ""
+
+msgid "the Unix form using ASCII LF (linefeed),"
 msgstr ""
 
 msgid ""
-"When embedding Python, source code strings should be passed to Python APIs "
-"using the standard C conventions for newline characters (the ``\\n`` "
-"character, representing ASCII LF, is the line terminator)."
+"the Windows form using the ASCII sequence CR LF (return followed by "
+"linefeed),"
+msgstr ""
+
+msgid "the '`Classic Mac OS`__' form using the ASCII CR (return) character."
+msgstr ""
+
+msgid ""
+"Regardless of platform, each of these sequences is replaced by a single "
+"ASCII LF (linefeed) character. (This is done even inside :ref:`string "
+"literals <strings>`.) Each line can use any of the sequences; they do not "
+"need to be consistent within a file."
+msgstr ""
+
+msgid ""
+"The end of input also serves as an implicit terminator for the final "
+"physical line."
+msgstr ""
+
+msgid "Formally:"
 msgstr ""
 
 msgid "Comments"
@@ -119,6 +135,12 @@ msgid ""
 "If an encoding is declared, the encoding name must be recognized by Python "
 "(see :ref:`standard-encodings`). The encoding is used for all lexical "
 "analysis, including string literals, comments and identifiers."
+msgstr ""
+
+msgid ""
+"All lexical analysis, including string literals, comments and identifiers, "
+"works on Unicode text decoded using the source encoding. Any Unicode code "
+"point, except the NUL control character, can appear in Python source."
 msgstr ""
 
 msgid "Explicit line joining"
@@ -541,46 +563,129 @@ msgstr ""
 msgid "Literals are notations for constant values of some built-in types."
 msgstr ""
 
+msgid ""
+"In terms of lexical analysis, Python has :ref:`string, bytes <strings>` and :"
+"ref:`numeric <numbers>` literals."
+msgstr ""
+
+msgid ""
+"Other \"literals\" are lexically denoted using :ref:`keywords <keywords>` "
+"(``None``, ``True``, ``False``) and the special :ref:`ellipsis token "
+"<lexical-ellipsis>` (``...``)."
+msgstr ""
+
 msgid "String and Bytes literals"
 msgstr ""
 
-msgid "String literals are described by the following lexical definitions:"
+msgid ""
+"String literals are text enclosed in single quotes (``'``) or double quotes "
+"(``\"``). For example:"
 msgstr ""
 
 msgid ""
-"One syntactic restriction not indicated by these productions is that "
-"whitespace is not allowed between the :token:`~python-grammar:stringprefix` "
-"or :token:`~python-grammar:bytesprefix` and the rest of the literal. The "
-"source character set is defined by the encoding declaration; it is UTF-8 if "
-"no encoding declaration is given in the source file; see section :ref:"
-"`encodings`."
+"\"spam\"\n"
+"'eggs'"
 msgstr ""
 
 msgid ""
-"In plain English: Both types of literals can be enclosed in matching single "
-"quotes (``'``) or double quotes (``\"``).  They can also be enclosed in "
-"matching groups of three single or double quotes (these are generally "
-"referred to as *triple-quoted strings*). The backslash (``\\``) character is "
-"used to give special meaning to otherwise ordinary characters like ``n``, "
-"which means 'newline' when escaped (``\\n``). It can also be used to escape "
-"characters that otherwise have a special meaning, such as newline, backslash "
-"itself, or the quote character. See :ref:`escape sequences <escape-"
-"sequences>` below for examples."
+"The quote used to start the literal also terminates it, so a string literal "
+"can only contain the other quote (except with escape sequences, see below). "
+"For example:"
 msgstr ""
 
 msgid ""
-"Bytes literals are always prefixed with ``'b'`` or ``'B'``; they produce an "
-"instance of the :class:`bytes` type instead of the :class:`str` type.  They "
-"may only contain ASCII characters; bytes with a numeric value of 128 or "
-"greater must be expressed with escapes."
+"'Say \"Hello\", please.'\n"
+"\"Don't do that!\""
 msgstr ""
 
 msgid ""
-"Both string and bytes literals may optionally be prefixed with a letter "
-"``'r'`` or ``'R'``; such constructs are called :dfn:`raw string literals` "
-"and :dfn:`raw bytes literals` respectively and treat backslashes as literal "
-"characters.  As a result, in raw string literals, ``'\\U'`` and ``'\\u'`` "
-"escapes are not treated specially."
+"Except for this limitation, the choice of quote character (``'`` or ``\"``) "
+"does not affect how the literal is parsed."
+msgstr ""
+
+msgid ""
+"Inside a string literal, the backslash (``\\``) character introduces an :dfn:"
+"`escape sequence`, which has special meaning depending on the character "
+"after the backslash. For example, ``\\\"`` denotes the double quote "
+"character, and does *not* end the string:"
+msgstr ""
+
+msgid ""
+">>> print(\"Say \\\"Hello\\\" to everyone!\")\n"
+"Say \"Hello\" to everyone!"
+msgstr ""
+
+msgid ""
+"See :ref:`escape sequences <escape-sequences>` below for a full list of such "
+"sequences, and more details."
+msgstr ""
+
+msgid "Triple-quoted strings"
+msgstr ""
+
+msgid ""
+"Strings can also be enclosed in matching groups of three single or double "
+"quotes. These are generally referred to as :dfn:`triple-quoted strings`::"
+msgstr ""
+
+msgid "\"\"\"This is a triple-quoted string.\"\"\""
+msgstr ""
+
+msgid ""
+"In triple-quoted literals, unescaped quotes are allowed (and are retained), "
+"except that three unescaped quotes in a row terminate the literal, if they "
+"are of the same kind (``'`` or ``\"``) used at the start::"
+msgstr ""
+
+msgid "\"\"\"This string has \"quotes\" inside.\"\"\""
+msgstr ""
+
+msgid "Unescaped newlines are also allowed and retained::"
+msgstr ""
+
+msgid ""
+"'''This triple-quoted string\n"
+"continues on the next line.'''"
+msgstr ""
+
+msgid "String prefixes"
+msgstr ""
+
+msgid ""
+"String literals can have an optional :dfn:`prefix` that influences how the "
+"content of the literal is parsed, for example:"
+msgstr ""
+
+msgid ""
+"b\"data\"\n"
+"f'{result=}'"
+msgstr ""
+
+msgid "The allowed prefixes are:"
+msgstr ""
+
+msgid "``b``: :ref:`Bytes literal <bytes-literal>`"
+msgstr ""
+
+msgid "``r``: :ref:`Raw string <raw-strings>`"
+msgstr ""
+
+msgid "``f``: :ref:`Formatted string literal <f-strings>` (\"f-string\")"
+msgstr ""
+
+msgid "``t``: :ref:`Template string literal <t-strings>` (\"t-string\")"
+msgstr ""
+
+msgid "``u``: No effect (allowed for backwards compatibility)"
+msgstr ""
+
+msgid "See the linked sections for details on each type."
+msgstr ""
+
+msgid ""
+"Prefixes are case-insensitive (for example, ``B`` works the same as ``b``). "
+"The ``r`` prefix can be combined with ``f``, ``t`` or ``b``, so ``fr``, "
+"``rf``, ``tr``, ``rt``, ``br`` and ``rb`` are also valid prefixes."
 msgstr ""
 
 msgid ""
@@ -594,18 +699,23 @@ msgid ""
 "`414` for more information."
 msgstr ""
 
-msgid ""
-"A string literal with ``'f'`` or ``'F'`` in its prefix is a :dfn:`formatted "
-"string literal`; see :ref:`f-strings`.  The ``'f'`` may be combined with "
-"``'r'``, but not with ``'b'`` or ``'u'``, therefore raw formatted strings "
-"are possible, but formatted bytes literals are not."
+msgid "Formal grammar"
 msgstr ""
 
 msgid ""
-"In triple-quoted literals, unescaped newlines and quotes are allowed (and "
-"are retained), except that three unescaped quotes in a row terminate the "
-"literal.  (A \"quote\" is the character used to open the literal, i.e. "
-"either ``'`` or ``\"``.)"
+"String literals, except :ref:`\"f-strings\" <f-strings>` and :ref:`\"t-"
+"strings\" <t-strings>`, are described by the following lexical definitions."
+msgstr ""
+
+msgid ""
+"These definitions use :ref:`negative lookaheads <lexical-lookaheads>` (``!"
+"``) to indicate that an ending quote ends the literal."
+msgstr ""
+
+msgid ""
+"Note that as in all lexical definitions, whitespace is significant. In "
+"particular, the prefix (if any) must be immediately followed by the starting "
+"quote."
 msgstr ""
 
 msgid "Escape sequences"
@@ -623,34 +733,28 @@ msgstr ""
 msgid "Meaning"
 msgstr ""
 
-msgid "Notes"
-msgstr ""
-
 msgid "``\\``\\ <newline>"
 msgstr ""
 
-msgid "Backslash and newline ignored"
-msgstr ""
-
-msgid "\\(1)"
+msgid ":ref:`string-escape-ignore`"
 msgstr ""
 
 msgid "``\\\\``"
 msgstr ""
 
-msgid "Backslash (``\\``)"
+msgid ":ref:`Backslash <string-escape-escaped-char>`"
 msgstr ""
 
 msgid "``\\'``"
 msgstr ""
 
-msgid "Single quote (``'``)"
+msgid ":ref:`Single quote <string-escape-escaped-char>`"
 msgstr ""
 
 msgid "``\\\"``"
 msgstr ""
 
-msgid "Double quote (``\"``)"
+msgid ":ref:`Double quote <string-escape-escaped-char>`"
 msgstr ""
 
 msgid "``\\a``"
@@ -698,52 +802,31 @@ msgstr ""
 msgid ":samp:`\\\\\\\\{ooo}`"
 msgstr ""
 
-msgid "Character with octal value *ooo*"
-msgstr ""
-
-msgid "(2,4)"
+msgid ":ref:`string-escape-oct`"
 msgstr ""
 
 msgid ":samp:`\\\\x{hh}`"
 msgstr ""
 
-msgid "Character with hex value *hh*"
-msgstr ""
-
-msgid "(3,4)"
-msgstr ""
-
-msgid "Escape sequences only recognized in string literals are:"
+msgid ":ref:`string-escape-hex`"
 msgstr ""
 
 msgid ":samp:`\\\\N\\\\{{name}\\\\}`"
 msgstr ""
 
-msgid "Character named *name* in the Unicode database"
-msgstr ""
-
-msgid "\\(5)"
+msgid ":ref:`string-escape-named`"
 msgstr ""
 
 msgid ":samp:`\\\\u{xxxx}`"
 msgstr ""
 
-msgid "Character with 16-bit hex value *xxxx*"
-msgstr ""
-
-msgid "\\(6)"
+msgid ":ref:`Hexadecimal Unicode character <string-escape-long-hex>`"
 msgstr ""
 
 msgid ":samp:`\\\\U{xxxxxxxx}`"
 msgstr ""
 
-msgid "Character with 32-bit hex value *xxxxxxxx*"
-msgstr ""
-
-msgid "\\(7)"
-msgstr ""
-
-msgid "Notes:"
+msgid "Ignored end of line"
 msgstr ""
 
 msgid "A backslash can be added at the end of a line to ignore the newline::"
@@ -761,47 +844,140 @@ msgid ""
 "concatenation>`."
 msgstr ""
 
-msgid "As in Standard C, up to three octal digits are accepted."
+msgid "Escaped characters"
 msgstr ""
 
 msgid ""
-"Octal escapes with value larger than ``0o377`` produce a :exc:"
+"To include a backslash in a non-:ref:`raw <raw-strings>` Python string "
+"literal, it must be doubled. The ``\\\\`` escape sequence denotes a single "
+"backslash character::"
+msgstr ""
+
+msgid ""
+">>> print('C:\\\\Program Files')\n"
+"C:\\Program Files"
+msgstr ""
+
+msgid ""
+"Similarly, the ``\\'`` and ``\\\"`` sequences denote the single and double "
+"quote character, respectively::"
+msgstr ""
+
+msgid ""
+">>> print('\\' and \\\"')\n"
+"' and \""
+msgstr ""
+
+msgid "Octal character"
+msgstr ""
+
+msgid ""
+"The sequence :samp:`\\\\\\\\{ooo}` denotes a *character* with the octal "
+"(base 8) value *ooo*::"
+msgstr ""
+
+msgid ""
+">>> '\\120'\n"
+"'P'"
+msgstr ""
+
+msgid "Up to three octal digits (0 through 7) are accepted."
+msgstr ""
+
+msgid ""
+"In a bytes literal, *character* means a *byte* with the given value. In a "
+"string literal, it means a Unicode character with the given value."
+msgstr ""
+
+msgid ""
+"Octal escapes with value larger than ``0o377`` (255) produce a :exc:"
 "`DeprecationWarning`."
 msgstr ""
 
 msgid ""
-"Octal escapes with value larger than ``0o377`` produce a :exc:"
-"`SyntaxWarning`. In a future Python version they will be eventually a :exc:"
+"Octal escapes with value larger than ``0o377`` (255) produce a :exc:"
+"`SyntaxWarning`. In a future Python version they will raise a :exc:"
 "`SyntaxError`."
+msgstr ""
+
+msgid "Hexadecimal character"
+msgstr ""
+
+msgid ""
+"The sequence :samp:`\\\\x{hh}` denotes a *character* with the hex (base 16) "
+"value *hh*::"
+msgstr ""
+
+msgid ""
+">>> '\\x50'\n"
+"'P'"
 msgstr ""
 
 msgid "Unlike in Standard C, exactly two hex digits are required."
 msgstr ""
 
-msgid ""
-"In a bytes literal, hexadecimal and octal escapes denote the byte with the "
-"given value. In a string literal, these escapes denote a Unicode character "
-"with the given value."
-msgstr ""
-
-msgid "Support for name aliases [#]_ has been added."
-msgstr ""
-
-msgid "Exactly four hex digits are required."
+msgid "Named Unicode character"
 msgstr ""
 
 msgid ""
-"Any Unicode character can be encoded this way.  Exactly eight hex digits are "
-"required."
+"The sequence :samp:`\\\\N\\\\{{name}\\\\}` denotes a Unicode character with "
+"the given *name*::"
 msgstr ""
 
 msgid ""
-"Unlike Standard C, all unrecognized escape sequences are left in the string "
-"unchanged, i.e., *the backslash is left in the result*.  (This behavior is "
-"useful when debugging: if an escape sequence is mistyped, the resulting "
-"output is more easily recognized as broken.)  It is also important to note "
-"that the escape sequences only recognized in string literals fall into the "
-"category of unrecognized escapes for bytes literals."
+">>> '\\N{LATIN CAPITAL LETTER P}'\n"
+"'P'\n"
+">>> '\\N{SNAKE}'\n"
+"'🐍'"
+msgstr ""
+
+msgid "This sequence cannot appear in :ref:`bytes literals <bytes-literal>`."
+msgstr ""
+
+msgid ""
+"Support for `name aliases <https://www.unicode.org/Public/16.0.0/ucd/"
+"NameAliases.txt>`__ has been added."
+msgstr ""
+
+msgid "Hexadecimal Unicode characters"
+msgstr ""
+
+msgid ""
+"These sequences :samp:`\\\\u{xxxx}` and :samp:`\\\\U{xxxxxxxx}` denote the "
+"Unicode character with the given hex (base 16) value. Exactly four digits "
+"are required for ``\\u``; exactly eight digits are required for ``\\U``. The "
+"latter can encode any Unicode character."
+msgstr ""
+
+msgid ""
+">>> '\\u1234'\n"
+"'ሴ'\n"
+">>> '\\U0001f40d'\n"
+"'🐍'"
+msgstr ""
+
+msgid "These sequences cannot appear in :ref:`bytes literals <bytes-literal>`."
+msgstr ""
+
+msgid "Unrecognized escape sequences"
+msgstr ""
+
+msgid ""
+"Unlike in Standard C, all unrecognized escape sequences are left in the "
+"string unchanged, that is, *the backslash is left in the result*::"
+msgstr ""
+
+msgid ""
+">>> print('\\q')\n"
+"\\q\n"
+">>> list('\\q')\n"
+"['\\\\', 'q']"
+msgstr ""
+
+msgid ""
+"Note that for bytes literals, the escape sequences only recognized in string "
+"literals (``\\N...``, ``\\u...``, ``\\U...``) fall into the category of "
+"unrecognized escapes."
 msgstr ""
 
 msgid "Unrecognized escape sequences produce a :exc:`DeprecationWarning`."
@@ -809,7 +985,46 @@ msgstr ""
 
 msgid ""
 "Unrecognized escape sequences produce a :exc:`SyntaxWarning`. In a future "
-"Python version they will be eventually a :exc:`SyntaxError`."
+"Python version they will raise a :exc:`SyntaxError`."
+msgstr ""
+
+msgid "Bytes literals"
+msgstr ""
+
+msgid ""
+":dfn:`Bytes literals` are always prefixed with ``'b'`` or ``'B'``; they "
+"produce an instance of the :class:`bytes` type instead of the :class:`str` "
+"type. They may only contain ASCII characters; bytes with a numeric value of "
+"128 or greater must be expressed with escape sequences (typically :ref:"
+"`string-escape-hex` or :ref:`string-escape-oct`):"
+msgstr ""
+
+msgid ""
+">>> b'\\x89PNG\\r\\n\\x1a\\n'\n"
+"b'\\x89PNG\\r\\n\\x1a\\n'\n"
+">>> list(b'\\x89PNG\\r\\n\\x1a\\n')\n"
+"[137, 80, 78, 71, 13, 10, 26, 10]"
+msgstr ""
+
+msgid ""
+"Similarly, a zero byte must be expressed using an escape sequence (typically "
+"``\\0`` or ``\\x00``)."
+msgstr ""
+
+msgid "Raw string literals"
+msgstr ""
+
+msgid ""
+"Both string and bytes literals may optionally be prefixed with a letter "
+"``'r'`` or ``'R'``; such constructs are called :dfn:`raw string literals` "
+"and :dfn:`raw bytes literals` respectively and treat backslashes as literal "
+"characters. As a result, in raw string literals, :ref:`escape sequences "
+"<escape-sequences>` are not treated specially:"
+msgstr ""
+
+msgid ""
+">>> r'\\d{4}-\\d{2}-\\d{2}'\n"
+"'\\\\d{4}-\\\\d{2}-\\\\d{2}'"
 msgstr ""
 
 msgid ""
@@ -824,42 +1039,15 @@ msgid ""
 "continuation."
 msgstr ""
 
-msgid "String literal concatenation"
-msgstr ""
-
-msgid ""
-"Multiple adjacent string or bytes literals (delimited by whitespace), "
-"possibly using different quoting conventions, are allowed, and their meaning "
-"is the same as their concatenation.  Thus, ``\"hello\" 'world'`` is "
-"equivalent to ``\"helloworld\"``.  This feature can be used to reduce the "
-"number of backslashes needed, to split long strings conveniently across long "
-"lines, or even to add comments to parts of strings, for example::"
-msgstr ""
-
-msgid ""
-"re.compile(\"[A-Za-z_]\"       # letter or underscore\n"
-"           \"[A-Za-z0-9_]*\"   # letter, digit or underscore\n"
-"          )"
-msgstr ""
-
-msgid ""
-"Note that this feature is defined at the syntactical level, but implemented "
-"at compile time.  The '+' operator must be used to concatenate string "
-"expressions at run time.  Also note that literal concatenation can use "
-"different quoting styles for each component (even mixing raw strings and "
-"triple quoted strings), and formatted string literals may be concatenated "
-"with plain string literals."
-msgstr ""
-
 msgid "f-strings"
 msgstr ""
 
 msgid ""
 "A :dfn:`formatted string literal` or :dfn:`f-string` is a string literal "
-"that is prefixed with ``'f'`` or ``'F'``.  These strings may contain "
-"replacement fields, which are expressions delimited by curly braces ``{}``. "
-"While other string literals always have a constant value, formatted strings "
-"are really expressions evaluated at run time."
+"that is prefixed with ``f`` or ``F``.  These strings may contain replacement "
+"fields, which are expressions delimited by curly braces ``{}``. While other "
+"string literals always have a constant value, formatted strings are really "
+"expressions evaluated at run time."
 msgstr ""
 
 msgid ""
@@ -1035,6 +1223,53 @@ msgstr ""
 msgid ""
 "See also :pep:`498` for the proposal that added formatted string literals, "
 "and :meth:`str.format`, which uses a related format string mechanism."
+msgstr ""
+
+msgid "t-strings"
+msgstr ""
+
+msgid ""
+"A :dfn:`template string literal` or :dfn:`t-string` is a string literal that "
+"is prefixed with ``t`` or ``T``.  These strings follow the same syntax and "
+"evaluation rules as :ref:`formatted string literals <f-strings>`, with the "
+"following differences:"
+msgstr ""
+
+msgid ""
+"Rather than evaluating to a ``str`` object, t-strings evaluate to a :class:"
+"`~string.templatelib.Template` object from the :mod:`string.templatelib` "
+"module."
+msgstr ""
+
+msgid ""
+"The :func:`format` protocol is not used. Instead, the format specifier and "
+"conversions (if any) are passed to a new :class:`~string.templatelib."
+"Interpolation` object that is created for each evaluated expression. It is "
+"up to code that processes the resulting :class:`~string.templatelib."
+"Template` object to decide how to handle format specifiers and conversions."
+msgstr ""
+
+msgid ""
+"Format specifiers containing nested replacement fields are evaluated "
+"eagerly, prior to being passed to the :class:`~string.templatelib."
+"Interpolation` object. For instance, an interpolation of the form ``{amount:."
+"{precision}f}`` will evaluate the expression ``{precision}`` before setting "
+"the ``format_spec`` attribute of the resulting :class:`!Interpolation` "
+"object; if ``precision`` is (for example) ``2``, the resulting format "
+"specifier will be ``'.2f'``."
+msgstr ""
+
+msgid ""
+"When the equal sign ``'='`` is provided in an interpolation expression, the "
+"resulting :class:`~string.templatelib.Template` object will have the "
+"expression text along with a ``'='`` character placed in its :attr:`~string."
+"templatelib.Template.strings` attribute. The :attr:`~string.templatelib."
+"Template.interpolations` attribute will also contain an ``Interpolation`` "
+"instance for the expression. By default, the :attr:`~string.templatelib."
+"Interpolation.conversion` attribute will be set to ``'r'`` (that is, :func:"
+"`repr`), unless there is a conversion explicitly specified (in which case it "
+"overrides the default) or a format specifier is provided (in which case, the "
+"``conversion`` defaults to ``None``)."
 msgstr ""
 
 msgid "Numeric literals"
@@ -1290,16 +1525,28 @@ msgstr ""
 
 msgid ""
 "(       )       [       ]       {       }\n"
-",       :       !       .       ;       @       =\n"
-"->      +=      -=      *=      /=      //=     %=\n"
-"@=      &=      |=      ^=      >>=     <<=     **="
+",       :       !       .       ;       @       ="
+msgstr ""
+
+msgid "The period can also occur in floating-point and imaginary literals."
 msgstr ""
 
 msgid ""
-"The period can also occur in floating-point and imaginary literals.  A "
-"sequence of three periods has a special meaning as an ellipsis literal. The "
-"second half of the list, the augmented assignment operators, serve lexically "
-"as delimiters, but also perform an operation."
+"A sequence of three periods has a special meaning as an :py:data:`Ellipsis` "
+"literal:"
+msgstr ""
+
+msgid "..."
+msgstr ""
+
+msgid ""
+"The following *augmented assignment operators* serve lexically as "
+"delimiters, but also perform an operation:"
+msgstr ""
+
+msgid ""
+"->      +=      -=      *=      /=      //=     %=\n"
+"@=      &=      |=      ^=      >>=     <<=     **="
 msgstr ""
 
 msgid ""
@@ -1316,12 +1563,6 @@ msgid ""
 msgstr ""
 
 msgid "$       ?       `"
-msgstr ""
-
-msgid "Footnotes"
-msgstr "Fußnoten"
-
-msgid "https://www.unicode.org/Public/16.0.0/ucd/NameAliases.txt"
 msgstr ""
 
 msgid "lexical analysis"
@@ -1441,19 +1682,7 @@ msgstr ""
 msgid "\" (double quote)"
 msgstr ""
 
-msgid "u'"
-msgstr ""
-
-msgid "u\""
-msgstr ""
-
 msgid "triple-quoted string"
-msgstr ""
-
-msgid "Unicode Consortium"
-msgstr ""
-
-msgid "raw string"
 msgstr ""
 
 msgid "\"\"\""
@@ -1462,28 +1691,10 @@ msgstr ""
 msgid "'''"
 msgstr ""
 
-msgid "b'"
+msgid "u'"
 msgstr ""
 
-msgid "b\""
-msgstr ""
-
-msgid "r'"
-msgstr ""
-
-msgid "raw string literal"
-msgstr ""
-
-msgid "r\""
-msgstr ""
-
-msgid "f'"
-msgstr ""
-
-msgid "formatted string literal"
-msgstr ""
-
-msgid "f\""
+msgid "u\""
 msgstr ""
 
 msgid "escape sequence"
@@ -1534,6 +1745,24 @@ msgstr ""
 msgid "unrecognized escape sequence"
 msgstr ""
 
+msgid "b'"
+msgstr ""
+
+msgid "b\""
+msgstr ""
+
+msgid "r'"
+msgstr ""
+
+msgid "raw string literal"
+msgstr ""
+
+msgid "r\""
+msgstr ""
+
+msgid "formatted string literal"
+msgstr ""
+
 msgid "interpolated string literal"
 msgstr ""
 
@@ -1550,6 +1779,12 @@ msgid "f-string"
 msgstr ""
 
 msgid "fstring"
+msgstr ""
+
+msgid "f'"
+msgstr ""
+
+msgid "f\""
 msgstr ""
 
 msgid "{} (curly brackets)"

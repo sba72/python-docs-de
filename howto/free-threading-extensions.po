@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-20 14:21+0000\n"
+"POT-Creation-Date: 2025-07-25 14:21+0000\n"
 "PO-Revision-Date: 2025-07-18 18:48+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -203,6 +203,9 @@ msgid ":c:func:`PyList_GetItem`"
 msgstr ""
 
 msgid ":c:func:`PyList_GetItemRef`"
+msgstr ""
+
+msgid ":c:func:`PyList_GET_ITEM`"
 msgstr ""
 
 msgid ":c:func:`PyDict_GetItem`"
