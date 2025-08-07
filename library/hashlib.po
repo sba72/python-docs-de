@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-09 14:19+0000\n"
-"PO-Revision-Date: 2025-07-18 18:49+0000\n"
+"PO-Revision-Date: 2025-08-02 17:34+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -103,7 +107,7 @@ msgid ""
 msgstr ""
 
 msgid "Usage"
-msgstr ""
+msgstr "Użytek"
 
 msgid ""
 "To obtain the digest of the byte string ``b\"Nobody inspects the spammish "
@@ -277,7 +281,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr ""
+msgstr "Przykład:"
 
 msgid ""
 "Now raises a :exc:`BlockingIOError` if the file is opened in blocking mode. "
@@ -444,7 +448,7 @@ msgid "32"
 msgstr ""
 
 msgid "8"
-msgstr ""
+msgstr "8"
 
 msgid ""
 "BLAKE2 specification defines constant lengths for salt and personalization "
@@ -503,7 +507,7 @@ msgid ""
 msgstr ""
 
 msgid "Constants"
-msgstr ""
+msgstr "Stały"
 
 msgid "Salt length (maximum length accepted by constructors)."
 msgstr ""
@@ -519,7 +523,7 @@ msgid "Maximum digest size that the hash function can output."
 msgstr ""
 
 msgid "Examples"
-msgstr ""
+msgstr "Przykłady"
 
 msgid "Simple hashing"
 msgstr ""
@@ -872,7 +876,7 @@ msgid ""
 msgstr ""
 
 msgid "OpenSSL"
-msgstr ""
+msgstr "OpenSSL"
 
 msgid "(use in module hashlib)"
 msgstr ""

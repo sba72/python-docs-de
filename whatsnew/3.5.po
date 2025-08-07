@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
+# python-doc bot, 2025
 #
 #, fuzzy
 msgid ""
@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-09 14:19+0000\n"
-"PO-Revision-Date: 2025-07-18 18:50+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"PO-Revision-Date: 2025-08-02 17:35+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -431,7 +431,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples::"
-msgstr ""
+msgstr "Przykłady::"
 
 msgid ""
 ">>> b'Hello %b!' % b'World'\n"
@@ -600,7 +600,7 @@ msgid "print(\"Hello World\")"
 msgstr ""
 
 msgid "and::"
-msgstr ""
+msgstr "dan::"
 
 msgid ""
 "while True:\n"
@@ -772,7 +772,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`485` -- A function for testing approximate equality"
-msgstr ""
+msgstr ":pep:`485` -- Функція для перевірки приблизної рівності"
 
 msgid ""
 "PEP written by Christopher Barker; implemented by Chris Barker and Tal Einat."
@@ -1078,7 +1078,7 @@ msgid ""
 msgstr ""
 
 msgid "code"
-msgstr ""
+msgstr "code"
 
 msgid ""
 "The :func:`InteractiveInterpreter.showtraceback() <code."
@@ -1213,7 +1213,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr ""
+msgstr "Przykład::"
 
 msgid ""
 ">>> import configparser\n"
@@ -2123,7 +2123,7 @@ msgid "ssl"
 msgstr ""
 
 msgid "Memory BIO Support"
-msgstr ""
+msgstr "Підтримка BIO пам'яті"
 
 msgid "(Contributed by Geert Jansen in :issue:`21965`.)"
 msgstr ""
@@ -2323,7 +2323,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr ""
+msgstr "time"
 
 msgid ""
 "The :func:`~time.monotonic` function is now always available. (Contributed "
@@ -2356,7 +2356,7 @@ msgid ""
 msgstr ""
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid ""
 "New :func:`~traceback.walk_stack` and :func:`~traceback.walk_tb` functions "
@@ -3117,6 +3117,8 @@ msgid ""
 "The :c:type:`PyMemAllocator` structure was renamed to :c:type:"
 "`PyMemAllocatorEx` and a new ``calloc`` field was added."
 msgstr ""
+"Структуру :c:type:`PyMemAllocator` було перейменовано на :c:type:"
+"`PyMemAllocatorEx` і додано нове поле ``calloc``."
 
 msgid ""
 "Removed non-documented macro :c:macro:`!PyObject_REPR()` which leaked "

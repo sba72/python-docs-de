@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-27 14:20+0000\n"
-"PO-Revision-Date: 2025-07-18 18:48+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -471,10 +475,10 @@ msgid ""
 msgstr ""
 
 msgid "Flag"
-msgstr ""
+msgstr "Penanda"
 
 msgid "Value"
-msgstr ""
+msgstr "Wartość"
 
 msgid "``-1``"
 msgstr ""
@@ -814,13 +818,13 @@ msgid "If *writer* is ``NULL``, no operation is performed."
 msgstr ""
 
 msgid "object"
-msgstr ""
+msgstr "obiekt"
 
 msgid "long integer"
 msgstr ""
 
 msgid "integer"
-msgstr ""
+msgstr "bilangan bulat"
 
 msgid "LONG_MAX (C macro)"
 msgstr ""
