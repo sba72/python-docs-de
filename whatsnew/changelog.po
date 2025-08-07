@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-31 14:20+0000\n"
+"POT-Creation-Date: 2025-08-07 20:38+0000\n"
 "PO-Revision-Date: 2025-08-02 17:35+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,29 @@ msgstr ""
 msgid "*Release date: XXXX-XX-XX*"
 msgstr ""
 
+msgid "macOS"
+msgstr ""
+
+msgid ""
+":gh:`137134`: Update macOS installer to ship with SQLite version 3.50.4."
+msgstr ""
+
+msgid "Windows"
+msgstr ""
+
+msgid ":gh:`137134`: Update Windows installer to ship with SQLite 3.50.4."
+msgstr ""
+
 msgid "Library"
+msgstr ""
+
+msgid ""
+":gh:`137257`: Bump the version of pip bundled in ensurepip to version 25.2"
+msgstr ""
+
+msgid ""
+":gh:`130522`: Fix unraisable :exc:`TypeError` raised during :term:"
+"`interpreter shutdown` in the :mod:`threading` module."
 msgstr ""
 
 msgid ""
@@ -42,6 +64,14 @@ msgid ""
 msgstr ""
 
 msgid "Core and Builtins"
+msgstr ""
+
+msgid ""
+":gh:`137314`: Fixed a regression where raw f-strings incorrectly interpreted "
+"escape sequences in format specifications. Raw f-strings now properly "
+"preserve literal backslashes in format specs, matching the behavior from "
+"Python 3.11. For example, ``rf\"{obj:\\xFF}\"`` now correctly produces ``'\\"
+"\\xFF'`` instead of ``'ÿ'``. Patch by Pablo Galindo."
 msgstr ""
 
 msgid ""
@@ -528,9 +558,6 @@ msgid "Python 3.14.0 beta 3"
 msgstr ""
 
 msgid "*Release date: 2025-06-17*"
-msgstr ""
-
-msgid "Windows"
 msgstr ""
 
 msgid ""
@@ -2418,9 +2445,6 @@ msgid "Python 3.14.0 alpha 7"
 msgstr ""
 
 msgid "*Release date: 2025-04-08*"
-msgstr ""
-
-msgid "macOS"
 msgstr ""
 
 msgid ":gh:`124111`: Update macOS installer to use Tcl/Tk 8.6.16."
