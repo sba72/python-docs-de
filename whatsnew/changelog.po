@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-05 14:23+0000\n"
+"POT-Creation-Date: 2025-08-07 14:23+0000\n"
 "PO-Revision-Date: 2025-07-18 18:50+0000\n"
 "Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
@@ -28,6 +28,19 @@ msgid "Python next"
 msgstr ""
 
 msgid "*Release date: XXXX-XX-XX*"
+msgstr ""
+
+msgid "macOS"
+msgstr ""
+
+msgid ""
+":gh:`137134`: Update macOS installer to ship with SQLite version 3.50.4."
+msgstr ""
+
+msgid "Windows"
+msgstr ""
+
+msgid ":gh:`137134`: Update Windows installer to ship with SQLite 3.50.4."
 msgstr ""
 
 msgid "Library"
@@ -549,9 +562,6 @@ msgid "Python 3.14.0 beta 3"
 msgstr ""
 
 msgid "*Release date: 2025-06-17*"
-msgstr ""
-
-msgid "Windows"
 msgstr ""
 
 msgid ""
@@ -2439,9 +2449,6 @@ msgid "Python 3.14.0 alpha 7"
 msgstr ""
 
 msgid "*Release date: 2025-04-08*"
-msgstr ""
-
-msgid "macOS"
 msgstr ""
 
 msgid ":gh:`124111`: Update macOS installer to use Tcl/Tk 8.6.16."
