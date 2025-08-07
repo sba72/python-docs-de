@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-09 14:19+0000\n"
-"PO-Revision-Date: 2025-07-18 18:49+0000\n"
+"PO-Revision-Date: 2025-08-02 17:34+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,10 +53,10 @@ msgid "The module defines the following:"
 msgstr ""
 
 msgid "A deprecated alias of :exc:`OSError`."
-msgstr ""
+msgstr "Застарілий псевдонім :exc:`OSError`."
 
 msgid "Following :pep:`3151`, this class was made an alias of :exc:`OSError`."
-msgstr ""
+msgstr "Після :pep:`3151` цей клас отримав псевдонім :exc:`OSError`."
 
 msgid ""
 "(Only supported on Solaris and derivatives.)  Returns a ``/dev/poll`` "
@@ -279,22 +283,22 @@ msgid "*eventmask*"
 msgstr ""
 
 msgid "Constant"
-msgstr ""
+msgstr "Stała"
 
 msgid "Meaning"
-msgstr ""
+msgstr "Znaczenie"
 
 msgid ":const:`EPOLLIN`"
 msgstr ""
 
 msgid "Available for read"
-msgstr ""
+msgstr "Доступний для читання"
 
 msgid ":const:`EPOLLOUT`"
 msgstr ""
 
 msgid "Available for write"
-msgstr ""
+msgstr "Доступний для запису"
 
 msgid ":const:`EPOLLPRI`"
 msgstr ""

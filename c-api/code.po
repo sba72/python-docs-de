@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-11 14:21+0000\n"
-"PO-Revision-Date: 2025-07-18 18:48+0000\n"
+"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Code Objects"
-msgstr ""
+msgstr "Objek Kode"
 
 msgid ""
 "Code objects are a low-level detail of the CPython implementation. Each one "
@@ -238,10 +242,10 @@ msgid ""
 msgstr ""
 
 msgid "Flag"
-msgstr ""
+msgstr "Penanda"
 
 msgid "Meaning"
-msgstr ""
+msgstr "Znaczenie"
 
 msgid ":py:data:`inspect.CO_OPTIMIZED`"
 msgstr ""
@@ -367,10 +371,10 @@ msgid ""
 msgstr ""
 
 msgid "object"
-msgstr ""
+msgstr "obiekt"
 
 msgid "code"
-msgstr ""
+msgstr "code"
 
 msgid "code object"
 msgstr ""
