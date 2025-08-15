@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-13 14:19+0000\n"
+"POT-Creation-Date: 2025-08-15 14:18+0000\n"
 "PO-Revision-Date: 2025-08-02 17:35+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -20,10 +20,10 @@ msgstr ""
 msgid "Changelog"
 msgstr ""
 
-msgid "Python next"
+msgid "Python 3.14.0 release candidate 2"
 msgstr ""
 
-msgid "*Release date: XXXX-XX-XX*"
+msgid "*Release date: 2025-08-14*"
 msgstr ""
 
 msgid "macOS"
@@ -143,6 +143,20 @@ msgstr ""
 msgid ""
 ":gh:`136870`: Fix data races while de-instrumenting bytecode of code objects "
 "running concurrently in threads."
+msgstr ""
+
+msgid "C API"
+msgstr ""
+
+msgid ""
+":gh:`137573`: Mark ``_PyOptimizer_Optimize`` as :c:macro:`Py_NO_INLINE` to "
+"prevent stack overflow crashes on macOS."
+msgstr ""
+
+msgid "Build"
+msgstr ""
+
+msgid ":gh:`132339`: Add support for OpenSSL 3.5."
 msgstr ""
 
 msgid "Python 3.14.0 release candidate 1"
@@ -300,9 +314,6 @@ msgid ""
 "search."
 msgstr ""
 
-msgid "C API"
-msgstr ""
-
 msgid ""
 ":gh:`112068`: Revert support of nullable arguments in :c:func:`PyArg_Parse`."
 msgstr ""
@@ -315,9 +326,6 @@ msgstr ""
 
 msgid ""
 ":gh:`134009`: Expose :c:func:`PyMutex_IsLocked` as part of the public C API."
-msgstr ""
-
-msgid "Build"
 msgstr ""
 
 msgid ""
