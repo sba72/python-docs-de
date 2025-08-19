@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-17 14:16+0000\n"
+"POT-Creation-Date: 2025-08-19 14:18+0000\n"
 "PO-Revision-Date: 2025-08-02 17:35+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -24,6 +24,14 @@ msgid "Python next"
 msgstr ""
 
 msgid "*Release date: XXXX-XX-XX*"
+msgstr ""
+
+msgid "Library"
+msgstr ""
+
+msgid ""
+":gh:`134869`: Fix an issue where pressing Ctrl+C during tab completion in "
+"the REPL would leave the autocompletion menu in a corrupted state."
 msgstr ""
 
 msgid "Core and Builtins"
@@ -57,9 +65,6 @@ msgid "Windows"
 msgstr ""
 
 msgid ":gh:`137134`: Update Windows installer to ship with SQLite 3.50.4."
-msgstr ""
-
-msgid "Library"
 msgstr ""
 
 msgid ""
