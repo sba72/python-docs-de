@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-23 14:15+0000\n"
+"POT-Creation-Date: 2025-08-25 14:20+0000\n"
 "PO-Revision-Date: 2025-08-02 17:35+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -24,6 +24,15 @@ msgid "Python next"
 msgstr ""
 
 msgid "*Release date: XXXX-XX-XX*"
+msgstr ""
+
+msgid "Tools/Demos"
+msgstr ""
+
+msgid ""
+":gh:`137873`: The iOS test runner has been simplified, resolving some issues "
+"that have been observed using the runner in GitHub Actions and Azure "
+"Pipelines test environments."
 msgstr ""
 
 msgid "Library"
@@ -189,9 +198,6 @@ msgid "Python 3.14.0 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2025-07-22*"
-msgstr ""
-
-msgid "Tools/Demos"
 msgstr ""
 
 msgid ""
