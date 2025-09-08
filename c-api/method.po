@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 14:18+0000\n"
-"PO-Revision-Date: 2025-08-02 17:33+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 18:59+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,7 +52,7 @@ msgid ""
 msgstr ""
 
 msgid "Method Objects"
-msgstr "Obiekty metod"
+msgstr ""
 
 msgid ""
 "Methods are bound function objects. Methods are always bound to an instance "
@@ -94,13 +90,13 @@ msgid "Macro version of :c:func:`PyMethod_Self` which avoids error checking."
 msgstr ""
 
 msgid "object"
-msgstr "obiekt"
+msgstr ""
 
 msgid "instancemethod"
 msgstr ""
 
 msgid "method"
-msgstr "metoda"
+msgstr ""
 
 msgid "MethodType (in module types)"
 msgstr ""

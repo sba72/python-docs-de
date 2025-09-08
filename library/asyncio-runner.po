@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 14:18+0000\n"
-"PO-Revision-Date: 2025-08-02 17:33+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,7 +33,7 @@ msgid ""
 msgstr ""
 
 msgid "Running an asyncio Program"
-msgstr "Запуск программы asyncio"
+msgstr ""
 
 msgid "Execute *coro* in an asyncio event loop and return the result."
 msgstr ""
@@ -54,8 +50,6 @@ msgid ""
 "This function cannot be called when another asyncio event loop is running in "
 "the same thread."
 msgstr ""
-"Эту функцию нельзя вызвать, когда в том же потоке выполняется другой цикл "
-"событий asyncio."
 
 msgid ""
 "If *debug* is ``True``, the event loop will be run in debug mode. ``False`` "
@@ -79,7 +73,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 "async def main():\n"
@@ -90,7 +84,7 @@ msgid ""
 msgstr ""
 
 msgid "Updated to use :meth:`loop.shutdown_default_executor`."
-msgstr "Обновлено для использования :meth:`loop.shutdown_default_executor` ."
+msgstr ""
 
 msgid ""
 "*debug* is ``None`` by default to respect the global debug mode settings."

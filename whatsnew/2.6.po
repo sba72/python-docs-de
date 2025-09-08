@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-07 14:14+0000\n"
-"PO-Revision-Date: 2025-08-02 17:35+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgid "What's New in Python 2.6"
 msgstr ""
 
 msgid "Author"
-msgstr "Autor"
+msgstr ""
 
 msgid "A.M. Kuchling (amk at amk.ca)"
 msgstr ""
@@ -575,7 +575,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`343` - The \"with\" statement"
-msgstr ":pep:`343` - оператор \"з\"."
+msgstr ""
 
 msgid ""
 "PEP written by Guido van Rossum and Nick Coghlan; implemented by Mike Bland, "
@@ -925,7 +925,7 @@ msgid "The alignment of a field within the desired width can be specified:"
 msgstr ""
 
 msgid "Character"
-msgstr "Znak"
+msgstr ""
 
 msgid "Effect"
 msgstr ""
@@ -973,13 +973,13 @@ msgid ""
 msgstr ""
 
 msgid "``b``"
-msgstr "``b``"
+msgstr ""
 
 msgid "Binary. Outputs the number in base 2."
 msgstr ""
 
 msgid "``c``"
-msgstr "``c``"
+msgstr ""
 
 msgid ""
 "Character. Converts the integer to the corresponding Unicode character "
@@ -987,7 +987,7 @@ msgid ""
 msgstr ""
 
 msgid "``d``"
-msgstr "``d``"
+msgstr ""
 
 msgid "Decimal Integer. Outputs the number in base 10."
 msgstr ""
@@ -999,7 +999,7 @@ msgid "Octal format. Outputs the number in base 8."
 msgstr ""
 
 msgid "``x``"
-msgstr "``x``"
+msgstr ""
 
 msgid ""
 "Hex format. Outputs the number in base 16, using lower-case letters for the "
@@ -1007,7 +1007,7 @@ msgid ""
 msgstr ""
 
 msgid "``e``"
-msgstr "``e``"
+msgstr ""
 
 msgid ""
 "Exponent notation. Prints the number in scientific notation using the letter "
@@ -1023,7 +1023,7 @@ msgid ""
 msgstr ""
 
 msgid "``n``"
-msgstr "``n``"
+msgstr ""
 
 msgid ""
 "Number. This is the same as 'g' (for floats) or 'd' (for integers), except "
@@ -1063,7 +1063,7 @@ msgid ""
 msgstr ""
 
 msgid ":ref:`formatstrings`"
-msgstr ":ref:`formatstrings`"
+msgstr ""
 
 msgid "The reference documentation for format fields."
 msgstr ""
@@ -1605,7 +1605,7 @@ msgid "Subclasses must then define a :meth:`readonly` property."
 msgstr ""
 
 msgid ":pep:`3119` - Introducing Abstract Base Classes"
-msgstr ":pep:`3119` - Представляємо абстрактні базові класи"
+msgstr ""
 
 msgid ""
 "PEP written by Guido van Rossum and Talin. Implemented by Guido van Rossum. "
@@ -1688,7 +1688,7 @@ msgid ""
 msgstr ""
 
 msgid "This is equivalent to::"
-msgstr "Ini setara dengan::"
+msgstr ""
 
 msgid ""
 "class A:\n"
@@ -1698,7 +1698,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`3129` - Class Decorators"
-msgstr ":pep:`3129` - Декоратори класу"
+msgstr ""
 
 msgid "PEP written by Collin Winter."
 msgstr ""
@@ -4021,7 +4021,7 @@ msgid ""
 msgstr ""
 
 msgid "Acknowledgements"
-msgstr "Ucapan Terima Kasih"
+msgstr ""
 
 msgid ""
 "The author would like to thank the following people for offering "
@@ -4031,7 +4031,7 @@ msgid ""
 msgstr ""
 
 msgid "universal newlines"
-msgstr "uniwersalne nowe linie"
+msgstr ""
 
 msgid "What's new"
 msgstr ""

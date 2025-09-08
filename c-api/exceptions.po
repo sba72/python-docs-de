@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 14:18+0000\n"
-"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 18:59+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -577,7 +577,7 @@ msgid ""
 msgstr ""
 
 msgid "Signal Handling"
-msgstr "Penanganan Sinyal *Signal*"
+msgstr ""
 
 msgid "This function interacts with Python's signal handling."
 msgstr ""
@@ -830,7 +830,7 @@ msgid ""
 msgstr ""
 
 msgid "Recursion Control"
-msgstr "Kontrola Rekursji"
+msgstr ""
 
 msgid ""
 "These two functions provide a way to perform safe recursive calls at the C "
@@ -1118,13 +1118,13 @@ msgid "These aliases used to be separate exception types."
 msgstr ""
 
 msgid "Notes"
-msgstr "Notatki"
+msgstr ""
 
 msgid "[win]_"
 msgstr ""
 
 msgid "Notes:"
-msgstr "Uwagi:"
+msgstr ""
 
 msgid ""
 ":c:var:`!PyExc_WindowsError` is only defined on Windows; protect code that "
@@ -1135,40 +1135,40 @@ msgid "Warning types"
 msgstr ""
 
 msgid ":exc:`Warning`"
-msgstr ":exc:`Warning`"
+msgstr ""
 
 msgid ":exc:`BytesWarning`"
-msgstr ":exc:`BytesWarning`"
+msgstr ""
 
 msgid ":exc:`DeprecationWarning`"
-msgstr ":exc:`DeprecationWarning`"
+msgstr ""
 
 msgid ":exc:`EncodingWarning`"
 msgstr ""
 
 msgid ":exc:`FutureWarning`"
-msgstr ":exc:`FutureWarning`"
+msgstr ""
 
 msgid ":exc:`ImportWarning`"
-msgstr ":exc:`ImportWarning`"
+msgstr ""
 
 msgid ":exc:`PendingDeprecationWarning`"
-msgstr ":exc:`PendingDeprecationWarning`"
+msgstr ""
 
 msgid ":exc:`ResourceWarning`"
-msgstr ":exc:`ResourceWarning`"
+msgstr ""
 
 msgid ":exc:`RuntimeWarning`"
-msgstr ":exc:`RuntimeWarning`"
+msgstr ""
 
 msgid ":exc:`SyntaxWarning`"
-msgstr ":exc:`SyntaxWarning`"
+msgstr ""
 
 msgid ":exc:`UnicodeWarning`"
-msgstr ":exc:`UnicodeWarning`"
+msgstr ""
 
 msgid ":exc:`UserWarning`"
-msgstr ":exc:`UserWarning`"
+msgstr ""
 
 msgid ":c:data:`PyExc_ResourceWarning`."
 msgstr ""
@@ -1180,7 +1180,7 @@ msgid "strerror (C function)"
 msgstr ""
 
 msgid "module"
-msgstr "moduł"
+msgstr ""
 
 msgid "signal"
 msgstr ""
