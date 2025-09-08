@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-05 14:17+0000\n"
-"PO-Revision-Date: 2025-08-02 17:35+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -431,7 +431,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples::"
-msgstr "Przykłady::"
+msgstr ""
 
 msgid ""
 ">>> b'Hello %b!' % b'World'\n"
@@ -600,7 +600,7 @@ msgid "print(\"Hello World\")"
 msgstr ""
 
 msgid "and::"
-msgstr "dan::"
+msgstr ""
 
 msgid ""
 "while True:\n"
@@ -772,7 +772,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`485` -- A function for testing approximate equality"
-msgstr ":pep:`485` -- Функція для перевірки приблизної рівності"
+msgstr ""
 
 msgid ""
 "PEP written by Christopher Barker; implemented by Chris Barker and Tal Einat."
@@ -1078,7 +1078,7 @@ msgid ""
 msgstr ""
 
 msgid "code"
-msgstr "code"
+msgstr ""
 
 msgid ""
 "The :func:`InteractiveInterpreter.showtraceback() <code."
@@ -1212,7 +1212,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 ">>> import configparser\n"
@@ -2124,7 +2124,7 @@ msgid "ssl"
 msgstr ""
 
 msgid "Memory BIO Support"
-msgstr "Підтримка BIO пам'яті"
+msgstr ""
 
 msgid "(Contributed by Geert Jansen in :issue:`21965`.)"
 msgstr ""
@@ -2322,7 +2322,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr "time"
+msgstr ""
 
 msgid ""
 "The :func:`~time.monotonic` function is now always available. (Contributed "
@@ -2355,7 +2355,7 @@ msgid ""
 msgstr ""
 
 msgid "traceback"
-msgstr "traceback"
+msgstr ""
 
 msgid ""
 "New :func:`~traceback.walk_stack` and :func:`~traceback.walk_tb` functions "

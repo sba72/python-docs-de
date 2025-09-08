@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-29 14:17+0000\n"
-"PO-Revision-Date: 2025-08-02 17:33+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,19 +43,19 @@ msgid "asyncio has the following basic synchronization primitives:"
 msgstr ""
 
 msgid ":class:`Lock`"
-msgstr ":class:`Lock`"
+msgstr ""
 
 msgid ":class:`Event`"
-msgstr ":class:`Event`"
+msgstr ""
 
 msgid ":class:`Condition`"
-msgstr ":class:`Condition`"
+msgstr ""
 
 msgid ":class:`Semaphore`"
-msgstr ":class:`Semaphore`"
+msgstr ""
 
 msgid ":class:`BoundedSemaphore`"
-msgstr ":class:`BoundedSemaphore`"
+msgstr ""
 
 msgid ":class:`Barrier`"
 msgstr ""
@@ -134,7 +130,7 @@ msgid "Return ``True`` if the lock is *locked*."
 msgstr ""
 
 msgid "Event"
-msgstr "Zdarzenie"
+msgstr ""
 
 msgid "An event object.  Not thread-safe."
 msgstr ""
@@ -152,7 +148,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 "async def waiter(event):\n"
@@ -282,7 +278,6 @@ msgstr ""
 
 msgid "When invoked on an unlocked lock, a :exc:`RuntimeError` is raised."
 msgstr ""
-"Під час виклику для розблокованого блокування виникає :exc:`RuntimeError`."
 
 msgid "Wait until notified."
 msgstr ""
@@ -357,7 +352,7 @@ msgid ""
 msgstr ""
 
 msgid "Acquire a semaphore."
-msgstr "Придбайте семафор."
+msgstr ""
 
 msgid ""
 "If the internal counter is greater than zero, decrement it by one and return "
@@ -501,15 +496,11 @@ msgstr ""
 
 msgid "A boolean that is ``True`` if the barrier is in the broken state."
 msgstr ""
-"Логічне значення, яке має значення ``True``, якщо бар’єр знаходиться в "
-"зламаному стані."
 
 msgid ""
 "This exception, a subclass of :exc:`RuntimeError`, is raised when the :class:"
 "`Barrier` object is reset or broken."
 msgstr ""
-"Цей виняток, підклас :exc:`RuntimeError`, виникає, коли об’єкт :class:"
-"`Barrier` скидається або зламано."
 
 msgid ""
 "Acquiring a lock using ``await lock`` or ``yield from lock`` and/or :keyword:"
