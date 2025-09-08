@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-29 14:17+0000\n"
-"PO-Revision-Date: 2025-08-02 17:33+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 18:59+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -138,16 +138,16 @@ msgid "Memory allocators:"
 msgstr ""
 
 msgid ":c:func:`PyMem_RawMalloc`"
-msgstr ":c:func:`PyMem_RawMalloc`"
+msgstr ""
 
 msgid ":c:func:`PyMem_RawRealloc`"
-msgstr ":c:func:`PyMem_RawRealloc`"
+msgstr ""
 
 msgid ":c:func:`PyMem_RawCalloc`"
-msgstr ":c:func:`PyMem_RawCalloc`"
+msgstr ""
 
 msgid ":c:func:`PyMem_RawFree`"
-msgstr ":c:func:`PyMem_RawFree`"
+msgstr ""
 
 msgid "Synchronization:"
 msgstr ""
@@ -332,7 +332,7 @@ msgid ""
 msgstr ""
 
 msgid "See :pep:`529` for more details."
-msgstr "Lihat :pep:`529` untuk lebih detail."
+msgstr ""
 
 msgid "Availability"
 msgstr ""
@@ -2401,7 +2401,7 @@ msgid ""
 msgstr ""
 
 msgid "Methods"
-msgstr "Metode-Metode"
+msgstr ""
 
 msgid ""
 "The parameter *key* of these functions must not be ``NULL``.  Moreover, the "
@@ -2674,7 +2674,7 @@ msgid "path (in module sys)"
 msgstr ""
 
 msgid "module"
-msgstr "moduł"
+msgstr ""
 
 msgid "builtins"
 msgstr ""
@@ -2722,7 +2722,7 @@ msgid "argv (in module sys)"
 msgstr ""
 
 msgid "global interpreter lock"
-msgstr "kunci interpreter global"
+msgstr ""
 
 msgid "interpreter lock"
 msgstr ""
