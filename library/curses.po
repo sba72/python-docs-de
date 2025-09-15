@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
@@ -1092,17 +1092,23 @@ msgstr ""
 
 msgid "If *flag* is ``True``, escape sequences will not be timed out."
 msgstr ""
+"Якщо *flag* має значення ``True``, escape-послідовності не будуть вичерпані."
 
 msgid ""
 "If *flag* is ``False``, after a few milliseconds, an escape sequence will "
 "not be interpreted, and will be left in the input stream as is."
 msgstr ""
+"Якщо *flag* має значення ``False``, через кілька мілісекунд escape-"
+"послідовність не буде інтерпретовано та залишиться у вхідному потоці як є."
 
 msgid ""
 "Mark for refresh but wait.  This function updates the data structure "
 "representing the desired state of the window, but does not force an update "
 "of the physical screen.  To accomplish that, call  :func:`doupdate`."
 msgstr ""
+"Позначте для оновлення, але зачекайте. Ця функція оновлює структуру даних, "
+"що представляє потрібний стан вікна, але не примусово оновлює фізичний "
+"екран. Для цього викличте :func:`doupdate`."
 
 msgid ""
 "Overlay the window on top of *destwin*. The windows need not be the same "
@@ -1110,6 +1116,9 @@ msgid ""
 "which means that the current background character does not overwrite the old "
 "contents of *destwin*."
 msgstr ""
+"Накладіть вікно поверх *destwin*. Вікна не обов’язково мають бути однакового "
+"розміру, копіюється лише область, що перекривається. Ця копія є неруйнівною, "
+"що означає, що поточний фоновий символ не перезаписує старий вміст *destwin*."
 
 msgid ""
 "To get fine-grained control over the copied region, the second form of :meth:"
@@ -1117,6 +1126,10 @@ msgid ""
 "coordinates of the source window, and the other variables mark a rectangle "
 "in the destination window."
 msgstr ""
+"Щоб отримати детальний контроль над скопійованою областю, можна "
+"використовувати другу форму :meth:`overlay`. *sminrow* і *smincol* — верхні "
+"ліві координати вікна джерела, а інші змінні позначають прямокутник у вікні "
+"призначення."
 
 msgid ""
 "Overwrite the window on top of *destwin*. The windows need not be the same "
@@ -1124,6 +1137,10 @@ msgid ""
 "destructive, which means that the current background character overwrites "
 "the old contents of *destwin*."
 msgstr ""
+"Перезаписати вікно поверх *destwin*. Вікна не обов’язково мають бути "
+"однакового розміру, у цьому випадку копіюється лише область, що "
+"перекривається. Ця копія є деструктивною, що означає, що поточний фоновий "
+"символ перезаписує старий вміст *destwin*."
 
 msgid ""
 "To get fine-grained control over the copied region, the second form of :meth:"
@@ -1131,26 +1148,38 @@ msgid ""
 "coordinates of the source window, the other variables mark a rectangle in "
 "the destination window."
 msgstr ""
+"Щоб отримати детальний контроль над скопійованою областю, можна використати "
+"другу форму :meth:`overwrite`. *sminrow* і *smincol* — верхні ліві "
+"координати вікна джерела, інші змінні позначають прямокутник у вікні "
+"призначення."
 
 msgid ""
 "Write all data associated with the window into the provided file object.  "
 "This information can be later retrieved using the :func:`getwin` function."
 msgstr ""
+"Запишіть усі дані, пов’язані з вікном, у наданий файловий об’єкт. Пізніше цю "
+"інформацію можна отримати за допомогою функції :func:`getwin`."
 
 msgid ""
 "Indicate that the *num* screen lines, starting at line *beg*, are corrupted "
 "and should be completely redrawn on the next :meth:`refresh` call."
 msgstr ""
+"Вказує, що *num* рядків екрана, починаючи з рядка *beg*, пошкоджені та мають "
+"бути повністю перемальовані під час наступного виклику :meth:`refresh`."
 
 msgid ""
 "Touch the entire window, causing it to be completely redrawn on the next :"
 "meth:`refresh` call."
 msgstr ""
+"Торкніться всього вікна, щоб його повністю перемалювати під час наступного "
+"виклику :meth:`refresh`."
 
 msgid ""
 "Update the display immediately (sync actual screen with previous drawing/"
 "deleting methods)."
 msgstr ""
+"Негайно оновіть дисплей (синхронізуйте фактичний екран із попередніми "
+"методами малювання/видалення)."
 
 msgid ""
 "The 6 optional arguments can only be specified when the window is a pad "
@@ -1165,6 +1194,17 @@ msgid ""
 "structures.  Negative values of *pminrow*, *pmincol*, *sminrow*, or "
 "*smincol* are treated as if they were zero."
 msgstr ""
+"6 необов’язкових аргументів можна вказати лише тоді, коли вікно є панеллю, "
+"створеною за допомогою :func:`newpad`. Додаткові параметри потрібні, щоб "
+"вказати, яка частина панелі та екрану задіяна. *pminrow* і *pmincol* "
+"визначають верхній лівий кут прямокутника, який буде відображатися на "
+"панелі. *sminrow*, *smincol*, *smaxrow* і *smaxcol* визначають краї "
+"прямокутника, який буде відображатися на екрані. Правий нижній кут "
+"прямокутника, який відображатиметься на панелі, обчислюється за координатами "
+"на екрані, оскільки прямокутники мають бути однакового розміру. Обидва "
+"прямокутники мають повністю міститися у відповідних структурах. Від’ємні "
+"значення *pminrow*, *pmincol*, *sminrow* або *smincol* розглядаються як "
+"нульові."
 
 msgid ""
 "Reallocate storage for a curses window to adjust its dimensions to the "
@@ -1172,9 +1212,13 @@ msgid ""
 "the window's data is filled with blanks that have the current background "
 "rendition (as set by :meth:`bkgdset`) merged into them."
 msgstr ""
+"Перерозподіліть сховище для вікна curses, щоб налаштувати його розміри до "
+"вказаних значень. Якщо будь-який з розмірів більший за поточні значення, "
+"дані вікна заповнюються пробілами, у яких об’єднано поточне фонове "
+"відтворення (як установлено :meth:`bkgdset`)."
 
 msgid "Scroll the screen or scrolling region upward by *lines* lines."
-msgstr ""
+msgstr "Прокрутіть екран або область прокручування вгору на *лінії* лінії."
 
 msgid ""
 "Control what happens when the cursor of a window is moved off the edge of "
@@ -1184,45 +1228,65 @@ msgid ""
 "the window is scrolled up one line.  Note that in order to get the physical "
 "scrolling effect on the terminal, it is also necessary to call :meth:`idlok`."
 msgstr ""
+"Керуйте тим, що відбувається, коли курсор вікна переміщується за межі вікна "
+"чи області прокручування в результаті дії нового рядка в нижньому рядку або "
+"введення останнього символу останнього рядка. Якщо *flag* має значення "
+"``False``, курсор залишається в нижньому рядку. Якщо *flag* має значення "
+"``True``, вікно прокручується на один рядок вгору. Зауважте, що для того, "
+"щоб отримати ефект фізичної прокрутки на терміналі, також необхідно "
+"викликати :meth:`idlok`."
 
 msgid ""
 "Set the scrolling region from line *top* to line *bottom*. All scrolling "
 "actions will take place in this region."
 msgstr ""
+"Встановіть область прокручування від рядка *верхнього* до рядка *нижнього*. "
+"Усі дії прокручування відбуватимуться в цьому регіоні."
 
 msgid ""
 "Turn off the standout attribute.  On some terminals this has the side effect "
 "of turning off all attributes."
 msgstr ""
+"Вимкніть атрибут standout. На деяких терміналах це має побічним ефектом "
+"вимкнення всіх атрибутів."
 
 msgid "Turn on attribute *A_STANDOUT*."
-msgstr ""
+msgstr "Увімкніть атрибут *A_STANDOUT*."
 
 msgid ""
 "Return a sub-window, whose upper-left corner is at ``(begin_y, begin_x)``, "
 "and whose width/height is *ncols*/*nlines*."
 msgstr ""
+"Повертає підвікно, верхній лівий кут якого знаходиться в ``(begin_y, "
+"begin_x)``, а ширина/висота *ncols*/*nlines*."
 
 msgid ""
 "By default, the sub-window will extend from the specified position to the "
 "lower right corner of the window."
 msgstr ""
+"За замовчуванням підвікно розширюватиметься від зазначеної позиції до "
+"нижнього правого кута вікна."
 
 msgid ""
 "Touch each location in the window that has been touched in any of its "
 "ancestor windows.  This routine is called by :meth:`refresh`, so it should "
 "almost never be necessary to call it manually."
 msgstr ""
+"Торкніться кожного місця у вікні, яке було торкано в будь-якому з попередніх "
+"вікон. Ця процедура викликається :meth:`refresh`, тому майже ніколи не "
+"потрібно викликати її вручну."
 
 msgid ""
 "If *flag* is ``True``, then :meth:`syncup` is called automatically whenever "
 "there is a change in the window."
 msgstr ""
+"Якщо *flag* має значення ``True``, тоді :meth:`syncup` викликається "
+"автоматично щоразу, коли відбувається зміна у вікні."
 
 msgid ""
 "Touch all locations in ancestors of the window that have been changed in  "
 "the window."
-msgstr ""
+msgstr "Торкніться всіх розташувань у предках вікна, які були змінені у вікні."
 
 msgid ""
 "Set blocking or non-blocking read behavior for the window.  If *delay* is "
@@ -1232,6 +1296,13 @@ msgid ""
 "`getch` will block for *delay* milliseconds, and return ``-1`` if there is "
 "still no input at the end of that time."
 msgstr ""
+"Встановити блокуючу або неблокуючу поведінку читання для вікна. Якщо "
+"*затримка* має від’ємне значення, використовується блокування читання (що "
+"нескінченно чекатиме введення). Якщо *затримка* дорівнює нулю, то "
+"використовується неблокуюче читання, і :meth:`getch` поверне ``-1``, якщо "
+"введення не очікується. Якщо *затримка* позитивна, тоді :meth:`getch` "
+"блокуватиметься на *затримку* мілісекунд і повертатиме ``-1``, якщо в кінці "
+"цього часу все ще немає введення."
 
 msgid ""
 "Pretend *count* lines have been changed, starting with line *start*.  If "
@@ -1239,16 +1310,21 @@ msgid ""
 "having been changed (*changed*\\ ``=True``) or unchanged (*changed*\\ "
 "``=False``)."
 msgstr ""
+"Уявіть, що *кількість* рядків змінено, починаючи з рядка *початок*. Якщо "
+"вказано *changed*, це визначає, чи позначаються відповідні рядки як змінені "
+"(*changed*\\ ``=True``) чи незмінені (*changed*\\ ``=False``)."
 
 msgid ""
 "Pretend the whole window has been changed, for purposes of drawing "
 "optimizations."
-msgstr ""
+msgstr "Уявіть, що все вікно було змінено з метою оптимізації малюнка."
 
 msgid ""
 "Mark all lines in  the  window  as unchanged since the last call to :meth:"
 "`refresh`."
 msgstr ""
+"Позначте всі рядки у вікні як незмінні з часу останнього виклику :meth:"
+"`refresh`."
 
 msgid ""
 "Display a vertical line starting at ``(y, x)`` with length *n* consisting of "
@@ -1256,20 +1332,24 @@ msgid ""
 msgstr ""
 
 msgid "Constants"
-msgstr ""
+msgstr "Stały"
 
 msgid "The :mod:`curses` module defines the following data members:"
-msgstr ""
+msgstr "Модуль :mod:`curses` визначає такі елементи даних:"
 
 msgid ""
 "Some curses routines  that  return  an integer, such as :meth:`~window."
 "getch`, return :const:`ERR` upon failure."
 msgstr ""
+"Деякі процедури curses, які повертають ціле число, наприклад :meth:`~window."
+"getch`, повертають :const:`ERR` у разі помилки."
 
 msgid ""
 "Some curses routines  that  return  an integer, such as  :func:`napms`, "
 "return :const:`OK` upon success."
 msgstr ""
+"Деякі процедури curses, які повертають ціле число, наприклад :func:`napms`, "
+"повертають :const:`OK` після успіху."
 
 msgid "A bytes object representing the current version of the module."
 msgstr ""
@@ -1280,9 +1360,13 @@ msgid ""
 "components can also be accessed by name,  so ``curses.ncurses_version[0]`` "
 "is equivalent to ``curses.ncurses_version.major`` and so on."
 msgstr ""
+"Іменований кортеж, що містить три компоненти версії бібліотеки ncurses: "
+"*major*, *minor* і *patch*. Усі значення є цілими. До компонентів також "
+"можна отримати доступ за іменем, тому ``curses.ncurses_version[0]`` "
+"еквівалентно ``curses.ncurses_version.major`` і так далі."
 
 msgid "Availability: if the ncurses library is used."
-msgstr ""
+msgstr "Доступність: якщо використовується бібліотека ncurses."
 
 msgid ""
 "The maximum number of colors the terminal can support. It is defined only "
@@ -1310,376 +1394,382 @@ msgid ""
 "Some constants are available to specify character cell attributes. The exact "
 "constants available are system dependent."
 msgstr ""
+"Деякі константи доступні для визначення атрибутів клітинок символів. "
+"Доступні точні константи залежать від системи."
 
 msgid "Attribute"
-msgstr ""
+msgstr "atrybut"
 
 msgid "Meaning"
-msgstr ""
+msgstr "Znaczenie"
 
 msgid "Alternate character set mode"
-msgstr ""
+msgstr "Режим альтернативного набору символів"
 
 msgid "Blink mode"
-msgstr ""
+msgstr "Режим моргання"
 
 msgid "Bold mode"
-msgstr ""
+msgstr "Жирний режим"
 
 msgid "Dim mode"
-msgstr ""
+msgstr "Режим затемнення"
 
 msgid "Invisible or blank mode"
-msgstr ""
+msgstr "Невидимий або порожній режим"
 
 msgid "Italic mode"
-msgstr ""
+msgstr "Курсив"
 
 msgid "Normal attribute"
-msgstr ""
+msgstr "Нормальний атрибут"
 
 msgid "Protected mode"
-msgstr ""
+msgstr "Захищений режим"
 
 msgid "Reverse background and foreground colors"
-msgstr ""
+msgstr "Зворотні кольори фону та переднього плану"
 
 msgid "Standout mode"
-msgstr ""
+msgstr "Режим видатного"
 
 msgid "Underline mode"
-msgstr ""
+msgstr "Режим підкреслення"
 
 msgid "Horizontal highlight"
-msgstr ""
+msgstr "Горизонтальне виділення"
 
 msgid "Left highlight"
-msgstr ""
+msgstr "Виділення зліва"
 
 msgid "Low highlight"
-msgstr ""
+msgstr "Низьке виділення"
 
 msgid "Right highlight"
-msgstr ""
+msgstr "Виділіть праворуч"
 
 msgid "Top highlight"
-msgstr ""
+msgstr "Верхня підсвітка"
 
 msgid "Vertical highlight"
-msgstr ""
+msgstr "Вертикальне виділення"
 
 msgid "``A_ITALIC`` was added."
-msgstr ""
+msgstr "Додано ``A_ITALIC``."
 
 msgid ""
 "Several constants are available to extract corresponding attributes returned "
 "by some methods."
 msgstr ""
+"Для отримання відповідних атрибутів, які повертаються деякими методами, "
+"доступно кілька констант."
 
 msgid "Bit-mask"
-msgstr ""
+msgstr "Біт-маска"
 
 msgid "Bit-mask to extract attributes"
-msgstr ""
+msgstr "Бітова маска для вилучення атрибутів"
 
 msgid "Bit-mask to extract a character"
-msgstr ""
+msgstr "Бітова маска для вилучення символу"
 
 msgid "Bit-mask to extract color-pair field information"
-msgstr ""
+msgstr "Бітова маска для отримання інформації про поле пари кольорів"
 
 msgid ""
 "Keys are referred to by integer constants with names starting with  "
 "``KEY_``. The exact keycaps available are system dependent."
 msgstr ""
+"На ключі посилаються цілі константи з іменами, що починаються з ``KEY_``. "
+"Точні доступні клавіші залежать від системи."
 
 msgid "Key constant"
-msgstr ""
+msgstr "Konstanta *Key*"
 
 msgid "Key"
-msgstr ""
+msgstr "*Key*"
 
 msgid "Minimum key value"
-msgstr ""
+msgstr "Мінімальне значення ключа"
 
 msgid "Break key (unreliable)"
-msgstr ""
+msgstr "Розривний ключ (ненадійний)"
 
 msgid "Down-arrow"
-msgstr ""
+msgstr "Стрілка вниз"
 
 msgid "Up-arrow"
-msgstr ""
+msgstr "Стрілка вгору"
 
 msgid "Left-arrow"
-msgstr ""
+msgstr "Стрілка вліво"
 
 msgid "Right-arrow"
-msgstr ""
+msgstr "Стрілка вправо"
 
 msgid "Home key (upward+left arrow)"
-msgstr ""
+msgstr "Клавіша \"Додому\" (стрілка вгору+ліворуч)"
 
 msgid "Backspace (unreliable)"
-msgstr ""
+msgstr "Backspace (ненадійно)"
 
 msgid "Function keys.  Up to 64 function keys are supported."
-msgstr ""
+msgstr "Функціональні клавіші. Підтримується до 64 функціональних клавіш."
 
 msgid "Value of function key *n*"
-msgstr ""
+msgstr "Значення функціональної клавіші *n*"
 
 msgid "Delete line"
-msgstr ""
+msgstr "Видалити рядок"
 
 msgid "Insert line"
-msgstr ""
+msgstr "Вставити рядок"
 
 msgid "Delete character"
-msgstr ""
+msgstr "Видалити символ"
 
 msgid "Insert char or enter insert mode"
-msgstr ""
+msgstr "Вставити символ або перейти в режим вставки"
 
 msgid "Exit insert char mode"
-msgstr ""
+msgstr "Вийти з режиму вставки символів"
 
 msgid "Clear screen"
-msgstr ""
+msgstr "Очистити екран"
 
 msgid "Clear to end of screen"
-msgstr ""
+msgstr "Очистити до кінця екрана"
 
 msgid "Clear to end of line"
-msgstr ""
+msgstr "Очистити до кінця рядка"
 
 msgid "Scroll 1 line forward"
-msgstr ""
+msgstr "Прокрутити на 1 рядок вперед"
 
 msgid "Scroll 1 line backward (reverse)"
-msgstr ""
+msgstr "Прокрутити на 1 рядок назад (назад)"
 
 msgid "Next page"
-msgstr ""
+msgstr "Halaman berikutnya"
 
 msgid "Previous page"
-msgstr ""
+msgstr "Попередня сторінка"
 
 msgid "Set tab"
-msgstr ""
+msgstr "Встановити вкладку"
 
 msgid "Clear tab"
-msgstr ""
+msgstr "Очистити вкладку"
 
 msgid "Clear all tabs"
-msgstr ""
+msgstr "Очистити всі вкладки"
 
 msgid "Enter or send (unreliable)"
-msgstr ""
+msgstr "Введіть або надішліть (ненадійно)"
 
 msgid "Soft (partial) reset (unreliable)"
-msgstr ""
+msgstr "М'яке (часткове) скидання (ненадійне)"
 
 msgid "Reset or hard reset (unreliable)"
-msgstr ""
+msgstr "Скидання або апаратне скидання (ненадійно)"
 
 msgid "Print"
-msgstr ""
+msgstr "Роздрукувати"
 
 msgid "Home down or bottom (lower left)"
-msgstr ""
+msgstr "Головна внизу або внизу (внизу ліворуч)"
 
 msgid "Upper left of keypad"
-msgstr ""
+msgstr "Верхній лівий кут клавіатури"
 
 msgid "Upper right of keypad"
-msgstr ""
+msgstr "Правий верхній кут клавіатури"
 
 msgid "Center of keypad"
-msgstr ""
+msgstr "Центр клавіатури"
 
 msgid "Lower left of keypad"
-msgstr ""
+msgstr "Ліворуч внизу від клавіатури"
 
 msgid "Lower right of keypad"
-msgstr ""
+msgstr "Правий нижній кут клавіатури"
 
 msgid "Back tab"
-msgstr ""
+msgstr "Задня вкладка"
 
 msgid "Beg (beginning)"
-msgstr ""
+msgstr "Бег (початок)"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Скасувати"
 
 msgid "Close"
-msgstr ""
+msgstr "Закрити"
 
 msgid "Cmd (command)"
-msgstr ""
+msgstr "Cmd (команда)"
 
 msgid "Copy"
-msgstr ""
+msgstr "Copy"
 
 msgid "Create"
-msgstr ""
+msgstr "Створити"
 
 msgid "End"
-msgstr ""
+msgstr "End"
 
 msgid "Exit"
-msgstr ""
+msgstr "Exit"
 
 msgid "Find"
-msgstr ""
+msgstr "Find"
 
 msgid "Help"
-msgstr ""
+msgstr "Help"
 
 msgid "Mark"
-msgstr ""
+msgstr "Mark"
 
 msgid "Message"
-msgstr ""
+msgstr "повідомлення"
 
 msgid "Move"
-msgstr ""
+msgstr "Move"
 
 msgid "Next"
-msgstr ""
+msgstr "Next"
 
 msgid "Open"
-msgstr ""
+msgstr "Open"
 
 msgid "Options"
-msgstr ""
+msgstr "Opsi"
 
 msgid "Prev (previous)"
-msgstr ""
+msgstr "Prev (попередній)"
 
 msgid "Redo"
-msgstr ""
+msgstr "Redo"
 
 msgid "Ref (reference)"
-msgstr ""
+msgstr "Ref (посилання)"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Оновити"
 
 msgid "Replace"
-msgstr ""
+msgstr "Замінити"
 
 msgid "Restart"
-msgstr ""
+msgstr "Перезапустіть"
 
 msgid "Resume"
-msgstr ""
+msgstr "Резюме"
 
 msgid "Save"
-msgstr ""
+msgstr "Save"
 
 msgid "Shifted Beg (beginning)"
-msgstr ""
+msgstr "Зміщений початок (початок)"
 
 msgid "Shifted Cancel"
-msgstr ""
+msgstr "Скасування зі зсувом"
 
 msgid "Shifted Command"
-msgstr ""
+msgstr "Зміщена команда"
 
 msgid "Shifted Copy"
-msgstr ""
+msgstr "Зміщена копія"
 
 msgid "Shifted Create"
-msgstr ""
+msgstr "Зсув Створити"
 
 msgid "Shifted Delete char"
-msgstr ""
+msgstr "Зміщений Видалити символ"
 
 msgid "Shifted Delete line"
-msgstr ""
+msgstr "Зміщений рядок \"Видалити\"."
 
 msgid "Select"
-msgstr ""
+msgstr "Виберіть"
 
 msgid "Shifted End"
-msgstr ""
+msgstr "Зміщений кінець"
 
 msgid "Shifted Clear line"
-msgstr ""
+msgstr "Зміщена чиста лінія"
 
 msgid "Shifted Exit"
-msgstr ""
+msgstr "Зміщений вихід"
 
 msgid "Shifted Find"
-msgstr ""
+msgstr "Зміщений пошук"
 
 msgid "Shifted Help"
-msgstr ""
+msgstr "Зміщена довідка"
 
 msgid "Shifted Home"
-msgstr ""
+msgstr "Перенесено додому"
 
 msgid "Shifted Input"
-msgstr ""
+msgstr "Зміщений вхід"
 
 msgid "Shifted Left arrow"
-msgstr ""
+msgstr "Зміщена стрілка вліво"
 
 msgid "Shifted Message"
-msgstr ""
+msgstr "Зміщене повідомлення"
 
 msgid "Shifted Move"
-msgstr ""
+msgstr "Зміщений хід"
 
 msgid "Shifted Next"
-msgstr ""
+msgstr "Зсув Далі"
 
 msgid "Shifted Options"
-msgstr ""
+msgstr "Зміщені параметри"
 
 msgid "Shifted Prev"
-msgstr ""
+msgstr "Зміщено Поперед"
 
 msgid "Shifted Print"
-msgstr ""
+msgstr "Зміщений друк"
 
 msgid "Shifted Redo"
-msgstr ""
+msgstr "Зміщений повтор"
 
 msgid "Shifted Replace"
-msgstr ""
+msgstr "Зміщена заміна"
 
 msgid "Shifted Right arrow"
-msgstr ""
+msgstr "Зміщена стрілка вправо"
 
 msgid "Shifted Resume"
-msgstr ""
+msgstr "Зміщене резюме"
 
 msgid "Shifted Save"
-msgstr ""
+msgstr "Зміщене збереження"
 
 msgid "Shifted Suspend"
-msgstr ""
+msgstr "Зміщене призупинення"
 
 msgid "Shifted Undo"
-msgstr ""
+msgstr "Зміщене скасування"
 
 msgid "Suspend"
-msgstr ""
+msgstr "Призупинити"
 
 msgid "Undo"
-msgstr ""
+msgstr "Undo"
 
 msgid "Mouse event has occurred"
 msgstr ""
 
 msgid "Terminal resize event"
-msgstr ""
+msgstr "Подія зміни розміру терміналу"
 
 msgid "Maximum key value"
-msgstr ""
+msgstr "Максимальне значення ключа"
 
 msgid ""
 "On VT100s and their software emulations, such as X terminal emulators, there "
@@ -1693,7 +1783,7 @@ msgid ""
 msgstr ""
 
 msgid "Keycap"
-msgstr ""
+msgstr "Keycap"
 
 msgid "Constant"
 msgstr ""
