@@ -659,7 +659,7 @@ msgid "``callback`` :meth:`connection_lost() <BaseProtocol.connection_lost>`"
 msgstr ""
 
 msgid "Called when the connection is lost or closed."
-msgstr ""
+msgstr "Викликається, коли з'єднання втрачено або закрито."
 
 msgid "``callback`` :meth:`pause_writing() <BaseProtocol.pause_writing>`"
 msgstr ""
@@ -689,25 +689,25 @@ msgid "Called when an EOF is received."
 msgstr ""
 
 msgid "Buffered Streaming Protocols"
-msgstr ""
+msgstr "Буферизовані потокові протоколи"
 
 msgid "``callback`` :meth:`get_buffer() <BufferedProtocol.get_buffer>`"
 msgstr ""
 
 msgid "Called to allocate a new receive buffer."
-msgstr ""
+msgstr "Викликається для виділення нового буфера отримання."
 
 msgid "``callback`` :meth:`buffer_updated() <BufferedProtocol.buffer_updated>`"
 msgstr ""
 
 msgid "Called when the buffer was updated with the received data."
-msgstr ""
+msgstr "Викликається, коли буфер оновлюється отриманими даними."
 
 msgid "``callback`` :meth:`eof_received() <BufferedProtocol.eof_received>`"
 msgstr ""
 
 msgid "Datagram Protocols"
-msgstr ""
+msgstr "Протоколи дейтаграм"
 
 msgid ""
 "``callback`` :meth:`datagram_received() <DatagramProtocol.datagram_received>`"
@@ -724,7 +724,7 @@ msgid ""
 msgstr ""
 
 msgid "Subprocess Protocols"
-msgstr ""
+msgstr "Протоколи підпроцесів"
 
 msgid "``callback`` :meth:`~SubprocessProtocol.pipe_data_received`"
 msgstr ""
@@ -739,6 +739,7 @@ msgstr ""
 msgid ""
 "Called when one of the pipes communicating with the child process is closed."
 msgstr ""
+"Викликається, коли одна з труб, що спілкуються з дочірнім процесом, закрита."
 
 msgid ""
 "``callback`` :meth:`process_exited() <SubprocessProtocol.process_exited>`"

@@ -394,6 +394,8 @@ msgstr ""
 msgid ""
 "A subclass of the built-in :func:`property`, indicating an abstract property."
 msgstr ""
+"Podrzędne uogólnienie wbudowanego zadania :func:`property` wskazujące "
+"abstrakcyjną właściwość."
 
 msgid ""
 "This special case is deprecated, as the :func:`property` decorator is now "
