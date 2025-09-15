@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 
 msgid "This module defines the following functions:"
-msgstr ""
+msgstr "Цей модуль визначає такі функції:"
 
 msgid ""
 "Read a TOML file. The first argument should be a readable and binary file "
@@ -75,10 +75,10 @@ msgid "The following exceptions are available:"
 msgstr ""
 
 msgid "Subclass of :exc:`ValueError` with the following additional attributes:"
-msgstr ""
+msgstr "Підклас :exc:`ValueError` з такими додатковими атрибутами:"
 
 msgid "The unformatted error message."
-msgstr ""
+msgstr "Неформатне повідомлення про помилку."
 
 msgid "The TOML document being parsed."
 msgstr ""
@@ -87,10 +87,10 @@ msgid "The index of *doc* where parsing failed."
 msgstr ""
 
 msgid "The line corresponding to *pos*."
-msgstr ""
+msgstr "Рядок, що відповідає *pos*."
 
 msgid "The column corresponding to *pos*."
-msgstr ""
+msgstr "Стовпець, що відповідає *pos*."
 
 msgid ""
 "Added the *msg*, *doc* and *pos* parameters. Added the :attr:`msg`, :attr:"
@@ -101,7 +101,7 @@ msgid "Passing free-form positional arguments is deprecated."
 msgstr ""
 
 msgid "Examples"
-msgstr ""
+msgstr "Przykłady"
 
 msgid "Parsing a TOML file::"
 msgstr ""
@@ -134,37 +134,37 @@ msgid "TOML"
 msgstr ""
 
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 msgid "TOML document"
 msgstr ""
 
 msgid "dict"
-msgstr ""
+msgstr "dict"
 
 msgid "string"
-msgstr ""
+msgstr "ciąg znaków"
 
 msgid "str"
-msgstr ""
+msgstr "str"
 
 msgid "integer"
-msgstr ""
+msgstr "bilangan bulat"
 
 msgid "int"
-msgstr ""
+msgstr "int"
 
 msgid "float"
-msgstr ""
+msgstr "typ (float) zmiennoprzecinkowy pojedynczej precyzji"
 
 msgid "float (configurable with *parse_float*)"
 msgstr ""
 
 msgid "boolean"
-msgstr ""
+msgstr "логічний"
 
 msgid "bool"
-msgstr ""
+msgstr "bool"
 
 msgid "offset date-time"
 msgstr ""
@@ -196,7 +196,7 @@ msgid "array"
 msgstr "Array"
 
 msgid "list"
-msgstr ""
+msgstr "lista"
 
 msgid "table"
 msgstr ""
