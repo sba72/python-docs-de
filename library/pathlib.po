@@ -2339,10 +2339,10 @@ msgid ":meth:`Path.lstat`"
 msgstr ""
 
 msgid ":func:`os.listdir`"
-msgstr ""
+msgstr ":func:`os.listdir`"
 
 msgid ":meth:`Path.iterdir`"
-msgstr ""
+msgstr ":meth:`Path.iterdir`"
 
 msgid ":func:`os.walk`"
 msgstr ""
@@ -2354,55 +2354,55 @@ msgid ":func:`os.mkdir`, :func:`os.makedirs`"
 msgstr ""
 
 msgid ":meth:`Path.mkdir`"
-msgstr ""
+msgstr ":meth:`Path.mkdir`"
 
 msgid ":func:`os.link`"
-msgstr ""
+msgstr ":func:`os.link`"
 
 msgid ":meth:`Path.hardlink_to`"
 msgstr ""
 
 msgid ":func:`os.symlink`"
-msgstr ""
+msgstr ":func:`os.symlink`"
 
 msgid ":meth:`Path.symlink_to`"
-msgstr ""
+msgstr ":meth:`Path.symlink_to`"
 
 msgid ":func:`os.readlink`"
-msgstr ""
+msgstr ":func:`os.readlink`"
 
 msgid ":meth:`Path.readlink`"
-msgstr ""
+msgstr ":meth:`Path.readlink`"
 
 msgid ":func:`os.rename`"
-msgstr ""
+msgstr ":func:`os.rename`"
 
 msgid ":meth:`Path.rename`"
-msgstr ""
+msgstr ":meth:`Path.rename`"
 
 msgid ":func:`os.replace`"
-msgstr ""
+msgstr ":func:`os.replace`"
 
 msgid ":meth:`Path.replace`"
-msgstr ""
+msgstr ":meth:`Path.replace`"
 
 msgid ":func:`os.remove`, :func:`os.unlink`"
-msgstr ""
+msgstr ":func:`os.remove`, :func:`os.unlink`"
 
 msgid ":meth:`Path.unlink`"
-msgstr ""
+msgstr ":meth:`Path.unlink`"
 
 msgid ":func:`os.rmdir`"
-msgstr ""
+msgstr ":func:`os.rmdir`"
 
 msgid ":meth:`Path.rmdir`"
-msgstr ""
+msgstr ":meth:`Path.rmdir`"
 
 msgid ":func:`os.chmod`"
-msgstr ""
+msgstr ":func:`os.chmod`"
 
 msgid ":meth:`Path.chmod`"
-msgstr ""
+msgstr ":meth:`Path.chmod`"
 
 msgid ":func:`os.lchmod`"
 msgstr ""
@@ -2411,7 +2411,7 @@ msgid ":meth:`Path.lchmod`"
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Fußnoten"
 
 msgid ""
 ":func:`os.path.relpath` calls :func:`~os.path.abspath` to make paths "
@@ -2439,7 +2439,7 @@ msgid ""
 msgstr ""
 
 msgid "Protocols"
-msgstr ""
+msgstr "Протоколи"
 
 msgid ""
 "The :mod:`pathlib.types` module provides types for static type checking."
