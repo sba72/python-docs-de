@@ -713,7 +713,7 @@ msgid ""
 msgstr ""
 
 msgid "Search and Replace"
-msgstr ""
+msgstr "Znajdz i zamień"
 
 msgid ""
 "Any selection becomes a search target.  However, only selections within a "
@@ -1385,7 +1385,7 @@ msgid ""
 msgstr ""
 
 msgid "IDLE"
-msgstr ""
+msgstr "IDLE"
 
 msgid "Python Editor"
 msgstr ""

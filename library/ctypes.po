@@ -289,7 +289,7 @@ msgid "C type"
 msgstr ""
 
 msgid "Python type"
-msgstr ""
+msgstr "tipe Python"
 
 msgid ":class:`c_bool`"
 msgstr ""
@@ -322,7 +322,7 @@ msgid ":class:`c_byte`"
 msgstr ""
 
 msgid "int"
-msgstr ""
+msgstr "int"
 
 msgid ":class:`c_ubyte`"
 msgstr ""
@@ -2406,19 +2406,19 @@ msgid ""
 msgstr ""
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "Specifies an input parameter to the function."
 msgstr ""
 
 msgid "2"
-msgstr ""
+msgstr "2"
 
 msgid "Output parameter.  The foreign function fills in a value."
 msgstr ""
 
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgid "Input parameter which defaults to the integer zero."
 msgstr ""
