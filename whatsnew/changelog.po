@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 20:40+0000\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
@@ -164,7 +164,7 @@ msgid "*Release date: 2025-08-14*"
 msgstr ""
 
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 msgid ""
 ":gh:`137450`: macOS installer shell path management improvements: separate "
@@ -177,7 +177,7 @@ msgid ""
 msgstr ""
 
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 msgid ":gh:`137134`: Update Windows installer to ship with SQLite 3.50.4."
 msgstr ""
@@ -2145,7 +2145,7 @@ msgid ""
 msgstr ""
 
 msgid "IDLE"
-msgstr ""
+msgstr "IDLE"
 
 msgid ":gh:`112936`: fix IDLE: no Shell menu item in single-process mode."
 msgstr ""
@@ -20632,13 +20632,13 @@ msgid ":gh:`90656`: Add platform triplets for 64-bit LoongArch:"
 msgstr ""
 
 msgid "loongarch64-linux-gnusf"
-msgstr ""
+msgstr "loongarch64-linux-gnusf"
 
 msgid "loongarch64-linux-gnuf32"
-msgstr ""
+msgstr "loongarch64-linux-gnuf32"
 
 msgid "loongarch64-linux-gnu"
-msgstr ""
+msgstr "loongarch64-linux-gnu"
 
 msgid "Patch by Zhang Na."
 msgstr ""
