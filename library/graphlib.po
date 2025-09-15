@@ -324,19 +324,22 @@ msgstr ""
 "get_ready`), і порядок між ними визначається за порядком вставлення."
 
 msgid "If any cycle is detected, :exc:`CycleError` will be raised."
-msgstr ""
+msgstr "Якщо буде виявлено будь-який цикл, буде викликано :exc:`CycleError`."
 
 msgid "Exceptions"
 msgstr "Ausnahmen"
 
 msgid "The :mod:`graphlib` module defines the following exception classes:"
-msgstr ""
+msgstr "Модуль :mod:`graphlib` визначає такі класи винятків:"
 
 msgid ""
 "Subclass of :exc:`ValueError` raised by :meth:`TopologicalSorter.prepare` if "
 "cycles exist in the working graph. If multiple cycles exist, only one "
 "undefined choice among them will be reported and included in the exception."
 msgstr ""
+"Підклас :exc:`ValueError`, створений :meth:`TopologicalSorter.prepare`, якщо "
+"в робочому графі існують цикли. Якщо існує кілька циклів, лише один "
+"невизначений вибір серед них буде повідомлено та включено до винятку."
 
 msgid ""
 "The detected cycle can be accessed via the second element in the :attr:"
