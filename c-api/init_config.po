@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 18:59+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +43,7 @@ msgid ":pep:`741` \"Python Configuration C API\"."
 msgstr ""
 
 msgid "Example"
-msgstr ""
+msgstr "Przykład"
 
 msgid ""
 "Example of customized Python always running with the :ref:`Python "
@@ -106,7 +110,7 @@ msgid "If *config* is ``NULL``, no operation is performed."
 msgstr ""
 
 msgid "Error Handling"
-msgstr ""
+msgstr "Przechwytywanie błędów"
 
 msgid "Get the *config* error message."
 msgstr ""
@@ -263,16 +267,16 @@ msgid "Configuration Options"
 msgstr ""
 
 msgid "Option"
-msgstr ""
+msgstr "Opsi"
 
 msgid "PyConfig/PyPreConfig member"
 msgstr ""
 
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 msgid "Visibility"
-msgstr ""
+msgstr "Widoczność"
 
 msgid "``\"allocator\"``"
 msgstr ""
@@ -281,10 +285,10 @@ msgid ":c:member:`allocator <PyPreConfig.allocator>`"
 msgstr ""
 
 msgid "``int``"
-msgstr ""
+msgstr "``int``"
 
 msgid "Read-only"
-msgstr ""
+msgstr "Лише для читання"
 
 msgid "``\"argv\"``"
 msgstr ""
@@ -954,7 +958,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr ""
+msgstr "Przykład::"
 
 msgid ""
 "PyStatus alloc(void **ptr, size_t size)\n"
@@ -2553,7 +2557,7 @@ msgid "The following configuration files are used by the path configuration:"
 msgstr ""
 
 msgid "``pyvenv.cfg``"
-msgstr ""
+msgstr "``pyvenv.cfg``"
 
 msgid "``._pth`` file (ex: ``python._pth``)"
 msgstr ""
