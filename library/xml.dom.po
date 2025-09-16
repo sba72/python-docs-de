@@ -1261,61 +1261,61 @@ msgstr ""
 "виняткам відповідно до цієї таблиці:"
 
 msgid "Constant"
-msgstr ""
+msgstr "Stała"
 
 msgid "Exception"
-msgstr ""
+msgstr "Виняток"
 
 msgid ":const:`DOMSTRING_SIZE_ERR`"
-msgstr ""
+msgstr ":const:`DOMSTRING_SIZE_ERR`"
 
 msgid ":exc:`DomstringSizeErr`"
-msgstr ""
+msgstr ":exc:`DomstringSizeErr`"
 
 msgid ":const:`HIERARCHY_REQUEST_ERR`"
-msgstr ""
+msgstr ":const:`HIERARCHY_REQUEST_ERR`"
 
 msgid ":exc:`HierarchyRequestErr`"
-msgstr ""
+msgstr ":exc:`HierarchyRequestErr`"
 
 msgid ":const:`INDEX_SIZE_ERR`"
-msgstr ""
+msgstr ":const:`INDEX_SIZE_ERR`"
 
 msgid ":exc:`IndexSizeErr`"
-msgstr ""
+msgstr ":exc:`IndexSizeErr`"
 
 msgid ":const:`INUSE_ATTRIBUTE_ERR`"
-msgstr ""
+msgstr ":const:`INUSE_ATTRIBUTE_ERR`"
 
 msgid ":exc:`InuseAttributeErr`"
-msgstr ""
+msgstr ":exc:`InuseAttributeErr`"
 
 msgid ":const:`INVALID_ACCESS_ERR`"
-msgstr ""
+msgstr ":const:`INVALID_ACCESS_ERR`"
 
 msgid ":exc:`InvalidAccessErr`"
-msgstr ""
+msgstr ":exc:`InvalidAccessErr`"
 
 msgid ":const:`INVALID_CHARACTER_ERR`"
-msgstr ""
+msgstr ":const:`INVALID_CHARACTER_ERR`"
 
 msgid ":exc:`InvalidCharacterErr`"
-msgstr ""
+msgstr ":exc:`InvalidCharacterErr`"
 
 msgid ":const:`INVALID_MODIFICATION_ERR`"
-msgstr ""
+msgstr ":const:`INVALID_MODIFICATION_ERR`"
 
 msgid ":exc:`InvalidModificationErr`"
-msgstr ""
+msgstr ":exc:`InvalidModificationErr`"
 
 msgid ":const:`INVALID_STATE_ERR`"
-msgstr ""
+msgstr ":const:`INVALID_STATE_ERR`"
 
 msgid ":exc:`InvalidStateErr`"
-msgstr ""
+msgstr ":exc:`InvalidStateErr`"
 
 msgid ":const:`NAMESPACE_ERR`"
-msgstr ""
+msgstr ":const:`NAMESPACE_ERR`"
 
 msgid ":exc:`NamespaceErr`"
 msgstr ":exc:`NamespaceErr`"
