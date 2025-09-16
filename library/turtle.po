@@ -3249,6 +3249,8 @@ msgid ""
 "*shape* can be any of the built-in shapes, e.g: arrow, turtle, etc.  For "
 "more info try ``help(shape)``."
 msgstr ""
+"*shape* може бути будь-якою вбудованою формою, наприклад: стрілка, черепаха "
+"тощо. Щоб дізнатися більше, спробуйте ``help(shape)``."
 
 msgid ""
 "If you want to use no fill color (i.e. make the turtle transparent), you "
@@ -3260,6 +3262,8 @@ msgid ""
 "If you want to reflect the turtle its state, you have to use ``resizemode = "
 "auto``."
 msgstr ""
+"Якщо ви хочете відобразити черепаху в її стані, ви повинні використовувати "
+"``resizemode = auto``."
 
 msgid ""
 "If you set e.g. ``language = italian`` the docstringdict :file:"
@@ -3273,6 +3277,9 @@ msgid ""
 "docstrings to function-docstrings will delete these names from the "
 "docstrings."
 msgstr ""
+"Записи *exampleturtle* і *examplescreen* визначають імена цих об’єктів, як "
+"вони зустрічаються в рядках документації. Трансформація method-docstrings у "
+"function-docstrings видалить ці імена з docstrings."
 
 msgid ""
 "*using_IDLE*: Set this to ``True`` if you regularly work with IDLE and its "
@@ -3285,20 +3292,29 @@ msgid ""
 "is stored and an additional one in the current working directory.  The "
 "latter will override the settings of the first one."
 msgstr ""
+"У каталозі, де зберігається :mod:`turtle`, може бути файл :file:`turtle.cfg` "
+"і додатковий у поточному робочому каталозі. Останній замінить налаштування "
+"першого."
 
 msgid ""
 "The :file:`Lib/turtledemo` directory contains a :file:`turtle.cfg` file.  "
 "You can study it as an example and see its effects when running the demos "
 "(preferably not from within the demo-viewer)."
 msgstr ""
+"Каталог :file:`Lib/turtledemo` містить файл :file:`turtle.cfg`. Ви можете "
+"вивчити його як приклад і побачити його вплив під час запуску демонстрацій "
+"(бажано не з програми перегляду демонстрацій)."
 
 msgid ":mod:`turtledemo` --- Demo scripts"
-msgstr ""
+msgstr ":mod:`turtledemo` --- Демонстраційні скрипти"
 
 msgid ""
 "The :mod:`turtledemo` package includes a set of demo scripts.  These scripts "
 "can be run and viewed using the supplied demo viewer as follows::"
 msgstr ""
+"Пакет :mod:`turtledemo` містить набір демонстраційних скриптів. Ці сценарії "
+"можна запускати та переглядати за допомогою демонстраційного засобу "
+"перегляду, що входить до комплекту, наступним чином:"
 
 msgid "python -m turtledemo"
 msgstr ""
@@ -3306,31 +3322,39 @@ msgstr ""
 msgid ""
 "Alternatively, you can run the demo scripts individually.  For example, ::"
 msgstr ""
+"Крім того, ви можете запускати демонстраційні сценарії окремо. Наприклад, ::"
 
 msgid "python -m turtledemo.bytedesign"
 msgstr ""
 
 msgid "The :mod:`turtledemo` package directory contains:"
-msgstr ""
+msgstr "Каталог пакунків :mod:`turtledemo` містить:"
 
 msgid ""
 "A demo viewer :file:`__main__.py` which can be used to view the sourcecode "
 "of the scripts and run them at the same time."
 msgstr ""
+"Демо-переглядач :file:`__main__.py`, який можна використовувати для "
+"перегляду вихідного коду сценаріїв і запуску їх одночасно."
 
 msgid ""
 "Multiple scripts demonstrating different features of the :mod:`turtle` "
 "module.  Examples can be accessed via the Examples menu.  They can also be "
 "run standalone."
 msgstr ""
+"Кілька сценаріїв, що демонструють різні функції модуля :mod:`turtle`. Доступ "
+"до прикладів можна отримати через меню \"Приклади\". Їх також можна "
+"запускати автономно."
 
 msgid ""
 "A :file:`turtle.cfg` file which serves as an example of how to write and use "
 "such files."
 msgstr ""
+"Файл :file:`turtle.cfg`, який служить прикладом того, як писати та "
+"використовувати такі файли."
 
 msgid "The demo scripts are:"
-msgstr ""
+msgstr "Демонстраційні сценарії:"
 
 msgid "Name"
 msgstr "Name"
@@ -3339,172 +3363,174 @@ msgid "Description"
 msgstr "Beschreibung"
 
 msgid "Features"
-msgstr ""
+msgstr "особливості"
 
 msgid "bytedesign"
-msgstr ""
+msgstr "bytedesign"
 
 msgid "complex classical turtle graphics pattern"
-msgstr ""
+msgstr "складний класичний графічний візерунок черепахи"
 
 msgid ":func:`tracer`, delay, :func:`update`"
-msgstr ""
+msgstr ":func:`tracer`, delay, :func:`update`"
 
 msgid "chaos"
-msgstr ""
+msgstr "хаос"
 
 msgid ""
 "graphs Verhulst dynamics, shows that computer's computations can generate "
 "results sometimes against the common sense expectations"
 msgstr ""
+"графіки динаміки Верхульста показують, що комп’ютерні обчислення можуть "
+"генерувати результати, іноді проти очікувань здорового глузду"
 
 msgid "world coordinates"
-msgstr ""
+msgstr "світові координати"
 
 msgid "clock"
-msgstr ""
+msgstr "годинник"
 
 msgid "analog clock showing time of your computer"
-msgstr ""
+msgstr "аналоговий годинник, який показує час вашого комп'ютера"
 
 msgid "turtles as clock's hands, ontimer"
-msgstr ""
+msgstr "черепахи як стрілки годинника, онтаймер"
 
 msgid "colormixer"
-msgstr ""
+msgstr "colormixer"
 
 msgid "experiment with r, g, b"
-msgstr ""
+msgstr "дослід з r, g, b"
 
 msgid "forest"
-msgstr ""
+msgstr "ліс"
 
 msgid "3 breadth-first trees"
-msgstr ""
+msgstr "3 дерева в ширину"
 
 msgid "randomization"
-msgstr ""
+msgstr "рандомізація"
 
 msgid "fractalcurves"
-msgstr ""
+msgstr "фрактальні криві"
 
 msgid "Hilbert & Koch curves"
-msgstr ""
+msgstr "Криві Гільберта і Коха"
 
 msgid "recursion"
-msgstr ""
+msgstr "рекурсія"
 
 msgid "lindenmayer"
-msgstr ""
+msgstr "лінденмайер"
 
 msgid "ethnomathematics (indian kolams)"
-msgstr ""
+msgstr "етноматематика (індійські колами)"
 
 msgid "L-System"
-msgstr ""
+msgstr "L-система"
 
 msgid "minimal_hanoi"
-msgstr ""
+msgstr "minimal_hanoi"
 
 msgid "Towers of Hanoi"
-msgstr ""
+msgstr "Ханойські вежі"
 
 msgid "Rectangular Turtles as Hanoi discs (shape, shapesize)"
-msgstr ""
+msgstr "Прямокутні черепахи як ханойські диски (форма, розмір)"
 
 msgid "nim"
-msgstr ""
+msgstr "нім"
 
 msgid ""
 "play the classical nim game with three heaps of sticks against the computer."
-msgstr ""
+msgstr "грати в класичну гру nim з трьома купами палиць проти комп'ютера."
 
 msgid "turtles as nimsticks, event driven (mouse, keyboard)"
-msgstr ""
+msgstr "черепахи як німки, керовані подіями (миша, клавіатура)"
 
 msgid "paint"
-msgstr ""
+msgstr "фарба"
 
 msgid "super minimalistic drawing program"
-msgstr ""
+msgstr "супер мінімалістична програма для малювання"
 
 msgid "peace"
-msgstr ""
+msgstr "мир"
 
 msgid "elementary"
-msgstr ""
+msgstr "елементарний"
 
 msgid "turtle: appearance and animation"
-msgstr ""
+msgstr "черепаха: зовнішній вигляд і анімація"
 
 msgid "penrose"
-msgstr ""
+msgstr "Пенроуз"
 
 msgid "aperiodic tiling with kites and darts"
-msgstr ""
+msgstr "аперіодичне укладання з повітряними зміями та дротиками"
 
 msgid "planet_and_moon"
-msgstr ""
+msgstr "планета_і_місяць"
 
 msgid "simulation of gravitational system"
-msgstr ""
+msgstr "моделювання гравітаційної системи"
 
 msgid "compound shapes, :class:`Vec2D`"
-msgstr ""
+msgstr "складені форми, :class:`Vec2D`"
 
 msgid "rosette"
 msgstr ""
 
 msgid "a pattern from the wikipedia article on turtle graphics"
-msgstr ""
+msgstr "зразок зі статті у Вікіпедії про черепахову графіку"
 
 msgid ":func:`clone`, :func:`undo`"
-msgstr ""
+msgstr ":func:`clone`, :func:`undo`"
 
 msgid "round_dance"
-msgstr ""
+msgstr "хоровод"
 
 msgid "dancing turtles rotating pairwise in opposite direction"
-msgstr ""
+msgstr "танцюючі черепахи, що обертаються попарно в протилежному напрямку"
 
 msgid "compound shapes, clone shapesize, tilt, get_shapepoly, update"
-msgstr ""
+msgstr "складені форми, клон shapesize, нахил, get_shapepoly, оновлення"
 
 msgid "sorting_animate"
-msgstr ""
+msgstr "sorting_animate"
 
 msgid "visual demonstration of different sorting methods"
-msgstr ""
+msgstr "наочна демонстрація різних методів сортування"
 
 msgid "simple alignment, randomization"
-msgstr ""
+msgstr "просте вирівнювання, рандомізація"
 
 msgid "tree"
-msgstr ""
+msgstr "pohon"
 
 msgid "a (graphical) breadth first tree (using generators)"
-msgstr ""
+msgstr "(графічне) дерево в ширину (з використанням генераторів)"
 
 msgid "two_canvases"
-msgstr ""
+msgstr "два_полотна"
 
 msgid "simple design"
-msgstr ""
+msgstr "простий дизайн"
 
 msgid "turtles on two canvases"
-msgstr ""
+msgstr "черепахи на двох полотнах"
 
 msgid "yinyang"
-msgstr ""
+msgstr "Інь Янь"
 
 msgid "another elementary example"
-msgstr ""
+msgstr "ще один елементарний приклад"
 
 msgid "Have fun!"
-msgstr ""
+msgstr "весело провести час!"
 
 msgid "Changes since Python 2.6"
-msgstr ""
+msgstr "Зміни з Python 2.6"
 
 msgid ""
 "The methods :func:`Turtle.tracer <tracer>`, :func:`Turtle.window_width "
@@ -3530,7 +3556,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes since Python 3.0"
-msgstr ""
+msgstr "Зміни з Python 3.0"
 
 msgid ""
 "The :class:`Turtle` methods :func:`shearfactor`, :func:`shapetransform` and :"

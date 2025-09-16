@@ -24789,7 +24789,7 @@ msgid "``It is deprecated to return a value!=None``"
 msgstr ""
 
 msgid "to"
-msgstr ""
+msgstr "ke"
 
 msgid ""
 "``It is deprecated to return a value that is not None from a test case``"
@@ -25790,10 +25790,10 @@ msgid ""
 msgstr ""
 
 msgid "``sqlite3.enable_shared_cache()``"
-msgstr ""
+msgstr "``sqlite3.enable_shared_cache()``"
 
 msgid "``sqlite3.OptimizedUnicode``"
-msgstr ""
+msgstr "``sqlite3.OptimizedUnicode``"
 
 msgid ""
 ":gh:`92530`: Fix an issue that occurred after interrupting :func:`threading."
@@ -38089,7 +38089,7 @@ msgid ":meth:`dict.items`"
 msgstr ""
 
 msgid ":func:`enumerate`"
-msgstr ""
+msgstr ":func:`enumerate`"
 
 msgid ":func:`functools.reduce`"
 msgstr ""
@@ -38110,7 +38110,7 @@ msgid ":func:`itertools.zip_longest`"
 msgstr ""
 
 msgid ":func:`zip`"
-msgstr ""
+msgstr ":func:`zip`"
 
 msgid ""
 "Previously, they could have become untracked by a prior garbage collection. "

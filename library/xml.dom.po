@@ -1197,109 +1197,125 @@ msgstr ""
 "призведе до появи цієї помилки."
 
 msgid "Raised when an attempt is made to modify the type of a node."
-msgstr ""
+msgstr "Викликається під час спроби змінити тип вузла."
 
 msgid ""
 "Raised when an attempt is made to use an object that is not defined or is no "
 "longer usable."
 msgstr ""
+"Викликається, коли робиться спроба використати об’єкт, який не визначено або "
+"більше не можна використовувати."
 
 msgid ""
 "If an attempt is made to change any object in a way that is not permitted "
 "with regard to the `Namespaces in XML <https://www.w3.org/TR/REC-xml-names/"
 ">`_ recommendation, this exception is raised."
 msgstr ""
+"Якщо робиться спроба змінити будь-який об’єкт у спосіб, який заборонено щодо "
+"рекомендації `Простори імен у XML <https://www.w3.org/TR/REC-xml-names/>`_, "
+"виникає цей виняток."
 
 msgid ""
 "Exception when a node does not exist in the referenced context.  For "
 "example, :meth:`NamedNodeMap.removeNamedItem` will raise this if the node "
 "passed in does not exist in the map."
 msgstr ""
+"Виняток, коли вузол не існує в контексті посилання. Наприклад, :meth:"
+"`NamedNodeMap.removeNamedItem` викличе це, якщо переданий вузол не існує на "
+"карті."
 
 msgid ""
 "Raised when the implementation does not support the requested type of object "
 "or operation."
 msgstr ""
+"Викликається, коли реалізація не підтримує потрібний тип об’єкта чи операції."
 
 msgid ""
 "This is raised if data is specified for a node which does not support data."
-msgstr ""
+msgstr "Це виникає, якщо дані вказані для вузла, який не підтримує дані."
 
 msgid ""
 "Raised on attempts to modify an object where modifications are not allowed "
 "(such as for read-only nodes)."
 msgstr ""
+"Викликається під час спроб модифікувати об’єкт, де модифікації заборонені "
+"(наприклад, для вузлів лише для читання)."
 
 msgid "Raised when an invalid or illegal string is specified."
-msgstr ""
+msgstr "Викликається, коли вказано недійсний або недопустимий рядок."
 
 msgid ""
 "Raised when a node is inserted in a different document than it currently "
 "belongs to, and the implementation does not support migrating the node from "
 "one document to the other."
 msgstr ""
+"Викликається, коли вузол вставляється в документ, відмінний від того, якому "
+"він наразі належить, і реалізація не підтримує переміщення вузла з одного "
+"документа в інший."
 
 msgid ""
 "The exception codes defined in the DOM recommendation map to the exceptions "
 "described above according to this table:"
 msgstr ""
+"Коди винятків, визначені в рекомендаціях DOM, відповідають описаним вище "
+"виняткам відповідно до цієї таблиці:"
 
 msgid "Constant"
-msgstr ""
+msgstr "Stała"
 
 msgid "Exception"
-msgstr ""
+msgstr "Виняток"
 
 msgid ":const:`DOMSTRING_SIZE_ERR`"
-msgstr ""
+msgstr ":const:`DOMSTRING_SIZE_ERR`"
 
 msgid ":exc:`DomstringSizeErr`"
-msgstr ""
+msgstr ":exc:`DomstringSizeErr`"
 
 msgid ":const:`HIERARCHY_REQUEST_ERR`"
-msgstr ""
+msgstr ":const:`HIERARCHY_REQUEST_ERR`"
 
 msgid ":exc:`HierarchyRequestErr`"
-msgstr ""
+msgstr ":exc:`HierarchyRequestErr`"
 
 msgid ":const:`INDEX_SIZE_ERR`"
-msgstr ""
+msgstr ":const:`INDEX_SIZE_ERR`"
 
 msgid ":exc:`IndexSizeErr`"
-msgstr ""
+msgstr ":exc:`IndexSizeErr`"
 
 msgid ":const:`INUSE_ATTRIBUTE_ERR`"
-msgstr ""
+msgstr ":const:`INUSE_ATTRIBUTE_ERR`"
 
 msgid ":exc:`InuseAttributeErr`"
-msgstr ""
+msgstr ":exc:`InuseAttributeErr`"
 
 msgid ":const:`INVALID_ACCESS_ERR`"
-msgstr ""
+msgstr ":const:`INVALID_ACCESS_ERR`"
 
 msgid ":exc:`InvalidAccessErr`"
-msgstr ""
+msgstr ":exc:`InvalidAccessErr`"
 
 msgid ":const:`INVALID_CHARACTER_ERR`"
-msgstr ""
+msgstr ":const:`INVALID_CHARACTER_ERR`"
 
 msgid ":exc:`InvalidCharacterErr`"
-msgstr ""
+msgstr ":exc:`InvalidCharacterErr`"
 
 msgid ":const:`INVALID_MODIFICATION_ERR`"
-msgstr ""
+msgstr ":const:`INVALID_MODIFICATION_ERR`"
 
 msgid ":exc:`InvalidModificationErr`"
-msgstr ""
+msgstr ":exc:`InvalidModificationErr`"
 
 msgid ":const:`INVALID_STATE_ERR`"
-msgstr ""
+msgstr ":const:`INVALID_STATE_ERR`"
 
 msgid ":exc:`InvalidStateErr`"
-msgstr ""
+msgstr ":exc:`InvalidStateErr`"
 
 msgid ":const:`NAMESPACE_ERR`"
-msgstr ""
+msgstr ":const:`NAMESPACE_ERR`"
 
 msgid ":exc:`NamespaceErr`"
 msgstr ":exc:`NamespaceErr`"
