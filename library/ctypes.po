@@ -3565,7 +3565,7 @@ msgid ""
 msgstr ""
 
 msgid "Exceptions"
-msgstr ""
+msgstr "Ausnahmen"
 
 msgid ""
 "This exception is raised when a foreign function call cannot convert one of "

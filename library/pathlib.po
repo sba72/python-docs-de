@@ -2287,7 +2287,7 @@ msgid ":meth:`Path.lchmod`"
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Fußnoten"
 
 msgid ""
 ":func:`os.path.relpath` calls :func:`~os.path.abspath` to make paths "
