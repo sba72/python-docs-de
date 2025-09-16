@@ -190,7 +190,7 @@ msgid ""
 msgstr ""
 
 msgid "Introduction"
-msgstr ""
+msgstr "Einführung"
 
 msgid ""
 ":mod:`optparse` is a more convenient, flexible, and powerful library for "
