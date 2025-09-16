@@ -2392,13 +2392,13 @@ msgid "target"
 msgstr ""
 
 msgid "list"
-msgstr ""
+msgstr "lista"
 
 msgid "object"
-msgstr ""
+msgstr "obiekt"
 
 msgid "sequence"
-msgstr ""
+msgstr "sekwencja"
 
 msgid "built-in function"
 msgstr ""
@@ -2422,13 +2422,13 @@ msgid "except clause"
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "sys"
 msgstr "sys"
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid "except_star"
 msgstr ""
@@ -2473,7 +2473,7 @@ msgid "AS pattern, OR pattern, capture pattern, wildcard pattern"
 msgstr ""
 
 msgid "parameter"
-msgstr ""
+msgstr "parameter"
 
 msgid "function definition"
 msgstr ""
@@ -2482,13 +2482,13 @@ msgid "def"
 msgstr ""
 
 msgid "function"
-msgstr ""
+msgstr "funkcja"
 
 msgid "definition"
 msgstr ""
 
 msgid "name"
-msgstr ""
+msgstr "nazwa"
 
 msgid "binding"
 msgstr ""
@@ -2512,7 +2512,7 @@ msgid "value"
 msgstr "Wert"
 
 msgid "argument"
-msgstr ""
+msgstr "argument"
 
 msgid "= (equals)"
 msgstr ""
@@ -2536,25 +2536,25 @@ msgid "function annotations"
 msgstr ""
 
 msgid "lambda"
-msgstr ""
+msgstr "lambda"
 
 msgid "expression"
-msgstr ""
+msgstr "wyrażenie"
 
 msgid "class"
-msgstr ""
+msgstr "klasa"
 
 msgid "execution"
 msgstr ""
 
 msgid "frame"
-msgstr ""
+msgstr "frame"
 
 msgid "inheritance"
 msgstr ""
 
 msgid "docstring"
-msgstr ""
+msgstr "docstring"
 
 msgid "class definition"
 msgstr ""

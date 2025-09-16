@@ -4021,7 +4021,7 @@ msgid ""
 msgstr ""
 
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Ucapan Terima Kasih"
 
 msgid ""
 "The author would like to thank the following people for offering "
@@ -4031,7 +4031,7 @@ msgid ""
 msgstr ""
 
 msgid "universal newlines"
-msgstr ""
+msgstr "uniwersalne nowe linie"
 
 msgid "What's new"
 msgstr ""

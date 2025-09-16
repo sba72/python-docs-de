@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
@@ -461,7 +461,7 @@ msgid ""
 msgstr ""
 
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguracja"
 
 msgid ""
 "Python install manager is configured with a hierarchy of configuration "
@@ -1188,7 +1188,7 @@ msgid ""
 msgstr ""
 
 msgid "Embedding Python"
-msgstr ""
+msgstr "Załączanie programu interpretującego język pytonowski"
 
 msgid ""
 "Applications written in native code often require some form of scripting "
@@ -1828,7 +1828,7 @@ msgid "Perform a system-wide installation."
 msgstr ""
 
 msgid "0"
-msgstr ""
+msgstr "0"
 
 msgid "TargetDir"
 msgstr ""
@@ -1878,7 +1878,7 @@ msgid "Create file associations if the launcher is also installed."
 msgstr ""
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "CompileAll"
 msgstr ""
@@ -2636,7 +2636,7 @@ msgid ""
 msgstr ""
 
 msgid "Value"
-msgstr ""
+msgstr "Wartość"
 
 msgid "RC_BAD_VENV_CFG"
 msgstr ""
