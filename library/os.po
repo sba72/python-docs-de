@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-09-11 14:18+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,7 +92,6 @@ msgid ""
 "The :mod:`platform` module provides detailed checks for the system's "
 "identity."
 msgstr ""
-"Модуль :mod:`platform` забезпечує детальну перевірку ідентичності системи."
 
 msgid "File Names, Command Line Arguments, and Environment Variables"
 msgstr ""
@@ -483,7 +478,7 @@ msgid ""
 msgstr ""
 
 msgid "Added support for Windows."
-msgstr "Dodane wsparcie dla Windowsa."
+msgstr ""
 
 msgid ""
 "Get program scheduling priority.  The value *which* is one of :const:"
@@ -1169,12 +1164,9 @@ msgid ""
 "exception, the function now retries the system call instead of raising an :"
 "exc:`InterruptedError` exception (see :pep:`475` for the rationale)."
 msgstr ""
-"Jeśli wywołanie systemowe zostanie przerwane, a program obsługi sygnału nie "
-"rzuci wyjątku, funkcji ponawia teraz wywołanie systemowe zamiast rzucenja "
-"wyjątku :exc:`InterruptedError` (zobacz :pep:`475` dla uzasadnienia)."
 
 msgid "Accepts a :term:`path-like object`."
-msgstr "Menerima sebuah :term:`path-like object`."
+msgstr ""
 
 msgid ""
 "The following constants are options for the *flags* parameter to the :func:"
@@ -2776,7 +2768,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 ">>> import os\n"
@@ -5369,13 +5361,13 @@ msgid "effective id"
 msgstr ""
 
 msgid "process"
-msgstr "процес"
+msgstr ""
 
 msgid "group"
 msgstr ""
 
 msgid "id"
-msgstr "id"
+msgstr ""
 
 msgid "id of parent"
 msgstr ""
@@ -5402,7 +5394,7 @@ msgid "deleting"
 msgstr ""
 
 msgid "module"
-msgstr "moduł"
+msgstr ""
 
 msgid "pty"
 msgstr ""
