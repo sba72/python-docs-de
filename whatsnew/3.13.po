@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"POT-Creation-Date: 2025-09-07 14:14+0000\n"
+"PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -1034,7 +1034,7 @@ msgid ""
 msgstr ""
 
 msgid "ctypes"
-msgstr "ctypes"
+msgstr ""
 
 msgid ""
 "As a consequence of necessary internal refactoring, initialization of "
@@ -1602,7 +1602,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr "time"
+msgstr ""
 
 msgid ""
 "On Windows, :func:`~time.monotonic` now uses the "
@@ -1682,7 +1682,7 @@ msgid ""
 msgstr ""
 
 msgid "traceback"
-msgstr "traceback"
+msgstr ""
 
 msgid ""
 "Add the :attr:`~traceback.TracebackException.exc_type_str` attribute to :"
@@ -2056,7 +2056,7 @@ msgid ""
 msgstr ""
 
 msgid "2to3"
-msgstr "2to3"
+msgstr ""
 
 msgid ""
 "Remove the :program:`2to3` program and the :mod:`!lib2to3` module, "
@@ -3626,16 +3626,16 @@ msgid "The following functions are now included in the Limited C API:"
 msgstr ""
 
 msgid ":c:func:`PyMem_RawMalloc`"
-msgstr ":c:func:`PyMem_RawMalloc`"
+msgstr ""
 
 msgid ":c:func:`PyMem_RawCalloc`"
-msgstr ":c:func:`PyMem_RawCalloc`"
+msgstr ""
 
 msgid ":c:func:`PyMem_RawRealloc`"
-msgstr ":c:func:`PyMem_RawRealloc`"
+msgstr ""
 
 msgid ":c:func:`PyMem_RawFree`"
-msgstr ":c:func:`PyMem_RawFree`"
+msgstr ""
 
 msgid ":c:func:`PySys_Audit`"
 msgstr ""
