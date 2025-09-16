@@ -20642,13 +20642,13 @@ msgid ":gh:`90656`: Add platform triplets for 64-bit LoongArch:"
 msgstr ""
 
 msgid "loongarch64-linux-gnusf"
-msgstr ""
+msgstr "loongarch64-linux-gnusf"
 
 msgid "loongarch64-linux-gnuf32"
-msgstr ""
+msgstr "loongarch64-linux-gnuf32"
 
 msgid "loongarch64-linux-gnu"
-msgstr ""
+msgstr "loongarch64-linux-gnu"
 
 msgid "Patch by Zhang Na."
 msgstr ""
