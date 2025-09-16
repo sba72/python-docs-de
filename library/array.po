@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-08-15 14:18+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,28 +33,28 @@ msgid "Type code"
 msgstr ""
 
 msgid "C Type"
-msgstr "typ języka C"
+msgstr ""
 
 msgid "Python Type"
-msgstr "typ Pythona"
+msgstr ""
 
 msgid "Minimum size in bytes"
 msgstr ""
 
 msgid "Notes"
-msgstr "Notatki"
+msgstr ""
 
 msgid "``'b'``"
-msgstr "``'b'``"
+msgstr ""
 
 msgid "signed char"
 msgstr ""
 
 msgid "int"
-msgstr "int"
+msgstr ""
 
 msgid "1"
-msgstr "1"
+msgstr ""
 
 msgid "``'B'``"
 msgstr ""
@@ -67,7 +63,7 @@ msgid "unsigned char"
 msgstr ""
 
 msgid "``'u'``"
-msgstr "``'u'``"
+msgstr ""
 
 msgid "wchar_t"
 msgstr ""
@@ -76,22 +72,22 @@ msgid "Unicode character"
 msgstr ""
 
 msgid "2"
-msgstr "2"
+msgstr ""
 
 msgid "\\(1)"
-msgstr "\\(1)"
+msgstr ""
 
 msgid "``'w'``"
-msgstr "``'w'``"
+msgstr ""
 
 msgid "Py_UCS4"
 msgstr ""
 
 msgid "4"
-msgstr "4"
+msgstr ""
 
 msgid "\\(2)"
-msgstr "\\(2)"
+msgstr ""
 
 msgid "``'h'``"
 msgstr ""
@@ -106,7 +102,7 @@ msgid "unsigned short"
 msgstr ""
 
 msgid "``'i'``"
-msgstr "``'i'``"
+msgstr ""
 
 msgid "signed int"
 msgstr ""
@@ -115,7 +111,7 @@ msgid "``'I'``"
 msgstr ""
 
 msgid "unsigned int"
-msgstr "nieoznaczony typ int"
+msgstr ""
 
 msgid "``'l'``"
 msgstr ""
@@ -127,7 +123,7 @@ msgid "``'L'``"
 msgstr ""
 
 msgid "unsigned long"
-msgstr "nieoznaczony typ długi"
+msgstr ""
 
 msgid "``'q'``"
 msgstr ""
@@ -136,28 +132,28 @@ msgid "signed long long"
 msgstr ""
 
 msgid "8"
-msgstr "8"
+msgstr ""
 
 msgid "``'Q'``"
 msgstr ""
 
 msgid "unsigned long long"
-msgstr "unsigned long long"
+msgstr ""
 
 msgid "``'f'``"
-msgstr "``'f'``"
+msgstr ""
 
 msgid "float"
-msgstr "typ (float) zmiennoprzecinkowy pojedynczej precyzji"
+msgstr ""
 
 msgid "``'d'``"
-msgstr "``'d'``"
+msgstr ""
 
 msgid "double"
 msgstr ""
 
 msgid "Notes:"
-msgstr "Uwagi:"
+msgstr ""
 
 msgid "It can be 16 bits or 32 bits depending on the platform."
 msgstr ""

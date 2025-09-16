@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 18:59+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Bytes Objects"
-msgstr "Bayt Nesneleri"
+msgstr ""
 
 msgid ""
 "These functions raise :exc:`TypeError` when expecting a bytes parameter and "
@@ -69,118 +65,115 @@ msgid ""
 msgstr ""
 
 msgid "Format Characters"
-msgstr "Формат символів"
+msgstr ""
 
 msgid "Type"
-msgstr "Typ"
+msgstr ""
 
 msgid "Comment"
-msgstr "komentarz"
+msgstr ""
 
 msgid "``%%``"
-msgstr "``%%``"
+msgstr ""
 
 msgid "*n/a*"
-msgstr "*n/a*"
+msgstr ""
 
 msgid "The literal % character."
-msgstr "Літеральний символ %."
+msgstr ""
 
 msgid "``%c``"
-msgstr "``%c``"
+msgstr ""
 
 msgid "int"
-msgstr "int"
+msgstr ""
 
 msgid "A single byte, represented as a C int."
 msgstr ""
 
 msgid "``%d``"
-msgstr "``%d``"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%d\")``. [1]_"
-msgstr "Еквівалент ``printf(\"%d\")``. [1]_"
+msgstr ""
 
 msgid "``%u``"
-msgstr "``%u``"
+msgstr ""
 
 msgid "unsigned int"
-msgstr "nieoznaczony typ int"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%u\")``. [1]_"
-msgstr "Еквівалент ``printf(\"%u\")``. [1]_"
+msgstr ""
 
 msgid "``%ld``"
 msgstr ""
 
 msgid "long"
-msgstr "long"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%ld\")``. [1]_"
-msgstr "Еквівалент ``printf(\"%ld\")``. [1]_"
+msgstr ""
 
 msgid "``%lu``"
 msgstr ""
 
 msgid "unsigned long"
-msgstr "nieoznaczony typ długi"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%lu\")``. [1]_"
-msgstr "Еквівалент ``printf(\"%lu\")``. [1]_"
+msgstr ""
 
 msgid "``%zd``"
 msgstr ""
 
 msgid ":c:type:`\\ Py_ssize_t`"
-msgstr ":c:type:`\\ Py_ssize_t`"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%zd\")``. [1]_"
-msgstr "Еквівалент ``printf(\"%zd\")``. [1]_"
+msgstr ""
 
 msgid "``%zu``"
 msgstr ""
 
 msgid "size_t"
-msgstr "size_t"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%zu\")``. [1]_"
-msgstr "Еквівалент ``printf(\"%zu\")``. [1]_"
+msgstr ""
 
 msgid "``%i``"
-msgstr "``%i``"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%i\")``. [1]_"
-msgstr "Еквівалент ``printf(\"%i\")``. [1]_"
+msgstr ""
 
 msgid "``%x``"
-msgstr "``%x``"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%x\")``. [1]_"
-msgstr "Еквівалент ``printf(\"%x\")``. [1]_"
+msgstr ""
 
 msgid "``%s``"
-msgstr "``%s``"
+msgstr ""
 
 msgid "const char\\*"
-msgstr "const char\\*"
+msgstr ""
 
 msgid "A null-terminated C character array."
-msgstr "Масив символів C із закінченням нулем."
+msgstr ""
 
 msgid "``%p``"
-msgstr "``%p``"
+msgstr ""
 
 msgid "const void\\*"
-msgstr "const void\\*"
+msgstr ""
 
 msgid ""
 "The hex representation of a C pointer. Mostly equivalent to "
 "``printf(\"%p\")`` except that it is guaranteed to start with the literal "
 "``0x`` regardless of what the platform's ``printf`` yields."
 msgstr ""
-"Шістнадцяткове представлення покажчика C. Здебільшого еквівалентний "
-"``printf(\"%p\")`` за винятком того, що він гарантовано починається з "
-"літералу ``0x`` незалежно від того, що дає ``printf`` платформи."
 
 msgid ""
 "An unrecognized format character causes all the rest of the format string to "
@@ -291,7 +284,7 @@ msgid ""
 msgstr ""
 
 msgid "object"
-msgstr "obiekt"
+msgstr ""
 
 msgid "bytes"
-msgstr "байтів"
+msgstr ""
