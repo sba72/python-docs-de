@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Dennis Betz, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"POT-Creation-Date: 2025-09-23 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Dennis Betz, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -184,7 +185,7 @@ msgid ""
 msgstr ""
 
 msgid "Is a ``*.pyd`` file the same as a DLL?"
-msgstr ""
+msgstr "Sind ``*.pyd``-Dateien das gleiche wie eine DLL?"
 
 msgid ""
 "Yes, .pyd files are dll's, but there are a few differences.  If you have a "
@@ -327,6 +328,8 @@ msgstr ""
 
 msgid "How do I keep editors from inserting tabs into my Python source?"
 msgstr ""
+"Wie halte ich andere Editoren davon auf, \"Tabs\" in meinen Python-Code zu "
+"schreiben?"
 
 msgid ""
 "The FAQ does not recommend using tabs, and the Python style guide, :pep:`8`, "
@@ -349,7 +352,7 @@ msgid ""
 msgstr ""
 
 msgid "How do I check for a keypress without blocking?"
-msgstr ""
+msgstr "Wie prüfe ich auf einen Tastendruck ohne zu blockieren?"
 
 msgid ""
 "Use the :mod:`msvcrt` module.  This is a standard Windows-specific extension "
@@ -358,7 +361,7 @@ msgid ""
 msgstr ""
 
 msgid "How do I solve the missing api-ms-win-crt-runtime-l1-1-0.dll error?"
-msgstr ""
+msgstr "Wie löse ich \"missing api-ms-win-crt-runtime-l1-1-0.dll\" Fehler?"
 
 msgid ""
 "This can occur on Python 3.5 and later when using Windows 8.1 or earlier "
