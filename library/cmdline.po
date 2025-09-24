@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-08 02:53-0300\n"
+"POT-Creation-Date: 2025-09-23 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,64 +22,64 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Modules command-line interface (CLI)"
-msgstr ""
+msgstr "Module mit Befehlszeilenschnittstelle (CLI)"
 
 msgid "The following modules have a command-line interface."
-msgstr ""
+msgstr "Die folgenden Module haben eine Befehlszeilenschnittstelle"
 
 msgid ":ref:`ast <ast-cli>`"
-msgstr ""
+msgstr ":ref:`ast <ast-cli>`"
 
 msgid ":ref:`asyncio <asyncio-cli>`"
-msgstr ""
+msgstr ":ref:`asyncio <asyncio-cli>`"
 
 msgid ":mod:`base64`"
-msgstr ""
+msgstr ":mod:`base64`"
 
 msgid ":ref:`calendar <calendar-cli>`"
-msgstr ""
+msgstr ":ref:`calendar <calendar-cli>`"
 
 msgid ":mod:`code`"
-msgstr ""
+msgstr ":mod:`code`"
 
 msgid ":ref:`compileall <compileall-cli>`"
-msgstr ""
+msgstr ":ref:`compileall <compileall-cli>`"
 
 msgid ":mod:`cProfile`: see :ref:`profile <profile-cli>`"
-msgstr ""
+msgstr ":mod:`cProfile`: siehe :ref:`profile <profile-cli>`"
 
 msgid ":ref:`dis <dis-cli>`"
-msgstr ""
+msgstr ":ref:`dis <dis-cli>`"
 
 msgid ":ref:`doctest <doctest-cli>`"
 msgstr ""
 
 msgid ":mod:`!encodings.rot_13`"
-msgstr ""
+msgstr ":mod:`!encodings.rot_13`"
 
 msgid ":mod:`ensurepip`"
-msgstr ""
+msgstr ":mod:`ensurepip`"
 
 msgid ":mod:`filecmp`"
-msgstr ""
+msgstr ":mod:`filecmp`"
 
 msgid ":mod:`fileinput`"
-msgstr ""
+msgstr ":mod:`fileinput`"
 
 msgid ":mod:`ftplib`"
-msgstr ""
+msgstr ":mod:`ftplib`"
 
 msgid ":ref:`gzip <gzip-cli>`"
-msgstr ""
+msgstr ":ref:`gzip <gzip-cli>`"
 
 msgid ":ref:`http.server <http-server-cli>`"
-msgstr ""
+msgstr ":ref:`http.server <http-server-cli>`"
 
 msgid ":mod:`!idlelib`"
-msgstr ""
+msgstr ":mod:`!idlelib`"
 
 msgid ":ref:`inspect <inspect-module-cli>`"
-msgstr ""
+msgstr ":ref:`inspect <inspect-module-cli>`"
 
 msgid ":ref:`json <json-commandline>`"
 msgstr ""
@@ -84,46 +88,46 @@ msgid ":ref:`mimetypes <mimetypes-cli>`"
 msgstr ""
 
 msgid ":mod:`pdb`"
-msgstr ""
+msgstr ":mod:`pdb`"
 
 msgid ":ref:`pickle <pickle-cli>`"
 msgstr ""
 
 msgid ":ref:`pickletools <pickletools-cli>`"
-msgstr ""
+msgstr ":ref:`pickletools <pickletools-cli>`"
 
 msgid ":ref:`platform <platform-cli>`"
 msgstr ""
 
 msgid ":mod:`poplib`"
-msgstr ""
+msgstr ":mod:`poplib`"
 
 msgid ":ref:`profile <profile-cli>`"
-msgstr ""
+msgstr ":ref:`profile <profile-cli>`"
 
 msgid ":mod:`pstats`"
-msgstr ""
+msgstr ":mod:`pstats`"
 
 msgid ":ref:`py_compile <py_compile-cli>`"
-msgstr ""
+msgstr ":ref:`py_compile <py_compile-cli>`"
 
 msgid ":mod:`pyclbr`"
-msgstr ""
+msgstr ":mod:`pyclbr`"
 
 msgid ":mod:`pydoc`"
-msgstr ""
+msgstr ":mod:`pydoc`"
 
 msgid ":mod:`quopri`"
-msgstr ""
+msgstr ":mod:`quopri`"
 
 msgid ":ref:`random <random-cli>`"
 msgstr ""
 
 msgid ":mod:`runpy`"
-msgstr ""
+msgstr ":mod:`runpy`"
 
 msgid ":ref:`site <site-commandline>`"
-msgstr ""
+msgstr ":ref:`site <site-commandline>`"
 
 msgid ":ref:`sqlite3 <sqlite3-cli>`"
 msgstr ""
@@ -132,46 +136,47 @@ msgid ":ref:`symtable <symtable-cli>`"
 msgstr ""
 
 msgid ":ref:`sysconfig <sysconfig-cli>`"
-msgstr ""
+msgstr ":ref:`sysconfig <sysconfig-cli>`"
 
 msgid ":mod:`tabnanny`"
-msgstr ""
+msgstr ":mod:`tabnanny`"
 
 msgid ":ref:`tarfile <tarfile-commandline>`"
-msgstr ""
+msgstr ":ref:`tarfile <tarfile-commandline>`"
 
 msgid ":mod:`!this`"
-msgstr ""
+msgstr ":mod:`!this`"
 
 msgid ":ref:`timeit <timeit-command-line-interface>`"
-msgstr ""
+msgstr ":ref:`timeit <timeit-command-line-interface>`"
 
 msgid ":ref:`tokenize <tokenize-cli>`"
-msgstr ""
+msgstr ":ref:`tokenize <tokenize-cli>`"
 
 msgid ":ref:`trace <trace-cli>`"
-msgstr ""
+msgstr ":ref:`trace <trace-cli>`"
 
 msgid ":mod:`turtledemo`"
-msgstr ""
+msgstr ":mod:`turtledemo`"
 
 msgid ":ref:`unittest <unittest-command-line-interface>`"
-msgstr ""
+msgstr ":ref:`unittest <unittest-command-line-interface>`"
 
 msgid ":ref:`uuid <uuid-cli>`"
 msgstr ""
 
 msgid ":mod:`venv`"
-msgstr ""
+msgstr ":mod:`venv`"
 
 msgid ":mod:`webbrowser`"
-msgstr ""
+msgstr ":mod:`webbrowser`"
 
 msgid ":ref:`zipapp <zipapp-command-line-interface>`"
-msgstr ""
+msgstr ":ref:`zipapp <zipapp-command-line-interface>`"
 
 msgid ":ref:`zipfile <zipfile-commandline>`"
-msgstr ""
+msgstr ":ref:`zipfile <zipfile-commandline>`"
 
 msgid "See also the :ref:`Python command-line interface <using-on-general>`."
 msgstr ""
+"Siehe auch :ref:`Python Befehlszeilenschnittstelle <using-on-general>`."
