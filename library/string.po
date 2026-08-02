@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR Swen Bachmann <142266608+sba72@users.noreply.github.com>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-25 14:12+0000\n"
-"PO-Revision-Date: 2025-09-16 00:01+0000\n"
+"PO-Revision-Date: 2026-08-02 12:48+0000\n"
+"Last-Translator: Swen Bachmann <142266608+sba72@users.noreply.github.com>\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
 
 msgid ":mod:`!string` --- Common string operations"
 msgstr ":mod:`!string` --- Allgemeine Zeichenkettenoperationen"
@@ -25,10 +24,10 @@ msgid "**Source code:** :source:`Lib/string.py`"
 msgstr "*Quellcode:** :source:`Lib/string.py`"
 
 msgid ":ref:`textseq`"
-msgstr ":ref:`textseq`\n"
+msgstr ":ref:`textseq`"
 
 msgid ":ref:`string-methods`"
-msgstr ":ref:`string-methods`\n"
+msgstr ":ref:`string-methods`"
 
 msgid "String constants"
 msgstr "String-Konstanten"
@@ -37,120 +36,118 @@ msgid "The constants defined in this module are:"
 msgstr "Die in diesem Modul definierten Konstanten sind:"
 
 msgid "The concatenation of the :const:`ascii_lowercase` and :const:`ascii_uppercase` constants described below.  This value is not locale-dependent."
-msgstr ""
-"Die Konkatenation der unten beschriebenen Konstanten :const:`ascii_lowercase` \"\n"
-"\"und :const:`ascii_uppercase`. Dieser Wert ist nicht locale-abhängig.\n"
+msgstr "Die Konkatenation der unten beschriebenen Konstanten :const:`ascii_lowercase` und :const:`ascii_uppercase`. Dieser Wert ist nicht locale-abhängig."
 
 msgid "The lowercase letters ``'abcdefghijklmnopqrstuvwxyz'``.  This value is not locale-dependent and will not change."
-msgstr "Die Kleinbuchstaben ``'abcdefghijklmnopqrstuvwxyz'``. Dieser Wert ist nicht locale-abhängig und ändert sich nicht.\n"
+msgstr "Die Kleinbuchstaben ``'abcdefghijklmnopqrstuvwxyz'``. Dieser Wert ist nicht locale-abhängig und ändert sich nicht."
 
 msgid "The uppercase letters ``'ABCDEFGHIJKLMNOPQRSTUVWXYZ'``.  This value is not locale-dependent and will not change."
-msgstr "Die Großbuchstaben ``'ABCDEFGHIJKLMNOPQRSTUVWXYZ'``. Dieser Wert ist nicht locale-abhängig und ändert sich nicht.\n"
+msgstr "Die Großbuchstaben ``'ABCDEFGHIJKLMNOPQRSTUVWXYZ'``. Dieser Wert ist nicht locale-abhängig und ändert sich nicht."
 
 msgid "The string ``'0123456789'``."
-msgstr "Die Zeichenkette ``'0123456789'``.\n"
+msgstr "Die Zeichenkette ``'0123456789'``."
 
 msgid "The string ``'0123456789abcdefABCDEF'``."
-msgstr "Die Zeichenkette ``'0123456789abcdefABCDEF'``.\n"
+msgstr "Die Zeichenkette ``'0123456789abcdefABCDEF'``."
 
 msgid "The string ``'01234567'``."
-msgstr "Die Zeichenkette ``'01234567'``.\n"
+msgstr "Die Zeichenkette ``'01234567'``."
 
 msgid "String of ASCII characters which are considered punctuation characters in the ``C`` locale: ``!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~``."
-msgstr "Zeichenkette von ASCII-Zeichen, die im ``C``-locale als Satzzeichen gelten: ``!\\\"#$%&'()*+,-./:;<=>?@[\\\\]^_`{|}~``.\n"
+msgstr "Zeichenkette von ASCII-Zeichen, die im ``C``-locale als Satzzeichen gelten: ``!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~``."
 
 msgid "String of ASCII characters which are considered printable by Python. This is a combination of :const:`digits`, :const:`ascii_letters`, :const:`punctuation`, and :const:`whitespace`."
-msgstr "Zeichenkette von ASCII-Zeichen, die in Python als druckbar gelten. Dies ist eine Kombination aus :const:`digits`, :const:`ascii_letters`, :const:`punctuation` und :const:`whitespace`.\n"
+msgstr "Zeichenkette von ASCII-Zeichen, die in Python als druckbar gelten. Dies ist eine Kombination aus :const:`digits`, :const:`ascii_letters`, :const:`punctuation` und :const:`whitespace`."
 
 msgid "By design, :meth:`string.printable.isprintable() <str.isprintable>` returns :const:`False`. In particular, ``string.printable`` is not printable in the POSIX sense (see :manpage:`LC_CTYPE <locale(5)>`)."
-msgstr "Designbedingt gibt :meth:`string.printable.isprintable() <str.isprintable>` :const:`False` zurück. Insbesondere ist ``string.printable`` im POSIX-Sinn nicht druckbar (siehe :manpage:`LC_CTYPE <locale(5)>`).\n"
+msgstr "Designbedingt gibt :meth:`string.printable.isprintable() <str.isprintable>` :const:`False` zurück. Insbesondere ist ``string.printable`` im POSIX-Sinn nicht druckbar (siehe :manpage:`LC_CTYPE <locale(5)>`)."
 
 msgid "A string containing all ASCII characters that are considered whitespace. This includes the characters space, tab, linefeed, return, formfeed, and vertical tab."
-msgstr "Eine Zeichenkette, die alle ASCII-Zeichen enthält, die als Whitespace gelten. Dies umfasst die Zeichen Leerzeichen, Tabulator, Zeilenvorschub (linefeed), Zeilenrücklauf (return), Seitenvorschub (formfeed) und vertikaler Tabulator.\n"
+msgstr "Eine Zeichenkette, die alle ASCII-Zeichen enthält, die als Whitespace gelten. Dies umfasst die Zeichen Leerzeichen, Tabulator, Zeilenvorschub (linefeed), Zeilenrücklauf (return), Seitenvorschub (formfeed) und vertikaler Tabulator."
 
 msgid "Custom String Formatting"
-msgstr "Benutzerdefinierte Zeichenkettenformatierung\n"
+msgstr "Benutzerdefinierte Zeichenkettenformatierung"
 
 msgid "The built-in string class provides the ability to do complex variable substitutions and value formatting via the :meth:`~str.format` method described in :pep:`3101`.  The :class:`Formatter` class in the :mod:`string` module allows you to create and customize your own string formatting behaviors using the same implementation as the built-in :meth:`~str.format` method."
-msgstr "Die eingebaute String-Klasse bietet die Möglichkeit, komplexe Variablensubstitutionen und Werteformatierungen über die in :pep:`3101` beschriebene Methode :meth:`~str.format` durchzuführen. Die Klasse :class:`Formatter` im Modul :mod:`string` ermöglicht es, dein eigenes Verhalten für die Zeichenkettenformatierung mit derselben Implementierung wie die eingebaute Methode :meth:`~str.format` zu erstellen und anzupassen.\n"
+msgstr "Die eingebaute String-Klasse bietet die Möglichkeit, komplexe Variablensubstitutionen und Werteformatierungen über die in :pep:`3101` beschriebene Methode :meth:`~str.format` durchzuführen. Die Klasse :class:`Formatter` im Modul :mod:`string` ermöglicht es, dein eigenes Verhalten für die Zeichenkettenformatierung mit derselben Implementierung wie die eingebaute Methode :meth:`~str.format` zu erstellen und anzupassen."
 
 msgid "The :class:`Formatter` class has the following public methods:"
-msgstr "Die Klasse :class:`Formatter` hat die folgenden öffentlichen Methoden:\n"
+msgstr "Die Klasse :class:`Formatter` hat die folgenden öffentlichen Methoden:"
 
 msgid "The primary API method.  It takes a format string and an arbitrary set of positional and keyword arguments. It is just a wrapper that calls :meth:`vformat`."
-msgstr "Die Haupt-API-Methode. Sie nimmt einen Formatstring sowie eine beliebige Menge an Positions- und Schlüsselwort-Argumenten entgegen. Sie ist nur ein Wrapper, der :meth:`vformat` aufruft.\n"
+msgstr "Die Haupt-API-Methode. Sie nimmt einen Formatstring sowie eine beliebige Menge an Positions- und Schlüsselwort-Argumenten entgegen. Sie ist nur ein Wrapper, der :meth:`vformat` aufruft."
 
 msgid "A format string argument is now :ref:`positional-only <positional-only_parameter>`."
-msgstr "Ein Formatstring-Argument ist jetzt :ref:`positional-only <positional-only_parameter>`.\n"
+msgstr "Ein Formatstring-Argument ist jetzt :ref:`positional-only <positional-only_parameter>`."
 
 msgid "This function does the actual work of formatting.  It is exposed as a separate function for cases where you want to pass in a predefined dictionary of arguments, rather than unpacking and repacking the dictionary as individual arguments using the ``*args`` and ``**kwargs`` syntax.  :meth:`vformat` does the work of breaking up the format string into character data and replacement fields.  It calls the various methods described below."
-msgstr "Diese Funktion führt die eigentliche Formatierungsarbeit durch. Sie ist als separate Funktion für Fälle verfügbar, in denen du ein vordefiniertes Dictionary von Argumenten übergeben möchtest, anstatt das Dictionary mit der Syntax ``*args`` und ``**kwargs`` als einzelne Argumente zu entpacken und neu zu verpacken. :meth:`vformat` übernimmt das Aufteilen des Formatstrings in Zeichendaten und Ersetzungsfelder. Sie ruft die verschiedenen unten beschriebenen Methoden auf.\n"
+msgstr "Diese Funktion führt die eigentliche Formatierungsarbeit durch. Sie ist als separate Funktion für Fälle verfügbar, in denen du ein vordefiniertes Dictionary von Argumenten übergeben möchtest, anstatt das Dictionary mit der Syntax ``*args`` und ``**kwargs`` als einzelne Argumente zu entpacken und neu zu verpacken. :meth:`vformat` übernimmt das Aufteilen des Formatstrings in Zeichendaten und Ersetzungsfelder. Sie ruft die verschiedenen unten beschriebenen Methoden auf."
 
 msgid "In addition, the :class:`Formatter` defines a number of methods that are intended to be replaced by subclasses:"
-msgstr "Darüber hinaus definiert :class:`Formatter` eine Reihe von Methoden, die dazu gedacht sind, von Unterklassen überschrieben zu werden:\n"
+msgstr "Darüber hinaus definiert :class:`Formatter` eine Reihe von Methoden, die dazu gedacht sind, von Unterklassen überschrieben zu werden:"
 
 msgid "Loop over the format_string and return an iterable of tuples (*literal_text*, *field_name*, *format_spec*, *conversion*).  This is used by :meth:`vformat` to break the string into either literal text, or replacement fields."
-msgstr "Durchläuft den format_string und gibt ein Iterable aus Tupeln (*literal_text*, *field_name*, *format_spec*, *conversion*) zurück. Dies wird von :meth:`vformat` verwendet, um die Zeichenkette entweder in Literaltext oder Ersetzungsfelder zu zerlegen.\n"
+msgstr "Durchläuft den format_string und gibt ein Iterable aus Tupeln (*literal_text*, *field_name*, *format_spec*, *conversion*) zurück. Dies wird von :meth:`vformat` verwendet, um die Zeichenkette entweder in Literaltext oder Ersetzungsfelder zu zerlegen."
 
 msgid "The values in the tuple conceptually represent a span of literal text followed by a single replacement field.  If there is no literal text (which can happen if two replacement fields occur consecutively), then *literal_text* will be a zero-length string.  If there is no replacement field, then the values of *field_name*, *format_spec* and *conversion* will be ``None``. The value of *field_name* is unmodified and auto-numbering of non-numbered positional fields is done by :meth:`vformat`."
-msgstr "Die Werte im Tupel repräsentieren konzeptionell einen Abschnitt von Literaltext, gefolgt von einem einzelnen Ersetzungsfeld. Wenn kein Literaltext vorhanden ist (was passieren kann, wenn zwei Ersetzungsfelder aufeinanderfolgen), ist *literal_text* eine Zeichenkette der Länge Null. Wenn kein Ersetzungsfeld vorhanden ist, sind die Werte von *field_name*, *format_spec* und *conversion* gleich ``None``. Der Wert von *field_name* wird nicht verändert und die automatische Nummerierung nicht nummerierter Positionsfelder erfolgt durch :meth:`vformat`.\n"
+msgstr "Die Werte im Tupel repräsentieren konzeptionell einen Abschnitt von Literaltext, gefolgt von einem einzelnen Ersetzungsfeld. Wenn kein Literaltext vorhanden ist (was passieren kann, wenn zwei Ersetzungsfelder aufeinanderfolgen), ist *literal_text* eine Zeichenkette der Länge Null. Wenn kein Ersetzungsfeld vorhanden ist, sind die Werte von *field_name*, *format_spec* und *conversion* gleich ``None``. Der Wert von *field_name* wird nicht verändert und die automatische Nummerierung nicht nummerierter Positionsfelder erfolgt durch :meth:`vformat`."
 
 msgid "Given *field_name*, convert it to an object to be formatted. Auto-numbering of *field_name* returned from :meth:`parse` is done by :meth:`vformat` before calling this method.  Returns a tuple (obj, used_key). The default version takes strings of the form defined in :pep:`3101`, such as \"0[name]\" or \"label.title\". *args* and *kwargs* are as passed in to :meth:`vformat`. The return value *used_key* has the same meaning as the *key* parameter to :meth:`get_value`."
-msgstr "Konvertiert den übergebenen *field_name* in ein zu formatierendes Objekt. Die automatische Nummerierung des von :meth:`parse` zurückgegebenen *field_name* erfolgt durch :meth:`vformat`, bevor diese Methode aufgerufen wird. Gibt ein Tupel (obj, used_key) zurück. Die Standardversion akzeptiert Zeichenketten in dem in :pep:`3101` definierten Format, wie etwa \\\"0[name]\\\" oder \\\"label.title\\\". *args* und *kwargs* entsprechen den an :meth:`vformat` übergebenen Argumenten. Der Rückgabewert *used_key* hat dieselbe Bedeutung wie der Parameter *key* für :meth:`get_value`.\n"
+msgstr "Konvertiert den übergebenen *field_name* in ein zu formatierendes Objekt. Die automatische Nummerierung des von :meth:`parse` zurückgegebenen *field_name* erfolgt durch :meth:`vformat`, bevor diese Methode aufgerufen wird. Gibt ein Tupel (obj, used_key) zurück. Die Standardversion akzeptiert Zeichenketten in dem in :pep:`3101` definierten Format, wie etwa \\\"0[name]\\\" oder \\\"label.title\\\". *args* und *kwargs* entsprechen den an :meth:`vformat` übergebenen Argumenten. Der Rückgabewert *used_key* hat dieselbe Bedeutung wie der Parameter *key* für :meth:`get_value`."
 
 msgid "Retrieve a given field value.  The *key* argument will be either an integer or a string.  If it is an integer, it represents the index of the positional argument in *args*; if it is a string, then it represents a named argument in *kwargs*."
-msgstr "Ruft einen gegebenen Feldwert ab. Das Argument *key* ist entweder eine Ganzzahl oder eine Zeichenkette. Wenn es eine Ganzzahl ist, repräsentiert es den Index des Positionsarguments in *args*; wenn es eine Zeichenkette ist, repräsentiert es ein benanntes Argument in *kwargs*.\n"
+msgstr "Ruft einen gegebenen Feldwert ab. Das Argument *key* ist entweder eine Ganzzahl oder eine Zeichenkette. Wenn es eine Ganzzahl ist, repräsentiert es den Index des Positionsarguments in *args*; wenn es eine Zeichenkette ist, repräsentiert es ein benanntes Argument in *kwargs*."
 
 msgid "The *args* parameter is set to the list of positional arguments to :meth:`vformat`, and the *kwargs* parameter is set to the dictionary of keyword arguments."
-msgstr "Der Parameter *args* ist auf die Liste der Positionsargumente für :meth:`vformat` gesetzt und der Parameter *kwargs* auf das Dictionary der Schlüsselwort-Argumente.\n"
+msgstr "Der Parameter *args* ist auf die Liste der Positionsargumente für :meth:`vformat` gesetzt und der Parameter *kwargs* auf das Dictionary der Schlüsselwort-Argumente."
 
 msgid "For compound field names, these functions are only called for the first component of the field name; subsequent components are handled through normal attribute and indexing operations."
-msgstr "Bei zusammengesetzten Feldnamen werden diese Funktionen nur für die erste Komponente des Feldnamens aufgerufen; nachfolgende Komponenten werden über normale Attribut- und Indizierungsoperationen verarbeitet.\n"
+msgstr "Bei zusammengesetzten Feldnamen werden diese Funktionen nur für die erste Komponente des Feldnamens aufgerufen; nachfolgende Komponenten werden über normale Attribut- und Indizierungsoperationen verarbeitet."
 
 msgid "So for example, the field expression '0.name' would cause :meth:`get_value` to be called with a *key* argument of 0.  The ``name`` attribute will be looked up after :meth:`get_value` returns by calling the built-in :func:`getattr` function."
-msgstr "So würde beispielsweise der Feldausdruck '0.name' dazu führen, dass :meth:`get_value` mit dem Argument *key* gleich 0 aufgerufen wird. Das Attribut ``name`` wird nach der Rückgabe von :meth:`get_value` durch den Aufruf der eingebauten Funktion :func:`getattr` nachgeschlagen.\n"
+msgstr "So würde beispielsweise der Feldausdruck '0.name' dazu führen, dass :meth:`get_value` mit dem Argument *key* gleich 0 aufgerufen wird. Das Attribut ``name`` wird nach der Rückgabe von :meth:`get_value` durch den Aufruf der eingebauten Funktion :func:`getattr` nachgeschlagen."
 
 msgid "If the index or keyword refers to an item that does not exist, then an :exc:`IndexError` or :exc:`KeyError` should be raised."
-msgstr "Wenn sich der Index oder das Schlüsselwort auf ein Element bezieht, das nicht existiert, sollte ein :exc:`IndexError` oder :exc:`KeyError` ausgelöst werden.\n"
+msgstr "Wenn sich der Index oder das Schlüsselwort auf ein Element bezieht, das nicht existiert, sollte ein :exc:`IndexError` oder :exc:`KeyError` ausgelöst werden."
 
 msgid "Implement checking for unused arguments if desired.  The arguments to this function is the set of all argument keys that were actually referred to in the format string (integers for positional arguments, and strings for named arguments), and a reference to the *args* and *kwargs* that was passed to vformat.  The set of unused args can be calculated from these parameters.  :meth:`check_unused_args` is assumed to raise an exception if the check fails."
-msgstr "Implementiert bei Bedarf die Prüfung auf unbenutzte Argumente. Die Argumente dieser Funktion sind die Menge aller Argument-Schlüssel, auf die im Formatstring tatsächlich verwiesen wurde (Ganzzahlen für Positionsargumente und Zeichenketten für benannte Argumente), sowie eine Referenz auf *args* und *kwargs*, die an vformat übergeben wurden. Die Menge der unbenutzten Argumente kann aus diesen Parametern berechnet werden. Es wird davon ausgegangen, dass :meth:`check_unused_args` eine Ausnahme auslöst, wenn die Prüfung fehlschlägt.\n"
+msgstr "Implementiert bei Bedarf die Prüfung auf unbenutzte Argumente. Die Argumente dieser Funktion sind die Menge aller Argument-Schlüssel, auf die im Formatstring tatsächlich verwiesen wurde (Ganzzahlen für Positionsargumente und Zeichenketten für benannte Argumente), sowie eine Referenz auf *args* und *kwargs*, die an vformat übergeben wurden. Die Menge der unbenutzten Argumente kann aus diesen Parametern berechnet werden. Es wird davon ausgegangen, dass :meth:`check_unused_args` eine Ausnahme auslöst, wenn die Prüfung fehlschlägt."
 
 msgid ":meth:`format_field` simply calls the global :func:`format` built-in.  The method is provided so that subclasses can override it."
-msgstr ":meth:`format_field` ruft einfach die globale eingebaute Funktion :func:`format` auf. Die Methode wird bereitgestellt, damit Unterklassen sie überschreiben können.\n"
+msgstr ":meth:`format_field` ruft einfach die globale eingebaute Funktion :func:`format` auf. Die Methode wird bereitgestellt, damit Unterklassen sie überschreiben können."
 
 msgid "Converts the value (returned by :meth:`get_field`) given a conversion type (as in the tuple returned by the :meth:`parse` method).  The default version understands 's' (str), 'r' (repr) and 'a' (ascii) conversion types."
-msgstr "Konvertiert den Wert (der von :meth:`get_field` zurückgegeben wird) anhand eines Konvertierungstyps (wie in dem von der Methode :meth:`parse` zurückgegebenen Tupel). Die Standardversion unterstützt die Konvertierungstypen 's' (str), 'r' (repr) und 'a' (ascii).\n"
+msgstr "Konvertiert den Wert (der von :meth:`get_field` zurückgegeben wird) anhand eines Konvertierungstyps (wie in dem von der Methode :meth:`parse` zurückgegebenen Tupel). Die Standardversion unterstützt die Konvertierungstypen 's' (str), 'r' (repr) und 'a' (ascii)."
 
 msgid "Format String Syntax"
-msgstr "Formatstring-Syntax\n"
+msgstr "Formatstring-Syntax"
 
 msgid "The :meth:`str.format` method and the :class:`Formatter` class share the same syntax for format strings (although in the case of :class:`Formatter`, subclasses can define their own format string syntax).  The syntax is related to that of :ref:`formatted string literals <f-strings>` and :ref:`template string literals <t-strings>`, but it is less sophisticated and, in particular, does not support arbitrary expressions in interpolations."
-msgstr "Die Methode :meth:`str.format` und die Klasse :class:`Formatter` teilen sich dieselbe Syntax für Formatstrings (obwohl Unterklassen im Fall von :class:`Formatter` ihre eigene Formatstring-Syntax definieren können). Die Syntax ist mit der von :ref:`formatierten Zeichenkettenliteralen <f-strings>` und :ref:`Template-Zeichenkettenliteralen <t-strings>` verwandt, ist jedoch weniger komplex und unterstützt insbesondere keine beliebigen Ausdrücke in Interpolationen.\n"
+msgstr "Die Methode :meth:`str.format` und die Klasse :class:`Formatter` teilen sich dieselbe Syntax für Formatstrings (obwohl Unterklassen im Fall von :class:`Formatter` ihre eigene Formatstring-Syntax definieren können). Die Syntax ist mit der von :ref:`formatierten Zeichenkettenliteralen <f-strings>` und :ref:`Template-Zeichenkettenliteralen <t-strings>` verwandt, ist jedoch weniger komplex und unterstützt insbesondere keine beliebigen Ausdrücke in Interpolationen."
 
 msgid "Format strings contain \"replacement fields\" surrounded by curly braces ``{}``. Anything that is not contained in braces is considered literal text, which is copied unchanged to the output.  If you need to include a brace character in the literal text, it can be escaped by doubling: ``{{`` and ``}}``."
-msgstr "Formatstrings enthalten „Ersetzungsfelder“, die von geschweiften Klammern ``{}`` umgeben sind. Alles, was nicht in Klammern steht, wird als Literaltext betrachtet und unverändert in die Ausgabe kopiert. Wenn ein Klammerzeichen im Literatext enthalten sein muss, kann es durch Verdopplung maskiert werden: ``{{`` und ``}}``.\n"
+msgstr "Formatstrings enthalten „Ersetzungsfelder“, die von geschweiften Klammern ``{}`` umgeben sind. Alles, was nicht in Klammern steht, wird als Literaltext betrachtet und unverändert in die Ausgabe kopiert. Wenn ein Klammerzeichen im Literatext enthalten sein muss, kann es durch Verdopplung maskiert werden: ``{{`` und ``}}``."
 
 msgid "The grammar for a replacement field is as follows:"
-msgstr "Die Grammatik für ein Ersetzungsfeld lautet wie folgt:\n"
+msgstr "Die Grammatik für ein Ersetzungsfeld lautet wie folgt:"
 
 msgid "In less formal terms, the replacement field can start with a *field_name* that specifies the object whose value is to be formatted and inserted into the output instead of the replacement field. The *field_name* is optionally followed by a  *conversion* field, which is preceded by an exclamation point ``'!'``, and a *format_spec*, which is preceded by a colon ``':'``.  These specify a non-default format for the replacement value."
-msgstr "Einfacher ausgedrückt kann das Ersetzungsfeld mit einem *field_name* beginnen, der das Objekt angibt, dessen Wert formatiert und anstelle des Ersetzungsfeldes in die Ausgabe eingefügt werden soll. Auf den *field_name* folgt optional ein *conversion*-Feld, dem ein Ausrufezeichen ``'!'`` vorangestellt ist, und eine *format_spec*, der ein Doppelpunkt ``':'`` vorangestellt ist. Diese geben ein vom Standard abweichendes Format für den Ersetzungswert an.\n"
+msgstr "Einfacher ausgedrückt kann das Ersetzungsfeld mit einem *field_name* beginnen, der das Objekt angibt, dessen Wert formatiert und anstelle des Ersetzungsfeldes in die Ausgabe eingefügt werden soll. Auf den *field_name* folgt optional ein *conversion*-Feld, dem ein Ausrufezeichen ``'!'`` vorangestellt ist, und eine *format_spec*, der ein Doppelpunkt ``':'`` vorangestellt ist. Diese geben ein vom Standard abweichendes Format für den Ersetzungswert an."
 
 msgid "See also the :ref:`formatspec` section."
-msgstr "Siehe auch den Abschnitt :ref:`formatspec`.\n"
+msgstr "Siehe auch den Abschnitt :ref:`formatspec`."
 
 msgid "The *field_name* itself begins with an *arg_name* that is either a number or a keyword.  If it's a number, it refers to a positional argument, and if it's a keyword, it refers to a named keyword argument. An *arg_name* is treated as a number if a call to :meth:`str.isdecimal` on the string would return true. If the numerical arg_names in a format string are 0, 1, 2, ... in sequence, they can all be omitted (not just some) and the numbers 0, 1, 2, ... will be automatically inserted in that order. Because *arg_name* is not quote-delimited, it is not possible to specify arbitrary dictionary keys (e.g., the strings ``'10'`` or ``':-]'``) within a format string. The *arg_name* can be followed by any number of index or attribute expressions. An expression of the form ``'.name'`` selects the named attribute using :func:`getattr`, while an expression of the form ``'[index]'`` does an index lookup using :meth:`~object.__getitem__`."
-msgstr "Der *field_name* selbst beginnt mit einem *arg_name*, der entweder eine Zahl oder ein Schlüsselwort ist. Wenn es eine Zahl ist, bezieht sie sich auf ein Positionsargument, und wenn es ein Schlüsselwort ist, bezieht es sich auf ein benanntes Schlüsselwort-Argument. Ein *arg_name* wird als Zahl behandelt, wenn ein Aufruf von :meth:`str.isdecimal` auf der Zeichenkette true zurückgeben würde. Wenn die numerischen arg_names in einem Formatstring nacheinander 0, 1, 2, ... lauten, können sie alle weggelassen werden (nicht nur einige), und die Zahlen 0, 1, 2, ... werden automatisch in dieser Reihenfolge eingesetzt. Da *arg_name* nicht in Anführungszeichen steht, ist es nicht möglich, beliebige Dictionary-Schlüssel (z. B. die Zeichenketten ``'10'`` oder ``':-]'``) innerhalb eines Formatstrings anzugeben. Auf den *arg_name* können beliebig viele Index- oder Attributausdrücke folgen. Ein Ausdruck der Form ``'.name'`` wählt das benannte Attribut mittels :func:`getattr` aus, während ein Ausdruck der Form ``'[index]'`` ein Nachschlagen des Index mittels :meth:`~object.__getitem__` durchführt.\n"
+msgstr "Der *field_name* selbst beginnt mit einem *arg_name*, der entweder eine Zahl oder ein Schlüsselwort ist. Wenn es eine Zahl ist, bezieht sie sich auf ein Positionsargument, und wenn es ein Schlüsselwort ist, bezieht es sich auf ein benanntes Schlüsselwort-Argument. Ein *arg_name* wird als Zahl behandelt, wenn ein Aufruf von :meth:`str.isdecimal` auf der Zeichenkette true zurückgeben würde. Wenn die numerischen arg_names in einem Formatstring nacheinander 0, 1, 2, ... lauten, können sie alle weggelassen werden (nicht nur einige), und die Zahlen 0, 1, 2, ... werden automatisch in dieser Reihenfolge eingesetzt. Da *arg_name* nicht in Anführungszeichen steht, ist es nicht möglich, beliebige Dictionary-Schlüssel (z. B. die Zeichenketten ``'10'`` oder ``':-]'``) innerhalb eines Formatstrings anzugeben. Auf den *arg_name* können beliebig viele Index- oder Attributausdrücke folgen. Ein Ausdruck der Form ``'.name'`` wählt das benannte Attribut mittels :func:`getattr` aus, während ein Ausdruck der Form ``'[index]'`` ein Nachschlagen des Index mittels :meth:`~object.__getitem__` durchführt."
 
 msgid "The positional argument specifiers can be omitted for :meth:`str.format`, so ``'{} {}'.format(a, b)`` is equivalent to ``'{0} {1}'.format(a, b)``."
-msgstr "Die Positionsargument-Spezifikatoren können für :meth:`str.format` weggelassen werden, sodass ``'{} {}'.format(a, b)`` äquivalent zu ``'{0} {1}'.format(a, b)`` ist.\n"
+msgstr "Die Positionsargument-Spezifikatoren können für :meth:`str.format` weggelassen werden, sodass ``'{} {}'.format(a, b)`` äquivalent zu ``'{0} {1}'.format(a, b)`` ist."
 
 msgid "The positional argument specifiers can be omitted for :class:`Formatter`."
-msgstr "Die Positionsargument-Spezifikatoren können für :class:`Formatter` weggelassen werden.\n"
+msgstr "Die Positionsargument-Spezifikatoren können für :class:`Formatter` weggelassen werden."
 
 msgid "Some simple format string examples::"
-msgstr "Einige einfache Beispiele für Formatstrings::\n"
+msgstr "Einige einfache Beispiele für Formatstrings::"
 
 msgid ""
 "\"First, thou shalt count to {0}\"  # References first positional argument\n"
@@ -168,13 +165,13 @@ msgstr ""
 "\"Units destroyed: {players[0]}\"   # Erstes Element des Schlüsselwort-Arguments 'players'."
 
 msgid "The *conversion* field causes a type coercion before formatting.  Normally, the job of formatting a value is done by the :meth:`~object.__format__` method of the value itself.  However, in some cases it is desirable to force a type to be formatted as a string, overriding its own definition of formatting.  By converting the value to a string before calling :meth:`~object.__format__`, the normal formatting logic is bypassed."
-msgstr "Das *conversion*-Feld erzwingt vor der Formatierung eine Typumwandlung. Normalerweise wird die Formatierung eines Wertes von dessen eigener Methode :meth:`~object.__format__` durchgeführt. In einigen Fällen ist es jedoch erwünscht, die Formatierung eines Typs als Zeichenkette zu erzwingen und seine eigene Formatierungsdefinition zu übergehen. Durch das Konvertieren des Wertes in eine Zeichenkette vor dem Aufruf von :meth:`~object.__format__` wird die normale Formatierungslogik umgangen.\n"
+msgstr "Das *conversion*-Feld erzwingt vor der Formatierung eine Typumwandlung. Normalerweise wird die Formatierung eines Wertes von dessen eigener Methode :meth:`~object.__format__` durchgeführt. In einigen Fällen ist es jedoch erwünscht, die Formatierung eines Typs als Zeichenkette zu erzwingen und seine eigene Formatierungsdefinition zu übergehen. Durch das Konvertieren des Wertes in eine Zeichenkette vor dem Aufruf von :meth:`~object.__format__` wird die normale Formatierungslogik umgangen."
 
 msgid "Three conversion flags are currently supported: ``'!s'`` which calls :func:`str` on the value, ``'!r'`` which calls :func:`repr` and ``'!a'`` which calls :func:`ascii`."
-msgstr "Drei Konvertierungsflags werden derzeit unterstützt: ``'!s'``, das :func:`str` für den Wert aufruft, ``'!r'``, das :func:`repr` aufruft, und ``'!a'``, das :func:`ascii` aufruft.\n"
+msgstr "Drei Konvertierungsflags werden derzeit unterstützt: ``'!s'``, das :func:`str` für den Wert aufruft, ``'!r'``, das :func:`repr` aufruft, und ``'!a'``, das :func:`ascii` aufruft."
 
 msgid "Some examples::"
-msgstr "Einige Beispiele::\n"
+msgstr "Einige Beispiele::"
 
 msgid ""
 "\"Harold's a clever {0!s}\"        # Calls str() on the argument first\n"
@@ -186,49 +183,49 @@ msgstr ""
 "\"More {!a}\"                      # Ruft zuerst ascii() für das Argument auf"
 
 msgid "The *format_spec* field contains a specification of how the value should be presented, including such details as field width, alignment, padding, decimal precision and so on.  Each value type can define its own \"formatting mini-language\" or interpretation of the *format_spec*."
-msgstr "Das Feld *format_spec* enthält eine Spezifikation darüber, wie der Wert dargestellt werden soll, einschließlich Details wie Feldbreite, Ausrichtung, Auffüllung, Dezimalpräzision und so weiter. Jeder Werttyp kann seine eigene „Formatierungs-Minisprache“ oder Interpretation der *format_spec* definieren.\n"
+msgstr "Das Feld *format_spec* enthält eine Spezifikation darüber, wie der Wert dargestellt werden soll, einschließlich Details wie Feldbreite, Ausrichtung, Auffüllung, Dezimalpräzision und so weiter. Jeder Werttyp kann seine eigene „Formatierungs-Minisprache“ oder Interpretation der *format_spec* definieren."
 
 msgid "Most built-in types support a common formatting mini-language, which is described in the next section."
-msgstr ""
+msgstr "Die meisten eingebauten Typen unterstützen eine gemeinsame Formatierungs-Mini-Sprache, die im nächsten Abschnitt beschrieben wird."
 
 msgid "A *format_spec* field can also include nested replacement fields within it. These nested replacement fields may contain a field name, conversion flag and format specification, but deeper nesting is not allowed.  The replacement fields within the format_spec are substituted before the *format_spec* string is interpreted. This allows the formatting of a value to be dynamically specified."
-msgstr ""
+msgstr "Ein *format_spec*-Feld kann auch verschachtelte Ersetzungsfelder enthalten. Diese verschachtelten Ersetzungsfelder können einen Feldnamen, ein Konvertierungskennzeichen und eine Formatangabe enthalten, eine tiefere Verschachtelung ist jedoch nicht zulässig. Die Ersetzungsfelder innerhalb von *format_spec* werden ersetzt, bevor die *format_spec*-Zeichenkette interpretiert wird. Dies ermöglicht es dir, die Formatierung eines Werts dynamisch anzugeben."
 
 msgid "See the :ref:`formatexamples` section for some examples."
-msgstr ""
+msgstr "Siehe den Abschnitt :ref:`formatexamples` für einige Beispiele."
 
 msgid "Format Specification Mini-Language"
-msgstr ""
+msgstr "Formatspezifikation Mini-Sprache"
 
 msgid "\"Format specifications\" are used within replacement fields contained within a format string to define how individual values are presented (see :ref:`formatstrings`, :ref:`f-strings`, and :ref:`t-strings`). They can also be passed directly to the built-in :func:`format` function.  Each formattable type may define how the format specification is to be interpreted."
-msgstr ""
+msgstr "„Formatspezifikationen“ werden innerhalb von Ersetzungsfeldern in einem Format-String verwendet, um zu definieren, wie einzelne Werte dargestellt werden (siehe :ref:`formatstrings`, `:ref:`f-strings` und :ref:`t-strings`). Sie können auch direkt an die eingebaute Funktion :func:`format` übergeben werden. Jeder formatierbare Typ kann festlegen, wie die Formatspezifikation zu interpretieren ist."
 
 msgid "Most built-in types implement the following options for format specifications, although some of the formatting options are only supported by the numeric types."
-msgstr ""
+msgstr "Die meisten eingebauten Typen implementieren die folgenden Optionen für Formatspezifikationen, obwohl einige der Formatierungsoptionen nur von den numerischen Typen unterstützt werden."
 
 msgid "A general convention is that an empty format specification produces the same result as if you had called :func:`str` on the value. A non-empty format specification typically modifies the result."
-msgstr ""
+msgstr "Eine allgemeine Konvention besagt, dass eine leere Formatspezifikation dasselbe Ergebnis erzeugt, wie wenn du :func:`str` für den Wert aufgerufen hättest. Eine nicht leere Formatspezifikation verändert in der Regel das Ergebnis."
 
 msgid "The general form of a *standard format specifier* is:"
-msgstr ""
+msgstr "Die allgemeine Form einer *Standard-Formatspezifikation* ist:"
 
 msgid "If a valid *align* value is specified, it can be preceded by a *fill* character that can be any character and defaults to a space if omitted. It is not possible to use a literal curly brace (\"``{``\" or \"``}``\") as the *fill* character in a :ref:`formatted string literal <f-strings>` or when using the :meth:`str.format` method.  However, it is possible to insert a curly brace with a nested replacement field.  This limitation doesn't affect the :func:`format` function."
-msgstr ""
+msgstr "Wenn ein gültiger *align*-Wert angegeben ist, kann ihm ein *fill*-Zeichen vorangestellt werden, das ein beliebiges Zeichen sein kann und standardmäßig ein Leerzeichen ist, wenn es weggelassen wird. Es ist nicht möglich, eine geschweifte Klammer (\"``{``\" oder \"``}``\") als *fill*-Zeichen in einem :ref:`formatted string literal <f-string>` oder bei der Verwendung der :meth:`str.format` Methode zu verwenden. Es ist jedoch möglich, eine geschweifte Klammer mit einem verschachtelten Ersetzungsfeld einzufügen. Diese Einschränkung betrifft die :func:`format`-Funktion nicht."
 
 msgid "The meaning of the various alignment options is as follows:"
-msgstr ""
+msgstr "Die Bedeutung der verschiedenen Ausrichtungsoptionen ist wie folgt:"
 
 msgid "Option"
-msgstr ""
+msgstr "Option"
 
 msgid "Meaning"
-msgstr ""
+msgstr "Bedeutung"
 
 msgid "``'<'``"
-msgstr ""
+msgstr "``'<'``"
 
 msgid "Forces the field to be left-aligned within the available space (this is the default for most objects)."
-msgstr ""
+msgstr "Erzwingt, dass das Feld innerhalb des verfügbaren Platzes linksbündig ausgerichtet wird (dies ist der Standardwert für die meisten Objekte)."
 
 msgid "``'>'``"
 msgstr ""
