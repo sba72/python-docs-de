@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Dies ermöglicht es Python-Nutzern, effektiv zusammenzuarbeiten und sich "
 "auszutauschen; sie profitieren von Lösungen, die andere bereits für häufige "
-(und bisweilen sogar seltene!) Probleme entwickelt haben, und können ihrerseits "
+"(und bisweilen sogar seltene!) Probleme entwickelt haben, und können ihrerseits "
 "eigene Lösungen zu diesem gemeinsamen Pool beisteuern."
 
 msgid ""
@@ -104,7 +104,7 @@ msgid ""
 "3.4, which either don't provide ``venv`` at all, or aren't able to "
 "automatically install ``pip`` into created environments."
 msgstr ""
-„``virtualenv`` ist eine Alternative von Drittanbietern (und Vorgänger) "
+"``virtualenv`` ist eine Alternative von Drittanbietern (und Vorgänger) "
 "zu ``venv``. Es ermöglicht die Verwendung virtueller Umgebungen mit "
 "Python-Versionen vor 3.4, die entweder gar kein ``venv`` bereitstellen oder "
 "nicht in der Lage sind, ``pip`` automatisch in den erstellten Umgebungen zu "
@@ -203,10 +203,10 @@ msgid ""
 "other special character which get interpreted by shell, the package name and "
 "the version should be enclosed within double quotes::"
 msgstr ""
-„Es ist auch möglich, eine genaue oder minimale Version direkt auf der Befehlszeile "
+"Es ist auch möglich, eine genaue oder minimale Version direkt auf der Befehlszeile "
 "anzugeben. Bei Verwendung von Vergleichsoperatoren wie ``>``, ``<`` oder anderen „
-„Sonderzeichen, die von der Shell interpretiert werden, sollte der Paketname und “
-„die Version in doppelten Anführungszeichen gesetzt werden::“
+"Sonderzeichen, die von der Shell interpretiert werden, sollte der Paketname und “
+"die Version in doppelten Anführungszeichen gesetzt werden::“
 
 msgid ""
 "python -m pip install SomePackage==1.0.4    # specific version\n"
@@ -272,7 +272,7 @@ msgid ""
 "`Python Packaging User Guide: Requirements for Installing Packages <https://"
 "packaging.python.org/installing/#requirements-for-installing-packages>`__"
 msgstr ""
-„`Python Packaging-Benutzerhandbuch: Anforderungen für die Installation von Paketen "
+"`Python Packaging-Benutzerhandbuch: Anforderungen für die Installation von Paketen "
 "<https://packaging.python.org/installing/#requirements-for-installing-packages>`__“
 
 msgid "... install packages just for the current user?"
@@ -305,7 +305,7 @@ msgid ""
 "`Python Packaging User Guide: Installing Scientific Packages <https://"
 "packaging.python.org/science/>`__"
 msgstr ""
-„Python Packaging User Guide: Installation wissenschaftlicher Pakete "
+"Python Packaging User Guide: Installation wissenschaftlicher Pakete "
 "<https://packaging.python.org/science/>“
 
 msgid "... work with multiple versions of Python installed in parallel?"
