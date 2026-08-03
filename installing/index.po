@@ -368,7 +368,7 @@ msgstr ""
 "Auf Linux-Systemen ist eine Python-Installation üblicherweise Bestandteil "
 "der Distribution. Eine Installation in diese Python-Umgebung erfordert "
 "Root-Zugriff auf das System und kann die Funktionsweise des System-Paketmanagers "
-"sowie anderer Systemkomponenten beeinträchtigen, falls eine Komponente unerwartet "#
+"sowie anderer Systemkomponenten beeinträchtigen, falls eine Komponente unerwartet "
 "mittels ``pip`` aktualisiert wird."
 
 msgid ""
