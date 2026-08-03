@@ -228,19 +228,19 @@ msgid "Forces the field to be left-aligned within the available space (this is t
 msgstr "Erzwingt, dass das Feld innerhalb des verfügbaren Platzes linksbündig ausgerichtet wird (dies ist der Standardwert für die meisten Objekte)."
 
 msgid "``'>'``"
-msgstr ""
+msgstr "``'>'``"
 
 msgid "Forces the field to be right-aligned within the available space (this is the default for numbers)."
 msgstr ""
 
 msgid "``'='``"
-msgstr ""
+msgstr "``'='``"
 
 msgid "Forces the padding to be placed after the sign (if any) but before the digits.  This is used for printing fields in the form '+000000120'. This alignment option is only valid for numeric types, excluding :class:`complex`. It becomes the default for numbers when '0' immediately precedes the field width."
 msgstr ""
 
 msgid "``'^'``"
-msgstr ""
+msgstr "``'^'``"
 
 msgid "Forces the field to be centered within the available space."
 msgstr ""
