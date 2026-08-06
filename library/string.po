@@ -854,25 +854,25 @@ msgid "*braceidpattern* -- This is like *idpattern* but describes the pattern fo
 msgstr "*braceidpattern* -- Dies ist wie *idpattern*, beschreibt jedoch das Muster für Platzhalter mit geschweiften Klammern. Der Standardwert ist ``None``, was bedeutet, dass auf *idpattern* zurückgegriffen wird (d. h. dasselbe Muster wird sowohl innerhalb als auch außerhalb von Klammern verwendet). Falls angegeben, ermöglicht dies die Definition unterschiedlicher Muster für Platzhalter mit und ohne geschweifte Klammern."
 
 msgid "*flags* -- The regular expression flags that will be applied when compiling the regular expression used for recognizing substitutions.  The default value is ``re.IGNORECASE``.  Note that ``re.VERBOSE`` will always be added to the flags, so custom *idpattern*\\ s must follow conventions for verbose regular expressions."
-msgstr ""
+msgstr "*flags* -- Die Flags für reguläre Ausdrücke, die beim Kompilieren des regulären Ausdrucks zur Erkennung von Ersetzungen angewendet werden. Der Standardwert ist ``re.IGNORECASE``. Beachte, dass ``re.VERBOSE`` den Flags immer hinzugefügt wird, weshalb benutzerdefinierte *idpattern* den Konventionen für ausführliche reguläre Ausdrücke entsprechen müssen."
 
 msgid "Alternatively, you can provide the entire regular expression pattern by overriding the class attribute *pattern*.  If you do this, the value must be a regular expression object with four named capturing groups.  The capturing groups correspond to the rules given above, along with the invalid placeholder rule:"
-msgstr ""
+msgstr "Alternativ können Sie das gesamte Muster für den regulären Ausdruck bereitstellen, indem Sie das Klassenattribut *pattern* überschreiben. Wenn du dies tust, muss der Wert ein Objekt eines regulären Ausdrucks mit vier benannten Erfassungsgruppen sein. Die Erfassungsgruppen entsprechen den oben genannten Regeln sowie der Regel für ungültige Platzhalter:"
 
 msgid "*escaped* -- This group matches the escape sequence, e.g. ``$$``, in the default pattern."
-msgstr ""
+msgstr "*escaped* -- Diese Gruppe passt auf die Escapesequenz, z.B. ``$$``, im Standardmuster."
 
 msgid "*named* -- This group matches the unbraced placeholder name; it should not include the delimiter in capturing group."
-msgstr ""
+msgstr "*named* -- Diese Gruppe passt auf den Namen des Platzhalters ohne geschweifte Klammern; sie sollte das Trennzeichen nicht in der Erfassungsgruppe enthalten."
 
 msgid "*braced* -- This group matches the brace enclosed placeholder name; it should not include either the delimiter or braces in the capturing group."
-msgstr ""
+msgstr "*braced* -- Diese Gruppe passt auf den in geschweifte Klammern eingeschlossenen Namen des Platzhalters; sie sollte weder das Trennzeichen noch die Klammern in der Erfassungsgruppe enthalten."
 
 msgid "*invalid* -- This group matches any other delimiter pattern (usually a single delimiter), and it should appear last in the regular expression."
-msgstr ""
+msgstr "*invalid* -- Diese Gruppe passt auf jedes andere Trennzeichenmuster (normalerweise ein einzelnes Trennzeichen) und sollte als Letztes im regulären Ausdruck stehen."
 
 msgid "The methods on this class will raise :exc:`ValueError` if the pattern matches the template without one of these named groups matching."
-msgstr ""
+msgstr "Die Methoden dieser Klasse lösen :exc:`ValueError` aus, wenn das Muster auf die Vorlage passt, ohne dass eine dieser benannten Gruppen übereinstimmt."
 
 msgid "Helper functions"
 msgstr "Hilfsfunktionen"
