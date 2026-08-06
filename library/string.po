@@ -836,22 +836,22 @@ msgstr ""
 "'tim likes $what'"
 
 msgid "Advanced usage: you can derive subclasses of :class:`Template` to customize the placeholder syntax, delimiter character, or the entire regular expression used to parse template strings.  To do this, you can override these class attributes:"
-msgstr ""
+msgstr "Fortgeschrittene Nutzung: Sie können Unterklassen von :class:`Template` ableiten, um die Platzhalter-Syntax, das Trennzeichen oder den gesamten regulären Ausdruck zum Parsen von Vorlage-Zeichenketten anzupassen. Dazu kannst du diese Klassenattribute überschreiben:"
 
 msgid "*delimiter* -- This is the literal string describing a placeholder introducing delimiter.  The default value is ``$``.  Note that this should *not* be a regular expression, as the implementation will call :meth:`re.escape` on this string as needed.  Note further that you cannot change the delimiter after class creation (i.e. a different delimiter must be set in the subclass's class namespace)."
-msgstr ""
+msgstr "*delimiter* -- Dies ist die Zeichenkette, die das einleitende Trennzeichen eines Platzhalters beschreibt. Der Standardwert ist ``$``. Beachte, dass dies *kein* regulärer Ausdruck sein sollte, da die Implementierung bei Bedarf :meth:`re.escape` auf diese Zeichenkette anwendet. Beachte weiterhin, dass du das Trennzeichen nach der Klassenerstellung nicht mehr ändern kannst (d. h. ein anderes Trennzeichen muss im Klassennamensraum der Unterklasse gesetzt werden)."
 
 msgid "*idpattern* -- This is the regular expression describing the pattern for non-braced placeholders.  The default value is the regular expression ``(?a:[_a-z][_a-z0-9]*)``.  If this is given and *braceidpattern* is ``None`` this pattern will also apply to braced placeholders."
-msgstr ""
+msgstr "*idpattern* -- Dies ist der reguläre Ausdruck, der das Muster für Platzhalter ohne geschweifte Klammern beschreibt. Der Standardwert ist der reguläre Ausdruck ``(?a:[_a-z][_a-z0-9]*)``. Wenn dieser angegeben ist und *braceidpattern* ``None`` ist, gilt dieses Muster auch für Platzhalter mit geschweiften Klammern."
 
 msgid "Since default *flags* is ``re.IGNORECASE``, pattern ``[a-z]`` can match with some non-ASCII characters. That's why we use the local ``a`` flag here."
-msgstr ""
+msgstr "Da standardmäßig *flags* auf ``re.IGNORECASE`` gesetzt ist, kann das Muster ``[a-z]`` auch auf einige Nicht-ASCII-Zeichen passen. Aus diesem Grund wird hier das lokale Flag ``a`` verwendet."
 
 msgid "*braceidpattern* can be used to define separate patterns used inside and outside the braces."
-msgstr ""
+msgstr "*braceidpattern* kann verwendet werden, um unterschiedliche Muster für die Verwendung innerhalb und außerhalb der geschweiften Klammern zu definieren."
 
 msgid "*braceidpattern* -- This is like *idpattern* but describes the pattern for braced placeholders.  Defaults to ``None`` which means to fall back to *idpattern* (i.e. the same pattern is used both inside and outside braces). If given, this allows you to define different patterns for braced and unbraced placeholders."
-msgstr ""
+msgstr "*braceidpattern* -- Dies ist wie *idpattern*, beschreibt jedoch das Muster für Platzhalter mit geschweiften Klammern. Der Standardwert ist ``None``, was bedeutet, dass auf *idpattern* zurückgegriffen wird (d. h. dasselbe Muster wird sowohl innerhalb als auch außerhalb von Klammern verwendet). Falls angegeben, ermöglicht dies die Definition unterschiedlicher Muster für Platzhalter mit und ohne geschweifte Klammern."
 
 msgid "*flags* -- The regular expression flags that will be applied when compiling the regular expression used for recognizing substitutions.  The default value is ``re.IGNORECASE``.  Note that ``re.VERBOSE`` will always be added to the flags, so custom *idpattern*\\ s must follow conventions for verbose regular expressions."
 msgstr ""
