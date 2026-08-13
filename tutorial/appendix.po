@@ -30,7 +30,7 @@ msgid "There are two variants of the interactive :term:`REPL`.  The classic basi
 msgstr "Es gibt zwei Varianten der interaktiven :term:`REPL`. Der klassische einfache Interpreter wird auf allen Plattformen mit minimalen Möglichkeiten zur Zeilensteuerung unterstützt."
 
 msgid "On Windows, or Unix-like systems with :mod:`curses` support, a new interactive shell is used by default since Python 3.13. This one supports color, multiline editing, history browsing, and paste mode.  To disable color, see :ref:`using-on-controlling-color` for details.  Function keys provide some additional functionality. :kbd:`F1` enters the interactive help browser :mod:`pydoc`. :kbd:`F2` allows for browsing command-line history with neither output nor the :term:`>>>` and :term:`...` prompts. :kbd:`F3` enters \"paste mode\", which makes pasting larger blocks of code easier. Press :kbd:`F3` to return to the regular prompt."
-msgstr "Auf Windows oder Unix-ähnlichen Systemen mit Unterstützung für :mod:`curses` wird seit Python 3.13 standardmäßig eine neue interaktive Shell verwendet. Diese unterstützt Farben, mehrzeilige Bearbeitung, das Durchsuchen des Verlaufs und einen Einfügemodus. Um Farben zu deaktivieren, siehe :ref:`using-on-controlling-color` für Details. Funktionstasten bieten zusätzliche Funktionen. :kbd:`F1` öffnet den interaktiven Hilfe-Browser :mod:`pydoc`. :kbd:`F2` ermöglicht das Durchsuchen des Befehlszeilenverlaufs ohne Ausgaben und ohne die Prompts :term:`>>>` und :term:`...`. :kbd:`F3` aktiviert den \\\"Einfügemodus\\\", der das Einfügen größerer Codeblöcke erleichtert. Drücke :kbd:`F3`, um zum regulären Prompt zurückzukehren."
+msgstr "Auf Windows oder Unix-ähnlichen Systemen mit Unterstützung für :mod:`curses` wird seit Python 3.13 standardmäßig eine neue interaktive Shell verwendet. Diese unterstützt Farben, mehrzeilige Bearbeitung, das Durchsuchen des Verlaufs und einen Einfügemodus. Um Farben zu deaktivieren, siehe :ref:`using-on-controlling-color` für Details. Funktionstasten bieten zusätzliche Funktionen. :kbd:`F1` öffnet den interaktiven Hilfe-Browser :mod:`pydoc`. :kbd:`F2` ermöglicht das Durchsuchen des Befehlszeilenverlaufs ohne Ausgaben und ohne die Prompts :term:`>>>` und :term:`...`. :kbd:`F3` aktiviert den \"Einfügemodus\", der das Einfügen größerer Codeblöcke erleichtert. Drücke :kbd:`F3`, um zum regulären Prompt zurückzukehren."
 
 msgid "When using the new interactive shell, exit the shell by typing :kbd:`exit` or :kbd:`quit`. Adding call parentheses after those commands is not required."
 msgstr "Bei Verwendung der neuen interaktiven Shell beendest du diese durch Eingabe von :kbd:`exit` oder :kbd:`quit`. Das Hinzufügen von Aufrufklammern nach diesen Befehlen ist nicht erforderlich."
@@ -42,7 +42,7 @@ msgid "Error Handling"
 msgstr "Fehlerbehandlung"
 
 msgid "When an error occurs, the interpreter prints an error message and a stack trace. In interactive mode, it then returns to the primary prompt; when input came from a file, it exits with a nonzero exit status after printing the stack trace. (Exceptions handled by an :keyword:`except` clause in a :keyword:`try` statement are not errors in this context.)  Some errors are unconditionally fatal and cause an exit with a nonzero exit status; this applies to internal inconsistencies and some cases of running out of memory.  All error messages are written to the standard error stream; normal output from executed commands is written to standard output."
-msgstr "Wenn ein Fehler auftritt, gibt der Interpreter eine Fehlermeldung und einen Stacktrace aus. Im interaktiven Modus kehrt er anschließend zum primären Prompt zurück; stammte die Eingabe aus einer Datei, beendet er sich nach der Ausgabe des Stacktrace mit einem Exit-Status ungleich null. (Ausnahmen, die durch eine :keyword:`except`-Klausel in einer :keyword:`try`-Anweisung behandelt werden, sind in diesem Kontext keine Fehler.) Einige Fehler sind ausnahmslos fatal und führen zu einem Beenden mit einem Exit-Status ungleich null; dies gilt für interne Inkonsistenzen und einige Fälle von Speicherbrauch."
+msgstr "Wenn ein Fehler auftritt, gibt der Interpreter eine Fehlermeldung und einen Stacktrace aus. Im interaktiven Modus kehrt er anschließend zum primären Prompt zurück; stammte die Eingabe aus einer Datei, beendet er sich nach der Ausgabe des Stacktrace mit einem Exit-Status ungleich null. (Ausnahmen, die durch eine :keyword:`except`-Klausel in einer :keyword:`try`-Anweisung behandelt werden, sind in diesem Kontext keine Fehler.) Einige Fehler sind ausnahmslos fatal und führen zu einem Beenden mit einem Exit-Status ungleich null; dies gilt für interne Inkonsistenzen und einige Fälle von Speicherbrauch.Alle Fehlermeldungen werden in den Standard-Fehlerstrom geschrieben, die normale Ausgabe der ausgeführten Befehle wird in die Standardausgabe geschrieben."
 
 msgid "Typing the interrupt character (usually :kbd:`Control-C` or :kbd:`Delete`) to the primary or secondary prompt cancels the input and returns to the primary prompt. [#]_ Typing an interrupt while a command is executing raises the :exc:`KeyboardInterrupt` exception, which may be handled by a :keyword:`try` statement."
 msgstr "Die Eingabe des Unterbrechungszeichens (normalerweise :kbd:`Strg-C` oder :kbd:`Entf`) am primären oder sekundären Prompt bricht die Eingabe ab und kehrt zum primären Prompt zurück. [#]_ Das Auslösen einer Unterbrechung, während ein Befehl ausgeführt wird, löst die Ausnahme :exc:`KeyboardInterrupt` aus, die durch eine :keyword:`try`-Anweisung behandelt werden kann."
@@ -57,7 +57,7 @@ msgid "#!/usr/bin/env python3"
 msgstr "#!/usr/bin/env python3"
 
 msgid "(assuming that the interpreter is on the user's :envvar:`PATH`) at the beginning of the script and giving the file an executable mode.  The ``#!`` must be the first two characters of the file.  On some platforms, this first line must end with a Unix-style line ending (``'\\n'``), not a Windows (``'\\r\\n'``) line ending.  Note that the hash, or pound, character, ``'#'``, is used to start a comment in Python."
-msgstr "(unter der Annahme, dass sich der Interpreter im :envvar:`PATH` des Benutzers befindet) an den Anfang des Skripts setzt und der Datei Rechte zur Ausführung gibt. Die Zeichen ``#!`` müssen die ersten beiden Zeichen der Datei sein. Auf einigen Plattformen muss diese erste Zeile mit einem Unix-Zeilenende (``'\\\\n'``) und nicht mit einem Windows-Zeilenende (``'\\\\r\\\\n'``) enden. Beachte, dass das Rautezeichen ``'#'`` in Python verwendet wird, um einen Kommentar zu beginnen."
+msgstr "(unter der Annahme, dass sich der Interpreter im :envvar:`PATH` des Benutzers befindet) an den Anfang des Skripts setzt und der Datei Rechte zur Ausführung gibt. Die Zeichen ``#!`` müssen die ersten beiden Zeichen der Datei sein. Auf einigen Plattformen muss diese erste Zeile mit einem Unix-Zeilenende (``'\\n'``) und nicht mit einem Windows-Zeilenende (``'\\r\\n'``) enden. Beachte, dass das Rautezeichen ``'#'`` in Python verwendet wird, um einen Kommentar zu beginnen."
 
 msgid "The script can be given an executable mode, or permission, using the :program:`chmod` command."
 msgstr "Das Skript kann mithilfe des Befehls :program:`chmod` ausführbar gemacht werden."
@@ -66,7 +66,7 @@ msgid "$ chmod +x myscript.py"
 msgstr "$ chmod +x myscript.py"
 
 msgid "On Windows systems, there is no notion of an \"executable mode\".  The Python installer automatically associates ``.py`` files with ``python.exe`` so that a double-click on a Python file will run it as a script.  The extension can also be ``.pyw``, in that case, the console window that normally appears is suppressed."
-msgstr "Auf Windows-Systemen gibt es kein Konzept eines \\\"Ausführungsmodus\\\". Der Python-Installer verknüpft ``.py``-Dateien automatisch mit ``python.exe``, sodass ein Doppelklick auf eine Python-Datei diese als Skript ausführt. Die Dateiendung kann auch ``.pyw`` sein; in diesem Fall wird das normalerweise erscheinende Konsolenfenster unterdrückt."
+msgstr "Auf Windows-Systemen gibt es kein Konzept eines \"Ausführungsmodus\". Der Python-Installer verknüpft ``.py``-Dateien automatisch mit ``python.exe``, sodass ein Doppelklick auf eine Python-Datei diese als Skript ausführt. Die Dateiendung kann auch ``.pyw`` sein; in diesem Fall wird das normalerweise erscheinende Konsolenfenster unterdrückt."
 
 msgid "The Interactive Startup File"
 msgstr "Die interaktive Startdatei"
@@ -88,7 +88,7 @@ msgid ""
 "        startup_file = fobj.read()\n"
 "    exec(startup_file)"
 msgstr ""
-"import os\\n\n"
+"import os\n"
 "filename = os.environ.get('PYTHONSTARTUP')\n"
 "if filename and os.path.isfile(filename):\n"
 "    with open(filename) as fobj:\n"
