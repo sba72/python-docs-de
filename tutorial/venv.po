@@ -95,7 +95,7 @@ msgstr ""
 ":mod:`venv` . Mit dem Befehl :mod:`venv` wird die Python-Version "
 "installiert, von der aus der Befehl ausgeführt wurde (wie durch die Option "
 " :option:`--version` angegeben). Wenn du den Befehl beispielsweise mit "
-"``python3.12` ausführst, wird Version 3.12 installiert."
+"``python3.12`` ausführst, wird Version 3.12 installiert."
 
 msgid ""
 "To create a virtual environment, decide upon a directory where you want to "
@@ -107,7 +107,7 @@ msgstr ""
 "Skript mit dem Verzeichnispfad aus::"
 
 msgid "python -m venv tutorial-env"
-msgstr ""
+msgstr "python -m venv tutorial-env"
 
 msgid ""
 "This will create the ``tutorial-env`` directory if it doesn't exist, and "
