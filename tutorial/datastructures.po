@@ -52,7 +52,7 @@ msgid ""
 "``a[len(a):] = iterable``."
 msgstr ""
 "Erweitere die Liste, indem du alle Elemente aus der iterierbaren Struktur "
-"anhängst. Ähnlich wie bei ``a[len(a):] = iterable`` ."
+"anhängst. Ähnlich wie bei ``a[len(a):] = iterable``."
 
 msgid ""
 "Insert an item at a given position.  The first argument is the index of the "
