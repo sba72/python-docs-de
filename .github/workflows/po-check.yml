@@ -1,22 +1,43 @@
-name: Check PO Syntax
+name: Check PO Syntax & Auto-Wrap
 
 on:
-  pull_request:
-    branches: [ "**" ]
   push:
     branches: [ "**" ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  check-po:
+  format-and-check:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Install gettext
-        run: sudo apt-get update && sudo apt-get install -y gettext
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
 
-      - name: Validate PO files with msgfmt
+      - name: Install gettext & powrap
+        run: |
+          sudo apt-get update && sudo apt-get install -y gettext
+          pip install powrap
+
+      - name: Auto-wrap PO files to 80 characters
+        run: |
+          find . -name "*.po" -exec powrap --quiet {} +
+
+      - name: Commit & Push formatted PO files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-format PO files to 80 chars [skip ci]"
+          file_pattern: "*.po"
+
+      - name: Validate PO syntax with msgfmt
         run: |
           find . -name "*.po" -exec msgfmt --check --check-format -o /dev/null {} +
