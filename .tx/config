@@ -181,6 +181,15 @@ resource_name          = c-api--coro
 replace_edited_strings = false
 keep_translations      = false
 
+[o:python-doc:p:python-newest:r:c-api--curses]
+file_filter            = c-api/curses.po
+source_file            = gettext/c-api/curses.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = c-api--curses
+replace_edited_strings = false
+keep_translations      = false
+
 [o:python-doc:p:python-newest:r:c-api--datetime]
 file_filter            = c-api/datetime.po
 source_file            = gettext/c-api/datetime.pot
@@ -322,6 +331,15 @@ source_file            = gettext/c-api/init_config.pot
 type                   = PO
 minimum_perc           = 0
 resource_name          = c-api--init_config
+replace_edited_strings = false
+keep_translations      = false
+
+[o:python-doc:p:python-newest:r:c-api--interp-lifecycle]
+file_filter            = c-api/interp-lifecycle.po
+source_file            = gettext/c-api/interp-lifecycle.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = c-api--interp-lifecycle
 replace_edited_strings = false
 keep_translations      = false
 
@@ -487,6 +505,24 @@ resource_name          = c-api--perfmaps
 replace_edited_strings = false
 keep_translations      = false
 
+[o:python-doc:p:python-newest:r:c-api--picklebuffer]
+file_filter            = c-api/picklebuffer.po
+source_file            = gettext/c-api/picklebuffer.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = c-api--picklebuffer
+replace_edited_strings = false
+keep_translations      = false
+
+[o:python-doc:p:python-newest:r:c-api--profiling]
+file_filter            = c-api/profiling.po
+source_file            = gettext/c-api/profiling.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = c-api--profiling
+replace_edited_strings = false
+keep_translations      = false
+
 [o:python-doc:p:python-newest:r:c-api--refcounting]
 file_filter            = c-api/refcounting.po
 source_file            = gettext/c-api/refcounting.pot
@@ -550,6 +586,24 @@ resource_name          = c-api--structures
 replace_edited_strings = false
 keep_translations      = false
 
+[o:python-doc:p:python-newest:r:c-api--subinterpreters]
+file_filter            = c-api/subinterpreters.po
+source_file            = gettext/c-api/subinterpreters.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = c-api--subinterpreters
+replace_edited_strings = false
+keep_translations      = false
+
+[o:python-doc:p:python-newest:r:c-api--synchronization]
+file_filter            = c-api/synchronization.po
+source_file            = gettext/c-api/synchronization.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = c-api--synchronization
+replace_edited_strings = false
+keep_translations      = false
+
 [o:python-doc:p:python-newest:r:c-api--sys]
 file_filter            = c-api/sys.po
 source_file            = gettext/c-api/sys.pot
@@ -559,12 +613,30 @@ resource_name          = c-api--sys
 replace_edited_strings = false
 keep_translations      = false
 
+[o:python-doc:p:python-newest:r:c-api--threads]
+file_filter            = c-api/threads.po
+source_file            = gettext/c-api/threads.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = c-api--threads
+replace_edited_strings = false
+keep_translations      = false
+
 [o:python-doc:p:python-newest:r:c-api--time]
 file_filter            = c-api/time.po
 source_file            = gettext/c-api/time.pot
 type                   = PO
 minimum_perc           = 0
 resource_name          = c-api--time
+replace_edited_strings = false
+keep_translations      = false
+
+[o:python-doc:p:python-newest:r:c-api--tls]
+file_filter            = c-api/tls.po
+source_file            = gettext/c-api/tls.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = c-api--tls
 replace_edited_strings = false
 keep_translations      = false
 
@@ -754,6 +826,15 @@ source_file            = gettext/deprecations/pending-removal-in-3.17.pot
 type                   = PO
 minimum_perc           = 0
 resource_name          = deprecations--pending-removal-in-3_17
+replace_edited_strings = false
+keep_translations      = false
+
+[o:python-doc:p:python-newest:r:deprecations--pending-removal-in-3_18]
+file_filter            = deprecations/pending-removal-in-3.18.po
+source_file            = gettext/deprecations/pending-removal-in-3.18.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = deprecations--pending-removal-in-3_18
 replace_edited_strings = false
 keep_translations      = false
 
@@ -1198,6 +1279,24 @@ resource_name          = howto--urllib2
 replace_edited_strings = false
 keep_translations      = false
 
+[o:python-doc:p:python-newest:r:improve-page]
+file_filter            = improve-page.po
+source_file            = gettext/improve-page.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = improve-page
+replace_edited_strings = false
+keep_translations      = false
+
+[o:python-doc:p:python-newest:r:improve-page-nojs]
+file_filter            = improve-page-nojs.po
+source_file            = gettext/improve-page-nojs.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = improve-page-nojs
+replace_edited_strings = false
+keep_translations      = false
+
 [o:python-doc:p:python-newest:r:installing--index]
 file_filter            = installing/index.po
 source_file            = gettext/installing/index.pot
@@ -1474,6 +1573,24 @@ source_file            = gettext/library/asyncio-task.pot
 type                   = PO
 minimum_perc           = 0
 resource_name          = library--asyncio-task
+replace_edited_strings = false
+keep_translations      = false
+
+[o:python-doc:p:python-newest:r:library--asyncio-threading]
+file_filter            = library/asyncio-threading.po
+source_file            = gettext/library/asyncio-threading.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = library--asyncio-threading
+replace_edited_strings = false
+keep_translations      = false
+
+[o:python-doc:p:python-newest:r:library--asyncio-tools]
+file_filter            = library/asyncio-tools.po
+source_file            = gettext/library/asyncio-tools.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = library--asyncio-tools
 replace_edited_strings = false
 keep_translations      = false
 
@@ -3598,6 +3715,15 @@ source_file            = gettext/library/threading.pot
 type                   = PO
 minimum_perc           = 0
 resource_name          = library--threading
+replace_edited_strings = false
+keep_translations      = false
+
+[o:python-doc:p:python-newest:r:library--threadsafety]
+file_filter            = library/threadsafety.po
+source_file            = gettext/library/threadsafety.pot
+type                   = PO
+minimum_perc           = 0
+resource_name          = library--threadsafety
 replace_edited_strings = false
 keep_translations      = false
 

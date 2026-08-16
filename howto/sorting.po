@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-08-15 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -18,12 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Sorting Techniques"
-msgstr ""
-
-msgid "Author"
-msgstr ""
-
-msgid "Andrew Dalke and Raymond Hettinger"
 msgstr ""
 
 msgid ""
@@ -491,7 +485,7 @@ msgid ""
 "However, note that ``<`` can fall back to using :meth:`~object.__gt__` if :"
 "meth:`~object.__lt__` is not implemented (see :func:`object.__lt__` for "
 "details on the mechanics).  To avoid surprises, :pep:`8` recommends that all "
-"six comparison methods be implemented. The :func:`~functools.total_ordering` "
+"six comparison methods be implemented. The :deco:`~functools.total_ordering` "
 "decorator is provided to make that task easier."
 msgstr ""
 

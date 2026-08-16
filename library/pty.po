@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-08-15 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgid "**Source code:** :source:`Lib/pty.py`"
 msgstr ""
 
 msgid ""
-"The :mod:`pty` module defines operations for handling the pseudo-terminal "
+"The :mod:`!pty` module defines operations for handling the pseudo-terminal "
 "concept: starting another process and being able to write to and read from "
 "its controlling terminal programmatically."
 msgstr ""
@@ -38,7 +38,7 @@ msgid ""
 "platforms but it's not been thoroughly tested)."
 msgstr ""
 
-msgid "The :mod:`pty` module defines the following functions:"
+msgid "The :mod:`!pty` module defines the following functions:"
 msgstr ""
 
 msgid ""
@@ -50,8 +50,15 @@ msgid ""
 msgstr ""
 
 msgid ""
+"The returned file descriptor *fd* is :ref:`non-inheritable <fd_inheritance>`."
+msgstr ""
+
+msgid ""
 "On macOS the use of this function is unsafe when mixed with using higher-"
 "level system APIs, and that includes using :mod:`urllib.request`."
+msgstr ""
+
+msgid "The returned file descriptor is now made non-inheritable."
 msgstr ""
 
 msgid ""
