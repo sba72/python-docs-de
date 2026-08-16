@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-08-15 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgid ""
 "and a few useful functions for analyzing pickled data.  The contents of this "
 "module are useful for Python core developers who are working on the :mod:"
 "`pickle`; ordinary users of the :mod:`pickle` module probably won't find "
-"the :mod:`pickletools` module relevant."
+"the :mod:`!pickletools` module relevant."
 msgstr ""
 
 msgid "Command-line usage"
@@ -84,6 +84,11 @@ msgstr ""
 
 msgid ""
 "A pickle file to read, or ``-`` to indicate reading from standard input."
+msgstr ""
+
+msgid ""
+"Output is in color by default and can be :ref:`controlled using environment "
+"variables <using-on-controlling-color>`."
 msgstr ""
 
 msgid "Programmatic interface"

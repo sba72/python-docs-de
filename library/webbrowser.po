@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-08-07 14:47+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
@@ -28,7 +28,7 @@ msgid "**Source code:** :source:`Lib/webbrowser.py`"
 msgstr ""
 
 msgid ""
-"The :mod:`webbrowser` module provides a high-level interface to allow "
+"The :mod:`!webbrowser` module provides a high-level interface to allow "
 "displaying web-based documents to users. Under most circumstances, simply "
 "calling the :func:`.open` function from this module will do the right thing."
 msgstr ""
@@ -70,8 +70,11 @@ msgid ""
 "controlling autoraise, browser preference, and new tab/window creation will "
 "be ignored. Web pages will *always* be opened in the user's preferred "
 "browser, in a new tab, with the browser being brought to the foreground. The "
-"use of the :mod:`webbrowser` module on iOS requires the :mod:`ctypes` "
+"use of the :mod:`!webbrowser` module on iOS requires the :mod:`ctypes` "
 "module. If :mod:`ctypes` isn't available, calls to :func:`.open` will fail."
+msgstr ""
+
+msgid "Command-line interface"
 msgstr ""
 
 msgid ""
@@ -247,10 +250,10 @@ msgstr ""
 msgid "\\(2)"
 msgstr ""
 
-msgid "``'macosx'``"
+msgid "``'macos'``"
 msgstr ""
 
-msgid "``MacOSXOSAScript('default')``"
+msgid "``MacOS('default')``"
 msgstr ""
 
 msgid "\\(3)"
@@ -259,19 +262,22 @@ msgstr ""
 msgid "``'safari'``"
 msgstr ""
 
-msgid "``MacOSXOSAScript('safari')``"
+msgid "``MacOS('safari')``"
+msgstr ""
+
+msgid "``'chrome'``"
+msgstr ""
+
+msgid "``MacOS('google chrome')``"
+msgstr ""
+
+msgid "``MacOS('firefox')``"
 msgstr ""
 
 msgid "``'google-chrome'``"
 msgstr ""
 
 msgid "``Chrome('google-chrome')``"
-msgstr ""
-
-msgid "``'chrome'``"
-msgstr ""
-
-msgid "``Chrome('chrome')``"
 msgstr ""
 
 msgid "``'chromium'``"
@@ -334,6 +340,20 @@ msgstr ""
 msgid "Support for iOS has been added."
 msgstr ""
 
+msgid ""
+":class:`!MacOS` has been added as a replacement for :class:`!"
+"MacOSXOSAScript`, opening browsers via :program:`/usr/bin/open` instead of :"
+"program:`osascript`."
+msgstr ""
+
+msgid ""
+":class:`!MacOSXOSAScript` is deprecated in favour of :class:`!MacOS`. Using :"
+"program:`/usr/bin/open` instead of :program:`osascript` is a security and "
+"usability improvement: :program:`osascript` may be blocked on managed "
+"systems due to its abuse potential as a general-purpose scripting "
+"interpreter."
+msgstr ""
+
 msgid "Here are some simple examples::"
 msgstr ""
 
@@ -347,7 +367,7 @@ msgid ""
 "webbrowser.open_new(url)"
 msgstr ""
 
-msgid "Browser Controller Objects"
+msgid "Browser controller objects"
 msgstr ""
 
 msgid ""

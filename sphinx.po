@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-31 14:16+0000\n"
+"POT-Creation-Date: 2026-08-15 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
@@ -33,7 +33,13 @@ msgstr ""
 msgid "Report a bug"
 msgstr ""
 
+msgid "Improve this page"
+msgstr ""
+
 msgid "Show source"
+msgstr ""
+
+msgid "Show translation source"
 msgstr ""
 
 msgid "Download"
@@ -46,8 +52,8 @@ msgid "Last updated on: %(last_updated)s."
 msgstr ""
 
 msgid ""
-"To download an archive containing all the documents for this version of\n"
-"Python in one of various formats, follow one of links in this table."
+"Download an archive containing all the documentation for this version of "
+"Python:"
 msgstr ""
 
 msgid "Format"
@@ -97,9 +103,6 @@ msgid "EPUB"
 msgstr ""
 
 msgid "<a href=\"%(dl_base)s/python-%(dl_version)s-docs.epub\">Download</a>"
-msgstr ""
-
-msgid "These archives contain all the content in the documentation."
 msgstr ""
 
 msgid ""
@@ -172,11 +175,13 @@ msgstr ""
 msgid "CPython implementation detail:"
 msgstr ""
 
-msgid ""
-"Deprecated since version {deprecated}, will be removed in version {removed}"
+msgid "Deprecated since version %s, will be removed in version %s"
 msgstr ""
 
-msgid "Deprecated since version {deprecated}, removed in version {removed}"
+msgid "Deprecated since version %s, removed in version %s"
+msgstr ""
+
+msgid ":term:`Soft deprecated` since version %s"
 msgstr ""
 
 msgid "in development"
@@ -244,12 +249,6 @@ msgstr ""
 msgid "Third-party modules and PyPI.org"
 msgstr ""
 
-msgid "Distributing Python modules"
-msgstr ""
-
-msgid "Publishing modules for use by other people"
-msgstr ""
-
 msgid "Extending and embedding"
 msgstr ""
 
@@ -272,6 +271,39 @@ msgid "Deprecations"
 msgstr ""
 
 msgid "Deprecated functionality"
+msgstr ""
+
+msgid "Other resources:"
+msgstr ""
+
+msgid "Python developer's guide"
+msgstr ""
+
+msgid "Information on contributing to Python"
+msgstr ""
+
+msgid "Python Packaging User Guide"
+msgstr ""
+
+msgid "Resources relating to Python packaging"
+msgstr ""
+
+msgid "Audio/visual talks"
+msgstr ""
+
+msgid "Podcasts, talks, and video presentations from the community"
+msgstr ""
+
+msgid "Python Enhancement Proposals"
+msgstr ""
+
+msgid "Index of proposed improvements to Python"
+msgstr ""
+
+msgid "Static Typing with Python"
+msgstr ""
+
+msgid "Information and guides about Python type safety"
 msgstr ""
 
 msgid "Indices, glossary, and search:"
@@ -304,7 +336,7 @@ msgstr ""
 msgid "Complete table of contents"
 msgstr ""
 
-msgid "Lists all sections and subsections"
+msgid "All sections and subsections"
 msgstr ""
 
 msgid "Project information:"
@@ -335,24 +367,6 @@ msgid "Docs by version"
 msgstr ""
 
 msgid "All versions"
-msgstr ""
-
-msgid "Other resources"
-msgstr ""
-
-msgid "PEP index"
-msgstr ""
-
-msgid "Beginner's guide"
-msgstr ""
-
-msgid "Book list"
-msgstr ""
-
-msgid "Audio/visual talks"
-msgstr ""
-
-msgid "Python developer’s guide"
 msgstr ""
 
 msgid ""

@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-29 14:15+0000\n"
+"POT-Creation-Date: 2026-08-15 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
@@ -79,6 +79,18 @@ msgid ""
 "These subtypes of :c:type:`PyObject` represent a Python Unicode object.  In "
 "almost all cases, they shouldn't be used directly, since all API functions "
 "that deal with Unicode objects take and return :c:type:`PyObject` pointers."
+msgstr ""
+
+msgid ""
+"The structure of a particular object can be determined using the following "
+"macros. The macros cannot fail; their behavior is undefined if their "
+"argument is not a Python Unicode object."
+msgstr ""
+
+msgid "True if *o* uses the :c:struct:`PyCompactUnicodeObject` structure."
+msgstr ""
+
+msgid "True if *o* uses the :c:struct:`PyASCIIObject` structure."
 msgstr ""
 
 msgid ""
@@ -175,6 +187,26 @@ msgid ""
 "meth:`str.isascii`."
 msgstr ""
 
+msgid ""
+"If the hash of *str*, as returned by :c:func:`PyObject_Hash`, has been "
+"cached and is immediately available, return it. Otherwise, return ``-1`` "
+"*without* setting an exception."
+msgstr ""
+
+msgid ""
+"If *str* is not a string (that is, if ``PyUnicode_Check(obj)`` is false), "
+"the behavior is undefined."
+msgstr ""
+
+msgid "This function never fails with an exception."
+msgstr ""
+
+msgid ""
+"Note that there are no guarantees on when an object's hash is cached, and "
+"the (non-)existence of a cached hash does not imply that the string has any "
+"other properties."
+msgstr ""
+
 msgid "Unicode Character Properties"
 msgstr ""
 
@@ -266,10 +298,20 @@ msgid "Check if *ch* is a low surrogate (``0xDC00 <= ch <= 0xDFFF``)."
 msgstr ""
 
 msgid ""
+"Return the high UTF-16 surrogate (``0xD800`` to ``0xDBFF``) for a Unicode "
+"code point in the range ``[0x10000; 0x10FFFF]``."
+msgstr ""
+
+msgid ""
+"Return the low UTF-16 surrogate (``0xDC00`` to ``0xDFFF``) for a Unicode "
+"code point in the range ``[0x10000; 0x10FFFF]``."
+msgstr ""
+
+msgid ""
 "Join two surrogate code points and return a single :c:type:`Py_UCS4` value. "
 "*high* and *low* are respectively the leading and trailing surrogates in a "
-"surrogate pair. *high* must be in the range [0xD800; 0xDBFF] and *low* must "
-"be in the range [0xDC00; 0xDFFF]."
+"surrogate pair. *high* must be in the range ``[0xD800; 0xDBFF]`` and *low* "
+"must be in the range ``[0xDC00; 0xDFFF]``."
 msgstr ""
 
 msgid "Creating and accessing Unicode strings"
@@ -718,7 +760,7 @@ msgstr ""
 msgid ""
 "Append the string *right* to the end of *p_left*. *p_left* must point to a :"
 "term:`strong reference` to a Unicode object; :c:func:`!PyUnicode_Append` "
-"releases (\"steals\") this reference."
+"releases (\":term:`steals <steal>`\") this reference."
 msgstr ""
 
 msgid "On error, set *\\*p_left* to ``NULL`` and set an exception."
@@ -799,7 +841,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Return the number of written character, or return ``-1`` and raise an "
+"Return the number of written characters, or return ``-1`` and raise an "
 "exception on error."
 msgstr ""
 
@@ -1168,7 +1210,7 @@ msgid ""
 "collected."
 msgstr ""
 
-msgid "The return type is now ``const char *`` rather of ``char *``."
+msgid "The return type is now ``const char *`` rather than ``char *``."
 msgstr ""
 
 msgid "This function is a part of the :ref:`limited API <limited-c-api>`."
@@ -1838,7 +1880,19 @@ msgid ""
 msgstr ""
 
 msgid ""
+"To write a :class:`str` subclass which overrides the :meth:`~object.__str__` "
+"method, :c:func:`PyUnicode_FromObject` can be used to get the original "
+"string."
+msgstr ""
+
+msgid ""
 "Call :c:func:`PyObject_Repr` on *obj* and write the output into *writer*."
+msgstr ""
+
+msgid "If *obj* is ``NULL``, write the string ``\"<NULL>\"`` into *writer*."
+msgstr ""
+
+msgid "Added support for ``NULL``."
 msgstr ""
 
 msgid "Write the substring ``str[start:end]`` into *writer*."

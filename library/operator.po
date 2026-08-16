@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-08-15 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgid "**Source code:** :source:`Lib/operator.py`"
 msgstr ""
 
 msgid ""
-"The :mod:`operator` module exports a set of efficient functions "
+"The :mod:`!operator` module exports a set of efficient functions "
 "corresponding to the intrinsic operators of Python.  For example, ``operator."
 "add(x, y)`` is equivalent to the expression ``x+y``. Many function names are "
 "those used for special methods, without the double underscores.  For "
@@ -91,7 +91,7 @@ msgstr ""
 msgid "Return ``a + b``, for *a* and *b* numbers."
 msgstr ""
 
-msgid "Return the bitwise and of *a* and *b*."
+msgid "Return ``a & b``."
 msgstr ""
 
 msgid "Return ``a // b``."
@@ -105,18 +105,16 @@ msgid ""
 "have been an instance of a subclass of ``int``."
 msgstr ""
 
-msgid ""
-"Return the bitwise inverse of the number *obj*.  This is equivalent to "
-"``~obj``."
+msgid "Return ``~obj``."
 msgstr ""
 
-msgid "Return *a* shifted left by *b*."
+msgid "Return ``a << b``."
 msgstr ""
 
 msgid "Return ``a % b``."
 msgstr ""
 
-msgid "Return ``a * b``, for *a* and *b* numbers."
+msgid "Return ``a * b``."
 msgstr ""
 
 msgid "Return ``a @ b``."
@@ -125,16 +123,16 @@ msgstr ""
 msgid "Return *obj* negated (``-obj``)."
 msgstr ""
 
-msgid "Return the bitwise or of *a* and *b*."
+msgid "Return ``a | b``."
 msgstr ""
 
-msgid "Return *obj* positive (``+obj``)."
+msgid "Return ``+obj``."
 msgstr ""
 
-msgid "Return ``a ** b``, for *a* and *b* numbers."
+msgid "Return ``a ** b``."
 msgstr ""
 
-msgid "Return *a* shifted right by *b*."
+msgid "Return ``a >> b``."
 msgstr ""
 
 msgid "Return ``a - b``."
@@ -145,7 +143,7 @@ msgid ""
 "\"true\" division."
 msgstr ""
 
-msgid "Return the bitwise exclusive or of *a* and *b*."
+msgid "Return ``a ^ b``."
 msgstr ""
 
 msgid ""
@@ -187,7 +185,7 @@ msgid "Return ``obj(*args, **kwargs)``."
 msgstr ""
 
 msgid ""
-"The :mod:`operator` module also defines tools for generalized attribute and "
+"The :mod:`!operator` module also defines tools for generalized attribute and "
 "item lookups.  These are useful for making fast field extractors as "
 "arguments for :func:`map`, :func:`sorted`, :meth:`itertools.groupby`, or "
 "other functions that expect a function argument."
@@ -298,7 +296,7 @@ msgstr ""
 
 msgid ""
 "This table shows how abstract operations correspond to operator symbols in "
-"the Python syntax and the functions in the :mod:`operator` module."
+"the Python syntax and the functions in the :mod:`!operator` module."
 msgstr ""
 
 msgid "Operation"
@@ -352,7 +350,7 @@ msgstr ""
 msgid "``floordiv(a, b)``"
 msgstr ""
 
-msgid "Bitwise And"
+msgid "Bitwise And, or Intersection"
 msgstr ""
 
 msgid "``a & b``"
@@ -361,7 +359,7 @@ msgstr ""
 msgid "``and_(a, b)``"
 msgstr ""
 
-msgid "Bitwise Exclusive Or"
+msgid "Bitwise Exclusive Or, or Symmetric Difference"
 msgstr ""
 
 msgid "``a ^ b``"
@@ -370,7 +368,7 @@ msgstr ""
 msgid "``xor(a, b)``"
 msgstr ""
 
-msgid "Bitwise Inversion"
+msgid "Bitwise Inversion, or Complement"
 msgstr ""
 
 msgid "``~ a``"
@@ -379,7 +377,7 @@ msgstr ""
 msgid "``invert(a)``"
 msgstr ""
 
-msgid "Bitwise Or"
+msgid "Bitwise Or, or Union"
 msgstr ""
 
 msgid "``a | b``"

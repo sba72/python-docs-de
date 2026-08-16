@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-08-15 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 msgid ""
 "This module defines an object type which can compactly represent an array of "
-"basic values: characters, integers, floating-point numbers.  Arrays are "
-"sequence types and behave very much like lists, except that the type of "
-"objects stored in them is constrained.  The type is specified at object "
-"creation time by using a :dfn:`type code`, which is a single character.  The "
-"following type codes are defined:"
+"basic values: characters, integers, floating-point numbers, complex "
+"numbers.  Arrays are mutable :term:`sequence` types and behave very much "
+"like lists, except that the type of objects stored in them is constrained.  "
+"The type is specified at object creation time by using a :dfn:`type code`, "
+"which is a single character.  The following type codes are defined:"
 msgstr ""
 
 msgid "Type code"
@@ -140,16 +140,46 @@ msgstr ""
 msgid "unsigned long long"
 msgstr ""
 
-msgid "``'f'``"
+msgid "``'e'``"
+msgstr ""
+
+msgid "_Float16"
 msgstr ""
 
 msgid "float"
+msgstr ""
+
+msgid "\\(3)"
+msgstr ""
+
+msgid "``'f'``"
 msgstr ""
 
 msgid "``'d'``"
 msgstr ""
 
 msgid "double"
+msgstr ""
+
+msgid "``'Zf'``"
+msgstr ""
+
+msgid "float complex"
+msgstr ""
+
+msgid "complex"
+msgstr ""
+
+msgid "\\(4)"
+msgstr ""
+
+msgid "``'Zd'``"
+msgstr ""
+
+msgid "double complex"
+msgstr ""
+
+msgid "16"
 msgstr ""
 
 msgid "Notes:"
@@ -168,6 +198,28 @@ msgid "Please migrate to ``'w'`` typecode."
 msgstr ""
 
 msgid ""
+"The IEEE 754 binary16 \"half precision\" type was introduced in the 2008 "
+"revision of the `IEEE 754 standard <ieee 754 standard_>`_. This type is not "
+"widely supported by C compilers.  It's available as :c:expr:`_Float16` type, "
+"if the compiler supports the Annex H of the C23 standard."
+msgstr ""
+
+msgid ""
+"Complex types (``Zf`` and ``Zd``) are available unconditionally, regardless "
+"on support for complex types (the Annex G of the C11 standard) by the C "
+"compiler. As specified in the C11 standard, each complex type is represented "
+"by a two-element C array containing, respectively, the real and imaginary "
+"parts."
+msgstr ""
+
+msgid ""
+"The :ref:`ctypes <ctypes-fundamental-data-types>` and :ref:`struct <format-"
+"characters>` modules, as well as third-party modules like `numpy <https://"
+"numpy.org/doc/stable/reference/arrays.interface.html#object."
+"__array_interface__>`__, use similar -- but slightly different -- type codes."
+msgstr ""
+
+msgid ""
 "The actual representation of values is determined by the machine "
 "architecture (strictly speaking, by the C implementation).  The actual size "
 "can be accessed through the :attr:`array.itemsize` attribute."
@@ -176,7 +228,10 @@ msgstr ""
 msgid "The module defines the following item:"
 msgstr ""
 
-msgid "A string with all available type codes."
+msgid "A tuple with all available type codes."
+msgstr ""
+
+msgid "The type changed from :class:`str` to :class:`tuple`."
 msgstr ""
 
 msgid "The module defines the following type:"
@@ -198,12 +253,15 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Array objects support the ordinary sequence operations of indexing, slicing, "
-"concatenation, and multiplication.  When using slice assignment, the "
-"assigned value must be an array object with the same type code; in all other "
-"cases, :exc:`TypeError` is raised. Array objects also implement the buffer "
-"interface, and may be used wherever :term:`bytes-like objects <bytes-like "
-"object>` are supported."
+"Array objects support the ordinary :ref:`mutable <typesseq-mutable>` :term:"
+"`sequence` operations of indexing, slicing, concatenation, and "
+"multiplication.  When using slice assignment, the assigned value must be an "
+"array object with the same type code; in all other cases, :exc:`TypeError` "
+"is raised. Array objects also implement the buffer interface, and may be "
+"used wherever :term:`bytes-like objects <bytes-like object>` are supported."
+msgstr ""
+
+msgid "Arrays are :ref:`generic <generics>` over the type of their contents."
 msgstr ""
 
 msgid ""
@@ -217,7 +275,7 @@ msgstr ""
 msgid "The length in bytes of one array item in the internal representation."
 msgstr ""
 
-msgid "Append a new item with value *x* to the end of the array."
+msgid "Append a new item with the specified value to the end of the array."
 msgstr ""
 
 msgid ""
@@ -241,12 +299,14 @@ msgstr ""
 
 msgid ""
 "\"Byteswap\" all items of the array.  This is only supported for values "
-"which are 1, 2, 4, or 8 bytes in size; for other types of values, :exc:"
+"which are 1, 2, 4, 8 or 16 bytes in size; for other types of values, :exc:"
 "`RuntimeError` is raised.  It is useful when reading data from a file "
-"written on a machine with a different byte order."
+"written on a machine with a different byte order.  Note, that for complex "
+"types the order of components (the real part, followed by imaginary part) is "
+"preserved."
 msgstr ""
 
-msgid "Return the number of occurrences of *x* in the array."
+msgid "Return the number of occurrences of *value* in the array."
 msgstr ""
 
 msgid ""
@@ -286,16 +346,16 @@ msgstr ""
 
 msgid ""
 "Return the smallest *i* such that *i* is the index of the first occurrence "
-"of *x* in the array.  The optional arguments *start* and *stop* can be "
-"specified to search for *x* within a subsection of the array.  Raise :exc:"
-"`ValueError` if *x* is not found."
+"of *value* in the array.  The optional arguments *start* and *stop* can be "
+"specified to search for *value* within a subsection of the array.  Raise :"
+"exc:`ValueError` if *value* is not found."
 msgstr ""
 
 msgid "Added optional *start* and *stop* parameters."
 msgstr ""
 
 msgid ""
-"Insert a new item with value *x* in the array before position *i*. Negative "
+"Insert a new item *value* in the array before position *index*. Negative "
 "values are treated as being relative to the end of the array."
 msgstr ""
 
@@ -305,7 +365,7 @@ msgid ""
 "removed and returned."
 msgstr ""
 
-msgid "Remove the first occurrence of *x* from the array."
+msgid "Remove the first occurrence of *value* from the array."
 msgstr ""
 
 msgid "Remove all elements from the array."

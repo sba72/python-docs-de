@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 14:16+0000\n"
+"POT-Creation-Date: 2026-08-15 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
@@ -34,6 +34,13 @@ msgid ""
 "Turtle graphics is an implementation of `the popular geometric drawing tools "
 "introduced in Logo <https://en.wikipedia.org/wiki/Turtle_ (robot)>`_, "
 "developed by Wally Feurzeig, Seymour Papert and Cynthia Solomon in 1967."
+msgstr ""
+
+msgid ""
+"This is an :term:`optional module`. If it is missing from your copy of "
+"CPython, look for documentation from your distributor (that is, whoever "
+"provided Python to you). If you are the distributor, see :ref:`optional-"
+"module-requirements`."
 msgstr ""
 
 msgid "Get started"
@@ -88,8 +95,9 @@ msgid "from turtle import *"
 msgstr ""
 
 msgid ""
-"If you run into a ``No module named '_tkinter'`` error, you'll have to "
-"install the :mod:`Tk interface package <tkinter>` on your system."
+"If you run into a ``Standard library module '_tkinter' was not found`` "
+"error, you'll have to install the :mod:`Tk interface package <tkinter>` on "
+"your system."
 msgstr ""
 
 msgid "Basic drawing"
@@ -210,16 +218,18 @@ msgid "Next we'll create a loop::"
 msgstr ""
 
 msgid ""
+"start = pos()\n"
+"\n"
 "while True:\n"
 "    forward(200)\n"
 "    left(170)\n"
-"    if abs(pos()) < 1:\n"
+"    if distance(start) < 1:\n"
 "        break"
 msgstr ""
 
 msgid ""
-"``abs(pos()) < 1`` is a good way to know when the turtle is back at its home "
-"position."
+"``distance(start) < 1`` is a good way to know when the turtle is back at its "
+"start position."
 msgstr ""
 
 msgid "Finally, complete the filling::"
@@ -2340,7 +2350,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Mode \"standard\" is compatible with old :mod:`turtle`.  Mode \"logo\" is "
+"Mode \"standard\" is compatible with old :mod:`!turtle`.  Mode \"logo\" is "
 "compatible with most Logo turtle graphics.  Mode \"world\" uses user-defined "
 "\"world coordinates\". **Attention**: in this mode angles appear distorted "
 "if ``x/y`` unit-ratio doesn't equal 1."
@@ -2847,9 +2857,9 @@ msgid ""
 msgstr ""
 
 msgid ""
-"If you (or your students) want to use :mod:`turtle` with online help in your "
-"native language, you have to translate the docstrings and save the resulting "
-"file as e.g. :file:`turtle_docstringdict_german.py`."
+"If you (or your students) want to use :mod:`!turtle` with online help in "
+"your native language, you have to translate the docstrings and save the "
+"resulting file as e.g. :file:`turtle_docstringdict_german.py`."
 msgstr ""
 
 msgid ""
@@ -2938,7 +2948,7 @@ msgstr ""
 msgid ""
 "If you set e.g. ``language = italian`` the docstringdict :file:"
 "`turtle_docstringdict_italian.py` will be loaded at import time (if present "
-"on the import path, e.g. in the same directory as :mod:`turtle`)."
+"on the import path, e.g. in the same directory as :mod:`!turtle`)."
 msgstr ""
 
 msgid ""
@@ -2955,7 +2965,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"There can be a :file:`turtle.cfg` file in the directory where :mod:`turtle` "
+"There can be a :file:`turtle.cfg` file in the directory where :mod:`!turtle` "
 "is stored and an additional one in the current working directory.  The "
 "latter will override the settings of the first one."
 msgstr ""
@@ -2966,12 +2976,12 @@ msgid ""
 "(preferably not from within the demo-viewer)."
 msgstr ""
 
-msgid ":mod:`turtledemo` --- Demo scripts"
+msgid ":mod:`!turtledemo` --- Demo scripts"
 msgstr ""
 
 msgid ""
-"The :mod:`turtledemo` package includes a set of demo scripts.  These scripts "
-"can be run and viewed using the supplied demo viewer as follows::"
+"The :mod:`!turtledemo` package includes a set of demo scripts.  These "
+"scripts can be run and viewed using the supplied demo viewer as follows::"
 msgstr ""
 
 msgid "python -m turtledemo"
@@ -2984,7 +2994,7 @@ msgstr ""
 msgid "python -m turtledemo.bytedesign"
 msgstr ""
 
-msgid "The :mod:`turtledemo` package directory contains:"
+msgid "The :mod:`!turtledemo` package directory contains:"
 msgstr ""
 
 msgid ""
@@ -2993,7 +3003,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Multiple scripts demonstrating different features of the :mod:`turtle` "
+"Multiple scripts demonstrating different features of the :mod:`!turtle` "
 "module.  Examples can be accessed via the Examples menu.  They can also be "
 "run standalone."
 msgstr ""
@@ -3015,16 +3025,16 @@ msgstr "Beschreibung"
 msgid "Features"
 msgstr ""
 
-msgid "bytedesign"
+msgid "``bytedesign``"
 msgstr ""
 
 msgid "complex classical turtle graphics pattern"
 msgstr ""
 
-msgid ":func:`tracer`, delay, :func:`update`"
+msgid ":func:`tracer`, :func:`delay`, :func:`update`"
 msgstr ""
 
-msgid "chaos"
+msgid "``chaos``"
 msgstr ""
 
 msgid ""
@@ -3035,22 +3045,22 @@ msgstr ""
 msgid "world coordinates"
 msgstr ""
 
-msgid "clock"
+msgid "``clock``"
 msgstr ""
 
 msgid "analog clock showing time of your computer"
 msgstr ""
 
-msgid "turtles as clock's hands, ontimer"
+msgid "turtles as clock's hands, :func:`ontimer`"
 msgstr ""
 
-msgid "colormixer"
+msgid "``colormixer``"
 msgstr ""
 
 msgid "experiment with r, g, b"
 msgstr ""
 
-msgid "forest"
+msgid "``forest``"
 msgstr ""
 
 msgid "3 breadth-first trees"
@@ -3059,7 +3069,7 @@ msgstr ""
 msgid "randomization"
 msgstr ""
 
-msgid "fractalcurves"
+msgid "``fractalcurves``"
 msgstr ""
 
 msgid "Hilbert & Koch curves"
@@ -3068,7 +3078,7 @@ msgstr ""
 msgid "recursion"
 msgstr ""
 
-msgid "lindenmayer"
+msgid "``lindenmayer``"
 msgstr ""
 
 msgid "ethnomathematics (indian kolams)"
@@ -3077,16 +3087,16 @@ msgstr ""
 msgid "L-System"
 msgstr ""
 
-msgid "minimal_hanoi"
+msgid "``minimal_hanoi``"
 msgstr ""
 
 msgid "Towers of Hanoi"
 msgstr ""
 
-msgid "Rectangular Turtles as Hanoi discs (shape, shapesize)"
+msgid "Rectangular Turtles as Hanoi discs (:func:`shape`, :func:`shapesize`)"
 msgstr ""
 
-msgid "nim"
+msgid "``nim``"
 msgstr ""
 
 msgid ""
@@ -3096,13 +3106,13 @@ msgstr ""
 msgid "turtles as nimsticks, event driven (mouse, keyboard)"
 msgstr ""
 
-msgid "paint"
+msgid "``paint``"
 msgstr ""
 
 msgid "super minimalistic drawing program"
 msgstr ""
 
-msgid "peace"
+msgid "``peace``"
 msgstr ""
 
 msgid "elementary"
@@ -3111,13 +3121,13 @@ msgstr ""
 msgid "turtle: appearance and animation"
 msgstr ""
 
-msgid "penrose"
+msgid "``penrose``"
 msgstr ""
 
 msgid "aperiodic tiling with kites and darts"
 msgstr ""
 
-msgid "planet_and_moon"
+msgid "``planet_and_moon``"
 msgstr ""
 
 msgid "simulation of gravitational system"
@@ -3126,7 +3136,7 @@ msgstr ""
 msgid "compound shapes, :class:`Vec2D`"
 msgstr ""
 
-msgid "rosette"
+msgid "``rosette``"
 msgstr ""
 
 msgid "a pattern from the wikipedia article on turtle graphics"
@@ -3135,16 +3145,18 @@ msgstr ""
 msgid ":func:`clone`, :func:`undo`"
 msgstr ""
 
-msgid "round_dance"
+msgid "``round_dance``"
 msgstr ""
 
 msgid "dancing turtles rotating pairwise in opposite direction"
 msgstr ""
 
-msgid "compound shapes, clone shapesize, tilt, get_shapepoly, update"
+msgid ""
+"compound shapes, :func:`clone` :func:`shapesize`, :func:`tilt`, :func:"
+"`get_shapepoly`, :func:`update`"
 msgstr ""
 
-msgid "sorting_animate"
+msgid "``sorting_animate``"
 msgstr ""
 
 msgid "visual demonstration of different sorting methods"
@@ -3153,13 +3165,13 @@ msgstr ""
 msgid "simple alignment, randomization"
 msgstr ""
 
-msgid "tree"
+msgid "``tree``"
 msgstr ""
 
 msgid "a (graphical) breadth first tree (using generators)"
 msgstr ""
 
-msgid "two_canvases"
+msgid "``two_canvases``"
 msgstr ""
 
 msgid "simple design"
@@ -3168,7 +3180,7 @@ msgstr ""
 msgid "turtles on two canvases"
 msgstr ""
 
-msgid "yinyang"
+msgid "``yinyang``"
 msgstr ""
 
 msgid "another elementary example"

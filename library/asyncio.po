@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-08-15 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "MIME-Version: 1.0\n"
@@ -18,6 +18,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "High-level APIs"
+msgstr ""
+
+msgid "Introspection APIs"
 msgstr ""
 
 msgid "Low-level APIs"
@@ -85,6 +88,18 @@ msgstr ""
 msgid ":ref:`synchronize <asyncio-sync>` concurrent code;"
 msgstr ""
 
+msgid "For **introspection**, asyncio provides APIs and tools for:"
+msgstr ""
+
+msgid ""
+"inspecting the :ref:`async call graph <asyncio-graph>` of tasks and futures;"
+msgstr ""
+
+msgid ""
+"inspecting tasks in another running Python process with :ref:`command-line "
+"tools <asyncio-introspection-tools>`;"
+msgstr ""
+
 msgid ""
 "Additionally, there are **low-level** APIs for *library and framework "
 "developers* to:"
@@ -132,6 +147,12 @@ msgid ""
 ">>> import asyncio\n"
 ">>> await asyncio.sleep(10, result='hello')\n"
 "'hello'"
+msgstr ""
+
+msgid ""
+"This REPL provides limited compatibility with :envvar:`PYTHON_BASIC_REPL`. "
+"It is recommended that the default REPL is used for full functionality and "
+"the latest features."
 msgstr ""
 
 msgid ""
