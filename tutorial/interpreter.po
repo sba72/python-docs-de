@@ -1,10 +1,7 @@
-# German translation for Python documentation.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR Swen Bachmann <142266608+sba72@users.noreply.github.com>, 2026.
-#
-# Translators:
-# python-doc bot, 2025
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
