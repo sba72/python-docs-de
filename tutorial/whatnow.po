@@ -31,7 +31,6 @@ msgstr ""
 "Das Lesen dieses Tutorials hat dein Interesse an der Verwendung von Python "
 "vermutlich verstärkt – du brennst sicher darauf, Python zur Lösung deiner "
 "praktischen Probleme einzusetzen. Wo solltest du ansetzen, um mehr zu lernen?"
-"\"
 
 msgid ""
 "This tutorial is part of Python's documentation set.   Some other documents "
