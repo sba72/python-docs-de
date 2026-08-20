@@ -40,4 +40,4 @@ jobs:
 
       - name: Validate PO syntax with msgfmt
         run: |
-          find . -name "*.po" -exec msgfmt --check --check-format -o /dev/null {} +
+          find . -name "*.po" -exec msgfmt --check --check-format -o /dev/null {} \;
