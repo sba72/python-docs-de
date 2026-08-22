@@ -853,6 +853,7 @@ msgstr ""
 "sind, zum Beispiel::"
 
 #: ../../tutorial/datastructures.rst:415
+msgid ""
 ">>> t = 12345, 54321, 'hello!'\n"
 ">>> t[0]\n"
 "12345\n"
