@@ -46,7 +46,6 @@ msgstr ""
 "Plattformen."
 
 #: ../../tutorial/index.rst:17
-#, fuzzy
 msgid ""
 "The Python interpreter and the extensive standard library are freely "
 "available in source or binary form for all major platforms from the Python "
@@ -54,12 +53,12 @@ msgid ""
 "site also contains distributions of and pointers to many free third party "
 "Python modules, programs and tools, and additional documentation."
 msgstr ""
-"Der Python-Interpreter und die umfangreiche Standardbibliothek sind im "
-"Quellcode oder als Binärdateien für alle gängigen Plattformen auf der Python-"
-"Website https://www.python.org/ frei verfügbar und dürfen frei verteilt "
-"werden. Dieselbe Website enthält auch Distributionen von und Verweise auf "
-"viele kostenlose Python-Module, Programme und Werkzeuge von Drittanbietern "
-"sowie zusätzliche Dokumentation."
+"Der Python-Interpreter und die umfangreiche Standardbibliothek sind für "
+"alle wichtigen Plattformen frei im Quell- oder Binärformat auf der Python-"
+"Website, https://www.python.org/, erhältlich und dürfen frei "
+"weitergegeben werden. Dieselbe Seite enthält außerdem Distributionen und "
+"Verweise auf viele freie Python-Module, -Programme und -Werkzeuge von "
+"Drittanbietern sowie zusätzliche Dokumentation."
 
 #: ../../tutorial/index.rst:23
 msgid ""

@@ -948,7 +948,6 @@ msgstr ""
 "'Buddy'"
 
 #: ../../tutorial/classes.rst:422
-#, fuzzy
 msgid ""
 "As discussed in :ref:`tut-object`, shared data can have possibly surprising "
 "effects involving :term:`mutable` objects such as lists and dictionaries. "
@@ -1493,6 +1492,8 @@ msgid ""
 "In some cases multiple inheritance is not allowed; see :ref:`multiple-"
 "inheritance` for details."
 msgstr ""
+"In manchen Fällen ist Mehrfachvererbung nicht erlaubt; siehe :ref:`multiple-"
+"inheritance` für Details."
 
 #: ../../tutorial/classes.rst:673
 msgid "Private Variables"
@@ -1989,7 +1990,6 @@ msgid "Examples::"
 msgstr "Beispiele::"
 
 #: ../../tutorial/classes.rst:916
-#, fuzzy
 msgid ""
 ">>> sum(i*i for i in range(10))                 # sum of squares\n"
 "285\n"
@@ -2039,22 +2039,32 @@ msgid ""
 "parentheses.  That is to say, the following two pieces of code are "
 "semantically equivalent::"
 msgstr ""
+"In den meisten Fällen müssen Generator-Ausdrücke in Klammern eingeschlossen "
+"werden. Ein Sonderfall ist jedoch, wenn ein solcher Ausdruck als einziges "
+"Argument einer Funktion übergeben wird (wie in den obigen Beispielen mit "
+"``sum``, ``set``, ``max`` und ``list``); in diesem Fall muss der Generator-"
+"Ausdruck nicht in ein zusätzliches Klammernpaar eingeschlossen werden. Das "
+"heißt, die folgenden zwei Codestücke sind semantisch äquivalent::"
 
 #: ../../tutorial/classes.rst:944
 msgid ""
 ">>> f(x for x in y)\n"
 ">>> f((x for x in y))"
 msgstr ""
+">>> f(x for x in y)\n"
+">>> f((x for x in y))"
 
 #: ../../tutorial/classes.rst:947
 msgid "as are the following::"
-msgstr ""
+msgstr "genauso wie die folgenden::"
 
 #: ../../tutorial/classes.rst:949
 msgid ""
 ">>> f(*x for x in y)\n"
 ">>> f((*x for x in y))"
 msgstr ""
+">>> f(*x for x in y)\n"
+">>> f((*x for x in y))"
 
 #: ../../tutorial/classes.rst:954
 msgid "Footnotes"

@@ -105,18 +105,17 @@ msgid "Numbers"
 msgstr "Zahlen"
 
 #: ../../tutorial/introduction.rst:52
-#, fuzzy
 msgid ""
 "The interpreter acts as a simple calculator: you can type an expression into "
 "it and it will write the value.  Expression syntax is straightforward: the "
 "operators ``+``, ``-``, ``*`` and ``/`` can be used to perform arithmetic; "
 "parentheses (``()``) can be used for grouping. For example::"
 msgstr ""
-"Der Interpreter funktioniert wie ein einfacher Taschenrechner: Du kannst "
-"einen Ausdruck eingeben und er gibt den Wert aus. Die Syntax für Ausdrücke "
-"ist einfach und intuitiv: Die Operatoren ``+``, ``-``, ``*`` und ``/`` "
-"können für arithmetische Berechnungen verwendet werden; Klammern (``()``) "
-"dienen der Gruppierung. Zum Beispiel::"
+"Der Interpreter fungiert als einfacher Taschenrechner: Du kannst einen "
+"Ausdruck eingeben, und er gibt den Wert zurück. Die Ausdruckssyntax ist "
+"unkompliziert: Die Operatoren ``+``, ``-``, ``*`` und ``/`` können für "
+"Rechenoperationen verwendet werden; Klammern (``()``) können zum "
+"Gruppieren verwendet werden. Zum Beispiel::"
 
 #: ../../tutorial/introduction.rst:58
 msgid ""
@@ -425,7 +424,6 @@ msgstr ""
 "du ein ``r`` vor das erste Anführungszeichen setzt::"
 
 #: ../../tutorial/introduction.rst:187
-#, fuzzy
 msgid ""
 ">>> print('C:\\this\\name')  # here \\t means tab, \\n means newline\n"
 "C:      his\n"
@@ -433,11 +431,11 @@ msgid ""
 ">>> print(r'C:\\this\\name')  # note the r before the quote\n"
 "C:\\this\\name"
 msgstr ""
-">>> print('C:\\some\\name')  # hier steht \\n für Zeilenumbruch!\n"
-"C:\\some\n"
+">>> print('C:\\this\\name')  # hier bedeutet \\t Tabulator, \\n Zeilenumbruch\n"
+"C:      his\n"
 "ame\n"
-">>> print(r'C:\\some\\name')  # beachte das r vor dem Anführungszeichen\n"
-"C:\\some\\name"
+">>> print(r'C:\\this\\name')  # beachte das r vor dem Anführungszeichen\n"
+"C:\\this\\name"
 
 #: ../../tutorial/introduction.rst:193
 msgid ""

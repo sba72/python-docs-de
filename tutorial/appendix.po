@@ -39,7 +39,6 @@ msgstr ""
 "zur Zeilensteuerung unterstützt."
 
 #: ../../tutorial/appendix.rst:17
-#, fuzzy
 msgid ""
 "Since Python 3.13, a new interactive shell is used by default. This one "
 "supports color, multiline editing, history browsing, and paste mode.  To "

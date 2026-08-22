@@ -3,14 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-22 12:07+0200\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: \n"
+"Last-Translator: Swen Bachmann <142266608+sba72@users.noreply.github.com>\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"

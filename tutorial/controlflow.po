@@ -337,7 +337,6 @@ msgstr ""
 "6"
 
 #: ../../tutorial/controlflow.rst:157
-#, fuzzy
 msgid ""
 "Later we will see more functions that return iterables and take iterables as "
 "arguments.  In chapter :ref:`tut-structures`, we will discuss :func:`list` "
@@ -982,7 +981,6 @@ msgstr ""
 "``True``, ``False`` und ``None`` jedoch auf Identität."
 
 #: ../../tutorial/controlflow.rst:443
-#, fuzzy
 msgid ""
 "Patterns may use named constants.  These must be dotted names to prevent "
 "them from being interpreted as capture variables::"
@@ -2313,13 +2311,15 @@ msgid ""
 "The Python parser strips indentation from multi-line string literals when "
 "they serve as module, class, or function docstrings."
 msgstr ""
+"Der Python-Parser entfernt die Einrückung aus mehrzeiligen String-"
+"Literalen, wenn diese als Modul-, Klassen- oder Funktions-Docstrings "
+"dienen."
 
 #: ../../tutorial/controlflow.rst:1045
 msgid "Here is an example of a multi-line docstring::"
 msgstr "Hier ist ein Beispiel für einen mehrzeiligen Docstring::"
 
 #: ../../tutorial/controlflow.rst:1047
-#, fuzzy
 msgid ""
 ">>> def my_function():\n"
 "...     \"\"\"Do nothing, but document it.\n"
@@ -2340,16 +2340,22 @@ msgid ""
 "    >>>"
 msgstr ""
 ">>> def my_function():\n"
-"...     \\\"\\\"\\\"Tue nichts, aber dokumentiere es.\n"
+"...     \"\"\"Tut nichts, dokumentiert dies aber.\n"
 "...\n"
-"...     Nein, wirklich, sie tut überhaupt nichts.\n"
+"...     Nein, wirklich, es tut nichts:\n"
+"...\n"
+"...         >>> my_function()\n"
+"...         >>>\n"
 "...     \"\"\"\n"
 "...     pass\n"
 "...\n"
 ">>> print(my_function.__doc__)\n"
-"Tue nichts, aber dokumentiere es.\n"
+"Tut nichts, dokumentiert dies aber.\n"
 "\n"
-"Nein, wirklich, sie tut überhaupt nichts."
+"Nein, wirklich, es tut nichts:\n"
+"\n"
+"    >>> my_function()\n"
+"    >>>"
 
 #: ../../tutorial/controlflow.rst:1069
 msgid "Function Annotations"
@@ -2418,7 +2424,6 @@ msgid "Intermezzo: Coding Style"
 msgstr "Intermezzo: Programmierstil"
 
 #: ../../tutorial/controlflow.rst:1106
-#, fuzzy
 msgid ""
 "Now that you are about to write longer, more complex pieces of Python, it is "
 "a good time to talk about *coding style*.  Most languages can be written (or "
