@@ -6,7 +6,6 @@
 # Translators:
 # python-doc bot, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
@@ -101,7 +100,6 @@ msgid "annotate function"
 msgstr "Funktion annotatieren"
 
 #: ../../glossary.rst:42
-#, fuzzy
 msgid ""
 "A callable that can be called to retrieve the :term:`annotations "
 "<annotation>` of an object. Annotate functions are usually :term:`functions "
@@ -294,7 +292,6 @@ msgid "asynchronous generator iterator"
 msgstr "asynchrone Generator-Iterator"
 
 #: ../../glossary.rst:116
-#, fuzzy
 msgid "An object created by an :term:`asynchronous generator function`."
 msgstr ""
 "Ein Objekt, das von einer :term:`asynchronen Generatorfunktion` erstellt "
@@ -417,7 +414,6 @@ msgstr ""
 "Aufrufe und durch den Bytecode-Interpreter zwischen den Aufrufen."
 
 #: ../../glossary.rst:164
-#, fuzzy
 msgid ""
 "On most builds of Python, having an attached thread state implies that the "
 "caller holds the :term:`GIL` for the current interpreter, so only one OS "
@@ -838,7 +834,6 @@ msgstr ""
 "Manager` über eine  :keyword:`with` -Anweisung eingerichtet wird."
 
 #: ../../glossary.rst:326
-#, fuzzy
 msgid ""
 "The collection of key­value bindings associated with a "
 "particular :class:`contextvars.Context` object and accessed "

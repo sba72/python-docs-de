@@ -22,9 +22,8 @@ msgid ":mod:`!string` --- Common string operations"
 msgstr ":mod:`!string` --- Allgemeine Zeichenkettenoperationen"
 
 #: ../../library/string.rst:7
-#, fuzzy
 msgid "**Source code:** :source:`Lib/string/__init__.py`"
-msgstr "*Quellcode:** :source:`Lib/string.py`"
+msgstr "**Quellcode:** :source:`Lib/string/__init__.py`"
 
 #: ../../library/string.rst:14
 msgid ":ref:`textseq`"
@@ -123,12 +122,10 @@ msgstr ""
 "vertikaler Tabulator."
 
 #: ../../library/string.rst:86
-#, fuzzy
 msgid "Custom string formatting"
-msgstr "Benutzerdefinierte Zeichenkettenformatierung"
+msgstr "Benutzerdefinierte String-Formatierung"
 
 #: ../../library/string.rst:88
-#, fuzzy
 msgid ""
 "The built-in string class provides the ability to do complex variable "
 "substitutions and value formatting via the :meth:`~str.format` method "
@@ -137,12 +134,13 @@ msgid ""
 "behaviors using the same implementation as the built-in :meth:`~str.format` "
 "method."
 msgstr ""
-"Die eingebaute String-Klasse bietet die Möglichkeit, komplexe "
-"Variablensubstitutionen und Werteformatierungen über die in :pep:`3101` "
-"beschriebene Methode :meth:`~str.format` durchzuführen. Die "
-"Klasse :class:`Formatter` im Modul :mod:`string` ermöglicht es, dein eigenes "
-"Verhalten für die Zeichenkettenformatierung mit derselben Implementierung "
-"wie die eingebaute Methode :meth:`~str.format` zu erstellen und anzupassen."
+"Die eingebaute String-Klasse bietet über die in :pep:`3101` beschriebene "
+"Methode :meth:`~str.format` die Möglichkeit, komplexe "
+"Variablensubstitutionen und Wertformatierungen vorzunehmen. Die Klasse :"
+"class:`Formatter` im Modul :mod:`!string` ermöglicht es dir, dein "
+"eigenes String-Formatierungsverhalten mit derselben Implementierung wie "
+"die eingebaute Methode :meth:`~str.format` zu erstellen und "
+"anzupassen."
 
 #: ../../library/string.rst:97
 msgid "The :class:`Formatter` class has the following public methods:"
@@ -335,9 +333,8 @@ msgstr ""
 "Konvertierungstypen 's' (str), 'r' (repr) und 'a' (ascii)."
 
 #: ../../library/string.rst:196
-#, fuzzy
 msgid "Format string syntax"
-msgstr "Formatstring-Syntax"
+msgstr "Syntax für Formatzeichenketten"
 
 #: ../../library/string.rst:198
 msgid ""
@@ -556,7 +553,6 @@ msgid "See the :ref:`formatexamples` section for some examples."
 msgstr "Siehe den Abschnitt :ref:`formatexamples` für einige Beispiele."
 
 #: ../../library/string.rst:308
-#, fuzzy
 msgid "Format specification mini-language"
 msgstr "Formatspezifikation Mini-Sprache"
 
@@ -873,14 +869,14 @@ msgstr ""
 "wird diese Option nicht unterstützt."
 
 #: ../../library/string.rst:475
-#, fuzzy
 msgid ""
 "For a locale-aware separator, use the ``'n'`` :ref:`float presentation type "
 "<n-format-float>` or :ref:`integer presentation type <n-format-integer>` "
 "instead."
 msgstr ""
-"Verwenden Sie stattdessen den Darstellungstyp ``'n'`` für ein "
-"gebietsschemaabhängiges Trennzeichen."
+"Verwende stattdessen den ``'n'`` :ref:`Gleitkomma-Darstellungstyp "
+"<n-format-float>` oder :ref:`Ganzzahl-Darstellungstyp <n-format-integer>` "
+"für ein lokalspezifisches Trennzeichen."
 
 #: ../../library/string.rst:479
 msgid "Added the ``','`` option (see also :pep:`378`)."
@@ -999,7 +995,6 @@ msgid "``'n'``"
 msgstr "``'n'``"
 
 #: ../../library/string.rst:525
-#, fuzzy
 msgid ""
 "Number. This is the same as ``'d'``, except that it uses the current locale "
 "setting to insert the appropriate digit group separators. Note that the "
@@ -1007,9 +1002,12 @@ msgid ""
 "wish to set :const:`~locale.LC_NUMERIC` with :func:`locale.setlocale` before "
 "using ``'n'``."
 msgstr ""
-"Zahl. Entspricht ``'g'``, verwendet jedoch die aktuelle Gebietsschema-"
-"Einstellung, um die passenden Zifferntrennzeichen für den Ganzzahlteil einer "
-"Zahl einzufügen."
+"Zahl. Dies entspricht ``'d'``, verwendet jedoch die aktuelle "
+"Ländereinstellung, um die passenden Zifferngruppentrennzeichen "
+"einzufügen. Beachte, dass die Standard-Ländereinstellung nicht der "
+"System-Ländereinstellung entspricht. Je nach Anwendungsfall möchtest du "
+"möglicherweise :const:`~locale.LC_NUMERIC` mit :func:`locale.setlocale` "
+"setzen, bevor du ``'n'`` verwendest."
 
 #: ../../library/string.rst:532
 msgid "The same as ``'d'``."
@@ -1065,6 +1063,8 @@ msgid ""
 "For :class:`float`, the exponent always contains at least two digits, and is "
 "zero if the value is zero."
 msgstr ""
+"Bei :class:`float` enthält der Exponent immer mindestens zwei Ziffern "
+"und ist null, wenn der Wert null ist."
 
 #: ../../library/string.rst:560
 msgid "``'E'``"
@@ -1191,7 +1191,7 @@ msgstr ""
 "in Großbuchstaben ausgegeben."
 
 #: ../../library/string.rst:615
-#, fuzzy
+
 msgid ""
 "Number. This is the same as ``'g'``, except that it uses the current locale "
 "setting to insert the appropriate digit group separators for the integral "
@@ -1199,9 +1199,13 @@ msgid ""
 "Depending on your use case, you may wish to set :const:`~locale.LC_NUMERIC` "
 "with :func:`locale.setlocale` before using ``'n'``."
 msgstr ""
-"Zahl. Entspricht ``'g'``, verwendet jedoch die aktuelle Gebietsschema-"
-"Einstellung, um die passenden Zifferntrennzeichen für den Ganzzahlteil einer "
-"Zahl einzufügen."
+"Zahl. Dies entspricht ``'g'``, verwendet jedoch die aktuelle "
+"Ländereinstellung, um die passenden Zifferngruppentrennzeichen für den "
+"ganzzahligen Teil einer Zahl einzufügen. Beachte, dass die Standard-"
+"Ländereinstellung nicht der System-Ländereinstellung entspricht. Je "
+"nach Anwendungsfall möchtest du möglicherweise :const:`~locale."
+"LC_NUMERIC` mit :func:`locale.setlocale` setzen, bevor du ``'n'`` "
+"verwendest."
 
 #: ../../library/string.rst:623
 msgid "``'%'``"
@@ -1551,15 +1555,14 @@ msgid "Using type-specific formatting::"
 msgstr "Verwendung typspezifischer Formatierung::"
 
 #: ../../library/string.rst:774
-#, fuzzy
 msgid ""
 ">>> import datetime as dt\n"
 ">>> d = dt.datetime(2010, 7, 4, 12, 15, 58)\n"
 ">>> '{:%Y-%m-%d %H:%M:%S}'.format(d)\n"
 "'2010-07-04 12:15:58'"
 msgstr ""
-">>> import datetime\n"
-">>> d = datetime.datetime(2010, 7, 4, 12, 15, 58)\n"
+">>> import datetime as dt\n"
+">>> d = dt.datetime(2010, 7, 4, 12, 15, 58)\n"
 ">>> '{:%Y-%m-%d %H:%M:%S}'.format(d)\n"
 "'2010-07-04 12:15:58'"
 
@@ -1720,13 +1723,13 @@ msgstr ""
 "ein :exc:`ValueError` ausgelöst wird."
 
 #: ../../library/string.rst:855
-#, fuzzy
 msgid ""
 "The :mod:`!string` module provides a :class:`Template` class that implements "
 "these rules.  The methods of :class:`Template` are:"
 msgstr ""
-"Das Modul :mod:`string` stellt eine Klasse :class:`Template` bereit, die "
-"diese Regeln implementiert. Die Methoden von :class:`Template` sind:"
+"Das Modul :mod:`!string` stellt eine Klasse :class:`Template` bereit, "
+"die diese Regeln implementiert. Die Methoden von :class:`Template` "
+"sind:"
 
 #: ../../library/string.rst:861
 msgid "The constructor takes a single argument which is the template string."
@@ -1938,7 +1941,6 @@ msgstr ""
 "Konventionen für ausführliche reguläre Ausdrücke entsprechen müssen."
 
 #: ../../library/string.rst:972
-#, fuzzy
 msgid ""
 "Alternatively, you can provide the entire regular expression pattern by "
 "overriding the class attribute *pattern*.  If you do this, the value must be "
@@ -1946,11 +1948,12 @@ msgid ""
 "object, with four named capturing groups.  The capturing groups correspond "
 "to the rules given above, along with the invalid placeholder rule:"
 msgstr ""
-"Alternativ können Sie das gesamte Muster für den regulären Ausdruck "
-"bereitstellen, indem Sie das Klassenattribut *pattern* überschreiben. Wenn "
-"du dies tust, muss der Wert ein Objekt eines regulären Ausdrucks mit vier "
-"benannten Erfassungsgruppen sein. Die Erfassungsgruppen entsprechen den oben "
-"genannten Regeln sowie der Regel für ungültige Platzhalter:"
+"Alternativ kannst du das gesamte reguläre Ausdrucksmuster bereitstellen, "
+"indem du das Klassenattribut *pattern* überschreibst. In diesem Fall "
+"muss der Wert eine Zeichenkette mit einem regulären Ausdrucksmuster oder "
+"ein kompiliertes Objekt für reguläre Ausdrücke sein, mit vier benannten "
+"Erfassungsgruppen. Die Erfassungsgruppen entsprechen den oben genannten "
+"Regeln sowie der Regel für ungültige Platzhalter:"
 
 #: ../../library/string.rst:979
 msgid ""

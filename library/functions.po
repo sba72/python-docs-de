@@ -162,9 +162,8 @@ msgid ":func:`format`"
 msgstr ":func:`format`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid "|func-frozendict|_"
-msgstr "|func-frozenset|_"
+msgstr "|func-frozendict|_"
 
 #: ../../library/functions.rst:0
 msgid "|func-frozenset|_"
@@ -343,9 +342,8 @@ msgid ":func:`setattr`"
 msgstr ":func:`setattr`"
 
 #: ../../library/functions.rst:0
-#, fuzzy
 msgid ":func:`sentinel`"
-msgstr ":func:`isinstance`"
+msgstr ":func:`sentinel`"
 
 #: ../../library/functions.rst:0
 msgid ":func:`slice`"
@@ -542,6 +540,8 @@ msgstr ""
 msgid ""
 "See also :func:`enum.bin` to represent negative values as twos-complement."
 msgstr ""
+"Siehe auch :func:`enum.bin`, um negative Werte als Zweierkomplement "
+"darzustellen."
 
 #: ../../library/functions.rst:145 ../../library/functions.rst:990
 #: ../../library/functions.rst:1374
@@ -726,6 +726,13 @@ msgid ""
 "instance); instances are callable if their class has "
 "a :meth:`~object.__call__` method."
 msgstr ""
+"Gibt :const:`True` zurück, wenn das Argument *object* aufrufbar "
+"erscheint, andernfalls :const:`False`. Wenn dies ``True`` zurückgibt, "
+"ist es dennoch möglich, dass ein Aufruf fehlschlägt; ist es jedoch "
+"``False``, wird der Aufruf von *object* niemals erfolgreich sein. "
+"Beachte, dass Klassen aufrufbar sind (der Aufruf einer Klasse gibt eine "
+"neue Instanz zurück); Instanzen sind aufrufbar, wenn ihre Klasse über "
+"eine Methode :meth:`~object.__call__` verfügt."
 
 #: ../../library/functions.rst:244
 msgid ""
@@ -940,15 +947,17 @@ msgid ""
 "The optional argument *module* specifies the module name. It is needed to "
 "unambiguous :ref:`filter <warning-filter>` syntax warnings by module name."
 msgstr ""
+"Das optionale Argument *module* gibt den Modulnamen an. Es wird "
+"benötigt, um Syntax-Warnungen anhand des Modulnamens eindeutig zu :ref:"
+"`filtern <warning-filter>` zu können."
 
 #: ../../library/functions.rst:347
-#, fuzzy
 msgid ""
 "This function raises :exc:`SyntaxError` or :exc:`ValueError` if the compiled "
 "source is invalid."
 msgstr ""
-"Diese Funktion löst :exc:`SyntaxError` aus, wenn der kompilierte Quellcode "
-"ungültig ist, und :exc:`ValueError`, wenn der Quellcode Null-Bytes enthält."
+"Diese Funktion löst :exc:`SyntaxError` oder :exc:`ValueError` aus, wenn "
+"die kompilierte Quelle ungültig ist."
 
 #: ../../library/functions.rst:350
 msgid ""
@@ -1017,9 +1026,8 @@ msgstr ""
 "oberster Ebene zu aktivieren."
 
 #: ../../library/functions.rst:384
-#, fuzzy
 msgid "Added the *module* parameter."
-msgstr "Der Parameter *closure* wurde hinzugefügt."
+msgstr "Der Parameter *module* wurde hinzugefügt."
 
 #: ../../library/functions.rst:392
 msgid ""
@@ -1190,25 +1198,23 @@ msgstr ""
 "(siehe :func:`setattr`)."
 
 #: ../../library/functions.rst:487
-#, fuzzy
 msgid ""
 "Create a new dictionary.  The :class:`dict` object is the dictionary class. "
 "See also :ref:`typesmapping` for documentation about this class."
 msgstr ""
-"Erstellen Sie ein neues Dictionary. Das :class:`dict`-Objekt ist die "
-"Dictionary-Klasse.Informationen zu dieser Klasse finden Sie "
-"unter :class:`dict` und :ref:`typesmapping`."
+"Erstellt ein neues Dictionary. Das Objekt :class:`dict` ist die "
+"Dictionary-Klasse. Siehe auch :ref:`typesmapping` für die Dokumentation "
+"zu dieser Klasse."
 
 #: ../../library/functions.rst:490
-#, fuzzy
 msgid ""
 "For other containers see the built-"
 "in :class:`frozendict`, :class:`list`, :class:`set`, and :class:`tuple` "
 "classes, as well as the :mod:`collections` module."
 msgstr ""
-"Für weitere Container siehe die eingebauten "
-"Klassen :class:`frozenset`, :class:`list`, :class:`tuple` und :class:`dict` "
-"sowie das Modul :mod:`collections`."
+"Für andere Container siehe die eingebauten Klassen :class:`frozendict`, "
+":class:`list`, :class:`set` und :class:`tuple` sowie das Modul :mod:"
+"`collections`."
 
 #: ../../library/functions.rst:497
 msgid ""
@@ -1394,16 +1400,15 @@ msgid "Syntax errors are reported as exceptions."
 msgstr "Syntaxfehler werden als Ausnahmen gemeldet."
 
 #: ../../library/functions.rst:610 ../../library/functions.rst:680
-#, fuzzy
 msgid ""
 "This function executes arbitrary code. Calling it with untrusted user-"
 "supplied input will lead to security vulnerabilities."
 msgstr ""
-"Diese Funktion führt beliebigen Code aus. Der Aufruf mit vom Benutzer "
-"bereitgestellter Eingabe kann zu Sicherheitslücken führen."
+"Diese Funktion führt beliebigen Code aus. Der Aufruf mit nicht "
+"vertrauenswürdigen, benutzerdefinierten Eingaben führt zu "
+"Sicherheitslücken."
 
 #: ../../library/functions.rst:613
-#, fuzzy
 msgid ""
 "The *source* argument is parsed and evaluated as a Python expression "
 "(technically speaking, an :ref:`expression list <exprlists>`) using the "
@@ -1421,23 +1426,24 @@ msgid ""
 "already referenced in the scope that is calling :func:`eval` (e.g. via "
 "a :keyword:`nonlocal` statement)."
 msgstr ""
-"Das Argument *expression* wird als Python-Ausdruck (technisch gesehen als "
-"Bedingungsliste) unter Verwendung der Mappings *globals* und *locals* als "
-"globaler bzw. lokaler Namensraum geparst und ausgewertet. Wenn das "
-"Dictionary *globals* vorhanden ist und keinen Wert für den Schlüssel "
-"``__builtins__`` enthält, wird eine Referenz auf das Dictionary des "
-"eingebauten Moduls :mod:`builtins` unter diesem Schlüssel eingefügt, bevor "
-"*expression* geparst wird. Auf diese Weise können Sie steuern, welche "
-"eingebauten Funktionen und Objekte (Built-ins) dem ausgeführten Code zur "
-"Verfügung stehen, indem Sie Ihr eigenes ``__builtins__``-Dictionary in "
-"*globals* einfügen, bevor Sie es an :func:`eval` übergeben. Wird das Mapping "
-"*locals* weggelassen, wird standardmäßig das Dictionary *globals* verwendet. "
-"Werden beide Mappings weggelassen, wird der Ausdruck mit den *globals* und "
-"*locals* der Umgebung ausgeführt, in der :func:`eval` aufgerufen wird. "
-"Beachten Sie, dass *eval()* nur dann Zugriff auf die :term:`verschachtelten "
-"Gültigkeitsbereiche <nested scope>` (Non-Locals) der umschließenden Umgebung "
-"hat, wenn diese bereits in dem Gültigkeitsbereich referenziert werden, "
-"der :func:`eval` aufruft (z. B. durch eine :keyword:`nonlocal`-Anweisung)."
+"Das Argument *source* wird als Python-Ausdruck geparst und ausgewertet "
+"(genauer gesagt als :ref:`Ausdrucksliste <exprlists>`), wobei die "
+"Mappings *globals* und *locals* als globaler bzw. lokaler Namensraum "
+"verwendet werden. Ist das Dictionary *globals* vorhanden und enthält "
+"keinen Wert für den Schlüssel ``__builtins__``, wird vor dem Parsen von "
+"*source* ein Verweis auf das Dictionary des eingebauten Moduls :mod:"
+"`builtins` unter diesem Schlüssel eingefügt. Das Überschreiben von "
+"``__builtins__`` kann verwendet werden, um die verfügbaren Namen "
+"einzuschränken oder zu ändern, dies ist jedoch **kein** "
+"Sicherheitsmechanismus: Der ausgeführte Code kann weiterhin auf alle "
+"Builtins zugreifen. Wird das Mapping *locals* weggelassen, wird "
+"standardmäßig das Dictionary *globals* verwendet. Werden beide Mappings "
+"weggelassen, wird der Quelltext mit den *globals* und *locals* der "
+"Umgebung ausgeführt, in der :func:`eval` aufgerufen wird. Beachte, dass "
+"*eval()* nur dann Zugriff auf :term:`verschachtelte Gültigkeitsbereiche "
+"<nested scope>` (nicht-lokale Variablen) in der umschließenden Umgebung "
+"hat, wenn diese bereits im Gültigkeitsbereich referenziert werden, der :"
+"func:`eval` aufruft (z. B. über eine :keyword:`nonlocal`-Anweisung)."
 
 #: ../../library/functions.rst:631
 msgid "Example:"
@@ -1478,13 +1484,12 @@ msgstr ""
 "nachstehende Leerzeichen sowie Tabulatoren entfernt."
 
 #: ../../library/functions.rst:653
-#, fuzzy
 msgid ""
 "See :func:`ast.literal_eval` for a function to evaluate strings with "
 "expressions containing only literals."
 msgstr ""
-"Siehe :func:`ast.literal_eval` für eine Funktion, die Zeichenketten mit "
-"Ausdrücken, die ausschließlich Literale enthalten, sicher auswerten kann."
+"Siehe :func:`ast.literal_eval` für eine Funktion, um Zeichenketten mit "
+"Ausdrücken auszuwerten, die nur Literale enthalten."
 
 #: ../../library/functions.rst:656 ../../library/functions.rst:658
 #: ../../library/functions.rst:723 ../../library/functions.rst:725
@@ -1512,7 +1517,7 @@ msgstr ""
 
 #: ../../library/functions.rst:672 ../../library/functions.rst:754
 msgid "*globals* can now be a :class:`frozendict`."
-msgstr ""
+msgstr "*globals* kann jetzt ein :class:`frozendict` sein."
 
 #: ../../library/functions.rst:683
 msgid ""
@@ -1574,7 +1579,6 @@ msgstr ""
 "als Klassenvariablen behandelt werden)."
 
 #: ../../library/functions.rst:710
-#, fuzzy
 msgid ""
 "If the *globals* dictionary does not contain a value for the key "
 "``__builtins__``, a reference to the dictionary of the built-in "
@@ -1583,12 +1587,13 @@ msgid ""
 "this is **not** a security mechanism: the executed code can still access all "
 "builtins."
 msgstr ""
-"Wenn das *globals*-Dictionary keinen Wert für den Schlüssel ``__builtins__`` "
-"enthält, wird unter diesem Schlüssel eine Referenz auf das Dictionary des "
-"eingebauten Moduls :mod:`builtins` eingefügt. Auf diese Weise können Sie "
-"steuern, welche eingebauten Funktionen und Objekte dem ausgeführten Code zur "
-"Verfügung stehen, indem Sie Ihr eigenes ``__builtins__``-Dictionary in "
-"*globals* einfügen, bevor Sie es an :func:`exec` übergeben."
+"Enthält das Dictionary *globals* keinen Wert für den Schlüssel "
+"``__builtins__``, wird ein Verweis auf das Dictionary des eingebauten "
+"Moduls :mod:`builtins` unter diesem Schlüssel eingefügt. Das "
+"Überschreiben von ``__builtins__`` kann verwendet werden, um die "
+"verfügbaren Namen einzuschränken oder zu ändern, dies ist jedoch "
+"**kein** Sicherheitsmechanismus: Der ausgeführte Code kann weiterhin "
+"auf alle Builtins zugreifen."
 
 #: ../../library/functions.rst:717
 msgid ""
@@ -1813,36 +1818,33 @@ msgstr ""
 "*format_spec* keine leere Zeichenkette ist."
 
 #: ../../library/functions.rst:879
-#, fuzzy
 msgid ""
 "Create a new frozen dictionary.  The :class:`frozendict` object is a built-"
 "in class. See also :ref:`typesmapping` for documentation about this class."
 msgstr ""
-"Erstellen Sie ein neues Dictionary. Das :class:`dict`-Objekt ist die "
-"Dictionary-Klasse.Informationen zu dieser Klasse finden Sie "
-"unter :class:`dict` und :ref:`typesmapping`."
+"Erstellt ein neues unveränderliches Dictionary. Das Objekt :class:"
+"`frozendict` ist eine eingebaute Klasse. Siehe auch :ref:`typesmapping` "
+"für die Dokumentation zu dieser Klasse."
 
 #: ../../library/functions.rst:882
-#, fuzzy
 msgid ""
 "For other containers see the built-"
 "in :class:`dict`, :class:`list`, :class:`set`, and :class:`tuple` classes, "
 "as well as the :mod:`collections` module."
 msgstr ""
-"Für weitere Container siehe die eingebauten "
-"Klassen :class:`list`, :class:`set` und :"
+"Für andere Container siehe die eingebauten Klassen :class:`dict`, "
+":class:`list`, :class:`set` und :class:`tuple` sowie das Modul :mod:"
+"`collections`."
 
 #: ../../library/functions.rst:892
-#, fuzzy
 msgid ""
 "Return a new :class:`frozenset` object, optionally with elements taken from "
 "*iterable*.  :class:`frozenset` is a built-in class.  See also :ref:`types-"
 "set` for documentation about this class."
 msgstr ""
-"Gibt ein neues :class:`frozenset`-Objekt zurück, optional mit Elementen aus "
-"*iterable*. ``frozenset`` ist eine integrierte Klasse. "
-"Siehe :class:`frozenset` und :ref:`types-set` für die Dokumentation zu "
-"dieser Klasse."
+"Gibt ein neues Objekt :class:`frozenset` zurück, optional mit Elementen "
+"aus *iterable*. :class:`frozenset` ist eine eingebaute Klasse. Siehe "
+"auch :ref:`types-set` für die Dokumentation zu dieser Klasse."
 
 #: ../../library/functions.rst:896
 msgid ""
@@ -2260,7 +2262,6 @@ msgid "*classinfo* can be a :ref:`types-union`."
 msgstr "*classinfo* kann eine :ref:`types-union` sein."
 
 #: ../../library/functions.rst:1133
-#, fuzzy
 msgid ""
 "Return ``True`` if *cls* is a subclass (direct, indirect, or :term:`virtual "
 "<abstract base class>`) of *classinfo*.  A class is considered a subclass of "
@@ -2269,13 +2270,13 @@ msgid ""
 "is a subclass of any entry in *classinfo*.  In any other case, "
 "a :exc:`TypeError` exception is raised."
 msgstr ""
-"Gibt ``True`` zurück, wenn *class* eine Unterklasse (direkt, indirekt "
-"oder :term:`virtuell <abstract base class>`) von *classinfo* ist. Eine "
-"Klasse gilt als Unterklasse ihrer selbst. *classinfo* kann ein Tupel von "
-"Klassenobjekten (oder rekursiv weitere solcher Tupel) oder eine :ref:`types-"
-"union` sein; in diesem Fall wird ``True`` zurückgegeben, wenn *class* eine "
-"Unterklasse irgendeines Eintrags in *classinfo* ist. In allen anderen Fällen "
-"wird eine :exc:`TypeError`-Ausnahme ausgelöst."
+"Gibt ``True`` zurück, wenn *cls* eine (direkte, indirekte oder :term:"
+"`virtuelle <abstract base class>`) Unterklasse von *classinfo* ist. Eine "
+"Klasse gilt als Unterklasse von sich selbst. *classinfo* kann ein Tupel "
+"von Klassenobjekten (oder rekursiv weiterer solcher Tupel) oder eine :"
+"ref:`types-union` sein; in diesem Fall wird ``True`` zurückgegeben, wenn "
+"*cls* eine Unterklasse eines beliebigen Eintrags in *classinfo* ist. In "
+"jedem anderen Fall wird eine Ausnahme vom Typ :exc:`TypeError` ausgelöst."
 
 #: ../../library/functions.rst:1148
 msgid ""
@@ -2731,7 +2732,7 @@ msgstr "zum Lesen öffnen (Standardwert)"
 
 #: ../../library/functions.rst:1411
 msgid "``'w'``"
-msgstr ""
+msgstr "``'w'``"
 
 #: ../../library/functions.rst:1411
 msgid "open for writing, truncating the file first"
@@ -2883,7 +2884,6 @@ msgstr ""
 "unterstützten Kodierungen finden Sie im Modul :mod:`codecs`."
 
 #: ../../library/functions.rst:1462
-#, fuzzy
 msgid ""
 "*errors* is an optional string that specifies how encoding and decoding "
 "errors are to be handled—this cannot be used in binary mode. A variety of "
@@ -2891,13 +2891,12 @@ msgid ""
 "has been registered with :func:`codecs.register_error` is also valid.  The "
 "standard names can be found in :ref:`error-handlers`."
 msgstr ""
-"*errors* ist eine optionale Zeichenkette, die festlegt, wie mit Fehlern bei "
-"der Kodierung und Dekodierung umgegangen werden soll – dies kann nicht im "
-"Binärmodus verwendet werden. Es stehen verschiedene Standard-"
-"Fehlerbehandlungsroutinen zur Verfügung (aufgeführt unter :ref:`error-"
-"handlers`), wobei auch jeder Name für eine Fehlerbehandlungsroutine zulässig "
-"ist, der mit :func:`codecs.register_error` registriert wurde. Zu den "
-"Standardnamen gehören:“"
+"*errors* ist eine optionale Zeichenkette, die angibt, wie Kodierungs- und "
+"Dekodierungsfehler behandelt werden sollen – dies kann im Binärmodus "
+"nicht verwendet werden. Es stehen verschiedene Standard-Fehlerbehandler "
+"zur Verfügung, wobei auch jeder Name eines Fehlerbehandlers gültig ist, "
+"der mit :func:`codecs.register_error` registriert wurde. Die "
+"Standardnamen findest du unter :ref:`error-handlers`."
 
 #: ../../library/functions.rst:1474
 msgid ""
@@ -3347,17 +3346,16 @@ msgstr ""
 "``c.x = value`` den Einsetzer (setter) und ``del c.x`` den Löscher (deleter)."
 
 #: ../../library/functions.rst:1685
-#, fuzzy
 msgid ""
 "If given, *doc* will be the docstring of the property attribute. Otherwise, "
 "the property will copy *fget*'s docstring (if it exists).  This makes it "
 "possible to create read-only properties easily using :deco:`property` as "
 "a :term:`decorator`::"
 msgstr ""
-"Falls angegeben, wird *doc* der Docstring des Property-Attributs. "
-"Andernfalls kopiert das Property den Docstring von *fget* (sofern "
-"vorhanden). Dadurch ist es möglich, auf einfache Weise schreibgeschützte "
-"Properties mithilfe von :func:`property` als :term:`decorator` zu erstellen::"
+"Falls angegeben, wird *doc* der Docstring des Property-Attributs sein. "
+"Andernfalls übernimmt die Property den Docstring von *fget* (sofern "
+"vorhanden). Dies ermöglicht es, mit :deco:`property` als :term:"
+"`Decorator` auf einfache Weise Nur-Lese-Properties zu erstellen::"
 
 #: ../../library/functions.rst:1689
 msgid ""
@@ -3507,7 +3505,6 @@ msgstr ""
 "ausgewertet werden kann::"
 
 #: ../../library/functions.rst:1772
-#, fuzzy
 msgid ""
 "class Person:\n"
 "   def __init__(self, name, age):\n"
@@ -3523,7 +3520,7 @@ msgstr ""
 "      self.age = age\n"
 "\n"
 "   def __repr__(self):\n"
-"      return f\"Person('{self.name}', {self.age})\""
+"      return f\"Person({self.name!r}, {self.age!r})\""
 
 #: ../../library/functions.rst:1783
 msgid ""
@@ -3590,15 +3587,14 @@ msgstr ""
 "können. Weitere Informationen finden Sie unter :ref:`tut-fp-issues`."
 
 #: ../../library/functions.rst:1820
-#, fuzzy
 msgid ""
 "Return a new :class:`set` object, optionally with elements taken from "
 "*iterable*.  :class:`set` is a built-in class.  See also :ref:`types-set` "
 "for documentation about this class."
 msgstr ""
-"Gibt ein neues :class:`set`-Objekt zurück, optional mit Elementen aus "
-"*iterable*. ``set`` ist eine eingebaute Klasse. Siehe :class:`set` "
-"und :ref:`types-set` für die Dokumentation zu dieser Klasse.“"
+"Gibt ein neues Objekt :class:`set` zurück, optional mit Elementen aus "
+"*iterable*. :class:`set` ist eine eingebaute Klasse. Siehe auch :ref:"
+"`types-set` für die Dokumentation zu dieser Klasse."
 
 #: ../../library/functions.rst:1824
 msgid ""
@@ -3656,6 +3652,9 @@ msgid ""
 "Return a new unique sentinel object.  *name* must be a :class:`str`, and is "
 "used by default as the returned object's representation::"
 msgstr ""
+"Gibt ein neues eindeutiges Sentinel-Objekt zurück. *name* muss ein :"
+"class:`str` sein und wird standardmäßig als Repräsentation des "
+"zurückgegebenen Objekts verwendet::"
 
 #: ../../library/functions.rst:1856
 msgid ""
@@ -3663,15 +3662,17 @@ msgid ""
 ">>> MISSING\n"
 "MISSING"
 msgstr ""
+">>> MISSING = sentinel(\"MISSING\")\n"
+">>> MISSING\n"
+"MISSING"
 
 #: ../../library/functions.rst:1860
-#, fuzzy
 msgid ""
 "The optional *repr* argument can be used to specify a different "
 "representation::"
 msgstr ""
-"Der optionale Parameter *source* kann verwendet werden, um das Array auf "
-"unterschiedlichen Wegen zu initialisieren:“"
+"Das optionale Argument *repr* kann verwendet werden, um eine andere "
+"Darstellung anzugeben::"
 
 #: ../../library/functions.rst:1862
 msgid ""
@@ -3679,26 +3680,38 @@ msgid ""
 ">>> MISSING\n"
 "<MISSING>"
 msgstr ""
+">>> MISSING = sentinel(\"MISSING\", repr=\"<MISSING>\")\n"
+">>> MISSING\n"
+"<MISSING>"
 
 #: ../../library/functions.rst:1866
 msgid ""
 "Sentinel objects are truthy and compare equal only to themselves.  They are "
 "intended to be compared with the :keyword:`is` operator."
 msgstr ""
+"Sentinel-Objekte werden in einem Boolean-Kontext als wahr ausgewertet "
+"und sind nur mit sich selbst gleich. Sie sind dafür vorgesehen, mit dem "
+"Operator :keyword:`is` verglichen zu werden."
 
 #: ../../library/functions.rst:1869
 msgid "``sentinel`` does not support subclassing."
-msgstr ""
+msgstr "``sentinel`` unterstützt kein Subclassing."
+
 
 #: ../../library/functions.rst:1871
 msgid "Shallow and deep copies of a sentinel object return the object itself."
 msgstr ""
+"Flache und tiefe Kopien eines Sentinel-Objekts geben das Objekt selbst "
+"zurück."
 
 #: ../../library/functions.rst:1873
 msgid ""
 "Sentinels are conventionally assigned to a variable with a matching name. "
 "Sentinels defined in this way can be used in :term:`type hints <type hint>`::"
 msgstr ""
+"Sentinels werden üblicherweise einer Variablen mit passendem Namen "
+"zugewiesen. Auf diese Weise definierte Sentinels können in :term:`Type "
+"Hints <type hint>` verwendet werden::"
 
 #: ../../library/functions.rst:1876
 msgid ""
@@ -3707,12 +3720,18 @@ msgid ""
 "def next_value(default: int | MISSING = MISSING):\n"
 "    ..."
 msgstr ""
+"MISSING = sentinel(\"MISSING\")\n"
+"\n"
+"def next_value(default: int | MISSING = MISSING):\n"
+"    ..."
 
 #: ../../library/functions.rst:1881
 msgid ""
 "Sentinel objects support the :ref:`| <bitwise>` operator for use in type "
 "expressions."
 msgstr ""
+"Sentinel-Objekte unterstützen den Operator :ref:`| <bitwise>` zur "
+"Verwendung in Typ-Ausdrücken."
 
 #: ../../library/functions.rst:1883
 msgid ""
@@ -3723,6 +3742,14 @@ msgid ""
 "defined in a function scope, are not picklable. The identity of the sentinel "
 "is preserved after pickling::"
 msgstr ""
+":mod:`Pickling <pickle>` wird für Sentinel-Objekte unterstützt, die im "
+"globalen Gültigkeitsbereich eines Moduls unter einem Namen platziert "
+"werden, der dem Namen des Sentinels entspricht, sowie für Sentinels, die "
+"in Klassen-Gültigkeitsbereichen mit einem Namen platziert werden, der "
+"dem :term:`qualifizierten Namen <qualified name>` des Sentinels "
+"entspricht. Andere Sentinels, wie zum Beispiel solche, die in einem "
+"Funktions-Gültigkeitsbereich definiert sind, sind nicht picklebar. Die "
+"Identität des Sentinels bleibt nach dem Pickling erhalten::"
 
 #: ../../library/functions.rst:1890
 msgid ""
@@ -3737,20 +3764,32 @@ msgid ""
 "\n"
 "assert pickle.loads(pickle.dumps(Cls.PICKLABLE)) is Cls.PICKLABLE"
 msgstr ""
+"import pickle\n"
+"\n"
+"PICKLABLE = sentinel(\"PICKLABLE\")\n"
+"\n"
+"assert pickle.loads(pickle.dumps(PICKLABLE)) is PICKLABLE\n"
+"\n"
+"class Cls:\n"
+"    PICKLABLE = sentinel(\"Cls.PICKLABLE\")\n"
+"\n"
+"assert pickle.loads(pickle.dumps(Cls.PICKLABLE)) is Cls.PICKLABLE"
 
 #: ../../library/functions.rst:1901
 msgid "Sentinel objects have the following attributes:"
-msgstr ""
+msgstr "Sentinel-Objekte haben die folgenden Attribute:"
 
 #: ../../library/functions.rst:1905
 msgid "The sentinel's name."
-msgstr ""
+msgstr "Der Name des Sentinels."
 
 #: ../../library/functions.rst:1909
 msgid ""
 "The name of the module where the sentinel was created. This attribute is "
 "writable."
 msgstr ""
+"Der Name des Moduls, in dem das Sentinel erstellt wurde. Dieses Attribut "
+"ist beschreibbar."
 
 #: ../../library/functions.rst:1917
 msgid ""
@@ -3763,34 +3802,32 @@ msgstr ""
 "und *step* haben standardmäßig den Wert ``None``."
 
 #: ../../library/functions.rst:1921
-#, fuzzy
 msgid ""
 "Slice objects are also generated when :ref:`slicing syntax <slicings>` is "
 "used.  For example: ``a[start:stop:step]`` or ``a[start:stop, i]``."
 msgstr ""
-"Slice-Objekte werden auch bei Verwendung der erweiterten Indexierungs-Syntax "
-"erzeugt. Zum Beispiel: ``a[start:stop:step]`` oder ``a[start:stop, i]``. "
-"Siehe :func:`itertools.islice` für eine alternative Version, die "
-"einen :term:`Iterator` zurückgibt."
+"Slice-Objekte werden auch erzeugt, wenn :ref:`Slice-Syntax <slicings>` "
+"verwendet wird. Zum Beispiel: ``a[start:stop:step]`` oder ``a[start:"
+"stop, i]``."
 
 #: ../../library/functions.rst:1924
 msgid ""
 "See :func:`itertools.islice` for an alternate version that returns "
 "an :term:`iterator`."
 msgstr ""
+"Siehe :func:`itertools.islice` für eine alternative Version, die "
+"einen :term:`Iterator` zurückgibt."
 
 #: ../../library/functions.rst:1931
-#, fuzzy
 msgid ""
 "These read-only attributes are set to the argument values (or their "
 "default).  They have no other explicit functionality; however, they are used "
 "by NumPy and other third-party packages."
 msgstr ""
-"Slice-Objekte besitzen die schreibgeschützten Datenattribute :attr:`!"
-"start`, :attr:`!stop` und :attr:`!step`, die lediglich die Argumentwerte "
-"(oder deren Standardwerte) zurückgeben. Sie verfügen über keine weitere "
-"explizite Funktionalität; sie werden jedoch von NumPy und anderen Paketen "
-"von Drittanbietern verwendet."
+"Diese schreibgeschützten Attribute werden auf die Argumentwerte (oder "
+"deren Standardwerte) gesetzt. Sie haben keine weitere explizite "
+"Funktionalität, werden jedoch von NumPy und anderen Drittanbieter-"
+"Paketen verwendet."
 
 #: ../../library/functions.rst:1935
 msgid ""
@@ -3855,7 +3892,6 @@ msgstr ""
 "anschließend nach Gehaltsgruppe)."
 
 #: ../../library/functions.rst:1960
-#, fuzzy
 msgid ""
 "The sort algorithm uses only ``<`` comparisons between items.  While "
 "defining an :meth:`~object.__lt__` method will suffice for sorting, :PEP:`8` "
@@ -3866,16 +3902,16 @@ msgid ""
 "mixed type comparisons which can call the reflected :meth:`~object.__gt__` "
 "method."
 msgstr ""
-"Der Sortieralgorithmus verwendet ausschließlich ``<``-Vergleiche zwischen "
-"den Elementen. Obwohl die Definition einer :meth:`~object.__lt__`-Methode "
-"für das Sortieren ausreicht, empfiehlt :PEP:`8`, alle "
-"sechs :ref:`erweiterten Vergleichsoperationen <comparisons>` zu "
-"implementieren. Dies hilft, Fehler bei der Verwendung derselben Daten mit "
-"anderen Sortier- oder Auswahlfunktionen wie :func:`max` zu vermeiden, die "
-"auf einer anderen zugrundeliegenden Methode basieren. Zudem beugt die "
-"Implementierung aller sechs Vergleichsoperationen Verwirrung bei Vergleichen "
-"zwischen unterschiedlichen Datentypen vor, bei denen die "
-"gespiegelte :meth:`~object.__gt__`-Methode aufgerufen werden kann."
+"Der Sortieralgorithmus verwendet nur ``<``-Vergleiche zwischen Elementen. "
+"Während das Definieren einer Methode :meth:`~object.__lt__` für die "
+"Sortierung ausreicht, empfiehlt :PEP:`8`, alle sechs :ref:`erweiterten "
+"Vergleichsoperationen <comparisons>` zu implementieren. Dies hilft, "
+"Fehler zu vermeiden, wenn dieselben Daten mit anderen "
+"Sortierwerkzeugen wie :func:`max` verwendet werden, die sich auf eine "
+"andere zugrunde liegende Methode stützen. Die Implementierung aller "
+"sechs Vergleiche hilft außerdem, Verwirrung bei gemischten "
+"Typvergleichen zu vermeiden, die die gespiegelte Methode :meth:"
+"`~object.__gt__` aufrufen können."
 
 #: ../../library/functions.rst:1969
 msgid ""
@@ -3927,14 +3963,13 @@ msgstr ""
 "Klassendefinition verwendet werden kann (z. B. ``f()``)."
 
 #: ../../library/functions.rst:1990
-#, fuzzy
 msgid ""
 "Static methods in Python are similar to those found in Java or C++. Also, "
 "see :deco:`classmethod` for a variant that is useful for creating alternate "
 "class constructors."
 msgstr ""
-"Statische Methoden in Python ähneln denen in Java oder C++. Siehe "
-"auch :func:`classmethod` für eine Variante, die sich zur Erstellung "
+"Statische Methoden in Python ähneln denen in Java oder C++. Siehe auch "
+"das :deco:`classmethod`, eine Variante, die sich zum Erstellen "
 "alternativer Klassenkonstruktoren eignet."
 
 #: ../../library/functions.rst:1994
@@ -4321,6 +4356,10 @@ msgid ""
 "Use :func:`types.new_class` to dynamically create a class using the "
 "appropriate metaclass."
 msgstr ""
+"Anders als bei einer :keyword:`class`-Anweisung ruft die dreiargumentige "
+"Form nicht die Metaklassen-Methode ``__prepare__`` auf (siehe :ref:"
+"`prepare`). Verwende :func:`types.new_class`, um eine Klasse dynamisch "
+"unter Verwendung der passenden Metaklasse zu erstellen."
 
 #: ../../library/functions.rst:2187
 msgid "See also :ref:`class-customization`."
@@ -4337,7 +4376,7 @@ msgstr ""
 
 #: ../../library/functions.rst:2195
 msgid "*dict* can now be a :class:`frozendict`."
-msgstr ""
+msgstr "msgstr "*dict* kann jetzt ein :class:`frozendict` sein."
 
 #: ../../library/functions.rst:2200
 msgid ""
