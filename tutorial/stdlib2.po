@@ -7,19 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-08-22 12:07+0200\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
+"Last-Translator: \n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
 
+#: ../../tutorial/stdlib2.rst:5
 msgid "Brief tour of the standard library --- part II"
 msgstr "Ein kurzer Überblick über die Standardbibliothek – Teil II"
 
+#: ../../tutorial/stdlib2.rst:7
 msgid ""
 "This second tour covers more advanced modules that support professional "
 "programming needs.  These modules rarely occur in small scripts."
@@ -28,9 +30,11 @@ msgstr ""
 "Anforderungen professioneller Programmierer gerecht werden. Diese Module "
 "kommen in kleinen Skripten nur selten vor."
 
+#: ../../tutorial/stdlib2.rst:14
 msgid "Output formatting"
 msgstr "Ausgabeformatierung"
 
+#: ../../tutorial/stdlib2.rst:16
 msgid ""
 "The :mod:`reprlib` module provides a version of :func:`repr` customized for "
 "abbreviated displays of large or deeply nested containers::"
@@ -39,6 +43,7 @@ msgstr ""
 "oder tief verschachtelter Container angepasste Version von :func:`repr` "
 "bereit::"
 
+#: ../../tutorial/stdlib2.rst:19
 msgid ""
 ">>> import reprlib\n"
 ">>> reprlib.repr(set('supercalifragilisticexpialidocious'))\n"
@@ -48,6 +53,7 @@ msgstr ""
 ">>> reprlib.repr(set('supercalifragilisticexpialidocious'))\n"
 "\"{'a', 'c', 'd', 'e', 'f', 'g', ...}\""
 
+#: ../../tutorial/stdlib2.rst:23
 msgid ""
 "The :mod:`pprint` module offers more sophisticated control over printing "
 "both built-in and user defined objects in a way that is readable by the "
@@ -60,6 +66,7 @@ msgstr ""
 "der „Pretty Printer“ Zeilenumbrüche und Einrückungen hinzu, um die "
 "Datenstruktur übersichtlicher darzustellen::"
 
+#: ../../tutorial/stdlib2.rst:28
 msgid ""
 ">>> import pprint\n"
 ">>> t = [[[['black', 'cyan'], 'white', ['green', 'red']], [['magenta',\n"
@@ -83,6 +90,7 @@ msgstr ""
 "  [['magenta', 'yellow'],\n"
 "   'blue']]]"
 
+#: ../../tutorial/stdlib2.rst:39
 msgid ""
 "The :mod:`textwrap` module formats paragraphs of text to fit a given screen "
 "width::"
@@ -90,6 +98,7 @@ msgstr ""
 "Das Modul :mod:`textwrap` passt Textabsätze an eine bestimmte "
 "Bildschirmbreite an::"
 
+#: ../../tutorial/stdlib2.rst:42
 msgid ""
 ">>> import textwrap\n"
 ">>> doc = \"\"\"The wrap() method is just like fill() except that it "
@@ -115,6 +124,7 @@ msgstr ""
 "instead of one big string with newlines\n"
 "to separate the wrapped lines."
 
+#: ../../tutorial/stdlib2.rst:53
 msgid ""
 "The :mod:`locale` module accesses a database of culture specific data "
 "formats. The grouping attribute of locale's format function provides a "
@@ -125,6 +135,7 @@ msgstr ""
 "\"locale“ bietet eine direkte Möglichkeit, Zahlen mit Gruppentrennzeichen zu "
 "formatieren::"
 
+#: ../../tutorial/stdlib2.rst:57
 msgid ""
 ">>> import locale\n"
 ">>> locale.setlocale(locale.LC_ALL, 'English_United States.1252')\n"
@@ -148,20 +159,23 @@ msgstr ""
 "...                      conv['frac_digits'], x), grouping=True)\n"
 "'$1,234,567.80'"
 
+#: ../../tutorial/stdlib2.rst:72
 msgid "Templating"
 msgstr "Vorlagen"
 
+#: ../../tutorial/stdlib2.rst:74
 msgid ""
 "The :mod:`string` module includes a versatile :class:`~string.Template` "
 "class with a simplified syntax suitable for editing by end-users.  This "
 "allows users to customize their applications without having to alter the "
 "application."
 msgstr ""
-"Das Modul :mod:`string` enthält eine vielseitige Klasse :class:`~string."
-"Template` mit einer vereinfachten Syntax, die sich für die Bearbeitung durch "
-"Endbenutzer eignet. Dadurch können Benutzer ihre Anwendungen anpassen, ohne "
-"den Anwendungscode ändern zu müssen."
+"Das Modul :mod:`string` enthält eine vielseitige "
+"Klasse :class:`~string.Template` mit einer vereinfachten Syntax, die sich "
+"für die Bearbeitung durch Endbenutzer eignet. Dadurch können Benutzer ihre "
+"Anwendungen anpassen, ohne den Anwendungscode ändern zu müssen."
 
+#: ../../tutorial/stdlib2.rst:78
 msgid ""
 "The format uses placeholder names formed by ``$`` with valid Python "
 "identifiers (alphanumeric characters and underscores).  Surrounding the "
@@ -176,6 +190,7 @@ msgstr ""
 "Leerzeichen folgen. Durch die Schreibweise ``$$`` wird ein einzelner Escape-"
 "Platzhalter ``$`` erzeugt ::"
 
+#: ../../tutorial/stdlib2.rst:83
 msgid ""
 ">>> from string import Template\n"
 ">>> t = Template('${village}folk send $$10 to $cause.')\n"
@@ -187,12 +202,13 @@ msgstr ""
 ">>> t.substitute(village='Nottingham', cause='the ditch fund')\n"
 "'Nottinghamfolk send $10 to the ditch fund.'"
 
+#: ../../tutorial/stdlib2.rst:88
 msgid ""
 "The :meth:`~string.Template.substitute` method raises a :exc:`KeyError` when "
 "a placeholder is not supplied in a dictionary or a keyword argument.  For "
-"mail-merge style applications, user supplied data may be incomplete and the :"
-"meth:`~string.Template.safe_substitute` method may be more appropriate --- "
-"it will leave placeholders unchanged if data is missing::"
+"mail-merge style applications, user supplied data may be incomplete and "
+"the :meth:`~string.Template.safe_substitute` method may be more appropriate "
+"--- it will leave placeholders unchanged if data is missing::"
 msgstr ""
 "Die Methode:meth:`~string.Template.substitute`löst einen:exc:`KeyError`aus, "
 "wenn in einem Wörterbuch oder einem Schlüsselwortargument kein Platzhalter "
@@ -201,6 +217,7 @@ msgstr ""
 "Methode:meth:`~string.Template.safe_substitute`möglicherweise besser "
 "geeignet ist – sie lässt Platzhalter unverändert, wenn Daten fehlen::"
 
+#: ../../tutorial/stdlib2.rst:94
 msgid ""
 ">>> t = Template('Return the $item to $owner.')\n"
 ">>> d = dict(item='unladen swallow')\n"
@@ -220,6 +237,7 @@ msgstr ""
 ">>> t.safe_substitute(d)\n"
 "'Return the unladen swallow to $owner.'"
 
+#: ../../tutorial/stdlib2.rst:103
 msgid ""
 "Template subclasses can specify a custom delimiter.  For example, a batch "
 "renaming utility for a photo browser may elect to use percent signs for "
@@ -231,6 +249,7 @@ msgstr ""
 "für einen Foto-Browser Prozentzeichen für Platzhalter wie das aktuelle "
 "Datum, die Bildnummer oder das Dateiformat verwenden::"
 
+#: ../../tutorial/stdlib2.rst:107
 msgid ""
 ">>> import time, os.path\n"
 ">>> photofiles = ['img_1074.jpg', 'img_1076.jpg', 'img_1077.jpg']\n"
@@ -270,6 +289,7 @@ msgstr ""
 "img_1076.jpg --> Ashley_1.jpg\n"
 "img_1077.jpg --> Ashley_2.jpg"
 
+#: ../../tutorial/stdlib2.rst:126
 msgid ""
 "Another application for templating is separating program logic from the "
 "details of multiple output formats.  This makes it possible to substitute "
@@ -280,26 +300,30 @@ msgstr ""
 "sich XML-Dateien, Berichte im Klartext und HTML-Webberichte durch "
 "benutzerdefinierte Templates ersetzen."
 
+#: ../../tutorial/stdlib2.rst:134
 msgid "Working with binary data record layouts"
 msgstr "Arbeiten mit Layouts für binäre Datensätze"
 
+#: ../../tutorial/stdlib2.rst:136
 msgid ""
-"The :mod:`struct` module provides :func:`~struct.pack` and :func:`~struct."
-"unpack` functions for working with variable length binary record formats.  "
-"The following example shows how to loop through header information in a ZIP "
-"file without using the :mod:`zipfile` module.  Pack codes ``\"H\"`` and "
-"``\"I\"`` represent two and four byte unsigned numbers respectively.  The "
-"``\"<\"`` indicates that they are standard size and in little-endian byte "
-"order::"
+"The :mod:`struct` module provides :func:`~struct.pack` "
+"and :func:`~struct.unpack` functions for working with variable length binary "
+"record formats.  The following example shows how to loop through header "
+"information in a ZIP file without using the :mod:`zipfile` module.  Pack "
+"codes ``\"H\"`` and ``\"I\"`` represent two and four byte unsigned numbers "
+"respectively.  The ``\"<\"`` indicates that they are standard size and in "
+"little-endian byte order::"
 msgstr ""
-"Das Modul :mod:`struct` stellt die Funktionen :func:`~struct.pack` und :func:"
-"`~struct.unpack` für die Arbeit mit binären Datensatzformaten variabler "
-"Länge bereit. Das folgende Beispiel zeigt, wie man die Header-Informationen "
-"einer ZIP-Datei durchlaufen kann, ohne das Modul :mod:`zipfile` zu "
-"verwenden. Die Pack-Codes ``\"H\"`` und ``\"I\"``  stehen für vorzeichenlose "
-"Zahlen mit zwei bzw. vier Bytes. Der ``\"<\"`` gibt an, dass es sich um "
-"Standardgrößen in Little-Endian-Byte-Reihenfolge handelt::"
+"Das Modul :mod:`struct` stellt die Funktionen :func:`~struct.pack` "
+"und :func:`~struct.unpack` für die Arbeit mit binären Datensatzformaten "
+"variabler Länge bereit. Das folgende Beispiel zeigt, wie man die Header-"
+"Informationen einer ZIP-Datei durchlaufen kann, ohne das "
+"Modul :mod:`zipfile` zu verwenden. Die Pack-Codes ``\"H\"`` und ``\"I\"``  "
+"stehen für vorzeichenlose Zahlen mit zwei bzw. vier Bytes. Der ``\"<\"`` "
+"gibt an, dass es sich um Standardgrößen in Little-Endian-Byte-Reihenfolge "
+"handelt::"
 
+#: ../../tutorial/stdlib2.rst:144
 msgid ""
 "import struct\n"
 "\n"
@@ -339,9 +363,11 @@ msgstr ""
 "\n"
 "    start += extra_size + comp_size     # skip to the next header"
 
+#: ../../tutorial/stdlib2.rst:167
 msgid "Multi-threading"
 msgstr "Multithreading"
 
+#: ../../tutorial/stdlib2.rst:169
 msgid ""
 "Threading is a technique for decoupling tasks which are not sequentially "
 "dependent.  Threads can be used to improve the responsiveness of "
@@ -356,6 +382,7 @@ msgstr ""
 "Ein damit verbundener Anwendungsfall ist die parallele Ausführung von E/A-"
 "Vorgängen und Berechnungen in einem anderen Thread."
 
+#: ../../tutorial/stdlib2.rst:174
 msgid ""
 "The following code shows how the high level :mod:`threading` module can run "
 "tasks in background while the main program continues to run::"
@@ -364,6 +391,7 @@ msgstr ""
 "Aufgaben im Hintergrund ausführen kann, während das Hauptprogramm "
 "weiterläuft::"
 
+#: ../../tutorial/stdlib2.rst:177
 msgid ""
 "import threading, zipfile\n"
 "\n"
@@ -405,6 +433,7 @@ msgstr ""
 "background.join()    # Wait for the background task to finish\n"
 "print('Main program waited until background was done.')"
 
+#: ../../tutorial/stdlib2.rst:197
 msgid ""
 "The principal challenge of multi-threaded applications is coordinating "
 "threads that share data or other resources.  To that end, the threading "
@@ -417,6 +446,7 @@ msgstr ""
 "Synchronisationsprimitiven bereit, darunter Sperren, Ereignisse, "
 "Bedingungsvariablen und Semaphoren."
 
+#: ../../tutorial/stdlib2.rst:202
 msgid ""
 "While those tools are powerful, minor design errors can result in problems "
 "that are difficult to reproduce.  So, the preferred approach to task "
@@ -435,18 +465,21 @@ msgstr ""
 "die Kommunikation und Koordination zwischen Threads nutzen, sind einfacher "
 "zu entwerfen, besser lesbar und zuverlässiger."
 
+#: ../../tutorial/stdlib2.rst:213
 msgid "Logging"
 msgstr "Protokollierung"
 
+#: ../../tutorial/stdlib2.rst:215
 msgid ""
 "The :mod:`logging` module offers a full featured and flexible logging "
-"system. At its simplest, log messages are sent to a file or to ``sys."
-"stderr``::"
+"system. At its simplest, log messages are sent to a file or to "
+"``sys.stderr``::"
 msgstr ""
 "Das Modul :mod:`logging` bietet ein funktionsreiches und flexibles "
 "Protokollierungssystem. Im einfachsten Fall werden Protokollmeldungen an "
 "eine Datei oder an ``sys.stderr`` gesendet ::"
 
+#: ../../tutorial/stdlib2.rst:218
 msgid ""
 "import logging\n"
 "logging.debug('Debugging information')\n"
@@ -458,14 +491,16 @@ msgstr ""
 "import logging\n"
 "logging.debug('Informationen zur Fehlersuche')\n"
 "logging.info('Informative Meldung')\n"
-"logging.warning('Warnung: Konfigurationsdatei %s nicht gefunden', 'server."
-"conf')\n"
+"logging.warning('Warnung: Konfigurationsdatei %s nicht gefunden', "
+"'server.conf')\n"
 "logging.error('Fehler aufgetreten')\n"
 "logging.critical('Kritischer Fehler -- Programm wird beendet')"
 
+#: ../../tutorial/stdlib2.rst:225
 msgid "This produces the following output:"
 msgstr "Dies führt zu folgender Ausgabe:"
 
+#: ../../tutorial/stdlib2.rst:227
 msgid ""
 "WARNING:root:Warning:config file server.conf not found\n"
 "ERROR:root:Error occurred\n"
@@ -475,22 +510,24 @@ msgstr ""
 "FEHLER:root:Es ist ein Fehler aufgetreten\n"
 "KRITISCH:root:Kritischer Fehler – System wird heruntergefahren"
 
+#: ../../tutorial/stdlib2.rst:233
 msgid ""
 "By default, informational and debugging messages are suppressed and the "
 "output is sent to standard error.  Other output options include routing "
 "messages through email, datagrams, sockets, or to an HTTP Server.  New "
-"filters can select different routing based on message priority: :const:"
-"`~logging.DEBUG`, :const:`~logging.INFO`, :const:`~logging.WARNING`, :const:"
-"`~logging.ERROR`, and :const:`~logging.CRITICAL`."
+"filters can select different routing based on message "
+"priority: :const:`~logging.DEBUG`, :const:`~logging.INFO`, :const:`~logging.WARNING`, :const:`~logging.ERROR`, "
+"and :const:`~logging.CRITICAL`."
 msgstr ""
 "Standardmäßig werden Informations- und Debugging-Meldungen unterdrückt und "
 "die Ausgabe an die Standardfehlerausgabe weitergeleitet. Zu den weiteren "
 "Ausgabeoptionen gehört die Weiterleitung von Meldungen per E-Mail, über "
 "Datagramme, Sockets oder an einen HTTP-Server. Mit neuen Filtern lassen sich "
 "je nach Priorität der Meldungen unterschiedliche Weiterleitungswege "
-"auswählen: :const:`~logging.DEBUG`, :const:`~logging.INFO`, :const:`~logging."
-"WARNING`, :const:`~logging.ERROR` und :const:`~logging.CRITICAL`."
+"auswählen: :const:`~logging.DEBUG`, :const:`~logging.INFO`, :const:`~logging.WARNING`, :const:`~logging.ERROR` "
+"und :const:`~logging.CRITICAL`."
 
+#: ../../tutorial/stdlib2.rst:240
 msgid ""
 "The logging system can be configured directly from Python or can be loaded "
 "from a user editable configuration file for customized logging without "
@@ -500,9 +537,11 @@ msgstr ""
 "einer vom Benutzer bearbeitbaren Konfigurationsdatei geladen werden, um eine "
 "individuelle Protokollierung zu ermöglichen, ohne die Anwendung zu verändern."
 
+#: ../../tutorial/stdlib2.rst:248
 msgid "Weak references"
 msgstr "Schwache Referenzen"
 
+#: ../../tutorial/stdlib2.rst:250
 msgid ""
 "Python does automatic memory management (reference counting for most objects "
 "and :term:`garbage collection` to eliminate cycles).  The memory is freed "
@@ -513,6 +552,7 @@ msgstr ""
 "Zyklen). Der Speicher wird kurz nach dem Wegfall der letzten Referenz darauf "
 "freigegeben."
 
+#: ../../tutorial/stdlib2.rst:254
 msgid ""
 "This approach works fine for most applications but occasionally there is a "
 "need to track objects only as long as they are being used by something else. "
@@ -533,6 +573,8 @@ msgstr ""
 "„weakref“-Objekte ausgelöst. Zu den typischen Anwendungsfällen gehört das "
 "Zwischenspeichern von Objekten, deren Erstellung ressourcenintensiv ist::"
 
+#: ../../tutorial/stdlib2.rst:262
+#, fuzzy
 msgid ""
 ">>> import weakref, gc\n"
 ">>> class A:\n"
@@ -553,7 +595,7 @@ msgid ""
 "Traceback (most recent call last):\n"
 "  File \"<stdin>\", line 1, in <module>\n"
 "    d['primary']                # entry was automatically removed\n"
-"  File \"C:/python314/lib/weakref.py\", line 46, in __getitem__\n"
+"  File \"C:/python315/lib/weakref.py\", line 46, in __getitem__\n"
 "    o = self.data[key]()\n"
 "KeyError: 'primary'"
 msgstr ""
@@ -580,9 +622,11 @@ msgstr ""
 "    o = self.data[key]()\n"
 "KeyError: 'primary'"
 
+#: ../../tutorial/stdlib2.rst:289
 msgid "Tools for working with lists"
 msgstr "Werkzeuge zur Arbeit mit Listen"
 
+#: ../../tutorial/stdlib2.rst:291
 msgid ""
 "Many data structure needs can be met with the built-in list type. However, "
 "sometimes there is a need for alternative implementations with different "
@@ -593,6 +637,7 @@ msgstr ""
 "Implementierungen mit unterschiedlichen Kompromissen hinsichtlich der "
 "Leistung."
 
+#: ../../tutorial/stdlib2.rst:295
 msgid ""
 "The :mod:`array` module provides an :class:`~array.array` object that is "
 "like a list that stores only homogeneous data and stores it more compactly.  "
@@ -607,6 +652,7 @@ msgstr ""
 "gespeichert sind, anstatt der üblichen 16 Bytes pro Eintrag bei regulären "
 "Listen von Python-int-Objekten::"
 
+#: ../../tutorial/stdlib2.rst:301
 msgid ""
 ">>> from array import array\n"
 ">>> a = array('H', [4000, 10, 700, 22222])\n"
@@ -622,6 +668,7 @@ msgstr ""
 ">>> a[1:3]\n"
 "array('H', [10, 700])"
 
+#: ../../tutorial/stdlib2.rst:308
 msgid ""
 "The :mod:`collections` module provides a :class:`~collections.deque` object "
 "that is like a list with faster appends and pops from the left side but "
@@ -634,6 +681,7 @@ msgstr ""
 "langsamer. Diese Objekte eignen sich gut für die Implementierung von "
 "Warteschlangen und für die Breitensuche in Bäumen::"
 
+#: ../../tutorial/stdlib2.rst:313
 msgid ""
 ">>> from collections import deque\n"
 ">>> d = deque([\"task1\", \"task2\", \"task3\"])\n"
@@ -647,6 +695,7 @@ msgstr ""
 ">>> print(\"Handling\", d.popleft())\n"
 "Handling task1"
 
+#: ../../tutorial/stdlib2.rst:321
 msgid ""
 "unsearched = deque([starting_node])\n"
 "def breadth_first_search(unsearched):\n"
@@ -664,6 +713,7 @@ msgstr ""
 "            return m\n"
 "        unsearched.append(m)"
 
+#: ../../tutorial/stdlib2.rst:329
 msgid ""
 "In addition to alternative list implementations, the library also offers "
 "other tools such as the :mod:`bisect` module with functions for manipulating "
@@ -673,6 +723,7 @@ msgstr ""
 "weitere Werkzeuge wie das Modul :mod:`bisect` mit Funktionen zur Bearbeitung "
 "sortierter Listen::"
 
+#: ../../tutorial/stdlib2.rst:333
 msgid ""
 ">>> import bisect\n"
 ">>> scores = [(100, 'perl'), (200, 'tcl'), (400, 'lua'), (500, 'python')]\n"
@@ -686,6 +737,7 @@ msgstr ""
 ">>> scores\n"
 "[(100, 'perl'), (200, 'tcl'), (300, 'ruby'), (400, 'lua'), (500, 'python')]"
 
+#: ../../tutorial/stdlib2.rst:339
 msgid ""
 "The :mod:`heapq` module provides functions for implementing heaps based on "
 "regular lists.  The lowest valued entry is always kept at position zero.  "
@@ -698,6 +750,7 @@ msgstr ""
 "wiederholt auf das kleinste Element zugreifen, aber keine vollständige "
 "Sortierung der Liste durchführen möchten::"
 
+#: ../../tutorial/stdlib2.rst:344
 msgid ""
 ">>> from heapq import heapify, heappop, heappush\n"
 ">>> data = [1, 3, 5, 7, 9, 2, 4, 6, 8, 0]\n"
@@ -713,19 +766,22 @@ msgstr ""
 ">>> [heappop(data) for i in range(3)]  # fetch the three smallest entries\n"
 "[-5, 0, 1]"
 
+#: ../../tutorial/stdlib2.rst:355
 msgid "Decimal floating-point arithmetic"
 msgstr "Dezimale Gleitkommaarithmetik"
 
+#: ../../tutorial/stdlib2.rst:357
 msgid ""
 "The :mod:`decimal` module offers a :class:`~decimal.Decimal` datatype for "
 "decimal floating-point arithmetic.  Compared to the built-in :class:`float` "
 "implementation of binary floating point, the class is especially helpful for"
 msgstr ""
 "Das Modul :mod:`decimal` bietet den Datentyp :class:`~decimal.Decimal` für "
-"die dezimale Gleitkommaarithmetik. Im Vergleich zur integrierten :class:"
-"`float` “-Implementierung der binären Gleitkommaarithmetik ist diese Klasse "
-"besonders hilfreich für"
+"die dezimale Gleitkommaarithmetik. Im Vergleich zur "
+"integrierten :class:`float` “-Implementierung der binären "
+"Gleitkommaarithmetik ist diese Klasse besonders hilfreich für"
 
+#: ../../tutorial/stdlib2.rst:361
 msgid ""
 "financial applications and other uses which require exact decimal "
 "representation,"
@@ -733,17 +789,21 @@ msgstr ""
 "Finanzanwendungen und andere Anwendungsbereiche, die eine exakte "
 "Dezimaldarstellung erfordern,"
 
+#: ../../tutorial/stdlib2.rst:363
 msgid "control over precision,"
 msgstr "Kontrolle über die Präzision,"
 
+#: ../../tutorial/stdlib2.rst:364
 msgid "control over rounding to meet legal or regulatory requirements,"
 msgstr ""
 "Kontrolle über die Rundung zur Erfüllung gesetzlicher oder behördlicher "
 "Anforderungen,"
 
+#: ../../tutorial/stdlib2.rst:365
 msgid "tracking of significant decimal places, or"
 msgstr "Verfolgung der signifikanten Dezimalstellen oder"
 
+#: ../../tutorial/stdlib2.rst:366
 msgid ""
 "applications where the user expects the results to match calculations done "
 "by hand."
@@ -751,6 +811,7 @@ msgstr ""
 "Anwendungen, bei denen der Benutzer erwartet, dass die Ergebnisse mit den "
 "von Hand durchgeführten Berechnungen übereinstimmen."
 
+#: ../../tutorial/stdlib2.rst:369
 msgid ""
 "For example, calculating a 5% tax on a 70 cent phone charge gives different "
 "results in decimal floating point and binary floating point. The difference "
@@ -762,6 +823,7 @@ msgstr ""
 "Unterschied wird erheblich, wenn die Ergebnisse auf den nächsten Cent "
 "gerundet werden::"
 
+#: ../../tutorial/stdlib2.rst:373
 msgid ""
 ">>> from decimal import *\n"
 ">>> round(Decimal('0.70') * Decimal('1.05'), 2)\n"
@@ -775,6 +837,7 @@ msgstr ""
 ">>> round(.70 * 1.05, 2)\n"
 "0.73"
 
+#: ../../tutorial/stdlib2.rst:379
 msgid ""
 "The :class:`~decimal.Decimal` result keeps a trailing zero, automatically "
 "inferring four place significance from multiplicands with two place "
@@ -789,6 +852,7 @@ msgstr ""
 "vermeidet Probleme, die auftreten können, wenn binäre Gleitkommazahlen "
 "dezimale Größen nicht exakt darstellen können."
 
+#: ../../tutorial/stdlib2.rst:385
 msgid ""
 "Exact representation enables the :class:`~decimal.Decimal` class to perform "
 "modulo calculations and equality tests that are unsuitable for binary "
@@ -798,6 +862,7 @@ msgstr ""
 "Modulo-Berechnungen und Gleichheitsprüfungen durchführen, die für binäre "
 "Gleitkommazahlen ungeeignet sind::"
 
+#: ../../tutorial/stdlib2.rst:389
 msgid ""
 ">>> Decimal('1.00') % Decimal('.10')\n"
 "Decimal('0.00')\n"
@@ -819,6 +884,7 @@ msgstr ""
 ">>> 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 == 1.0\n"
 "False"
 
+#: ../../tutorial/stdlib2.rst:399
 msgid ""
 "The :mod:`decimal` module provides arithmetic with as much precision as "
 "needed::"
@@ -826,6 +892,7 @@ msgstr ""
 "Das Modul :mod:`decimal` ermöglicht arithmetische Berechnungen mit beliebig "
 "hoher Genauigkeit::"
 
+#: ../../tutorial/stdlib2.rst:401
 msgid ""
 ">>> getcontext().prec = 36\n"
 ">>> Decimal(1) / Decimal(7)\n"

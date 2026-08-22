@@ -10,19 +10,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-08-22 12:07+0200\n"
 "PO-Revision-Date: 2026-07-31 00:02+0000\n"
 "Last-Translator: Swen Bachmann <142266608+sba72@users.noreply.github.com>\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../../tutorial/introduction.rst:5
 msgid "An Informal Introduction to Python"
 msgstr "Eine informelle Einführung in Python"
 
+#: ../../tutorial/introduction.rst:7
 msgid ""
 "In the following examples, input and output are distinguished by the "
 "presence or absence of prompts (:term:`>>>` and :term:`...`): to repeat the "
@@ -39,6 +41,7 @@ msgstr ""
 "zweiter Prompt in einer eigenen Zeile bedeutet, dass du eine Leerzeile "
 "eingeben musst; dies dient dazu, einen mehrzeiligen Befehl zu beenden."
 
+#: ../../tutorial/introduction.rst:16
 msgid ""
 "You can use the \"Copy\" button (it appears in the upper-right corner when "
 "hovering over or tapping a code example), which strips prompts and omits "
@@ -49,6 +52,7 @@ msgstr ""
 "tippst), die Prompts entfernt und Ausgaben auslässt, um die Eingabezeilen in "
 "deinen Interpreter zu kopieren und einzufügen."
 
+#: ../../tutorial/introduction.rst:22
 msgid ""
 "Many of the examples in this manual, even those entered at the interactive "
 "prompt, include comments.  Comments in Python start with the hash character, "
@@ -68,9 +72,11 @@ msgstr ""
 "Python interpretiert werden, können sie beim Abtippen der Beispiele "
 "weggelassen werden."
 
+#: ../../tutorial/introduction.rst:30
 msgid "Some examples::"
 msgstr "Einige Beispiele::"
 
+#: ../../tutorial/introduction.rst:32
 msgid ""
 "# this is the first comment\n"
 "spam = 1  # and this is the second comment\n"
@@ -82,9 +88,11 @@ msgstr ""
 "          # ... und nun ein dritter!\n"
 "text = \"# Dies ist kein Kommentar, da es in Anführungszeichen steht.\""
 
+#: ../../tutorial/introduction.rst:41
 msgid "Using Python as a Calculator"
 msgstr "Python als Taschenrechner verwenden"
 
+#: ../../tutorial/introduction.rst:43
 msgid ""
 "Let's try some simple Python commands.  Start the interpreter and wait for "
 "the primary prompt, ``>>>``.  (It shouldn't take long.)"
@@ -92,11 +100,14 @@ msgstr ""
 "Probieren wir einige einfache Python-Befehle aus. Starte den Interpreter und "
 "warte auf den primären Prompt, ``>>>``. (Es sollte nicht lange dauern.)"
 
+#: ../../tutorial/introduction.rst:50
 msgid "Numbers"
 msgstr "Zahlen"
 
+#: ../../tutorial/introduction.rst:52
+#, fuzzy
 msgid ""
-"The interpreter acts as a simple calculator: you can type an expression at "
+"The interpreter acts as a simple calculator: you can type an expression into "
 "it and it will write the value.  Expression syntax is straightforward: the "
 "operators ``+``, ``-``, ``*`` and ``/`` can be used to perform arithmetic; "
 "parentheses (``()``) can be used for grouping. For example::"
@@ -107,6 +118,7 @@ msgstr ""
 "können für arithmetische Berechnungen verwendet werden; Klammern (``()``) "
 "dienen der Gruppierung. Zum Beispiel::"
 
+#: ../../tutorial/introduction.rst:58
 msgid ""
 ">>> 2 + 2\n"
 "4\n"
@@ -126,25 +138,29 @@ msgstr ""
 ">>> 8 / 5  # division always returns a floating-point number\n"
 "1.6"
 
+#: ../../tutorial/introduction.rst:67
 msgid ""
 "The integer numbers (e.g. ``2``, ``4``, ``20``) have type :class:`int`, the "
-"ones with a fractional part (e.g. ``5.0``, ``1.6``) have type :class:"
-"`float`.  We will see more about numeric types later in the tutorial."
+"ones with a fractional part (e.g. ``5.0``, ``1.6``) have "
+"type :class:`float`.  We will see more about numeric types later in the "
+"tutorial."
 msgstr ""
 "Ganzzahlen (z. B. ``2``, ``4``, ``20``) haben den Typ :class:`int`, Zahlen "
 "mit Nachkommastellen (z. B. ``5.0``, ``1.6``) den Typ :class:`float`. Mehr "
 "zu numerischen Typen erfährst du später in diesem Tutorial."
 
+#: ../../tutorial/introduction.rst:71
 msgid ""
 "Division (``/``) always returns a float.  To do :term:`floor division` and "
 "get an integer result you can use the ``//`` operator; to calculate the "
 "remainder you can use ``%``::"
 msgstr ""
-"Eine Division (``/``) liefert immer eine Gleitkommazahl zurück. Um eine :"
-"term:`Ganzzahldivision <floor division>` durchzuführen und ein ganzzahliges "
-"Ergebnis zu erhalten, kannst du den Operator ``//`` verwenden; zur "
-"Berechnung des Restes nutzt du ``%``::"
+"Eine Division (``/``) liefert immer eine Gleitkommazahl zurück. Um "
+"eine :term:`Ganzzahldivision <floor division>` durchzuführen und ein "
+"ganzzahliges Ergebnis zu erhalten, kannst du den Operator ``//`` verwenden; "
+"zur Berechnung des Restes nutzt du ``%``::"
 
+#: ../../tutorial/introduction.rst:75
 msgid ""
 ">>> 17 / 3  # classic division returns a float\n"
 "5.666666666666667\n"
@@ -166,6 +182,7 @@ msgstr ""
 ">>> 5 * 3 + 2  # Abgerundeter Quotient * Divisor + Rest\n"
 "17"
 
+#: ../../tutorial/introduction.rst:85
 msgid ""
 "With Python, it is possible to use the ``**`` operator to calculate powers "
 "[#]_::"
@@ -173,6 +190,7 @@ msgstr ""
 "In Python kann der Operator ``**`` verwendet werden, um Potenzen zu "
 "berechnen [#]_::"
 
+#: ../../tutorial/introduction.rst:87
 msgid ""
 ">>> 5 ** 2  # 5 squared\n"
 "25\n"
@@ -184,6 +202,7 @@ msgstr ""
 ">>> 2 ** 7  # 2 hoch 7\n"
 "128"
 
+#: ../../tutorial/introduction.rst:92
 msgid ""
 "The equal sign (``=``) is used to assign a value to a variable. Afterwards, "
 "no result is displayed before the next interactive prompt::"
@@ -192,6 +211,7 @@ msgstr ""
 "zuzuweisen. Dabei wird vor dem nächsten interaktiven Prompt kein Ergebnis "
 "angezeigt::"
 
+#: ../../tutorial/introduction.rst:95
 msgid ""
 ">>> width = 20\n"
 ">>> height = 5 * 9\n"
@@ -203,6 +223,7 @@ msgstr ""
 ">>> width * height\n"
 "900"
 
+#: ../../tutorial/introduction.rst:100
 msgid ""
 "If a variable is not \"defined\" (assigned a value), trying to use it will "
 "give you an error::"
@@ -210,6 +231,7 @@ msgstr ""
 "Wenn eine Variable nicht „definiert“ ist (ihr kein Wert zugewiesen wurde), "
 "führt der Versuch, diese zu verwenden, zu einem Fehler::"
 
+#: ../../tutorial/introduction.rst:103
 msgid ""
 ">>> n  # try to access an undefined variable\n"
 "Traceback (most recent call last):\n"
@@ -221,6 +243,7 @@ msgstr ""
 "  File \"<stdin>\", line 1, in <module>\n"
 "NameError: name 'n' is not defined"
 
+#: ../../tutorial/introduction.rst:108
 msgid ""
 "There is full support for floating point; operators with mixed type operands "
 "convert the integer operand to floating point::"
@@ -228,6 +251,7 @@ msgstr ""
 "Gleitkommazahlen werden vollständig unterstützt; Operatoren mit gemischten "
 "Operandentypen wandeln den Ganzzahl-Operanden in eine Gleitkommazahl um::"
 
+#: ../../tutorial/introduction.rst:111
 msgid ""
 ">>> 4 * 3.75 - 1\n"
 "14.0"
@@ -235,6 +259,7 @@ msgstr ""
 ">>> 4 * 3.75 - 1\n"
 "14.0"
 
+#: ../../tutorial/introduction.rst:114
 msgid ""
 "In interactive mode, the last printed expression is assigned to the variable "
 "``_``.  This means that when you are using Python as a desk calculator, it "
@@ -244,6 +269,7 @@ msgstr ""
 "``_`` zugewiesen. Wenn du Python als Taschenrechner nutzt, erleichtert dies "
 "das Weiterrechnen, zum Beispiel::"
 
+#: ../../tutorial/introduction.rst:118
 msgid ""
 ">>> tax = 12.5 / 100\n"
 ">>> price = 100.50\n"
@@ -263,6 +289,7 @@ msgstr ""
 ">>> round(_, 2)\n"
 "113.06"
 
+#: ../../tutorial/introduction.rst:127
 msgid ""
 "This variable should be treated as read-only by the user.  Don't explicitly "
 "assign a value to it --- you would create an independent local variable with "
@@ -273,12 +300,13 @@ msgstr ""
 "lokale Variable desselben Namens erzeugen, die die integrierte Variable mit "
 "ihrem magischen Verhalten verdeckt."
 
+#: ../../tutorial/introduction.rst:131
 msgid ""
 "In addition to :class:`int` and :class:`float`, Python supports other types "
-"of numbers, such as :class:`~decimal.Decimal` and :class:`~fractions."
-"Fraction`. Python also has built-in support for :ref:`complex numbers "
-"<typesnumeric>`, and uses the ``j`` or ``J`` suffix to indicate the "
-"imaginary part (e.g. ``3+5j``)."
+"of numbers, such as :class:`~decimal.Decimal` "
+"and :class:`~fractions.Fraction`. Python also has built-in support "
+"for :ref:`complex numbers <typesnumeric>`, and uses the ``j`` or ``J`` "
+"suffix to indicate the imaginary part (e.g. ``3+5j``)."
 msgstr ""
 "Neben :class:`int` und :class:`float` unterstützt Python weitere Typen von "
 "Zahlen, wie :class:`~decimal.Decimal` und :class:`~fractions.Fraction`. "
@@ -286,9 +314,11 @@ msgstr ""
 "<typesnumeric>` und verwendet das Suffix ``j`` oder ``J``, um den "
 "Imaginärteil anzugeben (z. B. ``3+5j``)."
 
+#: ../../tutorial/introduction.rst:141
 msgid "Text"
 msgstr "Text"
 
+#: ../../tutorial/introduction.rst:143
 msgid ""
 "Python can manipulate text (represented by type :class:`str`, so-called "
 "\"strings\") as well as numbers.  This includes characters \"``!``\", words "
@@ -296,13 +326,14 @@ msgid ""
 "\"``Yay! :)``\". They can be enclosed in single quotes (``'...'``) or double "
 "quotes (``\"...\"``) with the same result [#]_."
 msgstr ""
-"Neben Zahlen kann Python auch Text verarbeiten (dargestellt durch den Typ :"
-"class:`str`, sogenannte \"Strings\" oder Zeichenketten). Dazu gehören "
+"Neben Zahlen kann Python auch Text verarbeiten (dargestellt durch den "
+"Typ :class:`str`, sogenannte \"Strings\" oder Zeichenketten). Dazu gehören "
 "Zeichen \"``!``\", Wörter \"``rabbit``\", Namen \"``Paris``\", Sätze \"``Got "
 "your back.``\" usw. \"``Yay! :)``\". Sie können in einfache "
 "Anführungszeichen (``'...'``) oder doppelte Anführungszeichen (``\"...\"``) "
 "eingeschlossen werden, mit dem gleichen Ergebnis [#]_."
 
+#: ../../tutorial/introduction.rst:149
 msgid ""
 ">>> 'spam eggs'  # single quotes\n"
 "'spam eggs'\n"
@@ -319,6 +350,7 @@ msgstr ""
 "ebenfalls Strings\n"
 "'1975'"
 
+#: ../../tutorial/introduction.rst:158
 msgid ""
 "To quote a quote, we need to \"escape\" it, by preceding it with ``\\``. "
 "Alternatively, we can use the other type of quotation marks::"
@@ -327,6 +359,7 @@ msgstr ""
 "\"maskieren\", indem ein ``\\`` vorangestellt wird. Alternativ können wir "
 "die andere Art von Anführungszeichen verwenden::"
 
+#: ../../tutorial/introduction.rst:161
 msgid ""
 ">>> 'doesn\\'t'  # use \\' to escape the single quote...\n"
 "\"doesn't\"\n"
@@ -351,6 +384,7 @@ msgstr ""
 ">>> '\"Isn\\'t,\" they said.'\n"
 "'\"Isn\\'t,\" they said.'"
 
+#: ../../tutorial/introduction.rst:172
 msgid ""
 "In the Python shell, the string definition and output string can look "
 "different.  The :func:`print` function produces a more readable output, by "
@@ -362,6 +396,7 @@ msgstr ""
 "Ausgabe, indem sie die umschließenden Anführungszeichen weglässt und "
 "maskierte sowie Sonderzeichen ausgibt::"
 
+#: ../../tutorial/introduction.rst:176
 msgid ""
 ">>> s = 'First line.\\nSecond line.'  # \\n means newline\n"
 ">>> s  # without print(), special characters are included in the string\n"
@@ -379,6 +414,7 @@ msgstr ""
 "First line.\n"
 "Second line."
 
+#: ../../tutorial/introduction.rst:183
 msgid ""
 "If you don't want characters prefaced by ``\\`` to be interpreted as special "
 "characters, you can use *raw strings* by adding an ``r`` before the first "
@@ -388,12 +424,14 @@ msgstr ""
 "Sonderzeichen interpretiert werden, kannst du *Raw-Strings* verwenden, indem "
 "du ein ``r`` vor das erste Anführungszeichen setzt::"
 
+#: ../../tutorial/introduction.rst:187
+#, fuzzy
 msgid ""
-">>> print('C:\\some\\name')  # here \\n means newline!\n"
-"C:\\some\n"
+">>> print('C:\\this\\name')  # here \\t means tab, \\n means newline\n"
+"C:      his\n"
 "ame\n"
-">>> print(r'C:\\some\\name')  # note the r before the quote\n"
-"C:\\some\\name"
+">>> print(r'C:\\this\\name')  # note the r before the quote\n"
+"C:\\this\\name"
 msgstr ""
 ">>> print('C:\\some\\name')  # hier steht \\n für Zeilenumbruch!\n"
 "C:\\some\n"
@@ -401,6 +439,7 @@ msgstr ""
 ">>> print(r'C:\\some\\name')  # beachte das r vor dem Anführungszeichen\n"
 "C:\\some\\name"
 
+#: ../../tutorial/introduction.rst:193
 msgid ""
 "There is one subtle aspect to raw strings: a raw string may not end in an "
 "odd number of ``\\`` characters; see :ref:`the FAQ entry <faq-programming-"
@@ -411,6 +450,7 @@ msgstr ""
 "<faq-programming-raw-string-backslash>` für weitere Informationen und "
 "Workarounds."
 
+#: ../../tutorial/introduction.rst:198
 msgid ""
 "String literals can span multiple lines.  One way is using triple-quotes: "
 "``\"\"\"...\"\"\"`` or ``'''...'''``.  End-of-line characters are "
@@ -425,6 +465,7 @@ msgstr ""
 "Ende der Zeile angefügt wird. Im folgenden Beispiel ist der einleitende "
 "Zeilenumbruch nicht enthalten::"
 
+#: ../../tutorial/introduction.rst:204
 msgid ""
 ">>> print(\"\"\"\\\n"
 "... Usage: thingy [OPTIONS]\n"
@@ -448,6 +489,7 @@ msgstr ""
 "\n"
 ">>>"
 
+#: ../../tutorial/introduction.rst:215
 msgid ""
 "Strings can be concatenated (glued together) with the ``+`` operator, and "
 "repeated with ``*``::"
@@ -455,6 +497,7 @@ msgstr ""
 "Strings können mit dem Operator ``+`` verknüpft (zusammengefügt) und mit "
 "``*`` wiederholt werden::"
 
+#: ../../tutorial/introduction.rst:218
 msgid ""
 ">>> # 3 times 'un', followed by 'ium'\n"
 ">>> 3 * 'un' + 'ium'\n"
@@ -464,6 +507,7 @@ msgstr ""
 ">>> 3 * 'un' + 'ium'\n"
 "'unununium'"
 
+#: ../../tutorial/introduction.rst:222
 msgid ""
 "Two or more *string literals* (i.e. the ones enclosed between quotes) next "
 "to each other are automatically concatenated. ::"
@@ -471,6 +515,7 @@ msgstr ""
 "Zwei oder mehr *String-Literale* (also solche in Anführungszeichen), die "
 "nebeneinanderstehen, werden automatisch verknüpft. ::"
 
+#: ../../tutorial/introduction.rst:225
 msgid ""
 ">>> 'Py' 'thon'\n"
 "'Python'"
@@ -478,12 +523,14 @@ msgstr ""
 ">>> 'Py' 'thon'\n"
 "'Python'"
 
+#: ../../tutorial/introduction.rst:228
 msgid ""
 "This feature is particularly useful when you want to break long strings::"
 msgstr ""
 "Dieses Feature ist besonders nützlich, wenn du lange Strings umbrechen "
 "möchtest::"
 
+#: ../../tutorial/introduction.rst:230
 msgid ""
 ">>> text = ('Put several strings within parentheses '\n"
 "...         'to have them joined together.')\n"
@@ -495,12 +542,14 @@ msgstr ""
 ">>> text\n"
 "'Setze mehrere Strings in Klammern, um sie zusammenzufügen.'"
 
+#: ../../tutorial/introduction.rst:235
 msgid ""
 "This only works with two literals though, not with variables or expressions::"
 msgstr ""
 "Dies funktioniert jedoch nur mit zwei Literalen, nicht mit Variablen oder "
 "Ausdrücken::"
 
+#: ../../tutorial/introduction.rst:237
 msgid ""
 ">>> prefix = 'Py'\n"
 ">>> prefix 'thon'  # can't concatenate a variable and a string literal\n"
@@ -527,12 +576,14 @@ msgstr ""
 "               ^^^^^\n"
 "SyntaxError: invalid syntax"
 
+#: ../../tutorial/introduction.rst:249
 msgid ""
 "If you want to concatenate variables or a variable and a literal, use ``+``::"
 msgstr ""
 "Wenn du Variablen oder eine Variable und ein Literal verknüpfen möchtest, "
 "verwende ``+``::"
 
+#: ../../tutorial/introduction.rst:251
 msgid ""
 ">>> prefix + 'thon'\n"
 "'Python'"
@@ -540,6 +591,7 @@ msgstr ""
 ">>> prefix + 'thon'\n"
 "'Python'"
 
+#: ../../tutorial/introduction.rst:254
 msgid ""
 "Strings can be *indexed* (subscripted), with the first character having "
 "index 0. There is no separate character type; a character is simply a string "
@@ -549,6 +601,7 @@ msgstr ""
 "Index 0 hat. Es gibt keinen eigenen Zeichentyp; ein Zeichen ist einfach ein "
 "String der Länge eins::"
 
+#: ../../tutorial/introduction.rst:258
 msgid ""
 ">>> word = 'Python'\n"
 ">>> word[0]  # character in position 0\n"
@@ -562,10 +615,12 @@ msgstr ""
 ">>> word[5]  # Zeichen an Position 5\n"
 "'n'"
 
+#: ../../tutorial/introduction.rst:264
 msgid ""
 "Indices may also be negative numbers, to start counting from the right::"
 msgstr "Indizes können auch negative Zahlen sein, um von rechts zu zählen::"
 
+#: ../../tutorial/introduction.rst:266
 msgid ""
 ">>> word[-1]  # last character\n"
 "'n'\n"
@@ -581,10 +636,12 @@ msgstr ""
 ">>> word[-6]\n"
 "'P'"
 
+#: ../../tutorial/introduction.rst:273
 msgid "Note that since -0 is the same as 0, negative indices start from -1."
 msgstr ""
 "Beachte, dass negative Indizes bei -1 beginnen, da -0 dasselbe wie 0 ist."
 
+#: ../../tutorial/introduction.rst:275
 msgid ""
 "In addition to indexing, *slicing* is also supported.  While indexing is "
 "used to obtain individual characters, *slicing* allows you to obtain a "
@@ -594,6 +651,7 @@ msgstr ""
 "Indizieren dazu dient, einzelne Zeichen zu erhalten, ermöglicht *Slicing* "
 "das Heraustrennen eines Teilstrings::"
 
+#: ../../tutorial/introduction.rst:278
 msgid ""
 ">>> word[0:2]  # characters from position 0 (included) to 2 (excluded)\n"
 "'Py'\n"
@@ -607,6 +665,7 @@ msgstr ""
 "(ausschließlich)\n"
 "'tho'"
 
+#: ../../tutorial/introduction.rst:283
 msgid ""
 "Slice indices have useful defaults; an omitted first index defaults to zero, "
 "an omitted second index defaults to the size of the string being sliced. ::"
@@ -615,6 +674,7 @@ msgstr ""
 "wird standardmäßig auf null gesetzt, ein ausgelassener zweiter Index "
 "entspricht standardmäßig der Länge des verwendeten Strings. ::"
 
+#: ../../tutorial/introduction.rst:286
 msgid ""
 ">>> word[:2]   # character from the beginning to position 2 (excluded)\n"
 "'Py'\n"
@@ -630,6 +690,7 @@ msgstr ""
 ">>> word[-2:]  # Zeichen vom Vorletzten (einschließlich) bis zum Ende\n"
 "'on'"
 
+#: ../../tutorial/introduction.rst:293
 msgid ""
 "Note how the start is always included, and the end always excluded.  This "
 "makes sure that ``s[:i] + s[i:]`` is always equal to ``s``::"
@@ -638,6 +699,7 @@ msgstr ""
 "ausgeschlossen ist. Dies stellt sicher, dass ``s[:i] + s[i:]`` immer gleich "
 "``s`` ist::"
 
+#: ../../tutorial/introduction.rst:296
 msgid ""
 ">>> word[:2] + word[2:]\n"
 "'Python'\n"
@@ -649,6 +711,7 @@ msgstr ""
 ">>> word[:4] + word[4:]\n"
 "'Python'"
 
+#: ../../tutorial/introduction.rst:301
 msgid ""
 "One way to remember how slices work is to think of the indices as pointing "
 "*between* characters, with the left edge of the first character numbered 0. "
@@ -661,6 +724,7 @@ msgstr ""
 "rechte Kante des letzten Zeichens eines Strings mit *n* Zeichen hat dann den "
 "Index *n*, zum Beispiel::"
 
+#: ../../tutorial/introduction.rst:306
 msgid ""
 " +---+---+---+---+---+---+\n"
 " | P | y | t | h | o | n |\n"
@@ -674,6 +738,7 @@ msgstr ""
 " 0   1   2   3   4   5   6\n"
 "-6  -5  -4  -3  -2  -1"
 
+#: ../../tutorial/introduction.rst:312
 msgid ""
 "The first row of numbers gives the position of the indices 0...6 in the "
 "string; the second row gives the corresponding negative indices. The slice "
@@ -685,6 +750,7 @@ msgstr ""
 "bis *j* besteht aus allen Zeichen zwischen den mit *i* bzw. *j* "
 "beschrifteten Kanten."
 
+#: ../../tutorial/introduction.rst:317
 msgid ""
 "For non-negative indices, the length of a slice is the difference of the "
 "indices, if both are within bounds.  For example, the length of "
@@ -694,10 +760,12 @@ msgstr ""
 "Indizes, sofern beide innerhalb der Grenzen liegen. Zum Beispiel beträgt die "
 "Länge von ``word[1:3]`` 2."
 
+#: ../../tutorial/introduction.rst:321
 msgid "Attempting to use an index that is too large will result in an error::"
 msgstr ""
 "Der Versuch, einen zu großen Index zu verwenden, führt zu einem Fehler::"
 
+#: ../../tutorial/introduction.rst:323
 msgid ""
 ">>> word[42]  # the word only has 6 characters\n"
 "Traceback (most recent call last):\n"
@@ -709,6 +777,7 @@ msgstr ""
 "  File \"<stdin>\", line 1, in <module>\n"
 "IndexError: string index out of range"
 
+#: ../../tutorial/introduction.rst:328
 msgid ""
 "However, out of range slice indexes are handled gracefully when used for "
 "slicing::"
@@ -716,6 +785,7 @@ msgstr ""
 "Außerhalb des Bereichs liegende Slice-Indizes werden beim Slicing jedoch "
 "toleriert::"
 
+#: ../../tutorial/introduction.rst:331
 msgid ""
 ">>> word[4:42]\n"
 "'on'\n"
@@ -727,14 +797,16 @@ msgstr ""
 ">>> word[42:]\n"
 "''"
 
+#: ../../tutorial/introduction.rst:336
 msgid ""
 "Python strings cannot be changed --- they are :term:`immutable`. Therefore, "
 "assigning to an indexed position in the string results in an error::"
 msgstr ""
-"Python-Strings können nicht verändert werden --- sie sind :term:"
-"`unveränderlich <immutable>`. Zuweisungen an eine indizierte Position im "
-"String führen daher zu einem Fehler::"
+"Python-Strings können nicht verändert werden --- sie "
+"sind :term:`unveränderlich <immutable>`. Zuweisungen an eine indizierte "
+"Position im String führen daher zu einem Fehler::"
 
+#: ../../tutorial/introduction.rst:339
 msgid ""
 ">>> word[0] = 'J'\n"
 "Traceback (most recent call last):\n"
@@ -754,10 +826,12 @@ msgstr ""
 "  File \"<stdin>\", line 1, in <module>\n"
 "TypeError: 'str' object does not support item assignment"
 
+#: ../../tutorial/introduction.rst:348
 msgid "If you need a different string, you should create a new one::"
 msgstr ""
 "Wenn du einen anderen String benötigst, solltest du einen neuen erstellen::"
 
+#: ../../tutorial/introduction.rst:350
 msgid ""
 ">>> 'J' + word[1:]\n"
 "'Jython'\n"
@@ -769,10 +843,12 @@ msgstr ""
 ">>> word[:2] + 'py'\n"
 "'Pypy'"
 
+#: ../../tutorial/introduction.rst:355
 msgid "The built-in function :func:`len` returns the length of a string::"
 msgstr ""
 "Die integrierte Funktion :func:`len` gibt die Länge eines Strings zurück::"
 
+#: ../../tutorial/introduction.rst:357
 msgid ""
 ">>> s = 'supercalifragilisticexpialidocious'\n"
 ">>> len(s)\n"
@@ -782,9 +858,11 @@ msgstr ""
 ">>> len(s)\n"
 "34"
 
+#: ../../tutorial/introduction.rst:364
 msgid ":ref:`textseq`"
 msgstr ":ref:`textseq`"
 
+#: ../../tutorial/introduction.rst:365
 msgid ""
 "Strings are examples of *sequence types*, and support the common operations "
 "supported by such types."
@@ -792,9 +870,11 @@ msgstr ""
 "Strings sind Beispiele für *Sequenztypen* und unterstützen die für solche "
 "Typen üblichen Operationen."
 
+#: ../../tutorial/introduction.rst:368
 msgid ":ref:`string-methods`"
 msgstr ":ref:`string-methods`"
 
+#: ../../tutorial/introduction.rst:369
 msgid ""
 "Strings support a large number of methods for basic transformations and "
 "searching."
@@ -802,21 +882,27 @@ msgstr ""
 "Strings unterstützen eine Vielzahl von Methoden für grundlegende "
 "Umwandlungen und Suchen."
 
+#: ../../tutorial/introduction.rst:372
 msgid ":ref:`f-strings`"
 msgstr ":ref:`f-strings`"
 
+#: ../../tutorial/introduction.rst:373
 msgid "String literals that have embedded expressions."
 msgstr "String-Literale, die eingebettete Ausdrücke enthalten."
 
+#: ../../tutorial/introduction.rst:375
 msgid ":ref:`formatstrings`"
 msgstr ":ref:`formatstrings`"
 
+#: ../../tutorial/introduction.rst:376
 msgid "Information about string formatting with :meth:`str.format`."
 msgstr "Informationen zur Formatierung von Strings mit :meth:`str.format`."
 
+#: ../../tutorial/introduction.rst:378
 msgid ":ref:`old-string-formatting`"
 msgstr ":ref:`old-string-formatting`"
 
+#: ../../tutorial/introduction.rst:379
 msgid ""
 "The old formatting operations invoked when strings are the left operand of "
 "the ``%`` operator are described in more detail here."
@@ -825,9 +911,11 @@ msgstr ""
 "linke Operand des ``%``-Operators sind, werden hier ausführlicher "
 "beschrieben."
 
+#: ../../tutorial/introduction.rst:386
 msgid "Lists"
 msgstr "Listen"
 
+#: ../../tutorial/introduction.rst:388
 msgid ""
 "Python knows a number of *compound* data types, used to group together other "
 "values.  The most versatile is the *list*, which can be written as a list of "
@@ -840,6 +928,7 @@ msgstr ""
 "Klammern geschrieben werden kann. Listen können Elemente verschiedener Typen "
 "enthalten, meist haben die Elemente jedoch denselben Typ. ::"
 
+#: ../../tutorial/introduction.rst:393
 msgid ""
 ">>> squares = [1, 4, 9, 16, 25]\n"
 ">>> squares\n"
@@ -849,6 +938,7 @@ msgstr ""
 ">>> squares\n"
 "[1, 4, 9, 16, 25]"
 
+#: ../../tutorial/introduction.rst:397
 msgid ""
 "Like strings (and all other built-in :term:`sequence` types), lists can be "
 "indexed and sliced::"
@@ -856,6 +946,7 @@ msgstr ""
 "Wie Strings (und alle anderen integrierten :term:`Sequenztypen <sequence>`) "
 "können Listen indiziert und zerteilt werden::"
 
+#: ../../tutorial/introduction.rst:400
 msgid ""
 ">>> squares[0]  # indexing returns the item\n"
 "1\n"
@@ -871,9 +962,11 @@ msgstr ""
 ">>> squares[-3:]  # Slicing gibt eine neue Liste zurück\n"
 "[9, 16, 25]"
 
+#: ../../tutorial/introduction.rst:407
 msgid "Lists also support operations like concatenation::"
 msgstr "Listen unterstützen auch Operationen wie die Verkettung::"
 
+#: ../../tutorial/introduction.rst:409
 msgid ""
 ">>> squares + [36, 49, 64, 81, 100]\n"
 "[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]"
@@ -881,6 +974,7 @@ msgstr ""
 ">>> squares + [36, 49, 64, 81, 100]\n"
 "[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]"
 
+#: ../../tutorial/introduction.rst:412
 msgid ""
 "Unlike strings, which are :term:`immutable`, lists are a :term:`mutable` "
 "type, i.e. it is possible to change their content::"
@@ -889,6 +983,7 @@ msgstr ""
 "Listen ein :term:`veränderlicher <mutable>` Typ, d. h. ihr Inhalt kann "
 "geändert werden::"
 
+#: ../../tutorial/introduction.rst:415
 msgid ""
 ">>> cubes = [1, 8, 27, 65, 125]  # something's wrong here\n"
 ">>> 4 ** 3  # the cube of 4 is 64, not 65!\n"
@@ -904,14 +999,16 @@ msgstr ""
 ">>> cubes\n"
 "[1, 8, 27, 64, 125]"
 
+#: ../../tutorial/introduction.rst:422
 msgid ""
-"You can also add new items at the end of the list, by using the :meth:`list."
-"append` *method* (we will see more about methods later)::"
+"You can also add new items at the end of the list, by using "
+"the :meth:`list.append` *method* (we will see more about methods later)::"
 msgstr ""
-"Du kannst auch neue Elemente am Ende der Liste hinzufügen, indem du die :"
-"meth:`list.append` *Methode* verwenden (mehr zu Methoden werden wir später "
-"sehen)::"
+"Du kannst auch neue Elemente am Ende der Liste hinzufügen, indem du "
+"die :meth:`list.append` *Methode* verwenden (mehr zu Methoden werden wir "
+"später sehen)::"
 
+#: ../../tutorial/introduction.rst:425
 msgid ""
 ">>> cubes.append(216)  # add the cube of 6\n"
 ">>> cubes.append(7 ** 3)  # and the cube of 7\n"
@@ -923,6 +1020,7 @@ msgstr ""
 ">>> cubes\n"
 "[1, 8, 27, 64, 125, 216, 343]"
 
+#: ../../tutorial/introduction.rst:430
 msgid ""
 "Simple assignment in Python never copies data. When you assign a list to a "
 "variable, the variable refers to the *existing list*. Any changes you make "
@@ -934,6 +1032,7 @@ msgstr ""
 "Liste*. Alle Änderungen, die du an der Liste über eine Variable vornimmst, "
 "sind über alle anderen Variablen sichtbar, die sich auf sie beziehen.::"
 
+#: ../../tutorial/introduction.rst:435
 msgid ""
 ">>> rgb = [\"Red\", \"Green\", \"Blue\"]\n"
 ">>> rgba = rgb\n"
@@ -951,6 +1050,7 @@ msgstr ""
 ">>> rgb\n"
 "[\"Red\", \"Green\", \"Blue\", \"Alph\"]"
 
+#: ../../tutorial/introduction.rst:443
 msgid ""
 "All slice operations return a new list containing the requested elements.  "
 "This means that the following slice returns a :ref:`shallow copy "
@@ -960,6 +1060,7 @@ msgstr ""
 "Elemente enthält. Das bedeutet, dass das folgende Slicing eine :ref:`flache "
 "Kopie <shallow_vs_deep_copy>` der Liste zurückgibt::"
 
+#: ../../tutorial/introduction.rst:447
 msgid ""
 ">>> correct_rgba = rgba[:]\n"
 ">>> correct_rgba[-1] = \"Alpha\"\n"
@@ -975,6 +1076,7 @@ msgstr ""
 ">>> rgba\n"
 "[\"Red\", \"Green\", \"Blue\", \"Alph\"]"
 
+#: ../../tutorial/introduction.rst:454
 msgid ""
 "Assignment to slices is also possible, and this can even change the size of "
 "the list or clear it entirely::"
@@ -982,6 +1084,7 @@ msgstr ""
 "Zuweisungen an Slices sind ebenfalls möglich, und dies kann sogar die Größe "
 "der Liste verändern oder sie vollständig leeren::"
 
+#: ../../tutorial/introduction.rst:457
 msgid ""
 ">>> letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']\n"
 ">>> letters\n"
@@ -1016,10 +1119,12 @@ msgstr ""
 ">>> letters\n"
 "[]"
 
+#: ../../tutorial/introduction.rst:473
 msgid "The built-in function :func:`len` also applies to lists::"
 msgstr ""
 "Die integrierte Funktion :func:`len` lässt sich auch auf Listen anwenden::"
 
+#: ../../tutorial/introduction.rst:475
 msgid ""
 ">>> letters = ['a', 'b', 'c', 'd']\n"
 ">>> len(letters)\n"
@@ -1029,6 +1134,7 @@ msgstr ""
 ">>> len(letters)\n"
 "4"
 
+#: ../../tutorial/introduction.rst:479
 msgid ""
 "It is possible to nest lists (create lists containing other lists), for "
 "example::"
@@ -1036,6 +1142,7 @@ msgstr ""
 "Es ist möglich, Listen zu verschachteln (Listen zu erstellen, die andere "
 "Listen enthalten), zum Beispiel::"
 
+#: ../../tutorial/introduction.rst:482
 msgid ""
 ">>> a = ['a', 'b', 'c']\n"
 ">>> n = [1, 2, 3]\n"
@@ -1057,9 +1164,11 @@ msgstr ""
 ">>> x[0][1]\n"
 "'b'"
 
+#: ../../tutorial/introduction.rst:495
 msgid "First Steps Towards Programming"
 msgstr "Erste Schritte in Richtung Programmierung"
 
+#: ../../tutorial/introduction.rst:497
 msgid ""
 "Of course, we can use Python for more complicated tasks than adding two and "
 "two together.  For instance, we can write an initial sub-sequence of the "
@@ -1071,6 +1180,7 @@ msgstr ""
 "der `Fibonacci-Folge <https://en.wikipedia.org/wiki/Fibonacci_sequence>`_ "
 "wie folgt schreiben::"
 
+#: ../../tutorial/introduction.rst:502
 msgid ""
 ">>> # Fibonacci series:\n"
 ">>> # the sum of two elements defines the next\n"
@@ -1102,9 +1212,11 @@ msgstr ""
 "5\n"
 "8"
 
+#: ../../tutorial/introduction.rst:517
 msgid "This example introduces several new features."
 msgstr "Dieses Beispiel führt einige neue Funktionen ein."
 
+#: ../../tutorial/introduction.rst:519
 msgid ""
 "The first line contains a *multiple assignment*: the variables ``a`` and "
 "``b`` simultaneously get the new values 0 and 1.  On the last line this is "
@@ -1119,6 +1231,7 @@ msgstr ""
 "stattfindet. Die Ausdrücke auf der rechten Seite werden von links nach "
 "rechts ausgewertet."
 
+#: ../../tutorial/introduction.rst:525
 msgid ""
 "The :keyword:`while` loop executes as long as the condition (here: ``a < "
 "10``) remains true.  In Python, like in C, any non-zero integer value is "
@@ -1139,6 +1252,7 @@ msgstr ""
 "als), ``>`` (größer als), ``==`` (gleich), ``<=`` (kleiner oder gleich), "
 "``>=`` (größer oder gleich) und ``!=`` (ungleich)."
 
+#: ../../tutorial/introduction.rst:534
 msgid ""
 "The *body* of the loop is *indented*: indentation is Python's way of "
 "grouping statements.  At the interactive prompt, you have to type a tab or "
@@ -1160,6 +1274,7 @@ msgstr ""
 "jede Zeile innerhalb eines Basisblocks um denselben Abstand eingerückt sein "
 "muss."
 
+#: ../../tutorial/introduction.rst:543
 msgid ""
 "The :func:`print` function writes the value of the argument(s) it is given. "
 "It differs from just writing the expression you want to write (as we did "
@@ -1176,6 +1291,7 @@ msgstr ""
 "ein Leerzeichen eingefügt, sodass du Dinge schön formatieren kannst, wie "
 "hier::"
 
+#: ../../tutorial/introduction.rst:550
 msgid ""
 ">>> i = 256*256\n"
 ">>> print('The value of i is', i)\n"
@@ -1185,6 +1301,7 @@ msgstr ""
 ">>> print('Der Wert von i ist', i)\n"
 "Der Wert von i ist 65536"
 
+#: ../../tutorial/introduction.rst:554
 msgid ""
 "The keyword argument *end* can be used to avoid the newline after the "
 "output, or end the output with a different string::"
@@ -1193,6 +1310,7 @@ msgstr ""
 "nach der Ausgabe zu verhindern oder die Ausgabe mit einer anderen "
 "Zeichenkette zu beenden::"
 
+#: ../../tutorial/introduction.rst:557
 msgid ""
 ">>> a, b = 0, 1\n"
 ">>> while a < 1000:\n"
@@ -1208,9 +1326,11 @@ msgstr ""
 "...\n"
 "0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,"
 
+#: ../../tutorial/introduction.rst:566
 msgid "Footnotes"
 msgstr "Fußnoten"
 
+#: ../../tutorial/introduction.rst:567
 msgid ""
 "Since ``**`` has higher precedence than ``-``, ``-3**2`` will be interpreted "
 "as ``-(3**2)`` and thus result in ``-9``.  To avoid this and get ``9``, you "
@@ -1220,6 +1340,7 @@ msgstr ""
 "(3**2)`` interpretiert und führt somit zu ``-9``. Um dies zu vermeiden und "
 "``9`` zu erhalten, kannst du ``(-3)**2`` verwenden."
 
+#: ../../tutorial/introduction.rst:571
 msgid ""
 "Unlike other languages, special characters such as ``\\n`` have the same "
 "meaning with both single (``'...'``) and double (``\"...\"``) quotes. The "
@@ -1232,8 +1353,10 @@ msgstr ""
 "einfacher Anführungszeichen ``\"`` nicht maskieren musst (dafür aber "
 "``\\'``) und umgekehrt."
 
+#: ../../tutorial/introduction.rst:20
 msgid "# (hash)"
 msgstr "Hash"
 
+#: ../../tutorial/introduction.rst:20
 msgid "comment"
 msgstr "Kommentar"

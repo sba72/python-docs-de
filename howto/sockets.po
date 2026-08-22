@@ -8,27 +8,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-08-22 12:07+0200\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../../howto/sockets.rst:5
 msgid "Socket Programming HOWTO"
 msgstr ""
 
-msgid "Author"
-msgstr ""
-
-msgid "Gordon McMillan"
-msgstr ""
-
+#: ../../howto/sockets.rst:-1
 msgid "Abstract"
 msgstr ""
 
+#: ../../howto/sockets.rst:9
 msgid ""
 "Sockets are used nearly everywhere, but are one of the most severely "
 "misunderstood technologies around. This is a 10,000 foot overview of "
@@ -38,9 +35,11 @@ msgid ""
 "them decently."
 msgstr ""
 
+#: ../../howto/sockets.rst:17
 msgid "Sockets"
 msgstr ""
 
+#: ../../howto/sockets.rst:19
 msgid ""
 "I'm only going to talk about INET (i.e. IPv4) sockets, but they account for "
 "at least 99% of the sockets in use. And I'll only talk about STREAM (i.e. "
@@ -52,6 +51,7 @@ msgid ""
 "need to know how they work before dealing with non-blocking sockets."
 msgstr ""
 
+#: ../../howto/sockets.rst:28
 msgid ""
 "Part of the trouble with understanding these things is that \"socket\" can "
 "mean a number of subtly different things, depending on context. So first, "
@@ -62,9 +62,11 @@ msgid ""
 "sockets and \"client\" sockets."
 msgstr ""
 
+#: ../../howto/sockets.rst:37
 msgid "History"
 msgstr ""
 
+#: ../../howto/sockets.rst:39
 msgid ""
 "Of the various forms of :abbr:`IPC (Inter Process Communication)`, sockets "
 "are by far the most popular.  On any given platform, there are likely to be "
@@ -72,6 +74,7 @@ msgid ""
 "sockets are about the only game in town."
 msgstr ""
 
+#: ../../howto/sockets.rst:44
 msgid ""
 "They were invented in Berkeley as part of the BSD flavor of Unix. They "
 "spread like wildfire with the internet. With good reason --- the combination "
@@ -79,14 +82,17 @@ msgid ""
 "unbelievably easy (at least compared to other schemes)."
 msgstr ""
 
+#: ../../howto/sockets.rst:51
 msgid "Creating a Socket"
 msgstr ""
 
+#: ../../howto/sockets.rst:53
 msgid ""
 "Roughly speaking, when you clicked on the link that brought you to this "
 "page, your browser did something like the following::"
 msgstr ""
 
+#: ../../howto/sockets.rst:56
 msgid ""
 "# create an INET, STREAMing socket\n"
 "s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n"
@@ -94,6 +100,7 @@ msgid ""
 "s.connect((\"www.python.org\", 80))"
 msgstr ""
 
+#: ../../howto/sockets.rst:61
 msgid ""
 "When the ``connect`` completes, the socket ``s`` can be used to send in a "
 "request for the text of the page. The same socket will read the reply, and "
@@ -101,11 +108,13 @@ msgid ""
 "used for one exchange (or a small set of sequential exchanges)."
 msgstr ""
 
+#: ../../howto/sockets.rst:67
 msgid ""
 "What happens in the web server is a bit more complex. First, the web server "
 "creates a \"server socket\"::"
 msgstr ""
 
+#: ../../howto/sockets.rst:70
 msgid ""
 "# create an INET, STREAMing socket\n"
 "serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n"
@@ -115,21 +124,24 @@ msgid ""
 "serversocket.listen(5)"
 msgstr ""
 
+#: ../../howto/sockets.rst:77
 msgid ""
 "A couple things to notice: we used ``socket.gethostname()`` so that the "
-"socket would be visible to the outside world.  If we had used ``s."
-"bind(('localhost', 80))`` or ``s.bind(('127.0.0.1', 80))`` we would still "
-"have a \"server\" socket, but one that was only visible within the same "
-"machine.  ``s.bind(('', 80))`` specifies that the socket is reachable by any "
-"address the machine happens to have."
+"socket would be visible to the outside world.  If we had used "
+"``s.bind(('localhost', 80))`` or ``s.bind(('127.0.0.1', 80))`` we would "
+"still have a \"server\" socket, but one that was only visible within the "
+"same machine.  ``s.bind(('', 80))`` specifies that the socket is reachable "
+"by any address the machine happens to have."
 msgstr ""
 
+#: ../../howto/sockets.rst:84
 msgid ""
 "A second thing to note: low number ports are usually reserved for \"well "
 "known\" services (HTTP, SNMP etc). If you're playing around, use a nice high "
 "number (4 digits)."
 msgstr ""
 
+#: ../../howto/sockets.rst:88
 msgid ""
 "Finally, the argument to ``listen`` tells the socket library that we want it "
 "to queue up as many as 5 connect requests (the normal max) before refusing "
@@ -137,11 +149,13 @@ msgid ""
 "should be plenty."
 msgstr ""
 
+#: ../../howto/sockets.rst:92
 msgid ""
 "Now that we have a \"server\" socket, listening on port 80, we can enter the "
 "mainloop of the web server::"
 msgstr ""
 
+#: ../../howto/sockets.rst:95
 msgid ""
 "while True:\n"
 "    # accept connections from outside\n"
@@ -152,6 +166,7 @@ msgid ""
 "    ct.start()"
 msgstr ""
 
+#: ../../howto/sockets.rst:103
 msgid ""
 "There's actually 3 general ways in which this loop could work - dispatching "
 "a thread to handle ``clientsocket``, create a new process to handle "
@@ -167,9 +182,11 @@ msgid ""
 "allocated port which will be recycled when the conversation ends."
 msgstr ""
 
+#: ../../howto/sockets.rst:118
 msgid "IPC"
 msgstr ""
 
+#: ../../howto/sockets.rst:120
 msgid ""
 "If you need fast IPC between two processes on one machine, you should look "
 "into pipes or shared memory.  If you do decide to use AF_INET sockets, bind "
@@ -178,14 +195,17 @@ msgid ""
 "faster."
 msgstr ""
 
+#: ../../howto/sockets.rst:126
 msgid ""
 "The :mod:`multiprocessing` integrates cross-platform IPC into a higher-level "
 "API."
 msgstr ""
 
+#: ../../howto/sockets.rst:131
 msgid "Using a Socket"
 msgstr ""
 
+#: ../../howto/sockets.rst:133
 msgid ""
 "The first thing to note, is that the web browser's \"client\" socket and the "
 "web server's \"client\" socket are identical beasts. That is, this is a "
@@ -196,6 +216,7 @@ msgid ""
 "rule of sockets."
 msgstr ""
 
+#: ../../howto/sockets.rst:140
 msgid ""
 "Now there are two sets of verbs to use for communication. You can use "
 "``send`` and ``recv``, or you can transform your client socket into a file-"
@@ -207,6 +228,7 @@ msgid ""
 "because the request may still be in your output buffer."
 msgstr ""
 
+#: ../../howto/sockets.rst:149
 msgid ""
 "Now we come to the major stumbling block of sockets - ``send`` and ``recv`` "
 "operate on the network buffers. They do not necessarily handle all the bytes "
@@ -217,6 +239,7 @@ msgid ""
 "again until your message has been completely dealt with."
 msgstr ""
 
+#: ../../howto/sockets.rst:157
 msgid ""
 "When a ``recv`` returns 0 bytes, it means the other side has closed (or is "
 "in the process of closing) the connection.  You will not receive any more "
@@ -224,12 +247,14 @@ msgid ""
 "I'll talk more about this later."
 msgstr ""
 
+#: ../../howto/sockets.rst:162
 msgid ""
 "A protocol like HTTP uses a socket for only one transfer. The client sends a "
 "request, then reads a reply.  That's it. The socket is discarded. This means "
 "that a client can detect the end of the reply by receiving 0 bytes."
 msgstr ""
 
+#: ../../howto/sockets.rst:166
 msgid ""
 "But if you plan to reuse your socket for further transfers, you need to "
 "realize that *there is no* :abbr:`EOT (End of Transfer)` *on a socket.* I "
@@ -243,11 +268,13 @@ msgid ""
 "choice is entirely yours, (but some ways are righter than others)."
 msgstr ""
 
+#: ../../howto/sockets.rst:177
 msgid ""
 "Assuming you don't want to end the connection, the simplest solution is a "
 "fixed length message::"
 msgstr ""
 
+#: ../../howto/sockets.rst:180
 msgid ""
 "class MySocket:\n"
 "    \"\"\"demonstration class only\n"
@@ -284,6 +311,7 @@ msgid ""
 "        return b''.join(chunks)"
 msgstr ""
 
+#: ../../howto/sockets.rst:214
 msgid ""
 "The sending code here is usable for almost any messaging scheme - in Python "
 "you send strings, and you can use ``len()`` to determine its length (even if "
@@ -292,6 +320,7 @@ msgid ""
 "``strlen`` if the message has embedded ``\\0``\\ s.)"
 msgstr ""
 
+#: ../../howto/sockets.rst:220
 msgid ""
 "The easiest enhancement is to make the first character of the message an "
 "indicator of message type, and have the type determine the length. Now you "
@@ -302,6 +331,7 @@ msgid ""
 "sizes), and scanning what you've received for a delimiter."
 msgstr ""
 
+#: ../../howto/sockets.rst:228
 msgid ""
 "One complication to be aware of: if your conversational protocol allows "
 "multiple messages to be sent back to back (without some kind of reply), and "
@@ -310,6 +340,7 @@ msgid ""
 "until it's needed."
 msgstr ""
 
+#: ../../howto/sockets.rst:234
 msgid ""
 "Prefixing the message with its length (say, as 5 numeric characters) gets "
 "more complex, because (believe it or not), you may not get all 5 characters "
@@ -321,15 +352,18 @@ msgid ""
 "read this, you will eventually get bit by it!"
 msgstr ""
 
+#: ../../howto/sockets.rst:243
 msgid ""
 "In the interests of space, building your character, (and preserving my "
 "competitive position), these enhancements are left as an exercise for the "
 "reader. Lets move on to cleaning up."
 msgstr ""
 
+#: ../../howto/sockets.rst:249
 msgid "Binary Data"
 msgstr ""
 
+#: ../../howto/sockets.rst:251
 msgid ""
 "It is perfectly possible to send binary data over a socket. The major "
 "problem is that not all machines use the same formats for binary data. For "
@@ -341,6 +375,7 @@ msgid ""
 "be ``01 00``."
 msgstr ""
 
+#: ../../howto/sockets.rst:259
 msgid ""
 "Socket libraries have calls for converting 16 and 32 bit integers - ``ntohl, "
 "htonl, ntohs, htons`` where \"n\" means *network* and \"h\" means *host*, "
@@ -349,6 +384,7 @@ msgid ""
 "the bytes around appropriately."
 msgstr ""
 
+#: ../../howto/sockets.rst:265
 msgid ""
 "In these days of 64-bit machines, the ASCII representation of binary data is "
 "frequently smaller than the binary representation. That's because a "
@@ -358,9 +394,11 @@ msgid ""
 "Decisions, decisions."
 msgstr ""
 
+#: ../../howto/sockets.rst:274
 msgid "Disconnecting"
 msgstr ""
 
+#: ../../howto/sockets.rst:276
 msgid ""
 "Strictly speaking, you're supposed to use ``shutdown`` on a socket before "
 "you ``close`` it.  The ``shutdown`` is an advisory to the socket at the "
@@ -372,6 +410,7 @@ msgid ""
 "``shutdown`` is not needed."
 msgstr ""
 
+#: ../../howto/sockets.rst:284
 msgid ""
 "One way to use ``shutdown`` effectively is in an HTTP-like exchange. The "
 "client sends a request and then does a ``shutdown(1)``. This tells the "
@@ -381,6 +420,7 @@ msgid ""
 "successfully then, indeed, the client was still receiving."
 msgstr ""
 
+#: ../../howto/sockets.rst:291
 msgid ""
 "Python takes the automatic shutdown a step further, and says that when a "
 "socket is garbage collected, it will automatically do a ``close`` if it's "
@@ -390,9 +430,11 @@ msgid ""
 "sockets when you're done."
 msgstr ""
 
+#: ../../howto/sockets.rst:299
 msgid "When Sockets Die"
 msgstr ""
 
+#: ../../howto/sockets.rst:301
 msgid ""
 "Probably the worst thing about using blocking sockets is what happens when "
 "the other side comes down hard (without doing a ``close``). Your socket is "
@@ -407,9 +449,11 @@ msgid ""
 "the thread, your whole process is likely to be screwed up."
 msgstr ""
 
+#: ../../howto/sockets.rst:315
 msgid "Non-blocking Sockets"
 msgstr ""
 
+#: ../../howto/sockets.rst:317
 msgid ""
 "If you've understood the preceding, you already know most of what you need "
 "to know about the mechanics of using sockets. You'll still use the same "
@@ -417,6 +461,7 @@ msgid ""
 "will be almost inside-out."
 msgstr ""
 
+#: ../../howto/sockets.rst:322
 msgid ""
 "In Python, you use ``socket.setblocking(False)`` to make it non-blocking. In "
 "C, it's more complex, (for one thing, you'll need to choose between the BSD "
@@ -426,6 +471,7 @@ msgid ""
 "it. (Actually, if you're nuts, you can switch back and forth.)"
 msgstr ""
 
+#: ../../howto/sockets.rst:329
 msgid ""
 "The major mechanical difference is that ``send``, ``recv``, ``connect`` and "
 "``accept`` can return without having done anything. You have (of course) a "
@@ -435,15 +481,18 @@ msgid ""
 "and do it right."
 msgstr ""
 
+#: ../../howto/sockets.rst:336
 msgid "Use ``select``."
 msgstr ""
 
+#: ../../howto/sockets.rst:338
 msgid ""
 "In C, coding ``select`` is fairly complex. In Python, it's a piece of cake, "
 "but it's close enough to the C version that if you understand ``select`` in "
 "Python, you'll have little trouble with it in C::"
 msgstr ""
 
+#: ../../howto/sockets.rst:342
 msgid ""
 "ready_to_read, ready_to_write, in_error = \\\n"
 "               select.select(\n"
@@ -453,6 +502,7 @@ msgid ""
 "                  timeout)"
 msgstr ""
 
+#: ../../howto/sockets.rst:349
 msgid ""
 "You pass ``select`` three lists: the first contains all sockets that you "
 "might want to try reading; the second all the sockets you might want to try "
@@ -463,12 +513,14 @@ msgid ""
 "minute) unless you have good reason to do otherwise."
 msgstr ""
 
+#: ../../howto/sockets.rst:357
 msgid ""
 "In return, you will get three lists. They contain the sockets that are "
 "actually readable, writable and in error. Each of these lists is a subset "
 "(possibly empty) of the corresponding list you passed in."
 msgstr ""
 
+#: ../../howto/sockets.rst:361
 msgid ""
 "If a socket is in the output readable list, you can be as-close-to-certain-"
 "as-we-ever-get-in-this-business that a ``recv`` on that socket will return "
@@ -478,6 +530,7 @@ msgid ""
 "it just means outbound network buffer space is available.)"
 msgstr ""
 
+#: ../../howto/sockets.rst:368
 msgid ""
 "If you have a \"server\" socket, put it in the potential_readers list. If it "
 "comes out in the readable list, your ``accept`` will (almost certainly) "
@@ -486,6 +539,7 @@ msgid ""
 "have a decent chance that it has connected."
 msgstr ""
 
+#: ../../howto/sockets.rst:374
 msgid ""
 "Actually, ``select`` can be handy even with blocking sockets. It's one way "
 "of determining whether you will block - the socket returns as readable when "
@@ -494,6 +548,7 @@ msgid ""
 "something else."
 msgstr ""
 
+#: ../../howto/sockets.rst:379
 msgid ""
 "**Portability alert**: On Unix, ``select`` works both with the sockets and "
 "files. Don't try this on Windows. On Windows, ``select`` works with sockets "

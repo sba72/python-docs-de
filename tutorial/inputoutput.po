@@ -8,19 +8,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-08-22 12:07+0200\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: Swen Bachmann <142266608+sba72@users.noreply.github.com>\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../../tutorial/inputoutput.rst:5
 msgid "Input and Output"
 msgstr "Eingabe und Ausgabe"
 
+#: ../../tutorial/inputoutput.rst:7
 msgid ""
 "There are several ways to present the output of a program; data can be "
 "printed in a human-readable form, or written to a file for future use. This "
@@ -31,15 +33,17 @@ msgstr ""
 "oder zur späteren Verwendung in eine Datei geschrieben werden. In diesem "
 "Kapitel werden einige dieser Möglichkeiten behandelt."
 
+#: ../../tutorial/inputoutput.rst:15
 msgid "Fancier Output Formatting"
 msgstr "Erweiterte Formatierungsmöglichkeiten für die Ausgabe"
 
+#: ../../tutorial/inputoutput.rst:17
 msgid ""
 "So far we've encountered two ways of writing values: *expression statements* "
-"and the :func:`print` function.  (A third way is using the :meth:`~io."
-"TextIOBase.write` method of file objects; the standard output file can be "
-"referenced as ``sys.stdout``. See the Library Reference for more information "
-"on this.)"
+"and the :func:`print` function.  (A third way is using "
+"the :meth:`~io.TextIOBase.write` method of file objects; the standard output "
+"file can be referenced as ``sys.stdout``. See the Library Reference for more "
+"information on this.)"
 msgstr ""
 "Bisher haben wir zwei Möglichkeiten kennengelernt, Werte zu schreiben: "
 "*Ausdrucksanweisungen* und die Funktion :func:`print`.  (Eine dritte "
@@ -48,6 +52,7 @@ msgstr ""
 "verwiesen werden. Weitere Informationen hierzu findest du in der "
 "Bibliotheksreferenz.)"
 
+#: ../../tutorial/inputoutput.rst:22
 msgid ""
 "Often you'll want more control over the formatting of your output than "
 "simply printing space-separated values. There are several ways to format "
@@ -57,6 +62,7 @@ msgstr ""
 "haben, als nur durch Leerzeichen getrennte Werte auszugeben. Es gibt "
 "verschiedene Möglichkeiten, die Ausgabe zu formatieren."
 
+#: ../../tutorial/inputoutput.rst:25
 msgid ""
 "To use :ref:`formatted string literals <tut-f-strings>`, begin a string with "
 "``f`` or ``F`` before the opening quotation mark or triple quotation mark. "
@@ -69,6 +75,7 @@ msgstr ""
 "Zeichenfolge kannst du einen Python-Ausdruck zwischen den Zeichen ``{`` und "
 "``}`` schreiben, der sich auf Variablen oder Literalwerte beziehen kann."
 
+#: ../../tutorial/inputoutput.rst:32
 msgid ""
 ">>> year = 2016\n"
 ">>> event = 'Referendum'\n"
@@ -80,6 +87,7 @@ msgstr ""
 ">>> f'Ergebnisse des {year} {event} '\n"
 "'Ergebnisse des Referendums von 2016'"
 
+#: ../../tutorial/inputoutput.rst:37
 msgid ""
 "The :meth:`str.format` method of strings requires more manual effort.  "
 "You'll still use ``{`` and ``}`` to mark where a variable will be "
@@ -94,6 +102,7 @@ msgstr ""
 "formatierenden Informationen bereitstellen. Im folgenden Codeblock findest "
 "du zwei Beispiele für die Formatierung von Variablen:"
 
+#: ../../tutorial/inputoutput.rst:46
 msgid ""
 ">>> yes_votes = 42_572_654\n"
 ">>> total_votes = 85_705_149\n"
@@ -107,18 +116,20 @@ msgstr ""
 ">>> '{:-9} Ja-Stimmen  {:2,2 %}'.format(Ja-Stimmen, prozent)\n"
 "' 42.572.654 Ja-Stimmen  49,67 %'"
 
+#: ../../tutorial/inputoutput.rst:52
 msgid ""
 "Notice how the ``yes_votes`` are padded with spaces and a negative sign only "
 "for negative numbers. The example also prints ``percentage`` multiplied by "
-"100, with 2 decimal places and followed by a percent sign (see :ref:"
-"`formatspec` for details)."
+"100, with 2 decimal places and followed by a percent sign "
+"(see :ref:`formatspec` for details)."
 msgstr ""
 "Beachte, dass die  ``yes_votes`` nur bei negativen Zahlen mit Leerzeichen "
 "und einem Minuszeichen aufgefüllt werden. Das Beispiel gibt außerdem  "
 "``percentage`` multipliziert mit 100 aus, mit zwei Dezimalstellen und einem "
-"Prozentzeichen am Ende (weitere Informationen findest du unter :ref:"
-"`formatspec` )."
+"Prozentzeichen am Ende (weitere Informationen findest du "
+"unter :ref:`formatspec` )."
 
+#: ../../tutorial/inputoutput.rst:57
 msgid ""
 "Finally, you can do all the string handling yourself by using string slicing "
 "and concatenation operations to create any layout you can imagine.  The "
@@ -131,6 +142,7 @@ msgstr ""
 "\"Zeichenfolge\" verfügt über einige Methoden, mit denen sich Zeichenfolgen "
 "auf eine bestimmte Spaltenbreite auffüllen lassen."
 
+#: ../../tutorial/inputoutput.rst:62
 msgid ""
 "When you don't need fancy output but just want a quick display of some "
 "variables for debugging purposes, you can convert any value to a string with "
@@ -141,29 +153,32 @@ msgstr ""
 "Wert mit den Funktionen  :func:`repr` oder :func:`str` in eine Zeichenkette "
 "umwandeln."
 
+#: ../../tutorial/inputoutput.rst:66
 msgid ""
 "The :func:`str` function is meant to return representations of values which "
 "are fairly human-readable, while :func:`repr` is meant to generate "
-"representations which can be read by the interpreter (or will force a :exc:"
-"`SyntaxError` if there is no equivalent syntax).  For objects which don't "
-"have a particular representation for human consumption, :func:`str` will "
-"return the same value as :func:`repr`.  Many values, such as numbers or "
+"representations which can be read by the interpreter (or will force "
+"a :exc:`SyntaxError` if there is no equivalent syntax).  For objects which "
+"don't have a particular representation for human consumption, :func:`str` "
+"will return the same value as :func:`repr`.  Many values, such as numbers or "
 "structures like lists and dictionaries, have the same representation using "
 "either function.  Strings, in particular, have two distinct representations."
 msgstr ""
 "Die Funktion  :func:`str` soll Darstellungen von Werten zurückgeben, die für "
 "Menschen gut lesbar sind, während  :func:`repr` dazu dient, Darstellungen zu "
-"generieren, die vom Interpreter gelesen werden können (oder einen :exc:"
-"`SyntaxError` auslösen, falls keine entsprechende Syntax vorhanden ist).  "
-"Bei Objekten, für die es keine spezielle Darstellung für Menschen gibt, "
-"gibt :func:`str` denselben Wert zurück wie :func:`repr`. Viele Werte, wie "
-"beispielsweise Zahlen oder Strukturen wie Listen und Wörterbücher, werden "
-"von beiden Funktionen auf dieselbe Weise dargestellt. Insbesondere "
-"Zeichenketten haben zwei unterschiedliche Darstellungen."
+"generieren, die vom Interpreter gelesen werden können (oder "
+"einen :exc:`SyntaxError` auslösen, falls keine entsprechende Syntax "
+"vorhanden ist).  Bei Objekten, für die es keine spezielle Darstellung für "
+"Menschen gibt, gibt :func:`str` denselben Wert zurück wie :func:`repr`. "
+"Viele Werte, wie beispielsweise Zahlen oder Strukturen wie Listen und "
+"Wörterbücher, werden von beiden Funktionen auf dieselbe Weise dargestellt. "
+"Insbesondere Zeichenketten haben zwei unterschiedliche Darstellungen."
 
+#: ../../tutorial/inputoutput.rst:75
 msgid "Some examples::"
 msgstr "Einige Beispiele:"
 
+#: ../../tutorial/inputoutput.rst:77
 msgid ""
 ">>> s = 'Hello, world.'\n"
 ">>> str(s)\n"
@@ -208,6 +223,7 @@ msgstr ""
 ">>> repr((x, y, ('spam', 'eggs')))\n"
 "\"(32.5, 40000, ('spam', 'eggs'))\""
 
+#: ../../tutorial/inputoutput.rst:98
 msgid ""
 "The :mod:`string` module contains support for a simple templating approach "
 "based upon regular expressions, via :class:`string.Template`. This offers "
@@ -222,9 +238,11 @@ msgstr ""
 "ersetzt werden. Diese Syntax ist einfach zu verwenden, bietet jedoch "
 "deutlich weniger Kontrolle über die Formatierung."
 
+#: ../../tutorial/inputoutput.rst:115
 msgid "Formatted String Literals"
 msgstr "Formatierte Zeichenfolgenliterale"
 
+#: ../../tutorial/inputoutput.rst:117
 msgid ""
 ":ref:`Formatted string literals <f-strings>` (also called f-strings for "
 "short) let you include the value of Python expressions inside a string by "
@@ -236,6 +254,7 @@ msgstr ""
 "einfügen, indem du dem String die Präfixe ``f`` oder ``F`` voranstellen und "
 "Ausdrücke in der Form ``{expression}`` schreibst."
 
+#: ../../tutorial/inputoutput.rst:122
 msgid ""
 "An optional format specifier can follow the expression. This allows greater "
 "control over how the value is formatted. The following example rounds pi to "
@@ -245,6 +264,7 @@ msgstr ""
 "eine genauere Steuerung der Formatierung des Werts. Im folgenden Beispiel "
 "wird Pi auf drei Stellen nach dem Komma gerundet::"
 
+#: ../../tutorial/inputoutput.rst:126
 msgid ""
 ">>> import math\n"
 ">>> print(f'The value of pi is approximately {math.pi:.3f}.')\n"
@@ -254,6 +274,7 @@ msgstr ""
 ">>> print(f'Der Wert von Pi beträgt ungefähr {math.pi:.3f}.')\n"
 "Der Wert von Pi beträgt ungefähr 3,142."
 
+#: ../../tutorial/inputoutput.rst:130
 msgid ""
 "Passing an integer after the ``':'`` will cause that field to be a minimum "
 "number of characters wide.  This is useful for making columns line up. ::"
@@ -262,6 +283,7 @@ msgstr ""
 "dieses Feldes auf die angegebene Mindestanzahl an Zeichen festgelegt. Dies "
 "ist nützlich, um Spalten auszurichten. ::"
 
+#: ../../tutorial/inputoutput.rst:133
 msgid ""
 ">>> table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 7678}\n"
 ">>> for name, phone in table.items():\n"
@@ -279,6 +301,7 @@ msgstr ""
 "Jack       ==>       4098\n"
 "Dcab       ==>       7678"
 
+#: ../../tutorial/inputoutput.rst:141
 msgid ""
 "Other modifiers can be used to convert the value before it is formatted. ``'!"
 "a'`` applies :func:`ascii`, ``'!s'`` applies :func:`str`, and ``'!r'`` "
@@ -288,6 +311,7 @@ msgstr ""
 "Formatierung umzuwandeln.  ``'!a'`` wendet :func:`ascii` an,  ``'!s'`` "
 "wendet :func:`str` an und ``'!r'`` wendet :func:`repr` an ::"
 
+#: ../../tutorial/inputoutput.rst:145
 msgid ""
 ">>> animals = 'eels'\n"
 ">>> print(f'My hovercraft is full of {animals}.')\n"
@@ -301,6 +325,7 @@ msgstr ""
 ">>> print(f'Mein Luftkissenfahrzeug ist voll mit {animals!r}.')\n"
 "Mein Luftkissenfahrzeug ist voll mit 'Aalen'."
 
+#: ../../tutorial/inputoutput.rst:151
 msgid ""
 "The ``=`` specifier can be used to expand an expression to the text of the "
 "expression, an equal sign, then the representation of the evaluated "
@@ -310,23 +335,28 @@ msgstr ""
 "zunächst den Text des Ausdrucks, dann ein Gleichheitszeichen und "
 "anschließend die Darstellung des ausgewerteten Ausdrucks enthält:"
 
+#: ../../tutorial/inputoutput.rst:160
 msgid ""
 "See :ref:`self-documenting expressions <bpo-36817-whatsnew>` for more "
 "information on the ``=`` specifier. For a reference on these format "
 "specifications, see the reference guide for the :ref:`formatspec`."
 msgstr ""
-"Weitere Informationen zum Spezifizierer  ``=`` findest du unter :ref:"
-"`selbstdokumentierende Ausdrücke <bpo-36817-whatsnew>`. Eine Übersicht über "
-"diese Formatvorgaben findest du im Referenzhandbuch unter :ref:`formatspec`."
+"Weitere Informationen zum Spezifizierer  ``=`` findest du "
+"unter :ref:`selbstdokumentierende Ausdrücke <bpo-36817-whatsnew>`. Eine "
+"Übersicht über diese Formatvorgaben findest du im Referenzhandbuch "
+"unter :ref:`formatspec`."
 
+#: ../../tutorial/inputoutput.rst:167
 msgid "The String format() Method"
 msgstr "Die String-Methode format()"
 
+#: ../../tutorial/inputoutput.rst:169
 msgid "Basic usage of the :meth:`str.format` method looks like this::"
 msgstr ""
 "Die grundlegende Verwendung der Methode  :meth:`str.format` sieht wie folgt "
 "aus::"
 
+#: ../../tutorial/inputoutput.rst:171
 msgid ""
 ">>> print('We are the {} who say \"{}!\"'.format('knights', 'Ni'))\n"
 "We are the knights who say \"Ni!\""
@@ -334,11 +364,12 @@ msgstr ""
 ">>> print('Wir sind die {}, die \"{}!\" sagen'.format('Ritter', 'Ni'))\n"
 "Wir sind die Ritter, die \"Ni!\" sagen"
 
+#: ../../tutorial/inputoutput.rst:174
 msgid ""
 "The brackets and characters within them (called format fields) are replaced "
 "with the objects passed into the :meth:`str.format` method.  A number in the "
-"brackets can be used to refer to the position of the object passed into the :"
-"meth:`str.format` method. ::"
+"brackets can be used to refer to the position of the object passed into "
+"the :meth:`str.format` method. ::"
 msgstr ""
 "Die Klammern und die darin enthaltenen Zeichen (sogenannte Formatfelder) "
 "werden durch die an die Methode  :meth:`str.format` übergebenen Objekte "
@@ -346,6 +377,7 @@ msgstr ""
 "Position des an die Methode  :meth:`str.format` übergebenen Objekts zu "
 "verweisen. ::"
 
+#: ../../tutorial/inputoutput.rst:179
 msgid ""
 ">>> print('{0} and {1}'.format('spam', 'eggs'))\n"
 "spam and eggs\n"
@@ -357,6 +389,7 @@ msgstr ""
 ">>> print('{1} und {0}'.format('Spam', 'Eier'))\n"
 "Eier und Spam"
 
+#: ../../tutorial/inputoutput.rst:184
 msgid ""
 "If keyword arguments are used in the :meth:`str.format` method, their values "
 "are referred to by using the name of the argument. ::"
@@ -364,6 +397,7 @@ msgstr ""
 "Werden in der Methode  :meth:`str.format` Schlüsselwortargumente verwendet, "
 "wird auf deren Werte über den Namen des Arguments verwiesen. ::"
 
+#: ../../tutorial/inputoutput.rst:187
 msgid ""
 ">>> print('This {food} is {adjective}.'.format(\n"
 "...       food='spam', adjective='absolutely horrible'))\n"
@@ -373,10 +407,12 @@ msgstr ""
 "...       food='Spam', adjective='absolut schrecklich'))\n"
 "Dieser Spam ist absolut schrecklich."
 
+#: ../../tutorial/inputoutput.rst:191
 msgid "Positional and keyword arguments can be arbitrarily combined::"
 msgstr ""
 "Positions- und Schlüsselwortargumente können beliebig kombiniert werden::"
 
+#: ../../tutorial/inputoutput.rst:193
 msgid ""
 ">>> print('The story of {0}, {1}, and {other}.'.format('Bill', 'Manfred',\n"
 "...                                                    other='Georg'))\n"
@@ -387,6 +423,7 @@ msgstr ""
 "...                                                    other='Georg'))\n"
 "Die Geschichte von Bill, Manfred und Georg."
 
+#: ../../tutorial/inputoutput.rst:197
 msgid ""
 "If you have a really long format string that you don't want to split up, it "
 "would be nice if you could reference the variables to be formatted by name "
@@ -399,6 +436,7 @@ msgstr ""
 "Dies lässt sich erreichen, indem du einfach das Wörterbuch übergibst und "
 "eckige Klammern ``'[]'`` verwendest, um auf die Schlüssel zuzugreifen. ::"
 
+#: ../../tutorial/inputoutput.rst:202
 msgid ""
 ">>> table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}\n"
 ">>> print('Jack: {0[Jack]:d}; Sjoerd: {0[Sjoerd]:d}; '\n"
@@ -410,6 +448,7 @@ msgstr ""
 "...       'Dcab: {0[Dcab]:d}'.format(table))\n"
 "Jack: 4098; Sjoerd: 4127; Dcab: 8637678"
 
+#: ../../tutorial/inputoutput.rst:207
 msgid ""
 "This could also be done by passing the ``table`` dictionary as keyword "
 "arguments with the ``**`` notation. ::"
@@ -417,25 +456,29 @@ msgstr ""
 "Dies könnte auch erreicht werden, indem das Wörterbuch  ``table`` als "
 "Schlüsselwortargumente mit der Notation  ``**`` übergeben wird. ::"
 
+#: ../../tutorial/inputoutput.rst:210
 msgid ""
 ">>> table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}\n"
-">>> print('Jack: {Jack:d}; Sjoerd: {Sjoerd:d}; Dcab: {Dcab:d}'."
-"format(**table))\n"
+">>> print('Jack: {Jack:d}; Sjoerd: {Sjoerd:d}; Dcab: "
+"{Dcab:d}'.format(**table))\n"
 "Jack: 4098; Sjoerd: 4127; Dcab: 8637678"
 msgstr ""
 ">>> table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}\n"
-">>> print('Jack: {Jack:d}; Sjoerd: {Sjoerd:d}; Dcab: {Dcab:d}'."
-"format(**table))\n"
+">>> print('Jack: {Jack:d}; Sjoerd: {Sjoerd:d}; Dcab: "
+"{Dcab:d}'.format(**table))\n"
 "Jack: 4098; Sjoerd: 4127; Dcab: 8637678"
 
+#: ../../tutorial/inputoutput.rst:214
 msgid ""
-"This is particularly useful in combination with the built-in function :func:"
-"`vars`, which returns a dictionary containing all local variables::"
+"This is particularly useful in combination with the built-in "
+"function :func:`vars`, which returns a dictionary containing all local "
+"variables::"
 msgstr ""
-"Dies ist besonders nützlich in Kombination mit der integrierten Funktion:"
-"func:`vars`, die ein Wörterbuch zurückgibt, das alle lokalen Variablen "
-"enthält::"
+"Dies ist besonders nützlich in Kombination mit der integrierten "
+"Funktion:func:`vars`, die ein Wörterbuch zurückgibt, das alle lokalen "
+"Variablen enthält::"
 
+#: ../../tutorial/inputoutput.rst:217
 msgid ""
 ">>> table = {k: str(v) for k, v in vars().items()}\n"
 ">>> message = \" \".join([f'{k}: ' + '{' + k +'};' for k in table.keys()])\n"
@@ -447,6 +490,7 @@ msgstr ""
 ">>> print(message.format(**table))\n"
 "__name__: __main__; __doc__: None; __package__: None; __loader__: ..."
 
+#: ../../tutorial/inputoutput.rst:222
 msgid ""
 "As an example, the following lines produce a tidily aligned set of columns "
 "giving integers and their squares and cubes::"
@@ -455,6 +499,7 @@ msgstr ""
 "ausgerichtete Spaltenreihe, in der Ganzzahlen sowie deren Quadrate und "
 "Kubikzahlen aufgeführt sind::"
 
+#: ../../tutorial/inputoutput.rst:225
 msgid ""
 ">>> for x in range(1, 11):\n"
 "...     print('{0:2d} {1:3d} {2:4d}'.format(x, x*x, x*x*x))\n"
@@ -484,21 +529,25 @@ msgstr ""
 " 9  81  729\n"
 "10 100 1000"
 
+#: ../../tutorial/inputoutput.rst:239
 msgid ""
-"For a complete overview of string formatting with :meth:`str.format`, see :"
-"ref:`formatstrings`."
+"For a complete overview of string formatting with :meth:`str.format`, "
+"see :ref:`formatstrings`."
 msgstr ""
-"Einen vollständigen Überblick über die Zeichenfolgenformatierung mit :meth:"
-"`str.format` findest du unter :ref:`formatstrings`."
+"Einen vollständigen Überblick über die Zeichenfolgenformatierung "
+"mit :meth:`str.format` findest du unter :ref:`formatstrings`."
 
+#: ../../tutorial/inputoutput.rst:244
 msgid "Manual String Formatting"
 msgstr "Manuelle Formatierung von Zeichenfolgen"
 
+#: ../../tutorial/inputoutput.rst:246
 msgid "Here's the same table of squares and cubes, formatted manually::"
 msgstr ""
 "Hier ist dieselbe Tabelle mit Quadraten und Würfeln, die manuell formatiert "
 "wurde::"
 
+#: ../../tutorial/inputoutput.rst:248
 msgid ""
 ">>> for x in range(1, 11):\n"
 "...     print(repr(x).rjust(2), repr(x*x).rjust(3), end=' ')\n"
@@ -532,14 +581,16 @@ msgstr ""
 " 9  81  729\n"
 "10 100 1000"
 
+#: ../../tutorial/inputoutput.rst:264
 msgid ""
-"(Note that the one space between each column was added by the way :func:"
-"`print` works: it always adds spaces between its arguments.)"
+"(Note that the one space between each column was added by the "
+"way :func:`print` works: it always adds spaces between its arguments.)"
 msgstr ""
 "(Beachte, dass das einzelne Leerzeichen zwischen den einzelnen Spalten durch "
 "die Funktionsweise von  :func:`print` hinzugefügt wurde: Diese Funktion fügt "
 "immer Leerzeichen zwischen ihren Argumenten ein.)"
 
+#: ../../tutorial/inputoutput.rst:267
 msgid ""
 "The :meth:`str.rjust` method of string objects right-justifies a string in a "
 "field of a given width by padding it with spaces on the left. There are "
@@ -552,15 +603,16 @@ msgid ""
 msgstr ""
 "Die Methode  :meth:`str.rjust` von String-Objekten richtet eine Zeichenkette "
 "in einem Feld mit einer bestimmten Breite rechtsbündig aus, indem sie links "
-"mit Leerzeichen aufgefüllt wird. Es gibt ähnliche Methoden:  :meth:`str."
-"ljust` und :meth:`str.center`. Diese Methoden schreiben nichts, sondern "
-"geben lediglich eine neue Zeichenkette zurück. Ist die Eingabezeichenkette "
-"zu lang, wird sie nicht gekürzt, sondern unverändert zurückgegeben; dies "
-"bringt zwar das Spaltenlayout durcheinander, ist aber in der Regel besser "
-"als die Alternative, bei der ein Wert falsch dargestellt würde. (Wenn du "
-"wirklich eine Kürzung wünschst, kannst du jederzeit eine Slice-Operation "
-"hinzufügen, wie in ``x.ljust(n)[:n]`` beschrieben.)"
+"mit Leerzeichen aufgefüllt wird. Es gibt ähnliche "
+"Methoden:  :meth:`str.ljust` und :meth:`str.center`. Diese Methoden "
+"schreiben nichts, sondern geben lediglich eine neue Zeichenkette zurück. Ist "
+"die Eingabezeichenkette zu lang, wird sie nicht gekürzt, sondern unverändert "
+"zurückgegeben; dies bringt zwar das Spaltenlayout durcheinander, ist aber in "
+"der Regel besser als die Alternative, bei der ein Wert falsch dargestellt "
+"würde. (Wenn du wirklich eine Kürzung wünschst, kannst du jederzeit eine "
+"Slice-Operation hinzufügen, wie in ``x.ljust(n)[:n]`` beschrieben.)"
 
+#: ../../tutorial/inputoutput.rst:276
 msgid ""
 "There is another method, :meth:`str.zfill`, which pads a numeric string on "
 "the left with zeros.  It understands about plus and minus signs::"
@@ -568,6 +620,7 @@ msgstr ""
 "Es gibt noch eine weitere Methode, :meth:`str.zfill`, die eine numerische "
 "Zeichenkette links mit Nullen auffüllt. Sie erkennt Plus- und Minuszeichen::"
 
+#: ../../tutorial/inputoutput.rst:279
 msgid ""
 ">>> '12'.zfill(5)\n"
 "'00012'\n"
@@ -583,9 +636,11 @@ msgstr ""
 ">>> '3,14159265359'.zfill(5)\n"
 "'3,14159265359'"
 
+#: ../../tutorial/inputoutput.rst:288
 msgid "Old string formatting"
 msgstr "Alte Zeichenfolgenformatierung"
 
+#: ../../tutorial/inputoutput.rst:290
 msgid ""
 "The % operator (modulo) can also be used for string formatting. Given "
 "``format % values`` (where *format* is a string), ``%`` conversion "
@@ -599,6 +654,7 @@ msgstr ""
 "*format* durch null oder mehr Elemente aus *values* ersetzt. Dieser Vorgang "
 "wird allgemein als Zeichenketteninterpolation bezeichnet. Zum Beispiel::"
 
+#: ../../tutorial/inputoutput.rst:297
 msgid ""
 ">>> import math\n"
 ">>> print('The value of pi is approximately %5.3f.' % math.pi)\n"
@@ -608,14 +664,17 @@ msgstr ""
 ">>> print('Der Wert von Pi beträgt ungefähr %5.3f.' % math.pi)\n"
 "Der Wert von Pi beträgt ungefähr 3,142."
 
+#: ../../tutorial/inputoutput.rst:301
 msgid ""
 "More information can be found in the :ref:`old-string-formatting` section."
 msgstr ""
 "Weitere Informationen findest du im Abschnitt  :ref:`old-string-formatting`."
 
+#: ../../tutorial/inputoutput.rst:307
 msgid "Reading and Writing Files"
 msgstr "Dateien lesen und schreiben"
 
+#: ../../tutorial/inputoutput.rst:313
 msgid ""
 ":func:`open` returns a :term:`file object`, and is most commonly used with "
 "two positional arguments and one keyword argument: ``open(filename, mode, "
@@ -625,9 +684,11 @@ msgstr ""
 "Positionsargumenten und einem Schlüsselwortargument verwendet: "
 "``open(filename, mode, encoding=None)``"
 
+#: ../../tutorial/inputoutput.rst:319
 msgid ">>> f = open('workfile', 'w', encoding=\"utf-8\")"
 msgstr ">>> f = open('workfile', 'w', encoding=\"utf-8\")"
 
+#: ../../tutorial/inputoutput.rst:326
 msgid ""
 "The first argument is a string containing the filename.  The second argument "
 "is another string containing a few characters describing the way in which "
@@ -648,15 +709,17 @@ msgstr ""
 "Lesen als auch zum Schreiben. Das Argument *mode* ist optional; wird es "
 "weggelassen, wird ``'r'`` angenommen."
 
+#: ../../tutorial/inputoutput.rst:335
 msgid ""
 "Normally, files are opened in :dfn:`text mode`, that means, you read and "
 "write strings from and to the file, which are encoded in a specific "
 "*encoding*. If *encoding* is not specified, the default is platform "
 "dependent (see :func:`open`). Because UTF-8 is the modern de-facto standard, "
 "``encoding=\"utf-8\"`` is recommended unless you know that you need to use a "
-"different encoding. Appending a ``'b'`` to the mode opens the file in :dfn:"
-"`binary mode`. Binary mode data is read and written as :class:`bytes` "
-"objects. You can not specify *encoding* when opening file in binary mode."
+"different encoding. Appending a ``'b'`` to the mode opens the file "
+"in :dfn:`binary mode`. Binary mode data is read and written "
+"as :class:`bytes` objects. You can not specify *encoding* when opening file "
+"in binary mode."
 msgstr ""
 "Normalerweise werden Dateien im :dfn:`Textmodus` geöffnet, das heißt, du "
 "liest Zeichenketten aus der Datei aus und schreibst Zeichenketten in die "
@@ -669,38 +732,41 @@ msgstr ""
 "als :class:`bytes` -Objekte gelesen und geschrieben. Beim Öffnen einer Datei "
 "im Binärmodus kannst du keine *Kodierung* angeben."
 
+#: ../../tutorial/inputoutput.rst:345
 msgid ""
 "In text mode, the default when reading is to convert platform-specific line "
 "endings (``\\n`` on Unix, ``\\r\\n`` on Windows) to just ``\\n``.  When "
 "writing in text mode, the default is to convert occurrences of ``\\n`` back "
 "to platform-specific line endings.  This behind-the-scenes modification to "
-"file data is fine for text files, but will corrupt binary data like that in :"
-"file:`JPEG` or :file:`EXE` files.  Be very careful to use binary mode when "
-"reading and writing such files."
+"file data is fine for text files, but will corrupt binary data like that "
+"in :file:`JPEG` or :file:`EXE` files.  Be very careful to use binary mode "
+"when reading and writing such files."
 msgstr ""
 "Im Textmodus werden beim Lesen standardmäßig plattformspezifische "
 "Zeilenenden (``\\n`` unter Unix, ``\\r\\n`` unter Windows) in ``\\n`` "
 "umgewandelt. Beim Schreiben im Textmodus werden ``\\n`` standardmäßig wieder "
 "in plattformspezifische Zeilenenden umgewandelt.  Diese im Hintergrund "
 "vorgenommene Änderung der Dateidaten ist für Textdateien unbedenklich, führt "
-"jedoch bei Binärdateien wie den in den Formaten  :file:`JPEG` oder :file:"
-"`EXE` zu Datenverlusten.  Achte daher unbedingt darauf, beim Lesen und "
-"Schreiben solcher Dateien den Binärmodus zu verwenden."
+"jedoch bei Binärdateien wie den in den Formaten  :file:`JPEG` "
+"oder :file:`EXE` zu Datenverlusten.  Achte daher unbedingt darauf, beim "
+"Lesen und Schreiben solcher Dateien den Binärmodus zu verwenden."
 
+#: ../../tutorial/inputoutput.rst:353
 msgid ""
 "It is good practice to use the :keyword:`with` keyword when dealing with "
 "file objects.  The advantage is that the file is properly closed after its "
-"suite finishes, even if an exception is raised at some point.  Using :"
-"keyword:`!with` is also much shorter than writing equivalent :keyword:"
-"`try`\\ -\\ :keyword:`finally` blocks::"
+"suite finishes, even if an exception is raised at some point.  "
+"Using :keyword:`!with` is also much shorter than writing "
+"equivalent :keyword:`try`\\ -\\ :keyword:`finally` blocks::"
 msgstr ""
-"Es hat sich bewährt, beim Umgang mit Datei-Objekten das Schlüsselwort  :"
-"keyword:`with` zu verwenden. Der Vorteil besteht darin, dass die Datei nach "
-"Abschluss der Suite ordnungsgemäß geschlossen wird, selbst wenn an "
-"irgendeiner Stelle eine Ausnahme ausgelöst wird. Die Verwendung von :keyword:"
-"`!with` ist zudem wesentlich kürzer als das Schreiben der entsprechenden :"
-"keyword:`try`\\ -\\ :keyword:`finally`-Blöcke::"
+"Es hat sich bewährt, beim Umgang mit Datei-Objekten das "
+"Schlüsselwort  :keyword:`with` zu verwenden. Der Vorteil besteht darin, dass "
+"die Datei nach Abschluss der Suite ordnungsgemäß geschlossen wird, selbst "
+"wenn an irgendeiner Stelle eine Ausnahme ausgelöst wird. Die Verwendung "
+"von :keyword:`!with` ist zudem wesentlich kürzer als das Schreiben der "
+"entsprechenden :keyword:`try`\\ -\\ :keyword:`finally`-Blöcke::"
 
+#: ../../tutorial/inputoutput.rst:359
 msgid ""
 ">>> with open('workfile', encoding=\"utf-8\") as f:\n"
 "...     read_data = f.read()\n"
@@ -716,15 +782,17 @@ msgstr ""
 ">>> f.closed\n"
 "True"
 
+#: ../../tutorial/inputoutput.rst:366
 msgid ""
-"If you're not using the :keyword:`with` keyword, then you should call ``f."
-"close()`` to close the file and immediately free up any system resources "
+"If you're not using the :keyword:`with` keyword, then you should call "
+"``f.close()`` to close the file and immediately free up any system resources "
 "used by it."
 msgstr ""
 "Wenn du das Schlüsselwort  :keyword:`with` nicht verwendest, solltest du die "
 "Funktion ``f.close()`` aufrufen, um die Datei zu schließen und die von ihr "
 "belegten Systemressourcen sofort freizugeben."
 
+#: ../../tutorial/inputoutput.rst:371
 msgid ""
 "Calling ``f.write()`` without using the :keyword:`!with` keyword or calling "
 "``f.close()`` **might** result in the arguments of ``f.write()`` not being "
@@ -735,15 +803,17 @@ msgstr ""
 "``f.write()`` nicht vollständig auf die Festplatte geschrieben werden, "
 "selbst wenn das Programm erfolgreich beendet wird."
 
+#: ../../tutorial/inputoutput.rst:379
 msgid ""
 "After a file object is closed, either by a :keyword:`with` statement or by "
 "calling ``f.close()``, attempts to use the file object will automatically "
 "fail. ::"
 msgstr ""
-"Nachdem ein Dateiobjekt geschlossen wurde – entweder durch eine :keyword:"
-"`with`-Anweisung oder durch den Aufruf von ``f.close()``– schlagen alle "
-"Versuche, das Dateiobjekt zu verwenden, automatisch fehl. ::"
+"Nachdem ein Dateiobjekt geschlossen wurde – entweder durch "
+"eine :keyword:`with`-Anweisung oder durch den Aufruf von ``f.close()``– "
+"schlagen alle Versuche, das Dateiobjekt zu verwenden, automatisch fehl. ::"
 
+#: ../../tutorial/inputoutput.rst:383
 msgid ""
 ">>> f.close()\n"
 ">>> f.read()\n"
@@ -757,9 +827,11 @@ msgstr ""
 "  Datei \"<stdin>\", Zeile 1, in <module>\n"
 "ValueError: E/A-Vorgang an einer geschlossenen Datei."
 
+#: ../../tutorial/inputoutput.rst:393
 msgid "Methods of File Objects"
 msgstr "Methoden von Datei-Objekten"
 
+#: ../../tutorial/inputoutput.rst:395
 msgid ""
 "The rest of the examples in this section will assume that a file object "
 "called ``f`` has already been created."
@@ -767,6 +839,7 @@ msgstr ""
 "In den übrigen Beispielen dieses Abschnitts wird davon ausgegangen, dass "
 "bereits ein Dateiobjekt namens  ``f`` angelegt wurde."
 
+#: ../../tutorial/inputoutput.rst:398
 msgid ""
 "To read a file's contents, call ``f.read(size)``, which reads some quantity "
 "of data and returns it as a string (in text mode) or bytes object (in binary "
@@ -788,6 +861,7 @@ msgstr ""
 "Datei erreicht wurde, gibt``f.read()`` eine leere Zeichenkette zurück "
 "(``''``).  ::"
 
+#: ../../tutorial/inputoutput.rst:407
 msgid ""
 ">>> f.read()\n"
 "'This is the entire file.\\n'\n"
@@ -799,6 +873,7 @@ msgstr ""
 ">>> f.read()\n"
 "''"
 
+#: ../../tutorial/inputoutput.rst:412
 msgid ""
 "``f.readline()`` reads a single line from the file; a newline character "
 "(``\\n``) is left at the end of the string, and is only omitted on the last "
@@ -810,11 +885,12 @@ msgstr ""
 "``f.readline()`` Liest eine einzelne Zeile aus der Datei; am Ende der "
 "Zeichenkette wird ein Zeilenumbruchzeichen (``\\n``) belassen, das nur in "
 "der letzten Zeile der Datei weggelassen wird, wenn die Datei nicht mit einem "
-"Zeilenumbruch endet.  Dadurch ist der Rückgabewert eindeutig: Wenn  ``f."
-"readline()`` eine leere Zeichenkette zurückgibt, ist das Ende der Datei "
+"Zeilenumbruch endet.  Dadurch ist der Rückgabewert eindeutig: Wenn  "
+"``f.readline()`` eine leere Zeichenkette zurückgibt, ist das Ende der Datei "
 "erreicht, während eine Leerzeile durch  ``'\\n'`` dargestellt wird, eine "
 "Zeichenkette, die nur ein einziges Zeilenendezeichen enthält.  ::"
 
+#: ../../tutorial/inputoutput.rst:419
 msgid ""
 ">>> f.readline()\n"
 "'This is the first line of the file.\\n'\n"
@@ -830,6 +906,7 @@ msgstr ""
 ">>> f.readline()\n"
 "''"
 
+#: ../../tutorial/inputoutput.rst:426
 msgid ""
 "For reading lines from a file, you can loop over the file object. This is "
 "memory efficient, fast, and leads to simple code::"
@@ -838,6 +915,7 @@ msgstr ""
 "Schleife durchlaufen. Dies ist speichereffizient, schnell und führt zu "
 "einfachem Code::"
 
+#: ../../tutorial/inputoutput.rst:429
 msgid ""
 ">>> for line in f:\n"
 "...     print(line, end='')\n"
@@ -851,6 +929,7 @@ msgstr ""
 "Dies ist die erste Zeile der Datei.\n"
 "Zweite Zeile der Datei"
 
+#: ../../tutorial/inputoutput.rst:435
 msgid ""
 "If you want to read all the lines of a file in a list you can also use "
 "``list(f)`` or ``f.readlines()``."
@@ -858,6 +937,7 @@ msgstr ""
 "Wenn du alle Zeilen einer Datei in eine Liste einlesen möchtest, kannst du "
 "auch ``list(f)`` oder ``f.readlines()`` verwenden."
 
+#: ../../tutorial/inputoutput.rst:438
 msgid ""
 "``f.write(string)`` writes the contents of *string* to the file, returning "
 "the number of characters written. ::"
@@ -865,6 +945,7 @@ msgstr ""
 "``f.write(string)`` Schreibt den Inhalt von *string* in die Datei und gibt "
 "die Anzahl der geschriebenen Zeichen zurück. ::"
 
+#: ../../tutorial/inputoutput.rst:441
 msgid ""
 ">>> f.write('This is a test\\n')\n"
 "15"
@@ -872,6 +953,7 @@ msgstr ""
 ">>> f.write('Das ist ein Test\\n')\n"
 "15"
 
+#: ../../tutorial/inputoutput.rst:444
 msgid ""
 "Other types of objects need to be converted -- either to a string (in text "
 "mode) or a bytes object (in binary mode) -- before writing them::"
@@ -879,6 +961,7 @@ msgstr ""
 "Andere Objekttypen müssen vor dem Schreiben konvertiert werden – entweder in "
 "eine Zeichenkette (im Textmodus) oder in ein Byte-Objekt (im Binärmodus):"
 
+#: ../../tutorial/inputoutput.rst:447
 msgid ""
 ">>> value = ('the answer', 42)\n"
 ">>> s = str(value)  # convert the tuple to string\n"
@@ -890,6 +973,7 @@ msgstr ""
 ">>> f.write(s)\n"
 "18"
 
+#: ../../tutorial/inputoutput.rst:452
 msgid ""
 "``f.tell()`` returns an integer giving the file object's current position in "
 "the file represented as number of bytes from the beginning of the file when "
@@ -899,6 +983,7 @@ msgstr ""
 "Dateiobjekts in der Datei angibt – im Binärmodus als Anzahl der Bytes ab dem "
 "Dateianfang und im Textmodus als undurchsichtige Zahl."
 
+#: ../../tutorial/inputoutput.rst:456
 msgid ""
 "To change the file object's position, use ``f.seek(offset, whence)``.  The "
 "position is computed from adding *offset* to a reference point; the "
@@ -917,6 +1002,7 @@ msgstr ""
 "standardmäßig auf 0 gesetzt, wobei der Anfang der Datei als Bezugspunkt "
 "verwendet wird. ::"
 
+#: ../../tutorial/inputoutput.rst:463
 msgid ""
 ">>> f = open('workfile', 'rb+')\n"
 ">>> f.write(b'0123456789abcdef')\n"
@@ -942,6 +1028,7 @@ msgstr ""
 ">>> f.read(1)\n"
 "b'd'"
 
+#: ../../tutorial/inputoutput.rst:475
 msgid ""
 "In text files (those opened without a ``b`` in the mode string), only seeks "
 "relative to the beginning of the file are allowed (the exception being "
@@ -955,19 +1042,22 @@ msgstr ""
 "sind diejenigen, die von ``f.tell()`` zurückgegeben werden, oder Null. Jeder "
 "andere *offset*-Wert führt zu undefiniertem Verhalten."
 
+#: ../../tutorial/inputoutput.rst:481
 msgid ""
 "File objects have some additional methods, such as :meth:`~io.IOBase.isatty` "
 "and :meth:`~io.IOBase.truncate` which are less frequently used; consult the "
 "Library Reference for a complete guide to file objects."
 msgstr ""
-"Dateiobjekte verfügen über einige zusätzliche Methoden, wie beispielsweise  :"
-"meth:`~io.IOBase.isatty` und :meth:`~io.IOBase.truncate`, die jedoch "
-"seltener verwendet werden; eine vollständige Anleitung zu Dateiobjekten "
-"findest du in der Bibliotheksreferenz."
+"Dateiobjekte verfügen über einige zusätzliche Methoden, wie "
+"beispielsweise  :meth:`~io.IOBase.isatty` und :meth:`~io.IOBase.truncate`, "
+"die jedoch seltener verwendet werden; eine vollständige Anleitung zu "
+"Dateiobjekten findest du in der Bibliotheksreferenz."
 
+#: ../../tutorial/inputoutput.rst:489
 msgid "Saving structured data with :mod:`json`"
 msgstr "Strukturierte Daten speichern mit :mod:`json`"
 
+#: ../../tutorial/inputoutput.rst:493
 msgid ""
 "Strings can easily be written to and read from a file.  Numbers take a bit "
 "more effort, since the :meth:`~io.TextIOBase.read` method only returns "
@@ -977,18 +1067,19 @@ msgid ""
 "parsing and serializing by hand becomes complicated."
 msgstr ""
 "Zeichenketten lassen sich problemlos in eine Datei schreiben und aus einer "
-"Datei lesen.  Bei Zahlen ist der Aufwand etwas größer, da die Methode :meth:"
-"`~io.TextIOBase.read` nur Zeichenketten zurückgibt, die an eine Funktion "
-"wie :func:`int` übergeben werden müssen, die eine Zeichenkette wie ``'123'`` "
-"entgegennimmt und deren numerischen Wert 123 zurückgibt. Wenn du komplexere "
-"Datentypen wie verschachtelte Listen und Wörterbücher speichern möchtest, "
-"wird das manuelle Parsen und Serialisieren kompliziert."
+"Datei lesen.  Bei Zahlen ist der Aufwand etwas größer, da die "
+"Methode :meth:`~io.TextIOBase.read` nur Zeichenketten zurückgibt, die an "
+"eine Funktion wie :func:`int` übergeben werden müssen, die eine Zeichenkette "
+"wie ``'123'`` entgegennimmt und deren numerischen Wert 123 zurückgibt. Wenn "
+"du komplexere Datentypen wie verschachtelte Listen und Wörterbücher "
+"speichern möchtest, wird das manuelle Parsen und Serialisieren kompliziert."
 
+#: ../../tutorial/inputoutput.rst:500
 msgid ""
 "Rather than having users constantly writing and debugging code to save "
 "complicated data types to files, Python allows you to use the popular data "
-"interchange format called `JSON (JavaScript Object Notation) <https://json."
-"org>`_.  The standard module called :mod:`json` can take Python data "
+"interchange format called `JSON (JavaScript Object Notation) <https://"
+"json.org>`_.  The standard module called :mod:`json` can take Python data "
 "hierarchies, and convert them to string representations; this process is "
 "called :dfn:`serializing`.  Reconstructing the data from the string "
 "representation is called :dfn:`deserializing`.  Between serializing and "
@@ -1001,12 +1092,13 @@ msgstr ""
 "Object Notation) <https://json.org>`_.  Das Standardmodul namens :mod:`json` "
 "kann Python-Datenhierarchien übernehmen und in Zeichenfolgen-Darstellungen "
 "umwandeln; dieser Vorgang wird als :dfn:`Serialisierung` bezeichnet.  Das "
-"Rekonstruieren der Daten aus der Zeichenfolgenrepräsentation wird als :dfn:"
-"`Deserialisierung` bezeichnet. Zwischen der Serialisierung und der "
+"Rekonstruieren der Daten aus der Zeichenfolgenrepräsentation wird "
+"als :dfn:`Deserialisierung` bezeichnet. Zwischen der Serialisierung und der "
 "Deserialisierung kann die das Objekt repräsentierende Zeichenfolge in einer "
 "Datei oder einem Datenspeicher abgelegt oder über eine Netzwerkverbindung an "
 "einen entfernten Rechner gesendet worden sein."
 
+#: ../../tutorial/inputoutput.rst:511
 msgid ""
 "The JSON format is commonly used by modern applications to allow for data "
 "exchange.  Many programmers are already familiar with it, which makes it a "
@@ -1016,6 +1108,7 @@ msgstr ""
 "verwendet. Viele Programmierer sind bereits damit vertraut, was es zu einer "
 "guten Wahl für die Interoperabilität macht."
 
+#: ../../tutorial/inputoutput.rst:515
 msgid ""
 "If you have an object ``x``, you can view its JSON string representation "
 "with a simple line of code::"
@@ -1023,6 +1116,7 @@ msgstr ""
 "Wenn du ein Objekt vom Typ  ``x`` hast, kannst du dessen JSON-"
 "Zeichenkettendarstellung mit einer einzigen Codezeile anzeigen::"
 
+#: ../../tutorial/inputoutput.rst:518
 msgid ""
 ">>> import json\n"
 ">>> x = [1, 'simple', 'list']\n"
@@ -1034,29 +1128,35 @@ msgstr ""
 ">>> json.dumps(x)\n"
 "'[1, \"simple\", \"list\"]'"
 
+#: ../../tutorial/inputoutput.rst:523
 msgid ""
-"Another variant of the :func:`~json.dumps` function, called :func:`~json."
-"dump`, simply serializes the object to a :term:`text file`.  So if ``f`` is "
-"a :term:`text file` object opened for writing, we can do this::"
+"Another variant of the :func:`~json.dumps` function, "
+"called :func:`~json.dump`, simply serializes the object to a :term:`text "
+"file`.  So if ``f`` is a :term:`text file` object opened for writing, we can "
+"do this::"
 msgstr ""
-"Eine weitere Variante der Funktion :func:`~json.dumps`, die den Namen :func:"
-"`~json.dump` trägt, serialisiert das Objekt einfach in eine :term:"
-"`Textdatei`. Wenn also ``f`` ein zum Schreiben geöffnetes :term:`Textdatei`-"
-"Objekt ist, können wir Folgendes tun::"
+"Eine weitere Variante der Funktion :func:`~json.dumps`, die den "
+"Namen :func:`~json.dump` trägt, serialisiert das Objekt einfach in "
+"eine :term:`Textdatei`. Wenn also ``f`` ein zum Schreiben "
+"geöffnetes :term:`Textdatei`-Objekt ist, können wir Folgendes tun::"
 
+#: ../../tutorial/inputoutput.rst:527
 msgid "json.dump(x, f)"
 msgstr "json.dump(x, f)"
 
+#: ../../tutorial/inputoutput.rst:529
 msgid ""
 "To decode the object again, if ``f`` is a :term:`binary file` or :term:`text "
 "file` object which has been opened for reading::"
 msgstr ""
-"Um das Objekt erneut zu dekodieren, wenn ``f`` ein :term:`Binärdatei`- oder :"
-"term:`Textdatei`-Objekt ist, das zum Lesen geöffnet wurde::"
+"Um das Objekt erneut zu dekodieren, wenn ``f`` ein :term:`Binärdatei`- "
+"oder :term:`Textdatei`-Objekt ist, das zum Lesen geöffnet wurde::"
 
+#: ../../tutorial/inputoutput.rst:532
 msgid "x = json.load(f)"
 msgstr "x = json.load(f)"
 
+#: ../../tutorial/inputoutput.rst:535
 msgid ""
 "JSON files must be encoded in UTF-8. Use ``encoding=\"utf-8\"`` when opening "
 "JSON file as a :term:`text file` for both of reading and writing."
@@ -1065,6 +1165,7 @@ msgstr ""
 "``encoding=\"utf-8\"``, wenn du eine JSON-Datei als :term:`Textdatei` "
 "öffnest, sowohl beim Lesen als auch beim Schreiben."
 
+#: ../../tutorial/inputoutput.rst:538
 msgid ""
 "This simple serialization technique can handle lists and dictionaries, but "
 "serializing arbitrary class instances in JSON requires a bit of extra "
@@ -1076,9 +1177,11 @@ msgstr ""
 "erfordert etwas mehr Aufwand. Die Dokumentation zum Modul  :mod:`json` "
 "enthält eine Erläuterung dazu."
 
+#: ../../tutorial/inputoutput.rst:544
 msgid ":mod:`pickle` - the pickle module"
 msgstr ":mod:`pickle` - das Pickle-Modul"
 
+#: ../../tutorial/inputoutput.rst:546
 msgid ""
 "Contrary to :ref:`JSON <tut-json>`, *pickle* is a protocol which allows the "
 "serialization of arbitrarily complex Python objects.  As such, it is "
@@ -1095,41 +1198,54 @@ msgstr ""
 "nicht vertrauenswürdigen Quelle kann zur Ausführung von beliebigem Code "
 "führen, wenn die Daten von einem erfahrenen Angreifer manipuliert wurden."
 
+#: ../../tutorial/inputoutput.rst:104
 msgid "formatted string literal"
 msgstr "formatiertes String-Literal"
 
+#: ../../tutorial/inputoutput.rst:104
 msgid "interpolated string literal"
 msgstr "interpoliertes Zeichenfolgenliteral"
 
+#: ../../tutorial/inputoutput.rst:104
 msgid "string"
 msgstr "Zeichenkette"
 
+#: ../../tutorial/inputoutput.rst:104
 msgid "formatted literal"
 msgstr "formatiertes Literal"
 
+#: ../../tutorial/inputoutput.rst:104
 msgid "interpolated literal"
 msgstr "interpoliertes Literal"
 
+#: ../../tutorial/inputoutput.rst:104
 msgid "f-string"
 msgstr "f-String"
 
+#: ../../tutorial/inputoutput.rst:104
 msgid "fstring"
 msgstr "fstring"
 
+#: ../../tutorial/inputoutput.rst:309
 msgid "built-in function"
 msgstr "built-in function"
 
+#: ../../tutorial/inputoutput.rst:309
 msgid "open"
 msgstr "open"
 
+#: ../../tutorial/inputoutput.rst:309
 msgid "object"
 msgstr "object"
 
+#: ../../tutorial/inputoutput.rst:309
 msgid "file"
 msgstr "file"
 
+#: ../../tutorial/inputoutput.rst:491
 msgid "module"
 msgstr "module"
 
+#: ../../tutorial/inputoutput.rst:491
 msgid "json"
 msgstr "json"
