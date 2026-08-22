@@ -446,7 +446,7 @@ msgid ""
 "`Python Packaging User Guide: Binary Extensions <https://"
 "packaging.python.org/extensions/>`__"
 msgstr ""
-"Python Packaging User Guide: Binäre Erweiterungen <https://"
+"`Python Packaging User Guide: Binäre Erweiterungen <https://"
 "packaging.python.org/extensions/>`__“"
 
 #~ msgid "Email"

@@ -2709,10 +2709,13 @@ msgid ""
 "For detailed information on thread-safety guarantees for :class:`list` "
 "objects, see :ref:`thread-safety-list`."
 msgstr ""
+"Detaillierte Informationen zu den Thread-Sicherheitsgarantien für "
+"Objekte vom Typ :class:`list` findest du unter :ref:`thread-safety-"
+"list`."
 
 #: ../../library/stdtypes.rst:1463
 msgid "Tuples"
-msgstr "Tupel"
+msgstr "Tupels"
 
 #: ../../library/stdtypes.rst:1467
 msgid ""
@@ -3381,24 +3384,20 @@ msgid ":meth:`bytes.rstrip`"
 msgstr ":meth:`bytes.rstrip`"
 
 #: ../../library/stdtypes.rst:1724
-#, fuzzy
 msgid ":meth:`str.removeprefix`"
-msgstr ":meth:`str.replace`"
+msgstr ":meth:`str.removeprefix`"
 
 #: ../../library/stdtypes.rst:1724
-#, fuzzy
 msgid ":meth:`bytes.removeprefix`"
-msgstr ":meth:`bytes.replace`"
+msgstr ":meth:`bytes.removeprefix`"
 
 #: ../../library/stdtypes.rst:1726
-#, fuzzy
 msgid ":meth:`str.removesuffix`"
-msgstr ":meth:`str.rfind`"
+msgstr ":meth:`str.removesuffix`"
 
 #: ../../library/stdtypes.rst:1726
-#, fuzzy
 msgid ":meth:`bytes.removesuffix`"
-msgstr ":meth:`bytes.rfind`"
+msgstr ":meth:`bytes.removesuffix`"
 
 #: ../../library/stdtypes.rst:1728
 msgid "Translation and Encoding"
@@ -3675,7 +3674,6 @@ msgstr ""
 "Abgleiche ohne Berücksichtigung der Groß-/Kleinschreibung verwendet werden."
 
 #: ../../library/stdtypes.rst:1868
-#, fuzzy
 msgid ""
 "Casefolding is similar to lowercasing but more aggressive because it is "
 "intended to remove all case distinctions in a string. For example, the "
@@ -3683,11 +3681,12 @@ msgid ""
 "already lowercase, :meth:`lower` would do nothing to "
 "``'ß'``; :meth:`casefold` converts it to ``\"ss\"``. For example:"
 msgstr ""
-"Casefolding ähnelt der Kleinschreibung, ist jedoch aggressiver, da es darauf "
-"abzielt, alle Unterschiede in der Groß-/Kleinschreibung in einem String zu "
-"entfernen. Beispielsweise entspricht der deutsche Kleinbuchstabe ``'ß'`` dem "
-"String ``\"ss\"``. Da er bereits kleingeschrieben ist, würde :meth:`lower` "
-"an ``'ß'`` nichts ändern; :meth:`casefold` wandelt ihn in ``\"ss\"`` um."
+"Casefolding ähnelt der Kleinschreibung, ist jedoch aggressiver, da es "
+"darauf abzielt, alle Groß-/Kleinschreibungsunterschiede in einer "
+"Zeichenkette zu entfernen. Zum Beispiel entspricht der deutsche "
+"Kleinbuchstabe ``'ß'`` dem Ausdruck ``\"ss\"``. Da er bereits klein "
+"geschrieben ist, würde :meth:`lower` bei ``'ß'`` nichts bewirken; "
+":meth:`casefold` wandelt ihn in ``\"ss\"`` um. Zum Beispiel:"
 
 #: ../../library/stdtypes.rst:1875
 msgid ""
@@ -3698,15 +3697,14 @@ msgid ""
 msgstr ""
 
 #: ../../library/stdtypes.rst:1882
-#, fuzzy
 msgid ""
 "The casefolding algorithm is `described in section 3.13.3 'Default Case "
 "Folding' of the Unicode Standard <https://www.unicode.org/versions/"
 "Unicode17.0.0/core-spec/chapter-3/#G53253>`__."
 msgstr ""
-"Der Casefolding-Algorithmus ist in `Abschnitt 3.13 'Default Case Folding' "
-"des Unicode-Standards <https://www.unicode.org/versions/Unicode16.0.0/core-"
-"spec/chapter-3/#G33992>`__ beschrieben."
+"Der Casefolding-Algorithmus ist `in Abschnitt 3.13.3 'Default Case "
+"Folding' des Unicode-Standards beschrieben <https://www.unicode.org/"
+"versions/Unicode17.0.0/core-spec/chapter-3/#G53253>`__."
 
 #: ../../library/stdtypes.rst:1891
 msgid ""
@@ -3974,7 +3972,6 @@ msgstr ""
 "True"
 
 #: ../../library/stdtypes.rst:2028
-#, fuzzy
 msgid ""
 "Perform a string formatting operation.  The string on which this method is "
 "called can contain literal text or replacement fields delimited by braces "
@@ -3983,13 +3980,14 @@ msgid ""
 "the string where each replacement field is replaced with the string value of "
 "the corresponding argument. For example:"
 msgstr ""
-"Führt eine String-Formatierungsoperation durch. Der String, auf dem diese "
-"Methode aufgerufen wird, kann Literaltext oder durch geschweifte Klammern "
-"``{}`` begrenzte Ersetzungsfelder enthalten. Jedes Ersetzungsfeld enthält "
-"entweder den numerischen Index eines Positionsarguments oder den Namen eines "
-"Schlüsselwort-Arguments. Gibt eine Kopie des Strings zurück, bei der jedes "
-"Ersetzungsfeld durch den String-Wert des entsprechenden Arguments ersetzt "
-"wird."
+"Führt eine Zeichenketten-Formatierungsoperation aus. Die Zeichenkette, "
+"auf der diese Methode aufgerufen wird, kann literalen Text oder durch "
+"geschweifte Klammern ``{}`` abgegrenzte Ersetzungsfelder enthalten. "
+"Jedes Ersetzungsfeld enthält entweder den numerischen Index eines "
+"Positionsarguments oder den Namen eines Schlüsselwortarguments. Gibt "
+"eine Kopie der Zeichenkette zurück, in der jedes Ersetzungsfeld durch "
+"den String-Wert des entsprechenden Arguments ersetzt wird. Zum "
+"Beispiel:"
 
 #: ../../library/stdtypes.rst:2035
 msgid ""
@@ -10074,69 +10072,74 @@ msgid ""
 "A :class:`!frozendict` has a similar API to the :class:`dict` API, with the "
 "following differences:"
 msgstr ""
+"Ein :class:`!frozendict` hat eine ähnliche API wie :class:`dict`, mit "
+"den folgenden Unterschieden:"
 
 #: ../../library/stdtypes.rst:5742
 msgid ":class:`!dict` has more methods than :class:`!frozendict`:"
 msgstr ""
 
 #: ../../library/stdtypes.rst:5744
-#, fuzzy
 msgid ":meth:`!__delitem__`"
-msgstr ":meth:`bytes.split`"
+msgstr ":meth:`!__delitem__`"
 
 #: ../../library/stdtypes.rst:5745
-#, fuzzy
 msgid ":meth:`!__setitem__`"
-msgstr ":meth:`str.title`"
+msgstr ":meth:`!__setitem__`"
 
 #: ../../library/stdtypes.rst:5746
-#, fuzzy
 msgid ":meth:`~dict.clear`"
-msgstr ":meth:`str.lower`"
+msgstr ":meth:`~dict.clear`"
 
 #: ../../library/stdtypes.rst:5747
-#, fuzzy
 msgid ":meth:`~dict.pop`"
-msgstr ":meth:`str.upper`"
+msgstr ":meth:`~dict.pop`"
 
 #: ../../library/stdtypes.rst:5748
-#, fuzzy
 msgid ":meth:`~dict.popitem`"
-msgstr ":meth:`str.split`"
+msgstr ":meth:`~dict.popitem`"
 
 #: ../../library/stdtypes.rst:5749
-#, fuzzy
 msgid ":meth:`~dict.setdefault`"
-msgstr ":meth:`str.isdecimal`"
+msgstr ":meth:`~dict.setdefault`"
 
 #: ../../library/stdtypes.rst:5750
-#, fuzzy
 msgid ":meth:`~dict.update`"
-msgstr ":meth:`str.upper`"
+msgstr ":meth:`~dict.update`"
 
 #: ../../library/stdtypes.rst:5752
 msgid ""
 "A :class:`!frozendict` can be hashed with ``hash(frozendict)`` if all keys "
 "and values can be hashed."
 msgstr ""
+"Ein :class:`!frozendict` kann mit ``hash(frozendict)`` gehasht werden, "
+"wenn alle Schlüssel und Werte hashbar sind."
 
 #: ../../library/stdtypes.rst:5755
 msgid ""
 "``frozendict |= other`` does not modify the :class:`!frozendict` in-place "
 "but creates a new frozen dictionary."
 msgstr ""
+"``frozendict |= other`` verändert das :class:`!frozendict` nicht direkt "
+"an Ort und Stelle, sondern erstellt ein neues unveränderliches "
+"Dictionary."
 
 #: ../../library/stdtypes.rst:5758
 msgid ""
 ":class:`!frozendict` is not a :class:`!dict` subclass but inherits directly "
 "from ``object``."
 msgstr ""
+":class:`!frozendict` ist keine Unterklasse von :class:`!dict`, sondern "
+"erbt direkt von ``object``."
 
 #: ../../library/stdtypes.rst:5761
 msgid ""
 "Like dictionaries, frozendicts are :ref:`generic <generics>` over two types, "
 "signifying (respectively) the types of the frozendict's keys and values."
 msgstr ""
+"Wie Dictionaries sind auch Frozendicts hinsichtlich zweier Typen :ref:"
+"`generisch <generics>`, die (jeweils) die Typen der Schlüssel und Werte "
+"des Frozendicts angeben."
 
 #: ../../library/stdtypes.rst:5766
 msgid ""
@@ -10144,6 +10147,10 @@ msgid ""
 "an initialized :class:`frozendict` if the type is a :class:`frozendict` "
 "subclass or if the constructor returned a :class:`frozendict`."
 msgstr ""
+"Ähnlich wie :meth:`dict.fromkeys`, ruft jedoch erneut den Typkonstruktor "
+"mit einem initialisierten :class:`frozendict` auf, falls der Typ eine "
+"Unterklasse von :class:`frozendict` ist oder falls der Konstruktor ein "
+"``frozendict`` zurückgegeben hat."
 
 #: ../../library/stdtypes.rst:5777
 msgid "Context Manager Types"
@@ -10240,6 +10247,10 @@ msgid ""
 "the :keyword:`with` block, the new exception is raised, and the original "
 "exception is stored in its :attr:`~BaseException.__context__` attribute."
 msgstr ""
+"Wenn diese Methode während der Behandlung einer früheren Ausnahme aus "
+"dem :keyword:`with`-Block eine Ausnahme auslöst, wird die neue Ausnahme "
+"weitergegeben, und die ursprüngliche Ausnahme wird in ihrem Attribut :"
+"attr:`~BaseException.__context__` gespeichert."
 
 #: ../../library/stdtypes.rst:5825
 msgid ""
@@ -10546,6 +10557,9 @@ msgid ""
 "Instances of ``GenericAlias`` are not classes at runtime, even though they "
 "behave like classes (they can be instantiated and subclassed)::"
 msgstr ""
+"Instanzen von ``GenericAlias`` sind zur Laufzeit keine Klassen, auch "
+"wenn sie sich wie Klassen verhalten (sie können instanziiert und "
+"abgeleitet werden)::"
 
 #: ../../library/stdtypes.rst:5965
 msgid ""
@@ -10553,6 +10567,9 @@ msgid ""
 ">>> inspect.isclass(list[int])\n"
 "False"
 msgstr ""
+">>> import inspect\n"
+">>> inspect.isclass(list[int])\n"
+"False"
 
 #: ../../library/stdtypes.rst:5969
 #, fuzzy
