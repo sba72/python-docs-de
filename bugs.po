@@ -35,15 +35,15 @@ msgstr ""
 "alle Mängel informiert werden, die du in Python findest."
 
 #: ../../bugs.rst:11
-#, fuzzy
 msgid ""
 "It can be sometimes faster to fix bugs yourself and contribute patches to "
 "Python as it streamlines the process and involves fewer people. Learn how "
 "to :ref:`contribute <contributing-to-python>`."
 msgstr ""
-"Manchmal kann es schneller sein, Fehler selbst zu beheben und Patches zu "
-"Python beizutragen, da dies den Prozess beschleunigt und weniger Personen "
-"involviert. Erfahre, wie du :ref:`beitragen <contributing-to-python>` kannst."
+"Es kann manchmal schneller sein, Fehler selbst zu beheben und Patches zu "
+"Python beizutragen, da dies den Prozess vereinfacht und weniger Personen "
+"einbezieht. Erfahre, wie du :ref:`beitragen <contributing-to-python>` "
+"kannst."
 
 #: ../../bugs.rst:19
 msgid "Documentation bugs"
@@ -127,22 +127,20 @@ msgstr ""
 "Dokumentation interessiert sind."
 
 #: ../../bugs.rst:49
-#, fuzzy
 msgid ""
 "`Documentation Translations <https://devguide.python.org/documentation/"
 "translations/translating/#translation-coordinators>`_"
 msgstr ""
-"`Dokumentationsübersetzungen <https://devguide.python.org/documentation/"
-"translating/>`_"
+"`Übersetzungen der Dokumentation <https://devguide.python.org/"
+"documentation/translations/translating/#translation-coordinators>`_"
 
 #: ../../bugs.rst:50
-#, fuzzy
 msgid ""
 "A list of GitHub pages for documentation translation and their coordination "
 "teams."
 msgstr ""
-"Eine Liste von GitHub-Seiten für die Übersetzung von Dokumentationen und "
-"deren Hauptkontakten."
+"Eine Liste von GitHub-Seiten für Dokumentationsübersetzungen und deren "
+"Koordinationsteams."
 
 #: ../../bugs.rst:56
 msgid "Using the Python issue tracker"

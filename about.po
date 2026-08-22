@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-22 12:07+0200\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Swen Bachmann <142266608+sba72@users.noreply.github.com>\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../about.rst:3
 msgid "About this documentation"
-msgstr ""
+msgstr "Über diese Dokumentation"
 
 #: ../../about.rst:6
 msgid ""
@@ -30,6 +30,10 @@ msgid ""
 "`Sphinx`_, a documentation generator originally created for Python and now "
 "maintained as an independent project."
 msgstr ""
+"Die Python-Dokumentation wird aus `reStructuredText`_-Quellen mithilfe "
+"von `Sphinx`_ generiert, einem Dokumentationsgenerator, der ursprünglich "
+"für Python entwickelt wurde und heute als eigenständiges Projekt "
+"weitergepflegt wird."
 
 #: ../../about.rst:16
 msgid ""
@@ -52,6 +56,8 @@ msgid ""
 "Fred L. Drake, Jr., the creator of the original Python documentation toolset "
 "and author of much of the content;"
 msgstr ""
+"Fred L. Drake, Jr., der Ersteller des ursprünglichen Python-"
+"Dokumentationswerkzeugs und Autor eines Großteils des Inhalts;"
 
 #: ../../about.rst:25
 msgid ""
@@ -71,19 +77,19 @@ msgstr ""
 
 #: ../../about.rst:32
 msgid "Contributors to the Python documentation"
-msgstr ""
+msgstr "Mitwirkende an der Python-Dokumentation"
 
 #: ../../about.rst:34
-#, fuzzy
 msgid ""
 "Many people have contributed to the Python language, the Python standard "
 "library, and the Python documentation.  See the `CPython GitHub repository "
 "<https://github.com/python/cpython/graphs/contributors>`__ for a partial "
 "list of contributors."
 msgstr ""
-"Viele Menschen haben zur Python-Sprache, zur Python-Standardbibliothek und "
-"zur Python-Dokumentation beigetragen. Eine teilweise Liste der Mitwirkenden "
-"finden Sie in der Python-Quellverteilung unter :source:`Misc/ACKS`."
+"Viele Menschen haben zur Python-Sprache, der Python-Standardbibliothek "
+"und der Python-Dokumentation beigetragen. Eine unvollständige Liste der "
+"Mitwirkenden findest du im `CPython-GitHub-Repository "
+"<https://github.com/python/cpython/graphs/contributors>`__."
 
 #: ../../about.rst:39
 msgid ""
