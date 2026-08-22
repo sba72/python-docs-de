@@ -4376,7 +4376,7 @@ msgstr ""
 
 #: ../../library/functions.rst:2195
 msgid "*dict* can now be a :class:`frozendict`."
-msgstr "msgstr "*dict* kann jetzt ein :class:`frozendict` sein."
+msgstr "*dict* kann jetzt ein :class:`frozendict` sein."
 
 #: ../../library/functions.rst:2200
 msgid ""
