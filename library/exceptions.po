@@ -390,17 +390,16 @@ msgid "Added the :attr:`name` and :attr:`obj` attributes."
 msgstr "Die Attribute :attr:`name` und :attr:`obj` wurden hinzugefügt."
 
 #: ../../library/exceptions.rst:223
-#, fuzzy
 msgid ""
 "Raised when the :func:`input` function hits an end-of-file condition (EOF) "
 "without reading any data. (Note: the :meth:`io.TextIOBase.read` "
 "and :meth:`io.IOBase.readline` methods return an empty string when they hit "
 "EOF.)"
 msgstr ""
-"Wird ausgelöst, wenn die Funktion :func:`input` auf das Dateiende (EOF) "
-"stößt, ohne Daten gelesen zu haben. (Hinweis: Die Methoden :meth:`!"
-"io.IOBase.read` und :meth:`io.IOBase.readline` geben eine leere Zeichenkette "
-"zurück, wenn sie auf das Dateiende stoßen.)"
+"Wird ausgelöst, wenn die Funktion :func:`input` eine End-of-File-"
+"Bedingung (EOF) erreicht, ohne Daten zu lesen. (Hinweis: Die Methoden :"
+"meth:`io.TextIOBase.read` und :meth:`io.IOBase.readline` geben eine "
+"leere Zeichenkette zurück, wenn sie auf EOF stoßen.)"
 
 #: ../../library/exceptions.rst:230
 msgid "Not currently used."
@@ -464,6 +463,9 @@ msgid ""
 "A subclass of :exc:`ImportError` which is raised when a lazy import fails "
 "because it (directly or indirectly) tries to import itself."
 msgstr ""
+"Eine Unterklasse von :exc:`ImportError`, die ausgelöst wird, wenn ein "
+"Lazy Import fehlschlägt, weil er (direkt oder indirekt) versucht, sich "
+"selbst zu importieren."
 
 #: ../../library/exceptions.rst:278
 msgid ""
@@ -751,7 +753,6 @@ msgstr ""
 "Daemon-Threads."
 
 #: ../../library/exceptions.rst:446
-#, fuzzy
 msgid ":func:`os.fork`,"
 msgstr ":func:`os.fork`."
 
@@ -760,6 +761,8 @@ msgid ""
 "acquiring a lock such as :class:`threading.Lock`, when it is known that the "
 "operation would otherwise deadlock."
 msgstr ""
+"beim Erwerb einer Sperre wie :class:`threading.Lock`, wenn bekannt ist, "
+"dass der Vorgang andernfalls in einen Deadlock geraten würde."
 
 #: ../../library/exceptions.rst:450
 msgid "See also the :func:`sys.is_finalizing` function."
@@ -778,6 +781,8 @@ msgid ""
 "This exception may be raised when acquiring :meth:`threading.Lock` "
 "or :meth:`threading.RLock`."
 msgstr ""
+"Diese Ausnahme kann beim Erwerb von :meth:`threading.Lock` oder "
+":meth:`threading.RLock` ausgelöst werden."
 
 #: ../../library/exceptions.rst:466
 msgid ""
@@ -1256,15 +1261,15 @@ msgstr ""
 "weiteres Attribut besitzen:"
 
 #: ../../library/exceptions.rst:751
-#, fuzzy
 msgid ""
 "An integer containing the number of **bytes** written to the stream before "
 "it blocked. This attribute is available when using the buffered I/O classes "
 "from the :mod:`io` module."
 msgstr ""
-"Eine Ganzzahl, die die Anzahl der Zeichen enthält, die in den Datenstrom "
-"geschrieben wurden, bevor er blockierte. Dieses Attribut ist bei der "
-"Verwendung der gepufferten E/A-Klassen aus dem Modul :mod:`io` verfügbar."
+"Eine Ganzzahl, die die Anzahl der **Bytes** enthält, die in den Stream "
+"geschrieben wurden, bevor er blockiert wurde. Dieses Attribut ist "
+"verfügbar, wenn die gepufferten I/O-Klassen aus dem Modul :mod:`io` "
+"verwendet werden."
 
 #: ../../library/exceptions.rst:757
 msgid ""
@@ -1621,6 +1626,8 @@ msgid ""
 "Exception groups are :ref:`generic <generics>` over the type of their "
 "contained exceptions."
 msgstr ""
+"Exception-Gruppen sind hinsichtlich des Typs ihrer enthaltenen "
+"Ausnahmen :ref:`generisch <generics>`."
 
 #: ../../library/exceptions.rst:992
 msgid ""
@@ -1628,6 +1635,9 @@ msgid ""
 "specifically processed more efficiently here. For optimal performance, pass "
 "a tuple as ``excs``."
 msgstr ""
+"Der Parameter ``excs`` kann eine beliebige Sequenz sein, wobei Listen "
+"und Tupel hier speziell effizienter verarbeitet werden. Für optimale "
+"Leistung übergib ``excs`` als Tupel."
 
 #: ../../library/exceptions.rst:998
 msgid "The ``msg`` argument to the constructor. This is a read-only attribute."
@@ -1850,7 +1860,6 @@ msgid "The class hierarchy for built-in exceptions is:"
 msgstr "Die Klassenhierarchie für eingebaute Exceptions ist:"
 
 #: ../../library/exceptions.rst:1107
-#, fuzzy
 msgid ""
 "BaseException\n"
 " ├── BaseExceptionGroup\n"
@@ -1938,6 +1947,7 @@ msgstr ""
 "      ├── EOFError\n"
 "      ├── ExceptionGroup [BaseExceptionGroup]\n"
 "      ├── ImportError\n"
+"      │    └── ImportCycleError\n"
 "      │    └── ModuleNotFoundError\n"
 "      ├── LookupError\n"
 "      │    ├── IndexError\n"
