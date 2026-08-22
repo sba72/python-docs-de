@@ -42,8 +42,7 @@ msgid ""
 msgstr ""
 "Es kann manchmal schneller sein, Fehler selbst zu beheben und Patches zu "
 "Python beizutragen, da dies den Prozess vereinfacht und weniger Personen "
-"einbezieht. Erfahre, wie du :ref:`beitragen <contributing-to-python>` "
-"kannst."
+"einbezieht. Erfahre, wie du :ref:`beitragen <contributing-to-python>` kannst."
 
 #: ../../bugs.rst:19
 msgid "Documentation bugs"
@@ -57,9 +56,9 @@ msgid ""
 "well."
 msgstr ""
 "Wenn du einen Fehler in dieser Dokumentation findest oder einen "
-"Verbesserungsvorschlag einreichen möchtest, melde bitte einen Fehler "
-"im :ref:`Issue-Tracker <using-the-tracker>`. Wenn du einen Vorschlag zur "
-"Behebung hast, füge diesen bitte ebenfalls bei."
+"Verbesserungsvorschlag einreichen möchtest, melde bitte einen Fehler im :ref:"
+"`Issue-Tracker <using-the-tracker>`. Wenn du einen Vorschlag zur Behebung "
+"hast, füge diesen bitte ebenfalls bei."
 
 #: ../../bugs.rst:27
 msgid ""
@@ -131,8 +130,8 @@ msgid ""
 "`Documentation Translations <https://devguide.python.org/documentation/"
 "translations/translating/#translation-coordinators>`_"
 msgstr ""
-"`Übersetzungen der Dokumentation <https://devguide.python.org/"
-"documentation/translations/translating/#translation-coordinators>`_"
+"`Übersetzungen der Dokumentation <https://devguide.python.org/documentation/"
+"translations/translating/#translation-coordinators>`_"
 
 #: ../../bugs.rst:50
 msgid ""

@@ -31,10 +31,10 @@ msgstr ""
 #: ../../library/datatypes.rst:11
 msgid ""
 "Python also provides :ref:`some built-in data types <bltin-types>`, in "
-"particular, :class:`list`, :class:`tuple`, :class:`dict`, :class:`frozendict`, :class:`set`,  "
-"and :class:`frozenset`. The :class:`str` class is used to hold Unicode "
-"strings, and the :class:`bytes` and :class:`bytearray` classes are used to "
-"hold binary data."
+"particular, :class:`list`, :class:`tuple`, :class:`dict`, :class:"
+"`frozendict`, :class:`set`,  and :class:`frozenset`. The :class:`str` class "
+"is used to hold Unicode strings, and the :class:`bytes` and :class:"
+"`bytearray` classes are used to hold binary data."
 msgstr ""
 
 #: ../../library/datatypes.rst:18
