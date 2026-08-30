@@ -54,8 +54,8 @@ msgid ""
 "packaging user guide`_."
 msgstr ""
 "Dieser Leitfaden behandelt den Installationsschritt des Prozesses. Für eine "
-"Anleitung zum Erstellen und Teilen eigener Python-Projekte siehe den "
-"`Python packaging user guide`_."
+"Anleitung zum Erstellen und Teilen eigener Python-Projekte siehe den `Python "
+"packaging user guide`_."
 
 #: ../../installing/index.rst:26
 msgid ""
@@ -178,8 +178,8 @@ msgid ""
 "guide assume the use of a :term:`virtual environment`."
 msgstr ""
 "Für POSIX-Anwender (einschließlich macOS- und Linux-Nutzern) setzen die "
-"Beispiele in diesem Leitfaden die Verwendung einer :term:`virtuellen Umgebung "
-"<virtual environment>` voraus."
+"Beispiele in diesem Leitfaden die Verwendung einer :term:`virtuellen "
+"Umgebung <virtual environment>` voraus."
 
 #: ../../installing/index.rst:79
 msgid ""
@@ -297,8 +297,8 @@ msgid ""
 "`Python Packaging User Guide: Installing Scientific Packages <https://"
 "packaging.python.org/science/>`__"
 msgstr ""
-"`Python Packaging User Guide: Installation wissenschaftlicher Pakete <https://"
-"packaging.python.org/science/>`__"
+"`Python Packaging User Guide: Installation wissenschaftlicher Pakete "
+"<https://packaging.python.org/science/>`__"
 
 #: ../../installing/index.rst:140
 msgid "... work with multiple versions of Python installed in parallel?"

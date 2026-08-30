@@ -1632,8 +1632,9 @@ msgid ""
 msgstr ""
 "Die hier beschriebene Funktionalität wurde in Python 2.4 eingeführt; eine "
 "einfache Vorlage-Methode (Templating), die auf regulären Ausdrücken basiert. "
-"Sie ist älter als :meth:`str.format`, :ref:`formatierte Zeichenkettenliterale "
-"<f-strings>` und :ref:`Vorlage-Zeichenkettenliterale <template-strings>`."
+"Sie ist älter als :meth:`str.format`, :ref:`formatierte "
+"Zeichenkettenliterale <f-strings>` und :ref:`Vorlage-Zeichenkettenliterale "
+"<template-strings>`."
 
 #: ../../library/string.rst:822
 msgid ""
@@ -1661,7 +1662,8 @@ msgstr ""
 "Funktionalität in diesem Kontext die Übersetzung im Vergleich zu anderen "
 "eingebauten Zeichenketten-Formatierungsmöglichkeiten in Python erleichtert. "
 "Ein Beispiel für eine auf Vorlage-Zeichenketten aufbauende Bibliothek für "
-"i18n ist das Paket `flufl.i18n <https://flufli18n.readthedocs.io/en/latest/>`_."
+"i18n ist das Paket `flufl.i18n <https://flufli18n.readthedocs.io/en/latest/"
+">`_."
 
 #: ../../library/string.rst:837
 msgid ""
