@@ -701,7 +701,7 @@ msgid ""
 "*closure variable*::"
 msgstr ""
 "Beispielsweise sind in der Funktion  ``inner``  im folgenden Code sowohl "
-"``x`` als auch ``print``:term:`freie Variablen <free variable>`, aber nur "
+"``x`` als auch ``print`` :term:`freie Variablen <free variable>`, aber nur "
 "``x`` ist eine *Closure-Variable*::"
 
 #: ../../glossary.rst:279
@@ -1615,7 +1615,7 @@ msgstr ""
 "möglichen Werte von *feature*. Durch Importieren dieses Moduls und Auswerten "
 "seiner Variablen können Sie sehen, wann eine neue Funktion erstmals in die "
 "Sprache aufgenommen wurde und wann sie zur Standardeinstellung wird (oder "
-"wurde):"
+"wurde)::"
 
 #: ../../glossary.rst:634
 msgid ""

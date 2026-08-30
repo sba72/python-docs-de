@@ -90,7 +90,7 @@ msgstr ""
 
 #: ../../bugs.rst:40
 msgid "`Documentation bugs`_"
-msgstr "`Dokumentationsfehler`_"
+msgstr "`Dokumentationsfehler <Documentation bugs_>`_"
 
 #: ../../bugs.rst:41
 msgid ""
@@ -279,6 +279,7 @@ msgstr ""
 "Neben dem reinen Melden gefundener Fehler bist du herzlich eingeladen, "
 "Patches zur Behebung einzureichen. Weitere Informationen zu den ersten "
 "Schritten beim Patchen von Python findest du im `Python Developer's Guide`_. "
-"Wenn du Fragen hast, ist die `Core-Mentorship-Mailingliste`_ eine "
+"Wenn du Fragen hast, ist die `Core-Mentorship-Mailingliste <core-mentorship "
+"mailing list_>`_ eine "
 "hilfsbereite Anlaufstelle für alle Fragen rund um das Beheben von Problemen "
 "in Python."
