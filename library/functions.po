@@ -533,8 +533,8 @@ msgid ""
 "If the prefix \"0b\" is desired or not, you can use either of the following "
 "ways."
 msgstr ""
-"Je nachdem, ob das Präfix „0b“ gewünscht ist oder nicht, können Sie eine "
-"der folgenden Methoden verwenden."
+"Je nachdem, ob das Präfix „0b“ gewünscht ist oder nicht, können Sie eine der "
+"folgenden Methoden verwenden."
 
 #: ../../library/functions.rst:143
 msgid ""
