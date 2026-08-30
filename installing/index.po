@@ -8,7 +8,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.14\n"
+"Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-22 12:07+0200\n"
 "PO-Revision-Date: 2026-06-03 00:00+0000\n"
@@ -54,8 +54,8 @@ msgid ""
 "packaging user guide`_."
 msgstr ""
 "Dieser Leitfaden behandelt den Installationsschritt des Prozesses. Für eine "
-"Anleitung zum Erstellen und Teilen eigener Python-Projekte beachte den "
-"`Python Packaging User Guide`_."
+"Anleitung zum Erstellen und Teilen eigener Python-Projekte siehe den "
+"`Python packaging user guide`_."
 
 #: ../../installing/index.rst:26
 msgid ""
@@ -64,10 +64,11 @@ msgid ""
 "source software. Please take such policies into account when making use of "
 "the distribution and installation tools provided with Python."
 msgstr ""
-"Für Unternehmen und andere institutionelle Nutzer: Bitte beachten Sie, dass "
-"viele Organisationen eigene Richtlinien zur Nutzung von und zur Mitarbeit an "
-"Open-die mit Python bereitgestellten Tools für Distribution und Installation "
-"verwenden."
+"Für Unternehmen und andere institutionelle Nutzer: Bitte beachte, dass viele "
+"Organisationen eigene Richtlinien zur Nutzung von und zur Mitwirkung an Open-"
+"Source-Software haben. Berücksichtige solche Richtlinien, wenn du die mit "
+"Python bereitgestellten Werkzeuge zur Distribution und Installation "
+"verwendest."
 
 #: ../../installing/index.rst:33
 msgid "Key terms"
@@ -177,8 +178,8 @@ msgid ""
 "guide assume the use of a :term:`virtual environment`."
 msgstr ""
 "Für POSIX-Anwender (einschließlich macOS- und Linux-Nutzern) setzen die "
-"Beispiele in diesem Leitfaden die Verwendung einer :term:`virtuellen "
-"Umgebung` voraus."
+"Beispiele in diesem Leitfaden die Verwendung einer :term:`virtuellen Umgebung "
+"<virtual environment>` voraus."
 
 #: ../../installing/index.rst:79
 msgid ""
@@ -199,17 +200,17 @@ msgid ""
 msgstr ""
 "Es ist auch möglich, eine genaue oder minimale Version direkt auf der "
 "Befehlszeile anzugeben. Bei Verwendung von Vergleichsoperatoren wie ``>``, "
-"``<`` oder anderen „Sonderzeichen, die von der Shell interpretiert werden, "
-"sollte der Paketname und “die Version in doppelten Anführungszeichen gesetzt "
-"werden::“"
+"``<`` oder anderen Sonderzeichen, die von der Shell interpretiert werden, "
+"sollten der Paketname und die Version in doppelte Anführungszeichen gesetzt "
+"werden::"
 
 #: ../../installing/index.rst:88
 msgid ""
 "python -m pip install SomePackage==1.0.4    # specific version\n"
 "python -m pip install \"SomePackage>=1.0.4\"  # minimum version"
 msgstr ""
-"python -m pip install SomePackage==1.0.4    # speziische Version\n"
-"python -m pip install \"SomePackage>=1.0.4\"  # mindestens geforderte Version"
+"python -m pip install SomePackage==1.0.4    # spezifische Version\n"
+"python -m pip install \"SomePackage>=1.0.4\"  # Mindestversion"
 
 #: ../../installing/index.rst:91
 msgid ""
@@ -254,7 +255,7 @@ msgstr ""
 
 #: ../../installing/index.rst:111
 msgid "How do I ...?"
-msgstr "Wie mach ich es ...?"
+msgstr "Wie mache ich ...?"
 
 #: ../../installing/index.rst:113
 msgid "These are quick answers or links for some common tasks."
@@ -296,8 +297,8 @@ msgid ""
 "`Python Packaging User Guide: Installing Scientific Packages <https://"
 "packaging.python.org/science/>`__"
 msgstr ""
-"Python Packaging User Guide: Installation wissenschaftlicher Pakete <https://"
-"packaging.python.org/science/>“"
+"`Python Packaging User Guide: Installation wissenschaftlicher Pakete <https://"
+"packaging.python.org/science/>`__"
 
 #: ../../installing/index.rst:140
 msgid "... work with multiple versions of Python installed in parallel?"
@@ -444,7 +445,7 @@ msgid ""
 "org/extensions/>`__"
 msgstr ""
 "`Python Packaging User Guide: Binäre Erweiterungen <https://packaging.python."
-"org/extensions/>`__“"
+"org/extensions/>`__"
 
 #~ msgid "Email"
 #~ msgstr "E-Mail"
