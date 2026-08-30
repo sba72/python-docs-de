@@ -2688,9 +2688,8 @@ msgid ""
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.19.rst:2
-#, fuzzy
 msgid "Pending removal in Python 3.19"
-msgstr "Portierung auf Python 3.12"
+msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.19.rst:6
 msgid ""
@@ -2761,9 +2760,8 @@ msgid ""
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.20.rst:2
-#, fuzzy
 msgid "Pending removal in Python 3.20"
-msgstr "Portierung auf Python 3.12"
+msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.20.rst:4
 msgid ""
@@ -2774,10 +2772,10 @@ msgid ""
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.20.rst:9
-#, fuzzy
 msgid ""
 "(Contributed by Sergey B Kirpichev and Serhiy Storchaka in :gh:`143715`.)"
-msgstr "(Beigetragen von Petr Viktorin in :gh:`103509`.)"
+msgstr ""
+"(Beigetragen von Sergey B Kirpichev und Serhiy Storchaka in :gh:`143715`.)"
 
 #: ../../deprecations/pending-removal-in-3.20.rst:11
 msgid ""
@@ -2883,10 +2881,8 @@ msgid ":mod:`zlib`"
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.20.rst:40
-#, fuzzy
 msgid "(Contributed by Hugo van Kemenade and Stan Ulbrych in :gh:`76007`.)"
-msgstr ""
-"(Beigetragen von Jason R. Coombs und Hugo van Kemenade in :gh:`93963`.)"
+msgstr "(Beigetragen von Hugo van Kemenade und Stan Ulbrych in :gh:`76007`.)"
 
 #: ../../deprecations/pending-removal-in-3.20.rst:42
 msgid "Deprecations defined by :pep:`829`:"
@@ -2904,9 +2900,8 @@ msgid ""
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.20.rst:50
-#, fuzzy
 msgid "(Contributed by Barry Warsaw in :gh:`148641`.)"
-msgstr "(Beigetragen von Zhang Na in :gh:`90656`.)"
+msgstr "(Beigetragen von Barry Warsaw in :gh:`148641`.)"
 
 #: ../../deprecations/pending-removal-in-3.20.rst:52
 msgid ":mod:`ast`:"
@@ -2927,9 +2922,8 @@ msgid ""
 msgstr ""
 
 #: ../../deprecations/pending-removal-in-3.20.rst:64
-#, fuzzy
 msgid "(Contributed by Bartosz Sławecki in :gh:`132604`.)"
-msgstr "(Beigetragen von Petr Viktorin in :gh:`103509`.)"
+msgstr "(Beigetragen von Bartosz Sławecki in :gh:`132604`.)"
 
 #: ../../deprecations/c-api-pending-removal-in-future.rst:2
 #: ../../deprecations/pending-removal-in-future.rst:2
@@ -4178,7 +4172,7 @@ msgstr "(Beigetragen von Zhang Na in :gh:`90656`.)"
 
 #: ../../whatsnew/3.12.rst:1847
 msgid "``PYTHON_FOR_REGEN`` now require Python 3.10 or newer."
-msgstr "``PYTHON_FOR_REGEN``erfordert nun Python 3.10 oder neuer."
+msgstr "``PYTHON_FOR_REGEN`` erfordert nun Python 3.10 oder neuer."
 
 #: ../../whatsnew/3.12.rst:1849
 msgid ""
@@ -4228,7 +4222,7 @@ msgid ""
 "``PyUnstable_Eval_RequestCodeExtraIndex()`` (renamed from "
 "``_PyEval_RequestCodeExtraIndex``)"
 msgstr ""
-"``PyUnstable_Eval_RequestCodeExtraIndex()``(umbenannt von "
+"``PyUnstable_Eval_RequestCodeExtraIndex()`` (umbenannt von "
 "``_PyEval_RequestCodeExtraIndex``)"
 
 #: ../../whatsnew/3.12.rst:1878
