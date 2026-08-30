@@ -50,7 +50,7 @@ msgstr "Jedes Objekt kann auf seinen Wahrheitswert getestet werden, um in einer 
 
 #: ../../library/stdtypes.rst:46
 msgid "By default, an object is considered true unless its class defines either a :meth:`~object.__bool__` method that returns ``False`` or a :meth:`~object.__len__` method that returns zero, when called with the object. [1]_ If one of the methods raises an exception when called, the exception is propagated and the object does not have a truth value (for example, :data:`NotImplemented`). Here are most of the built-in objects considered false:"
-msgstr "Standardmäßig gilt ein Objekt als wahr, außer seine Klasse definiert entweder eine Methode :meth:~object.__bool__, die False zurückgibt, oder eine Methode :meth:~object.__len__, die bei Aufruf mit dem Objekt null zurückgibt. [1]_ Löst eine der Methoden beim Aufruf eine Ausnahme aus, wird die Ausnahme weitergegeben, und das Objekt hat keinen Wahrheitswert (zum Beispiel :data:NotImplemented). Hier sind die meisten der eingebauten Objekte aufgeführt, die als falsch gelten:"
+msgstr "Standardmäßig gilt ein Objekt als wahr, außer seine Klasse definiert entweder eine Methode :meth:`~object.__bool__`, die False zurückgibt, oder eine Methode :meth:`~object.__len__`, die bei Aufruf mit dem Objekt null zurückgibt. [1]_ Löst eine der Methoden beim Aufruf eine Ausnahme aus, wird die Ausnahme weitergegeben, und das Objekt hat keinen Wahrheitswert (zum Beispiel :data:`NotImplemented`). Hier sind die meisten der eingebauten Objekte aufgeführt, die als falsch gelten:"
 
 #: ../../library/stdtypes.rst:58
 msgid "constants defined to be false: ``None`` and ``False``"
@@ -1586,7 +1586,7 @@ msgstr "Viele weitere Operationen erzeugen ebenfalls Listen, einschließlich der
 
 #: ../../library/stdtypes.rst:1406
 msgid "Lists are :ref:`generic <generics>` over the types of their items."
-msgstr "Listen sind hinsichtlich des Typs ihrer Elemente :ref:generisch <generics>."
+msgstr "Listen sind hinsichtlich des Typs ihrer Elemente :ref:`generisch <generics>`."
 
 #: ../../library/stdtypes.rst:1408
 msgid "Lists implement all of the :ref:`common <typesseq-common>` and :ref:`mutable <typesseq-mutable>` sequence operations. Lists also provide the following additional method:"
@@ -1674,7 +1674,7 @@ msgstr "Tupel implementieren alle :ref:`gemeinsamen <typesseq-common>` Sequenzop
 
 #: ../../library/stdtypes.rst:1499
 msgid "Tuples are :ref:`generic <generics>` over the types of their contents. For more information, refer to :ref:`the typing documentation on annotating tuples <annotating-tuples>`."
-msgstr ""
+msgstr "Tupel sind hinsichtlich der Typen ihres Inhalts :ref:`generisch <generics>`. Weitere Informationen findest du in der :ref:`typing-Dokumentation zum Annotieren von Tupeln <annotating-tuples>`."
 
 #: ../../library/stdtypes.rst:1503
 msgid "For heterogeneous collections of data where access by name is clearer than access by index, :func:`collections.namedtuple` may be a more appropriate choice than a simple tuple object."
@@ -2910,7 +2910,7 @@ msgstr "Wenn es zwei Argumente gibt, müssen diese gleich lange Strings sein, un
 
 #: ../../library/stdtypes.rst:2432
 msgid "*dict* can now be a :class:`frozendict`."
-msgstr "*dict* kann jetzt ein :class:frozendict sein."
+msgstr "*dict* kann jetzt ein :class:`frozendict` sein."
 
 #: ../../library/stdtypes.rst:2437
 msgid "Split the string at the first occurrence of *sep*, and return a 3-tuple containing the part before the separator, the separator itself, and the part after the separator.  If the separator is not found, return a 3-tuple containing the string itself, followed by two empty strings."
@@ -3130,7 +3130,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:2620
 msgid "See also :meth:`strip`."
-msgstr "Siehe auch :meth:strip."
+msgstr "Siehe auch :meth:`strip`."
 
 #: ../../library/stdtypes.rst:2625
 msgid "Return a list of the words in the string, using *sep* as the delimiter string.  If *maxsplit* is given, at most *maxsplit* splits are done (thus, the list will have at most ``maxsplit+1`` elements).  If *maxsplit* is not specified or ``-1``, then there is no limit on the number of splits (all possible splits are made)."
@@ -3390,7 +3390,7 @@ msgstr "Gibt eine Kopie der Zeichenkette zurück, bei der die führenden und abs
 
 #: ../../library/stdtypes.rst:2781
 msgid "Whitespace characters are defined by :meth:`str.isspace`."
-msgstr "Whitespace-Zeichen werden durch :meth:str.isspace definiert."
+msgstr "Whitespace-Zeichen werden durch :meth:`str.isspace` definiert."
 
 #: ../../library/stdtypes.rst:2785
 msgid ""
@@ -3742,7 +3742,7 @@ msgstr "Ein :dfn:`T-String` (formell ein :dfn:`Template-Zeichenfolgenliteral`) i
 
 #: ../../library/stdtypes.rst:3058
 msgid "These strings follow the same syntax and evaluation rules as :ref:`formatted string literals <stdtypes-fstrings>`, with the following differences:"
-msgstr "Diese Zeichenketten folgen denselben Syntax- und Auswertungsregeln wie :ref:formatierte Zeichenkettenliterale <stdtypes-fstrings>, mit den folgenden Unterschieden:"
+msgstr "Diese Zeichenketten folgen denselben Syntax- und Auswertungsregeln wie :ref:`formatierte Zeichenkettenliterale <stdtypes-fstrings>`, mit den folgenden Unterschieden:"
 
 #: ../../library/stdtypes.rst:3062
 msgid "Rather than evaluating to a ``str`` object, template string literals evaluate to a :class:`string.templatelib.Template` object."
@@ -4018,7 +4018,7 @@ msgstr "Kein Argument wird konvertiert, führt zu einem ``'%'``-Zeichen im Ergeb
 
 #: ../../library/stdtypes.rst:3252
 msgid "For floating-point formats, the result should be correctly rounded to a given precision ``p`` of digits after the decimal point.  The rounding mode matches that of the :func:`round` builtin."
-msgstr "Bei Gleitkommaformaten sollte das Ergebnis korrekt auf eine angegebene Präzision p von Nachkommastellen gerundet werden. Der Rundungsmodus entspricht dem des eingebauten :func:round."
+msgstr "Bei Gleitkommaformaten sollte das Ergebnis korrekt auf eine angegebene Präzision ``p`` von Nachkommastellen gerundet werden. Der Rundungsmodus entspricht dem des eingebauten :func:`round`."
 
 #: ../../library/stdtypes.rst:3259 ../../library/stdtypes.rst:4556
 msgid "The alternate form causes a leading octal specifier (``'0o'``) to be inserted before the first digit."
@@ -4266,7 +4266,7 @@ msgstr "Das Entnehmen aller Bytes ist eine Zero-Copy-Operation."
 
 #: ../../library/stdtypes.rst:3550
 msgid "See the :ref:`What's New <whatsnew315-bytearray-take-bytes>` entry for common code patterns which can be optimized with :meth:`bytearray.take_bytes`."
-msgstr "Siehe den Eintrag :ref:Neuerungen <whatsnew315-bytearray-take-bytes> für gängige Code-Muster, die mit :meth:bytearray.take_bytes optimiert werden können."
+msgstr "Siehe den Eintrag :ref:`Neuerungen <whatsnew315-bytearray-take-bytes>` für gängige Code-Muster, die mit :meth:`bytearray.take_bytes` optimiert werden können."
 
 #: ../../library/stdtypes.rst:3554
 msgid "Since bytearray objects are sequences of integers (akin to a list), for a bytearray object *b*, ``b[0]`` will be an integer, while ``b[0:1]`` will be a bytearray object of length 1.  (This contrasts with text strings, where both indexing and slicing will produce a string of length 1)"
@@ -4927,7 +4927,6 @@ msgid "The formatting operations described here exhibit a variety of quirks that
 msgstr "Die hier beschriebenen Formatierungsoperationen weisen eine Reihe von Eigenheiten auf, die zu häufigen Fehlern führen (wie z. B. dem fehlerhaften Darstellen von Tupeln und Dictionaries). Wenn der auszugebende Wert ein Tupel oder Dictionary sein kann, packe ihn in ein Tupel."
 
 #: ../../library/stdtypes.rst:4418
-#, fuzzy
 msgid "Bytes objects (``bytes``/``bytearray``) have one unique built-in operation: the ``%`` operator (modulo). This is also known as the bytes *formatting* or *interpolation* operator. Given ``format % values`` (where *format* is a bytes object), ``%`` conversion specifications in *format* are replaced with zero or more elements of *values*. The effect is similar to using the :c:func:`sprintf` function in the C language."
 msgstr "Bytes-Objekte (``bytes``/``bytearray``) besitzen eine einzigartige eingebaute Operation: den Operator ``%`` (Modulo). Dieser wird auch als Bytes-*Formatierungs*- oder *Interpolations*-Operator bezeichnet. Bei ``format % values`` (wobei *format* ein Bytes-Objekt ist) werden ``%``-Konvertierungsspezifikationen in *format* durch null oder mehr Elemente aus *values* ersetzt. Die Wirkung ähnelt der Verwendung von :c:func:`sprintf` in der Sprache C."
 
@@ -5004,7 +5003,6 @@ msgid ":class:`!memoryview`\\s are :ref:`generic <generics>` over the type of th
 msgstr ":class:`!memoryview`\\s sind über einen Typparameter :ref:`generisch <generics>`, der den Typ ihrer zugrunde liegenden Daten angibt."
 
 #: ../../library/stdtypes.rst:4623
-#, fuzzy
 msgid "``len(view)`` is equal to the length of :meth:`~memoryview.tolist`, which is the nested list representation of the view. If ``view.ndim == 1``, this is equal to the number of elements in the view."
 msgstr "``len(view)`` ist gleich der Länge von :meth:`~memoryview.tolist`, was der verschachtelten Listendarstellung des Views entspricht. Wenn ``view.ndim == 1`` ist, entspricht dies der Anzahl der Elemente im View."
 
@@ -5145,7 +5143,6 @@ msgid "memoryview is now registered automatically with :class:`collections.abc.S
 msgstr "memoryview wird nun automatisch bei :class:`collections.abc.Sequence` registriert"
 
 #: ../../library/stdtypes.rst:4708
-#, fuzzy
 msgid "memoryviews can now be indexed with a tuple of integers."
 msgstr "Memoryviews können nun mit Tupeln aus Ganzzahlen indiziert werden."
 
@@ -5719,7 +5716,7 @@ msgstr "Ein boolescher Wert, der angibt, ob der Speicher :term:`zusammenhängend
 
 #: ../../library/stdtypes.rst:5102
 msgid "For information on the thread safety of :class:`memoryview` objects in the :term:`free-threaded build`, see :ref:`thread-safety-memoryview`."
-msgstr ""
+msgstr "Informationen zur Thread-Sicherheit von :class:`memoryview`-Objekten im :term:`Build mit freien Threads <free-threaded build>` findest du unter :ref:`thread-safety-memoryview`."
 
 #: ../../library/stdtypes.rst:5109
 msgid "Set Types --- :class:`set`, :class:`frozenset`"
@@ -5734,7 +5731,6 @@ msgid "Like other collections, sets support ``x in set``, ``len(set)``, and ``fo
 msgstr "Wie andere Sammlungen unterstützen Mengen ``x in set``, ``len(set)`` und ``for x in set``. Als ungeordnete Sammlung speichern Mengen weder die Position der Elemente noch die Einfügereihenfolge. Dementsprechend unterstützen Mengen weder Indizierung, Slicing noch anderes sequenzartiges Verhalten."
 
 #: ../../library/stdtypes.rst:5125
-#, fuzzy
 msgid "There are currently two built-in set types, :class:`set` and :class:`frozenset`. The :class:`set` type is mutable --- the contents can be changed using methods like :meth:`~set.add` and :meth:`~set.remove`. Since it is mutable, it has no hash value and cannot be used as either a dictionary key or as an element of another set. The :class:`frozenset` type is immutable and :term:`hashable` --- its contents cannot be altered after it is created; it can therefore be used as a dictionary key or as an element of another set."
 msgstr "Derzeit gibt es zwei eingebaute Mengentypen: :class:`set` und :class:`frozenset`. Der Typ :class:`set` ist veränderlich – der Inhalt kann über Methoden wie :meth:`~set.add` und :meth:`~set.remove` geändert werden. Da er veränderlich ist, besitzt er keinen Hashwert und kann weder als Dictionary-Schlüssel noch als Element einer anderen Menge verwendet werden. Der Typ :class:`frozenset` ist unveränderlich und :term:`hashbar <hashable>` – sein Inhalt kann nach der Erstellung nicht mehr geändert werden; er kann daher als Dictionary-Schlüssel oder als Element einer anderen Menge verwendet werden."
 
@@ -5823,9 +5819,8 @@ msgid "Return a shallow copy of the set."
 msgstr "Gibt eine flache Kopie (Shallow Copy) der Menge zurück."
 
 #: ../../library/stdtypes.rst:5228
-#, fuzzy
 msgid "Note, the non-operator versions of :meth:`~frozenset.union`, :meth:`~frozenset.intersection`, :meth:`~frozenset.difference`, :meth:`~frozenset.symmetric_difference`, :meth:`~frozenset.issubset`, and :meth:`~frozenset.issuperset` methods will accept any iterable as an argument.  In contrast, their operator based counterparts require their arguments to be sets.  This precludes error-prone constructions like ``set('abc') & 'cbs'`` in favor of the more readable ``set('abc').intersection('cbs')``."
-msgstr "Beachte, dass die Nicht-Operator-Versionen der Methoden :meth:`union`, :meth:`intersection`, :meth:`difference`, :meth:`symmetric_difference`, :meth:`issubset` und :meth:`issuperset` jedes Iterable als Argument akzeptieren. Im Gegensatz dazu erfordern deren operatorbasierte Gegenstücke, dass ihre Argumente Mengen sind. Dies schließt fehleranfällige Konstruktionen wie ``set('abc') & 'cbs'`` zugunsten des lesbareren ``set('abc').intersection('cbs')`` aus."
+msgstr "Beachte, dass die Nicht-Operator-Versionen der Methoden :meth:`~frozenset.union`, :meth:`~frozenset.intersection`, :meth:`~frozenset.difference`, :meth:`~frozenset.symmetric_difference`, :meth:`~frozenset.issubset` und :meth:`~frozenset.issuperset` jedes Iterable als Argument akzeptieren. Im Gegensatz dazu erfordern deren operatorbasierte Gegenstücke, dass ihre Argumente Mengen sind. Dies schließt fehleranfällige Konstruktionen wie ``set('abc') & 'cbs'`` zugunsten des lesbareren ``set('abc').intersection('cbs')`` aus."
 
 #: ../../library/stdtypes.rst:5235
 msgid "Both :class:`set` and :class:`frozenset` support set to set comparisons. Two sets are equal if and only if every element of each set is contained in the other (each is a subset of the other). A set is less than another set if and only if the first set is a proper subset of the second set (is a subset, but is not equal). A set is greater than another set if and only if the first set is a proper superset of the second set (is a superset, but is not equal)."
@@ -5892,32 +5887,28 @@ msgid "Remove all elements from the set."
 msgstr "Entfernt alle Elemente aus der Menge."
 
 #: ../../library/stdtypes.rst:5306
-#, fuzzy
 msgid "Note, the non-operator versions of the :meth:`~set.update`, :meth:`~set.intersection_update`, :meth:`~set.difference_update`, and :meth:`~set.symmetric_difference_update` methods will accept any iterable as an argument."
-msgstr "Beachte, dass die Nicht-Operator-Versionen der Methoden :meth:`update`, :meth:`intersection_update`, :meth:`difference_update` und :meth:`symmetric_difference_update` jedes Iterable als Argument akzeptieren."
+msgstr "Beachte, dass die Nicht-Operator-Versionen der Methoden :meth:`~set.update`, :meth:`~set.intersection_update`, :meth:`~set.difference_update` und :meth:`~set.symmetric_difference_update` jedes Iterable als Argument akzeptieren."
 
 #: ../../library/stdtypes.rst:5311
-#, fuzzy
 msgid "Note, the *elem* argument to the :meth:`~object.__contains__`, :meth:`~set.remove`, and :meth:`~set.discard` methods may be a set.  To support searching for an equivalent frozenset, a temporary one is created from *elem*."
-msgstr "Beachte, dass das Argument *elem* für die Methoden :meth:`~object.__contains__`, :meth:`remove` und :meth:`discard` eine Menge sein kann. Um die Suche nach einem äquivalenten Frozenset zu unterstützen, wird aus *elem* vorübergehend ein solches erstellt."
+msgstr "Beachte, dass das Argument *elem* für die Methoden :meth:`~object.__contains__`, :meth:`~set.remove` und :meth:`~set.discard` eine Menge sein kann. Um die Suche nach einem äquivalenten Frozenset zu unterstützen, wird aus *elem* vorübergehend ein solches erstellt."
 
 #: ../../library/stdtypes.rst:5316
 msgid "Sets and frozensets are :ref:`generic <generics>` over the type of their elements."
-msgstr "Sets und Frozensets sind über einen Typparameter :ref:generisch <generics>, der den Typ ihrer Elemente angibt."
+msgstr "Sets und Frozensets sind über einen Typparameter :ref:`generisch <generics>`, der den Typ ihrer Elemente angibt."
 
 #: ../../library/stdtypes.rst:5320
 msgid "For detailed information on thread-safety guarantees for :class:`set` objects, see :ref:`thread-safety-set`."
-msgstr "Detaillierte Informationen zu den Thread-Sicherheitsgarantien für Objekte vom Typ :class:set findest du unter :ref:thread-safety-set."
+msgstr "Detaillierte Informationen zu den Thread-Sicherheitsgarantien für Objekte vom Typ :class:`set` findest du unter :ref:`thread-safety-set`."
 
 #: ../../library/stdtypes.rst:5327
-#, fuzzy
 msgid "Mapping types --- :class:`!dict`, :class:`!frozendict`"
-msgstr "Mengen-Typen – :class:`set`, :class:`frozenset`"
+msgstr "Mapping-Typen – :class:`!dict`, :class:`!frozendict`"
 
 #: ../../library/stdtypes.rst:5337
-#, fuzzy
 msgid "A :term:`mapping` object maps :term:`hashable` values to arbitrary objects. There are currently two standard mapping types, the :dfn:`dictionary` and :class:`frozendict`. (For other containers see the built-in :class:`list`, :class:`set`, and :class:`tuple` classes, and the :mod:`collections` module.)"
-msgstr "Ein :term:`Mapping <mapping>`-Objekt bildet :term:`hashbare <hashable>` Werte auf beliebige Objekte ab. Mappings sind veränderliche Objekte. Derzeit gibt es nur einen Standard-Mapping-Typ, das :dfn:`Dictionary`. (Für andere Container siehe die eingebauten Klassen :class:`list`, :class:`set` und :class:`tuple` sowie das Modul :mod:`collections`.)"
+msgstr "Ein :term:`Mapping <mapping>`-Objekt bildet :term:`hashbare <hashable>` Werte auf beliebige Objekte ab. Derzeit gibt es zwei Standard-Mapping-Typen, das :dfn:`Dictionary` und :class:`frozendict`. (Für andere Container siehe die eingebauten Klassen :class:`list`, :class:`set` und :class:`tuple` sowie das Modul :mod:`collections`.)"
 
 #: ../../library/stdtypes.rst:5344
 msgid "A dictionary's keys are *almost* arbitrary values.  Values that are not :term:`hashable`, that is, values containing lists, dictionaries or other mutable types (that are compared by value rather than by object identity) may not be used as keys. Values that compare equal (such as ``1``, ``1.0``, and ``True``) can be used interchangeably to index the same dictionary entry."
@@ -6021,7 +6012,7 @@ msgstr "Die Dictionary-Reihenfolge ist garantiert die Einfügereihenfolge. Diese
 
 #: ../../library/stdtypes.rst:5421
 msgid "Dictionaries are :ref:`generic <generics>` over two types, signifying (respectively) the types of the dictionary's keys and values."
-msgstr "Dictionaries sind über zwei Typparameter :ref:generisch <generics>, was (jeweils) die Typen der Schlüssel und Werte des Dictionarys angeben."
+msgstr "Dictionaries sind über zwei Typparameter :ref:`generisch <generics>`, was (jeweils) die Typen der Schlüssel und Werte des Dictionarys angeben."
 
 #: ../../library/stdtypes.rst:5424
 msgid "These are the operations that dictionaries support (and therefore, custom mapping types should support too):"
@@ -6208,9 +6199,8 @@ msgid "Dictionaries are now reversible."
 msgstr "Dictionaries sind nun umkehrbar."
 
 #: ../../library/stdtypes.rst:5614
-#, fuzzy
 msgid ":class:`frozendict` and :class:`types.MappingProxyType` can be used to create a read-only view of a :class:`dict`."
-msgstr ":class:`types.MappingProxyType` kann verwendet werden, um einen schreibgeschützten View eines :class:`dict` zu erstellen."
+msgstr "Mit :class:`frozendict` und :class:`types.MappingProxyType` kann ein schreibgeschützter View eines :class:`dict` erstellt werden."
 
 #: ../../library/stdtypes.rst:5619
 msgid "For detailed information on thread-safety guarantees for :class:`dict` objects, see :ref:`thread-safety-dict`."
@@ -6351,14 +6341,12 @@ msgstr ""
 "500"
 
 #: ../../library/stdtypes.rst:5730
-#, fuzzy
 msgid "Frozen dictionaries"
-msgstr "Dictionary"
+msgstr "Eingefrorene Dictionaries"
 
 #: ../../library/stdtypes.rst:5736
-#, fuzzy
 msgid "Return a new frozen dictionary initialized from an optional positional argument and a possibly empty set of keyword arguments."
-msgstr "Gibt ein neues Dictionary zurück, initialisiert aus einem optionalen Positionsargument und einer möglicherweise leeren Menge von Schlüsselwort-Argumenten."
+msgstr "Gibt ein neues eingefrorenes Dictionary zurück, initialisiert aus einem optionalen Positionsargument und einer möglicherweise leeren Menge von Schlüsselwort-Argumenten."
 
 #: ../../library/stdtypes.rst:5739
 msgid "A :class:`!frozendict` has a similar API to the :class:`dict` API, with the following differences:"
@@ -6441,9 +6429,8 @@ msgid "Exit the runtime context and return a Boolean flag indicating if any exce
 msgstr "Verlässt den Laufzeitkontext und gibt ein boolesches Flag zurück, das angibt, ob eine aufgetretene Ausnahme unterdrückt werden soll. Wenn während der Ausführung des Körpers der :keyword:`with`-Anweisung eine Ausnahme aufgetreten ist, enthalten die Argumente den Ausnahmetyp, den Wert und Traceback-Informationen. Andernfalls sind alle drei Argumente ``None``."
 
 #: ../../library/stdtypes.rst:5816
-#, fuzzy
 msgid "Returning a true value from this method will cause the :keyword:`with` statement to suppress the exception and continue execution with the statement immediately following the :keyword:`!with` statement. Otherwise the exception continues propagating after this method has finished executing."
-msgstr "Die Rückgabe eines wahren Wertes aus dieser Methode bewirkt, dass die :keyword:`with`-Anweisung die Ausnahme unterdrückt und die Ausführung mit der Anweisung unmittelbar nach der :keyword:`!with`-Anweisung fortsetzt. Andernfalls wird die Ausnahme nach Beendigung dieser Methode weiter weitergeleitet. Ausnahmen, die während der Ausführung dieser Methode auftreten, ersetzen jede Ausnahme, die im Körper der :keyword:`!with`-Anweisung aufgetreten ist."
+msgstr "Die Rückgabe eines wahren Wertes aus dieser Methode bewirkt, dass die :keyword:`with`-Anweisung die Ausnahme unterdrückt und die Ausführung mit der Anweisung unmittelbar nach der :keyword:`!with`-Anweisung fortsetzt. Andernfalls wird die Ausnahme nach Beendigung dieser Methode weiter propagiert."
 
 #: ../../library/stdtypes.rst:5821
 msgid "If this method raises an exception while handling an earlier exception from the :keyword:`with` block, the new exception is raised, and the original exception is stored in its :attr:`~BaseException.__context__` attribute."
@@ -6506,9 +6493,8 @@ msgid "If ``y = re.search(b'bar', b'bar')``, (note the ``b`` for :class:`bytes`)
 msgstr "Wenn ``y = re.search(b'bar', b'bar')`` ist (beachte das ``b`` für :class:`bytes`), ist ``y`` ebenfalls eine Instanz von ``re.Match``, die Rückgabewerte von ``y.group(0)`` und ``y[0]`` sind jedoch beide vom Typ :class:`bytes`. In Typ-Annotationen würden wir diese Variante von :ref:`re.Match <match-objects>`-Objekten mit ``re.Match[bytes]`` darstellen."
 
 #: ../../library/stdtypes.rst:5910
-#, fuzzy
 msgid "``GenericAlias`` objects are instances of the class :class:`types.GenericAlias`, which can also be used to create ``GenericAlias`` objects directly. Specializations of user-defined :ref:`generic classes <generic-classes>` may not be instances of :class:`types.GenericAlias`, but they provide similar functionality."
-msgstr "``GenericAlias``-Objekte sind Instanzen der Klasse :class:`types.GenericAlias`, mit der ``GenericAlias``-Objekte auch direkt erstellt werden können."
+msgstr "``GenericAlias``-Objekte sind Instanzen der Klasse :class:`types.GenericAlias`, mit der ``GenericAlias``-Objekte auch direkt erstellt werden können. Spezialisierungen benutzerdefinierter :ref:`generischer Klassen <generic-classes>` sind möglicherweise keine Instanzen von :class:`types.GenericAlias`, bieten aber ähnliche Funktionalität."
 
 #: ../../library/stdtypes.rst:5917
 msgid "Creates a ``GenericAlias`` representing a type ``T`` parameterized by types *X*, *Y*, and more depending on the ``T`` used. For example, a function expecting a :class:`list` containing :class:`float` elements::"
@@ -6601,9 +6587,8 @@ msgstr ""
 "False"
 
 #: ../../library/stdtypes.rst:5969
-#, fuzzy
 msgid "This is true for :ref:`user-defined generics <user-defined-generics>` also."
-msgstr ":ref:`Generics`, :ref:`benutzerdefinierte Generics <user-defined-generics>` und :class:`typing.Generic`"
+msgstr "Dies gilt auch für :ref:`benutzerdefinierte Generics <user-defined-generics>`."
 
 #: ../../library/stdtypes.rst:5971
 msgid "Calling :func:`repr` or :func:`str` on a generic shows the parameterized type::"
@@ -6680,9 +6665,8 @@ msgid ":class:`set`"
 msgstr ":class:`set`"
 
 #: ../../library/stdtypes.rst:6007
-#, fuzzy
 msgid ":class:`frozendict`"
-msgstr ":class:`frozenset`"
+msgstr ":class:`frozendict`"
 
 #: ../../library/stdtypes.rst:6008
 msgid ":class:`frozenset`"
@@ -6995,9 +6979,8 @@ msgstr ""
 "    return number ** 2"
 
 #: ../../library/stdtypes.rst:6155
-#, fuzzy
 msgid "The ``|`` operator cannot be used at runtime to define unions where one or more members is a forward reference. For example, ``int | \"Foo\"``, where ``\"Foo\"`` is a reference to a class not yet defined, will fail at runtime. For unions which include forward references, present the whole expression as a string, e.g. ``\"int | Foo\"``."
-msgstr "Der Operand ``|`` kann zur Laufzeit nicht verwendet werden, um Unions zu definieren, bei denen ein oder mehrere Elemente Vorwärtsreferenzen (Forward References) sind. Beispielsweise schlägt ``int | \"Foo\"`` zur Laufzeit fehl, wenn ``\"Foo\"`` eine Referenz auf eine noch nicht definierte Klasse ist. Für Unions, die Vorwärtsreferenzen enthalten, sollte der gesamte Ausdruck als String angegeben werden, z. B. ``\"int | Foo\"``."
+msgstr "Der Operator ``|`` kann zur Laufzeit nicht verwendet werden, um Unions zu definieren, bei denen ein oder mehrere Elemente Vorwärtsreferenzen (Forward References) sind. Beispielsweise schlägt ``int | \"Foo\"`` zur Laufzeit fehl, wenn ``\"Foo\"`` eine Referenz auf eine noch nicht definierte Klasse ist. Für Unions, die Vorwärtsreferenzen enthalten, sollte der gesamte Ausdruck als String angegeben werden, z. B. ``\"int | Foo\"``."
 
 #: ../../library/stdtypes.rst:6163
 msgid "Union objects can be tested for equality with other union objects.  Details:"
@@ -7192,7 +7175,6 @@ msgid "Methods"
 msgstr "Methoden"
 
 #: ../../library/stdtypes.rst:6311
-#, fuzzy
 msgid "Methods are functions that are called using the attribute notation. There are two flavors: :ref:`built-in methods <builtin-methods>` (such as :meth:`~list.append` on lists) and :ref:`class instance methods <instance-methods>`. Built-in methods are described with the types that support them."
 msgstr "Methoden sind Funktionen, die mittels Attributnotation aufgerufen werden. Es gibt zwei Arten: :ref:`eingebaute Methoden <builtin-methods>` (wie :meth:`~list.append` bei Listen) und :ref:`Klasseninstanzmethoden <instance-methods>`. Eingebaute Methoden werden bei den Typen beschrieben, die sie unterstützen."
 
