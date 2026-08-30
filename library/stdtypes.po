@@ -4449,7 +4449,7 @@ msgstr "Das zu suchende Trennzeichen kann jedes :term:`Byte-ähnliche Objekt <by
 #: ../../library/stdtypes.rst:3788
 #, fuzzy
 msgid "Return a copy of the sequence with all occurrences of subsequence *old* replaced by *new*.  If *count* is given, only the first *count* occurrences are replaced.  If *count* is not specified or ``-1``, then all occurrences are replaced."
-msgstr "Gibt eine Kopie des Strings zurück, bei der alle Vorkommen des Teilstrings *old* durch *new* ersetzt wurden. Wenn *count* angegeben ist, werden nur die ersten *count* Vorkommen ersetzt. Wenn *count* nicht angegeben oder ``-1`` ist, werden alle Vorkommen ersetzt."
+msgstr "Gibt eine Kopie der Sequenz zurück, in der alle Vorkommen der Teilsequenz *old* durch *new* ersetzt wurden. Wird *count* angegeben, werden nur die ersten *count* Vorkommen ersetzt. Wird *count* nicht angegeben oder ist ``-1``, werden alle Vorkommen ersetzt."
 
 #: ../../library/stdtypes.rst:3793
 msgid "The subsequence to search for and its replacement may be any :term:`bytes-like object`."
