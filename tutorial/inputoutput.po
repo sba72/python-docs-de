@@ -471,8 +471,8 @@ msgid ""
 "This is particularly useful in combination with the built-in function :func:"
 "`vars`, which returns a dictionary containing all local variables::"
 msgstr ""
-"Dies ist besonders nützlich in Kombination mit der integrierten Funktion:"
-"func:`vars`, die ein Wörterbuch zurückgibt, das alle lokalen Variablen "
+"Dies ist besonders nützlich in Kombination mit der integrierten Funktion "
+":func:`vars`, die ein Wörterbuch zurückgibt, das alle lokalen Variablen "
 "enthält::"
 
 #: ../../tutorial/inputoutput.rst:217

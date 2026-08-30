@@ -6,7 +6,6 @@
 # Translators:
 # python-doc bot, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
@@ -2862,9 +2861,8 @@ msgstr ""
 "'lower method example'"
 
 #: ../../library/stdtypes.rst:2389
-#, fuzzy
 msgid "The lowercasing algorithm used is `described in section 3.13.2 'Default Case Conversion' of the Unicode Standard <https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-3/#G34078>`__."
-msgstr "Der verwendete Algorithmus zur Kleinschreibung ist in `Abschnitt 3.13.2 'Default Case Conversion' des Unicode-Standards <https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-3/#G33992>`__ beschrieben."
+msgstr "Der verwendete Algorithmus zur Kleinschreibung ist in `Abschnitt 3.13.2 'Default Case Conversion' des Unicode-Standards <https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-3/#G33992>`__ beschrieben."
 
 #: ../../library/stdtypes.rst:2396
 msgid "Return a copy of the string with leading characters removed.  The *chars* argument is a string specifying the set of characters to be removed.  If omitted or ``None``, the *chars* argument defaults to removing whitespace.  The *chars* argument is not a prefix; rather, all combinations of its values are stripped::"
@@ -4447,7 +4445,6 @@ msgid "The separator to search for may be any :term:`bytes-like object`."
 msgstr "Das zu suchende Trennzeichen kann jedes :term:`Byte-ähnliche Objekt <bytes-like object>` sein."
 
 #: ../../library/stdtypes.rst:3788
-#, fuzzy
 msgid "Return a copy of the sequence with all occurrences of subsequence *old* replaced by *new*.  If *count* is given, only the first *count* occurrences are replaced.  If *count* is not specified or ``-1``, then all occurrences are replaced."
 msgstr "Gibt eine Kopie der Sequenz zurück, in der alle Vorkommen der Teilsequenz *old* durch *new* ersetzt wurden. Wird *count* angegeben, werden nur die ersten *count* Vorkommen ersetzt. Wird *count* nicht angegeben oder ist ``-1``, werden alle Vorkommen ersetzt."
 
@@ -5009,7 +5006,7 @@ msgstr ":class:`!memoryview`\\s sind über einen Typparameter :ref:`generisch <g
 #: ../../library/stdtypes.rst:4623
 #, fuzzy
 msgid "``len(view)`` is equal to the length of :meth:`~memoryview.tolist`, which is the nested list representation of the view. If ``view.ndim == 1``, this is equal to the number of elements in the view."
-msgstr "``len(view)`` ist gleich der Länge von :class:`~memoryview.tolist`, was der verschachtelten Listendarstellung des Views entspricht. Wenn ``view.ndim == 1`` ist, entspricht dies der Anzahl der Elemente im View."
+msgstr "``len(view)`` ist gleich der Länge von :meth:`~memoryview.tolist`, was der verschachtelten Listendarstellung des Views entspricht. Wenn ``view.ndim == 1`` ist, entspricht dies der Anzahl der Elemente im View."
 
 #: ../../library/stdtypes.rst:4627
 msgid "If ``view.ndim == 0``, ``len(view)`` now raises :exc:`TypeError` instead of returning 1."
