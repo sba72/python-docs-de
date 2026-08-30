@@ -4314,7 +4314,7 @@ msgid ""
 "for example this variable is expected to take :class:`int` values::"
 msgstr ""
 "Variablenannotationen werden in der Regel für :term:`Typangaben <type "
-"hint>`verwendet – beispielsweise wird erwartet, dass diese Variable Werte "
+"hint>` verwendet – beispielsweise wird erwartet, dass diese Variable Werte "
 "vom Typ :class:`int` annimmt::"
 
 #: ../../glossary.rst:1703

@@ -4247,7 +4247,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:2198
 msgid "See also :meth:`isdecimal` and :meth:`isnumeric`."
-msgstr "Siehe auch :meth:`rfind` und :meth:`index`."
+msgstr "Siehe auch :meth:`isdecimal` und :meth:`isnumeric`."
 
 #: ../../library/stdtypes.rst:2203
 msgid ""
@@ -4333,7 +4333,7 @@ msgstr ""
 
 #: ../../library/stdtypes.rst:2247
 msgid "See also :meth:`isdecimal` and :meth:`isdigit`."
-msgstr "Siehe auch :meth:`rfind` und :meth:`index`."
+msgstr "Siehe auch :meth:`isdecimal` und :meth:`isdigit`."
 
 #: ../../library/stdtypes.rst:2252
 msgid ""
@@ -10260,7 +10260,7 @@ msgstr ""
 "Ähnlich wie :meth:`dict.fromkeys`, ruft jedoch erneut den Typkonstruktor mit "
 "einem initialisierten :class:`frozendict` auf, falls der Typ eine "
 "Unterklasse von :class:`frozendict` ist oder falls der Konstruktor ein "
-"``frozendict`` zurückgegeben hat."
+":class:`frozendict` zurückgegeben hat."
 
 #: ../../library/stdtypes.rst:5777
 msgid "Context Manager Types"
