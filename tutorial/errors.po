@@ -452,9 +452,9 @@ msgstr ""
 "ihrer Unterklassen, :exc:`Exception`, ist die Basisklasse für alle nicht "
 "schwerwiegenden Ausnahmen. Ausnahmen, die keine Unterklassen von :exc:"
 "`Exception` sind, werden in der Regel nicht behandelt, da sie dazu dienen, "
-"anzuzeigen, dass das Programm beendet werden soll. Dazu gehören "
-":exc:`SystemExit`, die von :meth:`sys.exit` ausgelöst wird, und "
-":exc:`KeyboardInterrupt`, die ausgelöst wird, wenn ein Benutzer das Programm "
+"anzuzeigen, dass das Programm beendet werden soll. Dazu gehören :exc:"
+"`SystemExit`, die von :meth:`sys.exit` ausgelöst wird, und :exc:"
+"`KeyboardInterrupt`, die ausgelöst wird, wenn ein Benutzer das Programm "
 "unterbrechen möchte."
 
 #: ../../tutorial/errors.rst:194

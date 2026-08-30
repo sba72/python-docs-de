@@ -10259,8 +10259,8 @@ msgid ""
 msgstr ""
 "Ähnlich wie :meth:`dict.fromkeys`, ruft jedoch erneut den Typkonstruktor mit "
 "einem initialisierten :class:`frozendict` auf, falls der Typ eine "
-"Unterklasse von :class:`frozendict` ist oder falls der Konstruktor ein "
-":class:`frozendict` zurückgegeben hat."
+"Unterklasse von :class:`frozendict` ist oder falls der Konstruktor ein :"
+"class:`frozendict` zurückgegeben hat."
 
 #: ../../library/stdtypes.rst:5777
 msgid "Context Manager Types"

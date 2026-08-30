@@ -125,9 +125,9 @@ msgid ""
 msgstr ""
 "Eine zweite Möglichkeit, den Interpreter zu starten, ist ``python -c Befehl "
 "[arg] ...``. Dies führt die Anweisung(en) in *Befehl* aus, analog zur "
-"Option :option:`-c` der Shell. Da Python-Anweisungen häufig Leerzeichen "
-"oder andere Sonderzeichen der Shell enthalten, empfiehlt es sich in der "
-"Regel, *Befehl* vollständig in Anführungszeichen zu setzen."
+"Option :option:`-c` der Shell. Da Python-Anweisungen häufig Leerzeichen oder "
+"andere Sonderzeichen der Shell enthalten, empfiehlt es sich in der Regel, "
+"*Befehl* vollständig in Anführungszeichen zu setzen."
 
 #: ../../tutorial/interpreter.rst:57
 msgid ""

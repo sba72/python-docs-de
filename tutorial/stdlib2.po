@@ -548,9 +548,9 @@ msgid ""
 "shortly after the last reference to it has been eliminated."
 msgstr ""
 "Python verfügt über eine automatische Speicherverwaltung (Referenzzählung "
-"für die meisten Objekte und :term:`Garbage Collection <garbage collection>` zur Beseitigung von "
-"Zyklen). Der Speicher wird kurz nach dem Wegfall der letzten Referenz darauf "
-"freigegeben."
+"für die meisten Objekte und :term:`Garbage Collection <garbage collection>` "
+"zur Beseitigung von Zyklen). Der Speicher wird kurz nach dem Wegfall der "
+"letzten Referenz darauf freigegeben."
 
 #: ../../tutorial/stdlib2.rst:254
 msgid ""

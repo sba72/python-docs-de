@@ -2361,9 +2361,9 @@ msgid ""
 "information about the types used by user-defined functions (see :pep:`3107` "
 "and :pep:`484` for more information)."
 msgstr ""
-":ref:`Funktions-Annotationen <function>` sind völlig optionale "
-"Metadaten-Informationen über die Typen, die von benutzerdefinierten "
-"Funktionen verwendet werden (siehe :pep:`3107` und :pep:`484` für weitere "
+":ref:`Funktions-Annotationen <function>` sind völlig optionale Metadaten-"
+"Informationen über die Typen, die von benutzerdefinierten Funktionen "
+"verwendet werden (siehe :pep:`3107` und :pep:`484` für weitere "
 "Informationen)."
 
 #: ../../tutorial/controlflow.rst:1080

@@ -409,8 +409,8 @@ msgid ""
 "variable binding::"
 msgstr ""
 "Dies ist ein Beispiel, das zeigt, wie auf die verschiedenen "
-"Gültigkeitsbereiche und Namensräume zugegriffen wird und wie "
-":keyword:`global` und :keyword:`nonlocal` die Variablenbindung beeinflussen::"
+"Gültigkeitsbereiche und Namensräume zugegriffen wird und wie :keyword:"
+"`global` und :keyword:`nonlocal` die Variablenbindung beeinflussen::"
 
 #: ../../tutorial/classes.rst:168
 msgid ""
