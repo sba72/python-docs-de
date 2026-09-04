@@ -14,12 +14,12 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.x"
 
@@ -33,7 +33,7 @@ jobs:
           find . -name "*.po" -exec powrap --quiet {} +
 
       - name: Commit & Push formatted PO files
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: "Auto-format PO files to 80 chars [skip ci]"
           file_pattern: "*.po"
