@@ -34,8 +34,8 @@ msgid ""
 msgstr ""
 "Auf Rechnern, auf denen der Python-Interpreter verfügbar ist, ist er "
 "üblicherweise unter |usr_local_bin_python_x_dot_y_literal| installiert. Wenn "
-"du :file:`/usr/local/bin` in den Suchpfad Ihrer Unix-Shell aufnehmen, "
-"kannst du ihn durch Eingabe des Befehls"
+"du :file:`/usr/local/bin` in den Suchpfad Ihrer Unix-Shell aufnehmen, kannst "
+"du ihn durch Eingabe des Befehls"
 
 #: ../../tutorial/interpreter.rst:17
 msgid "python3.15"
