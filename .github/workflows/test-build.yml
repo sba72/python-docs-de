@@ -29,11 +29,11 @@ jobs:
       - uses: actions/checkout@master
         with:
           ref: ${{ matrix.version }}
-          path: Doc/locales/XX/LC_MESSAGES
+          path: Doc/locales/de/LC_MESSAGES
       - run: git pull
-        working-directory: ./Doc/locales/XX/LC_MESSAGES
+        working-directory: ./Doc/locales/de/LC_MESSAGES
       - uses: sphinx-doc/github-problem-matcher@v1.1
-      - run: make -e SPHINXOPTS="--color -D language='XX' -D suppress_warnings=i18n.inconsistent_references -W --keep-going" ${{ matrix.format }}
+      - run: make -e SPHINXOPTS="--color -D language='de' -D suppress_warnings=i18n.inconsistent_references -W --keep-going" ${{ matrix.format }}
         working-directory: ./Doc
       - uses: actions/upload-artifact@master
         if: success() || failure()
@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        version: [ '3.15', '3.14' ]
+        version: [ '3.15' ]   # version: [ '3.15', '3.14' ]
     needs: [ 'build-translation' ]
     steps:
       - uses: actions/download-artifact@master
