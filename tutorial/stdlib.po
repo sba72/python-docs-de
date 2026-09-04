@@ -57,7 +57,7 @@ msgid ""
 "This will keep :func:`os.open` from shadowing the built-in :func:`open` "
 "function which operates much differently."
 msgstr ""
-"Verwenden Sie unbedingt den Stil ``import os`` anstelle von ``from os import "
+"Verwende unbedingt den Stil ``import os`` anstelle von ``from os import "
 "*`` “. Dadurch wird verhindert, dass :func:`os.open` die integrierte "
 "Funktion :func:`open` überschreibt, die ganz anders funktioniert."
 
@@ -431,7 +431,7 @@ msgstr ""
 #: ../../tutorial/stdlib.rst:204
 msgid "(Note that the second example needs a mailserver running on localhost.)"
 msgstr ""
-"(Beachten Sie, dass für das zweite Beispiel ein auf „localhost“ laufender "
+"(Beachte, dass für das zweite Beispiel ein auf „localhost“ laufender "
 "Mailserver erforderlich ist.)"
 
 #: ../../tutorial/stdlib.rst:210

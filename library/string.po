@@ -1739,7 +1739,7 @@ msgstr ""
 "Führt die Ersetzung der Vorlage durch und gibt eine neue Zeichenkette "
 "zurück. *mapping* ist ein beliebiges Dictionary-ähnliches Objekt mit "
 "Schlüsseln, die den Platzhaltern in der Vorlage entsprechen. Alternativ "
-"können Sie Schlüsselwort-\"Argumente angeben, wobei die Schlüsselwörter die "
+"kannst du Schlüsselwort-\"Argumente angeben, wobei die Schlüsselwörter die "
 "Platzhalter sind. Wenn sowohl *mapping* als auch *kwds* angegeben sind und "
 "es Überschneidungen gibt, haben die Platzhalter aus *kwds* Vorrang."
 
@@ -1802,7 +1802,7 @@ msgid ""
 "general, you shouldn't change it, but read-only access is not enforced."
 msgstr ""
 "Dies ist das Objekt, das an das *template*-Argument des Konstruktors "
-"übergeben wird. Im Allgemeinen sollten Sie es nicht ändern, allerdings wird "
+"übergeben wird. Im Allgemeinen solltest du es nicht ändern, allerdings wird "
 "ein schreibgeschützter Zugriff nicht erzwungen."
 
 #: ../../library/string.rst:911

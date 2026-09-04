@@ -1109,8 +1109,8 @@ msgid ""
 msgstr ""
 "Einige Objekte definieren Standardbereinigungsaktionen, die durchgeführt "
 "werden, wenn das Objekt nicht mehr benötigt wird, unabhängig davon, ob der "
-"Vorgang mit dem Objekt erfolgreich war oder fehlgeschlagen ist. Schauen Sie "
-"sich das folgende Beispiel an, in dem versucht wird, eine Datei zu öffnen "
+"Vorgang mit dem Objekt erfolgreich war oder fehlgeschlagen ist. Schau dir "
+" das folgende Beispiel an, in dem versucht wird, eine Datei zu öffnen "
 "und ihren Inhalt auf dem Bildschirm auszugeben. ::"
 
 #: ../../tutorial/errors.rst:499
