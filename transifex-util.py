@@ -112,4 +112,3 @@ if __name__ == "__main__":
     VERSION = options.version
 
     globals()[options.cmd]()
-    
