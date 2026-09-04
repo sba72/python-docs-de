@@ -249,8 +249,8 @@ msgid ""
 "If no exception occurs, the *except clause* is skipped and execution of the :"
 "keyword:`try` statement is finished."
 msgstr ""
-"Wenn keine Ausnahme auftritt, wird die *except-Klausel übersprungen und die "
-"Ausführung von der :keyword:`try` Anweisung beendet."
+"Wenn keine Ausnahme auftritt, wird die *except-Klausel* übersprungen, "
+"und die Ausführung der :keyword:`try`-Anweisung ist abgeschlossen."
 
 #: ../../tutorial/errors.rst:111
 msgid ""
