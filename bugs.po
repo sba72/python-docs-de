@@ -67,8 +67,8 @@ msgid ""
 "<TRANSLATION_REPO_>`_ instead."
 msgstr ""
 "Wenn der Fehler oder der Verbesserungsvorschlag die Übersetzung dieser "
-"Dokumentation betrifft, reiche den Bericht stattdessen im `Repository der "
-"Übersetzung <TRANSLATION_REPO_>`_ ein."
+"Dokumentation betrifft, reiche den Bericht stattdessen im `translation’s "
+"repository <TRANSLATION_REPO_>`_ ein."
 
 #: ../../bugs.rst:31
 msgid ""
@@ -90,7 +90,7 @@ msgstr ""
 
 #: ../../bugs.rst:40
 msgid "`Documentation bugs`_"
-msgstr "`Dokumentationsfehler <Documentation bugs_>`_"
+msgstr "`Documentation bugs`_"
 
 #: ../../bugs.rst:41
 msgid ""
@@ -279,6 +279,6 @@ msgstr ""
 "Neben dem reinen Melden gefundener Fehler bist du herzlich eingeladen, "
 "Patches zur Behebung einzureichen. Weitere Informationen zu den ersten "
 "Schritten beim Patchen von Python findest du im `Python Developer's Guide`_. "
-"Wenn du Fragen hast, ist die `Core-Mentorship-Mailingliste <core-mentorship "
-"mailing list_>`_ eine hilfsbereite Anlaufstelle für alle Fragen rund um das "
+"Wenn du Fragen hast, ist die `core-mentorship mailing list`_ "
+"eine hilfsbereite Anlaufstelle für alle Fragen rund um das "
 "Beheben von Problemen in Python."
