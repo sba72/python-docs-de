@@ -140,9 +140,9 @@ msgid ""
 msgstr ""
 "Schließlich kannst du die gesamte Zeichenfolgenbearbeitung selbst "
 "übernehmen, indem du Zeichenfolgenausschnitte und Verkettungsoperationen "
-"nutzt, um jedes erdenkliche Layout zu erstellen. Der Typ "
-"\"Zeichenfolge\" verfügt über einige Methoden, mit denen sich Zeichenfolgen "
-"auf eine bestimmte Spaltenbreite auffüllen lassen."
+"nutzt, um jedes erdenkliche Layout zu erstellen. Der Typ \"Zeichenfolge\" "
+"verfügt über einige Methoden, mit denen sich Zeichenfolgen auf eine "
+"bestimmte Spaltenbreite auffüllen lassen."
 
 #: ../../tutorial/inputoutput.rst:62
 msgid ""
