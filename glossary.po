@@ -4054,7 +4054,7 @@ msgid ""
 msgstr ""
 "Jeder Thread-Zustand ist an einen einzelnen Betriebssystem-Thread gebunden, "
 "aber Threads können über mehrere Thread-Zustände verfügen.  Höchstens einer "
-"davon darf gleichzeitig :term:` <attached thread state>` sein."
+"davon darf gleichzeitig :term:`attached <attached thread state>` sein."
 
 #: ../../glossary.rst:1599
 msgid ""
