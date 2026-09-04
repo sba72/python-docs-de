@@ -1807,7 +1807,7 @@ msgstr ""
 
 #: ../../library/string.rst:911
 msgid "Here is an example of how to use a Template::"
-msgstr "Hier ist ein Beispiel für die Verwendung von :class:`Template`::"
+msgstr "Hier ist ein Beispiel für die Verwendung eines Template::"
 
 #: ../../library/string.rst:913
 msgid ""
