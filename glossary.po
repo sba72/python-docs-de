@@ -1303,7 +1303,6 @@ msgid "expression"
 msgstr "Ausdruck"
 
 #: ../../glossary.rst:509
-#, fuzzy
 msgid ""
 "A piece of syntax which can be evaluated to some value.  In other words, an "
 "expression is an accumulation of expression elements like literals, names, "

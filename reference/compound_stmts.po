@@ -6,7 +6,6 @@
 # Translators:
 # python-doc bot, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
@@ -2095,49 +2094,49 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:1170
 msgid ":class:`bool`"
-msgstr ""
+msgstr ":class:`bool`"
 
 #: ../../reference/compound_stmts.rst:1171
 msgid ":class:`bytearray`"
-msgstr ""
+msgstr ":class:`bytearray`"
 
 #: ../../reference/compound_stmts.rst:1172
 msgid ":class:`bytes`"
-msgstr ""
+msgstr ":class:`bytes`"
 
 #: ../../reference/compound_stmts.rst:1173
 msgid ":class:`dict`"
-msgstr ""
+msgstr ":class:`dict`"
 
 #: ../../reference/compound_stmts.rst:1174
 msgid ":class:`float`"
-msgstr ""
+msgstr ":class:`float`"
 
 #: ../../reference/compound_stmts.rst:1175
 msgid ":class:`frozenset`"
-msgstr ""
+msgstr ":class:`frozenset`"
 
 #: ../../reference/compound_stmts.rst:1176
 msgid ":class:`int`"
-msgstr ""
+msgstr ":class:`int`"
 
 #: ../../reference/compound_stmts.rst:1177
 #: ../../reference/compound_stmts.rst:1936
 msgid ":class:`list`"
-msgstr ""
+msgstr ":class:`list`"
 
 #: ../../reference/compound_stmts.rst:1178
 msgid ":class:`set`"
-msgstr ""
+msgstr ":class:`set`"
 
 #: ../../reference/compound_stmts.rst:1179
 msgid ":class:`str`"
-msgstr ""
+msgstr ":class:`str`"
 
 #: ../../reference/compound_stmts.rst:1180
 #: ../../reference/compound_stmts.rst:1939
 msgid ":class:`tuple`"
-msgstr ""
+msgstr ":class:`tuple`"
 
 #: ../../reference/compound_stmts.rst:1182
 msgid ""
@@ -3600,19 +3599,19 @@ msgstr "Die folgenden Klassen der Standardbibliothek sind Sequenzen:"
 
 #: ../../reference/compound_stmts.rst:1934
 msgid ":class:`array.array`"
-msgstr ""
+msgstr ":class:`array.array`"
 
 #: ../../reference/compound_stmts.rst:1935
 msgid ":class:`collections.deque`"
-msgstr ""
+msgstr ":class:`collections.deque`"
 
 #: ../../reference/compound_stmts.rst:1937
 msgid ":class:`memoryview`"
-msgstr ""
+msgstr ":class:`memoryview`"
 
 #: ../../reference/compound_stmts.rst:1938
 msgid ":class:`range`"
-msgstr ""
+msgstr ":class:`range`"
 
 #: ../../reference/compound_stmts.rst:1941
 msgid ""
@@ -3676,7 +3675,7 @@ msgstr ""
 
 #: ../../reference/compound_stmts.rst:7
 msgid "compound"
-msgstr ""
+msgstr "zusammengesetzt"
 
 #: ../../reference/compound_stmts.rst:7 ../../reference/compound_stmts.rst:86
 #: ../../reference/compound_stmts.rst:111
@@ -3694,31 +3693,31 @@ msgstr ""
 #: ../../reference/compound_stmts.rst:1544
 #: ../../reference/compound_stmts.rst:1589
 msgid "statement"
-msgstr ""
+msgstr "Anweisung"
 
 #: ../../reference/compound_stmts.rst:21
 msgid "clause"
-msgstr ""
+msgstr "Klausel"
 
 #: ../../reference/compound_stmts.rst:21
 msgid "suite"
-msgstr ""
+msgstr "Block"
 
 #: ../../reference/compound_stmts.rst:21
 msgid "; (semicolon)"
-msgstr ""
+msgstr "; (Semikolon)"
 
 #: ../../reference/compound_stmts.rst:64
 msgid "NEWLINE token"
-msgstr ""
+msgstr "NEWLINE-Token"
 
 #: ../../reference/compound_stmts.rst:64
 msgid "DEDENT token"
-msgstr ""
+msgstr "DEDENT token"
 
 #: ../../reference/compound_stmts.rst:64
 msgid "dangling"
-msgstr ""
+msgstr "hängend"
 
 #: ../../reference/compound_stmts.rst:64 ../../reference/compound_stmts.rst:86
 #: ../../reference/compound_stmts.rst:111
@@ -3726,11 +3725,11 @@ msgstr ""
 #: ../../reference/compound_stmts.rst:207
 #: ../../reference/compound_stmts.rst:397
 msgid "else"
-msgstr ""
+msgstr "else"
 
 #: ../../reference/compound_stmts.rst:86 ../../reference/compound_stmts.rst:605
 msgid "if"
-msgstr ""
+msgstr "if"
 
 #: ../../reference/compound_stmts.rst:86 ../../reference/compound_stmts.rst:111
 #: ../../reference/compound_stmts.rst:144
@@ -3742,11 +3741,11 @@ msgstr ""
 #: ../../reference/compound_stmts.rst:605
 #: ../../reference/compound_stmts.rst:1520
 msgid "keyword"
-msgstr ""
+msgstr "Schlüsselwort"
 
 #: ../../reference/compound_stmts.rst:86
 msgid "elif"
-msgstr ""
+msgstr "elif"
 
 #: ../../reference/compound_stmts.rst:86 ../../reference/compound_stmts.rst:111
 #: ../../reference/compound_stmts.rst:144
@@ -3757,7 +3756,7 @@ msgstr ""
 #: ../../reference/compound_stmts.rst:1342
 #: ../../reference/compound_stmts.rst:1400
 msgid ": (colon)"
-msgstr ""
+msgstr ": (Doppelpunkt)"
 
 #: ../../reference/compound_stmts.rst:86 ../../reference/compound_stmts.rst:111
 #: ../../reference/compound_stmts.rst:144
@@ -3767,93 +3766,93 @@ msgstr ""
 #: ../../reference/compound_stmts.rst:1212
 #: ../../reference/compound_stmts.rst:1400
 msgid "compound statement"
-msgstr ""
+msgstr "zusammengesetzte Anweisung"
 
 #: ../../reference/compound_stmts.rst:111
 msgid "while"
-msgstr ""
+msgstr "while"
 
 #: ../../reference/compound_stmts.rst:111
 #: ../../reference/compound_stmts.rst:144
 msgid "loop"
-msgstr ""
+msgstr "Schleife"
 
 #: ../../reference/compound_stmts.rst:129
 #: ../../reference/compound_stmts.rst:169
 #: ../../reference/compound_stmts.rst:397
 #: ../../reference/compound_stmts.rst:446
 msgid "break"
-msgstr ""
+msgstr "break"
 
 #: ../../reference/compound_stmts.rst:129
 #: ../../reference/compound_stmts.rst:169
 #: ../../reference/compound_stmts.rst:397
 #: ../../reference/compound_stmts.rst:446
 msgid "continue"
-msgstr ""
+msgstr "continue"
 
 #: ../../reference/compound_stmts.rst:144
 msgid "for"
-msgstr ""
+msgstr "for"
 
 #: ../../reference/compound_stmts.rst:144
 msgid "in"
-msgstr ""
+msgstr "in"
 
 #: ../../reference/compound_stmts.rst:144
 msgid "target"
-msgstr ""
+msgstr "Ziel"
 
 #: ../../reference/compound_stmts.rst:144
 msgid "list"
-msgstr ""
+msgstr "Liste"
 
 #: ../../reference/compound_stmts.rst:144
 #: ../../reference/compound_stmts.rst:301
 #: ../../reference/compound_stmts.rst:1212
 #: ../../reference/compound_stmts.rst:1400
 msgid "object"
-msgstr ""
+msgstr "Objekt"
 
 #: ../../reference/compound_stmts.rst:144
 msgid "sequence"
-msgstr ""
+msgstr "Sequenz"
 
 #: ../../reference/compound_stmts.rst:190
 msgid "built-in function"
-msgstr ""
+msgstr "integrierte Funktion"
 
 #: ../../reference/compound_stmts.rst:190
 msgid "range"
-msgstr ""
+msgstr "range"
 
 #: ../../reference/compound_stmts.rst:207
 msgid "try"
-msgstr ""
+msgstr "try"
 
 #: ../../reference/compound_stmts.rst:207
 msgid "except"
-msgstr ""
+msgstr "except"
 
 #: ../../reference/compound_stmts.rst:207
 #: ../../reference/compound_stmts.rst:415
 msgid "finally"
-msgstr ""
+msgstr "finally"
 
 #: ../../reference/compound_stmts.rst:207
 #: ../../reference/compound_stmts.rst:268
 #: ../../reference/compound_stmts.rst:484
 #: ../../reference/compound_stmts.rst:605
 msgid "as"
-msgstr ""
+msgstr "as"
 
 #: ../../reference/compound_stmts.rst:268
 msgid "except clause"
-msgstr ""
+msgstr "except-Klausel"
 
 #: ../../reference/compound_stmts.rst:301
 msgid "module"
-msgstr ""
+msgstr "Modul"
 
 #: ../../reference/compound_stmts.rst:301
 msgid "sys"
@@ -3861,71 +3860,71 @@ msgstr "sys"
 
 #: ../../reference/compound_stmts.rst:301
 msgid "traceback"
-msgstr ""
+msgstr "Traceback"
 
 #: ../../reference/compound_stmts.rst:330
 msgid "except_star"
-msgstr ""
+msgstr "except_star"
 
 #: ../../reference/compound_stmts.rst:397
 #: ../../reference/compound_stmts.rst:446
 msgid "return"
-msgstr ""
+msgstr "return"
 
 #: ../../reference/compound_stmts.rst:484
 msgid "with"
-msgstr ""
+msgstr "with"
 
 #: ../../reference/compound_stmts.rst:484
 msgid "with statement"
-msgstr ""
+msgstr "with-Anweisung"
 
 #: ../../reference/compound_stmts.rst:484
 #: ../../reference/compound_stmts.rst:1212
 #: ../../reference/compound_stmts.rst:1400
 msgid ", (comma)"
-msgstr ""
+msgstr ", (Komma)"
 
 #: ../../reference/compound_stmts.rst:605
 msgid "match"
-msgstr ""
+msgstr "match"
 
 #: ../../reference/compound_stmts.rst:605
 msgid "case"
-msgstr ""
+msgstr "case"
 
 #: ../../reference/compound_stmts.rst:605
 msgid "pattern matching"
-msgstr ""
+msgstr "Musterabgleich"
 
 #: ../../reference/compound_stmts.rst:605
 msgid "match statement"
-msgstr ""
+msgstr "match-Anweisung"
 
 #: ../../reference/compound_stmts.rst:709
 msgid "guard"
-msgstr ""
+msgstr "Guard"
 
 #: ../../reference/compound_stmts.rst:748
 msgid "irrefutable case block"
-msgstr ""
+msgstr "unwiderlegbarer case-Block"
 
 #: ../../reference/compound_stmts.rst:748
 msgid "case block"
-msgstr ""
+msgstr "case-Block"
 
 #: ../../reference/compound_stmts.rst:772
 msgid "! patterns"
-msgstr ""
+msgstr "! Muster "
 
 #: ../../reference/compound_stmts.rst:772
 msgid "AS pattern, OR pattern, capture pattern, wildcard pattern"
-msgstr ""
+msgstr "AS-Muster, OR-Muster, Erfassungsmuster, Wildcard-Muster"
 
 #: ../../reference/compound_stmts.rst:1203
 #: ../../reference/compound_stmts.rst:1292
 msgid "parameter"
-msgstr ""
+msgstr "Parameter"
 
 #: ../../reference/compound_stmts.rst:1203
 #: ../../reference/compound_stmts.rst:1212
@@ -3933,49 +3932,49 @@ msgstr ""
 #: ../../reference/compound_stmts.rst:1292
 #: ../../reference/compound_stmts.rst:1321
 msgid "function definition"
-msgstr ""
+msgstr "Funktionsdefinition"
 
 #: ../../reference/compound_stmts.rst:1212
 msgid "def"
-msgstr ""
+msgstr "def"
 
 #: ../../reference/compound_stmts.rst:1212
 #: ../../reference/compound_stmts.rst:1342
 msgid "function"
-msgstr ""
+msgstr "Funktion"
 
 #: ../../reference/compound_stmts.rst:1212
 #: ../../reference/compound_stmts.rst:1400
 msgid "definition"
-msgstr ""
+msgstr "Definition"
 
 #: ../../reference/compound_stmts.rst:1212
 #: ../../reference/compound_stmts.rst:1400
 msgid "name"
-msgstr ""
+msgstr "Name"
 
 #: ../../reference/compound_stmts.rst:1212
 #: ../../reference/compound_stmts.rst:1400
 msgid "binding"
-msgstr ""
+msgstr "Bindung"
 
 #: ../../reference/compound_stmts.rst:1212
 msgid "user-defined function"
-msgstr ""
+msgstr "benutzerdefinierte Funktion"
 
 #: ../../reference/compound_stmts.rst:1212
 #: ../../reference/compound_stmts.rst:1400
 msgid "() (parentheses)"
-msgstr ""
+msgstr "() (Klammern)"
 
 #: ../../reference/compound_stmts.rst:1212
 msgid "parameter list"
-msgstr ""
+msgstr "Parameterliste"
 
 #: ../../reference/compound_stmts.rst:1256
 #: ../../reference/compound_stmts.rst:1450
 msgid "@ (at)"
-msgstr ""
+msgstr "@ (At-Zeichen)"
 
 #: ../../reference/compound_stmts.rst:1292
 msgid "default"
@@ -3987,93 +3986,93 @@ msgstr "Wert"
 
 #: ../../reference/compound_stmts.rst:1292
 msgid "argument"
-msgstr ""
+msgstr "Argument"
 
 #: ../../reference/compound_stmts.rst:1292
 msgid "= (equals)"
-msgstr ""
+msgstr "= (Gleichheitszeichen)"
 
 #: ../../reference/compound_stmts.rst:1321
 msgid "/ (slash)"
-msgstr ""
+msgstr " / (Schrägstrich)"
 
 #: ../../reference/compound_stmts.rst:1321
 msgid "* (asterisk)"
-msgstr ""
+msgstr "* (Sternchen)"
 
 #: ../../reference/compound_stmts.rst:1321
 msgid "**"
-msgstr ""
+msgstr "**"
 
 #: ../../reference/compound_stmts.rst:1342
 msgid "annotations"
-msgstr ""
+msgstr "Annotationen"
 
 #: ../../reference/compound_stmts.rst:1342
 msgid "->"
-msgstr ""
+msgstr "->"
 
 #: ../../reference/compound_stmts.rst:1342
 msgid "function annotations"
-msgstr ""
+msgstr "Funktionsannotationen"
 
 #: ../../reference/compound_stmts.rst:1359
 msgid "lambda"
-msgstr ""
+msgstr "lambda"
 
 #: ../../reference/compound_stmts.rst:1359
 msgid "expression"
-msgstr ""
+msgstr "Ausdruck"
 
 #: ../../reference/compound_stmts.rst:1400
 msgid "class"
-msgstr ""
+msgstr "class"
 
 #: ../../reference/compound_stmts.rst:1400
 msgid "execution"
-msgstr ""
+msgstr "Ausführung"
 
 #: ../../reference/compound_stmts.rst:1400
 msgid "frame"
-msgstr ""
+msgstr "Frame"
 
 #: ../../reference/compound_stmts.rst:1400
 msgid "inheritance"
-msgstr ""
+msgstr "Vererbung"
 
 #: ../../reference/compound_stmts.rst:1400
 msgid "docstring"
-msgstr ""
+msgstr "Docstring"
 
 #: ../../reference/compound_stmts.rst:1400
 #: ../../reference/compound_stmts.rst:1450
 msgid "class definition"
-msgstr ""
+msgstr "Klassendefinition"
 
 #: ../../reference/compound_stmts.rst:1400
 msgid "expression list"
-msgstr ""
+msgstr "Ausdrucksliste"
 
 #: ../../reference/compound_stmts.rst:1510
 msgid "async def"
-msgstr ""
+msgstr "async def"
 
 #: ../../reference/compound_stmts.rst:1520
 msgid "async"
-msgstr ""
+msgstr "async"
 
 #: ../../reference/compound_stmts.rst:1520
 msgid "await"
-msgstr ""
+msgstr "await"
 
 #: ../../reference/compound_stmts.rst:1544
 msgid "async for"
-msgstr ""
+msgstr "async for"
 
 #: ../../reference/compound_stmts.rst:1589
 msgid "async with"
-msgstr ""
+msgstr "async with"
 
 #: ../../reference/compound_stmts.rst:1647
 msgid "type parameters"
-msgstr ""
+msgstr "Typparameter"
