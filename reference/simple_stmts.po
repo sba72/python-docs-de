@@ -1015,7 +1015,7 @@ msgstr ""
 "mit dem Traceback ausgelöst, den sie zum Zeitpunkt ihrer Abfangung hatte."
 
 msgid "The :keyword:`!break` statement"
-msgstr "Die Erklärung der :keyword:`!break` Anweisung.
+msgstr "Die Erklärung der :keyword:`!break` Anweisung."
 
 msgid ""
 ":keyword:`break` may only occur syntactically nested in a :keyword:`for` or "
@@ -1457,7 +1457,7 @@ msgstr ""
 "Interpreters eingegeben wird, gilt für den Rest der Interpreter-Sitzung. "
 "Wird ein Interpreter mit der Option  :option:`-i` gestartet, ihm ein "
 "auszuführender Skriptname übergeben und enthält das Skript eine "
- \"future\"-Anweisung, so gilt diese in der interaktiven Sitzung, die nach der "
+"\"future\"-Anweisung, so gilt diese in der interaktiven Sitzung, die nach der "
 "Ausführung des Skripts gestartet wird."
 
 msgid ":pep:`236` - Back to the __future__"
@@ -1467,7 +1467,7 @@ msgid "The original proposal for the __future__ mechanism."
 msgstr "Der ursprüngliche Vorschlag für den __future__-Mechanismus."
 
 msgid "The :keyword:`!global` statement"
-msgstr "Die Erklärung der :keyword:`!global` .
+msgstr "Die Erklärung der :keyword:`!global` ."
 
 msgid ""
 "The :keyword:`global` statement causes the listed identifiers to be "
