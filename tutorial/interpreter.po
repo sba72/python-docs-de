@@ -7,22 +7,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-09-05 16:53+0200\n"
 "PO-Revision-Date: 2026-07-31 00:02+0000\n"
 "Last-Translator: Swen Bachmann <142266608+sba72@users.noreply.github.com>\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../../tutorial/interpreter.rst:5
 msgid "Using the Python Interpreter"
 msgstr "Verwendung des Python-Interpreters"
 
+#: ../../tutorial/interpreter.rst:11
 msgid "Invoking the Interpreter"
 msgstr "Aufrufen des Interpreters"
 
+#: ../../tutorial/interpreter.rst:13
 msgid ""
 "The Python interpreter is usually installed as |"
 "usr_local_bin_python_x_dot_y_literal| on those machines where it is "
@@ -34,9 +37,11 @@ msgstr ""
 "Sie :file:`/usr/local/bin` in den Suchpfad Ihrer Unix-Shell aufnehmen, "
 "können Sie ihn durch Eingabe des Befehls"
 
+#: ../../tutorial/interpreter.rst:17
 msgid "python3.14"
 msgstr "python3.14"
 
+#: ../../tutorial/interpreter.rst:21
 msgid ""
 "to the shell. [#]_ Since the choice of the directory where the interpreter "
 "lives is an installation option, other places are possible; check with your "
@@ -48,6 +53,7 @@ msgstr ""
 "lokalen Python-Guru oder Systemadministrator. (Ein beliebter alternativer "
 "Ort ist z. B. :file:`/usr/local/python`.)"
 
+#: ../../tutorial/interpreter.rst:26
 msgid ""
 "On Windows machines where you have installed Python from the :ref:`Microsoft "
 "Store <windows-store>`, the |python_x_dot_y_literal| command will be "
@@ -61,40 +67,42 @@ msgstr ""
 "können Sie den Befehl :file:`py` nutzen. Siehe :ref:`setting-envvars` für "
 "weitere Möglichkeiten, Python zu starten."
 
+#: ../../tutorial/interpreter.rst:31
 msgid ""
 "Typing an end-of-file character (:kbd:`Control-D` on Unix, :kbd:`Control-Z` "
 "on Windows) at the primary prompt causes the interpreter to exit with a zero "
 "exit status.  If that doesn't work, you can exit the interpreter by typing "
 "the following command: ``quit()``."
 msgstr ""
-"Wenn Sie an der primären Eingabeaufforderung das Dateiende-Zeichen (:kbd:"
-"`Control-D` unter Unix, :kbd:`Control-Z` unter Windows) eingeben, beendet "
-"sich der Interpreter mit dem Statuscode 0. Falls das nicht funktioniert, "
-"können Sie den Interpreter mit dem Befehl ``quit()`` beenden."
+"Wenn Sie an der primären Eingabeaufforderung das Dateiende-Zeichen "
+"(:kbd:`Control-D` unter Unix, :kbd:`Control-Z` unter Windows) eingeben, "
+"beendet sich der Interpreter mit dem Statuscode 0. Falls das nicht "
+"funktioniert, können Sie den Interpreter mit dem Befehl ``quit()`` beenden."
 
+#: ../../tutorial/interpreter.rst:36
 msgid ""
 "The interpreter's line-editing features include interactive editing, history "
-"substitution and code completion on systems that support the `GNU Readline "
-"<https://tiswww.case.edu/php/chet/readline/rltop.html>`_ library. Perhaps "
-"the quickest check to see whether command line editing is supported is "
-"typing :kbd:`Control-P` to the first Python prompt you get.  If it beeps, "
-"you have command line editing; see Appendix :ref:`tut-interacting` for an "
-"introduction to the keys.  If nothing appears to happen, or if ``^P`` is "
-"echoed, command line editing isn't available; you'll only be able to use "
-"backspace to remove characters from the current line."
+"substitution and code completion on most systems. Perhaps the quickest check "
+"to see whether command line editing is supported is typing a word in on the "
+"Python prompt, then pressing Left arrow (or :kbd:`Control-b`). If the cursor "
+"moves, you have command line editing; see Appendix :ref:`tut-interacting` "
+"for an introduction to the keys. If nothing appears to happen, or if a "
+"sequence like ``^[[D`` or ``^B`` appears, command line editing isn't "
+"available; you'll only be able to use backspace to remove characters from "
+"the current line."
 msgstr ""
-"Zu den Funktionen des Interpreters für die Kommandozeilenbearbeitung gehören "
-"interaktives Bearbeiten, Befehlshistorie und Code-Vervollständigung auf "
-"Systemen, die die Bibliothek `GNU Readline <https://tiswww.case.edu/php/chet/"
-"readline/rltop.html>`_ unterstützen. Um schnell zu prüfen, ob die "
-"Kommandozeilenbearbeitung unterstützt wird, drücke am ersten Python-Prompt :"
-"kbd:`Control-P`. Wenn ein Signalton ertönt, ist die "
-"Kommandozeilenbearbeitung verfügbar. Anhang :ref:`tut-interacting` bietet "
-"eine Einführung in die Tastenbelegung. Wenn scheinbar nichts passiert oder "
-"wird ``^P`` ausgegeben, ist Kommandozeilenbearbeitung nicht verfügbar und du "
-"kannst dann nur die Rückschritttaste nutzen, um Zeichen aus der aktuellen "
-"Zeile zu löschen."
+"Zu den Zeilenbearbeitungs-Funktionen des Interpreters gehören auf den "
+"meisten Systemen interaktives Bearbeiten, Befehlshistorie und Code-"
+"Vervollständigung. Am schnellsten prüfst du die Verfügbarkeit der "
+"Kommandozeilenbearbeitung, indem du am Python-Prompt ein Wort eintippst und "
+"dann die Pfeiltaste nach links (oder :kbd:`Control-b`) drückst. Bewegt sich "
+"der Cursor, ist die Kommandozeilenbearbeitung verfügbar; eine Einführung in "
+"die Tasten findest du im Anhang :ref:`tut-interacting`. Passiert scheinbar "
+"nichts oder erscheint eine Sequenz wie ``^[[D`` oder ``^B``, ist die "
+"Kommandozeilenbearbeitung nicht verfügbar; du kannst dann nur die "
+"Rückschritttaste verwenden, um Zeichen aus der aktuellen Zeile zu entfernen."
 
+#: ../../tutorial/interpreter.rst:46
 msgid ""
 "The interpreter operates somewhat like the Unix shell: when called with "
 "standard input connected to a tty device, it reads and executes commands "
@@ -107,19 +115,22 @@ msgstr ""
 "oder einer Datei als Standardeingabe aufgerufen, liest und führt er ein "
 "*Skript* aus dieser Datei aus."
 
+#: ../../tutorial/interpreter.rst:51
 msgid ""
 "A second way of starting the interpreter is ``python -c command [arg] ...``, "
-"which executes the statement(s) in *command*, analogous to the shell's :"
-"option:`-c` option.  Since Python statements often contain spaces or other "
-"characters that are special to the shell, it is usually advised to quote "
-"*command* in its entirety."
+"which executes the statement(s) in *command*, analogous to the "
+"shell's :option:`-c` option.  Since Python statements often contain spaces "
+"or other characters that are special to the shell, it is usually advised to "
+"quote *command* in its entirety."
 msgstr ""
 "Eine zweite Möglichkeit, den Interpreter zu starten, ist ``python -c Befehl "
-"[arg] ...``. Dies führt die Anweisung(en) in *Befehl* aus, analog zur "
-"Option :-option:`-c` der Shell. Da Python-Anweisungen häufig Leerzeichen "
+"[arg] ...``. Dies führt die Anweisung(en) in *Befehl* aus, analog "
+"zur :option:`-c`-Option der Shell. Da Python-Anweisungen häufig "
+"Leerzeichen "
 "oder andere Sonderzeichen der Shell enthalten, empfiehlt es sich in der "
 "Regel, *Befehl* vollständig in Anführungszeichen zu setzen."
 
+#: ../../tutorial/interpreter.rst:57
 msgid ""
 "Some Python modules are also useful as scripts.  These can be invoked using "
 "``python -m module [arg] ...``, which executes the source file for *module* "
@@ -130,22 +141,26 @@ msgstr ""
 "*Modul* so ausführt, als hättest du ihren vollständigen Namen auf der "
 "Kommandozeile angegeben."
 
+#: ../../tutorial/interpreter.rst:61
 msgid ""
 "When a script file is used, it is sometimes useful to be able to run the "
-"script and enter interactive mode afterwards.  This can be done by passing :"
-"option:`-i` before the script."
+"script and enter interactive mode afterwards.  This can be done by "
+"passing :option:`-i` before the script."
 msgstr ""
 "Wenn eine Skriptdatei verwendet wird, ist es manchmal nützlich, das Skript "
 "auszuführen und danach in den interaktiven Modus zu wechseln. Dazu kannst "
 "du :option:`-i` vor dem Skript übergeben."
 
+#: ../../tutorial/interpreter.rst:65
 msgid "All command line options are described in :ref:`using-on-general`."
 msgstr ""
 "Alle Kommandozeilen-Optionen sind in :ref:`using-on-general` beschrieben."
 
+#: ../../tutorial/interpreter.rst:71
 msgid "Argument Passing"
 msgstr "Argumentübergabe"
 
+#: ../../tutorial/interpreter.rst:73
 msgid ""
 "When known to the interpreter, the script name and additional arguments "
 "thereafter are turned into a list of strings and assigned to the ``argv`` "
@@ -166,17 +181,19 @@ msgstr ""
 "indem du ``import sys`` ausführst. Die Länge der Liste beträgt mindestens "
 "eins. Werden weder ein Skript noch Argumente angegeben, ist ``sys.argv[0]`` "
 "eine leere Zeichenkette. Wird der Skriptname als ``'-'`` angegeben (was "
-"Standardeingabe bedeutet), wird ``sys.argv[0]`` auf ``'-'`` gesetzt. Wird :"
-"option:`-c` *Befehl* verwendet, wird ``sys.argv[0]`` auf ``'-c'`` gesetzt. "
-"Wird :option:`-m` *Modul* verwendet, wird ``sys.argv[0]`` auf den "
+"Standardeingabe bedeutet), wird ``sys.argv[0]`` auf ``'-'`` gesetzt. "
+"Wird :option:`-c` *Befehl* verwendet, wird ``sys.argv[0]`` auf ``'-c'`` "
+"gesetzt. Wird :option:`-m` *Modul* verwendet, wird ``sys.argv[0]`` auf den "
 "vollständigen Namen des gefundenen Moduls gesetzt. Optionen nach :option:`-"
 "c` *Befehl* oder :option:`-m` *Modul* werden nicht von der "
-"Optionenverarbeitung des Python-Interpreters verbraucht, sondern in ``sys."
-"argv`` belassen, damit der Befehl oder das Modul sie verarbeiten kann."
+"Optionenverarbeitung des Python-Interpreters verbraucht, sondern in "
+"``sys.argv`` belassen, damit der Befehl oder das Modul sie verarbeiten kann."
 
+#: ../../tutorial/interpreter.rst:89
 msgid "Interactive Mode"
 msgstr "Interaktiver Modus"
 
+#: ../../tutorial/interpreter.rst:91
 msgid ""
 "When commands are read from a tty, the interpreter is said to be in "
 "*interactive mode*.  In this mode it prompts for the next command with the "
@@ -193,6 +210,7 @@ msgstr ""
 "Interpreter gibt eine Begrüßungsmeldung mit seiner Versionsnummer und einem "
 "Urheberrechtshinweis aus, bevor er den ersten Prompt anzeigt:"
 
+#: ../../tutorial/interpreter.rst:98
 msgid ""
 "$ python3.14\n"
 "Python 3.14 (default, April 4 2024, 09:25:04)\n"
@@ -208,6 +226,7 @@ msgstr ""
 "information.\n"
 ">>>"
 
+#: ../../tutorial/interpreter.rst:108
 msgid ""
 "Continuation lines are needed when entering a multi-line construct. As an "
 "example, take a look at this :keyword:`if` statement::"
@@ -215,6 +234,7 @@ msgstr ""
 "Fortsetzungszeilen sind erforderlich, wenn du eine mehrzeilige Anweisung "
 "eingibst. Sieh dir als Beispiel diese :keyword:`if`-Anweisung an::"
 
+#: ../../tutorial/interpreter.rst:111
 msgid ""
 ">>> the_world_is_flat = True\n"
 ">>> if the_world_is_flat:\n"
@@ -228,17 +248,21 @@ msgstr ""
 "...\n"
 "Be careful not to fall off!"
 
+#: ../../tutorial/interpreter.rst:118
 msgid "For more on interactive mode, see :ref:`tut-interac`."
 msgstr ""
 "Weitere Informationen zum interaktiven Modus findest du unter :ref:`tut-"
 "interac`."
 
+#: ../../tutorial/interpreter.rst:124
 msgid "The Interpreter and Its Environment"
 msgstr "Der Interpreter und seine Umgebung"
 
+#: ../../tutorial/interpreter.rst:130
 msgid "Source Code Encoding"
 msgstr "Quelltext-Codierung"
 
+#: ../../tutorial/interpreter.rst:132
 msgid ""
 "By default, Python source files are treated as encoded in UTF-8.  In that "
 "encoding, characters of most languages in the world can be used "
@@ -257,6 +281,7 @@ msgstr ""
 "vorliegt, und eine Schriftart verwenden, die alle Zeichen in der Datei "
 "unterstützt."
 
+#: ../../tutorial/interpreter.rst:140
 msgid ""
 "To declare an encoding other than the default one, a special comment line "
 "should be added as the *first* line of the file.  The syntax is as follows::"
@@ -265,14 +290,17 @@ msgstr ""
 "Kommentarzeile als *erste* Zeile der Datei eingefügt werden. Die Syntax "
 "sieht wie folgt aus::"
 
+#: ../../tutorial/interpreter.rst:143
 msgid "# -*- coding: encoding -*-"
 msgstr "# -*- coding: encoding -*-"
 
+#: ../../tutorial/interpreter.rst:145
 msgid "where *encoding* is one of the valid :mod:`codecs` supported by Python."
 msgstr ""
 "wobei *encoding* eine der gültigen, von Python unterstützten :mod:`codecs` "
 "ist."
 
+#: ../../tutorial/interpreter.rst:147
 msgid ""
 "For example, to declare that Windows-1252 encoding is to be used, the first "
 "line of your source code file should be::"
@@ -280,9 +308,11 @@ msgstr ""
 "Um beispielsweise anzugeben, dass die Windows-1252-Codierung verwendet wird, "
 "sollte die erste Zeile deiner Quelltext-Datei wie folgt aussehen::"
 
+#: ../../tutorial/interpreter.rst:150
 msgid "# -*- coding: cp1252 -*-"
 msgstr "# -*- coding: cp1252 -*-"
 
+#: ../../tutorial/interpreter.rst:152
 msgid ""
 "One exception to the *first line* rule is when the source code starts with "
 "a :ref:`UNIX \"shebang\" line <tut-scripts>`.  In this case, the encoding "
@@ -293,6 +323,7 @@ msgstr ""
 "Fall sollte die Codierungsdeklaration als zweite Zeile der Datei eingefügt "
 "werden. Zum Beispiel::"
 
+#: ../../tutorial/interpreter.rst:156
 msgid ""
 "#!/usr/bin/env python3\n"
 "# -*- coding: cp1252 -*-"
@@ -300,9 +331,11 @@ msgstr ""
 "#!/usr/bin/env python3\n"
 "# -*- coding: cp1252 -*-"
 
+#: ../../tutorial/interpreter.rst:160
 msgid "Footnotes"
 msgstr "Fußnoten"
 
+#: ../../tutorial/interpreter.rst:161
 msgid ""
 "On Unix, the Python 3.x interpreter is by default not installed with the "
 "executable named ``python``, so that it does not conflict with a "
@@ -311,3 +344,27 @@ msgstr ""
 "Unter Unix wird der Python-3.x-Interpreter standardmäßig nicht unter dem "
 "Namen ``python`` installiert, damit er nicht mit einer gleichzeitig "
 "installierten Python-2.x-Datei kollidiert."
+
+#~ msgid ""
+#~ "The interpreter's line-editing features include interactive editing, "
+#~ "history substitution and code completion on systems that support the `GNU "
+#~ "Readline <https://tiswww.case.edu/php/chet/readline/rltop.html>`_ "
+#~ "library. Perhaps the quickest check to see whether command line editing "
+#~ "is supported is typing :kbd:`Control-P` to the first Python prompt you "
+#~ "get.  If it beeps, you have command line editing; see Appendix :ref:`tut-"
+#~ "interacting` for an introduction to the keys.  If nothing appears to "
+#~ "happen, or if ``^P`` is echoed, command line editing isn't available; "
+#~ "you'll only be able to use backspace to remove characters from the "
+#~ "current line."
+#~ msgstr ""
+#~ "Zu den Funktionen des Interpreters für die Kommandozeilenbearbeitung "
+#~ "gehören interaktives Bearbeiten, Befehlshistorie und Code-"
+#~ "Vervollständigung auf Systemen, die die Bibliothek `GNU Readline <https://"
+#~ "tiswww.case.edu/php/chet/readline/rltop.html>`_ unterstützen. Um schnell "
+#~ "zu prüfen, ob die Kommandozeilenbearbeitung unterstützt wird, drücke am "
+#~ "ersten Python-Prompt :kbd:`Control-P`. Wenn ein Signalton ertönt, ist die "
+#~ "Kommandozeilenbearbeitung verfügbar. Anhang :ref:`tut-interacting` bietet "
+#~ "eine Einführung in die Tastenbelegung. Wenn scheinbar nichts passiert "
+#~ "oder wird ``^P`` ausgegeben, ist Kommandozeilenbearbeitung nicht "
+#~ "verfügbar und du kannst dann nur die Rückschritttaste nutzen, um Zeichen "
+#~ "aus der aktuellen Zeile zu löschen."

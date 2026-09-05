@@ -10,19 +10,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-09-05 16:53+0200\n"
 "PO-Revision-Date: 2026-08-10 00:02+0000\n"
 "Last-Translator: Swen Bachmann <142266608+sba72@users.noreply.github.com>\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../../tutorial/classes.rst:5
 msgid "Classes"
 msgstr "Klassen"
 
+#: ../../tutorial/classes.rst:7
 msgid ""
 "Classes provide a means of bundling data and functionality together.  "
 "Creating a new class creates a new *type* of object, allowing new "
@@ -37,6 +39,7 @@ msgstr ""
 "Klasseninstanzen können auch über Methoden (definiert durch ihre Klasse) "
 "verfügen, um ihren Zustand zu ändern."
 
+#: ../../tutorial/classes.rst:13
 msgid ""
 "Compared with other programming languages, Python's class mechanism adds "
 "classes with a minimum of new syntax and semantics.  It is a mixture of the "
@@ -61,6 +64,7 @@ msgstr ""
 "von Python aus: Sie werden zur Laufzeit erzeugt und können nach ihrer "
 "Erstellung weiter verändert werden."
 
+#: ../../tutorial/classes.rst:23
 msgid ""
 "In C++ terminology, normally class members (including the data members) are "
 "*public* (except see below :ref:`tut-private`), and all member functions are "
@@ -87,6 +91,7 @@ msgstr ""
 "Operatoren mit spezieller Syntax (arithmetische Operatoren, Indizierung "
 "usw.) für Klasseninstanzen neu definiert werden."
 
+#: ../../tutorial/classes.rst:34
 msgid ""
 "(Lacking universally accepted terminology to talk about classes, I will make "
 "occasional use of Smalltalk and C++ terms.  I would use Modula-3 terms, "
@@ -99,9 +104,11 @@ msgstr ""
 "näher kommt als die von C++, aber ich nehme an, dass nur wenige Leser davon "
 "gehört haben.)"
 
+#: ../../tutorial/classes.rst:43
 msgid "A Word About Names and Objects"
 msgstr "Ein Wort zu Namen und Objekten"
 
+#: ../../tutorial/classes.rst:45
 msgid ""
 "Objects have individuality, and multiple names (in multiple scopes) can be "
 "bound to the same object.  This is known as aliasing in other languages.  "
@@ -131,9 +138,11 @@ msgstr ""
 "--- was zwei verschiedene Mechanismen zur Argumentübergabe wie in Pascal "
 "überflüssig macht."
 
+#: ../../tutorial/classes.rst:61
 msgid "Python Scopes and Namespaces"
 msgstr "Python-Gültigkeitsbereiche und Namensräume"
 
+#: ../../tutorial/classes.rst:63
 msgid ""
 "Before introducing classes, I first have to tell you something about "
 "Python's scope rules.  Class definitions play some neat tricks with "
@@ -148,9 +157,11 @@ msgstr ""
 "verstehen, was passiert. Nebenbei bemerkt ist das Wissen über dieses Thema "
 "für jeden fortgeschrittenen Python-Programmierer nützlich."
 
+#: ../../tutorial/classes.rst:69
 msgid "Let's begin with some definitions."
 msgstr "Beginnen wir mit einigen Definitionen."
 
+#: ../../tutorial/classes.rst:71
 msgid ""
 "A *namespace* is a mapping from names to objects.  Most namespaces are "
 "currently implemented as Python dictionaries, but that's normally not "
@@ -177,6 +188,7 @@ msgstr ""
 "ohne Verwirrung definieren --- Benutzer der Module müssen ihr den Modulnamen "
 "voranstellen."
 
+#: ../../tutorial/classes.rst:82
 msgid ""
 "By the way, I use the word *attribute* for any name following a dot --- for "
 "example, in the expression ``z.real``, ``real`` is an attribute of the "
@@ -195,6 +207,7 @@ msgstr ""
 "im Modul definierten globalen Namen: Sie teilen sich denselben Namensraum! "
 "[#]_"
 
+#: ../../tutorial/classes.rst:90
 msgid ""
 "Attributes may be read-only or writable.  In the latter case, assignment to "
 "attributes is possible.  Module attributes are writable: you can write "
@@ -210,6 +223,7 @@ msgstr ""
 "entfernt ``del modname.the_answer`` das Attribut :attr:`!the_answer` aus dem "
 "Objekt namens ``modname``."
 
+#: ../../tutorial/classes.rst:96
 msgid ""
 "Namespaces are created at different moments and have different lifetimes.  "
 "The namespace containing the built-in names is created when the Python "
@@ -217,9 +231,9 @@ msgid ""
 "module is created when the module definition is read in; normally, module "
 "namespaces also last until the interpreter quits.  The statements executed "
 "by the top-level invocation of the interpreter, either read from a script "
-"file or interactively, are considered part of a module called :mod:"
-"`__main__`, so they have their own global namespace.  (The built-in names "
-"actually also live in a module; this is called :mod:`builtins`.)"
+"file or interactively, are considered part of a module "
+"called :mod:`__main__`, so they have their own global namespace.  (The built-"
+"in names actually also live in a module; this is called :mod:`builtins`.)"
 msgstr ""
 "Namensräume werden zu unterschiedlichen Zeitpunkten erstellt und haben "
 "unterschiedliche Lebensdauern. Der Namensraum, der die eingebauten Namen "
@@ -228,11 +242,12 @@ msgstr ""
 "Moduldefinition erstellt, normalerweise bleiben Modulnamensräume ebenfalls "
 "bestehen, bis der Interpreter beendet wird. Die Anweisungen, die auf "
 "oberster Ebene des Interpreters ausgeführt werden, sei es aus einer "
-"Skriptdatei oder interaktiv, gelten als Teil eines Moduls namens :mod:"
-"`__main__` und haben daher ihren eigenen globalen Namensraum. (Die "
-"eingebauten Namen befinden sich eigentlich ebenfalls in einem Modul; dieses "
-"heißt :mod:`builtins`.)"
+"Skriptdatei oder interaktiv, gelten als Teil eines Moduls "
+"namens :mod:`__main__` und haben daher ihren eigenen globalen Namensraum. "
+"(Die eingebauten Namen befinden sich eigentlich ebenfalls in einem Modul; "
+"dieses heißt :mod:`builtins`.)"
 
+#: ../../tutorial/classes.rst:106
 msgid ""
 "The local namespace for a function is created when the function is called, "
 "and deleted when the function returns or raises an exception that is not "
@@ -247,6 +262,7 @@ msgstr ""
 "Selbstverständlich haben rekursive Aufrufe jeweils ihren eigenen lokalen "
 "Namensraum."
 
+#: ../../tutorial/classes.rst:112
 msgid ""
 "A *scope* is a textual region of a Python program where a namespace is "
 "directly accessible.  \"Directly accessible\" here means that an unqualified "
@@ -257,6 +273,7 @@ msgstr ""
 "zugänglich\" bedeutet hier, dass eine unqualifizierte Referenz auf einen "
 "Namen versucht, den Namen in diesem Namensraum zu finden."
 
+#: ../../tutorial/classes.rst:116
 msgid ""
 "Although scopes are determined statically, they are used dynamically. At any "
 "time during execution, there are 3 or 4 nested scopes whose namespaces are "
@@ -266,11 +283,13 @@ msgstr ""
 "verwendet. Zu jedem Zeitpunkt der Ausführung gibt es 3 oder 4 verschachtelte "
 "Gültigkeitsbereiche, deren Namensräume direkt zugänglich sind:"
 
+#: ../../tutorial/classes.rst:120
 msgid "the innermost scope, which is searched first, contains the local names"
 msgstr ""
 "der innerste Gültigkeitsbereich, der zuerst durchsucht wird, enthält die "
 "lokalen Namen"
 
+#: ../../tutorial/classes.rst:121
 msgid ""
 "the scopes of any enclosing functions, which are searched starting with the "
 "nearest enclosing scope, contain non-local, but also non-global names"
@@ -279,11 +298,13 @@ msgstr ""
 "nächstgelegenen umgebenden Bereich durchsucht werden, enthalten nicht-"
 "lokale, aber auch nicht-globale Namen"
 
+#: ../../tutorial/classes.rst:123
 msgid "the next-to-last scope contains the current module's global names"
 msgstr ""
 "der vorletzte Gültigkeitsbereich enthält die globalen Namen des aktuellen "
 "Moduls"
 
+#: ../../tutorial/classes.rst:124
 msgid ""
 "the outermost scope (searched last) is the namespace containing built-in "
 "names"
@@ -291,14 +312,15 @@ msgstr ""
 "der äußerste Gültigkeitsbereich (der zuletzt durchsucht wird) ist der "
 "Namensraum, der die eingebauten Namen enthält"
 
+#: ../../tutorial/classes.rst:126
 msgid ""
 "If a name is declared global, then all references and assignments go "
 "directly to the next-to-last scope containing the module's global names.  To "
-"rebind variables found outside of the innermost scope, the :keyword:"
-"`nonlocal` statement can be used; if not declared nonlocal, those variables "
-"are read-only (an attempt to write to such a variable will simply create a "
-"*new* local variable in the innermost scope, leaving the identically named "
-"outer variable unchanged)."
+"rebind variables found outside of the innermost scope, "
+"the :keyword:`nonlocal` statement can be used; if not declared nonlocal, "
+"those variables are read-only (an attempt to write to such a variable will "
+"simply create a *new* local variable in the innermost scope, leaving the "
+"identically named outer variable unchanged)."
 msgstr ""
 "Wird ein Name als global deklariert, gehen alle Referenzen und Zuweisungen "
 "direkt an den vorletzten Gültigkeitsbereich, der die globalen Namen des "
@@ -309,6 +331,7 @@ msgstr ""
 "schreiben, erzeugt lediglich eine *neue* lokale Variable im innersten "
 "Gültigkeitsbereich und lässt die gleichnamige äußere Variable unverändert)."
 
+#: ../../tutorial/classes.rst:133
 msgid ""
 "Usually, the local scope references the local names of the (textually) "
 "current function.  Outside functions, the local scope references the same "
@@ -321,6 +344,7 @@ msgstr ""
 "Gültigkeitsbereich: den Namensraum des Moduls. Klassendefinitionen "
 "platzieren einen weiteren Namensraum im lokalen Gültigkeitsbereich."
 
+#: ../../tutorial/classes.rst:138
 msgid ""
 "It is important to realize that scopes are determined textually: the global "
 "scope of a function defined in a module is that module's namespace, no "
@@ -340,31 +364,33 @@ msgstr ""
 "dynamische Namensauflösung! (Tatsächlich werden lokale Variablen bereits "
 "statisch bestimmt.)"
 
+#: ../../tutorial/classes.rst:146
 msgid ""
-"A special quirk of Python is that -- if no :keyword:`global` or :keyword:"
-"`nonlocal` statement is in effect -- assignments to names always go into the "
-"innermost scope. Assignments do not copy data --- they just bind names to "
-"objects.  The same is true for deletions: the statement ``del x`` removes "
-"the binding of ``x`` from the namespace referenced by the local scope.  In "
-"fact, all operations that introduce new names use the local scope: in "
-"particular, :keyword:`import` statements and function definitions bind the "
-"module or function name in the local scope."
+"A special quirk of Python is that -- if no :keyword:`global` "
+"or :keyword:`nonlocal` statement is in effect -- assignments to names always "
+"go into the innermost scope. Assignments do not copy data --- they just bind "
+"names to objects.  The same is true for deletions: the statement ``del x`` "
+"removes the binding of ``x`` from the namespace referenced by the local "
+"scope.  In fact, all operations that introduce new names use the local "
+"scope: in particular, :keyword:`import` statements and function definitions "
+"bind the module or function name in the local scope."
 msgstr ""
-"Eine Besonderheit von Python ist, dass Zuweisungen an Namen – wenn keine :"
-"keyword:`global`- oder :keyword:`nonlocal`-Anweisung gilt – immer in den "
-"innersten Gültigkeitsbereich eingehen. Zuweisungen kopieren keine Daten --- "
-"sie binden lediglich Namen an Objekte. Das Gleiche gilt für Löschungen: Die "
-"Anweisung ``del x`` entfernt die Bindung von ``x`` aus dem Namensraum, auf "
-"den der lokale Gültigkeitsbereich verweist. Tatsächlich nutzen alle "
+"Eine Besonderheit von Python ist, dass Zuweisungen an Namen – wenn "
+"keine :keyword:`global`- oder :keyword:`nonlocal`-Anweisung gilt – immer in "
+"den innersten Gültigkeitsbereich eingehen. Zuweisungen kopieren keine Daten "
+"--- sie binden lediglich Namen an Objekte. Das Gleiche gilt für Löschungen: "
+"Die Anweisung ``del x`` entfernt die Bindung von ``x`` aus dem Namensraum, "
+"auf den der lokale Gültigkeitsbereich verweist. Tatsächlich nutzen alle "
 "Operationen, die neue Namen einführen, den lokalen Gültigkeitsbereich: "
 "Insbesondere binden :keyword:`import`-Anweisungen und Funktionsdefinitionen "
 "den Modul- oder Funktionsnamen im lokalen Gültigkeitsbereich."
 
+#: ../../tutorial/classes.rst:154
 msgid ""
 "The :keyword:`global` statement can be used to indicate that particular "
-"variables live in the global scope and should be rebound there; the :keyword:"
-"`nonlocal` statement indicates that particular variables live in an "
-"enclosing scope and should be rebound there."
+"variables live in the global scope and should be rebound there; "
+"the :keyword:`nonlocal` statement indicates that particular variables live "
+"in an enclosing scope and should be rebound there."
 msgstr ""
 "Die Anweisung :keyword:`global` kann verwendet werden, um anzugeben, dass "
 "bestimmte Variablen im globalen Gültigkeitsbereich liegen und dort neu "
@@ -372,18 +398,22 @@ msgstr ""
 "bestimmte Variablen in einem umgebenden Gültigkeitsbereich liegen und dort "
 "neu gebunden werden sollen."
 
+#: ../../tutorial/classes.rst:162
 msgid "Scopes and Namespaces Example"
 msgstr "Beispiel für Gültigkeitsbereiche und Namensräume"
 
+#: ../../tutorial/classes.rst:164
 msgid ""
 "This is an example demonstrating how to reference the different scopes and "
 "namespaces, and how :keyword:`global` and :keyword:`nonlocal` affect "
 "variable binding::"
 msgstr ""
 "Dies ist ein Beispiel, das zeigt, wie auf die verschiedenen "
-"Gültigkeitsbereiche und Namensräume zugegriffen wird und wie :keyword: "
-"`global` und :keyword:`nonlocal` die Variablenbindung beeinflussen::"
+"Gültigkeitsbereiche und Namensräume zugegriffen wird und "
+"wie :keyword:`global` und :keyword:`nonlocal` die Variablenbindung "
+"beeinflussen::"
 
+#: ../../tutorial/classes.rst:168
 msgid ""
 "def scope_test():\n"
 "    def do_local():\n"
@@ -431,9 +461,11 @@ msgstr ""
 "scope_test()\n"
 "print(\"In global scope:\", spam)"
 
+#: ../../tutorial/classes.rst:191
 msgid "The output of the example code is:"
 msgstr "Die Ausgabe des Beispielcodes lautet:"
 
+#: ../../tutorial/classes.rst:193
 msgid ""
 "After local assignment: test spam\n"
 "After nonlocal assignment: nonlocal spam\n"
@@ -445,6 +477,7 @@ msgstr ""
 "After global assignment: nonlocal spam\n"
 "In global scope: global spam"
 
+#: ../../tutorial/classes.rst:200
 msgid ""
 "Note how the *local* assignment (which is default) didn't change "
 "*scope_test*\\'s binding of *spam*.  The :keyword:`nonlocal` assignment "
@@ -453,19 +486,22 @@ msgid ""
 msgstr ""
 "Beachte, wie die *lokale* Zuweisung (die der Standard ist) die Bindung von "
 "*spam* in *scope_test* nicht verändert hat. Die :keyword:`nonlocal`-"
-"Zuweisung hat die Bindung von *spam* in *scope_test* geändert und die :"
-"keyword:`global`-Zuweisung hat die Bindung auf Modulebene geändert."
+"Zuweisung hat die Bindung von *spam* in *scope_test* geändert und "
+"die :keyword:`global`-Zuweisung hat die Bindung auf Modulebene geändert."
 
+#: ../../tutorial/classes.rst:205
 msgid ""
-"You can also see that there was no previous binding for *spam* before the :"
-"keyword:`global` assignment."
+"You can also see that there was no previous binding for *spam* before "
+"the :keyword:`global` assignment."
 msgstr ""
 "Du kannst auch sehen, dass vor der :keyword:`global`-Zuweisung keine "
 "vorherige Bindung für *spam* existierte."
 
+#: ../../tutorial/classes.rst:212
 msgid "A First Look at Classes"
 msgstr "Ein erster Blick auf Klassen"
 
+#: ../../tutorial/classes.rst:214
 msgid ""
 "Classes introduce a little bit of new syntax, three new object types, and "
 "some new semantics."
@@ -473,12 +509,15 @@ msgstr ""
 "Klassen führen ein wenig neue Syntax, drei neue Objekttypen und einige neue "
 "Semantiken ein."
 
+#: ../../tutorial/classes.rst:221
 msgid "Class Definition Syntax"
 msgstr "Syntax von Klassendefinitionen"
 
+#: ../../tutorial/classes.rst:223
 msgid "The simplest form of class definition looks like this::"
 msgstr "Die einfachste Form einer Klassendefinition sieht so aus::"
 
+#: ../../tutorial/classes.rst:225
 msgid ""
 "class ClassName:\n"
 "    <statement-1>\n"
@@ -494,6 +533,7 @@ msgstr ""
 "    .\n"
 "    <statement-N>"
 
+#: ../../tutorial/classes.rst:232
 msgid ""
 "Class definitions, like function definitions (:keyword:`def` statements) "
 "must be executed before they have any effect.  (You could conceivably place "
@@ -505,6 +545,7 @@ msgstr ""
 "eine Klassendefinition denkbarer Weise in einem Zweig einer :keyword:`if`-"
 "Anweisung oder innerhalb einer Funktion platzieren.)"
 
+#: ../../tutorial/classes.rst:236
 msgid ""
 "In practice, the statements inside a class definition will usually be "
 "function definitions, but other statements are allowed, and sometimes useful "
@@ -519,6 +560,7 @@ msgstr ""
 "besondere Form von Argumentliste, die durch die Aufrufkonventionen für "
 "Methoden vorgegeben ist --- auch dies wird später erklärt."
 
+#: ../../tutorial/classes.rst:242
 msgid ""
 "When a class definition is entered, a new namespace is created, and used as "
 "the local scope --- thus, all assignments to local variables go into this "
@@ -530,6 +572,7 @@ msgstr ""
 "lokale Variablen in diesen neuen Namensraum. Insbesondere binden "
 "Funktionsdefinitionen hier den Namen der neuen Funktion."
 
+#: ../../tutorial/classes.rst:247
 msgid ""
 "When a class definition is left normally (via the end), a *class object* is "
 "created.  This is basically a wrapper around the contents of the namespace "
@@ -548,9 +591,11 @@ msgstr ""
 "hier an den im Kopf der Klassendefinition angegebenen Klassennamen (:class:`!"
 "ClassName` im Beispiel) gebunden."
 
+#: ../../tutorial/classes.rst:259
 msgid "Class Objects"
 msgstr "Klassenobjekte"
 
+#: ../../tutorial/classes.rst:261
 msgid ""
 "Class objects support two kinds of operations: attribute references and "
 "instantiation."
@@ -558,6 +603,7 @@ msgstr ""
 "Klassenobjekte unterstützen zwei Arten von Operationen: Attributreferenzen "
 "und Instanziierung."
 
+#: ../../tutorial/classes.rst:264
 msgid ""
 "*Attribute references* use the standard syntax used for all attribute "
 "references in Python: ``obj.name``.  Valid attribute names are all the names "
@@ -570,6 +616,7 @@ msgstr ""
 "als das Klassenobjekt erzeugt wurde. Wenn die Klassendefinition also so "
 "aussah::"
 
+#: ../../tutorial/classes.rst:269
 msgid ""
 "class MyClass:\n"
 "    \"\"\"A simple example class\"\"\"\n"
@@ -585,6 +632,7 @@ msgstr ""
 "    def f(self):\n"
 "        return 'hello world'"
 
+#: ../../tutorial/classes.rst:276
 msgid ""
 "then ``MyClass.i`` and ``MyClass.f`` are valid attribute references, "
 "returning an integer and a function object, respectively. Class attributes "
@@ -599,6 +647,7 @@ msgstr ""
 "ebenfalls ein gültiges Attribut, das den zur Klasse gehörenden Docstring "
 "zurückgibt: ``\\\"A simple example class\\\"``."
 
+#: ../../tutorial/classes.rst:282
 msgid ""
 "Class *instantiation* uses function notation.  Just pretend that the class "
 "object is a parameterless function that returns a new instance of the class. "
@@ -609,9 +658,11 @@ msgstr ""
 "eine neue Instanz der Klasse zurückgibt. Zum Beispiel (unter Annahme der "
 "obigen Klasse)::"
 
+#: ../../tutorial/classes.rst:286 ../../tutorial/classes.rst:303
 msgid "x = MyClass()"
 msgstr "x = MyClass()"
 
+#: ../../tutorial/classes.rst:288
 msgid ""
 "creates a new *instance* of the class and assigns this object to the local "
 "variable ``x``."
@@ -619,11 +670,12 @@ msgstr ""
 "erzeugt eine neue *Instanz* der Klasse und weist dieses Objekt der lokalen "
 "Variablen ``x`` zu."
 
+#: ../../tutorial/classes.rst:291
 msgid ""
 "The instantiation operation (\"calling\" a class object) creates an empty "
 "object. Many classes like to create objects with instances customized to a "
-"specific initial state. Therefore a class may define a special method named :"
-"meth:`~object.__init__`, like this::"
+"specific initial state. Therefore a class may define a special method "
+"named :meth:`~object.__init__`, like this::"
 msgstr ""
 "Die Instanziierungsoperation (das \\\"Aufrufen\\\" eines Klassenobjekts) "
 "erzeugt ein leeres Objekt. Viele Klassen erzeugen Objekte bevorzugt mit "
@@ -631,6 +683,7 @@ msgstr ""
 "kann eine Klasse eine spezielle Methode namens :meth:`~object.__init__` "
 "definieren, wie etwa so::"
 
+#: ../../tutorial/classes.rst:296
 msgid ""
 "def __init__(self):\n"
 "    self.data = []"
@@ -638,6 +691,7 @@ msgstr ""
 "def __init__(self):\n"
 "    self.data = []"
 
+#: ../../tutorial/classes.rst:299
 msgid ""
 "When a class defines an :meth:`~object.__init__` method, class instantiation "
 "automatically invokes :meth:`!__init__` for the newly created class "
@@ -649,6 +703,7 @@ msgstr ""
 "Klasseninstanz auf. In diesem Beispiel kann eine neue, initialisierte "
 "Instanz also wie folgt erzeugt werden::"
 
+#: ../../tutorial/classes.rst:305
 msgid ""
 "Of course, the :meth:`~object.__init__` method may have arguments for "
 "greater flexibility.  In that case, arguments given to the class "
@@ -659,6 +714,7 @@ msgstr ""
 "Klasseninstanziierungsoperator übergabene Argumente an :meth:`!__init__` "
 "weitergeleitet. Zum Beispiel::"
 
+#: ../../tutorial/classes.rst:309
 msgid ""
 ">>> class Complex:\n"
 "...     def __init__(self, realpart, imagpart):\n"
@@ -678,9 +734,11 @@ msgstr ""
 ">>> x.r, x.i\n"
 "(3.0, -4.5)"
 
+#: ../../tutorial/classes.rst:322
 msgid "Instance Objects"
 msgstr "Instanzobjekte"
 
+#: ../../tutorial/classes.rst:324
 msgid ""
 "Now what can we do with instance objects?  The only operations understood by "
 "instance objects are attribute references.  There are two kinds of valid "
@@ -690,6 +748,7 @@ msgstr ""
 "von Instanzobjekten verstanden werden, sind Attributreferenzen. Es gibt zwei "
 "Arten von gültigen Attributnamen: Datenattribute und Methoden."
 
+#: ../../tutorial/classes.rst:328
 msgid ""
 "*Data attributes* correspond to \"instance variables\" in Smalltalk, and to "
 "\"data members\" in C++.  Data attributes need not be declared; like local "
@@ -705,6 +764,7 @@ msgstr ""
 "ist, gibt der folgende Codeabschnitt den Wert ``16`` aus, ohne Spuren zu "
 "hinterlassen::\""
 
+#: ../../tutorial/classes.rst:334
 msgid ""
 "x.counter = 1\n"
 "while x.counter < 10:\n"
@@ -718,6 +778,7 @@ msgstr ""
 "print(x.counter)\n"
 "del x.counter"
 
+#: ../../tutorial/classes.rst:340
 msgid ""
 "The other kind of instance attribute reference is a *method*. A method is a "
 "function that \"belongs to\" an object."
@@ -725,6 +786,7 @@ msgstr ""
 "Die andere Art von Instanzattributreferenz ist eine *Methode*. Eine Methode "
 "ist eine Funktion, die zu einem Objekt „gehört“."
 
+#: ../../tutorial/classes.rst:345
 msgid ""
 "Valid method names of an instance object depend on its class.  By "
 "definition, all attributes of a class that are function  objects define "
@@ -741,17 +803,21 @@ msgstr ""
 "``x.f`` ist nicht dasselbe wie ``MyClass.f`` --- es ist ein "
 "*Methodenobjekt*, kein Funktionsobjekt."
 
+#: ../../tutorial/classes.rst:356
 msgid "Method Objects"
 msgstr "Methodenobjekte"
 
+#: ../../tutorial/classes.rst:358
 msgid "Usually, a method is called right after it is bound::"
 msgstr ""
 "Normalerweise wird eine Methode direkt aufgerufen, nachdem sie gebunden "
 "wurde::"
 
+#: ../../tutorial/classes.rst:360
 msgid "x.f()"
 msgstr "x.f()"
 
+#: ../../tutorial/classes.rst:362
 msgid ""
 "If ``x = MyClass()``, as above, this will return the string ``'hello "
 "world'``. However, it is not necessary to call a method right away: ``x.f`` "
@@ -763,6 +829,7 @@ msgstr ""
 "aufzurufen: ``x.f`` ist ein Methodenobjekt und kann gespeichert und zu einem "
 "späteren Zeitpunkt aufgerufen werden. Zum Beispiel::"
 
+#: ../../tutorial/classes.rst:366
 msgid ""
 "xf = x.f\n"
 "while True:\n"
@@ -772,12 +839,14 @@ msgstr ""
 "while True:\n"
 "    print(xf())"
 
+#: ../../tutorial/classes.rst:370
 msgid "will continue to print ``hello world`` until the end of time."
 msgstr "gibt bis ans Ende der Zeit weiterhin ``hello world`` aus."
 
+#: ../../tutorial/classes.rst:372
 msgid ""
-"What exactly happens when a method is called?  You may have noticed that ``x."
-"f()`` was called without an argument above, even though the function "
+"What exactly happens when a method is called?  You may have noticed that "
+"``x.f()`` was called without an argument above, even though the function "
 "definition for :meth:`!f` specified an argument.  What happened to the "
 "argument? Surely Python raises an exception when a function that requires an "
 "argument is called without any --- even if the argument isn't actually "
@@ -790,6 +859,7 @@ msgstr ""
 "Funktion, die ein Argument erfordert, ohne ein solches aufgerufen wird --- "
 "selbst wenn das Argument gar nicht verwendet wird..."
 
+#: ../../tutorial/classes.rst:378
 msgid ""
 "Actually, you may have guessed the answer: the special thing about methods "
 "is that the instance object is passed as the first argument of the "
@@ -807,6 +877,7 @@ msgstr ""
 "Funktion mit einer Argumentliste, die durch Einfügen des Instanzobjekts der "
 "Methode vor dem ersten Argument erstellt wird."
 
+#: ../../tutorial/classes.rst:385
 msgid ""
 "In general, methods work as follows.  When a non-data attribute of an "
 "instance is referenced, the instance's class is searched. If the name "
@@ -825,9 +896,11 @@ msgstr ""
 "Argumentliste eine neue Argumentliste erstellt und das Funktionsobjekt mit "
 "dieser neuen Argumentliste aufgerufen."
 
+#: ../../tutorial/classes.rst:398
 msgid "Class and Instance Variables"
 msgstr "Klassen- und Instanzvariablen"
 
+#: ../../tutorial/classes.rst:400
 msgid ""
 "Generally speaking, instance variables are for data unique to each instance "
 "and class variables are for attributes and methods shared by all instances "
@@ -837,6 +910,7 @@ msgstr ""
 "Instanz eindeutig sind, während Klassenvariablen für Attribute und Methoden "
 "gedacht sind, die von allen Instanzen der Klasse geteilt werden::"
 
+#: ../../tutorial/classes.rst:404
 msgid ""
 "class Dog:\n"
 "\n"
@@ -874,12 +948,13 @@ msgstr ""
 ">>> e.name                  # unique to e\n"
 "'Buddy'"
 
+#: ../../tutorial/classes.rst:422
 msgid ""
 "As discussed in :ref:`tut-object`, shared data can have possibly surprising "
-"effects with involving :term:`mutable` objects such as lists and "
-"dictionaries. For example, the *tricks* list in the following code should "
-"not be used as a class variable because just a single list would be shared "
-"by all *Dog* instances::"
+"effects involving :term:`mutable` objects such as lists and dictionaries. "
+"For example, the *tricks* list in the following code should not be used as a "
+"class variable because just a single list would be shared by all *Dog* "
+"instances::"
 msgstr ""
 "Wie in :ref:`tut-object` besprochen, können geteilte Daten in Verbindung "
 "mit :term:`veränderbaren <mutable>` Objekten wie Listen und Wörterbüchern "
@@ -887,6 +962,7 @@ msgstr ""
 "beispielsweise nicht als Klassenvariable verwendet werden, da nur eine "
 "einzige Liste von allen *Dog*-Instanzen geteilt würde::"
 
+#: ../../tutorial/classes.rst:428
 msgid ""
 "class Dog:\n"
 "\n"
@@ -922,11 +998,13 @@ msgstr ""
 ">>> d.tricks                # unerwartet von allen Hunden geteilt\n"
 "['roll over', 'play dead']"
 
+#: ../../tutorial/classes.rst:445
 msgid "Correct design of the class should use an instance variable instead::"
 msgstr ""
 "Ein korrektes Design der Klasse sollte stattdessen eine Instanzvariable "
 "verwenden::"
 
+#: ../../tutorial/classes.rst:447
 msgid ""
 "class Dog:\n"
 "\n"
@@ -964,9 +1042,11 @@ msgstr ""
 ">>> e.tricks\n"
 "['play dead']"
 
+#: ../../tutorial/classes.rst:469
 msgid "Random Remarks"
 msgstr "Ergänzende Hinweise"
 
+#: ../../tutorial/classes.rst:473
 msgid ""
 "If the same attribute name occurs in both an instance and in a class, then "
 "attribute lookup prioritizes the instance::"
@@ -974,6 +1054,7 @@ msgstr ""
 "Tritt derselbe Attributname sowohl in einer Instanz als auch in einer Klasse "
 "auf, bevorzugt die Attributsuche die Instanz::"
 
+#: ../../tutorial/classes.rst:476
 msgid ""
 ">>> class Warehouse:\n"
 "...    purpose = 'storage'\n"
@@ -987,7 +1068,7 @@ msgid ""
 ">>> print(w2.purpose, w2.region)\n"
 "storage east"
 msgstr ""
-"\t>>> class Warehouse:\n"
+">>> class Warehouse:\n"
 "...    purpose = 'storage'\n"
 "...    region = 'west'\n"
 "...\n"
@@ -997,8 +1078,9 @@ msgstr ""
 ">>> w2 = Warehouse()\n"
 ">>> w2.region = 'east'\n"
 ">>> print(w2.purpose, w2.region)\n"
-"storage east\t"
+"storage east"
 
+#: ../../tutorial/classes.rst:488
 msgid ""
 "Data attributes may be referenced by methods as well as by ordinary users "
 "(\"clients\") of an object.  In other words, classes are not usable to "
@@ -1018,6 +1100,7 @@ msgstr ""
 "bei Bedarf steuern; dies kann von in C geschriebenen Python-Erweiterungen "
 "genutzt werden.)"
 
+#: ../../tutorial/classes.rst:496
 msgid ""
 "Clients should use data attributes with care --- clients may mess up "
 "invariants maintained by the methods by stamping on their data attributes.  "
@@ -1032,6 +1115,7 @@ msgstr ""
 "beeinträchtigen, solange Namenskonflikte vermieden werden --- auch hier kann "
 "eine Namenskonvention viel Ärger ersparen."
 
+#: ../../tutorial/classes.rst:502
 msgid ""
 "There is no shorthand for referencing data attributes (or other methods!) "
 "from within methods.  I find that this actually increases the readability of "
@@ -1043,6 +1127,7 @@ msgstr ""
 "von Methoden: Beim Durchsehen einer Methode besteht keine Gefahr, lokale "
 "Variablen und Instanzvariablen zu verwechseln."
 
+#: ../../tutorial/classes.rst:507
 msgid ""
 "Often, the first argument of a method is called ``self``.  This is nothing "
 "more than a convention: the name ``self`` has absolutely no special meaning "
@@ -1058,6 +1143,7 @@ msgstr ""
 "Konvention hältst, und es ist auch denkbar, dass ein *Class-Browser*-"
 "Programm geschrieben wird, das sich auf eine solche Konvention verlässt."
 
+#: ../../tutorial/classes.rst:513
 msgid ""
 "Any function object that is a class attribute defines a method for instances "
 "of that class.  It is not necessary that the function definition is "
@@ -1070,6 +1156,7 @@ msgstr ""
 "Das Zuweisen eines Funktionsobjekts zu einer lokalen Variable in der Klasse "
 "ist ebenfalls in Ordnung. Zum Beispiel::"
 
+#: ../../tutorial/classes.rst:518
 msgid ""
 "# Function defined outside the class\n"
 "def f1(self, x, y):\n"
@@ -1083,7 +1170,7 @@ msgid ""
 "\n"
 "    h = g"
 msgstr ""
-"\t# Außerhalb der Klasse definierte Funktions\n"
+"# Außerhalb der Klasse definierte Funktions\n"
 "def f1(self, x, y):\n"
 "    return min(x, x+y)\n"
 "\n"
@@ -1093,8 +1180,9 @@ msgstr ""
 "    def g(self):\n"
 "        return 'hello world'\n"
 "\n"
-"    h = g\t"
+"    h = g"
 
+#: ../../tutorial/classes.rst:530
 msgid ""
 "Now ``f``, ``g`` and ``h`` are all attributes of class :class:`!C` that "
 "refer to function objects, and consequently they are all methods of "
@@ -1107,6 +1195,7 @@ msgstr ""
 "Beachte, dass diese Praxis gewöhnlich nur dazu dient, den Leser eines "
 "Programms zu verwirren."
 
+#: ../../tutorial/classes.rst:535
 msgid ""
 "Methods may call other methods by using method attributes of the ``self`` "
 "argument::"
@@ -1115,6 +1204,7 @@ msgstr ""
 "\"\n"
 "\"``self``-Arguments verwenden::"
 
+#: ../../tutorial/classes.rst:538
 msgid ""
 "class Bag:\n"
 "    def __init__(self):\n"
@@ -1127,7 +1217,7 @@ msgid ""
 "        self.add(x)\n"
 "        self.add(x)"
 msgstr ""
-"\tclass Bag:\n"
+"class Bag:\n"
 "    def __init__(self):\n"
 "        self.data = []\n"
 "\n"
@@ -1136,8 +1226,9 @@ msgstr ""
 "\n"
 "    def addtwice(self, x):\n"
 "        self.add(x)\n"
-"        self.add(x)\t"
+"        self.add(x)"
 
+#: ../../tutorial/classes.rst:549
 msgid ""
 "Methods may reference global names in the same way as ordinary functions.  "
 "The global scope associated with a method is the module containing its "
@@ -1162,6 +1253,7 @@ msgstr ""
 "nächsten Abschnitt werden wir einige gute Gründe dafür finden, warum eine "
 "Methode auf ihre eigene Klasse verweisen möchte."
 
+#: ../../tutorial/classes.rst:559
 msgid ""
 "Each value is an object, and therefore has a *class* (also called its "
 "*type*). It is stored as ``object.__class__``."
@@ -1169,9 +1261,11 @@ msgstr ""
 "Jeder Wert ist ein Objekt und hat daher eine *Klasse* (auch *Typ* genannt). "
 "Diese ist als ``object.__class__`` gespeichert."
 
+#: ../../tutorial/classes.rst:566
 msgid "Inheritance"
 msgstr "Vererbung"
 
+#: ../../tutorial/classes.rst:568
 msgid ""
 "Of course, a language feature would not be worthy of the name \"class\" "
 "without supporting inheritance.  The syntax for a derived class definition "
@@ -1181,6 +1275,7 @@ msgstr ""
 "keine Vererbung unterstützen würde. Die Syntax für die Definition einer "
 "abgeleiteten Klasse sieht wie folgt aus::"
 
+#: ../../tutorial/classes.rst:572
 msgid ""
 "class DerivedClassName(BaseClassName):\n"
 "    <statement-1>\n"
@@ -1196,6 +1291,7 @@ msgstr ""
 "    .\n"
 "    <statement-N>"
 
+#: ../../tutorial/classes.rst:579
 msgid ""
 "The name :class:`!BaseClassName` must be defined in a namespace accessible "
 "from the scope containing the derived class definition.  In place of a base "
@@ -1208,9 +1304,11 @@ msgstr ""
 "Ausdrücke erlaubt. Dies kann beispielsweise nützlich sein, wenn die "
 "Basisklasse in einem anderen Modul definiert ist::"
 
+#: ../../tutorial/classes.rst:585
 msgid "class DerivedClassName(modname.BaseClassName):"
 msgstr "class DerivedClassName(modname.BaseClassName):"
 
+#: ../../tutorial/classes.rst:587
 msgid ""
 "Execution of a derived class definition proceeds the same as for a base "
 "class. When the class object is constructed, the base class is remembered.  "
@@ -1226,6 +1324,7 @@ msgstr ""
 "weitergesucht. Diese Regel wird rekursiv angewendet, wenn die Basisklasse "
 "selbst von einer anderen Klasse abgeleitet ist."
 
+#: ../../tutorial/classes.rst:593
 msgid ""
 "There's nothing special about instantiation of derived classes: "
 "``DerivedClassName()`` creates a new instance of the class.  Method "
@@ -1240,6 +1339,7 @@ msgstr ""
 "durchsucht wird. Die Methodenreferenz ist gültig, wenn dies ein "
 "Funktionsobjekt ergibt."
 
+#: ../../tutorial/classes.rst:599
 msgid ""
 "Derived classes may override methods of their base classes.  Because methods "
 "have no special privileges when calling other methods of the same object, a "
@@ -1254,13 +1354,14 @@ msgstr ""
 "abgeleiteten Klasse aufgerufen wird, die diese überschreibt. (Für C++ "
 "Programmierer: Alle Methoden in Python sind effektiv ``virtual``.)"
 
+#: ../../tutorial/classes.rst:605
 msgid ""
 "An overriding method in a derived class may in fact want to extend rather "
 "than simply replace the base class method of the same name. There is a "
-"simple way to call the base class method directly: just call ``BaseClassName."
-"methodname(self, arguments)``.  This is occasionally useful to clients as "
-"well.  (Note that this only works if the base class is accessible as "
-"``BaseClassName`` in the global scope.)"
+"simple way to call the base class method directly: just call "
+"``BaseClassName.methodname(self, arguments)``.  This is occasionally useful "
+"to clients as well.  (Note that this only works if the base class is "
+"accessible as ``BaseClassName`` in the global scope.)"
 msgstr ""
 "Eine überschreibende Methode in einer abgeleiteten Klasse möchte die Methode "
 "gleichen Namens der Basisklasse womöglich erweitern, anstatt sie einfach zu "
@@ -1270,9 +1371,11 @@ msgstr ""
 "nur funktioniert, wenn die Basisklasse als ``BaseClassName`` im globalen "
 "Gültigkeitsbereich zugänglich ist.)"
 
+#: ../../tutorial/classes.rst:612
 msgid "Python has two built-in functions that work with inheritance:"
 msgstr "Python bietet zwei eingebaute Funktionen, die mit Vererbung arbeiten:"
 
+#: ../../tutorial/classes.rst:614
 msgid ""
 "Use :func:`isinstance` to check an instance's type: ``isinstance(obj, int)`` "
 "will be ``True`` only if ``obj.__class__`` is :class:`int` or some class "
@@ -1282,6 +1385,7 @@ msgstr ""
 "``isinstance(obj, int)`` ist nur dann ``True``, wenn ``obj.__class__`` "
 "gleich :class:`int` oder einer von :class:`int` abgeleiteten Klasse ist."
 
+#: ../../tutorial/classes.rst:618
 msgid ""
 "Use :func:`issubclass` to check class inheritance: ``issubclass(bool, int)`` "
 "is ``True`` since :class:`bool` is a subclass of :class:`int`.  However, "
@@ -1290,12 +1394,14 @@ msgid ""
 msgstr ""
 "Verwende :func:`issubclass`, um die Klassenvererbung zu überprüfen: "
 "``issubclass(bool, int)`` ist ``True``, da :class:`bool` eine Unterklasse "
-"von :class:`int` ist. ``issubclass(float, int)`` ist jedoch ``False``, da :"
-"class:`float` keine Unterklasse von :class:`int` ist."
+"von :class:`int` ist. ``issubclass(float, int)`` ist jedoch ``False``, "
+"da :class:`float` keine Unterklasse von :class:`int` ist."
 
+#: ../../tutorial/classes.rst:628
 msgid "Multiple Inheritance"
 msgstr "Mehrfachvererbung"
 
+#: ../../tutorial/classes.rst:630
 msgid ""
 "Python supports a form of multiple inheritance as well.  A class definition "
 "with multiple base classes looks like this::"
@@ -1303,6 +1409,7 @@ msgstr ""
 "Python unterstützt auch eine Form der Mehrfachvererbung. Eine "
 "Klassendefinition mit mehreren Basisklassen sieht wie folgt aus::"
 
+#: ../../tutorial/classes.rst:633
 msgid ""
 "class DerivedClassName(Base1, Base2, Base3):\n"
 "    <statement-1>\n"
@@ -1318,6 +1425,7 @@ msgstr ""
 "    .\n"
 "    <statement-N>"
 
+#: ../../tutorial/classes.rst:640
 msgid ""
 "For most purposes, in the simplest cases, you can think of the search for "
 "attributes inherited from a parent class as depth-first, left-to-right, not "
@@ -1331,11 +1439,12 @@ msgstr ""
 "einer Elternklasse geerbt wurden, in den einfachsten Fällen als Tiefensuche "
 "von links nach rechts vorstellen, bei der dieselbe Klasse bei "
 "Überschneidungen in der Hierarchie nicht zweimal durchsucht wird. Wenn ein "
-"Attribut also nicht in :class:`!DerivedClassName` gefunden wird, wird in :"
-"class:`!Base1` gesucht, dann (rekursiv) in den Basisklassen von :class:`!"
+"Attribut also nicht in :class:`!DerivedClassName` gefunden wird, wird "
+"in :class:`!Base1` gesucht, dann (rekursiv) in den Basisklassen von :class:`!"
 "Base1`, und falls es dort nicht gefunden wurde, wird in :class:`!Base2` "
 "gesucht und so weiter."
 
+#: ../../tutorial/classes.rst:647
 msgid ""
 "In fact, it is slightly more complex than that; the method resolution order "
 "changes dynamically to support cooperative calls to :func:`super`.  This "
@@ -1344,11 +1453,12 @@ msgid ""
 "languages."
 msgstr ""
 "Tatsächlich ist es etwas komplexer: Die Method Auflösungsreihenfolge (Method "
-"Resolution Order) ändert sich dynamisch, um kooperative Aufrufe von :func:"
-"`super` zu unterstützen. Dieser Ansatz ist in einigen anderen Sprachen mit "
-"Mehrfachvererbung als „call-next-method“ bekannt und ist mächtiger als der "
-"Super-Aufruf in Sprachen mit einfacher Vererbung."
+"Resolution Order) ändert sich dynamisch, um kooperative Aufrufe "
+"von :func:`super` zu unterstützen. Dieser Ansatz ist in einigen anderen "
+"Sprachen mit Mehrfachvererbung als „call-next-method“ bekannt und ist "
+"mächtiger als der Super-Aufruf in Sprachen mit einfacher Vererbung."
 
+#: ../../tutorial/classes.rst:653
 msgid ""
 "Dynamic ordering is necessary because all cases of multiple inheritance "
 "exhibit one or more diamond relationships (where at least one of the parent "
@@ -1378,9 +1488,11 @@ msgstr ""
 "Eigenschaften den Entwurf zuverlässiger und erweiterbarer Klassen mit "
 "Mehrfachvererbung. Weitere Details finden Sie unter :ref:`python_2.3_mro`."
 
+#: ../../tutorial/classes.rst:670
 msgid "Private Variables"
 msgstr "Private Variablen"
 
+#: ../../tutorial/classes.rst:672
 msgid ""
 "\"Private\" instance variables that cannot be accessed except from inside an "
 "object don't exist in Python.  However, there is a convention that is "
@@ -1398,6 +1510,7 @@ msgstr ""
 "Implementierungsdetail betrachtet werden, das sich ohne Ankündigung ändern "
 "kann."
 
+#: ../../tutorial/classes.rst:682
 msgid ""
 "Since there is a valid use-case for class-private members (namely to avoid "
 "name clashes of names with names defined by subclasses), there is limited "
@@ -1419,6 +1532,7 @@ msgstr ""
 "die syntaktische Position des Bezeichners, solange es innerhalb der "
 "Definition einer Klasse auftritt."
 
+#: ../../tutorial/classes.rst:693
 msgid ""
 "The :ref:`private name mangling specifications <private-name-mangling>` for "
 "details and special cases."
@@ -1426,6 +1540,7 @@ msgstr ""
 "Die :ref:`Spezifikationen zur Namensumbenennung privater Elemente <private-"
 "name-mangling>` für Details und Spezialfälle."
 
+#: ../../tutorial/classes.rst:696
 msgid ""
 "Name mangling is helpful for letting subclasses override methods without "
 "breaking intraclass method calls.  For example::"
@@ -1434,6 +1549,7 @@ msgstr ""
 "Methoden zu ermöglichen, ohne interne Methodenaufrufe innerhalb der Klasse "
 "zu beeinträchtigen. Zum Beispiel::"
 
+#: ../../tutorial/classes.rst:699
 msgid ""
 "class Mapping:\n"
 "    def __init__(self, iterable):\n"
@@ -1473,6 +1589,7 @@ msgstr ""
 "        for item in zip(keys, values):\n"
 "            self.items_list.append(item)"
 
+#: ../../tutorial/classes.rst:718
 msgid ""
 "The above example would work even if ``MappingSubclass`` were to introduce a "
 "``__update`` identifier since it is replaced with ``_Mapping__update`` in "
@@ -1484,6 +1601,7 @@ msgstr ""
 "``Mapping`` durch ``_Mapping__update`` bzw. in der Klasse "
 "``MappingSubclass`` durch ``_MappingSubclass__update`` ersetzt wird."
 
+#: ../../tutorial/classes.rst:723
 msgid ""
 "Note that the mangling rules are designed mostly to avoid accidents; it "
 "still is possible to access or modify a variable that is considered "
@@ -1496,6 +1614,7 @@ msgstr ""
 "Dies kann unter besonderen Umständen sogar nützlich sein, beispielsweise im "
 "Debugger."
 
+#: ../../tutorial/classes.rst:727
 msgid ""
 "Notice that code passed to ``exec()`` or ``eval()`` does not consider the "
 "classname of the invoking class to be the current class; this is similar to "
@@ -1511,9 +1630,11 @@ msgstr ""
 "gleiche Einschränkung gilt für ``getattr()``, ``setattr()`` und "
 "``delattr()`` sowie für die direkte Referenzierung von ``__dict__``."
 
+#: ../../tutorial/classes.rst:738
 msgid "Odds and Ends"
 msgstr "Dies und Das"
 
+#: ../../tutorial/classes.rst:740
 msgid ""
 "Sometimes it is useful to have a data type similar to the Pascal \"record\" "
 "or C \"struct\", bundling together a few named data items. The idiomatic "
@@ -1523,6 +1644,7 @@ msgstr ""
 "„struct“ in C ähnelt und einige benannte Datenobjekte bündelt. Der "
 "idiomatische Ansatz hierfür ist die Verwendung von :mod:`dataclasses`::"
 
+#: ../../tutorial/classes.rst:744
 msgid ""
 "from dataclasses import dataclass\n"
 "\n"
@@ -1540,6 +1662,7 @@ msgstr ""
 "    dept: str\n"
 "    salary: int"
 
+#: ../../tutorial/classes.rst:754
 msgid ""
 ">>> john = Employee('john', 'computer lab', 1000)\n"
 ">>> john.dept\n"
@@ -1553,6 +1676,7 @@ msgstr ""
 ">>> john.salary\n"
 "1000"
 
+#: ../../tutorial/classes.rst:760
 msgid ""
 "A piece of Python code that expects a particular abstract data type can "
 "often be passed a class that emulates the methods of that data type "
@@ -1564,25 +1688,28 @@ msgstr ""
 "Einem Stück Python-Code, das einen bestimmten abstrakten Datentyp erwartet, "
 "kann oft stattdessen eine Klasse übergeben werden, die die Methoden dieses "
 "Datentyps emuliert. Wenn du beispielsweise eine Funktion hast, die Daten aus "
-"einem Dateiobjekt formatiert, kannst du eine Klasse mit den Methoden :meth:"
-"`~io.TextIOBase.read` und :meth:`~io.TextIOBase.readline` definieren, die "
-"die Daten stattdessen aus einem String-Puffer bezieht, und eine Instanz "
-"davon als Argument übergeben."
+"einem Dateiobjekt formatiert, kannst du eine Klasse mit den "
+"Methoden :meth:`~io.TextIOBase.read` und :meth:`~io.TextIOBase.readline` "
+"definieren, die die Daten stattdessen aus einem String-Puffer bezieht, und "
+"eine Instanz davon als Argument übergeben."
 
+#: ../../tutorial/classes.rst:772
 msgid ""
-":ref:`Instance method objects <instance-methods>` have attributes, too: :"
-"attr:`m.__self__ <method.__self__>` is the instance object with the method :"
-"meth:`!m`, and :attr:`m.__func__ <method.__func__>` is the :ref:`function "
-"object <user-defined-funcs>` corresponding to the method."
+":ref:`Instance method objects <instance-methods>` have attributes, "
+"too: :attr:`m.__self__ <method.__self__>` is the instance object with the "
+"method :meth:`!m`, and :attr:`m.__func__ <method.__func__>` is "
+"the :ref:`function object <user-defined-funcs>` corresponding to the method."
 msgstr ""
 ":ref:`Instanzmethoden-Objekte <instance-methods>` besitzen ebenfalls "
 "Attribute: :attr:`m.__self__ <method.__self__>` ist das Instanzobjekt mit "
 "der Methode :meth:`!m`, und :attr:`m.__func__ <method.__func__>` ist das der "
 "Methode entsprechende :ref:`Funktionsobjekt <user-defined-funcs>`."
 
+#: ../../tutorial/classes.rst:782
 msgid "Iterators"
 msgstr "Iteratoren"
 
+#: ../../tutorial/classes.rst:784
 msgid ""
 "By now you have probably noticed that most container objects can be looped "
 "over using a :keyword:`for` statement::"
@@ -1590,6 +1717,7 @@ msgstr ""
 "Inzwischen hast du wahrscheinlich bemerkt, dass über die meisten Container-"
 "Objekte mit einer :keyword:`for`-Anweisung iteriert werden kann::"
 
+#: ../../tutorial/classes.rst:787
 msgid ""
 "for element in [1, 2, 3]:\n"
 "    print(element)\n"
@@ -1613,28 +1741,31 @@ msgstr ""
 "for line in open(\"myfile.txt\"):\n"
 "    print(line, end='')"
 
+#: ../../tutorial/classes.rst:798
 msgid ""
 "This style of access is clear, concise, and convenient.  The use of "
-"iterators pervades and unifies Python.  Behind the scenes, the :keyword:"
-"`for` statement calls :func:`iter` on the container object.  The function "
-"returns an iterator object that defines the method :meth:`~iterator."
-"__next__` which accesses elements in the container one at a time.  When "
-"there are no more elements, :meth:`~iterator.__next__` raises a :exc:"
-"`StopIteration` exception which tells the :keyword:`!for` loop to "
-"terminate.  You can call the :meth:`~iterator.__next__` method using the :"
-"func:`next` built-in function; this example shows how it all works::"
+"iterators pervades and unifies Python.  Behind the scenes, "
+"the :keyword:`for` statement calls :func:`iter` on the container object.  "
+"The function returns an iterator object that defines the "
+"method :meth:`~iterator.__next__` which accesses elements in the container "
+"one at a time.  When there are no more elements, :meth:`~iterator.__next__` "
+"raises a :exc:`StopIteration` exception which tells the :keyword:`!for` loop "
+"to terminate.  You can call the :meth:`~iterator.__next__` method using "
+"the :func:`next` built-in function; this example shows how it all works::"
 msgstr ""
 "Diese Art des Zugriffs ist klar, prägnant und bequem. Die Verwendung von "
 "Iteratoren durchzieht und vereinheitlicht Python. Hinter den Kulissen ruft "
 "die :keyword:`for`-Anweisung :func:`iter` für das Container-Objekt auf. Die "
-"Funktion gibt ein Iterator-Objekt zurück, das die Methode :meth:`~iterator."
-"__next__` definiert, welche nacheinander auf die Elemente im Container "
-"zugreift. Wenn keine Elemente mehr vorhanden sind, löst :meth:`~iterator."
-"__next__` eine :exc:`StopIteration`-Ausnahme aus, die der :keyword:`!for`-"
-"Schleife mitteilt, dass sie beendet werden soll. Du kannst die Methode :meth:"
-"`~iterator.__next__` über die eingebaute Funktion :func:`next` aufrufen. "
-"Dieses Beispiel zeigt, wie das Ganze funktioniert::\""
+"Funktion gibt ein Iterator-Objekt zurück, das die "
+"Methode :meth:`~iterator.__next__` definiert, welche nacheinander auf die "
+"Elemente im Container zugreift. Wenn keine Elemente mehr vorhanden sind, "
+"löst :meth:`~iterator.__next__` eine :exc:`StopIteration`-Ausnahme aus, die "
+"der :keyword:`!for`-Schleife mitteilt, dass sie beendet werden soll. Du "
+"kannst die Methode :meth:`~iterator.__next__` über die eingebaute "
+"Funktion :func:`next` aufrufen. Dieses Beispiel zeigt, wie das Ganze "
+"funktioniert::\""
 
+#: ../../tutorial/classes.rst:807
 msgid ""
 ">>> s = 'abc'\n"
 ">>> it = iter(s)\n"
@@ -1668,6 +1799,7 @@ msgstr ""
 "    next(it)\n"
 "StopIteration"
 
+#: ../../tutorial/classes.rst:823
 msgid ""
 "Having seen the mechanics behind the iterator protocol, it is easy to add "
 "iterator behavior to your classes.  Define an :meth:`~container.__iter__` "
@@ -1676,11 +1808,12 @@ msgid ""
 "``self``::"
 msgstr ""
 "Nachdem du die Mechanik hinter dem Iterator-Protokoll gesehen hast, ist es "
-"einfach, deinen Klassen Iterator-Verhalten hinzuzufügen. Definiere eine :"
-"meth:`~container.__iter__`-Methode, die ein Objekt mit einer :meth:"
-"`~iterator.__next__`-Methode zurückgibt. Wenn die Klasse :meth:`!__next__` "
-"definiert, kann :meth:`!__iter__` einfach ``self`` zurückgeben::"
+"einfach, deinen Klassen Iterator-Verhalten hinzuzufügen. Definiere "
+"eine :meth:`~container.__iter__`-Methode, die ein Objekt mit "
+"einer :meth:`~iterator.__next__`-Methode zurückgibt. Wenn die Klasse :meth:`!"
+"__next__` definiert, kann :meth:`!__iter__` einfach ``self`` zurückgeben::"
 
+#: ../../tutorial/classes.rst:828
 msgid ""
 "class Reverse:\n"
 "    \"\"\"Iterator for looping over a sequence backwards.\"\"\"\n"
@@ -1713,6 +1846,7 @@ msgstr ""
 "        self.index = self.index - 1\n"
 "        return self.data[self.index]"
 
+#: ../../tutorial/classes.rst:845
 msgid ""
 ">>> rev = Reverse('spam')\n"
 ">>> iter(rev)\n"
@@ -1736,16 +1870,18 @@ msgstr ""
 "p\n"
 "s"
 
+#: ../../tutorial/classes.rst:860
 msgid "Generators"
 msgstr "Generatoren"
 
+#: ../../tutorial/classes.rst:862
 msgid ""
 ":term:`Generators <generator>` are a simple and powerful tool for creating "
-"iterators.  They are written like regular functions but use the :keyword:"
-"`yield` statement whenever they want to return data.  Each time :func:`next` "
-"is called on it, the generator resumes where it left off (it remembers all "
-"the data values and which statement was last executed).  An example shows "
-"that generators can be trivially easy to create::"
+"iterators.  They are written like regular functions but use "
+"the :keyword:`yield` statement whenever they want to return data.  Each "
+"time :func:`next` is called on it, the generator resumes where it left off "
+"(it remembers all the data values and which statement was last executed).  "
+"An example shows that generators can be trivially easy to create::"
 msgstr ""
 ":term:`Generatoren <generator>` sind ein einfaches und mächtiges Werkzeug "
 "zum Erstellen von Iteratoren. Sie werden wie gewöhnliche Funktionen "
@@ -1755,6 +1891,7 @@ msgstr ""
 "merkt sich alle Datenwerte und welche Anweisung zuletzt ausgeführt wurde). "
 "Ein Beispiel zeigt, dass Generatoren denkbar einfach zu erstellen sind::"
 
+#: ../../tutorial/classes.rst:869
 msgid ""
 "def reverse(data):\n"
 "    for index in range(len(data)-1, -1, -1):\n"
@@ -1764,6 +1901,7 @@ msgstr ""
 "    for index in range(len(data)-1, -1, -1):\n"
 "        yield data[index]"
 
+#: ../../tutorial/classes.rst:875
 msgid ""
 ">>> for char in reverse('golf'):\n"
 "...     print(char)\n"
@@ -1773,37 +1911,40 @@ msgid ""
 "o\n"
 "g"
 msgstr ""
-"\t>>> for char in reverse('golf'):\n"
+">>> for char in reverse('golf'):\n"
 "...     print(char)\n"
 "...\n"
 "f\n"
 "l\n"
 "o\n"
-"g\t"
+"g"
 
+#: ../../tutorial/classes.rst:883
 msgid ""
 "Anything that can be done with generators can also be done with class-based "
 "iterators as described in the previous section.  What makes generators so "
-"compact is that the :meth:`~iterator.__iter__` and :meth:`~generator."
-"__next__` methods are created automatically."
+"compact is that the :meth:`~iterator.__iter__` "
+"and :meth:`~generator.__next__` methods are created automatically."
 msgstr ""
 "Alles, was mit Generatoren gemacht werden kann, lässt sich auch mit "
 "klassenbasierten Iteratoren umsetzen, wie im vorherigen Abschnitt "
-"beschrieben. Was Generatoren so kompakt macht, ist, dass die Methoden :meth:"
-"`~iterator.__iter__` und :meth:`~generator.__next__` automatisch erstellt "
-"werden."
+"beschrieben. Was Generatoren so kompakt macht, ist, dass die "
+"Methoden :meth:`~iterator.__iter__` und :meth:`~generator.__next__` "
+"automatisch erstellt werden."
 
+#: ../../tutorial/classes.rst:888
 msgid ""
 "Another key feature is that the local variables and execution state are "
 "automatically saved between calls.  This made the function easier to write "
-"and much more clear than an approach using instance variables like ``self."
-"index`` and ``self.data``."
+"and much more clear than an approach using instance variables like "
+"``self.index`` and ``self.data``."
 msgstr ""
 "Ein weiteres Schlüsselelement ist, dass die lokalen Variablen und der "
 "Ausführungszustand zwischen den Aufrufen automatisch gespeichert werden. "
 "Dadurch war die Funktion einfacher zu schreiben und viel übersichtlicher als "
 "ein Ansatz mit Instanzvariablen wie ``self.index`` und ``self.data``."
 
+#: ../../tutorial/classes.rst:893
 msgid ""
 "In addition to automatic method creation and saving program state, when "
 "generators terminate, they automatically raise :exc:`StopIteration`. In "
@@ -1811,14 +1952,16 @@ msgid ""
 "effort than writing a regular function."
 msgstr ""
 "Neben der automatischen Methodenerstellung und dem Speichern des "
-"Programmzustands lösen Generatoren beim Beenden automatisch :exc:"
-"`StopIteration` aus. In Kombination machen es diese Funktionen einfach, "
-"Iteratoren mit nicht mehr Aufwand als beim Schreiben einer normalen Funktion "
-"zu erstellen."
+"Programmzustands lösen Generatoren beim Beenden "
+"automatisch :exc:`StopIteration` aus. In Kombination machen es diese "
+"Funktionen einfach, Iteratoren mit nicht mehr Aufwand als beim Schreiben "
+"einer normalen Funktion zu erstellen."
 
+#: ../../tutorial/classes.rst:902
 msgid "Generator Expressions"
 msgstr "Generator-Ausdrücke"
 
+#: ../../tutorial/classes.rst:904
 msgid ""
 "Some simple generators can be coded succinctly as expressions using a syntax "
 "similar to list comprehensions but with parentheses instead of square "
@@ -1835,9 +1978,11 @@ msgstr ""
 "vielseitig als vollständige Generator-Definitionen und tendenziell "
 "speicherschonender als entsprechende List-Comprehensions."
 
+#: ../../tutorial/classes.rst:911
 msgid "Examples::"
 msgstr "Beispiele::"
 
+#: ../../tutorial/classes.rst:913
 msgid ""
 ">>> sum(i*i for i in range(10))                 # sum of squares\n"
 "285\n"
@@ -1873,9 +2018,11 @@ msgstr ""
 ">>> list(data[i] for i in range(len(data)-1, -1, -1))\n"
 "['f', 'l', 'o', 'g']"
 
+#: ../../tutorial/classes.rst:932
 msgid "Footnotes"
 msgstr "Fußnoten"
 
+#: ../../tutorial/classes.rst:933
 msgid ""
 "Except for one thing.  Module objects have a secret read-only attribute "
 "called :attr:`~object.__dict__` which returns the dictionary used to "
@@ -1892,14 +2039,31 @@ msgstr ""
 "Implementierung und sollte auf Dinge wie Post-Mortem-Debugger beschränkt "
 "werden."
 
+#: ../../tutorial/classes.rst:343
 msgid "object"
 msgstr "Objekt"
 
+#: ../../tutorial/classes.rst:343
 msgid "method"
 msgstr "Methode"
 
+#: ../../tutorial/classes.rst:679
 msgid "name"
 msgstr "Namen"
 
+#: ../../tutorial/classes.rst:679
 msgid "mangling"
 msgstr "Umbenennung"
+
+#~ msgid ""
+#~ "As discussed in :ref:`tut-object`, shared data can have possibly "
+#~ "surprising effects with involving :term:`mutable` objects such as lists "
+#~ "and dictionaries. For example, the *tricks* list in the following code "
+#~ "should not be used as a class variable because just a single list would "
+#~ "be shared by all *Dog* instances::"
+#~ msgstr ""
+#~ "Wie in :ref:`tut-object` besprochen, können geteilte Daten in Verbindung "
+#~ "mit :term:`veränderbaren <mutable>` Objekten wie Listen und Wörterbüchern "
+#~ "überraschende Effekte haben. Die Liste *tricks* im folgenden Code sollte "
+#~ "beispielsweise nicht als Klassenvariable verwendet werden, da nur eine "
+#~ "einzige Liste von allen *Dog*-Instanzen geteilt würde::"

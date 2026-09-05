@@ -10,19 +10,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-09-05 16:53+0200\n"
 "PO-Revision-Date: 2026-08-21 00:00+0000\n"
 "Last-Translator: Swen Bachmann <142266608+sba72@users.noreply.github.com>\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../../bugs.rst:5
 msgid "Dealing with Bugs"
 msgstr "Umgang mit Fehlern"
 
+#: ../../bugs.rst:7
 msgid ""
 "Python is a mature programming language which has established a reputation "
 "for stability.  In order to maintain this reputation, the developers would "
@@ -32,18 +34,21 @@ msgstr ""
 "erworben hat. Um diesen Ruf aufrechtzuerhalten, möchten die Entwickler über "
 "alle Mängel informiert werden, die du in Python findest."
 
+#: ../../bugs.rst:11
 msgid ""
 "It can be sometimes faster to fix bugs yourself and contribute patches to "
-"Python as it streamlines the process and involves less people. Learn how to :"
-"ref:`contribute <contributing-to-python>`."
+"Python as it streamlines the process and involves fewer people. Learn how "
+"to :ref:`contribute <contributing-to-python>`."
 msgstr ""
-"Manchmal kann es schneller sein, Fehler selbst zu beheben und Patches zu "
-"Python beizutragen, da dies den Prozess beschleunigt und weniger Personen "
-"involviert. Erfahre, wie du :ref:`beitragen <contributing-to-python>` kannst."
+"Es kann manchmal schneller sein, Fehler selbst zu beheben und Patches zu "
+"Python beizutragen, da dies den Prozess vereinfacht und weniger Personen "
+"einbezieht. Erfahre, wie du :ref:`beitragen <contributing-to-python>` kannst."
 
+#: ../../bugs.rst:16
 msgid "Documentation bugs"
 msgstr "Dokumentationsfehler"
 
+#: ../../bugs.rst:18
 msgid ""
 "If you find a bug in this documentation or would like to propose an "
 "improvement, please submit a bug report on the :ref:`issue tracker <using-"
@@ -51,10 +56,11 @@ msgid ""
 "well."
 msgstr ""
 "Wenn du einen Fehler in dieser Dokumentation findest oder einen "
-"Verbesserungsvorschlag einreichen möchtest, melde bitte einen Fehler im :ref:"
-"`Issue-Tracker <using-the-tracker>`. Wenn du einen Vorschlag zur Behebung "
-"hast, füge diesen bitte ebenfalls bei."
+"Verbesserungsvorschlag einreichen möchtest, melde bitte einen Fehler "
+"im :ref:`Issue-Tracker <using-the-tracker>`. Wenn du einen Vorschlag zur "
+"Behebung hast, füge diesen bitte ebenfalls bei."
 
+#: ../../bugs.rst:24
 msgid ""
 "If the bug or suggested improvement concerns the translation of this "
 "documentation, submit the report to the `translation’s repository "
@@ -64,6 +70,7 @@ msgstr ""
 "Dokumentation betrifft, reiche den Bericht stattdessen im `Repository der "
 "Übersetzung <TRANSLATION_REPO_>`_ ein."
 
+#: ../../bugs.rst:28
 msgid ""
 "You can also open a discussion item on our `Documentation Discourse forum "
 "<https://discuss.python.org/c/documentation/26>`_."
@@ -71,6 +78,7 @@ msgstr ""
 "Du kannst auch einen Diskussionsbeitrag in unserem `Dokumentations-Discourse-"
 "Forum <https://discuss.python.org/c/documentation/26>`_ eröffnen."
 
+#: ../../bugs.rst:31
 msgid ""
 "If you find a bug in the theme (HTML / CSS / JavaScript) of the "
 "documentation, please submit a bug report on the `python-doc-theme issue "
@@ -80,9 +88,11 @@ msgstr ""
 "findest, reiche bitte einen Fehlerbericht im `python-doc-theme Issue-Tracker "
 "<https://github.com/python/python-docs-theme>`_ ein."
 
+#: ../../bugs.rst:37
 msgid "`Documentation bugs`_"
 msgstr "`Dokumentationsfehler`_"
 
+#: ../../bugs.rst:38
 msgid ""
 "A list of documentation bugs that have been submitted to the Python issue "
 "tracker."
@@ -90,13 +100,16 @@ msgstr ""
 "Eine Liste von Dokumentationsfehlern, die im Python-Issue-Tracker "
 "eingereicht wurden."
 
+#: ../../bugs.rst:40
 msgid "`Issue Tracking <https://devguide.python.org/tracker/>`_"
 msgstr "`Fehlerverfolgung <https://devguide.python.org/tracker/>`_"
 
+#: ../../bugs.rst:41
 msgid ""
 "Overview of the process involved in reporting an improvement on the tracker."
 msgstr "Überblick über den Ablauf beim Melden einer Verbesserung im Tracker."
 
+#: ../../bugs.rst:43
 msgid ""
 "`Helping with Documentation <https://devguide.python.org/docquality/#helping-"
 "with-documentation>`_"
@@ -104,6 +117,7 @@ msgstr ""
 "`Mithilfe bei der Dokumentation <https://devguide.python.org/docquality/"
 "#helping-with-documentation>`_"
 
+#: ../../bugs.rst:44
 msgid ""
 "Comprehensive guide for individuals that are interested in contributing to "
 "Python documentation."
@@ -111,6 +125,7 @@ msgstr ""
 "Umfassender Leitfaden für Personen, die an der Mitarbeit an der Python-"
 "Dokumentation interessiert sind."
 
+#: ../../bugs.rst:46
 msgid ""
 "`Documentation Translations <https://devguide.python.org/documentation/"
 "translating/>`_"
@@ -118,6 +133,7 @@ msgstr ""
 "`Dokumentationsübersetzungen <https://devguide.python.org/documentation/"
 "translating/>`_"
 
+#: ../../bugs.rst:47
 msgid ""
 "A list of GitHub pages for documentation translation and their primary "
 "contacts."
@@ -125,9 +141,11 @@ msgstr ""
 "Eine Liste von GitHub-Seiten für die Übersetzung von Dokumentationen und "
 "deren Hauptkontakten."
 
+#: ../../bugs.rst:53
 msgid "Using the Python issue tracker"
 msgstr "Verwenden des Python-Issue-Trackers"
 
+#: ../../bugs.rst:55
 msgid ""
 "Issue reports for Python itself should be submitted via the GitHub issues "
 "tracker (https://github.com/python/cpython/issues). The GitHub issues "
@@ -139,6 +157,7 @@ msgstr ""
 "Issue-Tracker bietet ein Webformular, über das relevante Informationen "
 "eingegeben und an die Entwickler übermittelt werden können."
 
+#: ../../bugs.rst:60
 msgid ""
 "The first step in filing a report is to determine whether the problem has "
 "already been reported.  The advantage in doing so, aside from saving the "
@@ -156,6 +175,7 @@ msgstr ""
 "(die du gerne beisteuern kannst!). Durchsuche dazu den Tracker über das "
 "Suchfeld oben auf der Seite."
 
+#: ../../bugs.rst:67
 msgid ""
 "If the problem you're reporting is not already in the list, log in to "
 "GitHub. If you don't already have a GitHub account, create a new account "
@@ -167,6 +187,7 @@ msgstr ""
 "neues Konto über den Link „Sign up“. Es ist nicht möglich, einen "
 "Fehlerbericht anonym einzureichen."
 
+#: ../../bugs.rst:72
 msgid ""
 "Being now logged in, you can submit an issue. Click on the \"New issue\" "
 "button in the top bar to report a new issue."
@@ -175,9 +196,11 @@ msgstr ""
 "Schaltfläche „New issue“ in der oberen Leiste, um ein neues Problem zu "
 "melden."
 
+#: ../../bugs.rst:75
 msgid "The submission form has two fields, \"Title\" and \"Comment\"."
 msgstr "Das Formular enthält zwei Felder: „Title“ und „Comment“."
 
+#: ../../bugs.rst:77
 msgid ""
 "For the \"Title\" field, enter a *very* short description of the problem; "
 "fewer than ten words is good."
@@ -185,6 +208,7 @@ msgstr ""
 "Gib in das Feld „Title“ eine *sehr* kurze Beschreibung des Problems ein; "
 "weniger als zehn Wörter sind ideal."
 
+#: ../../bugs.rst:80
 msgid ""
 "In the \"Comment\" field, describe the problem in detail, including what you "
 "expected to happen and what did happen.  Be sure to include whether any "
@@ -196,6 +220,7 @@ msgstr ""
 "Erweiterungsmodule beteiligt waren und welche Hard- und Softwareplattform du "
 "verwendet hast (einschließlich Versionsangaben, falls zutreffend)."
 
+#: ../../bugs.rst:85
 msgid ""
 "Each issue report will be reviewed by a developer who will determine what "
 "needs to be done to correct the problem. You will receive an update each "
@@ -205,6 +230,7 @@ msgstr ""
 "Behebung des Problems getan werden muss. Du erhältst jedes Mal eine "
 "Benachrichtigung, wenn eine Aktion zu diesem Issue durchgeführt wird."
 
+#: ../../bugs.rst:92
 msgid ""
 "`How to Report Bugs Effectively <https://www.chiark.greenend.org.uk/"
 "~sgtatham/bugs.html>`_"
@@ -212,6 +238,7 @@ msgstr ""
 "`Effektives Melden von Fehlern <https://www.chiark.greenend.org.uk/~sgtatham/"
 "bugs.html>`_"
 
+#: ../../bugs.rst:93
 msgid ""
 "Article which goes into some detail about how to create a useful bug report. "
 "This describes what kind of information is useful and why it is useful."
@@ -220,6 +247,7 @@ msgstr ""
 "Fehlerbericht erstellt. Er erläutert, welche Informationen nützlich sind und "
 "warum."
 
+#: ../../bugs.rst:96
 msgid ""
 "`Bug Writing Guidelines <https://bugzilla.mozilla.org/page.cgi?id=bug-"
 "writing.html>`_"
@@ -227,6 +255,7 @@ msgstr ""
 "`Richtlinien zum Schreiben von Fehlerberichten <https://bugzilla.mozilla.org/"
 "page.cgi?id=bug-writing.html>`_"
 
+#: ../../bugs.rst:97
 msgid ""
 "Information about writing a good bug report.  Some of this is specific to "
 "the Mozilla project, but describes general good practices."
@@ -235,9 +264,11 @@ msgstr ""
 "beziehen sich speziell auf das Mozilla-Projekt, beschreiben jedoch allgemein "
 "bewährte Vorgehensweisen."
 
+#: ../../bugs.rst:103
 msgid "Getting started contributing to Python yourself"
 msgstr "Erste Schritte, um selbst zu Python beizutragen"
 
+#: ../../bugs.rst:105
 msgid ""
 "Beyond just reporting bugs that you find, you are also welcome to submit "
 "patches to fix them.  You can find more information on how to get started "
@@ -251,3 +282,13 @@ msgstr ""
 "Wenn du Fragen hast, ist die `Core-Mentorship-Mailingliste`_ eine "
 "hilfsbereite Anlaufstelle für alle Fragen rund um das Beheben von Problemen "
 "in Python."
+
+#~ msgid ""
+#~ "It can be sometimes faster to fix bugs yourself and contribute patches to "
+#~ "Python as it streamlines the process and involves less people. Learn how "
+#~ "to :ref:`contribute <contributing-to-python>`."
+#~ msgstr ""
+#~ "Manchmal kann es schneller sein, Fehler selbst zu beheben und Patches zu "
+#~ "Python beizutragen, da dies den Prozess beschleunigt und weniger Personen "
+#~ "involviert. Erfahre, wie du :ref:`beitragen <contributing-to-python>` "
+#~ "kannst."

@@ -11,19 +11,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-27 14:15+0000\n"
+"POT-Creation-Date: 2026-09-05 16:53+0200\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../../tutorial/datastructures.rst:5
 msgid "Data Structures"
 msgstr "Datenstrukturen"
 
+#: ../../tutorial/datastructures.rst:7
 msgid ""
 "This chapter describes some things you've learned about already in more "
 "detail, and adds some new things as well."
@@ -31,9 +33,11 @@ msgstr ""
 "In diesem Kapitel werden einige Dinge, die Sie bereits kennengelernt haben, "
 "näher erläutert, und es werden zudem einige neue Aspekte hinzugefügt."
 
+#: ../../tutorial/datastructures.rst:13
 msgid "More on Lists"
 msgstr "Mehr zum Thema Listen"
 
+#: ../../tutorial/datastructures.rst:15
 msgid ""
 "The :ref:`list <typesseq-list>` data type has some more methods. Here are "
 "all of the methods of list objects:"
@@ -41,11 +45,13 @@ msgstr ""
 "Der Datentyp :ref:`list <typesseq-list>` verfügt über einige weitere "
 "Methoden. Hier sind alle Methoden von Listenobjekten aufgeführt:"
 
+#: ../../tutorial/datastructures.rst:21
 msgid "Add an item to the end of the list.  Similar to ``a[len(a):] = [x]``."
 msgstr ""
 "Füge einen Eintrag am Ende der Liste hinzu. Ähnlich wie bei ``a[len(a):] = "
 "[x]``."
 
+#: ../../tutorial/datastructures.rst:27
 msgid ""
 "Extend the list by appending all the items from the iterable.  Similar to "
 "``a[len(a):] = iterable``."
@@ -53,24 +59,27 @@ msgstr ""
 "Erweitere die Liste, indem du alle Elemente aus der iterierbaren Struktur "
 "anhängst. Ähnlich wie bei ``a[len(a):] = iterable``."
 
+#: ../../tutorial/datastructures.rst:34
 msgid ""
 "Insert an item at a given position.  The first argument is the index of the "
 "element before which to insert, so ``a.insert(0, x)`` inserts at the front "
 "of the list, and ``a.insert(len(a), x)`` is equivalent to ``a.append(x)``."
 msgstr ""
 "Fügt ein Element an einer bestimmten Position ein. Das erste Argument ist "
-"der Index des Elements, vor dem eingefügt werden soll. Daher fügt ``a."
-"insert(0, x)`` am Anfang der Liste ein, und ``a.insert(len(a), x)`` "
+"der Index des Elements, vor dem eingefügt werden soll. Daher fügt "
+"``a.insert(0, x)`` am Anfang der Liste ein, und ``a.insert(len(a), x)`` "
 "entspricht ``a.append(x)``."
 
+#: ../../tutorial/datastructures.rst:42
 msgid ""
 "Remove the first item from the list whose value is equal to *value*.  It "
 "raises a :exc:`ValueError` if there is no such item."
 msgstr ""
 "Entferne das erste Element aus der Liste, dessen Wert *value* entspricht. "
-"Wenn kein solches Element vorhanden ist, wird eine :exc:"
-"`ValueError`ausgelöst."
+"Wenn kein solches Element vorhanden ist, wird eine :exc:`ValueError` "
+"ausgelöst."
 
+#: ../../tutorial/datastructures.rst:49
 msgid ""
 "Remove the item at the given position in the list, and return it.  If no "
 "index is specified, ``a.pop()`` removes and returns the last item in the "
@@ -78,21 +87,24 @@ msgid ""
 "outside the list range."
 msgstr ""
 "Entfernt das Element an der angegebenen Position aus der Liste und gibt es "
-"zurück. Wenn kein Index angegeben wird, entfernt ``a.pop()``das letzte "
-"Element der Liste und gibt es zurück. Es löst eine :exc:`IndexError`aus, "
+"zurück. Wenn kein Index angegeben wird, entfernt ``a.pop()`` das letzte "
+"Element der Liste und gibt es zurück. Es löst eine :exc:`IndexError` aus, "
 "wenn die Liste leer ist oder der Index außerhalb des Listenbereichs liegt."
 
+#: ../../tutorial/datastructures.rst:58
 msgid "Remove all items from the list.  Similar to ``del a[:]``."
 msgstr "Entferne alle Elemente aus der Liste. Ähnlich wie bei ``del a[:]`` ."
 
+#: ../../tutorial/datastructures.rst:64
 msgid ""
 "Return zero-based index of the first occurrence of *value* in the list. "
 "Raises a :exc:`ValueError` if there is no such item."
 msgstr ""
 "Gibt den nullbasierten Index des ersten Vorkommens von *value* in der Liste "
-"zurück. Löst eine Ausnahme vom Typ :exc:`ValueError`aus, wenn kein "
+"zurück. Löst eine Ausnahme vom Typ :exc:`ValueError` aus, wenn kein "
 "entsprechendes Element vorhanden ist."
 
+#: ../../tutorial/datastructures.rst:67
 msgid ""
 "The optional arguments *start* and *end* are interpreted as in the slice "
 "notation and are used to limit the search to a particular subsequence of the "
@@ -104,9 +116,11 @@ msgstr ""
 "Liste zu beschränken. Der zurückgegebene Index wird relativ zum Anfang der "
 "vollständigen Folge und nicht relativ zum Argument *start* berechnet."
 
+#: ../../tutorial/datastructures.rst:76
 msgid "Return the number of times *value* appears in the list."
 msgstr "Gibt die Anzahl der Vorkommen von *value* in der Liste zurück."
 
+#: ../../tutorial/datastructures.rst:82
 msgid ""
 "Sort the items of the list in place (the arguments can be used for sort "
 "customization, see :func:`sorted` for their explanation)."
@@ -115,16 +129,20 @@ msgstr ""
 "Anpassung der Sortierung verwendet werden; eine Erläuterung findest du "
 "unter :func:`sorted` )."
 
+#: ../../tutorial/datastructures.rst:89
 msgid "Reverse the elements of the list in place."
 msgstr ""
 "Die Elemente der Liste an Ort und Stelle in umgekehrter Reihenfolge anordnen."
 
+#: ../../tutorial/datastructures.rst:95
 msgid "Return a shallow copy of the list.  Similar to ``a[:]``."
 msgstr "Gibt eine flache Kopie der Liste zurück. Ähnlich wie bei ``a[:]`` ."
 
+#: ../../tutorial/datastructures.rst:98
 msgid "An example that uses most of the list methods::"
 msgstr "Ein Beispiel, das die meisten Methoden der Liste verwendet::"
 
+#: ../../tutorial/datastructures.rst:100
 msgid ""
 ">>> fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', "
 "'banana']\n"
@@ -170,6 +188,7 @@ msgstr ""
 ">>> fruits.pop()\n"
 "'Birne'"
 
+#: ../../tutorial/datastructures.rst:121
 msgid ""
 "You might have noticed that methods like ``insert``, ``remove`` or ``sort`` "
 "that only modify the list have no return value printed -- they return the "
@@ -177,11 +196,12 @@ msgid ""
 "structures in Python."
 msgstr ""
 "Vielleicht ist Ihnen aufgefallen, dass bei Methoden wie ``insert``, "
-"``remove``oder ``sort``, die lediglich die Liste verändern, kein "
-"Rückgabewert ausgegeben wird – sie geben den Standardwert ``None``zurück. "
+"``remove`` oder ``sort``, die lediglich die Liste verändern, kein "
+"Rückgabewert ausgegeben wird – sie geben den Standardwert ``None`` zurück. "
 "[#]_ Dies ist ein Entwurfsprinzip für alle veränderbaren Datenstrukturen in "
 "Python."
 
+#: ../../tutorial/datastructures.rst:126
 msgid ""
 "Another thing you might notice is that not all data can be sorted or "
 "compared.  For instance, ``[None, 'hello', 10]`` doesn't sort because "
@@ -191,15 +211,17 @@ msgid ""
 msgstr ""
 "Außerdem wird Ihnen vielleicht auffallen, dass nicht alle Daten sortiert "
 "oder verglichen werden können. So lässt sich beispielsweise ``[None, "
-"'hello', 10]``nicht sortieren, da Ganzzahlen nicht mit Zeichenketten "
-"verglichen werden können und ``None``nicht mit anderen Typen verglichen "
+"'hello', 10]`` nicht sortieren, da Ganzzahlen nicht mit Zeichenketten "
+"verglichen werden können und ``None`` nicht mit anderen Typen verglichen "
 "werden kann. Zudem gibt es einige Typen, für die keine definierte "
-"Ordnungsrelation existiert. So ist beispielsweise ``3+4j < 5+7j``kein "
+"Ordnungsrelation existiert. So ist beispielsweise ``3+4j < 5+7j`` kein "
 "gültiger Vergleich."
 
+#: ../../tutorial/datastructures.rst:137
 msgid "Using Lists as Stacks"
 msgstr "Listen als Stapel verwenden"
 
+#: ../../tutorial/datastructures.rst:142
 msgid ""
 "The list methods make it very easy to use a list as a stack, where the last "
 "element added is the first element retrieved (\"last-in, first-out\").  To "
@@ -209,11 +231,12 @@ msgid ""
 msgstr ""
 "Die Listenmethoden machen es sehr einfach, eine Liste als Stapel zu "
 "verwenden, bei dem das zuletzt hinzugefügte Element als erstes wieder "
-"abgerufen wird (\"Last-in, First-out}“).  Um ein Element oben auf den Stapel "
-"zu setzen, verwenden Sie ` :meth:`~list.append``.  Um ein Element von der "
-"Spitze des Stapels abzurufen, verwenden Sie ` :meth:`~list.pop` ` ohne "
+"abgerufen wird (\"Last-in, First-out\").  Um ein Element oben auf den Stapel "
+"zu setzen, verwenden Sie :meth:`~list.append`.  Um ein Element von der "
+"Spitze des Stapels abzurufen, verwenden Sie :meth:`~list.pop` ohne "
 "expliziten Index.  Beispiel::"
 
+#: ../../tutorial/datastructures.rst:147
 msgid ""
 ">>> stack = [3, 4, 5]\n"
 ">>> stack.append(6)\n"
@@ -247,31 +270,37 @@ msgstr ""
 ">>> stack\n"
 "[3, 4]"
 
+#: ../../tutorial/datastructures.rst:167
 msgid "Using Lists as Queues"
 msgstr "Listen als Warteschlangen verwenden"
 
+#: ../../tutorial/datastructures.rst:171
 msgid ""
 "It is also possible to use a list as a queue, where the first element added "
 "is the first element retrieved (\"first-in, first-out\"); however, lists are "
 "not efficient for this purpose.  While appends and pops from the end of list "
 "are fast, doing inserts or pops from the beginning of a list is slow "
-"(because all of the other elements have to be shifted by one)."
+"(because all of the other elements have to be shifted by one).  "
+"See :ref:`time-complexity` for more information."
 msgstr ""
 "Es ist auch möglich, eine Liste als Warteschlange zu verwenden, bei der das "
 "zuerst hinzugefügte Element als erstes wieder abgerufen wird (\"First-in, "
 "First-out\"); allerdings sind Listen für diesen Zweck nicht effizient. "
 "Während das Anhängen und Entnehmen am Ende einer Liste schnell erfolgt, ist "
 "das Einfügen oder Entnehmen am Anfang einer Liste langsam (da alle anderen "
-"Elemente um eine Position verschoben werden müssen)."
+"Elemente um eine Position verschoben werden müssen). Weitere Informationen "
+"findest du unter :ref:`time-complexity`."
 
+#: ../../tutorial/datastructures.rst:178
 msgid ""
 "To implement a queue, use :class:`collections.deque` which was designed to "
 "have fast appends and pops from both ends.  For example::"
 msgstr ""
-"Um eine Warteschlange zu implementieren, verwenden Sie :class:`collections."
-"deque` “, das für schnelles Hinzufügen und Entnehmen von beiden Enden "
-"ausgelegt ist.  Beispiel::"
+"Um eine Warteschlange zu implementieren, verwenden "
+"Sie :class:`collections.deque` “, das für schnelles Hinzufügen und Entnehmen "
+"von beiden Enden ausgelegt ist.  Beispiel::"
 
+#: ../../tutorial/datastructures.rst:181
 msgid ""
 ">>> from collections import deque\n"
 ">>> queue = deque([\"Eric\", \"John\", \"Michael\"])\n"
@@ -298,9 +327,11 @@ msgstr ""
 "Reihenfolge der Ankunft\n"
 "deque(['Michael', 'Terry', 'Graham'])"
 
+#: ../../tutorial/datastructures.rst:196
 msgid "List Comprehensions"
 msgstr "Listen-Abstraktion"
 
+#: ../../tutorial/datastructures.rst:198
 msgid ""
 "List comprehensions provide a concise way to create lists. Common "
 "applications are to make new lists where each element is the result of some "
@@ -314,11 +345,13 @@ msgstr ""
 "oder die Erstellung einer Teilsequenz aus den Elementen, die eine bestimmte "
 "Bedingung erfüllen."
 
+#: ../../tutorial/datastructures.rst:203
 msgid "For example, assume we want to create a list of squares, like::"
 msgstr ""
 "Nehmen wir zum Beispiel an, wir möchten eine Liste von Quadraten erstellen, "
 "etwa wie folgt:"
 
+#: ../../tutorial/datastructures.rst:205
 msgid ""
 ">>> squares = []\n"
 ">>> for x in range(10):\n"
@@ -334,28 +367,34 @@ msgstr ""
 ">>> squares\n"
 "[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]"
 
+#: ../../tutorial/datastructures.rst:212
 msgid ""
 "Note that this creates (or overwrites) a variable named ``x`` that still "
 "exists after the loop completes.  We can calculate the list of squares "
 "without any side effects using::"
 msgstr ""
-"Beachten Sie, dass dadurch eine Variable namens ``x``angelegt (oder "
+"Beachten Sie, dass dadurch eine Variable namens ``x`` angelegt (oder "
 "überschrieben) wird, die auch nach Abschluss der Schleife noch vorhanden "
 "ist. Wir können die Liste der Quadrate ohne Nebenwirkungen wie folgt "
 "berechnen:"
 
+#: ../../tutorial/datastructures.rst:216
 msgid "squares = list(map(lambda x: x**2, range(10)))"
 msgstr "Quadrate = list(map(lambda x: x**2, range(10)))"
 
+#: ../../tutorial/datastructures.rst:218
 msgid "or, equivalently::"
 msgstr "oder, gleichbedeutend::"
 
+#: ../../tutorial/datastructures.rst:220
 msgid "squares = [x**2 for x in range(10)]"
 msgstr "Quadrate = [x**2 for x in range(10)]"
 
+#: ../../tutorial/datastructures.rst:222
 msgid "which is more concise and readable."
 msgstr "was prägnanter und besser lesbar ist."
 
+#: ../../tutorial/datastructures.rst:224
 msgid ""
 "A list comprehension consists of brackets containing an expression followed "
 "by a :keyword:`!for` clause, then zero or more :keyword:`!for` or :keyword:`!"
@@ -365,13 +404,14 @@ msgid ""
 "lists if they are not equal::"
 msgstr ""
 "Eine Listenkomprimierung besteht aus Klammern, die einen Ausdruck enthalten, "
-"gefolgt von einer :keyword:`!for` “-Klausel und anschließend null oder mehr :"
-"keyword:`!for` “- oder :keyword:`!if` “-Klauseln. Das Ergebnis ist eine neue "
-"Liste, die sich aus der Auswertung des Ausdrucks im Kontext der darauf "
-"folgenden :keyword:`!for` “- und :keyword:`!if` “-Klauseln ergibt. Diese "
-"Listenkomprimierung kombiniert beispielsweise die Elemente zweier Listen, "
-"sofern sie nicht identisch sind:"
+"gefolgt von einer :keyword:`!for` “-Klausel und anschließend null oder "
+"mehr :keyword:`!for` “- oder :keyword:`!if` “-Klauseln. Das Ergebnis ist "
+"eine neue Liste, die sich aus der Auswertung des Ausdrucks im Kontext der "
+"darauf folgenden :keyword:`!for` “- und :keyword:`!if` “-Klauseln ergibt. "
+"Diese Listenkomprimierung kombiniert beispielsweise die Elemente zweier "
+"Listen, sofern sie nicht identisch sind:"
 
+#: ../../tutorial/datastructures.rst:231
 msgid ""
 ">>> [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]\n"
 "[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]"
@@ -379,9 +419,11 @@ msgstr ""
 ">>> [(x, y) für x in [1, 2, 3] für y in [3, 1, 4], wenn x != y]\n"
 "[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]"
 
+#: ../../tutorial/datastructures.rst:234
 msgid "and it's equivalent to::"
 msgstr "und das entspricht::"
 
+#: ../../tutorial/datastructures.rst:236
 msgid ""
 ">>> combs = []\n"
 ">>> for x in [1,2,3]:\n"
@@ -401,20 +443,23 @@ msgstr ""
 ">>> combs\n"
 "[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]"
 
+#: ../../tutorial/datastructures.rst:245
 msgid ""
 "Note how the order of the :keyword:`for` and :keyword:`if` statements is the "
 "same in both these snippets."
 msgstr ""
-"Beachten Sie, dass die Reihenfolge der Anweisungen :keyword:`for`und :"
-"keyword:`if`in beiden Codeausschnitten identisch ist."
+"Beachten Sie, dass die Reihenfolge der Anweisungen :keyword:`for` "
+"und :keyword:`if` in beiden Codeausschnitten identisch ist."
 
+#: ../../tutorial/datastructures.rst:248
 msgid ""
 "If the expression is a tuple (e.g. the ``(x, y)`` in the previous example), "
 "it must be parenthesized. ::"
 msgstr ""
-"Wenn es sich bei dem Ausdruck um ein Tupel handelt (z. B. ``(x, y)``im "
+"Wenn es sich bei dem Ausdruck um ein Tupel handelt (z. B. ``(x, y)`` im "
 "vorherigen Beispiel), muss es in Klammern gesetzt werden. ::"
 
+#: ../../tutorial/datastructures.rst:251
 msgid ""
 ">>> vec = [-4, -2, 0, 2, 4]\n"
 ">>> # create a new list with the values doubled\n"
@@ -475,12 +520,14 @@ msgstr ""
 ">>> [num for elem in vec for num in elem]\n"
 "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
 
+#: ../../tutorial/datastructures.rst:279
 msgid ""
 "List comprehensions can contain complex expressions and nested functions::"
 msgstr ""
 "Listen-Abstraktionen können komplexe Ausdrücke und verschachtelte Funktionen "
 "enthalten::"
 
+#: ../../tutorial/datastructures.rst:281
 msgid ""
 ">>> from math import pi\n"
 ">>> [str(round(pi, i)) for i in range(1, 6)]\n"
@@ -490,9 +537,11 @@ msgstr ""
 ">>> [str(round(pi, i)) for i in range(1, 6)]\n"
 "['3,1', '3,14', '3,142', '3,1416', '3,14159']"
 
+#: ../../tutorial/datastructures.rst:286
 msgid "Nested List Comprehensions"
 msgstr "Verschachtelte Listen-Abstraktion"
 
+#: ../../tutorial/datastructures.rst:288
 msgid ""
 "The initial expression in a list comprehension can be any arbitrary "
 "expression, including another list comprehension."
@@ -500,6 +549,7 @@ msgstr ""
 "Der erste Ausdruck in einer Listen-Abstraktion kann ein beliebiger Ausdruck "
 "sein, einschließlich einer weiteren Listen-Abstraktion."
 
+#: ../../tutorial/datastructures.rst:291
 msgid ""
 "Consider the following example of a 3x4 matrix implemented as a list of 3 "
 "lists of length 4::"
@@ -507,6 +557,7 @@ msgstr ""
 "Betrachte das folgende Beispiel einer 3×4-Matrix, die als Liste aus drei "
 "Listen der Länge 4 implementiert ist::"
 
+#: ../../tutorial/datastructures.rst:294
 msgid ""
 ">>> matrix = [\n"
 "...     [1, 2, 3, 4],\n"
@@ -520,9 +571,11 @@ msgstr ""
 "...     [9, 10, 11, 12],\n"
 "... ]"
 
+#: ../../tutorial/datastructures.rst:300
 msgid "The following list comprehension will transpose rows and columns::"
 msgstr "Die folgende Listen-Abstraktion transponiert Zeilen und Spalten::"
 
+#: ../../tutorial/datastructures.rst:302
 msgid ""
 ">>> [[row[i] for row in matrix] for i in range(4)]\n"
 "[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
@@ -530,15 +583,17 @@ msgstr ""
 ">>> [[row[i] for row in matrix] for i in range(4)]\n"
 "[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
 
+#: ../../tutorial/datastructures.rst:305
 msgid ""
 "As we saw in the previous section, the inner list comprehension is evaluated "
 "in the context of the :keyword:`for` that follows it, so this example is "
 "equivalent to::"
 msgstr ""
 "Wie wir im vorigen Abschnitt gesehen haben, wird die innere Listenauswertung "
-"im Kontext des darauf folgenden :keyword:`for`ausgewertet, sodass dieses "
+"im Kontext des darauf folgenden :keyword:`for` ausgewertet, sodass dieses "
 "Beispiel gleichbedeutend ist mit::"
 
+#: ../../tutorial/datastructures.rst:309
 msgid ""
 ">>> transposed = []\n"
 ">>> for i in range(4):\n"
@@ -554,9 +609,11 @@ msgstr ""
 ">>> transposed\n"
 "[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
 
+#: ../../tutorial/datastructures.rst:316
 msgid "which, in turn, is the same as::"
 msgstr "was wiederum dasselbe ist wie::"
 
+#: ../../tutorial/datastructures.rst:318
 msgid ""
 ">>> transposed = []\n"
 ">>> for i in range(4):\n"
@@ -581,14 +638,16 @@ msgstr ""
 ">>> transponiert\n"
 "[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
 
+#: ../../tutorial/datastructures.rst:329
 msgid ""
 "In the real world, you should prefer built-in functions to complex flow "
 "statements. The :func:`zip` function would do a great job for this use case::"
 msgstr ""
 "In der Praxis sollten Sie integrierte Funktionen komplexen Ablaufanweisungen "
-"vorziehen. Die Funktion :func:`zip`eignet sich hervorragend für diesen "
+"vorziehen. Die Funktion :func:`zip` eignet sich hervorragend für diesen "
 "Anwendungsfall:"
 
+#: ../../tutorial/datastructures.rst:332
 msgid ""
 ">>> list(zip(*matrix))\n"
 "[(1, 5, 9), (2, 6, 10), (3, 7, 11), (4, 8, 12)]"
@@ -596,30 +655,35 @@ msgstr ""
 ">>> list(zip(*matrix))\n"
 "[(1, 5, 9), (2, 6, 10), (3, 7, 11), (4, 8, 12)]"
 
+#: ../../tutorial/datastructures.rst:335
 msgid ""
 "See :ref:`tut-unpacking-arguments` for details on the asterisk in this line."
 msgstr ""
-"Weitere Informationen zum Sternchen in dieser Zeile finden Sie unter :ref:"
-"`tut-unpacking-arguments`."
+"Weitere Informationen zum Sternchen in dieser Zeile finden Sie "
+"unter :ref:`tut-unpacking-arguments`."
 
+#: ../../tutorial/datastructures.rst:340
 msgid "The :keyword:`!del` statement"
 msgstr "Die Erklärung der :keyword:`!del` “"
 
+#: ../../tutorial/datastructures.rst:342
 msgid ""
 "There is a way to remove an item from a list given its index instead of its "
-"value: the :keyword:`del` statement.  This differs from the :meth:`~list."
-"pop` method which returns a value.  The :keyword:`!del` statement can also "
-"be used to remove slices from a list or clear the entire list (which we did "
-"earlier by assignment of an empty list to the slice).  For example::"
+"value: the :keyword:`del` statement.  This differs from "
+"the :meth:`~list.pop` method which returns a value.  The :keyword:`!del` "
+"statement can also be used to remove slices from a list or clear the entire "
+"list (which we did earlier by assignment of an empty list to the slice).  "
+"For example::"
 msgstr ""
 "Es gibt eine Möglichkeit, ein Element anhand seines Indexes statt seines "
 "Wertes aus einer Liste zu entfernen: die Anweisung :keyword:`del` “. Diese "
 "unterscheidet sich von der Methode :meth:`~list.pop` “, die einen Wert "
-"zurückgibt. Die Anweisung :keyword:`!del`kann auch verwendet werden, um "
+"zurückgibt. Die Anweisung :keyword:`!del` kann auch verwendet werden, um "
 "Teilmengen aus einer Liste zu entfernen oder die gesamte Liste zu leeren "
 "(was wir zuvor durch die Zuweisung einer leeren Liste zur Teilmenge getan "
 "haben). Zum Beispiel::"
 
+#: ../../tutorial/datastructures.rst:348
 msgid ""
 ">>> a = [-1, 1, 66.25, 333, 333, 1234.5]\n"
 ">>> del a[0]\n"
@@ -643,24 +707,29 @@ msgstr ""
 ">>> a\n"
 "[]"
 
+#: ../../tutorial/datastructures.rst:359
 msgid ":keyword:`del` can also be used to delete entire variables::"
 msgstr ""
 ":keyword:`del` kann auch zum Löschen ganzer Variablen verwendet werden::"
 
+#: ../../tutorial/datastructures.rst:361
 msgid ">>> del a"
 msgstr ">>> del a"
 
+#: ../../tutorial/datastructures.rst:363
 msgid ""
 "Referencing the name ``a`` hereafter is an error (at least until another "
 "value is assigned to it).  We'll find other uses for :keyword:`del` later."
 msgstr ""
-"Der Verweis auf den Namen ``a``ist hier ein Fehler (zumindest solange, bis "
+"Der Verweis auf den Namen ``a`` ist hier ein Fehler (zumindest solange, bis "
 "ihm ein anderer Wert zugewiesen wird). Wir werden später noch weitere "
-"Verwendungsmöglichkeiten für :keyword:`del`finden."
+"Verwendungsmöglichkeiten für :keyword:`del` finden."
 
+#: ../../tutorial/datastructures.rst:370
 msgid "Tuples and Sequences"
 msgstr "Tupel und Sequenzen"
 
+#: ../../tutorial/datastructures.rst:372
 msgid ""
 "We saw that lists and strings have many common properties, such as indexing "
 "and slicing operations.  They are two examples of *sequence* data types "
@@ -675,12 +744,14 @@ msgstr ""
 "können weitere Sequenz-Datentypen hinzukommen. Es gibt außerdem einen "
 "weiteren standardmäßigen Sequenz-Datentyp: das *Tupel*."
 
+#: ../../tutorial/datastructures.rst:378
 msgid ""
 "A tuple consists of a number of values separated by commas, for instance::"
 msgstr ""
 "Ein Tupel besteht aus einer Reihe von Werten, die durch Kommas getrennt "
 "sind, zum Beispiel::"
 
+#: ../../tutorial/datastructures.rst:380
 msgid ""
 ">>> t = 12345, 54321, 'hello!'\n"
 ">>> t[0]\n"
@@ -720,6 +791,7 @@ msgstr ""
 ">>> v\n"
 "([1, 2, 3], [3, 2, 1])"
 
+#: ../../tutorial/datastructures.rst:400
 msgid ""
 "As you see, on output tuples are always enclosed in parentheses, so that "
 "nested tuples are interpreted correctly; they may be input with or without "
@@ -736,24 +808,26 @@ msgstr ""
 "ist jedoch möglich, Tupel zu erstellen, die veränderbare Objekte wie "
 "beispielsweise Listen enthalten."
 
+#: ../../tutorial/datastructures.rst:407
 msgid ""
 "Though tuples may seem similar to lists, they are often used in different "
 "situations and for different purposes. Tuples are :term:`immutable`, and "
 "usually contain a heterogeneous sequence of elements that are accessed via "
 "unpacking (see later in this section) or indexing (or even by attribute in "
-"the case of :func:`namedtuples <collections.namedtuple>`). Lists are :term:"
-"`mutable`, and their elements are usually homogeneous and are accessed by "
-"iterating over the list."
+"the case of :func:`namedtuples <collections.namedtuple>`). Lists "
+"are :term:`mutable`, and their elements are usually homogeneous and are "
+"accessed by iterating over the list."
 msgstr ""
 "Auch wenn Tupel auf den ersten Blick Listen ähneln mögen, werden sie oft in "
-"anderen Situationen und für andere Zwecke verwendet. Tupel sind :term:"
-"`unveränderlich` und enthalten in der Regel eine heterogene Folge von "
-"Elementen, auf die über Entpacken (siehe weiter unten in diesem Abschnitt) "
-"oder Indizierung (oder im Fall von :func:`namedtuples <collections."
-"namedtuple>` sogar über Attribute) zugegriffen wird. Listen sind :term:"
-"`veränderlich`, und ihre Elemente sind in der Regel homogen; der Zugriff "
-"erfolgt durch Iteration über die Liste."
+"anderen Situationen und für andere Zwecke verwendet. Tupel "
+"sind :term:`unveränderlich <immutable>` und enthalten in der Regel eine "
+"heterogene Folge von Elementen, auf die über Entpacken (siehe weiter unten "
+"in diesem Abschnitt) oder Indizierung (oder im Fall von :func:`namedtuples "
+"<collections.namedtuple>` sogar über Attribute) zugegriffen wird. Listen "
+"sind :term:`veränderlich <mutable>`, und ihre Elemente sind in der Regel "
+"homogen; der Zugriff erfolgt durch Iteration über die Liste."
 
+#: ../../tutorial/datastructures.rst:415
 msgid ""
 "A special problem is the construction of tuples containing 0 or 1 items: the "
 "syntax has some extra quirks to accommodate these.  Empty tuples are "
@@ -768,6 +842,7 @@ msgstr ""
 "ein Komma nachsetzt (es reicht nicht aus, einen einzelnen Wert in Klammern "
 "zu setzen). Unschön, aber effektiv.  Zum Beispiel::"
 
+#: ../../tutorial/datastructures.rst:421
 msgid ""
 ">>> empty = ()\n"
 ">>> singleton = 'hello',    # <-- note trailing comma\n"
@@ -787,18 +862,21 @@ msgstr ""
 ">>> singleton\n"
 "('hello',)"
 
+#: ../../tutorial/datastructures.rst:430
 msgid ""
 "The statement ``t = 12345, 54321, 'hello!'`` is an example of *tuple "
 "packing*: the values ``12345``, ``54321`` and ``'hello!'`` are packed "
 "together in a tuple. The reverse operation is also possible::"
 msgstr ""
-"Die Anweisung ``t = 12345, 54321, 'hello!'``ist ein Beispiel für *Tupel-"
-"Packing*: Die Werte ``12345`` “, ``54321``und ``'hello!'`` “ werden in einem "
-"Tupel zusammengefasst. Auch die umgekehrte Operation ist möglich::"
+"Die Anweisung ``t = 12345, 54321, 'hello!'`` ist ein Beispiel für *Tupel-"
+"Packing*: Die Werte ``12345`` “, ``54321`` und ``'hello!'`` “ werden in "
+"einem Tupel zusammengefasst. Auch die umgekehrte Operation ist möglich::"
 
+#: ../../tutorial/datastructures.rst:434
 msgid ">>> x, y, z = t"
 msgstr ">>> x, y, z = t"
 
+#: ../../tutorial/datastructures.rst:436
 msgid ""
 "This is called, appropriately enough, *sequence unpacking* and works for any "
 "sequence on the right-hand side.  Sequence unpacking requires that there are "
@@ -813,9 +891,11 @@ msgstr ""
 "Beachten Sie, dass die Mehrfachzuweisung im Grunde nur eine Kombination aus "
 "Tupel-Packing und Sequenz-Unpacking ist."
 
+#: ../../tutorial/datastructures.rst:446
 msgid "Sets"
 msgstr "Sets"
 
+#: ../../tutorial/datastructures.rst:448
 msgid ""
 "Python also includes a data type for :ref:`sets <types-set>`.  A set is an "
 "unordered collection with no duplicate elements.  Basic uses include "
@@ -830,17 +910,20 @@ msgstr ""
 "unterstützen zudem mathematische Operationen wie Vereinigung, Schnittmenge, "
 "Differenz und symmetrische Differenz."
 
+#: ../../tutorial/datastructures.rst:454
 msgid ""
 "Curly braces or the :func:`set` function can be used to create sets.  Note: "
 "to create an empty set you have to use ``set()``, not ``{}``; the latter "
 "creates an empty dictionary, a data structure that we discuss in the next "
 "section."
 msgstr ""
-"Zum Erstellen von Mengen können geschweifte Klammern oder die Funktion :func:"
-"`set`verwendet werden. Hinweis: Um eine leere Menge zu erstellen, müssen Sie "
-"``set()``verwenden, nicht ``{}`` “; Letzteres erstellt ein leeres "
-"Wörterbuch, eine Datenstruktur, die wir im nächsten Abschnitt behandeln."
+"Zum Erstellen von Mengen können geschweifte Klammern oder die "
+"Funktion :func:`set` verwendet werden. Hinweis: Um eine leere Menge zu "
+"erstellen, müssen Sie ``set()`` verwenden, nicht ``{}`` “; Letzteres "
+"erstellt ein leeres Wörterbuch, eine Datenstruktur, die wir im nächsten "
+"Abschnitt behandeln."
 
+#: ../../tutorial/datastructures.rst:458
 msgid ""
 "Because sets are unordered, iterating over them or printing them can produce "
 "the elements in a different order than you expect."
@@ -849,9 +932,11 @@ msgstr ""
 "Elemente vorkommen, dass diese in einer anderen Reihenfolge angezeigt "
 "werden, als Sie erwarten."
 
+#: ../../tutorial/datastructures.rst:461
 msgid "Here is a brief demonstration::"
 msgstr "Hier eine kurze Demonstration:"
 
+#: ../../tutorial/datastructures.rst:463
 msgid ""
 ">>> basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}\n"
 ">>> print(basket)                      # show that duplicates have been "
@@ -906,6 +991,7 @@ msgstr ""
 "in b vorkommen, aber nicht in beiden\n"
 "{'r', 'd', 'b', 'm', 'z', 'l'}"
 
+#: ../../tutorial/datastructures.rst:486
 msgid ""
 "Similarly to :ref:`list comprehensions <tut-listcomps>`, set comprehensions "
 "are also supported::"
@@ -913,6 +999,7 @@ msgstr ""
 "Ähnlich wie bei den :ref:`Listenkomprimierungen <tut-listcomps>` werden auch "
 "Mengekomprimierungen unterstützt::"
 
+#: ../../tutorial/datastructures.rst:489
 msgid ""
 ">>> a = {x for x in 'abracadabra' if x not in 'abc'}\n"
 ">>> a\n"
@@ -922,20 +1009,22 @@ msgstr ""
 ">>> a\n"
 "{'r', 'd'}"
 
+#: ../../tutorial/datastructures.rst:497
 msgid "Dictionaries"
 msgstr "Wörterbücher"
 
+#: ../../tutorial/datastructures.rst:499
 msgid ""
-"Another useful data type built into Python is the *dictionary* (see :ref:"
-"`typesmapping`). Dictionaries are sometimes found in other languages as "
-"\"associative memories\" or \"associative arrays\".  Unlike sequences, which "
-"are indexed by a range of numbers, dictionaries are indexed by *keys*, which "
-"can be any immutable type; strings and numbers can always be keys.  Tuples "
-"can be used as keys if they contain only strings, numbers, or tuples; if a "
-"tuple contains any mutable object either directly or indirectly, it cannot "
-"be used as a key. You can't use lists as keys, since lists can be modified "
-"in place using index assignments, slice assignments, or methods like :meth:"
-"`~list.append` and :meth:`~list.extend`."
+"Another useful data type built into Python is the *dictionary* "
+"(see :ref:`typesmapping`). Dictionaries are sometimes found in other "
+"languages as \"associative memories\" or \"associative arrays\".  Unlike "
+"sequences, which are indexed by a range of numbers, dictionaries are indexed "
+"by *keys*, which can be any immutable type; strings and numbers can always "
+"be keys.  Tuples can be used as keys if they contain only strings, numbers, "
+"or tuples; if a tuple contains any mutable object either directly or "
+"indirectly, it cannot be used as a key. You can't use lists as keys, since "
+"lists can be modified in place using index assignments, slice assignments, "
+"or methods like :meth:`~list.append` and :meth:`~list.extend`."
 msgstr ""
 "Ein weiterer nützlicher, in Python integrierter Datentyp ist das "
 "*Wörterbuch* (siehe :ref:`typesmapping`). Wörterbücher werden in anderen "
@@ -948,9 +1037,10 @@ msgstr ""
 "enthält ein Tupel direkt oder indirekt ein veränderbliches Objekt, kann es "
 "nicht als Schlüssel verwendet werden. Listen können nicht als Schlüssel "
 "verwendet werden, da sie durch Indexzuweisungen, Slice-Zuweisungen oder "
-"Methoden wie ` :meth:`~list.append` ` und ` :meth:`~list.extend`` an Ort und "
-"Stelle verändert werden können."
+"Methoden wie :meth:`~list.append` und :meth:`~list.extend` an Ort und Stelle "
+"verändert werden können."
 
+#: ../../tutorial/datastructures.rst:510
 msgid ""
 "It is best to think of a dictionary as a set of *key: value* pairs, with the "
 "requirement that the keys are unique (within one dictionary). A pair of "
@@ -966,11 +1056,12 @@ msgstr ""
 "Wörterbuch anfängliche Schlüssel:Wert-Paare hinzugefügt; auf diese Weise "
 "werden Wörterbücher auch bei der Ausgabe dargestellt."
 
+#: ../../tutorial/datastructures.rst:516
 msgid ""
 "The main operations on a dictionary are storing a value with some key and "
-"extracting the value given the key.  It is also possible to delete a key:"
-"value pair with ``del``. If you store using a key that is already in use, "
-"the old value associated with that key is forgotten."
+"extracting the value given the key.  It is also possible to delete a "
+"key:value pair with ``del``. If you store using a key that is already in "
+"use, the old value associated with that key is forgotten."
 msgstr ""
 "Die wichtigsten Operationen in einem Wörterbuch sind das Speichern eines "
 "Werts unter einem bestimmten Schlüssel und das Abrufen des Werts anhand des "
@@ -978,6 +1069,7 @@ msgstr ""
 "zu löschen. Wenn Sie einen Wert unter einem Schlüssel speichern, der bereits "
 "verwendet wird, wird der alte, diesem Schlüssel zugeordnete Wert verworfen."
 
+#: ../../tutorial/datastructures.rst:521
 msgid ""
 "Extracting a value for a non-existent key by subscripting (``d[key]``) "
 "raises a :exc:`KeyError`. To avoid getting this error when trying to access "
@@ -986,28 +1078,32 @@ msgid ""
 "dictionary."
 msgstr ""
 "Der Versuch, einen Wert für einen nicht vorhandenen Schlüssel mittels "
-"Indexierung abzurufen (``d[key]``), löst einen :exc:`KeyError`aus. Um diesen "
-"Fehler beim Zugriff auf einen möglicherweise nicht vorhandenen Schlüssel zu "
-"vermeiden, verwenden Sie stattdessen die Methode :meth:`~dict.get` “, die "
-"``None``(oder einen angegebenen Standardwert) zurückgibt, wenn der Schlüssel "
-"nicht im Wörterbuch enthalten ist."
+"Indexierung abzurufen (``d[key]``), löst einen :exc:`KeyError` aus. Um "
+"diesen Fehler beim Zugriff auf einen möglicherweise nicht vorhandenen "
+"Schlüssel zu vermeiden, verwenden Sie stattdessen die "
+"Methode :meth:`~dict.get`, die ``None`` (oder einen angegebenen "
+"Standardwert) zurückgibt, wenn der Schlüssel nicht im Wörterbuch enthalten "
+"ist."
 
+#: ../../tutorial/datastructures.rst:526
 msgid ""
 "Performing ``list(d)`` on a dictionary returns a list of all the keys used "
 "in the dictionary, in insertion order (if you want it sorted, just use "
 "``sorted(d)`` instead). To check whether a single key is in the dictionary, "
 "use the :keyword:`in` keyword."
 msgstr ""
-"Wendet man ``list(d)``auf ein Wörterbuch an, wird eine Liste aller im "
+"Wendet man ``list(d)`` auf ein Wörterbuch an, wird eine Liste aller im "
 "Wörterbuch verwendeten Schlüssel in der Reihenfolge ihrer Einfügung "
 "zurückgegeben (wenn Sie die Liste sortiert haben möchten, verwenden Sie "
 "stattdessen einfach ``sorted(d)`` “). Um zu prüfen, ob ein einzelner "
-"Schlüssel im Wörterbuch enthalten ist, verwenden Sie das Schlüsselwort :"
-"keyword:`in` ."
+"Schlüssel im Wörterbuch enthalten ist, verwenden Sie das "
+"Schlüsselwort :keyword:`in` ."
 
+#: ../../tutorial/datastructures.rst:531
 msgid "Here is a small example using a dictionary::"
 msgstr "Hier ist ein kleines Beispiel, bei dem ein Wörterbuch verwendet wird::"
 
+#: ../../tutorial/datastructures.rst:533
 msgid ""
 ">>> tel = {'jack': 4098, 'sape': 4139}\n"
 ">>> tel['guido'] = 4127\n"
@@ -1059,6 +1155,7 @@ msgstr ""
 ">>> 'jack' not in tel\n"
 "False"
 
+#: ../../tutorial/datastructures.rst:558
 msgid ""
 "The :func:`dict` constructor builds dictionaries directly from sequences of "
 "key-value pairs::"
@@ -1066,6 +1163,7 @@ msgstr ""
 "Der Konstruktor ` :func:`dict` ` erstellt Wörterbücher direkt aus Sequenzen "
 "von Schlüssel-Wert-Paaren::"
 
+#: ../../tutorial/datastructures.rst:561
 msgid ""
 ">>> dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])\n"
 "{'sape': 4139, 'guido': 4127, 'jack': 4098}"
@@ -1073,6 +1171,7 @@ msgstr ""
 ">>> dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])\n"
 "{'sape': 4139, 'guido': 4127, 'jack': 4098}"
 
+#: ../../tutorial/datastructures.rst:564
 msgid ""
 "In addition, dict comprehensions can be used to create dictionaries from "
 "arbitrary key and value expressions::"
@@ -1080,6 +1179,7 @@ msgstr ""
 "Darüber hinaus können Dict-Comprehensions verwendet werden, um Wörterbücher "
 "aus beliebigen Schlüssel- und Wert-Ausdrücken zu erstellen::"
 
+#: ../../tutorial/datastructures.rst:567
 msgid ""
 ">>> {x: x**2 for x in (2, 4, 6)}\n"
 "{2: 4, 4: 16, 6: 36}"
@@ -1087,6 +1187,7 @@ msgstr ""
 ">>> {x: x**2 for x in (2, 4, 6)}\n"
 "{2: 4, 4: 16, 6: 36}"
 
+#: ../../tutorial/datastructures.rst:570
 msgid ""
 "When the keys are simple strings, it is sometimes easier to specify pairs "
 "using keyword arguments::"
@@ -1094,6 +1195,7 @@ msgstr ""
 "Wenn es sich bei den Schlüsseln um einfache Zeichenfolgen handelt, ist es "
 "manchmal einfacher, Paare mithilfe von Schlüsselwortargumenten anzugeben::"
 
+#: ../../tutorial/datastructures.rst:573
 msgid ""
 ">>> dict(sape=4139, guido=4127, jack=4098)\n"
 "{'sape': 4139, 'guido': 4127, 'jack': 4098}"
@@ -1101,17 +1203,20 @@ msgstr ""
 ">>> dict(sape=4139, guido=4127, jack=4098)\n"
 "{'sape': 4139, 'guido': 4127, 'jack': 4098}"
 
+#: ../../tutorial/datastructures.rst:580
 msgid "Looping Techniques"
 msgstr "Schleifentechniken"
 
+#: ../../tutorial/datastructures.rst:582
 msgid ""
 "When looping through dictionaries, the key and corresponding value can be "
 "retrieved at the same time using the :meth:`~dict.items` method. ::"
 msgstr ""
 "Beim Durchlaufen von Wörterbüchern können der Schlüssel und der zugehörige "
-"Wert mithilfe der Methode :meth:`~dict.items`gleichzeitig abgerufen "
+"Wert mithilfe der Methode :meth:`~dict.items` gleichzeitig abgerufen "
 "werden. ::"
 
+#: ../../tutorial/datastructures.rst:585
 msgid ""
 ">>> knights = {'gallahad': 'the pure', 'robin': 'the brave'}\n"
 ">>> for k, v in knights.items():\n"
@@ -1127,13 +1232,16 @@ msgstr ""
 "gallahad der Reine\n"
 "robin der Tapfere"
 
+#: ../../tutorial/datastructures.rst:592
 msgid ""
 "When looping through a sequence, the position index and corresponding value "
 "can be retrieved at the same time using the :func:`enumerate` function. ::"
 msgstr ""
 "Beim Durchlaufen einer Sequenz können der Positionsindex und der zugehörige "
-"Wert mithilfe der Funktion :func:`enumerate`gleichzeitig abgerufen werden. ::"
+"Wert mithilfe der Funktion :func:`enumerate` gleichzeitig abgerufen "
+"werden. ::"
 
+#: ../../tutorial/datastructures.rst:595
 msgid ""
 ">>> for i, v in enumerate(['tic', 'tac', 'toe']):\n"
 "...     print(i, v)\n"
@@ -1149,13 +1257,15 @@ msgstr ""
 "1 tac\n"
 "2 toe"
 
+#: ../../tutorial/datastructures.rst:602
 msgid ""
 "To loop over two or more sequences at the same time, the entries can be "
 "paired with the :func:`zip` function. ::"
 msgstr ""
 "Um zwei oder mehr Sequenzen gleichzeitig zu durchlaufen, können die Einträge "
-"mit der Funktion :func:`zip`gepaart werden. ::"
+"mit der Funktion :func:`zip` gepaart werden. ::"
 
+#: ../../tutorial/datastructures.rst:605
 msgid ""
 ">>> questions = ['name', 'quest', 'favorite color']\n"
 ">>> answers = ['lancelot', 'the holy grail', 'blue']\n"
@@ -1175,14 +1285,16 @@ msgstr ""
 "Was ist deine Aufgabe?  Es ist der Heilige Gral.\n"
 "Was ist deine Lieblingsfarbe?  Es ist Blau."
 
+#: ../../tutorial/datastructures.rst:614
 msgid ""
 "To loop over a sequence in reverse, first specify the sequence in a forward "
 "direction and then call the :func:`reversed` function. ::"
 msgstr ""
 "Um eine Folge in umgekehrter Reihenfolge zu durchlaufen, geben Sie zunächst "
-"die Folge in Vorwärtsrichtung an und rufen Sie anschließend die Funktion :"
-"func:`reversed`auf. ::"
+"die Folge in Vorwärtsrichtung an und rufen Sie anschließend die "
+"Funktion :func:`reversed` auf. ::"
 
+#: ../../tutorial/datastructures.rst:617
 msgid ""
 ">>> for i in reversed(range(1, 10, 2)):\n"
 "...     print(i)\n"
@@ -1202,6 +1314,7 @@ msgstr ""
 "3\n"
 "1"
 
+#: ../../tutorial/datastructures.rst:626
 msgid ""
 "To loop over a sequence in sorted order, use the :func:`sorted` function "
 "which returns a new sorted list while leaving the source unaltered. ::"
@@ -1210,6 +1323,7 @@ msgstr ""
 "Funktion :func:`sorted` “, die eine neue sortierte Liste zurückgibt, während "
 "die Quelle unverändert bleibt. ::"
 
+#: ../../tutorial/datastructures.rst:629
 msgid ""
 ">>> basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']\n"
 ">>> for i in sorted(basket):\n"
@@ -1233,17 +1347,19 @@ msgstr ""
 "Orange\n"
 "Birne"
 
+#: ../../tutorial/datastructures.rst:640
 msgid ""
-"Using :func:`set` on a sequence eliminates duplicate elements. The use of :"
-"func:`sorted` in combination with :func:`set` over a sequence is an "
+"Using :func:`set` on a sequence eliminates duplicate elements. The use "
+"of :func:`sorted` in combination with :func:`set` over a sequence is an "
 "idiomatic way to loop over unique elements of the sequence in sorted "
 "order. ::"
 msgstr ""
-"Die Anwendung von :func:`set`auf eine Sequenz entfernt doppelte Elemente. "
-"Die Verwendung von :func:`sorted`in Kombination mit :func:`set`auf eine "
+"Die Anwendung von :func:`set` auf eine Sequenz entfernt doppelte Elemente. "
+"Die Verwendung von :func:`sorted` in Kombination mit :func:`set` auf eine "
 "Sequenz ist eine gängige Methode, um die eindeutigen Elemente der Sequenz in "
 "sortierter Reihenfolge durchzugehen. ::"
 
+#: ../../tutorial/datastructures.rst:644
 msgid ""
 ">>> basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']\n"
 ">>> for f in sorted(set(basket)):\n"
@@ -1263,6 +1379,7 @@ msgstr ""
 "Orange\n"
 "Birne"
 
+#: ../../tutorial/datastructures.rst:653
 msgid ""
 "It is sometimes tempting to change a list while you are looping over it; "
 "however, it is often simpler and safer to create a new list instead. ::"
@@ -1271,6 +1388,7 @@ msgstr ""
 "Schleife durchläuft; oft ist es jedoch einfacher und sicherer, stattdessen "
 "eine neue Liste zu erstellen. ::"
 
+#: ../../tutorial/datastructures.rst:656
 msgid ""
 ">>> import math\n"
 ">>> raw_data = [56.2, float('NaN'), 51.7, 55.3, 52.5, float('NaN'), 47.8]\n"
@@ -1292,16 +1410,19 @@ msgstr ""
 ">>> filtered_data\n"
 "[56,2, 51,7, 55,3, 52,5, 47,8]"
 
+#: ../../tutorial/datastructures.rst:670
 msgid "More on Conditions"
 msgstr "Mehr zu den Bedingungen"
 
+#: ../../tutorial/datastructures.rst:672
 msgid ""
 "The conditions used in ``while`` and ``if`` statements can contain any "
 "operators, not just comparisons."
 msgstr ""
-"Die in den Anweisungen ``while``und ``if``verwendeten Bedingungen können "
+"Die in den Anweisungen ``while`` und ``if`` verwendeten Bedingungen können "
 "beliebige Operatoren enthalten, nicht nur Vergleichsoperatoren."
 
+#: ../../tutorial/datastructures.rst:676
 msgid ""
 "The comparison operators ``in`` and ``not in`` are membership tests that "
 "determine whether a value is in (or not in) a container.  The operators "
@@ -1309,19 +1430,21 @@ msgid ""
 "object.  All comparison operators have the same priority, which is lower "
 "than that of all numerical operators."
 msgstr ""
-"Die Vergleichsoperatoren ``in``und ``not in``sind Zugehörigkeitsprüfungen, "
+"Die Vergleichsoperatoren ``in`` und ``not in`` sind Zugehörigkeitsprüfungen, "
 "die feststellen, ob ein Wert in einem Container enthalten ist (oder nicht). "
-"Die Operatoren ``is``und ``is not``vergleichen, ob zwei Objekte tatsächlich "
-"dasselbe Objekt sind. Alle Vergleichsoperatoren haben dieselbe Priorität, "
-"die niedriger ist als die aller numerischen Operatoren."
+"Die Operatoren ``is`` und ``is not`` vergleichen, ob zwei Objekte "
+"tatsächlich dasselbe Objekt sind. Alle Vergleichsoperatoren haben dieselbe "
+"Priorität, die niedriger ist als die aller numerischen Operatoren."
 
+#: ../../tutorial/datastructures.rst:682
 msgid ""
 "Comparisons can be chained.  For example, ``a < b == c`` tests whether ``a`` "
 "is less than ``b`` and moreover ``b`` equals ``c``."
 msgstr ""
 "Vergleiche können verkettet werden. Beispielsweise prüft ``a < b == c`` “, "
-"ob ``a``kleiner ist als ``b``und ob darüber hinaus ``b``gleich ``c``ist."
+"ob ``a`` kleiner ist als ``b`` und ob darüber hinaus ``b`` gleich ``c`` ist."
 
+#: ../../tutorial/datastructures.rst:685
 msgid ""
 "Comparisons may be combined using the Boolean operators ``and`` and ``or``, "
 "and the outcome of a comparison (or of any other Boolean expression) may be "
@@ -1330,15 +1453,15 @@ msgid ""
 "lowest, so that ``A and not B or C`` is equivalent to ``(A and (not B)) or "
 "C``. As always, parentheses can be used to express the desired composition."
 msgstr ""
-"Vergleiche können mithilfe der Booleschen Operatoren ``and``und "
-"``or``kombiniert werden, und das Ergebnis eines Vergleichs (oder eines "
-"beliebigen anderen Booleschen Ausdrucks) kann mit ``not``negiert werden. "
-"Diese haben eine niedrigere Priorität als Vergleichsoperatoren; unter ihnen "
-"hat ``not``die höchste Priorität und ``or``die niedrigste, sodass ``A and "
-"not B or C``gleichbedeutend ist mit ``(A and (not B)) or C`` “. Wie immer "
-"können Klammern verwendet werden, um die gewünschte Zusammensetzung "
-"auszudrücken."
+"Vergleiche können mithilfe der Booleschen Operatoren ``and`` und ``or`` "
+"kombiniert werden, und das Ergebnis eines Vergleichs (oder eines beliebigen "
+"anderen Booleschen Ausdrucks) kann mit ``not`` negiert werden. Diese haben "
+"eine niedrigere Priorität als Vergleichsoperatoren; unter ihnen hat ``not`` "
+"die höchste Priorität und ``or`` die niedrigste, sodass ``A and not B or C`` "
+"gleichbedeutend ist mit ``(A and (not B)) or C`` “. Wie immer können "
+"Klammern verwendet werden, um die gewünschte Zusammensetzung auszudrücken."
 
+#: ../../tutorial/datastructures.rst:692
 msgid ""
 "The Boolean operators ``and`` and ``or`` are so-called *short-circuit* "
 "operators: their arguments are evaluated from left to right, and evaluation "
@@ -1355,6 +1478,7 @@ msgstr ""
 "und nicht als Boolescher Wert verwendet, ist der Rückgabewert das zuletzt "
 "ausgewertete Argument."
 
+#: ../../tutorial/datastructures.rst:699
 msgid ""
 "It is possible to assign the result of a comparison or other Boolean "
 "expression to a variable.  For example, ::"
@@ -1362,6 +1486,7 @@ msgstr ""
 "Es ist möglich, das Ergebnis eines Vergleichs oder eines anderen booleschen "
 "Ausdrucks einer Variablen zuzuweisen.  Beispiel: ::"
 
+#: ../../tutorial/datastructures.rst:702
 msgid ""
 ">>> string1, string2, string3 = '', 'Trondheim', 'Hammer Dance'\n"
 ">>> non_null = string1 or string2 or string3\n"
@@ -1373,6 +1498,7 @@ msgstr ""
 ">>> non_null\n"
 "'Trondheim'"
 
+#: ../../tutorial/datastructures.rst:707
 msgid ""
 "Note that in Python, unlike C, assignment inside expressions must be done "
 "explicitly with the :ref:`walrus operator <why-can-t-i-use-an-assignment-in-"
@@ -1385,9 +1511,11 @@ msgstr ""
 "häufige Problemklasse vermieden, die in C-Programmen auftritt: die Eingabe "
 "von ``=`` in einem Ausdruck, obwohl eigentlich ``==`` gemeint war."
 
+#: ../../tutorial/datastructures.rst:717
 msgid "Comparing Sequences and Other Types"
 msgstr "Vergleich von Sequenzen und anderen Typen"
 
+#: ../../tutorial/datastructures.rst:718
 msgid ""
 "Sequence objects typically may be compared to other objects with the same "
 "sequence type. The comparison uses *lexicographical* ordering: first the "
@@ -1416,6 +1544,7 @@ msgstr ""
 "Codepunktnummer zur Sortierung einzelner Zeichen verwendet. Einige Beispiele "
 "für Vergleiche zwischen Sequenzen desselben Typs:"
 
+#: ../../tutorial/datastructures.rst:730
 msgid ""
 "(1, 2, 3)              < (1, 2, 4)\n"
 "[1, 2, 3]              < [1, 2, 4]\n"
@@ -1433,6 +1562,7 @@ msgstr ""
 "(1, 2, 3)             == (1,0, 2,0, 3,0)\n"
 "(1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)"
 
+#: ../../tutorial/datastructures.rst:738
 msgid ""
 "Note that comparing objects of different types with ``<`` or ``>`` is legal "
 "provided that the objects have appropriate comparison methods.  For example, "
@@ -1441,15 +1571,17 @@ msgid ""
 "the interpreter will raise a :exc:`TypeError` exception."
 msgstr ""
 "Beachten Sie, dass der Vergleich von Objekten unterschiedlicher Typen mit "
-"``<``oder ``>``zulässig ist, sofern die Objekte über entsprechende "
+"``<`` oder ``>`` zulässig ist, sofern die Objekte über entsprechende "
 "Vergleichsmethoden verfügen. Beispielsweise werden gemischte numerische "
 "Typen anhand ihres numerischen Werts verglichen, sodass 0 gleich 0,0 ist "
 "usw. Andernfalls liefert der Interpreter keine willkürliche Reihenfolge, "
 "sondern löst eine :exc:`TypeError` “-Ausnahme aus."
 
+#: ../../tutorial/datastructures.rst:746
 msgid "Footnotes"
 msgstr "Fußnoten"
 
+#: ../../tutorial/datastructures.rst:747
 msgid ""
 "Other languages may return the mutated object, which allows method chaining, "
 "such as ``d->insert(\"a\")->remove(\"b\")->sort();``."
@@ -1457,3 +1589,18 @@ msgstr ""
 "Andere Sprachen geben möglicherweise das geänderte Objekt zurück, was eine "
 "Methodenverkettung ermöglicht, wie beispielsweise ``d->insert(\"a\")-"
 ">remove(\"b\")->sort();``."
+
+#~ msgid ""
+#~ "It is also possible to use a list as a queue, where the first element "
+#~ "added is the first element retrieved (\"first-in, first-out\"); however, "
+#~ "lists are not efficient for this purpose.  While appends and pops from "
+#~ "the end of list are fast, doing inserts or pops from the beginning of a "
+#~ "list is slow (because all of the other elements have to be shifted by "
+#~ "one)."
+#~ msgstr ""
+#~ "Es ist auch möglich, eine Liste als Warteschlange zu verwenden, bei der "
+#~ "das zuerst hinzugefügte Element als erstes wieder abgerufen wird (\"First-"
+#~ "in, First-out\"); allerdings sind Listen für diesen Zweck nicht "
+#~ "effizient. Während das Anhängen und Entnehmen am Ende einer Liste schnell "
+#~ "erfolgt, ist das Einfügen oder Entnehmen am Anfang einer Liste langsam "
+#~ "(da alle anderen Elemente um eine Position verschoben werden müssen)."
