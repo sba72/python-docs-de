@@ -6,7 +6,6 @@
 # Translators:
 # python-doc bot, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
@@ -42,3 +41,7 @@ msgid ""
 "the contents of the :source:`Misc/NEWS.d` directory tree, which contains "
 "*all* nontrivial changes to Python for the current version."
 msgstr ""
+"Das \"Changelog\" ist eine HTML-Version der :pypi:`erstellten Datei "
+"<blurb>` aus dem Inhalt des Verzeichnisbaums :source:`Misc/NEWS.d`, der "
+"*alle* nichttrivialen Änderungen an Python für die aktuelle Version "
+"enthält."

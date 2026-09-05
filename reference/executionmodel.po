@@ -617,6 +617,11 @@ msgid ""
 "type Parenthesized = tuple[Literal[\"(\"], Expr, Literal[\")\"]]\n"
 "type Expr = SimpleExpr | tuple[SimpleExpr, Literal[\"+\", \"-\"], Expr]"
 msgstr ""
+"from typing import Literal\n"
+"\n"
+"type SimpleExpr = int | Parenthesized\n"
+"type Parenthesized = tuple[Literal[\"(\"], Expr, Literal[\")\"]]\n"
+"type Expr = SimpleExpr | tuple[SimpleExpr, Literal[\"+\", \"-\"], Expr]"
 
 #: ../../reference/executionmodel.rst:288
 msgid ""

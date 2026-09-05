@@ -1908,6 +1908,12 @@ msgid ""
 "from ..subpackage2.moduleZ import eggs\n"
 "from ..moduleA import foo"
 msgstr ""
+"from .moduleY import spam\n"
+"from .moduleY import spam as ham\n"
+"from . import moduleY\n"
+"from ..subpackage1 import moduleY\n"
+"from ..subpackage2.moduleZ import eggs\n"
+"from ..moduleA import foo"
 
 #: ../../reference/import.rst:889
 msgid ""
