@@ -837,7 +837,7 @@ msgstr ""
 
 #: ../../library/concurrent.futures.rst:641
 msgid "Description"
-msgstr "Beschreibung"
+msgstr ""
 
 #: ../../library/concurrent.futures.rst:644
 msgid "The function will return when any future finishes or is cancelled."

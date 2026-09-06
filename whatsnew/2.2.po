@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../whatsnew/2.2.rst:13
 msgid "Introduction"
-msgstr "Einführung"
+msgstr ""
 
 #: ../../whatsnew/2.2.rst:15
 msgid ""

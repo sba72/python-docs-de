@@ -904,7 +904,7 @@ msgstr ""
 
 #: ../../library/math.rst:401
 msgid "Examples:"
-msgstr "Beispiele:"
+msgstr ""
 
 #: ../../library/math.rst:403
 msgid "``math.nextafter(x, math.inf)`` goes up: towards positive infinity."

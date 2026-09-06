@@ -1961,7 +1961,7 @@ msgstr ""
 
 #: ../../extending/extending.rst:1412
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../extending/extending.rst:1413
 msgid ""

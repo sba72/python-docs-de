@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../library/contextvars.rst:114
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/contextvars.rst:116
 msgid ""

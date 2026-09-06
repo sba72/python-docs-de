@@ -138,7 +138,7 @@ msgstr ""
 
 #: ../../library/winsound.rst:78
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/winsound.rst:80
 msgid ""

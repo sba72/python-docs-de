@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../howto/unicode.rst:0
 msgid "Release"
-msgstr "Release"
+msgstr ""
 
 #: ../../howto/unicode.rst:7
 msgid "1.12"

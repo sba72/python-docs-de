@@ -2632,7 +2632,7 @@ msgstr ""
 
 #: ../../library/doctest.rst:1978
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/doctest.rst:1979
 msgid ""

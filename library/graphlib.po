@@ -293,7 +293,7 @@ msgstr ""
 
 #: ../../library/graphlib.rst:206
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/graphlib.rst:207
 msgid "The :mod:`!graphlib` module defines the following exception classes:"

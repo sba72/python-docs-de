@@ -1146,7 +1146,7 @@ msgstr ""
 
 #: ../../library/pyexpat.rst:1134
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/pyexpat.rst:1135
 msgid ""

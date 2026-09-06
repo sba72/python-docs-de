@@ -277,7 +277,7 @@ msgstr ""
 
 #: ../../library/unicodedata.rst:213
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/unicodedata.rst:214
 msgid "https://www.unicode.org/Public/16.0.0/ucd/NameAliases.txt"

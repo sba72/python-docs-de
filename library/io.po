@@ -1665,7 +1665,7 @@ msgstr ""
 
 #: ../../library/io.rst:1203 ../../library/io.rst:1222
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/io.rst:1205
 msgid ""

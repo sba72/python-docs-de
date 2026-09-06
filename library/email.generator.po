@@ -318,7 +318,7 @@ msgstr ""
 
 #: ../../library/email.generator.rst:275
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/email.generator.rst:276
 msgid ""

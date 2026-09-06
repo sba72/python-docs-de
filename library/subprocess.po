@@ -962,7 +962,7 @@ msgstr ""
 
 #: ../../library/subprocess.rst:730
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/subprocess.rst:732
 msgid ""

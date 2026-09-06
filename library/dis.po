@@ -2009,7 +2009,7 @@ msgstr ""
 
 #: ../../library/dis.rst:1846 ../../library/dis.rst:1900
 msgid "Description"
-msgstr "Beschreibung"
+msgstr ""
 
 #: ../../library/dis.rst:1848
 msgid "``INTRINSIC_1_INVALID``"

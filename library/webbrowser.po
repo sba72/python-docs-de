@@ -471,7 +471,7 @@ msgstr ""
 
 #: ../../library/webbrowser.rst:273
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/webbrowser.rst:274
 msgid ""

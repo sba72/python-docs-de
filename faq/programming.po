@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../faq/programming.rst:8
 msgid "Contents"
-msgstr "Inhalt"
+msgstr ""
 
 #: ../../faq/programming.rst:12
 msgid "General questions"

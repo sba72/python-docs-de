@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../library/html.entities.rst:46
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/html.entities.rst:47
 msgid ""

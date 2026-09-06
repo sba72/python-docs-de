@@ -120,7 +120,7 @@ msgstr ""
 
 #: ../../library/warnings.rst:69
 msgid "Description"
-msgstr "Beschreibung"
+msgstr ""
 
 #: ../../library/warnings.rst:71
 msgid ":exc:`Warning`"

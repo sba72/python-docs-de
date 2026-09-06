@@ -875,7 +875,7 @@ msgstr ""
 
 #: ../../library/email.message.rst:748
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/email.message.rst:749
 msgid ""

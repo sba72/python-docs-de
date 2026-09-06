@@ -2249,7 +2249,7 @@ msgstr ""
 
 #: ../../library/unittest.mock.rst:2201
 msgid "For example:"
-msgstr "Zum Beispiel:"
+msgstr ""
 
 #: ../../library/unittest.mock.rst:2213
 msgid ""

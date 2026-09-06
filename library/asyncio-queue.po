@@ -246,7 +246,7 @@ msgstr ""
 
 #: ../../library/asyncio-queue.rst:179
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/asyncio-queue.rst:183
 msgid ""

@@ -132,7 +132,7 @@ msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:86
 msgid "Contents"
-msgstr "Inhalt"
+msgstr ""
 
 #: ../../library/asyncio-eventloop.rst:87
 msgid "This documentation page contains the following sections:"

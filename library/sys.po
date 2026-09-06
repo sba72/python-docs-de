@@ -809,7 +809,7 @@ msgstr ""
 
 #: ../../library/sys.rst:658
 msgid "attribute"
-msgstr "Attribut"
+msgstr ""
 
 #: ../../library/sys.rst:659
 msgid "float.h macro"

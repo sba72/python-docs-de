@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../../library/selectors.rst:14
 msgid "Introduction"
-msgstr "Einführung"
+msgstr ""
 
 #: ../../library/selectors.rst:16
 msgid ""

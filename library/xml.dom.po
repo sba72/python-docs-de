@@ -1420,7 +1420,7 @@ msgstr ""
 
 #: ../../library/xml.dom.rst:1232
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/xml.dom.rst:1234
 msgid ""

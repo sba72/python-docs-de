@@ -461,7 +461,7 @@ msgstr ""
 
 #: ../../tools/templates/indexcontent.html:127
 msgid "Copyright"
-msgstr "Copyright"
+msgstr ""
 
 #: ../../tools/templates/indexcontent.html:128
 msgid "About the documentation"

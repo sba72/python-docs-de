@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../library/intro.rst:5
 msgid "Introduction"
-msgstr "Einführung"
+msgstr ""
 
 #: ../../library/intro.rst:7
 msgid "The \"Python library\" contains several different kinds of components."

@@ -411,7 +411,7 @@ msgstr ""
 
 #: ../../howto/gdb_helpers.rst:248 ../../howto/gdb_helpers.rst:320
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../howto/gdb_helpers.rst:250
 msgid ""

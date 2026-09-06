@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../howto/descriptor.rst:11
 msgid "Contents"
-msgstr "Inhalt"
+msgstr ""
 
 #: ../../howto/descriptor.rst:13
 msgid ""

@@ -2045,7 +2045,7 @@ msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:909
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:910
 msgid ""

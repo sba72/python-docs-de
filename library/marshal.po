@@ -296,7 +296,7 @@ msgstr ""
 
 #: ../../library/marshal.rst:180
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/marshal.rst:181
 msgid ""

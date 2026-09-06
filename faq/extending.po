@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../faq/extending.rst:6
 msgid "Contents"
-msgstr "Inhalt"
+msgstr ""
 
 #: ../../faq/extending.rst:16
 msgid "Can I create my own functions in C?"

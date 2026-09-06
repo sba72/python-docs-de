@@ -1153,7 +1153,7 @@ msgstr ""
 
 #: ../../reference/lexical_analysis.rst:803
 msgid "``\\b``"
-msgstr "``\\b``"
+msgstr ""
 
 #: ../../reference/lexical_analysis.rst:804
 msgid "ASCII Backspace (BS)"

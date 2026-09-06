@@ -1855,7 +1855,7 @@ msgstr ""
 
 #: ../../library/mailbox.rst:1637
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/mailbox.rst:1639
 msgid ""

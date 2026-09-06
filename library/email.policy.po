@@ -799,7 +799,7 @@ msgstr ""
 
 #: ../../library/email.policy.rst:674
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/email.policy.rst:675
 msgid ""

@@ -988,7 +988,7 @@ msgstr ""
 
 #: ../../library/curses.rst:883
 msgid "Description"
-msgstr "Beschreibung"
+msgstr ""
 
 #: ../../library/curses.rst:883
 msgid "Default value"

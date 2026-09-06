@@ -393,7 +393,7 @@ msgstr ""
 
 #: ../../library/contextlib.rst:291
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/contextlib.rst:293
 msgid ""

@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../faq/general.rst:8
 msgid "Contents"
-msgstr "Inhalt"
+msgstr ""
 
 #: ../../faq/general.rst:13
 msgid "General Information"

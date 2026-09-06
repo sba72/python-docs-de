@@ -1189,7 +1189,7 @@ msgstr ""
 
 #: ../../library/decimal.rst:968
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/decimal.rst:970
 msgid ""

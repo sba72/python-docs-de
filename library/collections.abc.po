@@ -466,7 +466,7 @@ msgstr ""
 
 #: ../../library/collections.abc.rst:185
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/collections.abc.rst:186
 msgid ""

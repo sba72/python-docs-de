@@ -1760,7 +1760,7 @@ msgstr ""
 
 #: ../../library/pickle.rst:1246
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/pickle.rst:1247
 msgid "Don't confuse this with the :mod:`marshal` module"

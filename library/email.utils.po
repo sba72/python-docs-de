@@ -268,7 +268,7 @@ msgstr ""
 
 #: ../../library/email.utils.rst:225
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/email.utils.rst:226
 msgid ""

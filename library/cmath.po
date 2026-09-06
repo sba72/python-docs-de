@@ -640,4 +640,4 @@ msgstr ""
 
 #: ../../library/cmath.rst:354
 msgid "math"
-msgstr "math"
+msgstr ""

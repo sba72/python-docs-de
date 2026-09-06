@@ -86,7 +86,7 @@ msgstr ""
 
 #: ../../library/compression.zstd.rst:40
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/compression.zstd.rst:44
 msgid ""

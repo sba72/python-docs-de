@@ -1272,7 +1272,7 @@ msgstr ""
 
 #: ../../library/logging.rst:995 ../../library/logging.rst:1375
 msgid "Description"
-msgstr "Beschreibung"
+msgstr ""
 
 #: ../../library/logging.rst:0 ../../library/logging.rst:997
 msgid "args"

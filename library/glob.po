@@ -168,7 +168,7 @@ msgstr ""
 
 #: ../../library/glob.rst:146
 msgid "For example:"
-msgstr "Zum Beispiel:"
+msgstr ""
 
 #: ../../library/glob.rst:157
 msgid ""

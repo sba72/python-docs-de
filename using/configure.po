@@ -2357,7 +2357,7 @@ msgstr ""
 
 #: ../../using/configure.rst:1653
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../using/configure.rst:1654
 msgid ""

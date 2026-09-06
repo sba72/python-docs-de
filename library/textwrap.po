@@ -129,7 +129,7 @@ msgstr ""
 
 #: ../../library/textwrap.rst:94 ../../library/textwrap.rst:119
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/textwrap.rst:96
 msgid ""

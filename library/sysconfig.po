@@ -640,7 +640,7 @@ msgstr ""
 
 #: ../../library/sysconfig.rst:383
 msgid "Examples of returned values:"
-msgstr "Beispiele zurückgegebener Werte:"
+msgstr ""
 
 #: ../../library/sysconfig.rst:386
 msgid "Windows:"

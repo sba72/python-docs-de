@@ -286,7 +286,7 @@ msgstr ""
 
 #: ../../library/email.contentmanager.rst:203
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/email.contentmanager.rst:204
 msgid ""

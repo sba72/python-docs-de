@@ -247,7 +247,7 @@ msgstr ""
 
 #: ../../library/tomllib.rst:150
 msgid "array"
-msgstr "Array"
+msgstr ""
 
 #: ../../library/tomllib.rst:150
 msgid "list"

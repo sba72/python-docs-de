@@ -743,7 +743,7 @@ msgstr ""
 
 #: ../../library/difflib.rst:596
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/difflib.rst:598
 msgid ""
@@ -866,7 +866,7 @@ msgstr ""
 #: ../../library/difflib.rst:718
 #, fuzzy
 msgid "Differ example"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/difflib.rst:720
 msgid ""

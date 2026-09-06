@@ -872,7 +872,7 @@ msgstr ""
 
 #: ../../library/gettext.rst:638
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/gettext.rst:639
 msgid ""

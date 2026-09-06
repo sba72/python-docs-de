@@ -569,7 +569,7 @@ msgstr ""
 
 #: ../../library/heapq.rst:416
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/heapq.rst:417
 msgid ""

@@ -799,7 +799,7 @@ msgstr ""
 
 #: ../../howto/isolating-extensions.rst:538
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../howto/isolating-extensions.rst:540
 msgid ""

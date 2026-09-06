@@ -414,7 +414,7 @@ msgstr ""
 
 #: ../../library/asyncio-api-index.rst:215
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/asyncio-api-index.rst:222
 msgid ":exc:`asyncio.CancelledError`"

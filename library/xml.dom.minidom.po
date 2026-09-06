@@ -483,7 +483,7 @@ msgstr ""
 
 #: ../../library/xml.dom.minidom.rst:286
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/xml.dom.minidom.rst:287
 msgid ""

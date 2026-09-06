@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../library/functools.rst:39 ../../library/functools.rst:297
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/functools.rst:41
 msgid ""

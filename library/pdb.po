@@ -1120,7 +1120,7 @@ msgstr ""
 
 #: ../../library/pdb.rst:859
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/pdb.rst:860
 msgid ""
