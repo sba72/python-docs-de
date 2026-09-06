@@ -856,7 +856,7 @@ msgstr ""
 #: ../../library/statistics.rst:546 ../../library/statistics.rst:616
 #: ../../library/statistics.rst:725
 msgid "Examples:"
-msgstr "Beispiele:"
+msgstr ""
 
 #: ../../library/statistics.rst:548
 msgid ""
@@ -1258,7 +1258,7 @@ msgstr ""
 
 #: ../../library/statistics.rst:858
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/statistics.rst:860
 msgid "A single exception is defined:"

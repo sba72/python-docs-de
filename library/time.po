@@ -941,7 +941,7 @@ msgstr ""
 
 #: ../../library/time.rst:613
 msgid "For example:"
-msgstr "Zum Beispiel:"
+msgstr ""
 
 #: ../../library/time.rst:620
 msgid ""
@@ -1478,7 +1478,7 @@ msgstr ""
 
 #: ../../library/time.rst:1055
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/time.rst:1056
 msgid ""

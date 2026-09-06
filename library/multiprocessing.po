@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:14
 msgid "Introduction"
-msgstr "Einführung"
+msgstr ""
 
 #: ../../library/multiprocessing.rst:16
 msgid ""
@@ -632,7 +632,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:441
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/multiprocessing.rst:443
 msgid ""
@@ -1868,7 +1868,7 @@ msgstr ""
 
 #: ../../library/multiprocessing.rst:1379
 msgid "For example:"
-msgstr "Zum Beispiel:"
+msgstr ""
 
 #: ../../library/multiprocessing.rst:1381
 msgid ""

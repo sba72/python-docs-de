@@ -333,7 +333,7 @@ msgstr ""
 #: ../../library/typing.rst:215 ../../library/typing.rst:3297
 #: ../../library/typing.rst:3483 ../../library/typing.rst:3511
 msgid "For example:"
-msgstr "Zum Beispiel:"
+msgstr ""
 
 #: ../../library/typing.rst:217
 msgid ""
@@ -1273,7 +1273,7 @@ msgstr ""
 #: ../../library/typing.rst:1569 ../../library/typing.rst:1630
 #: ../../library/typing.rst:3234
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/typing.rst:875
 msgid ""
@@ -4303,7 +4303,7 @@ msgstr ""
 
 #: ../../library/typing.rst:3122
 msgid "Description"
-msgstr "Beschreibung"
+msgstr ""
 
 #: ../../library/typing.rst:3123
 msgid "``init``"
@@ -4723,7 +4723,7 @@ msgstr ""
 
 #: ../../library/typing.rst:3428 ../../library/typing.rst:3452
 msgid "Examples:"
-msgstr "Beispiele:"
+msgstr ""
 
 #: ../../library/typing.rst:3430
 msgid ""
@@ -5552,7 +5552,7 @@ msgstr ""
 
 #: ../../library/typing.rst:4148
 msgid "Deprecated in"
-msgstr "Als veraltet markiert in:"
+msgstr ""
 
 #: ../../library/typing.rst:4149
 msgid "Projected removal"

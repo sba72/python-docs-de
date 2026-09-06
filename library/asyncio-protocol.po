@@ -49,7 +49,7 @@ msgstr ""
 
 #: ../../library/asyncio-protocol.rst:25
 msgid "Introduction"
-msgstr "Einführung"
+msgstr ""
 
 #: ../../library/asyncio-protocol.rst:26
 msgid ""
@@ -89,7 +89,7 @@ msgstr ""
 
 #: ../../library/asyncio-protocol.rst:51
 msgid "Contents"
-msgstr "Inhalt"
+msgstr ""
 
 #: ../../library/asyncio-protocol.rst:52
 msgid "This documentation page contains the following sections:"

@@ -623,7 +623,7 @@ msgstr ""
 
 #: ../../library/tracemalloc.rst:455
 msgid "Examples:"
-msgstr "Beispiele:"
+msgstr ""
 
 #: ../../library/tracemalloc.rst:457
 msgid ""
@@ -795,7 +795,7 @@ msgstr ""
 
 #: ../../library/tracemalloc.rst:583
 msgid "description"
-msgstr "Beschreibung"
+msgstr ""
 
 #: ../../library/tracemalloc.rst:585
 msgid "``'filename'``"

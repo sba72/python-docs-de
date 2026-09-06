@@ -362,7 +362,7 @@ msgstr ""
 
 #: ../../library/enum.rst:0
 msgid "value"
-msgstr "Wert"
+msgstr ""
 
 #: ../../library/enum.rst:195
 msgid "The value to lookup."
@@ -404,7 +404,7 @@ msgstr ""
 
 #: ../../library/enum.rst:0
 msgid "type"
-msgstr "Typ"
+msgstr ""
 
 #: ../../library/enum.rst:205
 msgid "A mix-in type for the new Enum."
@@ -1387,7 +1387,7 @@ msgstr ""
 
 #: ../../library/enum.rst:972
 msgid "``_ignore_``"
-msgstr "``_ignore_``"
+msgstr ""
 
 #: ../../library/enum.rst:973
 msgid "``_add_alias_``, ``_add_value_alias_``, ``_repr_*``"

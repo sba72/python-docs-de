@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../../library/inspect.rst:46
 msgid "Description"
-msgstr "Beschreibung"
+msgstr ""
 
 #: ../../library/inspect.rst:48
 msgid "class"
@@ -1488,7 +1488,7 @@ msgstr ""
 
 #: ../../library/inspect.rst:1044
 msgid "Name"
-msgstr "Name"
+msgstr ""
 
 #: ../../library/inspect.rst:1044
 msgid "Meaning"

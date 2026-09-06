@@ -1361,7 +1361,7 @@ msgstr ""
 
 #: ../../whatsnew/2.3.rst:966
 msgid "Other Language Changes"
-msgstr "Andere sprachliche Änderungen"
+msgstr ""
 
 #: ../../whatsnew/2.3.rst:968
 msgid ""
@@ -1702,7 +1702,7 @@ msgstr ""
 
 #: ../../whatsnew/2.3.rst:1189
 msgid "Optimizations"
-msgstr "Optimierungen"
+msgstr ""
 
 #: ../../whatsnew/2.3.rst:1191
 msgid ""

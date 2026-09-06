@@ -486,7 +486,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:374
 msgid "For example:"
-msgstr "Zum Beispiel:"
+msgstr ""
 
 #: ../../library/sqlite3.rst:376
 msgid ""
@@ -2144,7 +2144,7 @@ msgstr ""
 
 #: ../../library/sqlite3.rst:1848
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/sqlite3.rst:1850
 msgid "The exception hierarchy is defined by the DB-API 2.0 (:pep:`249`)."

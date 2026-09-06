@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../whatsnew/changelog.rst:7
 msgid "Changelog"
-msgstr "Änderungsbericht"
+msgstr ""
 
 #: ../NEWS:3
 msgid "Python next"
@@ -30963,15 +30963,15 @@ msgstr ""
 
 #: ../NEWS:18083
 msgid "loongarch64-linux-gnusf"
-msgstr "loongarch64-linux-gnusf"
+msgstr ""
 
 #: ../NEWS:18084
 msgid "loongarch64-linux-gnuf32"
-msgstr "loongarch64-linux-gnuf32"
+msgstr ""
 
 #: ../NEWS:18085
 msgid "loongarch64-linux-gnu"
-msgstr "loongarch64-linux-gnu"
+msgstr ""
 
 #: ../NEWS:18087
 msgid "Patch by Zhang Na."
@@ -37085,11 +37085,11 @@ msgstr ""
 
 #: ../NEWS:21756
 msgid "``sqlite3.enable_shared_cache()``"
-msgstr "``sqlite3.enable_shared_cache()``"
+msgstr ""
 
 #: ../NEWS:21757
 msgid "``sqlite3.OptimizedUnicode``"
-msgstr "``sqlite3.OptimizedUnicode``"
+msgstr ""
 
 #: ../NEWS:21761
 msgid ""

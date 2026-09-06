@@ -856,7 +856,7 @@ msgstr ""
 
 #: ../../library/csv.rst:690
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/csv.rst:691
 msgid ""
@@ -869,7 +869,7 @@ msgstr ""
 
 #: ../../library/csv.rst:11
 msgid "csv"
-msgstr "csv"
+msgstr ""
 
 #: ../../library/csv.rst:11
 msgid "data"

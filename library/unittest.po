@@ -1282,7 +1282,7 @@ msgstr ""
 #: ../../library/unittest.rst:1376 ../../library/unittest.rst:1379
 #: ../../library/unittest.rst:1382 ../../library/unittest.rst:1385
 msgid "3.1"
-msgstr "3.1"
+msgstr ""
 
 #: ../../library/unittest.rst:865
 msgid ":meth:`assertIsNot(a, b) <TestCase.assertIsNot>`"
@@ -1336,7 +1336,7 @@ msgstr ""
 #: ../../library/unittest.rst:992 ../../library/unittest.rst:995
 #: ../../library/unittest.rst:1221 ../../library/unittest.rst:1224
 msgid "3.2"
-msgstr "3.2"
+msgstr ""
 
 #: ../../library/unittest.rst:883
 msgid ":meth:`assertNotIsInstance(a, b) <TestCase.assertNotIsInstance>`"

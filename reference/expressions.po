@@ -2628,7 +2628,7 @@ msgstr ""
 
 #: ../../reference/expressions.rst:2314
 msgid "Description"
-msgstr "Beschreibung"
+msgstr ""
 
 #: ../../reference/expressions.rst:2316
 msgid "``(expressions...)``,"
@@ -2708,7 +2708,7 @@ msgstr ""
 
 #: ../../reference/expressions.rst:2341
 msgid "``^``"
-msgstr "``^``"
+msgstr ""
 
 #: ../../reference/expressions.rst:2341
 msgid "Bitwise XOR"
@@ -2716,7 +2716,7 @@ msgstr ""
 
 #: ../../reference/expressions.rst:2343
 msgid "``|``"
-msgstr "``|``"
+msgstr ""
 
 #: ../../reference/expressions.rst:2343
 msgid "Bitwise OR"
@@ -2782,7 +2782,7 @@ msgstr ""
 
 #: ../../reference/expressions.rst:2364
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../reference/expressions.rst:2365
 msgid ""
@@ -2922,7 +2922,7 @@ msgstr ""
 
 #: ../../reference/expressions.rst:205
 msgid "type"
-msgstr "Typ"
+msgstr ""
 
 #: ../../reference/expressions.rst:205 ../../reference/expressions.rst:430
 #: ../../reference/expressions.rst:456 ../../reference/expressions.rst:484
@@ -3041,7 +3041,7 @@ msgstr ""
 
 #: ../../reference/expressions.rst:484
 msgid "value"
-msgstr "Wert"
+msgstr ""
 
 #: ../../reference/expressions.rst:484
 msgid "key/value pair"
@@ -3138,7 +3138,7 @@ msgstr ""
 
 #: ../../reference/expressions.rst:1065
 msgid "attribute"
-msgstr "Attribut"
+msgstr ""
 
 #: ../../reference/expressions.rst:1065
 msgid "reference"

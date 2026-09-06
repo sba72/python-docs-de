@@ -200,7 +200,7 @@ msgstr ""
 #: ../../library/tkinter.ttk.rst:911 ../../library/tkinter.ttk.rst:939
 #: ../../library/tkinter.ttk.rst:984
 msgid "Description"
-msgstr "Beschreibung"
+msgstr ""
 
 #: ../../library/tkinter.ttk.rst:123
 msgid "class"
@@ -1101,7 +1101,7 @@ msgstr ""
 
 #: ../../library/tkinter.ttk.rst:720
 msgid "value"
-msgstr "Wert"
+msgstr ""
 
 #: ../../library/tkinter.ttk.rst:720
 msgid ""

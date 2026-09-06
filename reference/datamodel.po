@@ -4611,7 +4611,7 @@ msgstr ""
 
 #: ../../reference/datamodel.rst:3985
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../reference/datamodel.rst:3986
 msgid ""
@@ -4694,7 +4694,7 @@ msgstr ""
 #: ../../reference/datamodel.rst:22 ../../reference/datamodel.rst:122
 #: ../../reference/datamodel.rst:2780
 msgid "type"
-msgstr "Typ"
+msgstr ""
 
 #: ../../reference/datamodel.rst:22
 msgid "identity of an object"
@@ -4761,7 +4761,7 @@ msgstr ""
 #: ../../reference/datamodel.rst:1195 ../../reference/datamodel.rst:1345
 #: ../../reference/datamodel.rst:1365
 msgid "attribute"
-msgstr "Attribut"
+msgstr ""
 
 #: ../../reference/datamodel.rst:135
 msgid "special"
@@ -4935,7 +4935,7 @@ msgstr ""
 
 #: ../../reference/datamodel.rst:420
 msgid "array"
-msgstr "Array"
+msgstr ""
 
 #: ../../reference/datamodel.rst:421
 msgid "collections"

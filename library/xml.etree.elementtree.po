@@ -1894,7 +1894,7 @@ msgstr ""
 
 #: ../../library/xml.etree.elementtree.rst:1538
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/xml.etree.elementtree.rst:1542
 msgid ""
@@ -1917,7 +1917,7 @@ msgstr ""
 
 #: ../../library/xml.etree.elementtree.rst:1557
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/xml.etree.elementtree.rst:1558
 msgid ""

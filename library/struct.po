@@ -204,7 +204,7 @@ msgstr ""
 
 #: ../../library/struct.rst:156
 msgid "``<``"
-msgstr "``<``"
+msgstr ""
 
 #: ../../library/struct.rst:156
 msgid "little-endian"
@@ -212,7 +212,7 @@ msgstr ""
 
 #: ../../library/struct.rst:158
 msgid "``>``"
-msgstr "``>``"
+msgstr ""
 
 #: ../../library/struct.rst:158
 msgid "big-endian"

@@ -2573,7 +2573,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:1948
 msgid "Examples:"
-msgstr "Beispiele:"
+msgstr ""
 
 #: ../../library/datetime.rst:1950
 msgid ""
@@ -4206,7 +4206,7 @@ msgstr ""
 
 #: ../../library/datetime.rst:2876
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/datetime.rst:2877
 msgid "If, that is, we ignore the effects of relativity."

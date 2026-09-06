@@ -2141,7 +2141,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:1491
 msgid "Other Language Changes"
-msgstr "Andere sprachliche Änderungen"
+msgstr ""
 
 #: ../../whatsnew/2.6.rst:1493
 msgid "Some smaller changes made to the core Python language are:"
@@ -2435,7 +2435,7 @@ msgstr ""
 
 #: ../../whatsnew/2.6.rst:1701
 msgid "Optimizations"
-msgstr "Optimierungen"
+msgstr ""
 
 #: ../../whatsnew/2.6.rst:1703
 msgid ""

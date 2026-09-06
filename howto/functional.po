@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../howto/functional.rst:0
 msgid "Release"
-msgstr "Release"
+msgstr ""
 
 #: ../../howto/functional.rst:8
 msgid "0.32"
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../howto/functional.rst:18
 msgid "Introduction"
-msgstr "Einführung"
+msgstr ""
 
 #: ../../howto/functional.rst:20
 msgid ""

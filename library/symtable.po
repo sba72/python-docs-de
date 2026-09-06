@@ -229,7 +229,7 @@ msgstr ""
 
 #: ../../library/symtable.rst:193
 msgid "For example:"
-msgstr "Zum Beispiel:"
+msgstr ""
 
 #: ../../library/symtable.rst:206
 msgid ""
@@ -364,7 +364,7 @@ msgstr ""
 
 #: ../../library/symtable.rst:331
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/symtable.rst:333
 msgid ""

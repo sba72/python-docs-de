@@ -159,7 +159,7 @@ msgstr ""
 
 #: ../../library/pathlib.rst:97
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/pathlib.rst:101
 msgid ""
@@ -2735,7 +2735,7 @@ msgstr ""
 
 #: ../../library/pathlib.rst:1950
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/pathlib.rst:1951
 msgid ""

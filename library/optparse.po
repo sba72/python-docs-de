@@ -219,7 +219,7 @@ msgstr ""
 
 #: ../../library/optparse.rst:127
 msgid "Introduction"
-msgstr "Einführung"
+msgstr ""
 
 #: ../../library/optparse.rst:129
 msgid ""
@@ -705,7 +705,7 @@ msgstr ""
 
 #: ../../library/optparse.rst:442
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/optparse.rst:444
 msgid ""
@@ -3352,7 +3352,7 @@ msgstr ""
 
 #: ../../library/optparse.rst:2172
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/optparse.rst:2176
 msgid ""

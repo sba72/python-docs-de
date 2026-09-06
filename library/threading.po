@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../library/threading.rst:17
 msgid "Introduction"
-msgstr "Einführung"
+msgstr ""
 
 #: ../../library/threading.rst:19
 msgid ""
@@ -1700,7 +1700,7 @@ msgstr ""
 
 #: ../../library/threading.rst:1272
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/threading.rst:1274
 msgid ""

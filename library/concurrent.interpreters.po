@@ -114,7 +114,7 @@ msgstr ""
 
 #: ../../library/concurrent.interpreters.rst:66
 msgid "Introduction"
-msgstr "Einführung"
+msgstr ""
 
 #: ../../library/concurrent.interpreters.rst:68
 msgid ""
@@ -426,7 +426,7 @@ msgstr ""
 
 #: ../../library/concurrent.interpreters.rst:290
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/concurrent.interpreters.rst:294
 msgid ""

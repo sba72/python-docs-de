@@ -1162,7 +1162,7 @@ msgstr ""
 #: ../../library/tkinter.rst:696 ../../library/tkinter.rst:746
 #: ../../library/tkinter.rst:887
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/tkinter.rst:698
 msgid ""
@@ -1566,7 +1566,7 @@ msgstr ""
 
 #: ../../library/tkinter.rst:910
 msgid "type"
-msgstr "Typ"
+msgstr ""
 
 #: ../../library/tkinter.rst:912
 msgid "%w"
@@ -3319,9 +3319,8 @@ msgid "X11 additionally supports:"
 msgstr ""
 
 #: ../../library/tkinter.rst:2383
-#, fuzzy
 msgid "*type*"
-msgstr "Typ"
+msgstr ""
 
 #: ../../library/tkinter.rst:2384
 msgid ""

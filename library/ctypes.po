@@ -134,9 +134,8 @@ msgid ""
 msgstr ""
 
 #: ../../library/ctypes.rst:88
-#, fuzzy
 msgid "For example, on Linux::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/ctypes.rst:90
 msgid ""
@@ -3306,7 +3305,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:2189
 msgid "For example::"
-msgstr "Zum Beispiel::"
+msgstr ""
 
 #: ../../library/ctypes.rst:2191
 msgid ""
@@ -4501,7 +4500,7 @@ msgstr ""
 
 #: ../../library/ctypes.rst:3227
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/ctypes.rst:3231
 msgid ""

@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../../library/turtle.rst:27
 msgid "Introduction"
-msgstr "Einführung"
+msgstr ""
 
 #: ../../library/turtle.rst:29
 msgid ""
@@ -2437,7 +2437,7 @@ msgstr ""
 
 #: ../../library/turtle.rst:1856
 msgid "For example:"
-msgstr "Zum Beispiel:"
+msgstr ""
 
 #: ../../library/turtle.rst:1858
 msgid ""
@@ -3682,11 +3682,11 @@ msgstr ""
 
 #: ../../library/turtle.rst:2820
 msgid "Name"
-msgstr "Name"
+msgstr ""
 
 #: ../../library/turtle.rst:2820
 msgid "Description"
-msgstr "Beschreibung"
+msgstr ""
 
 #: ../../library/turtle.rst:2820
 msgid "Features"

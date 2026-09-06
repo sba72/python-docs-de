@@ -372,7 +372,7 @@ msgstr ""
 
 #: ../../library/configparser.rst:292 ../../library/configparser.rst:376
 msgid "For example:"
-msgstr "Zum Beispiel:"
+msgstr ""
 
 #: ../../library/configparser.rst:294
 msgid ""
@@ -1665,7 +1665,7 @@ msgstr ""
 
 #: ../../library/configparser.rst:1377
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/configparser.rst:1381
 msgid "Base class for all other :mod:`!configparser` exceptions."
@@ -1770,7 +1770,7 @@ msgstr ""
 
 #: ../../library/configparser.rst:1478
 msgid "Footnotes"
-msgstr "Fußnoten"
+msgstr ""
 
 #: ../../library/configparser.rst:1479
 msgid ""

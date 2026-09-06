@@ -346,7 +346,7 @@ msgstr ""
 
 #: ../../library/argparse.rst:221
 msgid "description"
-msgstr "Beschreibung"
+msgstr ""
 
 #: ../../library/argparse.rst:223
 msgid ""
@@ -1437,7 +1437,7 @@ msgstr ""
 
 #: ../../library/argparse.rst:1005
 msgid "default"
-msgstr "Standard"
+msgstr ""
 
 #: ../../library/argparse.rst:1007
 msgid ""
@@ -1538,7 +1538,7 @@ msgstr ""
 
 #: ../../library/argparse.rst:1072
 msgid "type"
-msgstr "Typ"
+msgstr ""
 
 #: ../../library/argparse.rst:1074
 msgid ""
@@ -3190,7 +3190,7 @@ msgstr ""
 
 #: ../../library/argparse.rst:2312
 msgid "Exceptions"
-msgstr "Ausnahmen"
+msgstr ""
 
 #: ../../library/argparse.rst:2316
 msgid "An error from creating or using an argument (optional or positional)."

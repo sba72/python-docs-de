@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:139
 msgid "Other Language Changes"
-msgstr "Andere sprachliche Änderungen"
+msgstr ""
 
 #: ../../whatsnew/3.1.rst:141
 msgid "Some smaller changes made to the core Python language are:"
@@ -665,7 +665,7 @@ msgstr ""
 
 #: ../../whatsnew/3.1.rst:443
 msgid "Optimizations"
-msgstr "Optimierungen"
+msgstr ""
 
 #: ../../whatsnew/3.1.rst:445
 msgid "Major performance enhancements have been added:"

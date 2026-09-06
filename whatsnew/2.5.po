@@ -1439,7 +1439,7 @@ msgstr ""
 
 #: ../../whatsnew/2.5.rst:974
 msgid "Other Language Changes"
-msgstr "Andere sprachliche Änderungen"
+msgstr ""
 
 #: ../../whatsnew/2.5.rst:976
 msgid ""
@@ -1685,7 +1685,7 @@ msgstr ""
 
 #: ../../whatsnew/2.5.rst:1139
 msgid "Optimizations"
-msgstr "Optimierungen"
+msgstr ""
 
 #: ../../whatsnew/2.5.rst:1141
 msgid ""
