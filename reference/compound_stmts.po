@@ -1036,7 +1036,7 @@ msgid ""
 "keywords>`."
 msgstr ""
 "In diesem Abschnitt werden einfache Anführungszeichen verwendet, um :ref:"
-"`Soft-Schlüsselwörter <soft-keywords>`` zu kennzeichnen."
+"`Soft-Schlüsselwörter <soft-keywords>` zu kennzeichnen."
 
 #: ../../reference/compound_stmts.rst:629
 msgid ""
@@ -3101,7 +3101,7 @@ msgstr ""
 "ausgewertet, sondern erst dann, wenn explizit über die Attribute "
 "``__bound__`` und ``__constraints__`` auf den Wert zugegriffen wird. Zu "
 "diesem Zweck werden die Grenzen bzw. Einschränkungen in einem separaten :ref:"
-"`Annotationsbereich <annotation-scopes>`` ausgewertet."
+"`Annotationsbereich <annotation-scopes>` ausgewertet."
 
 #: ../../reference/compound_stmts.rst:1718
 msgid ""
