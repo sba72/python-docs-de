@@ -1,7 +1,7 @@
 ## ToDo - pyton-docs-de
 
 ### 3.14
-- [ ] Fragmente von dt. Übersetzungen verstreut in .po Datein vollständig löschen
+- [ ] Fragmente von dt. Übersetzungen verstreut in .po Dateien vollständig löschen
 
 
 ### 3.15
