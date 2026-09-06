@@ -864,7 +864,6 @@ msgid ""
 msgstr ""
 
 #: ../../library/difflib.rst:718
-#, fuzzy
 msgid "Differ example"
 msgstr ""
 

@@ -3155,9 +3155,9 @@ msgid ""
 "`362`."
 msgstr ""
 "Siehe auch den Glossareintrag :term:`argument`, die FAQ-Frage zu :ref:`dem "
-"Unterschied zwischen Argumenten und Parametern <faq-argument-vs-"
-"parameter>`, die Klasse :class:`inspect.Parameter`, den Abschnitt :ref:"
-"`function` und :pep:`362`."
+"Unterschied zwischen Argumenten und Parametern <faq-argument-vs-parameter>`, "
+"die Klasse :class:`inspect.Parameter`, den Abschnitt :ref:`function` und :"
+"pep:`362`."
 
 #: ../../glossary.rst:1243
 msgid "per-object lock"
