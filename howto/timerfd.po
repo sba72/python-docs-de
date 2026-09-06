@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../howto/timerfd.rst:0
 msgid "Release"
-msgstr "Release"
+msgstr ""
 
 #: ../../howto/timerfd.rst:7
 msgid "1.13"

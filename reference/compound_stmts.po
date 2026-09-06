@@ -3915,7 +3915,7 @@ msgstr "case-Block"
 
 #: ../../reference/compound_stmts.rst:772
 msgid "! patterns"
-msgstr "! Muster "
+msgstr "! Muster"
 
 #: ../../reference/compound_stmts.rst:772
 msgid "AS pattern, OR pattern, capture pattern, wildcard pattern"

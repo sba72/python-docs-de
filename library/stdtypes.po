@@ -7293,7 +7293,6 @@ msgstr ""
 "weiter unten ausführlich beschrieben ist."
 
 #: ../../library/stdtypes.rst:3939
-´´
 msgid ""
 "Return a copy of the sequence with specified trailing bytes removed.  The "
 "*bytes* argument is a binary sequence specifying the set of byte values to "
