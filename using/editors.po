@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../using/editors.rst:7
 msgid "Editors and IDEs"
-msgstr ""
+msgstr "Editoren und IDEs"
 
 #: ../../using/editors.rst:9
 msgid ""
@@ -27,10 +27,13 @@ msgid ""
 "editors and IDEs provide syntax highlighting, debugging tools, and :pep:`8` "
 "checks."
 msgstr ""
+"Es gibt eine Reihe von IDEs, die die Programmiersprache Python "
+"unterstützen. Viele Editoren und IDEs bieten Syntaxhervorhebung, "
+"Debugging-Werkzeuge und :pep:`8`-Prüfungen."
 
 #: ../../using/editors.rst:14
 msgid "IDLE --- Python editor and shell"
-msgstr ""
+msgstr "IDLE --- Python Editor und Shell"
 
 #: ../../using/editors.rst:16
 msgid ""
@@ -40,10 +43,15 @@ msgid ""
 "<installing_idle_on_linux>`. For more information see the :ref:`IDLE docs "
 "<idle>`."
 msgstr ""
+"IDLE ist Pythons integrierte Entwicklungs- und Lernumgebung und wird in "
+"der Regel zusammen mit Python-Installationen ausgeliefert. Wenn du "
+"Linux verwendest und IDLE nicht installiert ist, siehe :ref:"
+"`Installieren von IDLE unter Linux <installing_idle_on_linux>`. Weitere "
+"Informationen findest du in der :ref:`IDLE-Dokumentation <idle>`."
 
 #: ../../using/editors.rst:22
 msgid "Other Editors and IDEs"
-msgstr ""
+msgstr "Andere Editoren und IDEs"
 
 #: ../../using/editors.rst:24
 msgid ""
@@ -53,3 +61,8 @@ msgid ""
 "python.org/moin/IntegratedDevelopmentEnvironments>`_ for a comprehensive "
 "list."
 msgstr ""
+"Pythons Community-Wiki enthält von der Community eingereichte "
+"Informationen zu Editoren und IDEs. Eine umfassende Liste findest du "
+"unter `Python Editors <https://wiki.python.org/moin/PythonEditors>`_ "
+"und `Integrated Development Environments <https://wiki.python.org/moin/"
+"IntegratedDevelopmentEnvironments>`_."

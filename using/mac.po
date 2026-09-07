@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../using/mac.rst:7
 msgid "Using Python on macOS"
-msgstr ""
+msgstr "Python unter macOS verwenden"
 
 #: ../../using/mac.rst:9
 msgid ""

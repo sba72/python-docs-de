@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../using/unix.rst:7
 msgid "Using Python on Unix platforms"
-msgstr ""
+msgstr "Python unter Unix Plattformen verwenden"
 
 #: ../../using/unix.rst:10
 msgid "Getting and installing the latest version of Python"

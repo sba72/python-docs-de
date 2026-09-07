@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../using/android.rst:5
 msgid "Using Python on Android"
-msgstr ""
+msgstr "Python unter Android verwenden"
 
 #: ../../using/android.rst:7
 msgid ""

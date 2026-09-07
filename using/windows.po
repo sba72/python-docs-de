@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../using/windows.rst:13
 msgid "Using Python on Windows"
-msgstr "Python unter Windows nutzen"
+msgstr "Python unter Windows verwenden"
 
 #: ../../using/windows.rst:15
 msgid ""

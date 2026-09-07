@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../using/index.rst:5
 msgid "Python Setup and Usage"
-msgstr ""
+msgstr "Python einrichten und verwenden"
 
 #: ../../using/index.rst:8
 msgid ""
@@ -27,3 +27,7 @@ msgid ""
 "setup of the Python environment on different platforms, the invocation of "
 "the interpreter and things that make working with Python easier."
 msgstr ""
+"Dieser Teil der Dokumentation widmet sich allgemeinen Informationen zur "
+"Einrichtung der Python-Umgebung auf verschiedenen Plattformen, dem "
+"Aufruf des Interpreters sowie Dingen, die die Arbeit mit Python "
+"erleichtern."
