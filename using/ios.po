@@ -462,7 +462,7 @@ msgstr ""
 
 #: ../../using/ios.rst:202
 msgid "Search Paths"
-msgstr ""
+msgstr "Pfade suchen"
 
 #: ../../using/ios.rst:204
 msgid "Framework Search Paths: ``$(PROJECT_DIR)``"
