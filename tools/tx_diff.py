@@ -25,6 +25,7 @@ import re
 import ssl
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -32,6 +33,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 API = "https://rest.api.transifex.com"
+
+# Wie oft ein voruebergehender Serverfehler wiederholt wird.
+VERSUCHE = 4
 KUERZUNG = 160
 
 
@@ -91,28 +95,49 @@ def ressourcen(wurzel: Path) -> tuple:
     return karte, org, projekt
 
 
-def seiten(pfad: str, params: dict, tok: str):
-    """Liefert (data-Eintrag, included-Karte) fuer alle Seiten."""
-    url = API + pfad + ("?" + urllib.parse.urlencode(params) if params else "")
-    while url:
+def hole(url: str, tok: str) -> dict:
+    """Eine Seite abrufen -- mit Wiederholung bei voruebergehenden Fehlern.
+
+    Transifex liefert sporadisch ein 502. Frueher wurde die Ressource dann
+    stillschweigend uebersprungen und fehlte im Bericht.
+    """
+    for versuch in range(1, VERSUCHE + 1):
         req = urllib.request.Request(url, headers={
-            "Authorization": "Bearer " + tok,
+            "Authorization": f"Bearer {tok}",
             "Accept": "application/vnd.api+json",
         })
         try:
             with urllib.request.urlopen(req, timeout=90, context=KONTEXT) as antwort:
-                daten = json.load(antwort)
+                return json.load(antwort)
         except urllib.error.HTTPError as e:
+            if (e.code >= 500 or e.code == 429) and versuch < VERSUCHE:
+                warte = 2 ** versuch
+                print(f"  HTTP {e.code}, neuer Versuch in {warte}s "
+                      f"({versuch}/{VERSUCHE - 1})", file=sys.stderr)
+                time.sleep(warte)
+                continue
             rumpf = e.read().decode("utf-8", "replace")[:300]
             raise RuntimeError(f"HTTP {e.code}: {rumpf}") from None
         except urllib.error.URLError as e:
             if "CERTIFICATE_VERIFY_FAILED" in str(e.reason):
                 sys.exit('Wurzelzertifikate fehlen -- "Install Certificates.command" '
                          "ausfuehren oder certifi installieren.")
-            raise RuntimeError(f"Netzwerkfehler: {e.reason}") from None
-        beigefuegt = {e["id"]: e for e in daten.get("included", [])}
+            if versuch < VERSUCHE:
+                warte = 2 ** versuch
+                print(f"  Netzwerkfehler, neuer Versuch in {warte}s", file=sys.stderr)
+                time.sleep(warte)
+                continue
+            raise RuntimeError(f"Netzwerkfehler bei {url}: {e.reason}") from None
+    raise RuntimeError(f"Nach {VERSUCHE} Versuchen aufgegeben: {url}")
+
+
+def seiten(pfad: str, params: dict, tok: str):
+    """Alle Seiten einer JSON:API-Sammlung durchlaufen."""
+    url = API + pfad + ("?" + urllib.parse.urlencode(params) if params else "")
+    while url:
+        daten = hole(url, tok)
         for eintrag in daten.get("data", []):
-            yield eintrag, beigefuegt
+            yield eintrag
         url = (daten.get("links") or {}).get("next")
 
 
