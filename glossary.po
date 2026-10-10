@@ -2834,7 +2834,7 @@ msgstr ""
 
 #: ../../glossary.rst:1113
 msgid "namespace package"
-msgstr "Namensraum-Paket"
+msgstr "Namespace-Paket"
 
 #: ../../glossary.rst:1115
 msgid ""
@@ -3579,7 +3579,7 @@ msgstr ""
 
 #: ../../glossary.rst:1414
 msgid "See also :term:`namespace package`."
-msgstr "Siehe auch: :term:`Namensraum-Paket <namespace package>`."
+msgstr "Siehe auch: :term:`Namespace-Paket <namespace package>`."
 
 #: ../../glossary.rst:1415
 msgid "reentrant"
