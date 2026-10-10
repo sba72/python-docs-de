@@ -36,6 +36,10 @@ API = "https://rest.api.transifex.com"
 
 # Wie oft ein voruebergehender Serverfehler wiederholt wird.
 VERSUCHE = 4
+
+# Mindestabstand zwischen zwei Anfragen in Sekunden (--pause).
+# Ohne Pause antwortet das Gateway nach einigen hundert Anfragen mit 503.
+TAKT = 0.35
 KUERZUNG = 160
 
 
@@ -95,33 +99,73 @@ def ressourcen(wurzel: Path) -> tuple:
     return karte, org, projekt
 
 
-def hole(url: str, tok: str) -> dict:
-    """Eine Seite abrufen -- mit Wiederholung bei voruebergehenden Fehlern.
+class Gedrosselt(RuntimeError):
+    """Das Gateway weist uns ab (429/503).
 
-    Transifex liefert sporadisch ein 502. Frueher wurde die Ressource dann
-    stillschweigend uebersprungen und fehlte im Bericht.
+    Das ist keine Eigenschaft der einzelnen Ressource, sondern unseres
+    Anfragetempos insgesamt -- die naechste Ressource trifft dieselbe Wand.
+    Der Aufrufer soll deshalb aufhoeren, nicht weiterprobieren.
+    """
+
+
+_letzte_anfrage = 0.0
+
+
+def takt_halten() -> None:
+    """Mindestabstand zur vorherigen Anfrage einhalten."""
+    global _letzte_anfrage
+    rest = TAKT - (time.monotonic() - _letzte_anfrage)
+    if rest > 0:
+        time.sleep(rest)
+    _letzte_anfrage = time.monotonic()
+
+
+def wartezeit(kopf, standard: int) -> int:
+    """'Retry-After' auswerten, falls der Server es mitschickt."""
+    wert = (kopf.get("Retry-After") or "").strip()
+    if wert.isdigit():
+        return max(1, min(300, int(wert)))
+    return standard
+
+
+def hole(url: str, tok: str) -> tuple:
+    """Eine Seite abrufen. Liefert (daten, kopfzeilen).
+
+    502/504 sind kurze Aussetzer -- da genuegt eine knappe Pause.
+    429/503 ist Drosselung: laenger warten, 'Retry-After' beachten, und
+    wenn es anhaelt, Gedrosselt ausloesen statt die restlichen Ressourcen
+    gegen die Wand zu fahren (das verschaerft die Drosselung nur).
     """
     for versuch in range(1, VERSUCHE + 1):
         req = urllib.request.Request(url, headers={
             "Authorization": f"Bearer {tok}",
             "Accept": "application/vnd.api+json",
         })
+        takt_halten()
         try:
             with urllib.request.urlopen(req, timeout=90, context=KONTEXT) as antwort:
-                return json.load(antwort)
+                return json.load(antwort), dict(antwort.headers)
         except urllib.error.HTTPError as e:
-            if (e.code >= 500 or e.code == 429) and versuch < VERSUCHE:
-                warte = 2 ** versuch
-                print(f"  HTTP {e.code}, neuer Versuch in {warte}s "
-                      f"({versuch}/{VERSUCHE - 1})", file=sys.stderr)
-                time.sleep(warte)
-                continue
-            rumpf = e.read().decode("utf-8", "replace")[:300]
-            raise RuntimeError(f"HTTP {e.code}: {rumpf}") from None
+            drosselung = e.code in (429, 503)
+            if e.code < 500 and not drosselung:
+                rumpf = e.read().decode("utf-8", "replace")[:400]
+                raise RuntimeError(f"HTTP {e.code} bei {url}\n{rumpf}") from None
+            if versuch == VERSUCHE:
+                rumpf = e.read().decode("utf-8", "replace")[:200]
+                art = Gedrosselt if drosselung else RuntimeError
+                raise art(f"HTTP {e.code} bei {url}\n{rumpf}") from None
+            warte = wartezeit(e.headers,
+                              15 * 2 ** (versuch - 1) if drosselung else 2 ** versuch)
+            print(f"  HTTP {e.code}, neuer Versuch in {warte}s "
+                  f"({versuch}/{VERSUCHE - 1})", file=sys.stderr)
+            time.sleep(warte)
         except urllib.error.URLError as e:
             if "CERTIFICATE_VERIFY_FAILED" in str(e.reason):
-                sys.exit('Wurzelzertifikate fehlen -- "Install Certificates.command" '
-                         "ausfuehren oder certifi installieren.")
+                sys.exit(
+                    "Wurzelzertifikate fehlen. Einmalig ausfuehren:\n"
+                    '  open "/Applications/Python 3.14/Install Certificates.command"\n'
+                    "oder im aktiven venv:  pip install certifi"
+                )
             if versuch < VERSUCHE:
                 warte = 2 ** versuch
                 print(f"  Netzwerkfehler, neuer Versuch in {warte}s", file=sys.stderr)
@@ -131,13 +175,40 @@ def hole(url: str, tok: str) -> dict:
     raise RuntimeError(f"Nach {VERSUCHE} Versuchen aufgegeben: {url}")
 
 
+_grenze_gemeldet = False
+
+
+def grenze(kopf: dict) -> None:
+    """Die Drosselungs-Kopfzeilen einmal ausgeben, falls der Server welche setzt.
+
+    Damit muss das Anfragetempo nicht geraten werden.
+    """
+    global _grenze_gemeldet
+    if _grenze_gemeldet:
+        return
+    treffer = {k: v for k, v in kopf.items()
+               if "ratelimit" in k.lower().replace("-", "").replace("_", "")}
+    if treffer:
+        print("  Drosselung laut Server: "
+              + ", ".join(f"{k}={v}" for k, v in sorted(treffer.items())),
+              file=sys.stderr)
+    _grenze_gemeldet = True
+
+
 def seiten(pfad: str, params: dict, tok: str):
-    """Alle Seiten einer JSON:API-Sammlung durchlaufen."""
+    """Alle Seiten durchlaufen und je Eintrag die beigefuegten Daten mitgeben.
+
+    Transifex liefert die Quelltexte per "include=resource_string" nicht im
+    Eintrag selbst, sondern gesammelt unter "included". Ohne diese Zuordnung
+    waere nicht erkennbar, zu welchem msgid eine Uebersetzung gehoert.
+    """
     url = API + pfad + ("?" + urllib.parse.urlencode(params) if params else "")
     while url:
-        daten = hole(url, tok)
+        daten, kopf = hole(url, tok)
+        grenze(kopf)
+        beigefuegt = {e["id"]: e for e in daten.get("included", []) if e.get("id")}
         for eintrag in daten.get("data", []):
-            yield eintrag
+            yield eintrag, beigefuegt
         url = (daten.get("links") or {}).get("next")
 
 
@@ -226,6 +297,7 @@ def kuerzen(s: str, voll: bool) -> str:
 # --- Hauptprogramm ----------------------------------------------------------
 
 def main() -> None:
+    global TAKT
     p = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--tage", type=int, default=7, help="Zeitraum rueckwaerts (Vorgabe 7)")
@@ -234,7 +306,11 @@ def main() -> None:
                    help="bestimmte Ressource(n) statt Suche nach Aenderungen")
     p.add_argument("--voll", action="store_true", help="Texte nicht kuerzen")
     p.add_argument("-o", "--out", default="tx_diff.md", help="Zieldatei (Vorgabe tx_diff.md)")
+    p.add_argument("--pause", type=float, default=TAKT, metavar="SEK",
+                   help=f"Mindestabstand zwischen Anfragen (Vorgabe {TAKT})")
     args = p.parse_args()
+
+    TAKT = max(0.0, args.pause)
 
     tok = token()
     wurzel = repo_wurzel()
@@ -262,7 +338,16 @@ def main() -> None:
                     "filter[language]": "l:de",
                     "filter[date_translated][gt]": seit,
                 }, tok))
-            except RuntimeError:
+            except Gedrosselt as fehler:
+                print(f"\n!! Abbruch bei {slug}: {str(fehler).splitlines()[0]}\n"
+                      f"   Transifex drosselt die Anfragen. Besser die Ressourcen\n"
+                      f"   mit --ressource gezielt angeben oder --pause erhoehen.",
+                      file=sys.stderr)
+                break
+            except RuntimeError as fehler:
+                # Nicht stillschweigend ueberspringen -- eine fehlende
+                # Ressource wuerde sonst unbemerkt aus dem Bericht fallen.
+                print(f"  !! {slug}: {str(fehler).splitlines()[0]}", file=sys.stderr)
                 continue
             leute = {benutzer(e) for e, _ in treffer}
             if not treffer:
