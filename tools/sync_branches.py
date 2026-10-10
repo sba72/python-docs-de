@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Gleicht Uebersetzungen zwischen zwei Branches ab -- Eintrag fuer Eintrag.
 
-Unser Arbeitsmodell: gearbeitet wird in 3.15, von dort wird nach 3.14
-zurueckgespiegelt. Dieses Skript macht den Abgleich nachvollziehbar, statt
+Arbeitsmodell: von 3.15 wird nach 3.14 zurueckgespiegelt.
+Dieses Skript macht den Abgleich nachvollziehbar, statt
 eine Datei pauschal zu ueberschreiben.
 
 Warum nicht einfach pomerge? pomerge kennt nur Quelle und Ziel. Es sieht
