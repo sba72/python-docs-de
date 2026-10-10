@@ -1,19 +1,18 @@
-# SOME DESCRIPTIVE TITLE.
+# German translation of the Python documentation.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# python-doc bot, 2025
+# Swen Bachmann, 2026
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-22 12:07+0200\n"
-"PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
-"Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
+"POT-Creation-Date: 2026-09-23 06:17+0000\n"
+"PO-Revision-Date: 2026-09-23 08:00+0200\n"
+"Last-Translator: Swen Bachmann\n"
+"Language-Team: German (https://github.com/python/python-docs-de)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -764,6 +763,30 @@ msgid ""
 "    raise\n"
 "return sys.modules[spec.name]"
 msgstr ""
+"module = None\n"
+"if spec.loader is not None and hasattr(spec.loader, 'create_module'):\n"
+"    # Es wird davon ausgegangen, dass 'exec_module' ebenfalls auf dem Loader "
+"definiert ist.\n"
+"    module = spec.loader.create_module(spec)\n"
+"if module is None:\n"
+"    module = ModuleType(spec.name)\n"
+"# Die importbezogenen Modulattribute werden hier gesetzt:\n"
+"_init_module_attrs(spec, module)\n"
+"\n"
+"if spec.loader is None:\n"
+"    # nicht unterstützt\n"
+"    raise ImportError\n"
+"\n"
+"sys.modules[spec.name] = module\n"
+"try:\n"
+"    spec.loader.exec_module(module)\n"
+"except BaseException:\n"
+"    try:\n"
+"        del sys.modules[spec.name]\n"
+"    except KeyError:\n"
+"        pass\n"
+"    raise\n"
+"return sys.modules[spec.name]"
 
 #: ../../reference/import.rst:386
 msgid "Note the following details:"
@@ -843,10 +866,12 @@ msgid ""
 "loaders.  These were previously performed by the ``importlib.abc.Loader."
 "load_module`` method."
 msgstr ""
+"Das Import-System hat die Routineaufgaben der Loader übernommen. Diese "
+"wurden zuvor von der Methode ``importlib.abc.Loader.load_module`` ausgeführt."
 
 #: ../../reference/import.rst:420
 msgid "The ``load_module`` method is no longer used."
-msgstr ""
+msgstr "Die Methode ``load_module`` wird nicht mehr verwendet."
 
 #: ../../reference/import.rst:424
 msgid "Loaders"
@@ -930,6 +955,9 @@ msgid ""
 "`~importlib.abc.Loader.exec_module` and the import machinery assumed all the "
 "boilerplate responsibilities of loading."
 msgstr ""
+"Die Methode ``importlib.abc.Loader.load_module`` wurde durch :meth:"
+"`~importlib.abc.Loader.exec_module` ersetzt, und der Importmechanismus hat "
+"alle Routineaufgaben beim Laden übernommen."
 
 #: ../../reference/import.rst:460
 msgid ""
