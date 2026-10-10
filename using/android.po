@@ -1,16 +1,18 @@
-# SOME DESCRIPTIVE TITLE.
+# German translation of the Python documentation.
 # Copyright (C) 2001 Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Translators:
+# Swen Bachmann, 2026
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-22 12:07+0200\n"
-"PO-Revision-Date: 2025-09-16 00:02+0000\n"
-"Language-Team: German (https://app.transifex.com/python-doc/teams/5390/de/)\n"
+"PO-Revision-Date: 2026-10-10 19:30+0200\n"
+"Last-Translator: python-doc bot, 2025\n"
+"Language-Team: German (https://github.com/python/python-docs-de)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,6 +31,12 @@ msgid ""
 "running a :program:`python` executable and entering commands at an "
 "interactive prompt, or by running a Python script."
 msgstr ""
+"Python unter Android unterscheidet sich von Python auf Desktop-Plattformen. "
+"Auf einer Desktop-Plattform wird Python üblicherweise als Systemressource "
+"installiert, die jeder Benutzer dieses Rechners verwenden kann. Die Benutzer "
+"arbeiten dann mit Python, indem sie eine ausführbare Datei :program:`python` "
+"starten und Befehle an einer interaktiven Eingabeaufforderung eingeben, oder "
+"indem sie ein Python-Skript ausführen."
 
 #: ../../using/android.rst:13
 msgid ""
@@ -36,16 +44,27 @@ msgid ""
 "unit of software distribution is an \"app\". There is also no console where "
 "you could run a :program:`python` executable, or interact with a Python REPL."
 msgstr ""
+"Unter Android gibt es kein Konzept der Installation als Systemressource. Die "
+"einzige Verteilungseinheit für Software ist eine „App“. Es gibt auch keine "
+"Konsole, auf der du eine ausführbare Datei :program:`python` starten oder "
+"mit einer Python-REPL arbeiten könntest."
 
 #: ../../using/android.rst:17
 msgid ""
 "As a result, the only way you can use Python on Android is in embedded mode "
 "– that is, by writing a native Android application, embedding a Python "
-"interpreter using ``libpython``, and invoking Python code using the :ref:"
-"`Python embedding API <embedding>`. The full Python interpreter, the "
-"standard library, and all your Python code is then packaged into your app "
-"for its own private use."
+"interpreter using ``libpython``, and invoking Python code using "
+"the :ref:`Python embedding API <embedding>`. The full Python interpreter, "
+"the standard library, and all your Python code is then packaged into your "
+"app for its own private use."
 msgstr ""
+"Infolgedessen ist die einzige Möglichkeit, Python unter Android zu "
+"verwenden, der eingebettete Modus — das heißt, du schreibst eine native "
+"Android-Anwendung, bettest einen Python-Interpreter über ``libpython`` ein "
+"und rufst Python-Code über die :ref:`Python-Einbettungs-API <embedding>` "
+"auf. Der vollständige Python-Interpreter, die Standardbibliothek und dein "
+"ganzer Python-Code werden dann in deine App gepackt, zu ihrer eigenen, "
+"privaten Verwendung."
 
 #: ../../using/android.rst:23
 msgid ""
@@ -53,37 +72,43 @@ msgid ""
 "Android. See the :ref:`API availability guide <mobile-availability>` for "
 "details."
 msgstr ""
+"Die Python-Standardbibliothek weist unter Android einige wesentliche "
+"Auslassungen und Einschränkungen auf. Einzelheiten stehen im :ref:`API-"
+"Verfügbarkeitsleitfaden <mobile-availability>`."
 
 #: ../../using/android.rst:28
 msgid "Adding Python to an Android app"
-msgstr ""
+msgstr "Python zu einer Android-App hinzufügen"
 
 #: ../../using/android.rst:30
 msgid ""
 "Most app developers should use one of the following tools, which will "
 "provide a much easier experience:"
 msgstr ""
+"Die meisten App-Entwickler sollten eines der folgenden Werkzeuge verwenden, "
+"das die Arbeit deutlich erleichtert:"
 
 #: ../../using/android.rst:33
 msgid "`Briefcase <https://briefcase.beeware.org>`__, from the BeeWare project"
-msgstr ""
+msgstr "`Briefcase <https://briefcase.beeware.org>`__, vom BeeWare-Projekt"
 
 #: ../../using/android.rst:34
 msgid "`Buildozer <https://buildozer.readthedocs.io>`__, from the Kivy project"
-msgstr ""
+msgstr "`Buildozer <https://buildozer.readthedocs.io>`__, vom Kivy-Projekt"
 
 #: ../../using/android.rst:35
 msgid "`Chaquopy <https://chaquo.com/chaquopy>`__"
-msgstr ""
+msgstr "`Chaquopy <https://chaquo.com/chaquopy>`__"
 
 #: ../../using/android.rst:36
 msgid ""
 "`pyqtdeploy <https://www.riverbankcomputing.com/static/Docs/pyqtdeploy/>`__"
 msgstr ""
+"`pyqtdeploy <https://www.riverbankcomputing.com/static/Docs/pyqtdeploy/>`__"
 
 #: ../../using/android.rst:37
 msgid "`Termux <https://termux.dev/en/>`__"
-msgstr ""
+msgstr "`Termux <https://termux.dev/en/>`__"
 
 #: ../../using/android.rst:39
 msgid ""
@@ -91,10 +116,13 @@ msgid ""
 "the :source:`testbed app <Platforms/Android/testbed>` as a guide; each step "
 "below contains a link to the relevant file."
 msgstr ""
+"Wenn du sicher bist, dass du das alles von Hand machen möchtest, lies "
+"weiter. Die :source:`Testbed-App <Platforms/Android/testbed>` kann dir als "
+"Vorlage dienen. Jeder Schritt unten verweist auf die zugehörige Datei."
 
 #: ../../using/android.rst:43
 msgid "First, acquire a build of Python for Android:"
-msgstr ""
+msgstr "Besorge dir zuerst einen Python-Build für Android:"
 
 #: ../../using/android.rst:45
 msgid ""
@@ -102,51 +130,64 @@ msgid ""
 "www.python.org/downloads/android/>`__. The ``prefix`` directory mentioned "
 "below is at the top level of the package."
 msgstr ""
+"Am einfachsten lädst du eine Android-Veröffentlichung von `python.org "
+"<https://www.python.org/downloads/android/>`__ herunter. Das unten erwähnte "
+"Verzeichnis ``prefix`` liegt auf der obersten Ebene des Pakets."
 
 #: ../../using/android.rst:49
 msgid ""
-"Or if you want to build it yourself, follow the instructions in :source:"
-"`Platforms/Android/README.md`. The ``prefix`` directory will be created "
-"under :samp:`cross-build/{HOST}`."
+"Or if you want to build it yourself, follow the instructions "
+"in :source:`Platforms/Android/README.md`. The ``prefix`` directory will be "
+"created under :samp:`cross-build/{HOST}`."
 msgstr ""
+"Oder, wenn du ihn selbst bauen möchtest, folge der Anleitung "
+"unter :source:`Platforms/Android/README.md`. Das Verzeichnis ``prefix`` wird "
+"dann unter :samp:`cross-build/{HOST}` angelegt."
 
 #: ../../using/android.rst:53
 msgid ""
-"Add code to your :source:`build.gradle <Platforms/Android/testbed/app/build."
-"gradle.kts>` file to copy the following items into your project. All except "
-"your own Python code can be copied from ``prefix/lib``:"
+"Add code to your :source:`build.gradle <Platforms/Android/testbed/app/"
+"build.gradle.kts>` file to copy the following items into your project. All "
+"except your own Python code can be copied from ``prefix/lib``:"
 msgstr ""
+"Füge Code in deine Datei :source:`build.gradle <Platforms/Android/testbed/"
+"app/build.gradle.kts>` ein, der die folgenden Dinge in dein Projekt kopiert. "
+"Alles außer deinem eigenen Python-Code lässt sich aus ``prefix/lib`` "
+"kopieren:"
 
 #: ../../using/android.rst:57
 msgid "In your JNI libraries:"
-msgstr ""
+msgstr "In deine JNI-Bibliotheken:"
 
 #: ../../using/android.rst:59
 msgid "``libpython*.*.so``"
-msgstr ""
+msgstr "``libpython*.*.so``"
 
 #: ../../using/android.rst:60
 msgid "``lib*_python.so`` (external libraries such as OpenSSL)"
-msgstr ""
+msgstr "``lib*_python.so`` (externe Bibliotheken wie OpenSSL)"
 
 #: ../../using/android.rst:62
 msgid "In your assets:"
-msgstr ""
+msgstr "In deine Assets:"
 
 #: ../../using/android.rst:64
 msgid "``python*.*`` (the Python standard library)"
-msgstr ""
+msgstr "``python*.*`` (die Python-Standardbibliothek)"
 
 #: ../../using/android.rst:65
 msgid "``python*.*/site-packages`` (your own Python code)"
-msgstr ""
+msgstr "``python*.*/site-packages`` (dein eigener Python-Code)"
 
 #: ../../using/android.rst:67
 msgid ""
 "Add code to your app to :source:`extract the assets to the filesystem "
-"<Platforms/Android/testbed/app/src/main/java/org/python/testbed/MainActivity."
-"kt>`."
+"<Platforms/Android/testbed/app/src/main/java/org/python/testbed/"
+"MainActivity.kt>`."
 msgstr ""
+"Füge Code in deine App ein, der :source:`die Assets ins Dateisystem entpackt "
+"<Platforms/Android/testbed/app/src/main/java/org/python/testbed/"
+"MainActivity.kt>`."
 
 #: ../../using/android.rst:70
 msgid ""
@@ -154,16 +195,24 @@ msgid ""
 "Android/testbed/app/src/main/c/main_activity.c>`. This will need to be C "
 "code called via JNI."
 msgstr ""
+"Füge Code in deine App ein, der :source:`Python im eingebetteten Modus "
+"startet <Platforms/Android/testbed/app/src/main/c/main_activity.c>`. Das "
+"muss C-Code sein, der über JNI aufgerufen wird."
 
 #: ../../using/android.rst:75
 msgid "Building a Python package for Android"
-msgstr ""
+msgstr "Ein Python-Paket für Android bauen"
 
 #: ../../using/android.rst:77
 msgid ""
 "Python packages can be built for Android as wheels and released on PyPI. The "
-"recommended tool for doing this is `cibuildwheel <https://cibuildwheel.pypa."
-"io/en/stable/platforms/#android>`__, which automates all the details of "
-"setting up a cross-compilation environment, building the wheel, and testing "
-"it on an emulator."
+"recommended tool for doing this is `cibuildwheel <https://"
+"cibuildwheel.pypa.io/en/stable/platforms/#android>`__, which automates all "
+"the details of setting up a cross-compilation environment, building the "
+"wheel, and testing it on an emulator."
 msgstr ""
+"Python-Pakete lassen sich für Android als Wheels bauen und auf PyPI "
+"veröffentlichen. Das empfohlene Werkzeug dafür ist `cibuildwheel <https://"
+"cibuildwheel.pypa.io/en/stable/platforms/#android>`__, das alle Einzelheiten "
+"übernimmt: das Einrichten einer Umgebung zum Cross-Kompilieren, das Bauen "
+"des Wheels und das Testen in einem Emulator."
