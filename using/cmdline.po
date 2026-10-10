@@ -205,7 +205,7 @@ msgid ""
 "deliberately similar to the handling of directories and zipfiles that are "
 "passed to the interpreter as the script argument."
 msgstr ""
-"Paketnamen (einschließlich Namensraumpakete) sind ebenfalls erlaubt. Wird "
+"Paketnamen (einschließlich Namespace-Pakete) sind ebenfalls erlaubt. Wird "
 "anstelle eines gewöhnlichen Moduls ein Paketname angegeben, führt der "
 "Interpreter ``<pkg>.__main__`` als Hauptmodul aus. Dieses Verhalten ist "
 "absichtlich dem Umgang mit Verzeichnissen und ZIP-Dateien nachempfunden, die "
@@ -290,7 +290,7 @@ msgstr "Gib den Paketnamen an, um ein Untermodul ``__main__`` auszuführen."
 
 #: ../../using/cmdline.rst:130
 msgid "namespace packages are also supported"
-msgstr "Namensraumpakete werden ebenfalls unterstützt"
+msgstr "Namespace-Pakete werden ebenfalls unterstützt"
 
 #: ../../using/cmdline.rst:137
 msgid ""
